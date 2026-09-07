@@ -38,9 +38,9 @@ quarters:
       - date: "2026-09-18"
         label: "Deadline to submit thesis topic"
         nominal: true
-      - date: "2026-09-14"
+      - date: "2026-09-07"
         label: "Final registration date for Green light and Finalisation assessments"
-      - date: "2026-10-19"
+      - date: "2026-09-11"
         label: "Final registration date for Kick-off assessments"
 
   - name: Quarter 2
