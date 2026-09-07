@@ -6,7 +6,7 @@ logo: fa-calendar-days
 permalink: /dates/
 ---
 
-<i class="fa-solid fa-triangle-exclamation"></i> This calendar is a draft. The final calendar will be available with the Geomatics graduation guide, so use it for rough planning only.
+<i class="fa-solid fa-triangle-exclamation"></i> This calendar follows the [BK calendar](2026-2027.pdf) for Q1 and is a draft of what we expect for Q2-Q4. The final calendar will be available with the Geomatics graduation guide, so use it for rough planning only.
 
 <p>The <strong>on-time path</strong> shows the milestones and deadlines for students who start their thesis in Quarter 2 and graduate on time. <strong>All dates</strong> also shows assessment periods and registration deadlines that don't apply to the on-time path.</p>
 
