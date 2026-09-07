@@ -32,7 +32,7 @@ quarters:
     weeks: 10
     a1: [10]
     a2: [8]
-    a3: [5]
+    a3: [8]
     a4: [10]
     deadlines:
       - date: "2026-09-18"

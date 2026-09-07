@@ -26,7 +26,7 @@ Note also that the old graduation system (Ps, geo2020) is no longer available.
 
 - [Graduation guide 2025-2026](https://github.com/tudelftgeomatics/graduationguide/releases/download/2025.2026/gm_gg_2526.pdf)
 
-<i class="fa-solid fa-triangle-exclamation"></i> The Graduation guide 2026-2027 will be available after the summer. The rules below are based on the 2025-2026 guide.
+<i class="fa-solid fa-triangle-exclamation"></i> The Graduation guide 2026-2027 is not available yet; it is expected before Q2, when most students start their thesis. Until it is published, the rules of the 2025-2026 guide below apply to everyone, including students starting their thesis in Q1. When the new guide is out, we will update this website and announce any changes in the [news](../news/).
    
 
 ## Use of AI and LLMs
