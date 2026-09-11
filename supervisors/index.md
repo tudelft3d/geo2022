@@ -24,6 +24,7 @@ redirect_from:
 - [Brightspace course](https://brightspace.tudelft.nl/d2l/le/content/44601/Home) with tables of date/time/room for Kick-off, Green light and Finalisation presentations. Note: the most up to date info is in MyCase, not in Brightspace.
 - SuperSaaS is not available right now, so email `graduation-bk@tudelft.nl` and request a date/time using the [graduation calendar](../dates/). Every assessment is available in every quarter, so if you can't find dates for it in the calendar, extrapolate from other quarters.
 - [Rubric for marking](../rubric/)
+- [Rubric for the Kick-off (thesis plan)](../rubric/plan/)
 - [Many useful forms related to the MSc (URLs change all the time...)](https://www.tudelft.nl/en/student/a-be-student-portal/practical-affairs/forms)
 
 ## Graduation manuals

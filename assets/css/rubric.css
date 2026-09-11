@@ -165,77 +165,121 @@
 	padding: 12px 16px;
 }
 
-.rubric-page .criteria-table {
+.rubric-page .marks-table {
 	width: 100%;
 	border-collapse: collapse;
 	font-size: 12px;
 	margin-bottom: 0;
 }
-.rubric-page .criteria-table thead th {
+.rubric-page .marks-table thead th {
 	background: var(--thead-bg);
 	color: var(--thead-text);
 	font-weight: 600;
-	padding: 6px 4px;
+	padding: 6px 8px;
 	text-align: center;
 	border-bottom: 2px solid var(--border);
 }
-.rubric-page .criteria-table tbody td {
-	padding: 2px 4px;
-	text-align: center;
+.rubric-page .marks-table tbody td {
+	padding: 6px 8px;
 	border-bottom: 1px solid var(--border);
-	vertical-align: middle;
-}
-.rubric-page .criteria-table tbody td:first-child {
+	vertical-align: top;
 	text-align: left;
-	padding: 6px 12px;
+}
+.rubric-page .marks-table tbody td:first-child {
 	font-weight: 500;
 	font-size: 13px;
-	min-width: 200px;
+	min-width: 160px;
 }
-.rubric-page .criteria-table tbody tr:nth-child(even) {
+.rubric-page .marks-table tbody tr:nth-child(even) td {
 	background: var(--bg-alt);
 }
 
-.rubric-page .grade-cell {
-	padding: 3px 2px !important;
-	width: 62px;
+.rubric-page .grade-row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px;
+	padding: 12px 0 4px;
 }
-.rubric-page .grade-cell input[type="radio"] {
+.rubric-page .grade-row-label {
+	font-weight: 600;
+	font-size: 13px;
+	color: var(--green-dark);
+	margin-right: 8px;
+}
+.rubric-page .grade-option input[type="radio"] {
 	display: none;
 }
-.rubric-page .grade-cell label {
-	display: flex;
+.rubric-page .grade-option label {
+	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
-	min-height: 32px;
-	padding: 3px 2px;
+	min-width: 52px;
+	padding: 6px 10px;
 	cursor: pointer;
-	border-radius: 3px;
-	font-size: 11px;
+	border-radius: 4px;
+	font-size: 13px;
 	color: var(--text-muted);
-	border: 2px solid transparent;
+	border: 2px solid var(--border);
 	transition: all 0.12s;
 	user-select: none;
 	background: var(--bulma-scheme-main);
 }
-.rubric-page .grade-cell label:hover {
+.rubric-page .grade-option label:hover {
 	border-color: var(--green-light);
 	background: #eaf5e8;
 }
-.rubric-page .grade-cell input:checked + label {
+.rubric-page .grade-option input:checked + label {
 	background: var(--select-bg);
 	border-color: var(--select-border);
 	color: var(--green-dark);
 	font-weight: 700;
-	font-size: 13px;
 }
 
-.rubric-page .comments-row td {
-	padding: 6px 12px !important;
-	text-align: left !important;
+/* Go / Borderline / No-go marks (kick-off rubric) */
+.rubric-page .grade-option.go input:checked + label {
+	background: #e2f0e0;
+	border-color: #2b5421;
+	color: #2b5421;
 }
-.rubric-page .comments-row textarea {
+.rubric-page .grade-option.borderline input:checked + label {
+	background: #fdf3d7;
+	border-color: #b58a00;
+	color: #7a5c00;
+}
+.rubric-page .grade-option.nogo input:checked + label {
+	background: #fde8e8;
+	border-color: #b02a2a;
+	color: #8f1f1f;
+}
+
+.rubric-page .verdict {
+	font-size: 12px;
+	font-weight: 700;
+	padding: 2px 10px;
+	border-radius: 999px;
+	margin-left: 8px;
+	display: inline-block;
+}
+.rubric-page .verdict.pass {
+	background: #e2f0e0;
+	color: #2b5421;
+}
+.rubric-page .verdict.fail {
+	background: #fde8e8;
+	color: #8f1f1f;
+}
+
+.rubric-page .comments-block {
+	margin-top: 10px;
+}
+.rubric-page .comments-block label {
+	font-weight: 500;
+	font-size: 13px;
+	display: block;
+	margin-bottom: 4px;
+}
+.rubric-page .comments-block textarea {
 	width: 100%;
 	padding: 6px 8px;
 	font-size: 12px;
@@ -248,23 +292,26 @@
 	color: var(--text);
 }
 
-.rubric-page .ref-toggle {
-	font-size: 12px;
+.rubric-page .notes {
+	margin: 24px 0 40px;
+	padding: 12px 16px;
+	border: 1px dashed var(--border);
+	border-radius: 6px;
+}
+.rubric-page .notes h2 {
+	font-size: 14px;
 	color: var(--green-dark);
-	cursor: pointer;
-	border: none;
-	background: none;
-	text-decoration: underline;
-	padding: 8px 0 0;
-	margin-bottom: 0;
-	display: inline-block;
+	margin: 0 0 6px !important;
 }
-.rubric-page .ref-detail {
-	display: none;
-	margin-top: 8px;
+.rubric-page .notes ul {
+	margin: 0 !important;
+	padding-left: 18px;
+	font-size: 12.5px;
+	color: var(--text-muted);
+	list-style: disc;
 }
-.rubric-page .ref-detail.open {
-	display: block;
+.rubric-page .notes li {
+	margin-bottom: 3px;
 }
 .rubric-page .ref-table {
 	width: 100%;
@@ -290,6 +337,50 @@
 	font-weight: 500;
 	white-space: nowrap;
 	min-width: 140px;
+}
+
+/* Clickable aspect descriptors: per-aspect marks in both rubrics */
+.rubric-page td.sel-cell {
+	cursor: pointer;
+	user-select: none;
+}
+.rubric-page td.sel-cell:hover {
+	background: #eaf5e8;
+}
+.rubric-page td.sel-cell.selected {
+	background: var(--select-bg);
+	box-shadow: inset 0 0 0 2px var(--select-border);
+	color: var(--green-dark);
+	font-weight: 500;
+}
+/* Go / Borderline / No-go cells keep their own accent when selected */
+.rubric-page td.sel-cell.go.selected {
+	background: #e2f0e0;
+	box-shadow: inset 0 0 0 2px #2b5421;
+	color: #2b5421;
+}
+.rubric-page td.sel-cell.borderline.selected {
+	background: #fdf3d7;
+	box-shadow: inset 0 0 0 2px #b58a00;
+	color: #7a5c00;
+}
+.rubric-page td.sel-cell.nogo.selected {
+	background: #fde8e8;
+	box-shadow: inset 0 0 0 2px #b02a2a;
+	color: #8f1f1f;
+}
+
+.rubric-page .advisory {
+	margin-left: auto;
+	font-size: 12.5px;
+	color: var(--text-muted);
+}
+.rubric-page .advisory strong {
+	color: var(--green-dark);
+	font-size: 14px;
+}
+.rubric-page .advisory .advisory-count {
+	font-size: 11px;
 }
 
 .rubric-page .general-comments {
@@ -320,8 +411,53 @@ html.dark-mode .rubric-page {
 	--thead-bg: hsl(100, 15%, 18%);
 	--thead-text: #cfe3c4;
 }
-html.dark-mode .rubric-page .grade-cell label:hover {
+html.dark-mode .rubric-page .grade-option label:hover {
 	background: #24401e;
+}
+html.dark-mode .rubric-page td.sel-cell:hover {
+	background: #1d3317;
+}
+html.dark-mode .rubric-page td.sel-cell.selected {
+	background: #24401e;
+	color: #cfe3c4;
+	box-shadow: inset 0 0 0 2px var(--green-light);
+}
+html.dark-mode .rubric-page td.sel-cell.go.selected {
+	background: #24401e;
+	color: #cfe3c4;
+	box-shadow: inset 0 0 0 2px var(--green-light);
+}
+html.dark-mode .rubric-page td.sel-cell.borderline.selected {
+	background: #3d3413;
+	color: #f4e3ae;
+	box-shadow: inset 0 0 0 2px #b58a00;
+}
+html.dark-mode .rubric-page td.sel-cell.nogo.selected {
+	background: #401717;
+	color: #f3c6c6;
+	box-shadow: inset 0 0 0 2px #b02a2a;
+}
+html.dark-mode .rubric-page .grade-option.go input:checked + label {
+	background: #24401e;
+	color: #cfe3c4;
+}
+html.dark-mode .rubric-page .grade-option.borderline input:checked + label {
+	background: #3d3413;
+	border-color: #b58a00;
+	color: #f4e3ae;
+}
+html.dark-mode .rubric-page .grade-option.nogo input:checked + label {
+	background: #401717;
+	border-color: #b02a2a;
+	color: #f3c6c6;
+}
+html.dark-mode .rubric-page .verdict.pass {
+	background: #24401e;
+	color: #cfe3c4;
+}
+html.dark-mode .rubric-page .verdict.fail {
+	background: #401717;
+	color: #f3c6c6;
 }
 html.dark-mode .rubric-page .section-header,
 html.dark-mode .rubric-page .summary table thead th {
@@ -366,18 +502,15 @@ html.dark-mode .rubric-page .btn-print:hover {
 		-webkit-print-color-adjust: exact;
 		print-color-adjust: exact;
 	}
-	.rubric-page .criteria-table thead th,
-	.rubric-page .ref-table th {
+	.rubric-page .ref-table th,
+	.rubric-page .marks-table thead th {
 		background: var(--thead-bg) !important;
 	}
-	.rubric-page .grade-cell input:checked + label {
-		background: var(--select-bg) !important;
+	.rubric-page .grade-option input:checked + label,
+	.rubric-page .verdict,
+	.rubric-page td.sel-cell.selected {
 		-webkit-print-color-adjust: exact;
 		print-color-adjust: exact;
-	}
-	.rubric-page .ref-detail,
-	.rubric-page .ref-toggle {
-		display: none !important;
 	}
 	.rubric-page .student-info input,
 	.rubric-page textarea {
@@ -386,14 +519,13 @@ html.dark-mode .rubric-page .btn-print:hover {
 }
 
 @media (max-width: 900px) {
-	.rubric-page .criteria-table {
+	.rubric-page .ref-table,
+	.rubric-page .marks-table {
 		font-size: 10px;
 	}
-	.rubric-page .grade-cell {
-		width: 48px;
-	}
-	.rubric-page .grade-cell label {
-		font-size: 9px;
-		min-height: 26px;
+	.rubric-page .grade-option label {
+		font-size: 11px;
+		min-width: 44px;
+		padding: 5px 8px;
 	}
 }

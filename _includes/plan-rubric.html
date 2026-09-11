@@ -1,6 +1,9 @@
 <div class="rubric-page" data-logo="{{ site.baseurl }}/assets/img/tud-logo.svg">
   <div class="header">
-    <h1>MSc Geomatics for the Built Environment — MSc thesis assessment</h1>
+    <h1>
+      MSc Geomatics for the Built Environment — Kick-off (thesis plan)
+      assessment
+    </h1>
     <img src="{{ site.baseurl }}/assets/img/tud-logo.svg" alt="TU Delft" />
   </div>
 
@@ -29,10 +32,6 @@
       <input type="text" id="secondSupervisor" placeholder="e.g. C. Brown"
     /></label>
     <label
-      >Co-reader
-      <input type="text" id="coreader" placeholder="e.g. D. Wilson"
-    /></label>
-    <label
       >Delegate of BoE
       <input type="text" id="delegateBoE" placeholder="e.g. A. Smith"
     /></label>
@@ -40,7 +39,7 @@
 
   <div class="controls">
     <button class="btn btn-secondary" onclick="resetAll()">
-      Clear all grades
+      Clear all marks
     </button>
     <button class="btn btn-print" onclick="generatePDF()">
       Download as PDF
@@ -48,48 +47,57 @@
   </div>
 
   <div class="summary">
-    <h2>Grade Summary</h2>
+    <h2>Decision summary</h2>
     <table>
       <thead>
         <tr>
-          <th>Category</th>
-          <th>Weight</th>
-          <th>Grade</th>
+          <th>Outcome</th>
+          <th>Aspects</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Research</td>
-          <td>50%</td>
-          <td id="sumResearchAvg">—</td>
+          <td>Aspects marked Go</td>
+          <td id="sumGo">0</td>
         </tr>
         <tr>
-          <td>Process</td>
-          <td>20%</td>
-          <td id="sumProcessAvg">—</td>
+          <td>Aspects marked Borderline</td>
+          <td id="sumBorderline">0</td>
         </tr>
         <tr>
-          <td>Communication — Report</td>
-          <td>18%</td>
-          <td id="sumReportAvg">—</td>
-        </tr>
-        <tr>
-          <td>Communication — Presentation</td>
-          <td>12%</td>
-          <td id="sumPresAvg">—</td>
+          <td>Aspects marked No-go</td>
+          <td id="sumNogo">0</td>
         </tr>
         <tr class="final-row">
-          <td>Final Grade</td>
-          <td>100%</td>
-          <td id="sumFinal" style="font-size: 18px">—</td>
+          <td>Final decision (Go / No-go)</td>
+          <td>
+            <span class="grade-row" style="padding: 0">
+              <span class="grade-option go"
+                ><input
+                  type="radio"
+                  name="finalDecision"
+                  value="Go"
+                  id="finalGo"
+                  onchange="updateSummary()"
+                /><label for="finalGo">Go</label></span
+              >
+              <span class="grade-option nogo"
+                ><input
+                  type="radio"
+                  name="finalDecision"
+                  value="No-go"
+                  id="finalNogo"
+                  onchange="updateSummary()"
+                /><label for="finalNogo">No-go</label></span
+              >
+            </span>
+          </td>
         </tr>
       </tbody>
     </table>
   </div>
 
-  <div class="rubric-sections" id="rubricContainer"></div>
-
-  <div class="notes" id="rubricNotes"></div>
+  <div class="rubric-sections" id="planContainer"></div>
 
   <div class="general-comments">
     <label for="generalComments"
@@ -100,9 +108,11 @@
       placeholder="General feedback, strengths, areas for improvement…"
     ></textarea>
   </div>
+
+  <div class="notes" id="planNotes"></div>
 </div>
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/rubric.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/rubric.js"></script>
+<script src="{{ site.baseurl }}/assets/js/plan-rubric.js"></script>
