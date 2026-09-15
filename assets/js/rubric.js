@@ -1,28 +1,17 @@
 (function () {
   "use strict";
 
-  // One grade per category, half-points allowed (see the notes in the
-  // "Rubric - Total" sheet of the rubric workbook). "< 5.75" counts as a 5
-  // in the final-grade calculation.
+  // Grades are whole grades only. Clicking the "< 5.75" descriptor counts
+  // as a 5 in the advisory average; the supervisors choose the final
+  // category grade themselves.
   var grades = [
     { key: "lt575", label: "< 5.75", value: 5 },
-    { key: "575", label: "5.75", value: 5.75 },
     { key: "6", label: "6", value: 6 },
-    { key: "65", label: "6.5", value: 6.5 },
     { key: "7", label: "7", value: 7 },
-    { key: "75", label: "7.5", value: 7.5 },
     { key: "8", label: "8", value: 8 },
-    { key: "85", label: "8.5", value: 8.5 },
     { key: "9", label: "9", value: 9 },
-    { key: "95", label: "9.5", value: 9.5 },
     { key: "10", label: "10", value: 10 },
   ];
-
-  // Descriptors exist only at whole grades; half-points are judged between
-  // the two neighbouring descriptors, so the table shows whole grades only.
-  var descGrades = grades.filter(function (g) {
-    return ["lt575", "6", "7", "8", "9", "10"].indexOf(g.key) !== -1;
-  });
 
   var rubric = [    {
       id: "research",
@@ -356,10 +345,11 @@
   ];
 
   var notes = [
-    "Enter one grade per category (half-points allowed).",
-    "Descriptors exist at whole grades; half-points are judged between the two neighbouring descriptors.",
-    "Pass threshold: 5.75. Grades of 5.75 and higher round up to 6 and count as a pass.",
-    "No sub-weights per aspect: aspects are a checklist to support judgment. Assessors look at where most elements fall within a category and decide one grade per category.",
+    "Click the descriptor that best matches each aspect; the advisory average per category is indicative only.",
+    "Descriptors are at whole grades; the \u201C< 5.75\u201D column counts as a 5 in the advisory average.",
+    "Supervisors review where the aspects fall and enter the final grade for each category in the summary (non-whole marks allowed).",
+    "Pass threshold: 5.75. A final grade of 5.75 and higher counts as a pass.",
+    "No sub-weights per aspect: aspects are a checklist to support judgment.",
     "\u201CDepth & ambition of the investigation\u201D (Research): bands reward the level of genuine inquiry delivered. A demanding topic taken to good depth, or a simpler topic taken to exceptional depth, both reach the top bands.",
   ];
 
@@ -378,14 +368,18 @@
   }
 
   // Per-aspect marks are working notes for the assessors: the resulting
-  // average is advisory only and never enters the summary, final grade or
-  // PDF — those use the explicitly chosen category grade.
+  // average is advisory only. The final grade is chosen by the supervisors
+  // in the summary.
   var aspectMarks = {};
+
+  function cap(s) {
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  }
 
   function buildRefTable(section) {
     return (
       '<table class="ref-table"><thead><tr><th>Aspect</th>' +
-      descGrades
+      grades
         .map(function (g) {
           return "<th>" + esc(g.label) + "</th>";
         })
@@ -397,7 +391,7 @@
             "<tr><td>" +
             esc(c.name) +
             "</td>" +
-            descGrades
+            grades
               .map(function (g) {
                 return (
                   '<td class="sel-cell" data-section="' +
@@ -418,6 +412,40 @@
         .join("") +
       "</tbody></table>"
     );
+  }
+
+  function buildSummary() {
+    var tbody = document.getElementById("summaryBody");
+    if (!tbody) return;
+    var html = "";
+    rubric.forEach(function (section) {
+      html +=
+        "<tr>" +
+        "<td>" +
+        esc(section.title) +
+        "</td>" +
+        "<td>" +
+        esc(section.weightLabel) +
+        "</td>" +
+        '<td id="sum' +
+        cap(section.id) +
+        'Avg">—</td>' +
+        '<td><input type="text" class="grade-input" id="grade_' +
+        section.id +
+        '" inputmode="decimal" placeholder="e.g. 7.5" ' +
+        'aria-label="Final grade for ' +
+        esc(section.title) +
+        '" oninput="updateSummary()"></td>' +
+        "</tr>";
+    });
+    html +=
+      '<tr class="final-row">' +
+      "<td>Final Grade</td>" +
+      "<td>100%</td>" +
+      "<td></td>" +
+      '<td id="sumFinal" style="font-size: 18px">—</td>' +
+      "</tr>";
+    tbody.innerHTML = html;
   }
 
   function buildRubric() {
@@ -442,31 +470,9 @@
         '<div style="overflow-x:auto">' +
         buildRefTable(section) +
         "</div>" +
-        '<div class="grade-row"><span class="grade-row-label">Grade for this category</span>' +
-        grades
-          .map(function (g) {
-            var id = "grade_" + section.id + "_" + g.key;
-            return (
-              '<span class="grade-option"><input type="radio" name="grade_' +
-              section.id +
-              '" value="' +
-              g.value +
-              '" data-label="' +
-              esc(g.label) +
-              '" id="' +
-              id +
-              '" onchange="updateSummary()"><label for="' +
-              id +
-              '">' +
-              esc(g.label) +
-              "</label></span>"
-            );
-          })
-          .join("") +
-        '<span class="advisory" id="advisory_' +
+        '<div class="advisory" id="advisory_' +
         section.id +
-        '"></span>' +
-        "</div>" +
+        '"></div>' +
         '<div class="comments-block"><label for="comments_' +
         section.id +
         '">Comments for ' +
@@ -478,6 +484,8 @@
       container.appendChild(sec);
       updateAdvisory(section.id);
     });
+
+    buildSummary();
 
     container.addEventListener("click", function (e) {
       var td = e.target.closest("td.sel-cell");
@@ -497,6 +505,7 @@
       );
       if (marks[aspect] !== null) td.classList.add("selected");
       updateAdvisory(sectionId);
+      updateSummary();
     });
 
     var notesEl = document.getElementById("rubricNotes");
@@ -512,41 +521,46 @@
     }
   }
 
-  function updateAdvisory(sectionId) {
-    var el = document.getElementById("advisory_" + sectionId);
-    if (!el) return;
+  function advisoryAverage(sectionId) {
     var marks = aspectMarks[sectionId] || [];
     var values = [];
     marks.forEach(function (key) {
       if (key !== null) values.push(gradeValue(key));
     });
-    if (!values.length) {
-      el.innerHTML = "Advisory average: —";
-      return;
-    }
+    if (!values.length) return null;
     var avg =
       values.reduce(function (a, b) {
         return a + b;
       }, 0) / values.length;
+    return { avg: avg, count: values.length, total: marks.length };
+  }
+
+  function updateAdvisory(sectionId) {
+    var el = document.getElementById("advisory_" + sectionId);
+    if (!el) return;
+    var a = advisoryAverage(sectionId);
+    if (!a) {
+      el.innerHTML = "Advisory average: —";
+      return;
+    }
     el.innerHTML =
       "Advisory average: <strong>" +
-      avg.toFixed(1) +
+      a.avg.toFixed(1) +
       '</strong> <span class="advisory-count">(' +
-      values.length +
+      a.count +
       " of " +
-      marks.length +
+      a.total +
       " aspects marked)</span>";
   }
 
   function getSelectedGrades() {
     var results = {};
     rubric.forEach(function (section) {
-      var sel = document.querySelector(
-        'input[name="grade_' + section.id + '"]:checked',
-      );
-      results[section.id] = sel
-        ? { value: parseFloat(sel.value), label: sel.getAttribute("data-label") }
-        : null;
+      var el = document.getElementById("grade_" + section.id);
+      var raw = el ? el.value.trim() : "";
+      var value = parseFloat(raw.replace(",", "."));
+      results[section.id] =
+        raw === "" || isNaN(value) ? null : { value: value, label: raw };
     });
     return results;
   }
@@ -570,20 +584,20 @@
 
   function updateSummary() {
     var r = getSelectedGrades();
-    var setEl = function (id, val) {
-      var el = document.getElementById(id);
-      if (el) {
-        el.textContent = val !== null ? val : "—";
-      }
+    var setAvg = function (section) {
+      var el = document.getElementById("sum" + cap(section.id) + "Avg");
+      if (!el) return;
+      var a = advisoryAverage(section.id);
+      el.innerHTML = a
+        ? a.avg.toFixed(1) +
+          ' <span class="advisory-count">(' +
+          a.count +
+          " of " +
+          a.total +
+          ")</span>"
+        : "—";
     };
-
-    setEl(
-      "sumResearchAvg",
-      r.research ? r.research.label : null,
-    );
-    setEl("sumProcessAvg", r.process ? r.process.label : null);
-    setEl("sumReportAvg", r.report ? r.report.label : null);
-    setEl("sumPresAvg", r.pres ? r.pres.label : null);
+    rubric.forEach(setAvg);
 
     var final = getFinal(r);
     var finalEl = document.getElementById("sumFinal");
@@ -608,9 +622,9 @@
 
   function resetAll() {
     document
-      .querySelectorAll('input[type="radio"]')
-      .forEach(function (r) {
-        r.checked = false;
+      .querySelectorAll(".grade-input")
+      .forEach(function (input) {
+        input.value = "";
       });
     document
       .querySelectorAll("td.sel-cell.selected")
@@ -760,6 +774,12 @@
       var fmt = function (sel) {
         return sel ? sel.label : "—";
       };
+      var fmtAvg = function (section) {
+        var a = advisoryAverage(section.id);
+        return a
+          ? a.avg.toFixed(1) + " (" + a.count + " of " + a.total + ")"
+          : "—";
+      };
       var fmtFinal = function (v) {
         if (v === null) return "—";
         var rounded = Math.round(v * 2) / 2;
@@ -768,17 +788,19 @@
           (rounded >= 5.75 ? " — pass" : " — fail")
         );
       };
-      var rows = [
-        ["Research", "50%", fmt(r.research)],
-        ["Process", "20%", fmt(r.process)],
-        ["Communication — Report", "18%", fmt(r.report)],
-        ["Communication — Presentation", "12%", fmt(r.pres)],
-        ["Final Grade", "100%", fmtFinal(final)],
-      ];
+      var rows = rubric.map(function (section) {
+        return [
+          section.title,
+          section.weightLabel,
+          fmtAvg(section),
+          fmt(r[section.id]),
+        ];
+      });
+      rows.push(["Final Grade", "100%", "", fmtFinal(final)]);
       doc.autoTable({
         startY: y,
         margin: { left: margin },
-        head: [["Category", "Weight", "Grade"]],
+        head: [["Category", "Weight", "Advisory average", "Final grade"]],
         body: rows,
         styles: {
           fontSize: 9,
@@ -798,19 +820,31 @@
         },
         bodyStyles: { textColor: [0, 0, 0] },
         alternateRowStyles: { fillColor: [242, 246, 241] },
+        columnStyles: {
+          1: { cellWidth: 18, halign: "center" },
+          2: { cellWidth: 36, halign: "center" },
+          3: { cellWidth: 32, halign: "center" },
+        },
       });
       y = doc.lastAutoTable.finalY + gap;
 
       rubric.forEach(function (section) {
         checkSpace(30);
-        var gradeLabel = r[section.id] ? r[section.id].label : "—";
+        var adv = advisoryAverage(section.id);
+        var advLabel = adv
+          ? adv.avg.toFixed(1) + " (" + adv.count + " of " + adv.total + " aspects)"
+          : "—";
         doc.setFillColor(43, 84, 33);
         doc.rect(margin, y, pageW - margin * 2, 6, "F");
         doc.setTextColor(255, 255, 255);
         doc.setFont("helvetica", "bold");
         doc.setFontSize(10);
         doc.text(
-          section.title + " (" + section.weightLabel + ") — Grade: " + gradeLabel,
+          section.title +
+            " (" +
+            section.weightLabel +
+            ") — Advisory average: " +
+            advLabel,
           margin + 2,
           y + 4.5,
         );
