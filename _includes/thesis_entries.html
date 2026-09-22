@@ -1,11 +1,13 @@
 {% assign thesis = include.data | sort: 'name' %}
 {% for i in thesis %}
 <article class="media">
+  {% if i.image %}
   <figure class="media-left">
     <p class="image">
       <img src="img/{{ i.image }}">
     </p>
   </figure>
+  {% endif %}
   <div class="media-content">
     <div class="content">
       <p>
