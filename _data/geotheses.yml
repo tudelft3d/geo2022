@@ -1,0 +1,1986 @@
+- surname: Aalders
+  name: R.M.
+  title: "Exploring a 'coordinating' smart city data governance model: A case study of The Green Village on the TU Delft Campus"
+  link: https://repository.tudelft.nl/record/uuid:353dd7a1-2b70-4dca-accb-a1137a55fc91
+  image: 2026_Aalders.jpg
+  year: 2026
+
+- surname: Aires
+  name: Carmem
+  title: "A Comparison of Wind Velocity Predictions from Wind-Only and Thermally Coupled Simulations in Urban Models with Complex Terrain"
+  link: https://repository.tudelft.nl/record/uuid:d18b9ec9-a296-47c3-a2d0-92969777369e
+  image: 2026_Aires.jpg
+  year: 2026
+
+- surname: Auer
+  name: Frederick
+  title: "Testing and Enhancing the Scenario ADE in the context of building energy performance simulations in Rotterdam"
+  link: https://repository.tudelft.nl/record/uuid:42e6250f-7dfb-49e2-bfc1-3277b915bdcb
+  image: FrederickAuer.jpg
+  year: 2026
+
+- surname: Beeren
+  name: Michel
+  title: "Improving 3D alpha wrapping by preserving concave features and reducing mesh complexity"
+  link: https://resolver.tudelft.nl/uuid:a3876cb2-8740-4277-9292-d4f113de97b4
+  github: https://github.com/michelbeeren/MSc_Geomatics_Thesis_3D_alpha_wrap
+  image: MichelBeeren.jpg
+  year: 2026
+
+- surname: Bi
+  name: Xinya
+  title: Recovering Visual Saliency from Intrinsic Properties of 3D Gaussian Splatting
+  link: https://repository.tudelft.nl/record/uuid:d1148812-2a69-4d6b-b956-9560897e8b1d
+  github: https://github.com/MaxineXinyaBi/3DGS_Pruning
+  image: 2026_XinyaBi.jpeg
+  year: 2026
+
+- surname: Brakelé
+  name: Sara
+  title: Extracting building typology parameters from 3D city models for earthquake
+    risk assessment
+  image: SaraBrakele.jpg
+  link: https://resolver.tudelft.nl/uuid:c4b6866d-fc45-430a-962a-4b53fd883ef0
+  year: 2026
+
+- surname: Bry
+  name: Alexandre
+  title: From points to prints -- Generating building roofprints and footprints from
+    airborne lidar data and inaccurate outlines
+  image: AlexandreBry.jpg
+  link: https://resolver.tudelft.nl/uuid:101ba3d8-1988-4025-b041-fafb12d2d2f3
+  github: https://github.com/alexandre-bry/MSc_Thesis-Code
+  year: 2026
+
+- surname: Cordes
+  name: Carlo
+  title: "Spatio-temporal Transformers for Wildfire Prediction"
+  link: https://repository.tudelft.nl/record/uuid:700a6579-a227-4984-8fd8-f980af99c8ba
+  image: 2026_Cordes.jpg
+  year: 2026
+
+- surname: den Hartog
+  name: Anne
+  title: "Thermally conscious urban mobility: operationalizing urban microclimate data into a pedestrian routing tool"
+  link: https://repository.tudelft.nl/record/uuid:0e63075e-ae21-4953-b0c1-6b4080de2420
+  image: 2026_denHartog.jpg
+  year: 2026
+
+- surname: Hu
+  name: Ming-Chieh
+  title: Adaptive Plane Splatting for 3D Building Reconstruction
+  link: https://repository.tudelft.nl/record/uuid:bbbae5e7-81a5-4cb1-9e01-d349ee7c24ad
+  github: https://github.com/MCHU-1999/AdaptivePS
+  image: 2026_MingChiehHu.jpeg
+  year: 2026
+
+- surname: Hutama
+  name: Andika Hadi
+  title: Patch-Level and Object-Level Deep Learning for Urban Extent Extraction from
+    Multi-Temporal Historical Maps
+  link: https://resolver.tudelft.nl/uuid:87d76db5-8f12-45ba-9317-045b71773cc5
+  image: 2026_Hutama.jpg
+  year: 2026
+
+- surname: Iliopoulos
+  name: Giorgos
+  title: (Semi-)automatic modeling of indoor building 3D models for daylight simulation
+    with Lidar-enabled mobile devices
+  link: https://repository.tudelft.nl/record/uuid:1954f6ce-686c-4686-80d1-37f26ee22d8e
+  year: 2026
+  github: https://github.com/IlioTheG/roomplan_to_honeybee
+  image: 2026_Giorgos.jpg
+
+- surname: Joh
+  name: Hyeji
+  title: Generating synthetic housing distributions for modelling economic segregation
+  link: https://resolver.tudelft.nl/uuid:4a7d373a-f100-483d-9eb2-9e07a392e1e7
+  image: HyejiJoh.jpg
+  year: 2026
+
+- surname: Jonker
+  name: Luc
+  title: Automated generation of tree-aware urban shade maps using deep learning
+  image: LucJonker.jpg
+  link: https://resolver.tudelft.nl/uuid:d2954f9d-f996-43ae-81f0-a587c34ed715
+  github: https://github.com/lucjonker/Shady_Shenanigans
+  year: 2026
+
+- surname: Pille
+  name: Julia
+  title: Seabed Fingerprinting for Maritime Navigation in GNSS-Denied Environments
+  link: https://repository.tudelft.nl/record/uuid:3da9ea32-06b5-444a-bca2-5a0ffec282b2
+  github: https://github.com/juliapille/SAND-E
+  image: 2026_JuliaPille.jpg
+  year: 2026
+
+- surname: Roorda
+  name: Yair
+  title: "Now you see me, now you don't: Direct LiDAR-Based Intervisibility Modeling with Semi-Transparent Vegetation for Military Mission Planning"
+  link: https://repository.tudelft.nl/record/uuid:7602dac0-1b60-4ccd-bf67-e6d40b3e4da7
+  image: 2026_Roorda.jpg
+  year: 2026
+
+- surname: Rotteveel
+  name: Heiko
+  title: Automatic water detection using ICESat-2 measurements
+  image: HeikoRotteveel.jpg
+  link: https://resolver.tudelft.nl/uuid:2fd2a861-a1f8-4b64-a02e-17a804b04bc6
+  github: https://github.com/HeikoRotteveel/ICESat-2_automatic_water_detection
+  year: 2026
+
+- surname: Schlosser
+  name: Daan
+  title: Investigation on the data model requirements for Digital Building Logbooks
+    and Building Renovation Passports
+  link: https://repository.tudelft.nl/record/uuid:fe05529d-fe1c-49e4-8d98-1a0acb2bfa93
+  github: https://github.com/DaanSchlosser/CityGML2.0-EnergyADE3.0_creator
+  image: DaanSchlosser.jpg
+  year: 2026
+
+- surname: Singh
+  name: Neelabh
+  title: Identifying Sidewalks from Crowdsourced SVI
+  image: NeelabhSingh.jpg
+  link: https://resolver.tudelft.nl/uuid:47f57012-2d9b-4bca-8d72-c31ffd2db163
+  github: https://github.com/neelabhz/pixel2sidewalk/
+  year: 2026
+
+- surname: Teo
+  name: Mingjie
+  title: IndoorGML-Constrained Navigation Across Multiple 3D Gaussian Splatting Scenes
+    for Indoor Environments
+  link: https://repository.tudelft.nl/record/uuid:6d044e6b-20e2-4329-8fe5-709a7064bb5a
+  image: 2026_Teo.jpg
+  year: 2026
+
+- surname: van Blokland
+  name: Lars
+  title: "Air temperature estimation through thermal satellite imagery using uncertainty-integrated transformers"
+  link: https://repository.tudelft.nl/record/uuid:dd91471f-e3a5-4c71-94d9-1162ee7ac0ae
+  image: 2026_vanBlokland.jpg
+  year: 2026
+
+- surname: Vanderheeren
+  name: Vincent
+  title: "Pillar of Morphology – Enhancing point-based mathematical morphology for applications in heritage point clouds"
+  link: https://repository.tudelft.nl/record/uuid:1d9c45bd-1bac-4dbc-8fbf-0218dfba1d3c
+  github: https://github.com/Alcardens/Mathematical-morphology-point-cloud
+  image: VincentVanderheeren.jpg
+  year: 2026
+
+- surname: Wang
+  name: Sue
+  title: From IFC BIM to Semantically Enriched 2.5D Indoor Navigation Graphs for Congestion-Aware
+    Pedestrian Simulation
+  image: SueWang.jpg
+  link: https://repository.tudelft.nl/record/uuid:ba9ea5f6-abdf-44e4-8a6f-cb50bdf804f2
+  github: https://github.com/tudelftgeomatics/tud-thesis-showcase
+  year: 2026
+
+- surname: Wu
+  name: Jiaoyang
+  title: "Detecting building element/material through ground-based thermal imagery using Deep Neural Networks approach"
+  link: https://repository.tudelft.nl/record/uuid:4504aec1-8cb9-4945-90eb-d5f6e9a1d5fd
+  image: 2026_Wu.jpg
+  year: 2026
+
+- surname: Ye
+  name: Hongyu
+  title: "LiDAR-TreeRisk: A transferable, LiDAR-driven framework for storm-event risk of wind damage to individual urban trees"
+  link: https://repository.tudelft.nl/record/uuid:7c6cabb3-a5a9-43d4-b710-75ed3075b4c3
+  image: 2026_Ye.jpg
+  year: 2026
+
+- surname: Alting
+  name: Noah
+  title: 'From point clouds to porous crowns: A scalable approach for CFD-ready urban
+    tree reconstruction'
+  image: noah.png
+  link: https://resolver.tudelft.nl/uuid:adc9c299-b8f7-4854-b004-dcf2393d06fb
+  github: https://github.com/NoahAlting/CFTree
+  year: 2025
+
+- surname: Andinasari
+  name: Citra
+  title: Point Cloud for 3D Land Administration System (LAS)
+  link: https://repository.tudelft.nl/record/uuid:ee07157a-8774-4340-bb71-417894b243e7
+  image: 2025_Andinasari.jpg
+  year: 2025
+
+- surname: Arnhem
+  name: Marieke van
+  title: 'Detecting Structural Building Changes from Bitemporal Point Cloud Datasets
+    with a Certainty Index – Case Study: AHN and Rotterdam Datasets'
+  link: https://resolver.tudelft.nl/uuid:b1526eae-f17d-497c-a741-f4528479b03b
+  image: 2025_Arnhem.jpg
+  year: 2025
+
+- surname: Auliyaa Bainus
+  name: Der Derian
+  title: Pointcloud harmonisation based on roadmarkings as benchmarks
+  image: 2025_Der_Derian_RM_cover.png
+  link: https://repository.tudelft.nl/record/uuid:44ccce83-5095-4fc1-a36d-04a2630e391e
+  year: 2025
+
+- surname: Baba
+  name: Hidemichi
+  title: 'FlatCityBuf: A new cloud-optimised CityJSON format'
+  image: 2025_baba.png
+  link: https://resolver.tudelft.nl/uuid:6727c979-5e46-4fe0-9349-a7803e825d02
+  github: https://github.com/HideBa/flatcitybuf
+  year: 2025
+
+- surname: Bhatt
+  name: Vidushi
+  title: Geospatial Analytics from IoT ecosystem in Built spaces
+  link: missing https://www.gdmc.nl/publications/2025/MScThesisVidushiBhatt.pdf
+  image: 2025_Bhatt.jpg
+  year: 2025
+
+- surname: Boertjes
+  name: Lars
+  title: Selective image region focus for efficient 3D building reconstruction using
+    SAM in oblique aerial imagery
+  image: 2025_Lars.jpg
+  link: https://repository.tudelft.nl/record/uuid:4384b354-6a98-46b3-a330-f1281cda3090
+  year: 2025
+
+- surname: Chandran
+  name: Aswathy
+  title: 'Proposal for the integration of a Building Material part: (ISO 19152-7)
+    within the Land Administration Domain Model'
+  link: https://resolver.tudelft.nl/uuid:ccbbc7d1-65d8-42b1-a542-f007961bb28b
+  image: 2025_Chandran.jpg
+  year: 2025
+
+- surname: Cheng
+  name: Hsin-Yu
+  title: Roof Structure Extraction from Remote Sensing Images
+  image: Hsinyu_2025.jpg
+  link: https://repository.tudelft.nl/record/uuid:4a31d2f4-1615-4afb-a2d8-a9cbfd1530b2
+  github: https://github.com/appleadele/Roof-Structure-Extraction-from-Remote-Sensing-Images.git
+  year: 2025
+
+- surname: de Niet
+  name: Lotte
+  title: Reconstructing legal 3D apartment models from 2D division drawings
+  image: 2025_LottedeNiet.jpeg
+  link: https://repository.tudelft.nl/record/uuid:aae7672b-ffd7-4656-a81a-8c4134f0b197
+  github: https://github.com/lottedeniet/Thesis_reconstructing_3D_BIM_Legal_models
+  year: 2025
+
+- surname: Gan
+  name: Haohua
+  title: Exploration of algorithms for extracting wireframe models from man-made urban
+    linear object point clouds
+  link: https://resolver.tudelft.nl/uuid:148178a4-f7ce-4f09-b4bd-267e4d7f15bc
+  github: https://github.com/Ganbusier/final_thesis
+  image: 2025_gan.png
+  year: 2025
+
+- surname: Gao
+  name: Yan
+  title: Labeling Vario-scale Maps
+  link: https://repository.tudelft.nl/record/uuid:ccaddf77-5895-41e1-b957-ad9f3bc1bd7a
+  image: 2025_Gao.jpg
+  year: 2025
+
+- surname: Giampaolo
+  name: Michele
+  title: A Graph Neural Network-based Approach to Predict the Effects of Urban Climate
+    on Personal Mobility Choices in Seoul
+  link: https://resolver.tudelft.nl/uuid:c7dea111-2693-4889-a304-2ad135fe824f
+  image: 2025_Giampaolo.jpg
+  year: 2025
+
+- surname: Gong
+  name: Xiaoluo
+  title: Dynamic Seamless Oblique Image Mosaics for Aerial Visualization
+  link: https://repository.tudelft.nl/record/uuid:183c0840-7b31-4993-a942-89327d1ce8df
+  image: 2025_Gong.jpg
+  year: 2025
+
+- surname: Huizer
+  name: Lars
+  title: 'PHYSHADE-Net: Leveraging Geometric-Priors in Physics-Guided Neural Networks
+    for Building Shadow Segmentation and Height Estimation'
+  link: https://repository.tudelft.nl/record/uuid:dddf8cce-f516-4715-b810-9adb3ad2cfb0
+  image: 2025_Huizer.jpg
+  year: 2025
+
+- surname: Kahn
+  name: Walter Hugo Johannes
+  title: Working Towards Oblique Aerial Adjustment through the Creation of Synthetic
+    Testcases
+  link: https://repository.tudelft.nl/record/uuid:522563f9-c443-473a-894b-820b92e97f8a
+  image: 2025_Kahn.jpg
+  year: 2025
+
+- surname: Li
+  name: Xueheng
+  title: 3D Visualization and Dissemination of Property Valuation Information Based
+    on LADM Part 4
+  link: missing https://www.gdmc.nl/publications/2025/MScThesisXuehengLi.pdf
+  image: 2025_Li.jpg
+  year: 2025
+
+- surname: Martinez
+  name: Javier
+  title: Rock and soil classification using thermal and SAR data in deep learning
+    models
+  link: https://resolver.tudelft.nl/uuid:cb2d5329-61a2-400e-b311-0cc278537de0
+  image: 2025_Martinez.jpg
+  year: 2025
+
+- surname: Michalas
+  name: Michail
+  title: Super-Resolution for Enhanced Aerial Imagery
+  link: https://repository.tudelft.nl/record/uuid:455a295d-715c-4c90-b0ad-1a04e02d4038
+  image: 2025_Michalas.jpg
+  year: 2025
+
+- surname: Monahan
+  name: Jessica
+  title: 'Cool by Design. SOLFD: Extending SOLWEIG for Urban Design Decision-Making
+    on Outdoor Thermal Comfort'
+  link: https://resolver.tudelft.nl/uuid:02dbba26-0535-4c05-a39b-e5b09c3d0712
+  github: https://github.com/jsscmnhn/SOLWEIG_SOLFD
+  image: 2025_monahan.png
+  year: 2025
+
+- surname: Mouzakidis
+  name: Dimitrios
+  title: LADM-based 3D system for Archaeological Site Information Registration
+  link: https://repository.tudelft.nl/record/uuid:a89624a8-015f-426f-86e9-95cb5fa68d46
+  image: 2025_Mouzakidis.jpg
+  year: 2025
+
+- surname: Rahmawati
+  name: Adhisye
+  image: 2025_adhisye.jpg
+  title: 'Scenario-based energy simulation: Modelling tree planting strategy to reduce
+    heating and cooling demand under 2050 climate conditions'
+  link: https://resolver.tudelft.nl/uuid:bf97005e-bd6c-4d76-b5e8-91a94c40d99f
+  year: 2025
+
+- surname: Tarczyński
+  name: Rafał Marek
+  title: 'ST-SimNet: A Spatio-Temporal Graph Neural Network for Urban Freight Forecasting'
+  link: https://repository.tudelft.nl/record/uuid:0cbc8705-3017-4887-9283-5607a5e691c1
+  image: 2025_Tarczyski.jpg
+  year: 2025
+
+- surname: Tsalapati
+  name: Victoria
+  title: Assessing The Impact of Tree 3D Representations on Urban Daylight Simulation
+    Based on Airborne Laser Scanning Point Cloud Data
+  link: https://resolver.tudelft.nl/uuid:3de9d68a-c565-450e-9d0a-742c94f312c4
+  image: 2025_Tsalapati.jpg
+  year: 2025
+
+- surname: Tsipa
+  name: Eirini Chrysovalantou
+  title: Usability of the vario-scale approach in interactive and dynamic mapping
+  link: https://resolver.tudelft.nl/uuid:39932cfe-97d0-40ee-a071-55d31e7b5d0c
+  image: 2025_Tsipa.jpg
+  year: 2025
+
+- surname: Wang
+  name: Zhuoyue
+  title: Structuring Semantics in Smart Point Clouds Using an HBIM Ontology for Heritage
+    Objects with Propagation to Gaussian Splatting
+  link: https://repository.tudelft.nl/record/uuid:06665492-fe43-45fb-9eb8-b193b68a7307
+  image: 2025_Wang.jpg
+  year: 2025
+
+- surname: Yang
+  name: Qiaorui
+  title: Integrating Spatial Knowledge Graphs and Graph Neural Networks for Clustering
+    and Scenario-Based Enhancements in Regional Energy Systems Management
+  link: missing https://www.gdmc.nl/publications/2025/MScThesisQiaoruiYang.pdf
+  image: 2025_Yang.jpg
+  year: 2025
+
+- surname: Zhao
+  name: Xiaduo
+  title: Structure guided roof heightmap completion
+  link: https://resolver.tudelft.nl/uuid:7ffafb9f-2c91-4ee0-9f02-6a597d438214
+  github: https://github.com/xdzhaooo/msc_roof_completion
+  image: 2025_zhao.png
+  year: 2025
+
+- surname: Aalst
+  name: Marjolein van
+  title: A standards-based portal for integrated Land Administration information -
+    A case study of the Netherlands
+  link: http://resolver.tudelft.nl/uuid:1de8932b-2106-4b7b-9b32-7fc4b70a3cc6
+  image: 2024_Aalst.jpg
+  year: 2024
+
+- surname: Batum
+  name: Simay
+  title: Spatial Plan Registration and Compliance Checks in Estonia
+  link: https://resolver.tudelft.nl/uuid:77dce0e4-beac-462d-82d6-69e5b3764df3
+  image: 2024_Batum.jpg
+  year: 2024
+
+- surname: Brouwer
+  name: Gees
+  title: 'Automated data-driven generation of 3D coral reef models: Assessing and
+    integrating empirical data sources'
+  image: brouwer.png
+  link: https://resolver.tudelft.nl/uuid:4893ca9e-5cce-42ba-8ded-7cff98258cce
+  github: https://github.com/GGBRW/CoralGenerator
+  year: 2024
+
+- surname: Cai
+  name: Yuduan
+  title: 'SplitSFC: A database solution for massive point cloud data management'
+  link: http://resolver.tudelft.nl/uuid:485371bf-9a86-4eef-92c3-125a8904672c
+  image: 2024_Cai.jpg
+  year: 2024
+
+- surname: Chen
+  name: Mengying
+  title: 'Formalizing land indicators for SDGs: Implementation and evaluation using
+    international standards'
+  link: https://resolver.tudelft.nl/uuid:1f082b4d-5d96-4c72-8777-c62f76cc2624
+  image: 2024_Chen.jpg
+  year: 2024
+
+- surname: Dechamps
+  name: L.C.
+  title: "Spatial and semantic enrichment of utility networks data"
+  link: https://repository.tudelft.nl/record/uuid:060a3f80-3200-4900-8b8f-572cbbb57e5f
+  image: 2024_Dechamps.jpg
+  year: 2024
+
+- surname: Chi
+  name: Zhang
+  title: A learning-based MVS boosted by diffusion model
+  image: zhangchi.png
+  link: https://repository.tudelft.nl/record/uuid:02a605e4-ebb1-4f5d-b7c8-7ef32baa82b1
+  year: 2024
+
+- surname: Dinklo
+  name: Constantijn
+  title: Visualizing massive CFD outputs in game engines using voxelization and dynamic
+    loading
+  link: http://resolver.tudelft.nl/uuid:605302d7-8939-416a-8488-ff48842b02ec
+  image: 3ccebc69c5d0-P1_foto.JPG
+  year: 2024
+
+- surname: Esch
+  name: Marieke van
+  title: From thermal comfort to heat mitigation action - A reproducable QGIS plugin
+    for calculating the physiological equivalent temperature in Dutch cities
+  link: http://resolver.tudelft.nl/uuid:c05dedaa-5beb-45f9-b107-9ccd93b29e64
+  image: 2024_Esch.jpg
+  year: 2024
+
+- surname: Feng
+  name: Yingxin
+  title: 3D building model edit with generative AI
+  image: yingxin.jpg
+  link: https://repository.tudelft.nl/record/uuid:a180e48a-4bd2-4606-bce5-9449559bee12
+  year: 2024
+  github: https://github.com/fengyingxin/MSc-Thesis
+
+- surname: Gheorghiu
+  name: Irina
+  title: Analysis of the visibility of GPS satellites in the urban environment using
+    point cloud representation
+  link: http://resolver.tudelft.nl/uuid:0d4f6592-456a-413a-a10b-e7d30930e126
+  image: 2024_Gheorghiu.jpg
+  year: 2024
+
+- surname: Gong
+  name: Sicong
+  title: 'Towards Adaptive Trajectory Data Management: Modeling'
+  link: http://resolver.tudelft.nl/uuid:2a3d6f15-c8d5-4ab6-b3c5-f46c6c433d43
+  image: 2024_Gong.jpg
+  year: 2024
+
+- surname: Hengelmolen
+  name: Maren
+  title: Urban computational fluid dynamics simulations set-up validations
+  image: 2023_hengelmolen.jpg
+  link: http://resolver.tudelft.nl/uuid:4bfbc01f-1681-4640-9b00-c1a800a4f74d
+  github: https://github.com/MarenHengelmolen/thesis
+  year: 2024
+
+- surname: Kaal
+  name: Tessel Elisabeth
+  title: 'Optimizing Energy Balance in Multi-Energy Microgrids -- Enhancing Grid Efficiency:
+    Utilizing Deep Reinforcement Learning for Efficient Distribution of Local Renewable
+    Energy Resources'
+  link: http://resolver.tudelft.nl/uuid:5d20ed5a-9467-4760-b086-6da90073a257
+  image: 2024_Kaal.jpg
+  year: 2024
+
+- surname: Kan
+  name: Leo
+  title: Spatial height prediction of ICESat-2 satellite data using random forest
+    regression
+  image: Kan.png
+  link: http://resolver.tudelft.nl/uuid:50e2609e-644d-4241-b3f2-a17f204d2c06
+  github: https://github.com/leowlk/RF_Terrain
+  year: 2024
+
+- surname: Kawasaki
+  name: Maria Luisa Tarozzo
+  title: Common Ground - Bridging Subsurface Information Models and Climate Adaptation
+    Design
+  link: http://resolver.tudelft.nl/uuid:6331f94b-b1f0-49f7-96d7-6ddb3e45d124
+  image: 2024_Kawasaki.jpg
+  year: 2024
+
+- surname: Keurentjes
+  name: Lisa
+  title: A framework for automatic repair of 3D city models
+  image: 9ba90df526de-repair.gif
+  link: https://resolver.tudelft.nl/uuid:b5de420d-e0a2-4265-8bac-e7ae12f75e8c
+  github: https://github.com/Lkeurentjes/AUTOr3pair
+  year: 2024
+
+- surname: Koster
+  name: Gabriela
+  title: Designing a Dutch building energy simulation tool using semantic 3D city
+    models
+  link: http://resolver.tudelft.nl/uuid:4fce75a7-05f6-4854-b3f8-7fff5de114aa
+  image: 2024GabrielaKosterv2_200.png
+  year: 2024
+
+- surname: Köbben
+  name: Stein
+  title: Integrating 3D Functionality into a Web Application for Sharing Geo-information
+  link: http://resolver.tudelft.nl/uuid:ca630fac-e9ed-4653-af9e-325bcb821794
+  image: 2024_Kbben.jpg
+  year: 2024
+
+- surname: Li
+  name: Sitong
+  title: Enhancing 3D model for urban area with neural representations
+  image: sitong.jpg
+  link: https://repository.tudelft.nl/record/uuid:c9211a3c-2b54-4895-8a85-06dcdfe6df3b
+  year: 2024
+  github: https://github.com/StoneLee0917/DSM-with-nueral-representation-
+
+- surname: Madanu
+  name: Sharath Chandra
+  title: A Confidence-aware Deep Learning Framework for Refining Laser-scanned Point
+    Cloud Classification
+  image: 2024_sharath_msc.png
+  link: https://repository.tudelft.nl/record/uuid:e6ab08b9-a4d9-4e9c-86ec-3805631cf998
+  github: https://github.com/AutumnMoon00/RefineNet
+  year: 2024
+
+- surname: Mantas
+  name: Dimitris
+  title: CNN-based roofing material segmentation using aerial imagery and LiDAR data
+    fusion
+  image: mantas.png
+  link: https://resolver.tudelft.nl/uuid:c463e920-61e6-40c5-89e9-25354fadf549
+  github: https://github.com/DimitrisMantas/RoofSense
+  year: 2024
+
+- surname: Mao
+  name: Ping
+  title: A digital twin based on Land Administration
+  link: http://resolver.tudelft.nl/uuid:e8d8fa2a-91b5-4ef7-8d19-a354dccfd6c7
+  image: 2024_Mao.jpg
+  year: 2024
+
+- surname: Monté
+  name: Sérénic
+  title: Creating a benchmark for large urban objects using low resolution models
+  image: serenic.png
+  link: https://repository.tudelft.nl/record/uuid:47fbe5bb-fdf2-44b4-8aa0-19d16385f781
+  year: 2024
+
+- surname: Nestoras
+  name: Georgios Konstantinos
+  title: 'Exploring the potential of 5G positioning via RSSI: Comparing its efficacy
+    with GNSS-RTK positioning'
+  link: https://resolver.tudelft.nl/uuid:269af5b6-1278-4afc-9b06-64cfba0bbf40
+  image: 2024_Nestoras.jpg
+  year: 2024
+
+- surname: Poon
+  name: Hoi-Kang (Chris)
+  title: Inferring the residential building type from 3DBAG
+  image: 2023_HKPoon.png
+  link: http://resolver.tudelft.nl/uuid:3ef77acb-b38b-4fa5-9b1e-31813b00b739
+  github: https://github.com/tudelft3d/ML_bldg_type
+  year: 2024
+
+- surname: Post
+  name: Oliver
+  title: 'The City Stack: A morphology-based city analysis and generation framework'
+  image: post.png
+  link: https://repository.tudelft.nl/record/uuid:d6dc629c-c75e-4578-b1a1-8ac741133751
+  github: https://github.com/OliverJPost/CityStack
+  year: 2024
+
+- surname: Rao
+  name: Chengzhi
+  title: Reconstructing a high-detailed 2D areal representation of road network from
+    OSM data
+  image: chengzhi.png
+  link: https://repository.tudelft.nl/record/uuid:0bae72e4-ff16-4921-8f6e-d92fa4a377d7
+  year: 2024
+
+- surname: Shen
+  name: Qiwei
+  title: Plant Skeleton Extraction and Stem-leaf Segmentation
+  image: 2024_QiweiShen.jpg
+  link: https://resolver.tudelft.nl/uuid:42ae723f-4924-402c-9d8a-992f70f21bf4
+  github: https://github.com/qiweishen/Plant2Skeleton
+  year: 2024
+
+- surname: Spit
+  name: J.L.
+  title: "Evaluating Gender-Blindness and User Satisfaction in Dutch Campus Map Creation"
+  link: https://repository.tudelft.nl/record/uuid:c97064d2-6ddb-4297-81bf-8e159ffd1d2e
+  image: 2024_Spit.jpg
+  year: 2024
+
+- surname: Sterkman
+  name: Pam
+  title: Exploring the potential of explorative point clouds in floodplain maintenance
+  link: http://resolver.tudelft.nl/uuid:e1fdfc2b-c0e3-4c02-bb78-cdbf0cc10c1a
+  image: 2024_Sterkman.jpg
+  year: 2024
+
+- surname: Tsai
+  name: Bing-Shiuan
+  title: '3DCityDB-Tools plugin for QGIS: Adding server-side support to 3DCityDB v.
+    5.0'
+  image: 2024_bs_tsai.png
+  link: https://repository.tudelft.nl/record/uuid:5992ba24-8618-48d7-9e24-28839b5da16b
+  github: https://github.com/bsttsai/3DCityDB-Tools-for-QGIS_beta/tree/thesis_final
+  year: 2024
+
+- surname: Wei
+  name: Qiuxian
+  title: Multi-levels of detail terrain construction for navigation
+  image: qiuxian.jpg
+  link: https://repository.tudelft.nl/record/uuid:5b504409-dace-4569-93c0-a9be4f49c478
+  year: 2024
+
+- surname: Xu
+  name: Longxiang
+  title: Large-scale, High-resolution Urban solar potential analysis through semantic
+    3D city models
+  image: 2024_XuLongxiangSolar.png
+  link: missing
+  paper: https://repository.tudelft.nl/record/uuid:5a8d60e7-ac2b-4786-b003-57f3007a473c
+  year: 2024
+
+- surname: Yang
+  name: Yue
+  title: Directly Serving 3D Tiles From A Geo-DBMS
+  link: http://resolver.tudelft.nl/uuid:096553de-711c-49fd-8428-50ee6203b4ce
+  image: 2024_Yang.jpg
+  year: 2024
+
+- surname: Bachert
+  name: Carolin
+  title: Mapping the Energy ADE to CityGML 3.0
+  image: 2022_carolin.png
+  link: http://resolver.tudelft.nl/uuid:d253b343-7c96-45ee-9239-5c85594ad4fa
+  github: https://github.com/tudelft3d/EnergyADEv1_toCityGMLv3
+  year: 2023
+
+- surname: Dobson
+  name: Daniël
+  title: Floor count from street view imagery using learning-based façade parsing
+  image: daniel.png
+  year: 2023
+  link: https://repository.tudelft.nl/record/uuid:857658d4-9134-4935-9c28-fef907d9ace1
+  github: https://github.com/Dobberzoon/Facade2Floorcount
+
+- surname: Dong
+  name: Haoyang
+  title: Correcting global elevation models for canopy and infrastructure using a
+    residual U-Net
+  image: haoyang.png
+  link: http://resolver.tudelft.nl/uuid:8a314c3d-81ad-45e4-9b78-a00a3dae0a86
+  github: https://github.com/AkiGoat/DSM2DTM-ResUNet
+  year: 2023
+
+- surname: Erbașu
+  name: Mihai-Alexandru
+  title: Improving the content of Vario-Scale Maps -- An analysis into the generalization
+    of border structures
+  link: http://resolver.tudelft.nl/uuid:1f17418f-63a8-47ab-a843-8a2624925a7c
+  image: 2023_Erbau.jpg
+  year: 2023
+
+- surname: Geers
+  name: Lisa Yvette
+  title: 'Localising objects with drones: A case study on the localisation of fisher
+    boats in restricted areas'
+  link: http://resolver.tudelft.nl/uuid:bced95cc-54eb-474d-b963-21cc9eb0cf13
+  image: 2023_Geers.jpg
+  year: 2023
+
+- surname: Mbwanda
+  name: Tendai
+  title: Further Development of a QGIS plugin for the CityGML 3D City Database
+  image: 2023_tendai.png
+  link: http://resolver.tudelft.nl/uuid:6786ac5c-b61d-4e17-8501-e3cf2c7a9577
+  year: 2023
+
+- surname: Meines
+  name: Siebren
+  title: 'LuminaCity: a Real-Time Daylight Analysis Tool for Architectural and Urban
+    Development Using Unreal Engine'
+  link: http://resolver.tudelft.nl/uuid:8fefa31e-636d-48b6-9647-1181859c8300
+  image: 2023_Meines.jpg
+  year: 2023
+
+- surname: Meschin
+  name: Katrin
+  title: Canopy gap fraction estimation from ICESat-2 ATL08 product
+  image: 2022_meschin.png
+  link: http://resolver.tudelft.nl/uuid:4c44f0fb-bd69-44d8-8ba9-6ae0b9584828
+  github: https://github.com/Mschn-k/MSc_thesis
+  year: 2023
+
+- surname: Panagiotidou
+  name: Ioanna
+  title: 'Semantically-Guided 3D Building Facade Reconstruction: A Learning-Based
+    MVS Approach'
+  image: 2023_Ioanna.png
+  link: https://repository.tudelft.nl/record/uuid%3A6b3a4d29-45f6-4432-ac31-67ceae7dd75a
+  github: https://github.com/ipanagiotidou/CasMVSNet_pl
+  year: 2023
+
+- surname: Papadimitriou
+  name: C.
+  title: "All in? Identifying and tackling private sector’s barriers to data sharing: A Perspective on geospatial data in the Netherlands"
+  link: https://repository.tudelft.nl/record/uuid:0e21cba1-a238-43b0-935e-ef70ec9b160d
+  image: 2023_Papadimitriou.jpg
+  year: 2023
+
+- surname: Pereira
+  name: Simon Pena
+  title: Automated rooftop solar panel detection through Convolutional Neural Networks
+  link: http://resolver.tudelft.nl/uuid:deceb957-59ae-46f7-9c48-cf0489ce0f23
+  image: 2023_Pereira.jpg
+  year: 2023
+
+- surname: Powalka
+  name: Leon
+  title: Shape-guided artistic route finding
+  image: 2023_LeonPowalka.jpg
+  link: https://repository.tudelft.nl/record/uuid%3A11e9b0c2-5d67-475a-8653-71c7afe03dad
+  year: 2023
+
+- surname: Theodoridou
+  name: Eleni
+  title: Implementation of OGC SensorThings API standard for the integration of dynamic
+    sensor data in a 3D urban digital twin
+  link: http://resolver.tudelft.nl/uuid:b92de6b0-a868-4910-9392-cf1063fb9639
+  image: 2023_Theodoridou.jpg
+  year: 2023
+
+- surname: Therias
+  name: Adele
+  title: 'Integrating radar and multi-spectral data to detect cocoa crops: a deep
+    learning approach'
+  link: http://resolver.tudelft.nl/uuid:314e12c9-c3bc-478b-b664-d0c0680f3caf
+  image: 2023_Therias.jpg
+  year: 2023
+
+- surname: Visser
+  name: Fabian
+  title: Neural Surface Reconstruction and Stylization
+  image: 2023_fabian.png
+  link: https://repository.tudelft.nl/record/uuid%3A7f8ef49b-7c9c-4281-bd93-b921d9b28d49
+  github: https://github.com/fabisser/stylesdf
+  year: 2023
+
+- surname: Xia
+  name: Yitong
+  title: A data-driven approach to add openings to 3D BAG LOD2 building models
+  image: 2023_yitong2.png
+  link: https://repository.tudelft.nl/record/uuid%3Aeaff38b9-65f4-4c1c-8cec-aebd8fc4b18f
+  github: https://github.com/YitongXia/LOD3-Model
+  year: 2023
+
+- surname: Yan
+  name: Lan
+  title: Extraction of Exterior Building Envelopes from Building Information Models
+  image: lanyan.png
+  link: https://repository.tudelft.nl/record/uuid:2ff23b56-dc28-4c71-adf7-a9aecfcce413
+  github: https://github.com/tudelft3d/Building_Envelope
+  year: 2023
+
+- surname: Zhang
+  name: Fengyan
+  title: Snap rounding polygons with a triangulation
+  image: 2023_zhang.jpg
+  github: https://github.com/zfengyan/snapoly
+  link: https://repository.tudelft.nl/record/uuid:295f89f6-445b-4f3c-a764-cb78d7e9b825
+  year: 2023
+
+- surname: Apra
+  name: Irène
+  title: Semantic segmentation of roof superstructures
+  image: 2022_irene.jpg
+  github: https://github.com/iapra/height-data-preparation
+  link: https://repository.tudelft.nl/record/uuid:a9530c9d-3732-4c68-9cf0-0b25d994f691
+  year: 2022
+
+- surname: Caceres Tocora
+  name: Camilo
+  title: Automated Semantic Segmentation of Aerial Imagery using Synthetic Data
+  link: http://resolver.tudelft.nl/uuid:677ad184-1169-45b3-a31b-bcb7239dd451
+  image: 2022_camilo.jpg
+  year: 2022
+
+- surname: Dardavesis
+  name: Ioannis
+  title: Indoor localisation and location tracking in semi-public buildings based
+    on LiDAR point clouds and images of the ceilings
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A40b823ed-9334-4a35-a69b-83c7ab393e5c?collection=education
+  image: 2022_Dardavesis.jpg
+  year: 2022
+
+- surname: Feenstra
+  name: Jos
+  title: 'Geofront: directly accessible GIS tools using a web-based visual programming
+    language'
+  image: jos.png
+  year: 2022
+  link: https://repository.tudelft.nl/record/uuid:0ace357b-d07a-40a0-9167-6d8e775f5ba0
+  github: https://github.com/thegeofront/thegeofront.github.io
+
+- surname: Fratzeskou
+  name: Christina
+  title: From GIS to 3D flow simulations in urban environments
+  image: Fratzeskou.png
+  github: https://github.com/cfratz/set_nonUniform_z0
+  link: http://resolver.tudelft.nl/uuid:a603d34f-997c-4fa2-8538-db018f5b6fec
+  year: 2022
+
+- surname: Fu
+  name: Runnan
+  title: Modelling tree topology effects on wind
+  image: Fu.png
+  github: https://github.com/furunnan/Tree_Topo_Effects_on_Wind
+  link: https://repository.tudelft.nl/record/uuid%3A557e824d-a088-4cf4-8fe5-c98f5b893057?collection=education
+  year: 2022
+
+- surname: Hurkmans
+  name: Robin
+  title: 'Efficient Solar Potential Estimation of 3D Buildings: 3D BAG as use case'
+  image: hurkmans.jpg
+  link: http://resolver.tudelft.nl/uuid:0d6fe201-5676-48c0-850f-942d1ee9a353
+  github: https://github.com/robinjo78/solarBAG
+  year: 2022
+
+- surname: Jin
+  name: Yuzhen
+  title: Dynamic energy simulations based on the 3D BAG 2.0
+  image: 2021_Yuzhen.png
+  github: https://github.com/yuzhenjin3000/Dynamic-energy-simulations-based-on-the-3D-BAG-2.0
+  link: https://repository.tudelft.nl/record/uuid%3A3ae123bd-cae4-45b2-be48-27ffe5cab980
+  year: 2022
+
+- surname: Jong
+  name: Michiel de
+  title: Using voxelised spaces for the generation and visualisation of dynamic evacuation
+    routes
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A0b5e90b8-6ca1-4cd8-b5db-31539bddad1d?collection=education
+  image: 2022_Jong.jpg
+  year: 2022
+
+- surname: Kumar
+  name: Pratyush
+  title: An OGC 3D tiling technique based user-interactive platform for digital twins
+    in a virtual reality environment
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A629d3bd6-04d3-49b6-9f5c-13589f1c8ceb?collection=education
+  image: 2022_Kumar.jpg
+  year: 2022
+
+- surname: Langhorst
+  name: Lars
+  title: Predicting sedimentation in Lake Alajuela
+  image: 2022_lars.jpg
+  github: https://github.com/LMarinusL/MorphologyPredictor
+  link: https://repository.tudelft.nl/record/uuid:6421019c-50e0-42ab-ae43-3c20e1b2f3e2
+  year: 2022
+
+- surname: Liu
+  name: Zhenyu
+  title: Dynamic Objects Detection and Removal in Mobile Laser Scanning Data
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A9b1ba72c-9c74-45e1-952a-58c0824c9a74?collection=education
+  image: 2022_Liu.jpg
+  year: 2022
+
+- surname: Mainelli
+  name: Xenia Una
+  title: Exploring Isovist Applications in Third-Person View Visualisations of Outdoor
+    Space Boundaries Using Point Clouds
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A922ad01c-0d36-494b-b499-2c0744f474dd?collection=education
+  image: 2022_Mainelli.jpg
+  year: 2022
+
+- surname: Pantelios
+  name: Kostantinos
+  title: Development of a QGIS plugin for the CityGML 3D City Database
+  image: 2021_Konstantinos.png
+  github: https://github.com/Konstantinos-Pantelios/3DCityDB-QGIS-Loader
+  link: https://repository.tudelft.nl/record/uuid%3Afb532bef-81b9-482b-921a-e7ce907cb544
+  year: 2022
+
+- surname: Papakostas
+  name: Theodoros
+  title: Modelling a military scene using a Discrete Global Grid System
+  link: https://repository.tudelft.nl/islandora/object/uuid%3Aaca1d742-9fbe-4577-a4fd-b8b0ba50f368?collection=education
+  image: 2022_Papakostas.jpg
+  year: 2022
+
+- surname: Prihanggo
+  name: M. Maundri
+  title: "Funding Model for The Production of Large-Scale (1:5.000) Base Map in Indonesia"
+  link: https://repository.tudelft.nl/record/uuid:339371b5-0c6a-4756-9266-461d87677e29
+  image: 2022_Prihanggo.jpg
+  year: 2022
+
+- surname: Pavlidou
+  name: Androniki
+  title: Integrated modeling of utility networks in the urban environment
+  image: 2021_androniki.png
+  link: https://repository.tudelft.nl/record/uuid%3A81549126-bbb9-49d5-bc46-d050a2463c6d
+  year: 2022
+
+- surname: Prusti
+  name: Maarit
+  title: How could BIM support the digital building permit process in the Netherlands?
+  image: 2022_MaaritPrusti.png
+  link: https://repository.tudelft.nl/record/uuid%3A33b125b5-d902-4432-9043-2ceb10f2e53e?collection=education
+  year: 2022
+
+- surname: Ramlakhan
+  name: Rohit
+  title: Modelling the legal spaces of 3D underground objects in a 3D LAS
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A92107ac8-4443-46da-97e5-335af4f52c2b?collection=education
+  image: 2022_Ramlakhan.jpg
+  year: 2022
+
+- surname: Roy
+  name: Ellie
+  title: Inferring the number of floors of building footprints in the Netherlands
+  link: http://resolver.tudelft.nl/uuid:6de4255c-ab2b-49c2-a282-ed779de092a1
+  github: https://github.com/ellieroy/no-floors-inference-NL
+  image: 15c4ff03b7e4-p1_image.jpg
+  paper: https://doi.org/10.1080/13658816.2022.2160454
+  year: 2022
+
+- surname: Schendel
+  name: Maximiliaan van
+  title: Merging of Topometric Maps of Indoor Environments -- Extraction
+  link: http://resolver.tudelft.nl/uuid:92e1ea3a-3a34-449c-b0b4-731d6480266a
+  image: 2022_Schendel.jpg
+  year: 2022
+
+- surname: Smit
+  name: Mels
+  title: Deducing the Location of Glass Windows in 3D Indoor Environments
+  link: http://resolver.tudelft.nl/uuid:b1e20016-5e1c-4610-a951-6631983b7511
+  image: 2022_Smit.jpg
+  year: 2022
+
+- surname: Triantafyllou
+  name: Georgios
+  title: Isovist Fingerprinting as new way of Indoor Localisation
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A4c97f5e2-dfa1-403d-85e7-0fb43d98cc82?collection=education
+  image: 2022_Triantafyllou.jpg
+  year: 2022
+
+- surname: Tufan
+  name: Özge
+  title: Development and testing of the CityJSON Energy Extension for space heating
+    demand calculation
+  image: 2022_ozge.jpg
+  github: https://github.com/ozgetufan/cjenergy
+  link: https://repository.tudelft.nl/record/uuid:816735b7-4305-4f72-bbab-31f5e5491acf
+  paper: https://doi.org/10.5194/isprs-archives-XLVIII-4-W4-2022-169-2022
+  year: 2022
+
+- surname: van der Horst
+  name: Noortje
+  title: Procedural Modelling of Tree Growth Using Multi-temporal Point Clouds
+  link: https://repository.tudelft.nl/record/uuid%3Ad284c33a-7297-4509-81e1-e183ed6cca3c
+  github: https://github.com/NoortjevanderHorst/treegrowthmodelling
+  image: 2022_Noortje.png
+  year: 2022
+
+- surname: van der Vaart
+  name: Jasper
+  title: Automatic building feature detection and reconstruction in IFC models
+  image: 2022_jasper.jpg
+  github: https://github.com/jaspervdv/IFC_ApartmentDetection
+  link: https://repository.tudelft.nl/record/uuid:db6edbfc-5310-47db-b2c7-3d8e2b62de0f
+  year: 2022
+
+- surname: van Rijssel
+  name: Laurens
+  title: Generating consistent triangular terrain elevation data for noise modelling
+  link: http://resolver.tudelft.nl/uuid:f77cd8e1-682b-4812-9652-25b23b5319a4
+  image: 2022_Rijssel.png
+  year: 2022
+
+- surname: Veselý
+  name: Ondrej
+  title: Building massing generation using GAN trained on Dutch 3D city models
+  image: 2021_ondrej.png
+  github: https://github.com/ondrej-vesely/massingGAN
+  link: https://repository.tudelft.nl/record/uuid%3A27085fd4-654a-4748-92d0-61563fe6040c
+  year: 2022
+
+- surname: Wang
+  name: Linjun
+  title: Detailed Facade Reconstruction for Manhattan-world Buildings
+  link: https://repository.tudelft.nl/record/uuid%3A1581231d-6109-44b2-ab57-bbbea3e08642
+  github: https://github.com/fiodccobw/3DFacade
+  image: 2022_Linjun.png
+  year: 2022
+
+- surname: Wu
+  name: Ziyan
+  title: 'Estimating building height from ICESat-2 data: The case of the Netherlands'
+  image: 3ff27b27c567-482f2771dd90c94d2c2a4793035e83b.png
+  github: https://github.com/Ziyan-Wu/master_thesis2022
+  link: http://resolver.tudelft.nl/uuid:bb13b322-1ad8-48d1-9baf-89f539e18adf
+  year: 2022
+
+- surname: Alhoz
+  name: Khaled
+  title: ISO 19650 Information Management for buildings and civil engineering projects
+    on WebGIS
+  link: http://resolver.tudelft.nl/uuid:306f0b94-2827-4aa0-90df-66110ee5a484
+  image: khaled.png
+  year: 2021
+
+- surname: Chatzidiakos
+  name: Charalampos
+  title: Safety-driven road width estimations from vector data
+  image: 7012f198422c-road_intersection.png
+  link: http://resolver.tudelft.nl/uuid:86c86f99-eaf3-4de6-b4e0-aef06ba158a8
+  github: https://github.com/chchatzi/Thesis_Master
+  year: 2021
+
+- surname: Chen
+  name: Zhaiyu
+  title: Learning to Reconstruct Compact Building Models from Point Clouds
+  link: https://repository.tudelft.nl/record/uuid:e33e7fa1-118e-41d8-904f-5f03eb36e887?collection=education
+  image: 2021_ZhaiyuChen.jpg
+  github: https://github.com/chenzhaiyu/points2poly
+  paper: https://doi.org/10.1016/j.isprsjprs.2022.09.017
+  year: 2021
+
+- surname: de Jong
+  name: Maarten
+  title: Simplification of massive TINs with the streaming geometries paradigm
+  link: http://resolver.tudelft.nl/uuid:e7df1d5a-8819-40aa-a3d1-1f6d50b8a39e
+  image: dejong.jpg
+  github: https://github.com/mdjong1/simpliPy/
+  year: 2021
+
+- surname: de Jongh
+  name: Wessel
+  title: Urban morphological analysis for wind potential
+  image: Wessel.png
+  link: http://resolver.tudelft.nl/uuid:fdbff288-fede-4796-9972-54627af0db77
+  github: https://github.com/CodeWessel/windystreet
+  year: 2021
+
+- surname: Doan
+  name: Truc Quynh
+  title: Test and extension of a GIS-supported design tool for new urban development
+    areas
+  image: 6d46b544141-QuynhDoan_5025923_thesis_in_one_image.jpg
+  link: http://resolver.tudelft.nl/uuid:b38588b1-1854-4ffa-976e-d87db3036b71
+  paper: https://doi.org/10.5194/isprs-annals-V-4-2021-169-2021
+  year: 2021
+
+- surname: Giannelli
+  name: Denis
+  title: Solar analysis on buildings of favelas in São Paulo to estimate PV
+  image: 2021_giannelli.png
+  link: http://resolver.tudelft.nl/uuid:05ff635a-8113-4d65-aae1-bc0c727831d8
+  paper: https://doi.org/10.5194/isprs-annals-V-4-2022-275-2022
+  year: 2021
+
+- surname: Hobeika
+  name: Nadine
+  title: CFD, sensitivity analysis and optimisation to promote the formation of dunes
+  image: 7d8153118aa6-draft_image_02.png
+  link: http://resolver.tudelft.nl/uuid:40a081bc-e32c-4c01-ab4b-ad71a1057c70
+  github: https://github.com/NadHobeika/dace_sensitivity_analysis
+  year: 2021
+
+- surname: Kenesei
+  name: Kristof
+  title: Constructing a digital 3D road network for The Netherlands
+  image: 3bdb605851f0-thumbnail.png
+  link: http://resolver.tudelft.nl/uuid:2a987bdc-82e1-4d82-92ea-fecd17e6c567
+  github: https://github.com/kriskenesei/geo2020-modules
+  year: 2021
+
+- surname: Li
+  name: Xiaoai
+  title: 'CityREST: CityJSON in a database + RESTful access'
+  image: 9c424a9b1de-draco400.jpg
+  link: http://resolver.tudelft.nl/uuid:e6bb2142-c113-4add-a466-41bf0fea3b11
+  github: https://github.com/xiaoai-li/api_cityjson
+  year: 2021
+
+- surname: Lumban Gaol
+  name: Yustisi Ardhitasari
+  title: Convolutional neural networks for satellite-derived bathymetry
+  link: https://repository.tudelft.nl/record/uuid:662ac71f-6373-4128-8eeb-163b8e727b72
+  image: 2021_Dita.png
+  github: https://github.com/yustisiardhitasari/sdbcnn
+  paper: https://doi.org/10.1080/01490419.2022.2091696
+  year: 2021
+
+- surname: Milyana
+  name: N.A. Nur An Nisa
+  title: "Designing User Experience (UX) to Support Public Participation in Spatial Planning: Case study: Indonesia"
+  link: https://repository.tudelft.nl/record/uuid:b0876cc2-d8b8-4286-8b3f-1888a5f45d97
+  image: 2021_Milyana.jpg
+  year: 2021
+
+- surname: Morlighem
+  name: Camille
+  title: Automatic reconstruction of 3D city models from historical maps
+  link: http://resolver.tudelft.nl/uuid:0889e498-cdd6-4a19-bbcb-d3fb189560e1
+  image: 2021_Morlighem.jpg
+  github: https://github.com/CamilleMorlighem/histo3d
+  paper: https://doi.org/10.1007/s44212-022-00011-3
+  year: 2021
+
+- surname: Papageorgiou
+  name: Manos
+  title: Semantic segmentation of the AHN dataset with the Random Forest Classifier
+  image: 9e375dbdb8-400x400.png
+  link: http://resolver.tudelft.nl/uuid:699fb934-4d4b-4cf1-a115-75dcb79fbebb
+  github: https://github.com/MPa-TUDelft/Semantic-segmentation-of-the-AHN-dataset-with-the-Random-Forest-Classifier
+  year: 2021
+
+- surname: Stevers
+  name: Anna Vera
+  title: The effects of beach house configurations on dune-ward sediment transport
+  image: 82f852014991-visualization.0008.png
+  link: http://resolver.tudelft.nl/uuid:d85b5773-f511-4bdf-91a8-496107c8faba
+  year: 2021
+
+- surname: van Heerden
+  name: Natasja
+  title: Integration of 3D city model and BIM for microclimate simulations
+  image: natasja.PNG
+  link: https://repository.tudelft.nl/record/uuid%3A630d57be-5660-4971-84c2-83bf12b1d204?collection=education
+  github: https://github.com/Natasja1992/ifc-citygml-2-envi
+  year: 2021
+
+- surname: Vogiatzis
+  name: Anastasios
+  year: 2021
+  title: Automated railway object mapping using imagery and point clouds
+  link: http://resolver.tudelft.nl/uuid:ddba89ed-61cd-478a-8f07-8e2bccdfb403
+  image: vogiatzis.jpg
+
+- surname: Wu
+  name: Jialun
+  title: Automatic building permits checks by means of 3D city models
+  image: 2021_jialun.png
+  link: https://repository.tudelft.nl/record/uuid:d6d23631-281a-4107-9f05-7e4942f2dabf
+  github: https://github.com/Gallon229/Building-permit
+  year: 2021
+
+- surname: Alexandridis
+  name: Vasileios
+  year: 2020
+  title: Automatic detection of waterbeds in shallow muddy water bodies in the Netherlands
+    using green LiDAR
+  link: https://repository.tudelft.nl/record/uuid%3Aacbd73bf-3547-456b-8f9d-4b72d5b7b54a?collection=education
+  image: Alexandridis.png
+  github: https://github.com/VasilisAle/Bathymetric_Pointcloud
+
+- surname: Ceccarelli
+  name: Giulia
+  title: Semantic segmentation of point clouds with the 3D medial axis transform
+  year: 2020
+  image: ceccarelli.png
+  link: http://resolver.tudelft.nl/uuid:85973c1e-1798-4fae-9790-3d1bab9476e1
+
+- surname: Dahle
+  name: Felix
+  title: Automatic change detection in digital maps using aerial images and point
+    clouds
+  year: 2020
+  image: felix.png
+  paper: https://isprs-archives.copernicus.org/articles/XLIII-B2-2021/457/2021/
+  link: https://repository.tudelft.nl/record/uuid:9a84292f-ae1c-4d39-8a8e-a0cd0c133130
+
+- surname: de Groot
+  name: Rob
+  title: Automatic construction of 3D tree models in multiple levels of detail from
+    airborne LiDAR data
+  image: deGroot.png
+  year: 2020
+  github: https://github.com/RobbieG91/TreeConstruction
+  link: http://resolver.tudelft.nl/uuid:3e169fc7-5336-4742-ab9b-18c158637cfe
+
+- surname: Deng
+  name: Mutian
+  title: Using Foreign Data Wrapper in PostgreSQL to Expose Point Clouds on File System
+  link: http://resolver.tudelft.nl/uuid:0182ce77-96e3-493b-a933-e91910b6302b
+  image: 2020_Deng.jpg
+  year: 2020
+
+- surname: Duynstee
+  name: Charlotte
+  title: Data driven sustainable mobility analysis in the city of Amsterdam
+  link: http://resolver.tudelft.nl/uuid:1db0ce92-b034-474a-9fc3-e6845a85c4c0
+  image: 2020_Duynstee.jpg
+  year: 2020
+
+- surname: Garg
+  name: Chirag
+  title: Indoor 3D reconstruction from a single image
+  image: 2020_ChiragGarg.jpg
+  year: 2020
+  link: https://repository.tudelft.nl/record/uuid%3A70f42eb0-241a-46a2-8bf8-87d89bea26b0?collection=education
+  github: https://github.com/cgarg-tud/GeomAwareLoss
+
+- surname: Jarocki
+  name: Konrad
+  title: Parallel step assignment for continuous generalization constrained with target
+    map
+  link: http://resolver.tudelft.nl/uuid:77153f80-c529-477c-98d3-e3d120966bd6
+  image: 2020_Jarocki.jpg
+  year: 2020
+
+- surname: Jansen
+  name: Celine
+  title: 'A change of view: Usable interface design propositions for geoportals'
+  link: https://repository.tudelft.nl/record/uuid:d46a034b-f305-4304-bf05-ecb8421a2d9e
+  image: 2020_Jansen.jpg
+  year: 2020
+
+- surname: Kaniouras
+  name: Pantelis
+  title: Road detection from remote sensing imagery
+  image: 2020_PantelisKaniouras.jpg
+  year: 2020
+  link: https://repository.tudelft.nl/record/uuid%3A21fc20a8-455d-4583-9698-4fea04516f03?collection=education
+  github: https://github.com/ntelo007/road_detection_mtl
+
+- surname: Li
+  name: Jinglan
+  title: Manage 4D historical AIS data by space filling curve
+  link: http://resolver.tudelft.nl/uuid:aa4dfaa6-4793-4996-b6f8-a3ac72d978ef
+  image: 2020_Li.jpg
+  year: 2020
+
+- surname: Lánský
+  name: Imke
+  title: Height inference for all USA building footprints in the absence of height
+    data
+  image: lansky.png
+  year: 2020
+  link: http://resolver.tudelft.nl/uuid:ddcae7d1-6cc8-42a7-8c1d-a922ec7551f0
+  github: https://github.com/ImkeLansky/USA-BuildingHeightInference
+
+- surname: Mastorakis
+  name: Konstantinos
+  title: An integrative workflow for 3D city model versioning
+  year: 2020
+  link: http://resolver.tudelft.nl/uuid:a7f7f0c8-7a34-454e-973a-d55f5b8b0dfe
+  github: https://github.com/cityjson/Up3date
+  image: mastorakis.png
+
+- surname: Moscholaki
+  name: Maria
+  year: 2020
+  title: Comparison of remotely sensed and OpenStreetMap registered dams
+  link: https://repository.tudelft.nl/record/uuid%3A03bd4cce-6852-4784-b192-05cd02bd2106?collection=education
+  image: Moscholaki.png
+
+- surname: Mulder
+  name: Amber
+  title: Semantic segmentation of RGB-Z aerial imagery using convolutional neural
+    networks
+  image: amulder.jpeg
+  year: 2020
+  link: http://resolver.tudelft.nl/uuid:b936953b-4c73-4ce1-a897-7da4287ff79a
+
+- surname: Oostwegel
+  name: Laurens
+  title: Indoor positioning using augmented reality
+  year: 2020
+  image: laurens.png
+  link: https://repository.tudelft.nl/record/uuid:b50e234d-3fe0-44a4-9ec0-f5664ca79844
+
+- surname: Opsomer
+  name: Aviva
+  title: Exploring the effects of void decks on urban ventilation in Singapore
+  year: 2020
+  link: http://resolver.tudelft.nl/uuid:97304da6-8938-48eb-8117-ca53321b1e34
+  image: Opsomer.jpg
+
+- surname: Opstal
+  name: Willem van
+  title: Automatic isobath generalisation for navigational charts
+  link: http://resolver.tudelft.nl/uuid:2e95de28-c9ce-4d07-8131-ae3c4c5b9d86
+  image: 2020_Opstal.jpg
+  year: 2020
+
+- surname: Ruben
+  name: Pablo
+  title: 'Knowledge sharing on Q&A fora: challenges of automated interaction analysis'
+  year: 2020
+  image: ruben2020.png
+  link: https://repository.tudelft.nl/record/uuid%3A67053d30-51ae-47d9-a474-7070c73274a5
+
+- surname: Staring
+  name: Karin
+  year: 2020
+  title: Comparison of storing CityJSON in differente databases and querying with
+    GraphQL
+  link: https://repository.tudelft.nl/record/uuid%3A7f9209f7-248f-4c93-9ba3-5866655e6040
+  image: karinstaring.jpg
+
+- surname: van Liempt
+  name: Jordi
+  title: 'CityJSON: does (file) size matter?'
+  year: 2020
+  image: vanliempt.jpg
+  github: https://github.com/jliempt/CityJSON-does-file-size-matter-
+  link: https://repository.tudelft.nl/record/uuid:4aad07f4-8f64-46b1-aad3-3d4abe36c5bf?collection=education
+
+- surname: Wal
+  name: Erik van der
+  title: Examining the influence of urban design on cyclist route choice in different
+    weather conditions
+  link: http://resolver.tudelft.nl/uuid:637abf2b-61ec-4c9d-a9af-8d2f200d09ee
+  image: 2020_Wal.jpg
+  year: 2020
+
+- surname: Wang
+  name: Xin
+  title: Using CityGML Energy ADE data in Honeybee
+  image: wang.png
+  year: 2020
+  link: http://resolver.tudelft.nl/uuid:fb35db7c-9af8-488c-8d0b-263b138d8fd3
+
+- surname: Wiersma
+  name: Gabriella
+  title: 'Towards the linking of geospatial government data: A study on the semantic
+    harmonisation between data from Dutch geo-registries'
+  year: 2020
+  link: http://resolver.tudelft.nl/uuid:f02e513c-bbb4-4b19-813b-4b5a062725d0
+  image: wiersma.jpg
+
+- surname: Zhang
+  name: Liyao
+  title: Visualization of Point Cloud Models in Mobile Augmented Reality Using Continuous
+    Level of Detail Method
+  link: https://repository.tudelft.nl/record/uuid:d465b8e7-4022-4e33-94b0-3a996fec2ec3
+  paper: https://isprs-archives.copernicus.org/articles/XLIV-4-W1-2020/167/2020/
+  image: 2020_Zhang.jpg
+  year: 2020
+
+- surname: Zhao
+  name: Yifang
+  title: Outer surface extraction for complex 3D building models
+  image: 2020_YifangZhao.jpg
+  year: 2020
+  link: https://repository.tudelft.nl/record/uuid%3Ab0dac42c-6d7a-4dbf-a11b-ce851d573862?collection=education
+
+- surname: Ai
+  name: Zhiwei
+  title: Semantic Segmentation of Large-scale Urban Scenes from Point Clouds
+  image: 2019_ZhiweiAi.jpg
+  year: 2019
+  link: https://repository.tudelft.nl/record/uuid%3Aa9cedaac-42ae-4cb0-9c14-67bab8e96a6d?collection=education
+
+- surname: Anastasiadou
+  name: Anastasia
+  title: A probabilistic analysis of results of co-registration of aerial and mobile
+    laser-scanned point clouds
+  link: http://resolver.tudelft.nl/uuid:f5429395-475a-4c94-a049-f6038f476805
+  image: 2019_Anastasiadou.jpg
+  year: 2019
+
+- surname: Arapakis
+  name: Panagiotis
+  title: 'The use of digital models in microclimatic studies: First steps in coupling
+    CityGML with ENVI-met'
+  image: arapakis.png
+  year: 2019
+  link: http://resolver.tudelft.nl/uuid:03ab695a-dc68-403a-b934-c810f087df42
+
+- surname: Bebelaar
+  name: Niek
+  title: Correction Model for Particulate Matter Measurements with a Low-Cost Sensor
+    Network in Rotterdam
+  link: http://resolver.tudelft.nl/uuid:5787851d-9f68-49a6-860f-eae58426151a
+  image: 2019_Bebelaar.jpg
+  year: 2019
+
+- surname: Boersma
+  name: Freek
+  title: Exploring the modelling of different LoDs of roads and intersections in 3D
+    city models
+  image: boersma.png
+  year: 2019
+  link: http://resolver.tudelft.nl/uuid:ebfc48f8-4704-47d3-9654-cd00c765e0af
+  github: https://github.com/fhb1990/cityjson
+
+- surname: Bot
+  name: Fanny
+  title: 'A graph-matching approach to indoor localization: Using a mobile device
+    and a reference BIM'
+  link: http://resolver.tudelft.nl/uuid:08073599-0267-4d85-b7c4-490c297df000
+  image: 2019_Bot.jpg
+  year: 2019
+
+- surname: Bouzas
+  name: Vasileios
+  title: Structure-aware building mesh simplification
+  image: 2019_VasileiosBouza.jpg
+  year: 2019
+  link: https://repository.tudelft.nl/record/uuid%3Aa0faf1a6-9815-4828-9186-a4a16119c71c?collection=education
+  github: https://github.com/VasileiosBouzas/MeshPolygonization
+  paper: https://doi.org/10.1016/j.isprsjprs.2020.07.010
+
+- surname: Dimopoulos
+  name: Giorgos
+  title: From static to dynamic visualization of the sea surface height on a web GIS
+    application
+  link: http://resolver.tudelft.nl/uuid:6fd75a74-8ddf-44ed-a641-4aab228aa028
+  image: 2019_Dimopoulos.jpg
+  year: 2019
+
+- surname: Du
+  name: Shenglan
+  title: Accurate, Detailed and Automatic Tree Modelling from Point Clouds
+  image: 2019_ShenglanDu.jpg
+  year: 2019
+  link: https://repository.tudelft.nl/record/uuid%3A675ee438-3dc9-43c8-a7a7-f3b8807c583f?collection=education
+  github: https://github.com/tudelft3d/adtree
+  paper: https://doi.org/10.3390/rs11182074
+
+- surname: Flikweert
+  name: Puck
+  title: Automatic Extraction of an IndoorGML Navigation from an Indoor Point Cloud
+  image: puck.png
+  paper: https://isprs-annals.copernicus.org/articles/IV-2-W5/271/2019/
+  link: https://repository.tudelft.nl/record/uuid:b11f5b57-5362-4b45-bed6-d5bc154d86aa
+  year: 2019
+
+- surname: Garcia Gonzalez
+  name: Francisco Gabriel
+  title: An interactive design tool for urban planning using the size of the living
+    space as unit of measurement
+  image: gonzalez.png
+  year: 2019
+  link: http://resolver.tudelft.nl/uuid:844b92d4-aa22-4ae7-b6c3-3b563dd3318e
+
+- surname: Herrera
+  name: Meylin Herrera
+  title: Landslide Detection using Random Forest Classifier
+  link: http://resolver.tudelft.nl/uuid:52fe6b3b-ec0b-4cad-b51d-7798830688a4
+  image: 2019_Herrera.jpg
+  year: 2019
+
+- surname: Klaassen
+  name: Pim
+  title: Using neural networks to model the behavior in vessel trajectories
+  link: http://resolver.tudelft.nl/uuid:a8ffd9f2-43b3-413e-a9f7-7e6c94cd65c1
+  image: 2019_Klaassen.jpg
+  year: 2019
+
+- surname: Kleijwegt
+  name: Cathelijne
+  title: Establishing an object identification method based on the description of
+    the neighbouring elements
+  link: http://resolver.tudelft.nl/uuid:a52a8c16-d682-4a75-b430-af6f2a1d3504
+  image: 2019_Kleijwegt.jpg
+  year: 2019
+
+- surname: Maaden
+  name: Jippe van der
+  title: Vario-scale visualization of the AHN2 point cloud
+  link: http://resolver.tudelft.nl/uuid:42496941-d12a-48b0-af48-ae4cb12984a6
+  image: 2019_Maaden.jpg
+  year: 2019
+
+- surname: Meulmeester
+  name: Roeland Willem Erik
+  title: 'BIM Legal: Proposal for defining legal spaces for apartment rights in the
+    Dutch cadastre using the IFC data model'
+  link: http://resolver.tudelft.nl/uuid:ca32eb79-7f53-4948-b3cb-d52a3b8c18a5
+  image: 2019_Meulmeester.jpg
+  year: 2019
+
+- surname: Micha
+  name: Ioanna
+  title: Design and Evaluate the OGC Web Services Architecture of a Geohazard analysis
+    tool
+  link: http://resolver.tudelft.nl/uuid:2071a403-830f-4750-89d4-37e01f8f5034
+  image: 2019_Micha.jpg
+  year: 2019
+
+- surname: Oldenburg
+  name: Davey
+  title: Reverse Waste Flow Mapping for Amsterdam
+  image: oldenburg.png
+  year: 2019
+  link: http://resolver.tudelft.nl/uuid:098b385b-5e63-4559-931d-679837bd13db
+
+- surname: Ruben
+  name: Pablo
+  title: 3D City Models in the Context of Urban Mining
+  image: ruben.png
+  year: 2019
+  link: https://repository.tudelft.nl/record/uuid%3A0fd2ffec-f25a-4391-be68-e816cc2611dd
+
+- surname: Sajadian
+  name: Melika
+  title: Spatial and Temporal Analysis of Road Deformation based on Remote Sensing
+    and Subsurface Exploration
+  link: http://resolver.tudelft.nl/uuid:9e836468-7291-4279-aa08-7d723ef11327
+  image: 2019_Sajadian.jpg
+  year: 2019
+
+- surname: Salheb
+  name: Nebras
+  title: Automatic Conversion of CityGML to IFC
+  image: nebras.png
+  year: 2019
+  github: https://github.com/nsalheb/CityGML2IFC
+  link: https://repository.tudelft.nl/record/uuid:455b6060-5152-46eb-8c64-5382f915442b
+  paper: https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIV-4-W1-2020/127/2020/
+
+- surname: Theocharous
+  name: Evangelos
+  title: 'How to solve spatial problems using linked-data: the case of planning a
+    shopping center in Delft'
+  link: http://resolver.tudelft.nl/uuid:843174be-bb0c-4bde-8df1-70022448e26e
+  image: 2019_Theocharous.jpg
+  year: 2019
+
+- surname: Tzounakos
+  name: Nikolaos
+  title: Robust interior-exterior classification for 3d models
+  image: 2019_NikolaosTzounakos.jpg
+  year: 2019
+  link: https://repository.tudelft.nl/record/uuid%3A9a8ebd7a-b807-4b7f-a9f6-cce73cc5315b?collection=education
+
+- surname: Wang
+  name: Qu
+  title: 3D breakline extraction from point clouds with the medial axis transform
+  image: quwang.png
+  year: 2019
+  link: http://resolver.tudelft.nl/uuid:ba8e4bf4-e473-410b-a1f0-ef48e9c2fbf3
+
+- surname: Wu
+  name: Teng
+  title: Visibility analysis in a point cloud based on the medial axis transform
+  image: teng.png
+  year: 2019
+  github: https://github.com/twut/geoflow-nodes
+  link: https://repository.tudelft.nl/record/uuid:1b2da021-816b-4516-9e4d-e8315707b6fc
+
+- surname: Xenakis
+  name: Dimitris
+  title: 'Placement optimization of Positioning Nodes: Maximizing the distinction
+    of Indoor Zones'
+  link: https://repository.tudelft.nl/islandora/object/uuid:4539b64d-1b05-49d0-9dfe-cacf3ffbfd7c
+  image: 2019_Xenakis.jpg
+  year: 2019
+
+- surname: Xu
+  name: Yixin
+  title: 'Improving location accuracy of a crowdsourced weather station by using a
+    point cloud: use case base Netatmo on the Hague'
+  link: https://repository.tudelft.nl/record/uuid:b9cd47d6-c54f-40f4-95f9-4e9624f1c859
+  year: 2019
+  image: yixin.png
+  github: https://github.com/yancyee/TUDMaster_code
+
+- surname: Braggaar
+  name: Rob
+  title: Wi-Fi network-based indoor localisation - The case of the TU Delft campus
+  link: http://resolver.tudelft.nl/uuid:bb3009cb-605e-4b80-9cf6-85f7dbc9ace8
+  image: 2018_Braggaar.jpg
+  year: 2018
+
+- surname: Cemellini
+  name: Barbara
+  title: Web-based visualization of 3D cadastre
+  link: http://resolver.tudelft.nl/uuid:c38d2ee0-9fe7-47db-9f9e-d1afc899ee2c
+  image: 2018_Cemellini.jpg
+  year: 2018
+
+- surname: Christodoulou
+  name: Antria
+  title: An image-based method for the pairwise registration of mobile laser scanning
+    point clouds
+  link: http://resolver.tudelft.nl/uuid:5c1d2d90-8f2f-4dc2-b6c3-d5c635323c35
+  image: andria.png
+  year: 2018
+
+- surname: Duijn
+  van: den
+  name: Xander
+  title: A 3D data modeling approach for integrated management of below and above
+    ground utility network features
+  image: xdduijn.jpg
+  link: http://resolver.tudelft.nl/uuid:fed24b16-cf95-4fa0-a109-ece6e91b61e9
+  year: 2018
+
+- surname: Dukai
+  name: Balázs
+  title: Exploring the automatic Level of Detail inference for the validation of buildings
+    in 3D city models
+  image: balazsd.png
+  link: http://resolver.tudelft.nl/uuid:5e9ed2f0-ec9e-4d9e-9a6b-57488ddd0222
+  year: 2018
+
+- surname: Griffioen
+  name: Simon
+  title: A voxel-based methodology to detect (clustered) outliers in aerial lidar
+    point clouds
+  link: http://resolver.tudelft.nl/uuid:2ffa73f4-34cc-4ea0-82df-11e61cb47bea
+  image: griffioen.png
+  year: 2018
+
+- surname: Groeneveld
+  name: IJsbrand
+  title: Generalisation of Hydrography Networks for a Vario-scale Basemap
+  link: http://resolver.tudelft.nl/uuid:a08dc9f7-6d7b-419d-ac42-44ea3b5318ab
+  image: 2018_Groeneveld.jpg
+  year: 2018
+
+- surname: Hemmes
+  name: Tom
+  title: Classification of large scale outdoor point clouds using convolutional neural
+    networks
+  link: http://resolver.tudelft.nl/uuid:c0cfa739-13dc-44de-92bc-4bba6f582c7e
+  image: 2018_Hemmes.jpg
+  year: 2018
+
+- surname: Karydakis
+  name: Panagiotis
+  title: Simplification & visualization of BIM models through Hololens
+  image: panagiotis.png
+  link: https://repository.tudelft.nl/record/uuid:748e5ed7-4a0d-4396-904b-64244ac0e56e
+  year: 2018
+
+- surname: Kotoula
+  name: Lydia
+  title: The Smart Point Cloud framework to detect pipelines using raw point cloud
+    generated from panoramic images
+  link: https://repository.tudelft.nl/record/uuid:40dddb4e-d0fa-42f5-9a54-f4fc32384cf4
+  image: 2018_Kotoula.jpg
+  year: 2018
+
+- surname: Li
+  name: Weiran
+  title: Detection of subsurface meltwater in East Antarctica using SAR Interferometry
+  link: http://resolver.tudelft.nl/uuid:783417aa-7e14-4e35-a362-9440ab0b6bc8
+  image: 2018_Li.jpg
+  year: 2018
+
+- surname: Manolova
+  name: Manuela
+  title: Integration of 3D BIM Models in a Web GIS for Life Cycle Asset Management
+  link: http://resolver.tudelft.nl/uuid:2a2523d1-c751-44e2-8129-676ef1eec379
+  image: 2018_Manolova.jpg
+  year: 2018
+
+- surname: Ortega-Córdova
+  name: Lessie M.
+  title: Framework for Urban Vegetation 3D Modelling
+  image: lessieoc.png
+  link: http://resolver.tudelft.nl/uuid:8b8967a8-0a0f-498f-9d37-71c6c3e532af
+  year: 2018
+
+- surname: Sirdeshmukh
+  name: Neeraj
+  title: Utilizing a Discrete Global Grid System For Handling Point Clouds With Varying
+    Locations
+  link: http://resolver.tudelft.nl/uuid:56e06ce9-fbad-4ded-8cd5-978f21f9aa2c
+  image: 2018_Sirdeshmukh.jpg
+  year: 2018
+
+- surname: Vermeer
+  name: Martijn
+  title: Large-scale efficient extraction of 3D roof segments from aerial stereo imagery
+  image: vermeer.png
+  link: http://resolver.tudelft.nl/uuid:24e59c42-b019-4fd8-a968-307eae8e4460
+  year: 2018
+
+- surname: Wang
+  name: Cheng-Kai
+  title: Urban building energy modeling using 3D city model and minimizing uncertainty
+    through Bayesian inference
+  image: wang.jpg
+  link: http://resolver.tudelft.nl/uuid:bc0d7164-be60-485a-ad7d-f7a049a3851d
+  paper: https://doi.org/10.1080/19401493.2020.1729862
+  year: 2018
+
+- surname: Haayen
+  name: Jade
+  title: Towards interoperable standards for 1D time series data within the water
+    sector
+  link: http://resolver.tudelft.nl/uuid:b0ec4837-a641-41c1-b869-b20d2621c077
+  image: 2017_Haayen.jpg
+  year: 2017
+
+- surname: Kang
+  name: Yuxuan
+  title: Straightening and simplifying a multi-view stereo mesh of a city
+  image: kang.png
+  link: http://resolver.tudelft.nl/uuid:8f3a74c2-3264-4433-adc9-217dfa94754a
+  year: 2017
+
+- surname: Kyritsis
+  name: Dimitrios
+  title: The identification of road modality and occupancy patterns by Wi-Fi monitoring
+    sensors as a way to support the “Smart Cities” concept
+  link: http://resolver.tudelft.nl/uuid:68a1d7d2-3828-4df5-9c05-63a2511188e4
+  image: 2017_Kyritsis.jpg
+  year: 2017
+
+- surname: Ligtvoet
+  name: Birgit
+  title: Crowdsensing as a tool for up-to-date road asset distress detection
+  link: http://resolver.tudelft.nl/uuid:61924097-f0f7-4d5a-979c-fe991017a3ce
+  image: 2017_Ligtvoet.jpg
+  year: 2017
+
+- surname: Staats
+  name: Bart
+  title: Identification of walkable space in a voxel model, derived from a point cloud
+    and its corresponding trajectory
+  image: bart.png
+  link: http://resolver.tudelft.nl/uuid:6a827a88-ce09-43f1-adb9-da886448a1fc
+  year: 2017
+
+- surname: ten Kate
+  name: Jan
+  title: 3D noise modeling for outdoor music events in the built environment
+  image: jtkate.png
+  link: https://repository.tudelft.nl/record/uuid%3Aa1663ff7-d6a4-410c-80fa-5fc8654fd5c6
+  year: 2017
+
+- surname: Tryfona
+  name: Maya
+  title: Bidirectional enrichment of CityGML and Multi-View Stereo Mesh models
+  image: tryfona.png
+  link: http://resolver.tudelft.nl/uuid:560bd9fb-7688-492f-b1c0-799644707be9
+  year: 2017
+
+- surname: Broersen
+  name: Tom
+  title: Automatic identification of water courses from AHN3 in flat and engineered
+    landscapes
+  link: http://resolver.tudelft.nl/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056
+  image: broersen.png
+  paper: http://dx.doi.org/10.1016/j.cageo.2017.06.003
+  year: 2016
+
+- surname: Fichtner
+  name: Florian W.
+  title: Semantic enrichment of a point cloud based on an octree for multi-storey
+    pathfinding
+  link: http://resolver.tudelft.nl/uuid:b4c13508-dbcc-4a32-a7b7-9cb22230e0a7
+  image: Florian.png
+  year: 2016
+
+- surname: Heeres
+  name: Erik
+  title: 'Exploring the 3D BAG: How to define it and to what extent can it automatically
+    be created using open data'
+  link: http://resolver.tudelft.nl/uuid:bb4a1667-1d6f-41ac-b12e-fb70c0013881
+  image: heeres.png
+  year: 2016
+
+- surname: Jonker
+  name: Kees
+  title: Automatic generation of raster-based height data for the Netherlands based
+    on the AHN2 data set
+  image: jonker.png
+  link: http://resolver.tudelft.nl/uuid:b1d1c50d-24bf-4a12-b0e5-3c2479907d66
+  year: 2016
+
+- surname: Koopman
+  name: Martijn
+  title: 3D Path-finding in a voxelized model of an indoor environment
+  image: martijn.png
+  link: http://resolver.tudelft.nl/uuid:13788271-e19d-41e1-b827-fe7535a66281
+  year: 2016
+
+- surname: Lam
+  name: Marco
+  title: Creating the medial axis transform for billions of lidar points using a memory
+    efficient method
+  image: lam.jpg
+  link: http://resolver.tudelft.nl/uuid:2452566b-058a-4fde-aa0e-e300421bb8b2
+  year: 2016
+
+- surname: Nagelkerke
+  name: Tim
+  title: Navigation to a human in motion by using points of interest
+  link: http://resolver.tudelft.nl/uuid:b9e42100-1bad-43de-bd1f-87f47779460a
+  image: Tim.png
+  year: 2016
+
+- surname: Rodenberg
+  name: Olivier
+  title: The effect of A* pathfinding characteristics on the path length and performance
+    in an octree representation of an indoor point cloud
+  link: http://resolver.tudelft.nl/uuid:fa1444c0-b957-43a3-9a9e-a0a7664bb6c8
+  image: Olivier.png
+  year: 2016
+
+- surname: Rook
+  name: Merwin
+  title: Automatic thematic and semantic labelling of 3D city models
+  image: mrook.png
+  year: 2016
+  link: http://resolver.tudelft.nl/uuid:61236178-3b72-4923-8d72-1d44446783df
+  paper: http://doi.org/10.5194/isprs-annals-IV-2-W1-23-2016
+
+- surname: Aarsen
+  name: Rosann
+  title: Using sensor-data collected by a "meet rollator" for deriving outdoor accessibility
+    information concerning mobility impaired people
+  image: rosann.png
+  link: http://resolver.tudelft.nl/uuid:29fc70b1-c262-4f3d-837f-5ecddb56d6f0
+  year: 2015
+
+- surname: Chen
+  name: Carl
+  title: Edge-aware simplification of roof and facade point clouds into a uniformly
+    dense point cloud
+  link: http://resolver.tudelft.nl/uuid:662fad08-51a9-4f8d-acb1-4caf78d602bb
+  image: carl.jpg
+  year: 2015
+
+- surname: Ham
+  name: Martijn
+  van: van der
+  title: Real time analyses of asset tracking in hospitals using indoor positioning
+    technology
+  image: martijn.png
+  link: http://resolver.tudelft.nl/uuid:31da4059-5dac-4e60-93d7-36cad2d8ab46
+  year: 2015
+  paper: http://doi.org/10.5194/isprs-annals-IV-4-W1-105-2016
+
+- surname: Janssen
+  name: Milo
+  title: A 3D subsurface GIS - Adopting vector/voxel data to provide insights regarding
+    climate adaptation and water related issues
+  image: milo.jpg
+  link: http://resolver.tudelft.nl/uuid:7cec6091-5c62-4645-b2b2-c74c149e92a6
+  year: 2015
+
+- surname: Mulder
+  name: Damien
+  title: Automatic repair of 3D city building models using a voxel-based repair method
+  link: http://resolver.tudelft.nl/uuid:8ef4459d-b940-4007-bc3c-d87349015129/
+  image: damien.jpg
+  github: https://github.com/dtmulder/VoxelRepair
+  year: 2015
+
+- surname: Pronk
+  name: Maarten
+  title: Storing massive TINs in a DBMS - A comparison and a prototype implementation
+    of the multistar approach
+  link: http://resolver.tudelft.nl/uuid:da6b7329-f45b-4560-8374-bb522e78121f
+  image: maarten.png
+  github: https://github.com/evetion/multistar
+  year: 2015
+
+- surname: Wu
+  name: Haoxiang
+  swapnames: true
+  title: 3D semantic model generation from 2D floor plans
+  link: http://resolver.tudelft.nl/uuid:26a4c6b8-8ea0-4246-b30e-5c83a28cccb4
+  image: wu.png
+  year: 2015
+
+- surname: Zhou
+  name: Kaixuan
+  swapnames: true
+  title: Exploring Regularities for Improving Quality of Facade Reconstruction from
+    Point Cloud
+  link: http://resolver.tudelft.nl/uuid:8f548788-1e42-475b-adbf-93f9dbcd04a1
+  image: zhou.png
+  year: 2015
+
+- surname: Krūminaitė
+  name: Marija
+  title: Space subdivision for indoor navigation
+  link: http://resolver.tudelft.nl/uuid:c2a9a308-5cdc-4df2-bf30-9eea5ea176c5
+  image: marija.png
+  year: 2014
+
+- surname: Winden
+  name: Karl
+  van: van
+  title: Automatically deriving and updating attribute road data from movement trajectories
+  link: http://resolver.tudelft.nl/uuid:eec252e0-1a6b-4a3a-a167-45aaadc2bb7f
+  paper: http://doi.org/10.1111/tgis.12186
+  image: karl.png
+  year: 2014
+
+- surname: Xu
+  name: Weilin
+  swapnames: true
+  title: Spatial model-aided indoor tracking
+  link: http://resolver.tudelft.nl/uuid:8fd6a9ef-3dfb-4bd1-b54e-44d5b2cca973
+  image: xu.png
+  year: 2014
+
+- surname: Boeters
+  name: Roeland
+  title: Automatic enhancement of CityGML LoD2 models with interiors and its usability
+    for net internal area determination
+  link: http://repository.tudelft.nl/view/ir/uuid:b22a2b93-4a0a-4aa7-8e3b-6e08e0027634
+  paper: http://doi.org/10.1080/13658816.2015.1072201
+  image: roeland.jpg
+  github: https://github.com/tudelft3d/lod2plus
+  year: 2013
+
+- surname: Donkers
+  name: Sjors
+  title: Automatic generation of CityGML LoD3 building models from IFC models
+  link: http://resolver.tudelft.nl/uuid:31380219-f8e8-4c66-a2dc-548c3680bb8d
+  image: sjors.png
+  github: https://github.com/tudelft3d/ifc2citygml
+  paper: http://doi.org/10.1111/tgis.12162
+  year: 2013
+
+- surname: Vries
+  name: Lars
+  van: de
+  title: A research towards completing the asset information life cycle -- An analysis
+    of the relationships between data exchange, BIM and the asset life cycle and the
+    solutions to overcome existing issues at Amsterdam Airport Schiphol.
+  link: http://resolver.tudelft.nl/uuid:88b6c2fc-b182-4fb2-98c8-25b6a24292ce
+  image: lars.png
+  year: 2013
