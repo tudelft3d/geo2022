@@ -13,6 +13,12 @@ jekyll serve --trace
 
 # Production build
 jekyll build --trace
+
+# Pull thesis metadata (title, supervisors, planning, agreements, ...) for
+# all open + closed cases from MyCase into mycase/ (gitignored; requires
+# NetID + MFA login in a browser window on first run, python requests +
+# playwright). Use to check whether _data/theses_*.yml is complete.
+python3 scripts/fetch_mycase.py
 ```
 
 ## Structure
@@ -25,6 +31,7 @@ jekyll build --trace
 | `_includes/` | Reusable partials (head, thesis_entries) |
 | `assets/css/` | Bulma + FontAwesome + custom `geo2022.css` |
 | `rules/`, `templates/`, `faq/`, etc. | Content pages (markdown) |
+| `scripts/fetch_mycase.py` | MyCase metadata fetcher (output gitignored) |
 
 ## Conventions
 

@@ -6,3 +6,8 @@ _site/
 /fabfile.pyc
 
 /.vs
+
+# MyCase metadata (grades, student numbers, supervisor comments — never publish)
+/mycase/
+/mycase_session.json
+/mycase_profile/
