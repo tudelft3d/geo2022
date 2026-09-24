@@ -1,33 +1,25 @@
 {% comment %}
-  Students currently graduating (open MyCase cases), rendered from
-  _data/ongoing_theses.yml — keep the file's order (grouped by starting
-  cohort, newest first, then by phase progress and name).
+  Students currently graduating (open MyCase cases), ordered by process
+  step (Preparation → Kick-off → Midterm → Green light), then by surname.
+  Missing or unknown phases count as Preparation, matching the tag shown.
   scripts/update_theses.py keeps names, cohorts, phases, titles and
   supervisors in sync with MyCase; summaries and images are hand-written.
 {% endcomment %}
 
-{% assign ongoing = site.data.ongoing_theses %}
-
-{% assign current_cohort = nil %}
-{% for s in ongoing %}
-{% if s.cohort != current_cohort %}
-{% unless forloop.first %}
-</section>
+{% assign phases = 'Preparation|Kick-off|Midterm|Green light' | split: '|' %}
+{% for phase in phases %}
+{% assign in_phase = '' | split: '|' %}
+{% for s in site.data.ongoing_theses %}
+{% assign s_phase = s.phase %}
+{% unless phases contains s_phase %}
+{% assign s_phase = 'Preparation' %}
 {% endunless %}
-{% assign cohort_year = s.cohort | truncate: 4, '' %}
-{% assign cohort_term = s.cohort | remove_first: cohort_year %}
-<section class="archive-year-block">
-  <h2 class="title is-3 archive-year">Starting
-    {% case cohort_term %}
-    {% when 'sep' %}September
-    {% when 'feb' %}February
-    {% when 'april' %}April
-    {% endcase %}
-    {{ cohort_year }}
-    <span class="archive-year-count">{{ ongoing | where: 'cohort', s.cohort | size }}</span>
-  </h2>
-  {% assign current_cohort = s.cohort %}
+{% if s_phase == phase %}
+{% assign in_phase = in_phase | push: s %}
 {% endif %}
+{% endfor %}
+{% assign in_phase = in_phase | sort_natural: 'surname' %}
+{% for s in in_phase %}
 {% assign current_img = '/ongoing/img/' | append: s.image %}
 {% assign current_img_hit = site.static_files | where: 'path', current_img | first %}
   <article class="media archive-item">
@@ -73,7 +65,5 @@
       </div>
     </div>
   </article>
-{% if forloop.last %}
-</section>
-{% endif %}
+{% endfor %}
 {% endfor %}

@@ -6,7 +6,7 @@ logo: fa-book
 permalink: /ongoing/
 ---
 
-Everyone currently graduating, grouped by starting cohort. The tags show
+Everyone currently graduating, ordered by process step. The tags show
 where each student is in the
 [graduation process]({{ "/rules/" | prepend: site.baseurl }}):
 <span class="tag is-light">Preparation</span> →
