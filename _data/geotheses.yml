@@ -229,6 +229,8 @@
     them. It has been tested successfully on the French national datasets
     BD TOPO and LiDAR HD.'
   uuid: 101ba3d8-1988-4025-b041-fafb12d2d2f3
+  programme_note: repository programme metadata lists another programme; verified
+    as Geomatics
 - surname: Cordes
   name: Carlo
   title: Spatio-temporal Transformers for Wildfire Risk Prediction
@@ -2095,6 +2097,8 @@
     of LOD2.2 building models, facilitating more reliable urban analytics
     and planning applications.'
   uuid: 7ffafb9f-2c91-4ee0-9f02-6a597d438214
+  programme_note: repository programme metadata lists another programme; verified
+    as Geomatics
 - surname: Batum
   name: Simay
   title: 'Spatial Plan Registration and Compliance Checks in Estonia, based
@@ -6208,49 +6212,6 @@
     software ENVI-met, by using the conversion tool developed for this research
     and the provided guidelines.
   uuid: 630d57be-5660-4971-84c2-83bf12b1d204
-- surname: Vogiatzis
-  name: Anastasios
-  title: Automated railway object mapping using imagery and point clouds
-  supervisors: R.C. Lindenbergh; C. Sullivan
-  year: 2021
-  graduation_date: '2021-03-15'
-  link: https://resolver.tudelft.nl/uuid:ddba89ed-61cd-478a-8f07-8e2bccdfb403
-  image: vogiatzis.jpg
-  abstract: Everything around us is rapidly changing. Whole new blocks of
-    buildings are built, huge infrastructural projects are constructed and
-    so on. Hence, there is a need of a reliable and up-to-date inventory of
-    the area and the objects of interest for mapping and monitoring assets
-    and their changes. An answer of this upcoming need is an automated inventory
-    of infrastructure using Remote Sensing and artificial intelligence (AI)
-    techniques. Rail sector shares the same need for fast and reliable inspection
-    on its infrastructure. Monitoring frequently the condition of the railway
-    infrastructure can improve the maintenance efficiency and the avoidance
-    of hazards. The traditional monitoring techniques are costly, time consuming
-    and in some cases dangerous, due to their reliance on the physical presence
-    of the inspector. Hence, new state-of-the-art techniques that are able
-    to frequently and without putting in risk human lives, inspect the condition
-    of the railway and its infrastructure. This master thesis aims at developing
-    an efficient workflow for combining 2D imagery and 3D light detection
-    and ranging (LiDAR) point clouds for the automated detection and localization
-    of the railroad infrastructural objects into 3D world coordinate system,
-    for monitoring the railway infrastructure. Using deep learning (DL) methods
-    in imagery we detected and mapped, approximately the 60% of the railroad
-    equipment of our interest (i.e. light signals and equipment boxes). These
-    detected equipment were analyzed with stereoscopic techniques to retrieve
-    their position in 3D world coordinate system. That led to the automated
-    creation of a geographical information system (GIS) map having the positional
-    and class information of railway equipment. Once the detected objects
-    were mapped, then the point cloud data were automatically cropped into
-    voxels including the same objects. Hence, using various sophisticated
-    machine learning (ML) techniques, the points referring to the objects
-    were classified. Furthermore, combining the positional information provided
-    via 2D analysis with 3D point clouds, the vertical position was refined
-    and the height of the mapped objects was estimated. Lastly, the positional
-    information estimated from the 2D analysis enhanced the unsupervised ML
-    classification in point clouds. The product of this classification, has
-    the potential to be used as training data to train supervised point cloud
-    classifiers.
-  uuid: ddba89ed-61cd-478a-8f07-8e2bccdfb403
 - surname: Wu
   name: Jialun
   title: Automatic building permits checks by means of 3D city models
@@ -6969,68 +6930,6 @@
     are promising and doopen the door for indoor navigation using Augmented
     Reality.'
   uuid: b50e234d-3fe0-44a4-9ec0-f5664ca79844
-- surname: Opsomer
-  name: Aviva
-  title: Exploring the effects of void decks on urban ventilation in Singapore
-  supervisors: C. Garcia Sanchez; P.J.W. van den Engel
-  year: 2020
-  graduation_date: '2020-07-10'
-  link: https://resolver.tudelft.nl/uuid:97304da6-8938-48eb-8117-ca53321b1e34
-  image: Opsomer.jpg
-  abstract: 'Rising temperatures due to climate change and the increased Urban
-    Heat Island (UHI) effect both have a major impact on Singapore’s outdoor
-    comfort. Research has reported an average UHI in Singapore of 4°C, which
-    can even exceed 7°C at some times of the day. (Acero & Ruefenacht, 2017)
-    Increasing convective surface heat transfer from the human body by means
-    of induced wind speeds is an important strategy to improve outdoor thermal
-    comfort. However, the combination of its high urban density, leading to
-    a considerable number of obstructions for urban wind flows, and the generally
-    low wind speeds due to its geographical proximity to the equator makes
-    urban ventilation in Singapore challenging. (Acero & Ruefenacht, 2017)
-    Since the 1970s, void decks, open spaces at the ground floor of buildings,
-    have become a typical characteristic of public housing flats in Singapore.
-    These have been shown to potentially increase wind speeds by more than
-    twofold. (Chew & Norford, 2019) However, the effect of void deck geometries
-    on the imbalance between outdoor thermal and pedestrian wind comfort in
-    a realistic urban setting has not been addressed before. Hence, the main
-    research question of this thesis was formulated as follows: How can the
-    geometry design of void decks be optimized to enhance urban ventilation
-    for outdoor thermal comfort in Singapore while ensuring good pedestrian
-    comfort? A strong mismatch between pedestrian wind comfort and outdoor
-    thermal comfort was observed in the study area with the simulated monsoon
-    wind conditions. This marks the importance to perform wind microclimate
-    analyses in a tropical environment as Singapore, focusing on both aspects.
-    This work demonstrates a design methodology that combines parametric design
-    tools with CFD (computational fluid dynamics) simulations with the aim
-    to make better wind-informed design decisions for an urban context. Using
-    a parametric building model, ten void deck geometry variants were generated
-    and compared. The implications of the observed flow pattern in terms of
-    urban planning were clarified. For example, while a horizontally converging
-    void deck geometry was found to be effective at directing the urban ventilation
-    towards a target location due to the funnel-shaped induced wind speed
-    region downstream, horizontally diverging void decks led to a more evenly
-    spread region of accelerated flow along the void length. The highest amplification
-    factors inside the void deck were obtained for a vertically diverging
-    geometry. This geometry was subsequently applied to all the buildings
-    facing the prevailing wind directions in the study area, Clementi, using
-    a parametric urban model. This model allows the user to apply various
-    void deck geometries to different building groups independently from each
-    other based on their orientation. A comparison of the wind speed and air
-    temperature distributions after the urban-scale intervention to the current
-    situation showed a wind speed increase and temperature decrease in almost
-    all the void decks. While the amplified wind speed region extended downstream
-    of some void decks, other areas in between the buildings showed a slowed
-    down wind flow. The temperature effects were more extreme at the more
-    closely-packed areas with a smaller distance in between the buildings.
-    Overall, it was concluded that the void deck modifications did not only
-    affect the local wind microclimate inside the void decks, but also altered
-    the wind conditions in between the buildings. Ideally, these wind speed-amplifying
-    void decks should be used in combination with other urban cooling strategies.
-    The proposed workflow was demonstrated for the geometry design of void
-    decks, but is also applicable in the optimization process of other building
-    features which may affect the urban wind microclimate, such as canopies
-    and building podia.'
-  uuid: 97304da6-8938-48eb-8117-ca53321b1e34
 - surname: Staring
   name: Karin
   title: CityJSON in combination with MongoDB, PostgreSQL and GraphQL
@@ -7426,31 +7325,6 @@
     with several stateof-the-art methods, our results still possess superior
     properties in terms of validity and integrity.'
   uuid: b0dac42c-6d7a-4dbf-a11b-ce851d573862
-- surname: Ai
-  name: Zhiwei
-  title: Semantic Segmentation of Large-scale Urban Scenes from Point Clouds
-  supervisors: Liangliang Nan
-  year: 2019
-  graduation_date: '2019-07-29'
-  link: https://resolver.tudelft.nl/uuid:a9cedaac-42ae-4cb0-9c14-67bab8e96a6d
-  image: 2019_ZhiweiAi.jpg
-  abstract: Deep learning methods have been demonstrated to be promising in
-    semantic segmentation of point clouds. Existing works focus on extracting
-    informative local features based on individual points and their local
-    neighborhood. They lack consideration of the general structures and latent
-    contextual relations of underlying shapes among points. To this end, we
-    design geometric priors to encode contextual relations of underlying shapes
-    between corresponding point pairs. Geometric prior convolution operator
-    is proposed to explicitly incorporate the contextual relations into the
-    computation. Then, GP-net, which contains geometric prior convolution
-    and a backbone network is constructed. Our experiments show that the performance
-    of our backbone network can be improved by up to 6.9 percent in terms
-    of mean Intersection over Union (mIoU) with the help of geometric prior
-    convolution. We also analyze different design options of geometric prior
-    convolution and GP-net. The GP-net has been tested on the Paris and Lille
-    3D benchmark, and it achieves the state-of-the-art performance of 74.7
-    % mIoU.
-  uuid: a9cedaac-42ae-4cb0-9c14-67bab8e96a6d
 - surname: Anastasiadou
   name: Anastasia
   title: A probabilistic analysis of results of co-registration of aerial
@@ -7944,6 +7818,8 @@
     were encountered, meaning that the average size of a household plays indeed
     a major role.
   uuid: 844b92d4-aa22-4ae7-b6c3-3b563dd3318e
+  programme_note: repository programme metadata lists another programme; verified
+    as Geomatics
 - surname: Herrera
   name: Meylin Herrera
   title: Landslide Detection using Random Forest Classifier

@@ -265,6 +265,32 @@ def initials(given_tokens):
     return [foldcase(g)[:1] for g in given_tokens if foldcase(g)]
 
 
+def surnames_agree(entry, display_name):
+    """True when the entry's surname appears in the record's author name
+    (token-wise, tussenvoegsel-insensitive). Given names are not compared:
+    the registry (full names) and the repository (initials, nicknames such
+    as Takis/Vangelis/Gabo) legitimately differ, and Ken has decided the
+    archive keeps the fullest known name. This check only catches wrong
+    attributions and swapped name fields."""
+    own = {foldcase(t) for t in
+           strip_tussenvoegsel(entry.get("surname", "")).split() if foldcase(t)}
+    if not own:
+        return True
+    theirs = {foldcase(t) for t in display_name.split() if foldcase(t)}
+    if own <= theirs:
+        return True
+    # The repository sometimes displays Chinese names family-initial first
+    # ("W. Qiuxian"): accept when that initial matches the entry surname's
+    # initial and the second token is the entry's given name.
+    tokens = [t for t in display_name.split() if foldcase(t)]
+    if (len(tokens) == 2 and re.fullmatch(r"[A-Za-z]\.", tokens[0])
+            and foldcase(entry.get("surname", ""))[:1] ==
+            foldcase(tokens[0])[:1]
+            and foldcase(tokens[1]) == foldcase(entry.get("name", ""))):
+        return True
+    return False
+
+
 def names_match(entry, mycase_row):
     """Tolerant match between an archive entry and a MyCase student name:
     same core surname plus a first-initial overlap handles 'R.M. Aalders'
@@ -423,7 +449,7 @@ def main():
                                    f"    yaml: {ours}\n    repo: {theirs}")
 
         if rec.get("programme") and "geomatics" not in \
-                rec["programme"].lower():
+                rec["programme"].lower() and not e.get("programme_note"):
             reports.append(f"PROGRAMME NOT GEOMATICS: {label} -> "
                            f"{rec['programme']}")
 
@@ -437,7 +463,7 @@ def main():
                 e["name"], e["surname"] = e["surname"], e["name"]
                 reports.append(f"NAME ORDER FIXED from record: "
                                f"{label} -> {author}")
-            elif not same_order and not names_match(e, author):
+            elif not same_order and not surnames_agree(e, author):
                 reports.append(f"NAME CHECK: {label}\n"
                                f"    yaml: {e['name']} {e['surname']}\n"
                                f"    repo: {author}")
