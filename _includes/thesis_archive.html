@@ -41,7 +41,7 @@
 {% endunless %}
 <section class="archive-year-block" data-year="{{ t.year }}">
   <h2 class="title is-3 archive-year">{{ t.year }}
-    <span class="archive-year-count">{{ theses | where: 'year', t.year | size }}</span>
+    <span class="archive-year-count has-text-grey">{{ theses | where: 'year', t.year | size }}</span>
   </h2>
   {% assign current_year = t.year %}
 {% endif %}
