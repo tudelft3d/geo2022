@@ -8,28 +8,37 @@
   name: Kelly
   cohort: 2026sep
   phase: Kick-off
+  title: 'Japan’s PLATEAU: from CityGML to CityJSON'
   supervisors: Hugo Ledoux; Hidemichi Baba
   needs_summary: true
 - surname: van der Meer
   name: Mark
   cohort: 2026sep
   phase: Kick-off
+  title: CityGit
   supervisors: Hugo Ledoux; Hidemichi Baba
   needs_summary: true
 - surname: Groeneveld
   name: Timber
   cohort: 2026sep
   phase: Preparation
+  title: Air temperature estimation through thermal satellite imagery
+  supervisors: Azarakhsh Rafiee
   needs_summary: true
 - surname: Ho
   name: Phuong Anh
   cohort: 2026sep
   phase: Preparation
+  title: Urban Heat Island Modelling Using Deep Learning and Satellite
+    Thermal Imagery
+  supervisors: Azarakhsh Rafiee
   needs_summary: true
 - surname: Nurmohamed
   name: Faried
   cohort: 2026sep
   phase: Preparation
+  title: Improving public spaces through urban comfort metrics
+    (thermal and social quality)
   supervisors: Daniele Cannatella; Claudiu Forgaci
   needs_summary: true
 - surname: Garcia Mezo
@@ -55,6 +64,8 @@
   name: Danny
   cohort: 2026april
   phase: Kick-off
+  title: Applying Implicit Neural Representations to Landsat Thermal
+    Infrared Imagery for Super-Resolution
   supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
   needs_summary: true
 - surname: Winterdal
