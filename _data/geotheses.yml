@@ -12,7 +12,7 @@
   year: 2026
   graduation_date: '2026-01-21'
   link: https://resolver.tudelft.nl/uuid:353dd7a1-2b70-4dca-accb-a1137a55fc91
-  image: 2026_Aalders.jpg
+  image: Aalders.png
   abstract: 'Digital technology and data are becoming more interwoven into
     daily life in cities. Much of this data is geographic data with a spatial
     component. Geomatics concerns the chain of geoinformation from acquisition
@@ -62,7 +62,7 @@
   year: 2026
   graduation_date: '2026-06-22'
   link: https://resolver.tudelft.nl/uuid:42e6250f-7dfb-49e2-bfc1-3277b915bdcb
-  image: FrederickAuer.jpg
+  image: frederick.jpg
   abstract: 'Global urbanisation and climate change mitigation efforts increasingly
     drive the need for precise urban energy planning and the testing of multiple
     future scenarios. While Urban Building Energy Modelling (UBEM) and semantic
@@ -102,7 +102,7 @@
   year: 2026
   graduation_date: '2026-06-26'
   link: https://resolver.tudelft.nl/uuid:a3876cb2-8740-4277-9292-d4f113de97b4
-  image: MichelBeeren.jpg
+  image: michel.jpg
   github: https://github.com/michelbeeren/MSc_Geomatics_Thesis_3D_alpha_wrap
   abstract: 'CGAL’s 3D Alpha Wrap robustly produces valid enclosing meshes
     for defective input using two parameters: α, which controls the carving-ball
@@ -137,7 +137,7 @@
   year: 2026
   graduation_date: '2026-06-17'
   link: https://resolver.tudelft.nl/uuid:d1148812-2a69-4d6b-b956-9560897e8b1d
-  image: 2026_XinyaBi.jpeg
+  image: xinya.jpg
   github: https://github.com/MaxineXinyaBi/3DGS_Pruning
   abstract: '3D Gaussian Splatting (3DGS) represents scenes as collections
     of Gaussian primitives whose attributes are shaped by multi-view photographic
@@ -166,7 +166,7 @@
   year: 2026
   graduation_date: '2026-04-24'
   link: https://resolver.tudelft.nl/uuid:c4b6866d-fc45-430a-962a-4b53fd883ef0
-  image: SaraBrakele.jpg
+  image: sara.jpg
   abstract: Earthquakes pose a significant risk to communities worldwide,
     damaging buildings and disrupting society. This makes it essential to
     understand how buildings respond to seismic events. Earthquake risk assessments
@@ -210,7 +210,7 @@
   year: 2026
   graduation_date: '2026-06-26'
   link: https://resolver.tudelft.nl/uuid:101ba3d8-1988-4025-b041-fafb12d2d2f3
-  image: AlexandreBry.jpg
+  image: alexandre.jpg
   github: https://github.com/alexandre-bry/MSc_Thesis-Code
   abstract: 'In recent years, several methods have been successfully developed
     to create 3D building models in LoD2.2 from ALS point clouds. These methods
@@ -238,7 +238,7 @@
   year: 2026
   graduation_date: '2026-06-24'
   link: https://resolver.tudelft.nl/uuid:700a6579-a227-4984-8fd8-f980af99c8ba
-  image: 2026_Cordes.jpg
+  image: carlo.jpg
   abstract: The ever increasing frequence and destructiveness of wildfires
     across the globe calls for accurate interpretation of the underlying conditions
     to enhance data-driven mitigation strategies. While deep learning techniques
@@ -280,7 +280,7 @@
   year: 2026
   graduation_date: '2026-06-16'
   link: https://resolver.tudelft.nl/uuid:0e63075e-ae21-4953-b0c1-6b4080de2420
-  image: 2026_denHartog.jpg
+  image: anne.jpg
   abstract: This thesis investigated how SOLWEIG-derived urban microclimate
     data can be transformed and integrated into a fully open-source, scalable
     pedestrian routing tool that supports thermally conscious mobility decisions.
@@ -309,7 +309,7 @@
   year: 2026
   graduation_date: '2026-06-24'
   link: https://resolver.tudelft.nl/uuid:d18b9ec9-a296-47c3-a2d0-92969777369e
-  image: 2026_Aires.jpg
+  image: carmem.jpg
   abstract: 'Climate change is intensifying urban heat stress, and microclimate
     simulation can support climate-responsive planning. Computational fluid
     dynamics (CFD) is the dominant approach at the microscale, but urban CFD
@@ -355,7 +355,7 @@
   year: 2026
   graduation_date: '2026-06-15'
   link: https://resolver.tudelft.nl/uuid:bbbae5e7-81a5-4cb1-9e01-d349ee7c24ad
-  image: 2026_MingChiehHu.jpeg
+  image: mingchieh.jpg
   github: https://github.com/MCHU-1999/AdaptivePS
   abstract: In the last three years, 3DGS has attracted widespread attention
     due to its fast training and high-quality rendering, leading to numerous
@@ -391,7 +391,7 @@
   year: 2026
   graduation_date: '2026-06-19'
   link: https://resolver.tudelft.nl/uuid:87d76db5-8f12-45ba-9317-045b71773cc5
-  image: 2026_Hutama.jpg
+  image: andikahadi.jpg
   abstract: 'Historical maps are a rich source of information about past urban
     landscapes, but their contents remain largely inaccessible for computational
     analysis. This thesis investigates and compares two deep learning approaches
@@ -443,7 +443,7 @@
   year: 2026
   graduation_date: '2026-01-16'
   link: https://resolver.tudelft.nl/uuid:1954f6ce-686c-4686-80d1-37f26ee22d8e
-  image: 2026_Giorgos.jpg
+  image: Iliopoulos.png
   github: https://github.com/IlioTheG/roomplan_to_honeybee
   abstract: 'This project evaluates the suitability of 3D interior space models
     acquired using Apple’s RoomPlan API for daylight simulations. The main
@@ -483,7 +483,7 @@
   year: 2026
   graduation_date: '2026-07-02'
   link: https://resolver.tudelft.nl/uuid:4a7d373a-f100-483d-9eb2-9e07a392e1e7
-  image: HyejiJoh.jpg
+  image: Joh.jpg
   abstract: 'Economic segregation has been studied using various social simulation
     models, including agent-based models. These models, however, typically
     operate on abstract or schematic spatial representations that strip away
@@ -513,7 +513,7 @@
   year: 2026
   graduation_date: '2026-06-23'
   link: https://resolver.tudelft.nl/uuid:d2954f9d-f996-43ae-81f0-a587c34ed715
-  image: LucJonker.jpg
+  image: luc.jpg
   github: https://github.com/lucjonker/Shady_Shenanigans
   abstract: Ever increasing global heat has necessitated more robust urban
     shade analysis in order to keep, among other applications, pedestrians
@@ -548,7 +548,7 @@
   year: 2026
   graduation_date: '2026-06-18'
   link: https://resolver.tudelft.nl/uuid:3da9ea32-06b5-444a-bca2-5a0ffec282b2
-  image: 2026_JuliaPille.jpg
+  image: julia.jpg
   github: https://github.com/juliapille/SAND-E
   abstract: Maritime navigation relies heavily on Global Navigation Satellite
     Systems (GNSS), yet military surface vessels must remain operational when
@@ -581,7 +581,7 @@
   year: 2026
   graduation_date: '2026-06-19'
   link: https://resolver.tudelft.nl/uuid:7602dac0-1b60-4ccd-bf67-e6d40b3e4da7
-  image: 2026_Roorda.jpg
+  image: yair.jpg
   abstract: In modern warfare and airborne operations, such as those carried
     out by drones and helicopters, precise visibility calculations are critical
     to mission success. However, current automated methods for calculating
@@ -610,7 +610,7 @@
   year: 2026
   graduation_date: '2026-06-22'
   link: https://resolver.tudelft.nl/uuid:2fd2a861-a1f8-4b64-a02e-17a804b04bc6
-  image: HeikoRotteveel.jpg
+  image: heiko.jpg
   github: https://github.com/HeikoRotteveel/ICESat-2_automatic_water_detection
   abstract: Accurate data on inland water surface elevations are becoming
     increasingly important as climate change intensifies extreme weather events
@@ -660,7 +660,7 @@
   year: 2026
   graduation_date: '2026-06-15'
   link: https://resolver.tudelft.nl/uuid:fe05529d-fe1c-49e4-8d98-1a0acb2bfa93
-  image: DaanSchlosser.jpg
+  image: daan.jpg
   github: https://github.com/DaanSchlosser/CityGML2.0-EnergyADE3.0_creator
   abstract: 'Reaching the European Union’s 2050 climate targets depends on
     renovating a building stock that accounts for roughly 40% of EU energy
@@ -719,7 +719,7 @@
   year: 2026
   graduation_date: '2026-06-23'
   link: https://resolver.tudelft.nl/uuid:47f57012-2d9b-4bca-8d72-c31ffd2db163
-  image: NeelabhSingh.jpg
+  image: neelabh.jpg
   github: https://github.com/neelabhz/pixel2sidewalk/
   abstract: Sidewalks are fundamental urban infrastructure, yet large-scale,
     openly available geospatial sidewalk datasets remain scarce worldwide,
@@ -758,7 +758,7 @@
   year: 2026
   graduation_date: '2026-06-22'
   link: https://resolver.tudelft.nl/uuid:6d044e6b-20e2-4329-8fe5-709a7064bb5a
-  image: 2026_Teo.jpg
+  image: mingjie.jpg
   abstract: '3D Gaussian Splatting (3DGS) has emerged as a compelling method
     for scene reconstruction by producing compact, photorealistic representations
     of physical environments in real-time. Its application to indoor spaces,
@@ -799,7 +799,7 @@
   year: 2026
   graduation_date: '2026-06-23'
   link: https://resolver.tudelft.nl/uuid:dd91471f-e3a5-4c71-94d9-1162ee7ac0ae
-  image: 2026_vanBlokland.jpg
+  image: lars.jpg
   abstract: Accurate estimates for air temperatures in urban environments
     can help with timely and precise action against the urban heat island
     (UHI) effect. Uncertainty-aware spatio-temporal transformers are an ideal
@@ -824,7 +824,7 @@
   year: 2026
   graduation_date: '2026-06-16'
   link: https://resolver.tudelft.nl/uuid:1d9c45bd-1bac-4dbc-8fbf-0218dfba1d3c
-  image: VincentVanderheeren.jpg
+  image: vincent.jpg
   github: https://github.com/Alcardens/Mathematical-morphology-point-cloud
   abstract: 'Heritage point clouds are an increasingly common tool used in
     the conservation and documentation of cultural assets. Yet, their geometric
@@ -862,7 +862,7 @@
   year: 2026
   graduation_date: '2026-06-09'
   link: https://resolver.tudelft.nl/uuid:ba9ea5f6-abdf-44e4-8a6f-cb50bdf804f2
-  image: SueWang.jpg
+  image: sue.jpg
   github: https://github.com/tudelftgeomatics/tud-thesis-showcase
   abstract: 'Indoor navigation in complex public buildings requires more than
     geometric shortest-path routing. In multi-level station environments,
@@ -903,7 +903,7 @@
   year: 2026
   graduation_date: '2026-06-23'
   link: https://resolver.tudelft.nl/uuid:4504aec1-8cb9-4945-90eb-d5f6e9a1d5fd
-  image: 2026_Wu.jpg
+  image: Wu.png
   abstract: Building material identification plays an important role in applications
     such as sustainable building assessment, facade inspection, energy efficiency
     analysis, and urban environmental studies. Traditional material identification
@@ -948,7 +948,7 @@
   year: 2026
   graduation_date: '2026-06-23'
   link: https://resolver.tudelft.nl/uuid:7c6cabb3-a5a9-43d4-b710-75ed3075b4c3
-  image: 2026_Ye.jpg
+  image: hongyu.jpg
   abstract: Urban trees deliver ecosystem services until extreme winds turn
     them into hazards, and municipal managers need a defensible, decision-relevant
     risk label for the individual tree during real storm events. The mature
@@ -980,7 +980,7 @@
   year: 2025
   graduation_date: '2025-10-31'
   link: https://resolver.tudelft.nl/uuid:adc9c299-b8f7-4854-b004-dcf2393d06fb
-  image: noah.png
+  image: Alting.png
   github: https://github.com/NoahAlting/CFTree
   abstract: Urban climate simulations increasingly rely on digital twins of
     cities, yet vegetation remains largely absent or oversimplified despite
@@ -1022,7 +1022,7 @@
   year: 2025
   graduation_date: '2025-07-02'
   link: https://resolver.tudelft.nl/uuid:ee07157a-8774-4340-bb71-417894b243e7
-  image: 2025_Andinasari.jpg
+  image: Andinasari.png
   abstract: 'As cities grow denser and more and more in vertical directions,
     Land Administration Systems (LAS) must evolve to represent complex, multi-level
     property ownership, particularly in apartment buildings. While Building
@@ -1064,7 +1064,7 @@
   year: 2025
   graduation_date: '2025-06-17'
   link: https://resolver.tudelft.nl/uuid:44ccce83-5095-4fc1-a36d-04a2630e391e
-  image: 2025_Der_Derian_RM_cover.png
+  image: Bainus.jpg
   abstract: Accurate alignment of heterogeneous LiDAR point clouds is important
     for producing high-quality elevation data. This process, known as harmonisation,
     corrects spatial discrepancies between overlapping datasets collected
@@ -1106,7 +1106,7 @@
   year: 2025
   graduation_date: '2025-06-18'
   link: https://resolver.tudelft.nl/uuid:6727c979-5e46-4fe0-9349-a7803e825d02
-  image: 2025_baba.png
+  image: Baba.png
   github: https://github.com/HideBa/flatcitybuf
   abstract: Standardising data formats for 3D city models is crucial for semantically
     storing real-world information as permanent records. CityJSON is a widely
@@ -1145,7 +1145,7 @@
   year: 2025
   graduation_date: '2025-10-28'
   link: https://www.gdmc.nl/publications/2025/MScThesisVidushiBhatt.pdf
-  image: 2025_Bhatt.jpg
+  image: Bhatt.png
 - surname: Boertjes
   name: Lars
   title: Selective imag region focus for efficient 3D building reconstruction
@@ -1154,7 +1154,7 @@
   year: 2025
   graduation_date: '2025-06-17'
   link: https://resolver.tudelft.nl/uuid:4384b354-6a98-46b3-a330-f1281cda3090
-  image: 2025_Lars.jpg
+  image: Boertjes.jpg
   abstract: High-quality 3D mesh models are increasingly used in urban applications
     ranging from planning and simulation to environmental monitoring. While
     aerial imagery provides a practical balance between resolution and coverage,
@@ -1193,7 +1193,7 @@
   year: 2025
   graduation_date: '2025-03-12'
   link: https://resolver.tudelft.nl/uuid:ccbbc7d1-65d8-42b1-a542-f007961bb28b
-  image: 2025_Chandran.jpg
+  image: Chandran.png
   abstract: The growing global consumption of non-renewable resources is a
     significant societal concern. The shortage of primary raw materials and
     the decreasing availability of space for final waste disposal present
@@ -1240,7 +1240,7 @@
   year: 2025
   graduation_date: '2025-06-19'
   link: https://resolver.tudelft.nl/uuid:4a31d2f4-1615-4afb-a2d8-a9cbfd1530b2
-  image: Hsinyu_2025.jpg
+  image: Cheng.png
   github: https://github.com/appleadele/Roof-Structure-Extraction-from-Remote-Sensing-Images.git
   abstract: 'This thesis presents a method for extracting structured roof
     surfaces from remote sensing images. It achieved this by combining semantic
@@ -1297,7 +1297,7 @@
   year: 2025
   graduation_date: '2025-06-17'
   link: https://resolver.tudelft.nl/uuid:aae7672b-ffd7-4656-a81a-8c4134f0b197
-  image: 2025_LottedeNiet.jpeg
+  image: de Niet.png
   github: https://github.com/lottedeniet/Thesis_reconstructing_3D_BIM_Legal_models
   abstract: The continued growth in the complexity of apartment buildings,
     and the digitization of building processes have led to a rise in the use
@@ -1347,7 +1347,7 @@
   year: 2025
   graduation_date: '2025-06-19'
   link: https://resolver.tudelft.nl/uuid:148178a4-f7ce-4f09-b4bd-267e4d7f15bc
-  image: 2025_gan.png
+  image: Gan.png
   github: https://github.com/Ganbusier/final_thesis
   abstract: 'This thesis addresses the challenge of extracting wireframe models
     which consist of 3d line segments from point clouds of man-made urban
@@ -1393,7 +1393,7 @@
   year: 2025
   graduation_date: '2025-06-26'
   link: https://resolver.tudelft.nl/uuid:ccaddf77-5895-41e1-b957-ad9f3bc1bd7a
-  image: 2025_Gao.jpg
+  image: Gao.png
   abstract: 'Map labels play an important role in helping users interpret
     geographic information. Traditional label placement algorithms are typically
     designed for static or fixed-scale maps, where labels appear at discrete,
@@ -1437,7 +1437,7 @@
   year: 2025
   graduation_date: '2025-10-31'
   link: https://resolver.tudelft.nl/uuid:c7dea111-2693-4889-a304-2ad135fe824f
-  image: 2025_Giampaolo.jpg
+  image: Giampaolo.png
   abstract: Urban climate affects how people move through cities, but its
     influence is difficult to capture with models based on generalized comfort
     indices that ignore individual experiences of climate. This thesis instead
@@ -1474,7 +1474,7 @@
   year: 2025
   graduation_date: '2025-06-26'
   link: https://resolver.tudelft.nl/uuid:183c0840-7b31-4993-a942-89327d1ce8df
-  image: 2025_Gong.jpg
+  image: Gong.jpg
   abstract: High-resolution image mosaicking plays a critical role in geomatics
     and remote sensing applications, allowing efficient visualization, measurement,
     and analysis of large-scale envi ronments. Although existing commercial
@@ -1504,7 +1504,7 @@
   year: 2025
   graduation_date: '2025-06-18'
   link: https://resolver.tudelft.nl/uuid:dddf8cce-f516-4715-b810-9adb3ad2cfb0
-  image: 2025_Huizer.jpg
+  image: Huizer.png
   abstract: 'Building heights are important information for a variety of subjects,
     such as wind analysis, energy demand simulations and solar potential assessment,
     yet large-scale LiDAR scanning is costly. This thesis introduces PHYSHADE:
@@ -1541,7 +1541,7 @@
   year: 2025
   graduation_date: '2025-06-26'
   link: https://resolver.tudelft.nl/uuid:522563f9-c443-473a-894b-820b92e97f8a
-  image: 2025_Kahn.jpg
+  image: Kahn.jpg
   abstract: This thesis explores the development and validation of a synthetic
     framework for oblique aerial image adjustment and object point detection,
     with the goal of improving photogrammetric workflows in complex urban
@@ -1579,7 +1579,7 @@
   year: 2025
   graduation_date: '2025-10-30'
   link: https://www.gdmc.nl/publications/2025/MScThesisXuehengLi.pdf
-  image: 2025_Li.jpg
+  image: Li.png
 - surname: Manden
   name: Bart
   title: Impact of building model voxel resolution in wind simulations using
@@ -1588,6 +1588,7 @@
   year: 2025
   graduation_date: '2025-10-29'
   link: https://resolver.tudelft.nl/uuid:7f192b96-9d07-4445-bbf7-376d00f6621e
+  image: Manden.png
   abstract: Computational Fluid Dynamics (CFD) is widely used to analyse wind
     flow around buildings; however, creating detailed input geometries and
     corresponding meshes can be a time-consuming process. This thesis investigates
@@ -1628,7 +1629,7 @@
   year: 2025
   graduation_date: '2025-10-27'
   link: https://resolver.tudelft.nl/uuid:cb2d5329-61a2-400e-b311-0cc278537de0
-  image: 2025_Martinez.jpg
+  image: Martínez.png
   abstract: Fields like geology, mining, and construction have long relied
     on manual rock and soil classification methods, which remain time-consuming
     and labour-intensive. Accurate rock and soil classification is necessary
@@ -1665,7 +1666,7 @@
   year: 2025
   graduation_date: '2025-06-30'
   link: https://resolver.tudelft.nl/uuid:455a295d-715c-4c90-b0ad-1a04e02d4038
-  image: 2025_Michalas.jpg
+  image: Michalas.png
   abstract: 'High-resolution aerial imagery plays a critical role in urban
     planning, energy mapping, and land-use classification. However, many datasets
     remain limited to lower resolutions due to acquisition costs or legacy
@@ -1705,7 +1706,7 @@
   year: 2025
   graduation_date: '2025-06-19'
   link: https://resolver.tudelft.nl/uuid:02dbba26-0535-4c05-a39b-e5b09c3d0712
-  image: 2025_monahan.png
+  image: Monahan.png
   github: https://github.com/jsscmnhn/SOLWEIG_SOLFD
   abstract: 'As urbanization and climate change intensify, managing the urban
     microclimate becomes increasingly challenging, affecting outdoor thermal
@@ -1739,7 +1740,7 @@
   year: 2025
   graduation_date: '2025-10-30'
   link: https://resolver.tudelft.nl/uuid:a89624a8-015f-426f-86e9-95cb5fa68d46
-  image: 2025_Mouzakidis.jpg
+  image: Mouzakidis.png
   abstract: This thesis develops an LADM-based (ISO 19152-2) profile for the
     legal registration and management of archaeological heritage in three
     dimensions. The research addresses the need to represent rights, restrictions,
@@ -1767,7 +1768,7 @@
   year: 2025
   graduation_date: '2025-10-30'
   link: https://resolver.tudelft.nl/uuid:bf97005e-bd6c-4d76-b5e8-91a94c40d99f
-  image: 2025_adhisye.jpg
+  image: Rahmawati.png
   abstract: 'In recent years, rising energy demand and intensifying climate
     change impacts have placed urban energy systems under growing pressure.
     Higher average temperatures and more frequent heatwaves are projected
@@ -1813,7 +1814,7 @@
   year: 2025
   graduation_date: '2025-06-18'
   link: https://resolver.tudelft.nl/uuid:0cbc8705-3017-4887-9283-5607a5e691c1
-  image: 2025_Tarczyski.jpg
+  image: Tarczynski.jpg
   abstract: Urban freight transport is a critical yet complex component of
     city logistics, shaped not only by transport networks but also by the
     morphological structure of urban areas. Traditional forecasting models
@@ -1847,6 +1848,7 @@
   year: 2025
   graduation_date: '2025-06-16'
   link: https://resolver.tudelft.nl/uuid:aeca557e-a350-45af-9427-d7a503416129
+  image: Tew.png
   abstract: Urban resilience is an evergrowing issue as cities face environmental,
     social and infrastructural challenges. Green infrastructure is currently
     being used as one of the main approaches in achieving urban resilience
@@ -1883,7 +1885,7 @@
   year: 2025
   graduation_date: '2025-10-27'
   link: https://resolver.tudelft.nl/uuid:3de9d68a-c565-450e-9d0a-742c94f312c4
-  image: 2025_Tsalapati.jpg
+  image: Tsalapati.png
   abstract: Daylight is a significant factor in the decision-making process
     of urban planners and architects when intervening in an urban environment.
     A considerable element in such a complex environment, assessed in daylight
@@ -1936,7 +1938,7 @@
   year: 2025
   graduation_date: '2025-01-15'
   link: https://resolver.tudelft.nl/uuid:39932cfe-97d0-40ee-a071-55d31e7b5d0c
-  image: 2025_Tsipa.jpg
+  image: Tsipa.png
   abstract: This thesis explores methods to enhance the usability of vario-scale
     maps, focusing on user interaction, cognitive load, and overall satisfaction.
     Vario-scale maps, based on a continuous zooming approach introduced by
@@ -1981,7 +1983,7 @@
   year: 2025
   graduation_date: '2025-06-26'
   link: https://resolver.tudelft.nl/uuid:b1526eae-f17d-497c-a741-f4528479b03b
-  image: 2025_Arnhem.jpg
+  image: van Arnhem.png
   abstract: Up-to-date 3D data is essential for urban planning, building inspections,
     and monitoring changes in the built environment. While 2D aerial imagery
     is widely used, it lacks height information and is sensitive to shadows
@@ -2018,7 +2020,7 @@
   year: 2025
   graduation_date: '2025-06-26'
   link: https://resolver.tudelft.nl/uuid:06665492-fe43-45fb-9eb8-b193b68a7307
-  image: 2025_Wang.jpg
+  image: Wang.png
   abstract: 'This thesis proposes a structured and scalable workflow for semantically
     enriched Smart Point Cloud (SPC) grounded in Heritage Building Information
     Model (HBIM) ontology. Rather than representing the heritage object with
@@ -2056,7 +2058,7 @@
   year: 2025
   graduation_date: '2025-10-27'
   link: https://www.gdmc.nl/publications/2025/MScThesisQiaoruiYang.pdf
-  image: 2025_Yang.jpg
+  image: Yang.webp
 - surname: Zhao
   name: Xiaduo
   title: Structure guided roof heightmap completion
@@ -2064,7 +2066,7 @@
   year: 2025
   graduation_date: '2025-06-19'
   link: https://resolver.tudelft.nl/uuid:7ffafb9f-2c91-4ee0-9f02-6a597d438214
-  image: 2025_zhao.png
+  image: Zhao.png
   github: https://github.com/xdzhaooo/msc_roof_completion
   abstract: 'Urban digital twins rely on accurate rooftop geometry, yet airborne
     lidar point clouds are frequently sparse and incomplete, leading to substantial
@@ -2107,7 +2109,7 @@
   year: 2024
   graduation_date: '2024-10-30'
   link: https://resolver.tudelft.nl/uuid:77dce0e4-beac-462d-82d6-69e5b3764df3
-  image: 2024_Batum.jpg
+  image: Batum.png
   abstract: 'Traditional planning processes are often manual, time-consuming,
     and prone to errors. While much of the recent research has focused on
     automating the permitting phase, this study addresses an earlier step:
@@ -2156,7 +2158,7 @@
   year: 2024
   graduation_date: '2024-10-31'
   link: https://resolver.tudelft.nl/uuid:4893ca9e-5cce-42ba-8ded-7cff98258cce
-  image: brouwer.png
+  image: Brouwer.png
   github: https://github.com/GGBRW/CoralGenerator
   abstract: While three-dimensional coral reef models are valuable for various
     applications, existing approaches like photogrammetric scanning and manual
@@ -2198,7 +2200,7 @@
   year: 2024
   graduation_date: '2024-01-18'
   link: https://resolver.tudelft.nl/uuid:485371bf-9a86-4eef-92c3-125a8904672c
-  image: 2024_Cai.jpg
+  image: 4b5df05abbc6-pointcloud_in_database.png
   abstract: Point cloud data are gaining more importance in the Geomatics
     domain, with the development of modern sensing technologies like LiDAR
     and photogrammetry. The size of massive point clouds are growing, and
@@ -2230,7 +2232,7 @@
   year: 2024
   graduation_date: '2024-10-30'
   link: https://resolver.tudelft.nl/uuid:1f082b4d-5d96-4c72-8777-c62f76cc2624
-  image: 2024_Chen.jpg
+  image: Chen.png
   abstract: This thesis explores the integration of the Land Administration
     Domain Model (LADM) with Sustainable Development Goal (SDG) indicator
     1.4.2, which focuses on land tenure security and the availability of legal
@@ -2263,7 +2265,7 @@
   year: 2024
   graduation_date: '2024-06-19'
   link: https://resolver.tudelft.nl/uuid:060a3f80-3200-4900-8b8f-572cbbb57e5f
-  image: 2024_Dechamps.jpg
+  image: 21dddc881e96-3D_utility_mappping.jpeg
   abstract: Utility networks are critical components of urban infrastructure,
     providing essential services such as water supply, electricity, gas, and
     telecommunications. The traditional method for mapping these networks
@@ -2346,7 +2348,7 @@
   year: 2024
   graduation_date: '2024-06-20'
   link: https://resolver.tudelft.nl/uuid:a180e48a-4bd2-4606-bce5-9449559bee12
-  image: yingxin.jpg
+  image: Feng.png
   github: https://github.com/fengyingxin/MSc-Thesis
   abstract: Generative AI is developing rapidly and has shown great potential
     in generating and editing images with text prompts. It has achieved partial
@@ -2393,7 +2395,7 @@
   year: 2024
   graduation_date: '2024-01-19'
   link: https://resolver.tudelft.nl/uuid:0d4f6592-456a-413a-a10b-e7d30930e126
-  image: 2024_Gheorghiu.jpg
+  image: 84704be058-P1_image.jpg
   abstract: Global Navigation Satellite System is a spatial data acquisition
     technique, mostly used in navigation and positioning. One of the main
     components of this technique is the satellite visibility, which refers
@@ -2429,7 +2431,7 @@
   year: 2024
   graduation_date: '2024-06-17'
   link: https://resolver.tudelft.nl/uuid:2a3d6f15-c8d5-4ab6-b3c5-f46c6c433d43
-  image: 2024_Gong.jpg
+  image: Gong.png
   abstract: 'With the proliferation of the IoT infrastructure, the trajectory
     data is dynamically emerging. This data originates from a variety of moving
     objects, containing big volumes of multi-dimensional information such
@@ -2481,7 +2483,7 @@
   year: 2024
   graduation_date: '2024-01-16'
   link: https://resolver.tudelft.nl/uuid:4bfbc01f-1681-4640-9b00-c1a800a4f74d
-  image: 2023_hengelmolen.jpg
+  image: 5c40675684bb-Research_in_one_image.png
   github: https://github.com/MarenHengelmolen/thesis
   abstract: 'Computational Fluid Dynamics (CFD) simulations for residential
     areas are becoming increasingly important as the urban population keeps
@@ -2511,7 +2513,7 @@
   year: 2024
   graduation_date: '2024-07-03'
   link: https://resolver.tudelft.nl/uuid:5d20ed5a-9467-4760-b086-6da90073a257
-  image: 2024_Kaal.jpg
+  image: Kaal.webp
   abstract: 'The transition to a fully electrified energy grid in the Netherlands
     is essential for the country''s energy transition strategy. However, the
     existing grid infrastructure struggles to support the increased demand
@@ -2564,7 +2566,7 @@
   year: 2024
   graduation_date: '2024-01-17'
   link: https://resolver.tudelft.nl/uuid:50e2609e-644d-4241-b3f2-a17f204d2c06
-  image: Kan.png
+  image: 5e80ad6129a8-cover_image.png
   github: https://github.com/leowlk/RF_Terrain
   abstract: The Earth's surface is a complex landscape that is essential for
     a wide range of applications, from urban planning to environmental monitoring.
@@ -2595,7 +2597,7 @@
   year: 2024
   graduation_date: '2024-06-17'
   link: https://resolver.tudelft.nl/uuid:6331f94b-b1f0-49f7-96d7-6ddb3e45d124
-  image: 2024_Kawasaki.jpg
+  image: Tarozzo Kawasaki.jpg
   abstract: 'The Delta Program states that the Netherlands must be climate-resilient
     and water-robust by 2050, posing a great challenge to spatial planning.
     This imminent challenge of climate adaptation requires a common ground
@@ -2645,7 +2647,7 @@
   year: 2024
   graduation_date: '2024-11-01'
   link: https://resolver.tudelft.nl/uuid:b5de420d-e0a2-4265-8bac-e7ae12f75e8c
-  image: 9ba90df526de-repair.gif
+  image: 1a8a2ff49f94-repair.gif
   github: https://github.com/Lkeurentjes/AUTOr3pair
   abstract: The growing complexity of urban environments has intensified the
     need for accurate 3D city models to support simulations and analyses in
@@ -2689,7 +2691,7 @@
   year: 2024
   graduation_date: '2024-06-18'
   link: https://resolver.tudelft.nl/uuid:ca630fac-e9ed-4653-af9e-325bcb821794
-  image: 2024_Kbben.jpg
+  image: Köbben.png
   abstract: Geo-information has many applications in various sectors and is
     used by public agencies as well as the private sector. A key method for
     sharing and visualising geo-information is through web viewers. Extensive
@@ -2732,7 +2734,7 @@
   year: 2024
   graduation_date: '2024-06-26'
   link: https://resolver.tudelft.nl/uuid:4fce75a7-05f6-4854-b3f8-7fff5de114aa
-  image: 2024GabrielaKosterv2_200.png
+  image: Koster.png
   abstract: 'Lowering energy demand in buildings is high on the political
     agenda considering household energy consumption accounts for 22% of the
     total final energy usage in the Netherlands. Tools that can run these
@@ -2766,7 +2768,7 @@
   year: 2024
   graduation_date: '2024-07-03'
   link: https://resolver.tudelft.nl/uuid:c9211a3c-2b54-4895-8a85-06dcdfe6df3b
-  image: sitong.jpg
+  image: Li.jpg
   github: https://github.com/StoneLee0917/DSM-with-nueral-representation-
   abstract: 'The accuracy and comprehensiveness of 3D city models have become
     increasingly important for applications like monitoring, sustainability
@@ -2809,7 +2811,7 @@
   year: 2024
   graduation_date: '2024-11-04'
   link: https://resolver.tudelft.nl/uuid:e6ab08b9-a4d9-4e9c-86ec-3805631cf998
-  image: 2024_sharath_msc.png
+  image: Madanu.png
   github: https://github.com/AutumnMoon00/RefineNet
   abstract: Accurately classifying laser-scanned point cloud data remains
     a critical challenge in geospatial analysis, particularly due to the complexity
@@ -2847,7 +2849,7 @@
   year: 2024
   graduation_date: '2024-10-31'
   link: https://resolver.tudelft.nl/uuid:c463e920-61e6-40c5-89e9-25354fadf549
-  image: mantas.png
+  image: Mantas.png
   github: https://github.com/DimitrisMantas/RoofSense
   abstract: Roofing material classification is becoming pivotal in urban decision-making,
     supporting processes like asbestos mapping, disaster preparation, and
@@ -2898,7 +2900,7 @@
   year: 2024
   graduation_date: '2024-07-08'
   link: https://resolver.tudelft.nl/uuid:e8d8fa2a-91b5-4ef7-8d19-a354dccfd6c7
-  image: 2024_Mao.jpg
+  image: Mao.png
   abstract: As urban architectural environments become increasingly complex
     and densely populated, the demand for precise registration of legal statuses,
     encompassing both private and public interests, has become more urgent.
@@ -2937,7 +2939,7 @@
   year: 2024
   graduation_date: '2024-06-27'
   link: https://resolver.tudelft.nl/uuid:47fbe5bb-fdf2-44b4-8aa0-19d16385f781
-  image: serenic.png
+  image: Monté.jpg
   abstract: In this thesis we present a new idea to objectively assess reconstruction
     algorithms. Because it is not feasible to completely scan a high-detailed
     ground truth mesh of large urban objects, the performance of the reconstructed
@@ -2963,7 +2965,7 @@
   year: 2024
   graduation_date: '2024-10-31'
   link: https://resolver.tudelft.nl/uuid:269af5b6-1278-4afc-9b06-64cfba0bbf40
-  image: 2024_Nestoras.jpg
+  image: Nestoras.jpg
   abstract: Accurate positioning has become an essential component of modern
     life, crucial for applications ranging from navigation and industrial
     operations to emergency response. The Global Navigation Satellite System
@@ -2997,7 +2999,7 @@
   year: 2024
   graduation_date: '2024-01-18'
   link: https://resolver.tudelft.nl/uuid:3ef77acb-b38b-4fa5-9b1e-31813b00b739
-  image: 2023_HKPoon.png
+  image: 5259f82bccd-thesis_research_image.png
   github: https://github.com/tudelft3d/ML_bldg_type
   abstract: Urban Energy Modeling (UEM) provides a comprehensive approach
     to urban planning, helping to create sustainable, resilient, and energy-efficient
@@ -3048,7 +3050,7 @@
   year: 2024
   graduation_date: '2024-11-01'
   link: https://resolver.tudelft.nl/uuid:d6dc629c-c75e-4578-b1a1-8ac741133751
-  image: post.png
+  image: Post.png
   github: https://github.com/OliverJPost/CityStack
   abstract: 'This thesis introduces the “city stack” framework and the concept
     of the “typology grid” to analyze and procedurally generate cities using
@@ -3088,7 +3090,7 @@
   year: 2024
   graduation_date: '2024-10-29'
   link: https://resolver.tudelft.nl/uuid:0bae72e4-ff16-4921-8f6e-d92fa4a377d7
-  image: chengzhi.png
+  image: Rao.png
   abstract: Road network models are essential for modern urban planning, transportation
     analysis, and digital map reconstruction. This thesis addresses the development
     of a comprehensive digital road network model that advances from linear
@@ -3128,7 +3130,7 @@
   year: 2024
   graduation_date: '2024-10-30'
   link: https://resolver.tudelft.nl/uuid:42ae723f-4924-402c-9d8a-992f70f21bf4
-  image: 2024_QiweiShen.jpg
+  image: Shen.png
   github: https://github.com/qiweishen/Plant2Skeleton
   abstract: Plant phenotyping plays a vital role in plant genetics and breeding
     programs, providing the foundation for screening and evaluating genetic
@@ -3178,7 +3180,7 @@
   year: 2024
   graduation_date: '2024-10-31'
   link: https://resolver.tudelft.nl/uuid:c97064d2-6ddb-4297-81bf-8e159ffd1d2e
-  image: 2024_Spit.jpg
+  image: Spit.JPG
   abstract: This thesis evaluates the presence and implications of gender-blindness
     in the design of campus maps at five Dutch universities. Through a combination
     of literature review and case study analysis, the research explores how
@@ -3205,7 +3207,7 @@
   year: 2024
   graduation_date: '2024-01-17'
   link: https://resolver.tudelft.nl/uuid:e1fdfc2b-c0e3-4c02-bb78-cdbf0cc10c1a
-  image: 2024_Sterkman.jpg
+  image: 19692579b880.jpg
   abstract: Water management is an integral part of Dutch history, driven
     by the continuous need to reduce flood risk. Because a large area of the
     country is located below Normaal Amsterdams Peil (NAP), there is an ongoing
@@ -3258,7 +3260,7 @@
   year: 2024
   graduation_date: '2024-10-29'
   link: https://resolver.tudelft.nl/uuid:5992ba24-8618-48d7-9e24-28839b5da16b
-  image: 2024_bs_tsai.png
+  image: Tsai.png
   github: https://github.com/bsttsai/3DCityDB-Tools-for-QGIS_beta/tree/thesis_final
   abstract: 'Semantic 3D city models are essential for visualising, analysing,
     and managing the built environment. CityGML is an international standard
@@ -3370,7 +3372,7 @@
   year: 2024
   graduation_date: '2024-04-17'
   link: https://resolver.tudelft.nl/uuid:c05dedaa-5beb-45f9-b107-9ccd93b29e64
-  image: 2024_Esch.jpg
+  image: b26f2f664fac-warmcity.png
   abstract: In the summer of 2023, heatwaves became quite prominent in the
     south of Europe. Due to the extreme heat, the health of those citizens
     was affected. The Netherlands Meteorological Institute predicts an increase
@@ -3411,7 +3413,7 @@
   year: 2024
   graduation_date: '2024-07-03'
   link: https://resolver.tudelft.nl/uuid:5b504409-dace-4569-93c0-a9be4f49c478
-  image: qiuxian.jpg
+  image: Wei.JPG
   abstract: Web mapping is essential in many fields, including navigation,
     real estate, and tourism. With advances in mapping technology, 3D web
     mapping has been introduced by multiple geospatial platforms. Compared
@@ -3443,7 +3445,7 @@
   title: Large-scale, High-resolution Urban solar potential analysis through
     semantic 3D city models
   year: 2024
-  image: 2024_XuLongxiangSolar.png
+  image: Xu.png
   paper: https://repository.tudelft.nl/record/uuid:5a8d60e7-ac2b-4786-b003-57f3007a473c
   needs_review: true
 - surname: Yang
@@ -3453,7 +3455,7 @@
   year: 2024
   graduation_date: '2024-04-12'
   link: https://resolver.tudelft.nl/uuid:096553de-711c-49fd-8428-50ee6203b4ce
-  image: 2024_Yang.jpg
+  image: yang-Yang.webp
   abstract: The rise of urban digital twins emphasises the critical role of
     representing real-world environments for decision-making and collaboration
     among stakeholders. This leads to an expectation of effective management
@@ -3478,7 +3480,7 @@
   year: 2024
   graduation_date: '2024-06-27'
   link: https://resolver.tudelft.nl/uuid:02a605e4-ebb1-4f5d-b7c8-7ef32baa82b1
-  image: zhangchi.png
+  image: zhang.png
   abstract: Multiview Stereo (MVS) reconstruction techniques have made significant
     advancements with the development of deep learning. However, their performance
     often deteriorates in low-light conditions, where feature extraction and
@@ -3505,7 +3507,7 @@
   year: 2023
   graduation_date: '2023-01-20'
   link: https://resolver.tudelft.nl/uuid:d253b343-7c96-45ee-9239-5c85594ad4fa
-  image: 2022_carolin.png
+  image: 33b0880fb0b1-P1.png
   github: https://github.com/tudelft3d/EnergyADEv1_toCityGMLv3
   abstract: In order to limit the global warming to well below 2 degrees Celsius,
     all sectors have to reduce their greenhouse gas emissions and become more
@@ -3547,7 +3549,7 @@
   year: 2023
   graduation_date: '2023-01-20'
   link: https://resolver.tudelft.nl/uuid:857658d4-9134-4935-9c28-fef907d9ace1
-  image: daniel.png
+  image: b575ce82525b-thesis_p1.jpg
   github: https://github.com/Dobberzoon/Facade2Floorcount
   abstract: 'Street view imagery (SVI) is one of the largest (growing) resources
     in urban analytics. A global close-up of the urban environment, if you
@@ -3598,7 +3600,7 @@
   year: 2023
   graduation_date: '2023-07-03'
   link: https://resolver.tudelft.nl/uuid:8a314c3d-81ad-45e4-9b78-a00a3dae0a86
-  image: haoyang.png
+  image: 2e414a2d84e7-p1_registration.png
   github: https://github.com/AkiGoat/DSM2DTM-ResUNet
   abstract: Digital Surface Models (DSMs) are commonly employed to investigate
     topographical characteristics and processes; however, the presence of
@@ -3632,7 +3634,7 @@
   year: 2023
   graduation_date: '2023-01-19'
   link: https://resolver.tudelft.nl/uuid:1f17418f-63a8-47ab-a843-8a2624925a7c
-  image: 2023_Erbau.jpg
+  image: d0fc928acb6-thesis_image.png
   abstract: 'As the way we interact with maps keeps changing, so do the maps
     change alongside. And it can be easily pointed out how these changes come
     alongside a large number of advantages for the average map user, such
@@ -3672,7 +3674,7 @@
   year: 2023
   graduation_date: '2023-01-17'
   link: https://resolver.tudelft.nl/uuid:bced95cc-54eb-474d-b963-21cc9eb0cf13
-  image: 2023_Geers.jpg
+  image: 4d02f7585e53-p1.jpg
   abstract: Due to safety or preservation reasons, certain objects or areas
     need to be inspected regularly. Currently, the inspection of objects is
     mostly done in-person, which is labour-intensive and not very effective.
@@ -3703,7 +3705,7 @@
   year: 2023
   graduation_date: '2023-06-20'
   link: https://resolver.tudelft.nl/uuid:6786ac5c-b61d-4e17-8501-e3cf2c7a9577
-  image: 2023_tendai.png
+  image: b0d392b5fd6-Picture2.png
   abstract: Diversity in the use cases of semantic 3D city models today is
     unprecedented. A key enabler for this is the CityGML standard developed
     by the OGC to facilitate storing and exchanging these city models. Nevertheless,
@@ -3742,7 +3744,7 @@
   year: 2023
   graduation_date: '2023-07-03'
   link: https://resolver.tudelft.nl/uuid:8fefa31e-636d-48b6-9647-1181859c8300
-  image: 2023_Meines.jpg
+  image: 607e8142a83a-p1_submission_image.jpg
   abstract: This thesis presents the development of a real-time daylight analysis
     tool for architectural and urban development using the Unreal Game Engine.
     The tool offers architects and urban planners a fast and precise way of
@@ -3780,7 +3782,7 @@
   year: 2023
   graduation_date: '2023-04-19'
   link: https://resolver.tudelft.nl/uuid:4c44f0fb-bd69-44d8-8ba9-6ae0b9584828
-  image: 2022_meschin.png
+  image: 2afd917b7780-lidar_400_400.png
   github: https://github.com/Mschn-k/MSc_thesis
   abstract: With the increasing pressure on global forests due to deforestation
     and habitat loss, it is more important than ever to understand our forest
@@ -3820,7 +3822,7 @@
   year: 2023
   graduation_date: '2023-10-27'
   link: https://resolver.tudelft.nl/uuid:6b3a4d29-45f6-4432-ac31-67ceae7dd75a
-  image: 2023_Ioanna.png
+  image: 205c9f147-semantic3D.png
   github: https://github.com/ipanagiotidou/CasMVSNet_pl
   abstract: 'This thesis introduces a Learned-Based Multi-View Semantic Stereo
     method, addressing the limitations of traditional and learned-based Multi-View
@@ -3851,7 +3853,7 @@
   year: 2023
   graduation_date: '2023-10-31'
   link: https://resolver.tudelft.nl/uuid:0e21cba1-a238-43b0-935e-ef70ec9b160d
-  image: 2023_Papadimitriou.jpg
+  image: 96998c3c8d52-data_space.jpg
   abstract: There is a drive to create an inclusive open data ecosystem, that
     includes public, private and academic open data [Loenen et al., 2021].
     There is a lot of existing research in Open Government Data [Janssen et
@@ -3888,7 +3890,7 @@
   year: 2023
   graduation_date: '2023-01-18'
   link: https://resolver.tudelft.nl/uuid:deceb957-59ae-46f7-9c48-cf0489ce0f23
-  image: 2023_Pereira.jpg
+  image: 7e180e8882e2-p1img.jpg
   abstract: Transforming the global energy sector from fossil-fuel based to
     renewable energy sources is key to limiting global warming and efficiently
     achieving climate neutrality. The decentralized nature of the renewable
@@ -3918,7 +3920,7 @@
   year: 2023
   graduation_date: '2023-06-19'
   link: https://resolver.tudelft.nl/uuid:11e9b0c2-5d67-475a-8653-71c7afe03dad
-  image: 2023_LeonPowalka.jpg
+  image: 0e4a0a99678-resided.png
   abstract: Creating GPS art on the map is an interesting way to make one’s
     outdoor activity more engaging. Cyclists, runners and hikers can create
     impressive drawings on the map by traversing the road/pedestrian network
@@ -3950,7 +3952,7 @@
   year: 2023
   graduation_date: '2023-11-16'
   link: https://resolver.tudelft.nl/uuid:b92de6b0-a868-4910-9392-cf1063fb9639
-  image: 2023_Theodoridou.jpg
+  image: 9cd1aac33cf-P1_V2_pic.png
   abstract: Urban areas are home to over half of the global population and
     consume significant natural resources, necessitating effective city management
     for urban resilience and sustainability. Resilient cities are better prepared
@@ -3984,7 +3986,7 @@
   year: 2023
   graduation_date: '2023-06-21'
   link: https://resolver.tudelft.nl/uuid:314e12c9-c3bc-478b-b664-d0c0680f3caf
-  image: 2023_Therias.jpg
+  image: 270668af38f7-image_thesis.png
   abstract: The production of cocoa beans contributes to 7.5% of European
     Union (EU) driven deforestation. For this reason, the recent European
     Union Deforestation-free Regulation (EUDR) requires producers to perform
@@ -4014,7 +4016,7 @@
   year: 2023
   graduation_date: '2023-06-21'
   link: https://resolver.tudelft.nl/uuid:7f8ef49b-7c9c-4281-bd93-b921d9b28d49
-  image: 2023_fabian.png
+  image: df02fd6f30cd-style_rgb_rendering.png
   github: https://github.com/fabisser/stylesdf
   abstract: Style transfer is a recent field in the development of deep neural
     networks, which allows for the style from one image to be transferred
@@ -4048,7 +4050,7 @@
   year: 2023
   graduation_date: '2023-06-19'
   link: https://resolver.tudelft.nl/uuid:eaff38b9-65f4-4c1c-8cec-aebd8fc4b18f
-  image: 2023_yitong2.png
+  image: dcf6d151ff-1668768938045.jpg
   github: https://github.com/YitongXia/LOD3-Model
   abstract: The reconstruction of 3D city models has garnered significant
     interest in recent years. However, the majority of existing reconstruction
@@ -4085,7 +4087,7 @@
   year: 2023
   graduation_date: '2023-06-19'
   link: https://resolver.tudelft.nl/uuid:2ff23b56-dc28-4c71-adf7-a9aecfcce413
-  image: lanyan.png
+  image: 325f0cc235ef-P1.png
   github: https://github.com/tudelft3d/Building_Envelope
   abstract: With the development of technologies and people’s raising standards
     for both indoor and outdoor environments, buildings have expanded their
@@ -4140,7 +4142,7 @@
   year: 2023
   graduation_date: '2023-06-22'
   link: https://resolver.tudelft.nl/uuid:295f89f6-445b-4f3c-a764-cb78d7e9b825
-  image: 2023_zhang.jpg
+  image: 2435a4e5e876-p1.png
   github: https://github.com/zfengyan/snapoly
   abstract: Geometric algorithms are usually designed based on the assumption
     of using arbitraryprecision representations. However, in modern computer
@@ -4176,7 +4178,7 @@
   year: 2022
   graduation_date: '2022-06-28'
   link: https://resolver.tudelft.nl/uuid:a9530c9d-3732-4c68-9cf0-0b25d994f691
-  image: 2022_irene.jpg
+  image: 2d176f79dca6-Thesis_Concept___P1.jpg
   github: https://github.com/iapra/height-data-preparation
   abstract: 'Automated reconstruction of detailed semantic 3D city models
     is challenging due to the need for high-resolution (HR) and large-scale
@@ -4216,7 +4218,7 @@
   year: 2022
   graduation_date: '2022-06-15'
   link: https://resolver.tudelft.nl/uuid:677ad184-1169-45b3-a31b-bcb7239dd451
-  image: 2022_camilo.jpg
+  image: cc2c6c663b83-CamiloCaceresImageThesis.jpg
   abstract: Semantic segmentation of aerial images is the ability to assign
     labels to all pixels of an image. It proves to be essential for various
     applications such as urban planning, agriculture and real-estate analysis.
@@ -4273,7 +4275,7 @@
   year: 2022
   graduation_date: '2022-06-28'
   link: https://resolver.tudelft.nl/uuid:40b823ed-9334-4a35-a69b-83c7ab393e5c
-  image: 2022_Dardavesis.jpg
+  image: 653c0bfac73e-p1.png
   abstract: Nowadays, the evolution of localisation and navigation technologies
     is vast, aiding towards facilitating users’ guidance in various environments.
     Outdoor positioning can be easily achieved, with the widely used Global
@@ -4326,7 +4328,7 @@
   year: 2022
   graduation_date: '2022-06-17'
   link: https://resolver.tudelft.nl/uuid:0b5e90b8-6ca1-4cd8-b5db-31539bddad1d
-  image: 2022_Jong.jpg
+  image: d98fc572a699-plaatje.png
   abstract: 'In the modern world, evacuating a building in a safe and orderly
     manner remains a challenge. Fire-based emergencies in a building are dynamic
     environments that can be simulated to better understand, analyse, and
@@ -4369,7 +4371,7 @@
   year: 2022
   graduation_date: '2022-11-04'
   link: https://resolver.tudelft.nl/uuid:0ace357b-d07a-40a0-9167-6d8e775f5ba0
-  image: jos.png
+  image: 27b200889c2d-thumbnail_1.png
   github: https://github.com/thegeofront/thegeofront.github.io
   abstract: 'In the field of Geographical Information Science (GIS), geodata
     transformation and analysis tools often take the shape of software libraries
@@ -4460,7 +4462,7 @@
   year: 2022
   graduation_date: '2022-06-24'
   link: https://resolver.tudelft.nl/uuid:557e824d-a088-4cf4-8fe5-c98f5b893057
-  image: Fu.png
+  image: 2dbc95dec2b2-onepicture_research.png
   github: https://github.com/furunnan/Tree_Topo_Effects_on_Wind
   abstract: 'Planting trees is widely considered an effective way to create
     a good urban wind environment, improve air quality, mitigate heat island
@@ -4502,7 +4504,7 @@
   year: 2022
   graduation_date: '2022-11-11'
   link: https://resolver.tudelft.nl/uuid:0d6fe201-5676-48c0-850f-942d1ee9a353
-  image: hurkmans.jpg
+  image: 64c2df364-Solar_radiation_rooftops.jpg
   github: https://github.com/robinjo78/solarBAG
   abstract: Solar energy is an important renewable energy source that is already
     generated by millions of solar panels attached to building roofs throughout
@@ -4549,7 +4551,7 @@
   year: 2022
   graduation_date: '2022-06-16'
   link: https://resolver.tudelft.nl/uuid:3ae123bd-cae4-45b2-be48-27ffe5cab980
-  image: 2021_Yuzhen.png
+  image: 29903cd5a24a-3dcdb_citysim_mini.jpg
   github: https://github.com/yuzhenjin3000/Dynamic-energy-simulations-based-on-the-3D-BAG-2.0
   abstract: Issues such as climate change, ecological conservation and sustainable
     energy have received a great deal of attention in the last decade. Studies
@@ -4593,7 +4595,7 @@
   year: 2022
   graduation_date: '2022-06-16'
   link: https://resolver.tudelft.nl/uuid:629d3bd6-04d3-49b6-9f5c-13589f1c8ceb
-  image: 2022_Kumar.jpg
+  image: 488937c960fe-thumbnail.png
   abstract: There has been an ever increasing focus on the development of
     smart cities, both by big corporate in the field of Information Communication
     and Technology as well as respective governments responsible for these
@@ -4624,7 +4626,7 @@
   year: 2022
   graduation_date: '2022-06-30'
   link: https://resolver.tudelft.nl/uuid:6421019c-50e0-42ab-ae43-3c20e1b2f3e2
-  image: 2022_lars.jpg
+  image: d01a3552c5ab-Alhajuela.png
   github: https://github.com/LMarinusL/MorphologyPredictor
   abstract: To keep the Panama Canal operational year round, the water level
     in the canal is maintained above the minimum depth. As water is passed
@@ -4670,7 +4672,7 @@
   year: 2022
   graduation_date: '2022-06-27'
   link: https://resolver.tudelft.nl/uuid:9b1ba72c-9c74-45e1-952a-58c0824c9a74
-  image: 2022_Liu.jpg
+  image: 2931e385bdce-dynamic_objs.gif
   abstract: Many MLS point cloud application scenarios, such as navigation
     and localization algorithms, require only static environments, but the
     original MLS data usually inevitably includes many dynamic objects such
@@ -4708,7 +4710,7 @@
   year: 2022
   graduation_date: '2022-08-30'
   link: https://resolver.tudelft.nl/uuid:922ad01c-0d36-494b-b499-2c0744f474dd
-  image: 2022_Mainelli.jpg
+  image: 47515d120420-Screenshot_2021_11_12_at_13.01.07.png
   abstract: The kinds of physical spaces present in the real world are becoming
     ever more complex, and the locations defining the boundaries between these
     spaces are often arbitrary. Distinguishing between which spaces count
@@ -4742,7 +4744,7 @@
   year: 2022
   graduation_date: '2022-06-29'
   link: https://resolver.tudelft.nl/uuid:fb532bef-81b9-482b-921a-e7ce907cb544
-  image: 2021_Konstantinos.png
+  image: pantelios.png
   github: https://github.com/Konstantinos-Pantelios/3DCityDB-QGIS-Loader
   abstract: Today, in the urban planning, energy modelling and other fields,
     semantic 3D city models are used in various applications like visualization,
@@ -4796,7 +4798,7 @@
   year: 2022
   graduation_date: '2022-06-28'
   link: https://resolver.tudelft.nl/uuid:aca1d742-9fbe-4577-a4fd-b8b0ba50f368
-  image: 2022_Papakostas.jpg
+  image: bd695b09089c-img.jpg
   abstract: Nowadays, the military stakeholders take advantage of the various
     geospatial infrastructure and technology while exploiting the wide use
     and distribution of geographic data, to model military scenes and/or conduct
@@ -4845,7 +4847,7 @@
   year: 2022
   graduation_date: '2022-06-16'
   link: https://resolver.tudelft.nl/uuid:81549126-bbb9-49d5-bc46-d050a2463c6d
-  image: 2021_androniki.png
+  image: 31790115f0d6-Thesis_image.jpg
   abstract: In recent years, there has been an exponential growth in the need
     for 3D spatial information, particularly 3D models representing the geographic
     information of the urban environment. The existence of a comprehensive
@@ -4902,7 +4904,7 @@
   year: 2022
   graduation_date: '2022-11-09'
   link: https://resolver.tudelft.nl/uuid:339371b5-0c6a-4756-9266-461d87677e29
-  image: 2022_Prihanggo.jpg
+  image: 6878bbb80c2f-P1Submission_MaundriP.png
   abstract: The Indonesian government mentioned the urge to accelerate the
     process of providing detailed spatial plan maps. Moreover, to have one
     standard of reference, detailed spatial plan maps need to use large-scale
@@ -4934,7 +4936,7 @@
   year: 2022
   graduation_date: '2022-06-29'
   link: https://resolver.tudelft.nl/uuid:33b125b5-d902-4432-9043-2ceb10f2e53e
-  image: 2022_MaaritPrusti.png
+  image: 4626c7f7abfe-bim3.png
   abstract: The building permit process in the Netherlands is mostly digitalized,
     however, there are still some issues. A downsize of information, the manual
     checking from the municipality, and the duration of the process are some
@@ -4977,7 +4979,7 @@
   year: 2022
   graduation_date: '2022-06-17'
   link: https://resolver.tudelft.nl/uuid:92107ac8-4443-46da-97e5-335af4f52c2b
-  image: 2022_Ramlakhan.jpg
+  image: 031511495e50-Underground.jpg
   abstract: Urbanisation and a lack of available construction land has led
     to the increased development of underground space which can contribute
     to the development of the urban areas by providing space for the construction
@@ -5080,7 +5082,7 @@
   year: 2022
   graduation_date: '2022-01-13'
   link: https://resolver.tudelft.nl/uuid:b1e20016-5e1c-4610-a951-6631983b7511
-  image: 2022_Smit.jpg
+  image: 75cbff965ed0-Research_in_one_image.jpg
   abstract: 'Over the years, the pace at which data is generated keeps on
     increasing. As a consequence, the data itself no longer holds the highest
     value, but rather the information and context the data captures are. This
@@ -5122,7 +5124,7 @@
   year: 2022
   graduation_date: '2022-06-28'
   link: https://resolver.tudelft.nl/uuid:4c97f5e2-dfa1-403d-85e7-0fb43d98cc82
-  image: 2022_Triantafyllou.jpg
+  image: 0d09a7891bf6-Isovists_as_new_way_of_localisation.png
   abstract: Nowadays, humans rely in technology more and more when it comes
     to navigation and localisation and in many aspects of life as well. While
     most concepts related to localisation and navigation of outdoors environments
@@ -5164,7 +5166,7 @@
     heating demand calculation
   year: 2022
   link: https://resolver.tudelft.nl/uuid:816735b7-4305-4f72-bbab-31f5e5491acf
-  image: 2022_ozge.jpg
+  image: 60a823786580-P1_image_final.jpg
   github: https://github.com/ozgetufan/cjenergy
   paper: https://doi.org/10.5194/isprs-archives-XLVIII-4-W4-2022-169-2022
   abstract: 3D city models are frequently used to acquire and store energy-related
@@ -5198,7 +5200,7 @@
   year: 2022
   graduation_date: '2022-06-23'
   link: https://resolver.tudelft.nl/uuid:d284c33a-7297-4509-81e1-e183ed6cca3c
-  image: 2022_Noortje.png
+  image: b8e0d876688d-GEO2020_P1_image_400x400.png
   github: https://github.com/NoortjevanderHorst/treegrowthmodelling
   abstract: A digital reconstruction of real-life trees could provide many
     benefits in fields such as botany, forestry management, biology, and urban
@@ -5232,7 +5234,7 @@
   year: 2022
   graduation_date: '2022-06-22'
   link: https://resolver.tudelft.nl/uuid:db6edbfc-5310-47db-b2c7-3d8e2b62de0f
-  image: 2022_jasper.jpg
+  image: 699885fe446c-logo_small_2_copy.jpg
   github: https://github.com/jaspervdv/IFC_ApartmentDetection
   abstract: The flexibility of the Industry Foundation Classes (IFC) format
     makes it challenging to blindly rely on the data it stores. This is because,
@@ -5284,7 +5286,7 @@
   year: 2022
   graduation_date: '2022-01-13'
   link: https://resolver.tudelft.nl/uuid:f77cd8e1-682b-4812-9652-25b23b5319a4
-  image: 2022_Rijssel.png
+  image: 5375a0f1b26c-Mid_term_synthesis_04.jpg
   abstract: In 2016, a collaboration between the TU Delft, RIVM and a few
     other companies started to automate the generation of environmental input
     data for noise modelling. As a part of that cooperation a promising triangle
@@ -5314,7 +5316,7 @@
   year: 2022
   graduation_date: '2022-10-31'
   link: https://resolver.tudelft.nl/uuid:92e1ea3a-3a34-449c-b0b4-731d6480266a
-  image: 2022_Schendel.jpg
+  image: 00e7a57ad0a5-one_image_illustration_lo.png
   abstract: The merging of multiple partial maps of indoor environments created
     by teams of human or robot agents into a single global map is a key problem
     that, when solved, can improve mapping speed and quality. Existing map
@@ -5336,7 +5338,7 @@
   year: 2022
   graduation_date: '2022-06-27'
   link: https://resolver.tudelft.nl/uuid:27085fd4-654a-4748-92d0-61563fe6040c
-  image: 2021_ondrej.png
+  image: dc6bc987a555-search_building_400px.png
   github: https://github.com/ondrej-vesely/massingGAN
   abstract: Despite being relatively novel, generative adversarial networks
     (GAN) have already been appropriated for application to several problems
@@ -5375,7 +5377,7 @@
   year: 2022
   graduation_date: '2022-06-23'
   link: https://resolver.tudelft.nl/uuid:1581231d-6109-44b2-ab57-bbbea3e08642
-  image: 2022_Linjun.png
+  image: b29dbdfc6477-P1_image.gif
   github: https://github.com/fiodccobw/3DFacade
   abstract: '3D building models play an important role in many real-world
     applications. Different models are suitable for different application
@@ -5454,7 +5456,7 @@
   year: 2021
   graduation_date: '2021-11-03'
   link: https://resolver.tudelft.nl/uuid:306f0b94-2827-4aa0-90df-66110ee5a484
-  image: khaled.png
+  image: 77e6faec75de-ThesisInOnePicture.jpg
   abstract: In large and complex civil engineering projects, well-managed
     information enables easier and faster access to the required data when
     available. In the Architecture, Engineering and Construction (AEC) industry,
@@ -5536,7 +5538,7 @@
   year: 2021
   graduation_date: '2021-06-29'
   link: https://resolver.tudelft.nl/uuid:e33e7fa1-118e-41d8-904f-5f03eb36e887
-  image: 2021_ZhaiyuChen.jpg
+  image: 64798c59903b-sog_teaser_Fig1.gif
   github: https://github.com/chenzhaiyu/points2poly
   paper: https://doi.org/10.1016/j.isprsjprs.2022.09.017
   abstract: 'Three-dimensional building models play a pivotal role in shaping
@@ -5581,7 +5583,7 @@
   year: 2021
   graduation_date: '2021-07-02'
   link: https://resolver.tudelft.nl/uuid:e7df1d5a-8819-40aa-a3d1-1f6d50b8a39e
-  image: dejong.jpg
+  image: dejong-d98fc572a699-plaatje.png
   github: https://github.com/mdjong1/simpliPy/
   abstract: 'The volume and density of geospatial data is constantly increasing
     as newer acquisition techniques are developed to create higher-resolution
@@ -5736,7 +5738,7 @@
   year: 2021
   graduation_date: '2021-11-04'
   link: https://resolver.tudelft.nl/uuid:05ff635a-8113-4d65-aae1-bc0c727831d8
-  image: 2021_giannelli.png
+  image: 66b1010529f8-P1_image_V3.png
   paper: https://doi.org/10.5194/isprs-annals-V-4-2022-275-2022
   abstract: 'In the Global South, large urban spaces resulted in the duality
     between the so-called ‘formal’ and ‘informal’ cities. It is the case of
@@ -5873,7 +5875,7 @@
   year: 2021
   graduation_date: '2021-07-01'
   link: https://resolver.tudelft.nl/uuid:e6bb2142-c113-4add-a466-41bf0fea3b11
-  image: 9c424a9b1de-draco400.jpg
+  image: li-Li.png
   github: https://github.com/xiaoai-li/api_cityjson
   abstract: 'With the increasing demand for 3D city models in various applications,
     providing efﬁcient access to 3D city models on the web has become very
@@ -5920,7 +5922,7 @@
   year: 2021
   graduation_date: '2021-07-01'
   link: https://resolver.tudelft.nl/uuid:662ac71f-6373-4128-8eeb-163b8e727b72
-  image: 2021_Dita.png
+  image: 38ba5f429ccd-201015_usvi.png
   github: https://github.com/yustisiardhitasari/sdbcnn
   paper: https://doi.org/10.1080/01490419.2022.2091696
   abstract: 'Bathymetric depth for shallow water regions is essential for
@@ -5977,7 +5979,7 @@
   year: 2021
   graduation_date: '2021-07-05'
   link: https://resolver.tudelft.nl/uuid:b0876cc2-d8b8-4286-8b3f-1888a5f45d97
-  image: 2021_Milyana.jpg
+  image: 70433204ddfd-nmilyana_method.jpg
   abstract: 'In modern-day spatial planning, the implementation of public
     participation has increased to ﬁnd a balance between two major actors:
     the government as the powerholder and citizens as the individual affected
@@ -6018,7 +6020,7 @@
   year: 2021
   graduation_date: '2021-06-21'
   link: https://resolver.tudelft.nl/uuid:0889e498-cdd6-4a19-bbcb-d3fb189560e1
-  image: 2021_Morlighem.jpg
+  image: 9398977ec02f-rotterdam.JPG
   github: https://github.com/CamilleMorlighem/histo3d
   paper: https://doi.org/10.1007/s44212-022-00011-3
   abstract: 'Historical 3D city models have been increasingly used for the
@@ -6219,7 +6221,7 @@
   year: 2021
   graduation_date: '2021-09-14'
   link: https://resolver.tudelft.nl/uuid:d6d23631-281a-4107-9f05-7e4942f2dabf
-  image: 2021_jialun.png
+  image: wu-Wu.png
   github: https://github.com/Gallon229/Building-permit
   abstract: Most construction work requires building permit checks. Therefore,
     to promote sustainable and high-quality urban development, it is necessary
@@ -9382,6 +9384,54 @@
     indication of the status of different assets, giving asset managers insight
     into which areas and assets they need to focus on.
   uuid: 61924097-f0f7-4d5a-979c-fe991017a3ce
+- surname: Psomadaki
+  name: Stella
+  title: Using a Space Filling Curve for the Management of Dynamic Point Cloud
+    Data in a Relational DBMS
+  supervisors: T.P.M. Tijssen; P.J.M. van Oosterom
+  year: 2017
+  link: https://resolver.tudelft.nl/uuid:c1e625b0-0a74-48b5-b748-6968e7f83e2b
+  image: stella.jpg
+  abstract: 'The rapid developments in the field of point cloud acquisition
+    technologies have allowed point clouds to become an important source of
+    information for many applications. One of the newest applications of point
+    clouds concerns the monitoring of the coast. Many countries, among which
+    the Netherlands, use this source of data in order to determine the changes
+    in coastal elevations. This means that point clouds are collected every
+    hour, day, month, year; ultimately talking about dynamic point clouds.
+    To be able to efficiently use this plethora of data, the management of
+    those point clouds, dynamic or not, is proven to be crucial. Point clouds,
+    like the majority of geodata, have been traditionally managed using file-based
+    solutions. Nevertheless, the last years database solutions have emerged.
+    Typical examples are the point cloud extensions for PostgreSQL and the
+    Oracle Database. Both options use a similar block-based organisation.
+    In addition to the block based organisations, point clouds can also be
+    managed using a flat table where each point is stored in a separate row.
+    While the first approach is very scalable and efficient, the second is
+    easier to implement and to update. To make the flat model scalable, a
+    Space Filling Curve (SFC) can be used to cluster the data. Nonetheless,
+    both approaches in their current forms, are not suited for the management
+    of dynamic points. The reason for this is the fact that they do not consider
+    the time dimension as part of the organisation and further insertions
+    for the block-based approaches are not straightforward. Within this thesis
+    a SFC approach for managing dynamic point clouds is investigated. For
+    this, the flat model approach using an Index Organised Table (IOT) within
+    a Relational Database Management System (RDBMS) is used. Two variants
+    coming from two extremes of the space - time continuum are then taken
+    into account. In the first approach, space and time are both used within
+    the SFC (integrated approach), while in the second one, time dominates
+    over space (non-integrated approach). Along these two approaches, two
+    treatments of the z dimension are, also, studied: as attribute or as part
+    of the SFC. In addition to that, building on the coastal monitoring applications,
+    the most important queries are identified: space - time, only time, only
+    space. The efficiency of the implemented methodology is tested through
+    the execution of a benchmark. Using two use cases coming from coastal
+    applications, the benchmark is executed once for daily and once for yearly
+    data. The results show that the SFC approach is an appropriate method
+    for managing dynamic point clouds. Furthermore, the integrated approach
+    is the most suitable way to proceed. Achieving scalability, time efficiency
+    and dynamic insertions can be achieved for various use cases.'
+  uuid: c1e625b0-0a74-48b5-b748-6968e7f83e2b
 - surname: Staats
   name: Bart
   title: Identification of walkable space in a voxel model, derived from a
@@ -9950,7 +10000,7 @@
   supervisors: S. Zlatanova; E. Eisemann; B.B.E. Buchholz
   year: 2015
   link: https://resolver.tudelft.nl/uuid:662fad08-51a9-4f8d-acb1-4caf78d602bb
-  image: carl.jpg
+  image: chen-Chen.png
   abstract: 'Point clouds can be obtained by airborne or terrestrial Light
     Detection and Ranging (LiDAR) scanning or directly from street-view panoramic
     imagery. Point clouds obtained from airborne scanners cover most roof

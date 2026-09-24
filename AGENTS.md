@@ -30,22 +30,53 @@ python3 scripts/enrich_geotheses.py           # add --fetch-only / --offline
 
 # Validate the archive data (required fields, canonical links, duplicate
 # people; image files when given --img-dir). Exit code is CI-usable.
-python3 scripts/check_geotheses.py
+python3 scripts/check_geotheses.py --img-dir theses/img
+
+# Sync _data/ongoing_theses.yml (Current Theses page) with MyCase's open
+# cases: adds new starters (flagged needs_summary), syncs phases/
+# supervisors/official titles, reports who is no longer open. --prune
+# removes entries without an open case. Read-only without MyCase data.
+python3 scripts/update_theses.py
 ```
+
+## Per-quarter maintenance workflow
+
+After each graduation round (or whenever, really):
+
+1. `python3 scripts/fetch_mycase.py` — refresh MyCase data (login needed).
+2. `python3 scripts/update_theses.py` — sync the Current Theses page:
+   write a proposal summary (+ image in `theses/img/`, name it in the
+   entry) for each `needs_summary` starter and drop the flag; check the
+   COHORT notes (February starts are ambiguous in MyCase).
+3. When students have their final thesis: run
+   `python3 scripts/enrich_geotheses.py` — it appends closed cases that
+   are missing from the archive, fetches their repository records
+   (abstract, supervisors, graduation date) and writes
+   `geotheses_report.md` for anything needing a manual look. Then
+   `python3 scripts/update_theses.py --prune` to drop them from the
+   ongoing page.
+4. `python3 scripts/check_geotheses.py --img-dir theses/img` —
+   validate the archive (errors should stay at zero).
+5. Cover images for new archive entries go into `theses/img/` under the
+   entry's `image` filename (salvaged proposal-era images are already
+   there for many entries; replace them with final-thesis covers as
+   they arrive). Ongoing-thesis images go into `ongoing/img/`.
 
 ## Structure
 
 | Path | Purpose |
 |---|---|
-| `_data/theses_*.yml` / `.yaml` | Thesis data files by cohort |
+| `_data/ongoing_theses.yml` | Current theses (open MyCase cases), synced by `scripts/update_theses.py` |
+| `_data/geotheses.yml` | Completed-thesis archive data (2013–today) |
 | `_posts/*.md` | News items (rendered on homepage) |
 | `_layouts/` | Jinja-like HTML templates (default, page, post) |
-| `_includes/` | Reusable partials (head, thesis_entries) |
+| `_includes/` | Reusable partials (head, thesis_current, thesis_archive) |
 | `assets/css/` | Bulma + FontAwesome + custom `geo2022.css` |
 | `rules/`, `templates/`, `faq/`, etc. | Content pages (markdown) |
-| `theses/archive/` | Searchable archive of completed theses (data in `_data/geotheses.yml`, markup in `_includes/thesis_archive.html`; cover images go in `theses/archive/img/` and appear on the next build) |
+| `ongoing/` | Current Theses page (`/ongoing/`); images in `ongoing/img/` |
+| `theses/` | Thesis archive page (`/theses/`); cover images in `theses/img/` |
 | `scripts/fetch_mycase.py` | MyCase metadata fetcher (output gitignored) |
-| `_data/geotheses.yml` | Completed-thesis archive data (2013–today) |
+| `scripts/update_theses.py` | Syncs ongoing theses with MyCase open cases |
 | `scripts/enrich_geotheses.py` | Cleans/enriches the archive from repository records + MyCase |
 | `scripts/check_geotheses.py` | Validates the archive data |
 

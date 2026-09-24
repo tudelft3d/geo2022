@@ -1,0 +1,79 @@
+{% comment %}
+  Students currently graduating (open MyCase cases), rendered from
+  _data/ongoing_theses.yml — keep the file's order (grouped by starting
+  cohort, newest first, then by phase progress and name).
+  scripts/update_theses.py keeps names, cohorts, phases, titles and
+  supervisors in sync with MyCase; summaries and images are hand-written.
+{% endcomment %}
+
+{% assign ongoing = site.data.ongoing_theses %}
+
+{% assign current_cohort = nil %}
+{% for s in ongoing %}
+{% if s.cohort != current_cohort %}
+{% unless forloop.first %}
+</section>
+{% endunless %}
+{% assign cohort_year = s.cohort | truncate: 4, '' %}
+{% assign cohort_term = s.cohort | remove_first: cohort_year %}
+<section class="archive-year-block">
+  <h2 class="title is-3 archive-year">Starting
+    {% case cohort_term %}
+    {% when 'sep' %}September
+    {% when 'feb' %}February
+    {% when 'april' %}April
+    {% endcase %}
+    {{ cohort_year }}
+    <span class="archive-year-count">{{ ongoing | where: 'cohort', s.cohort | size }}</span>
+  </h2>
+  {% assign current_cohort = s.cohort %}
+{% endif %}
+{% assign current_img = '/ongoing/img/' | append: s.image %}
+{% assign current_img_hit = site.static_files | where: 'path', current_img | first %}
+  <article class="media archive-item">
+    <figure class="media-left">
+      <p class="image is-96x96 archive-thumb">
+        {% if current_img_hit %}
+        <img src="{{ current_img | prepend: site.baseurl }}"
+             alt="Research image of the thesis by {{ s.name | escape }} {{ s.surname | escape }}"
+             loading="lazy">
+        {% else %}
+        <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+        {% endif %}
+      </p>
+    </figure>
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong>{{ s.name | escape }} {{ s.surname | escape }}</strong>
+          {% case s.phase %}
+          {% when 'Green light' %}
+          <span class="tag is-success">{{ s.phase }}</span>
+          {% when 'Midterm' %}
+          <span class="tag is-warning">{{ s.phase }}</span>
+          {% when 'Kick-off' %}
+          <span class="tag is-info">{{ s.phase }}</span>
+          {% else %}
+          <span class="tag is-light">Preparation</span>
+          {% endcase %}
+          <br>
+          {% if s.title %}
+          <em>{{ s.title | escape }}</em>
+          {% else %}
+          <em class="has-text-grey">Thesis topic to be announced</em>
+          {% endif %}
+          {% if s.supervisors %}
+          <br>
+          <small>Supervised by {{ s.supervisors | escape }}</small>
+          {% endif %}
+        </p>
+        {% if s.summary %}
+        <p>{{ s.summary | escape }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+{% if forloop.last %}
+</section>
+{% endif %}
+{% endfor %}

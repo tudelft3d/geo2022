@@ -1,21 +1,13 @@
 ---
 layout: page
-title: Theses started in
-color: white
-logo: fa-book
+title: Thesis archive
+color: black
+logo: fa-box-archive
 permalink: /theses/
 ---
 
-- [April 2026]({{ "/theses/2026april/" | prepend: site.baseurl }})
-- [February 2026]({{ "/theses/2026feb/" | prepend: site.baseurl }})
-- [September 2025]({{ "/theses/2025sep/" | prepend: site.baseurl }})
-- [April 2025]({{ "/theses/2025april/" | prepend: site.baseurl }})
-- [September 2024]({{ "/theses/2024sep/" | prepend: site.baseurl }})
-- [April 2024]({{ "/theses/2024april/" | prepend: site.baseurl }})
-- [September 2023]({{ "/theses/2023sep/" | prepend: site.baseurl }})
-- [April 2023]({{ "/theses/2023april/" | prepend: site.baseurl }})
-- [September 2022]({{ "/theses/2022sep/" | prepend: site.baseurl }})
-- [April 2022]({{ "/theses/2022april/" | prepend: site.baseurl }})
-- [September 2021]({{ "/theses/2021sep/" | prepend: site.baseurl }})
-- [February 2021]({{ "/theses/2021feb/" | prepend: site.baseurl }})
-- [September 2020]({{ "/theses/2020sep/" | prepend: site.baseurl }})
+Every completed MSc Geomatics thesis, newest first, with the abstract and
+supervisors from the final thesis. Click a title to read the thesis in the
+TU Delft repository, or search by student, topic or supervisor. The students graduating right now are on the [current theses page]({{ "/ongoing/" | prepend: site.baseurl }}).
+
+{% include thesis_archive.html %}

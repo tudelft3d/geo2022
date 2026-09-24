@@ -1,5 +1,0 @@
-- name: "Juan Garcia Mezo"
-  title: "Semantic Interpretation of Change Detection at the Building Element Level"
-  supervisors: "Ken Arroyo Ohori and Gina Stavropoulou"
-  summary: "This thesis proposal investigates semantic change detection in urban point clouds at the level of building elements, i.e. meaningful geometric components such as roof planes and roof installations. Binary change detection methods (e.g. C2C, M3C2) capture geometric differences between point clouds, but are sensitive to noise, varying point densities, and occlusions, and say little about what actually changed; existing semantic and object-based approaches describe changes only generically (e.g. new, demolished, taller, lower). The research bridges point-level and building-instance change detection by detecting and classifying changes at the element level and propagating this semantics to building instances, while accounting for the challenges of large-scale, multimodal point clouds."
-  image: "juan.jpg"

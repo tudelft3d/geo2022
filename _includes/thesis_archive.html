@@ -45,7 +45,7 @@
   </h2>
   {% assign current_year = t.year %}
 {% endif %}
-{% assign archive_img = '/theses/archive/img/' | append: t.image %}
+{% assign archive_img = '/theses/img/' | append: t.image %}
 {% assign archive_img_hit = site.static_files | where: 'path', archive_img | first %}
   <article class="media archive-item" data-year="{{ t.year }}">
     <figure class="media-left">

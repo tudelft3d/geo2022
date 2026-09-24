@@ -193,7 +193,7 @@ Thus, start write early.
 #### Read many scientific papers and theses 
 
 The best way to get to know how to write and structure a thesis is to read many of them.
-We propose some [examples of good MSc Geomatics theses]({{ "/exampletheses/" | prepend: site.baseurl }}) in recent years.
+You can browse [all completed MSc Geomatics theses]({{ "/theses/" | prepend: site.baseurl }}) in the archive.
 Scientific articles are also a good way to get to know how to write "in a academic style".
 
 - - -

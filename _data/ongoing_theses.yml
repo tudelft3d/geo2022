@@ -1,0 +1,93 @@
+# Ongoing MSc Geomatics theses (open MyCase cases), grouped
+# by starting cohort, newest first. scripts/update_theses.py
+# syncs names, cohorts, phases, titles and supervisors from
+# MyCase; summaries and images are maintained by hand. Validate
+# with scripts/check_geotheses.py (archive) — this file has no
+# checker yet.
+- surname: Schoonderwoerd
+  name: Kelly
+  cohort: 2026sep
+  phase: Kick-off
+  supervisors: Hugo Ledoux; Hidemichi Baba
+  needs_summary: true
+- surname: van der Meer
+  name: Mark
+  cohort: 2026sep
+  phase: Kick-off
+  supervisors: Hugo Ledoux; Hidemichi Baba
+  needs_summary: true
+- surname: Groeneveld
+  name: Timber
+  cohort: 2026sep
+  phase: Preparation
+  needs_summary: true
+- surname: Ho
+  name: Phuong Anh
+  cohort: 2026sep
+  phase: Preparation
+  needs_summary: true
+- surname: Nurmohamed
+  name: Faried
+  cohort: 2026sep
+  phase: Preparation
+  supervisors: Daniele Cannatella; Claudiu Forgaci
+  needs_summary: true
+- surname: Garcia Mezo
+  name: Juan
+  cohort: 2026april
+  phase: Midterm
+  title: Semantic Interpretation of Change Detection at the Building Element
+    Level
+  supervisors: Ken Arroyo Ohori; Gina Stavropoulou
+  summary: This thesis proposal investigates semantic change detection in
+    urban point clouds at the level of building elements, i.e. meaningful
+    geometric components such as roof planes and roof installations. Binary
+    change detection methods (e.g. C2C, M3C2) capture geometric differences
+    between point clouds, but are sensitive to noise, varying point densities,
+    and occlusions, and say little about what actually changed; existing semantic
+    and object-based approaches describe changes only generically (e.g. new,
+    demolished, taller, lower). The research bridges point-level and building-instance
+    change detection by detecting and classifying changes at the element level
+    and propagating this semantics to building instances, while accounting
+    for the challenges of large-scale, multimodal point clouds.
+  image: juan.jpg
+- surname: Marx
+  name: Danny
+  cohort: 2026april
+  phase: Kick-off
+  supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
+  needs_summary: true
+- surname: Winterdal
+  name: Josephine
+  cohort: 2026feb
+  phase: Green light
+  title: 'Assessing Coastal Change and Vulnerability Using Remote Sensing:
+    A Comparative Study of Aruba and Bonaire'
+  supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
+  summary: This thesis proposal explores methods for generating accurate building
+    rooftints and footprints from Airborne Laser Scanning (ALS) point clouds,
+    with application to France’s LiDAR HD data. The research investigates
+    how point cloud characteristics influence the extraction of both rooftop
+    and facade boundaries, combining deep learning for semantic segmentation
+    of roof and facade points with geometric processing to reconstruct outlines.
+    The work aims to improve upon existing datasets like BD TOPO, which lacks
+    harmonization and precise georeferencing, and supports France’s initiative
+    to develop a nationwide digital twin with detailed 3D building models.
+  image: josephine.jpg
+- surname: ter Braak
+  name: Segher
+  cohort: 2025sep
+  phase: Green light
+  title: Downscaling ECOSTRESS Land Surface Temperature using Deep Learning
+  supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
+  summary: This thesis proposes a physics-guided deep learning framework to
+    downscale ECOSTRESS land surface temperature (LST) data from ~70 m to
+    10 m resolution in heterogeneous Dutch landscapes. It integrates Sentinel‑2
+    imagery, land cover, and topography into a Swin Transformer‑based U‑Net
+    architecture. The approach uses weakly supervised learning with physics‑informed
+    loss functions—such as aggregation consistency and edge‑aware smoothness—to
+    ensure physical plausibility and coherence across scales. The goal is
+    to produce high‑resolution, physically consistent LST estimates suitable
+    for detailed urban and agricultural analyses, addressing the limitations
+    of traditional downscaling methods in complex environments.
+  image: segher.jpg
