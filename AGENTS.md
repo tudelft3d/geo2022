@@ -43,6 +43,7 @@ python3 scripts/check_geotheses.py
 | `_includes/` | Reusable partials (head, thesis_entries) |
 | `assets/css/` | Bulma + FontAwesome + custom `geo2022.css` |
 | `rules/`, `templates/`, `faq/`, etc. | Content pages (markdown) |
+| `theses/archive/` | Searchable archive of completed theses (data in `_data/geotheses.yml`, markup in `_includes/thesis_archive.html`; cover images go in `theses/archive/img/` and appear on the next build) |
 | `scripts/fetch_mycase.py` | MyCase metadata fetcher (output gitignored) |
 | `_data/geotheses.yml` | Completed-thesis archive data (2013–today) |
 | `scripts/enrich_geotheses.py` | Cleans/enriches the archive from repository records + MyCase |

@@ -234,3 +234,45 @@ html.light-mode {
 .darkmode-toggle:hover {
 	opacity: 1;
 }
+
+/* Thesis archive (theses/archive/) */
+.archive-year {
+	margin-top: 2.5rem;
+}
+
+.archive-year-count {
+	font-size: 1rem;
+	font-weight: normal;
+	opacity: 0.6;
+}
+
+.archive-thumb {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 96px;
+	height: 96px;
+	border-radius: 6px;
+	overflow: hidden;
+	background: hsl(var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-scheme-main-ter-l));
+	border: 1px solid hsl(var(--bulma-border-h), var(--bulma-border-s), var(--bulma-border-l));
+	color: inherit;
+	opacity: 0.45;
+	font-size: 2.25rem;
+}
+
+.archive-thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.archive-item .archive-abstract summary {
+	cursor: pointer;
+	color: hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l));
+}
+
+.archive-item .archive-abstract p {
+	margin-top: 0.5rem;
+	font-size: 0.95em;
+}

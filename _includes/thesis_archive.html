@@ -1,0 +1,135 @@
+{% comment %}
+  Searchable archive of completed MSc theses, rendered from
+  _data/geotheses.yml (sorted newest first, then by surname — keep that
+  order). Missing thesis images show a placeholder; the check is done at
+  build time via site.static_files, so dropping the files into
+  theses/archive/img/ is all that is needed to make them appear.
+{% endcomment %}
+
+{% assign theses = site.data.geotheses %}
+{% assign years = theses | map: 'year' | uniq %}
+
+<div class="field is-grouped archive-toolbar">
+  <p class="control is-expanded">
+    <input id="archive-search" class="input" type="search"
+           placeholder="Search by name, title, supervisor, topic…"
+           aria-label="Search the thesis archive" autocomplete="off">
+  </p>
+  <p class="control">
+    <span class="select">
+      <select id="archive-year" aria-label="Filter by graduation year">
+        <option value="">All years</option>
+        {% for y in years %}
+        <option value="{{ y }}">{{ y }}</option>
+        {% endfor %}
+      </select>
+    </span>
+  </p>
+</div>
+<p id="archive-count" class="has-text-grey" aria-live="polite">
+  {{ theses.size }} theses
+</p>
+<p id="archive-empty" class="notification is-warning is-light is-hidden">
+  No theses match your search.
+</p>
+
+{% assign current_year = nil %}
+{% for t in theses %}
+{% if t.year != current_year %}
+{% unless forloop.first %}
+</section>
+{% endunless %}
+<section class="archive-year-block" data-year="{{ t.year }}">
+  <h2 class="title is-3 archive-year">{{ t.year }}
+    <span class="archive-year-count">{{ theses | where: 'year', t.year | size }}</span>
+  </h2>
+  {% assign current_year = t.year %}
+{% endif %}
+{% assign archive_img = '/theses/archive/img/' | append: t.image %}
+{% assign archive_img_hit = site.static_files | where: 'path', archive_img | first %}
+  <article class="media archive-item" data-year="{{ t.year }}">
+    <figure class="media-left">
+      <p class="image is-96x96 archive-thumb">
+        {% if archive_img_hit %}
+        <img src="{{ archive_img | prepend: site.baseurl }}"
+             alt="Cover of the thesis by {{ t.name | escape }} {{ t.surname | escape }}"
+             loading="lazy">
+        {% else %}
+        <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+        {% endif %}
+      </p>
+    </figure>
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong>{{ t.name | escape }} {{ t.surname | escape }}</strong>
+          <br>
+          <a href="{{ t.link }}" target="_blank" rel="noopener">
+            <em>{{ t.title | escape }}</em>
+          </a>
+          {% if t.github %}
+          <small>· <a href="{{ t.github }}" target="_blank" rel="noopener">code</a></small>
+          {% endif %}
+          {% if t.paper %}
+          <small>· <a href="{{ t.paper }}" target="_blank" rel="noopener">paper</a></small>
+          {% endif %}
+          {% if t.supervisors %}
+          <br>
+          <small>Supervised by {{ t.supervisors | escape }}</small>
+          {% endif %}
+        </p>
+        {% if t.abstract %}
+        <details class="archive-abstract">
+          <summary>Abstract</summary>
+          <p>{{ t.abstract | escape }}</p>
+        </details>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+{% if forloop.last %}
+</section>
+{% endif %}
+{% endfor %}
+
+<script>
+(function () {
+  var query = document.getElementById('archive-search');
+  var yearSel = document.getElementById('archive-year');
+  var count = document.getElementById('archive-count');
+  var empty = document.getElementById('archive-empty');
+  var items = Array.prototype.slice.call(
+    document.querySelectorAll('.archive-item'));
+  var blocks = Array.prototype.slice.call(
+    document.querySelectorAll('.archive-year-block'));
+  var total = items.length;
+  if (!query || !total) return;
+
+  function apply() {
+    var q = query.value.trim().toLowerCase();
+    var y = yearSel.value;
+    var shown = 0;
+    items.forEach(function (item) {
+      var ok = (!y || item.getAttribute('data-year') === y) &&
+        (!q || item.textContent.toLowerCase().indexOf(q) !== -1);
+      item.classList.toggle('is-hidden', !ok);
+      if (ok) {
+        shown++;
+        var abs = item.querySelector('details');
+        if (abs) abs.open = q !== '';
+      }
+    });
+    blocks.forEach(function (block) {
+      var any = block.querySelector('.archive-item:not(.is-hidden)');
+      block.classList.toggle('is-hidden', !any);
+    });
+    empty.classList.toggle('is-hidden', shown !== 0);
+    count.textContent = (q || y)
+      ? 'Showing ' + shown + ' of ' + total + ' theses'
+      : total + ' theses';
+  }
+
+  query.addEventListener('input', apply);
+  yearSel.addEventListener('change', apply);
+})();
+</script>
