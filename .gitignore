@@ -11,3 +11,9 @@ _site/
 /mycase/
 /mycase_session.json
 /mycase_profile/
+
+# Cache of repository record pages used by scripts/enrich_geotheses.py
+/.geotheses_cache/
+
+# Python bytecode
+__pycache__/
