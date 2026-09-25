@@ -1,12 +1,15 @@
 # Completed MSc Geomatics theses, newest first.
-# name/surname as on the thesis record page; supervisors and
+# name/surname as on the thesis record page (initials),
+# except where scripts/expand_student_names.py has replaced
+# an initials-only name with the student's full given name
+# (from MyCase or the thesis title page); supervisors and
 # abstract from the finished thesis (repository record), not
 # the proposal. Supervisors are shown under their preferred
 # name (scripts/preferred_names.yml). Maintain by hand or via
 # scripts/enrich_geotheses.py; validate with
 # scripts/check_geotheses.py.
 - surname: Aalders
-  name: R.M.
+  name: Rian
   title: 'Exploring a ''coordinating'' smart city data governance model: A
     case study of The Green Village on the TU Delft Campus'
   supervisors: Hendrik Ploeger; Bastiaan van Loenen
@@ -2261,7 +2264,7 @@
     sustainability goals.
   uuid: 1f082b4d-5d96-4c72-8777-c62f76cc2624
 - surname: Dechamps
-  name: L.C.
+  name: Louis
   title: Spatial and semantic enrichment of utility networks data
   supervisors: Giorgio Agugiaro
   year: 2024
@@ -2649,7 +2652,7 @@
   year: 2024
   graduation_date: '2024-11-01'
   link: https://resolver.tudelft.nl/uuid:b5de420d-e0a2-4265-8bac-e7ae12f75e8c
-  image: 1a8a2ff49f94-repair.gif
+  image: 1a8a2ff49f94-repair.jpg
   github: https://github.com/Lkeurentjes/AUTOr3pair
   abstract: The growing complexity of urban environments has intensified the
     need for accurate 3D city models to support simulations and analyses in
@@ -3175,7 +3178,7 @@
     point clouds, enabling satisfactory plant organ segmentation.
   uuid: 42ae723f-4924-402c-9d8a-992f70f21bf4
 - surname: Spit
-  name: J.L.
+  name: Josephine
   title: Evaluating Gender-Blindness and User Satisfaction in Dutch Campus
     Map Creation
   supervisors: Bastiaan van Loenen; Stefano Calzati
@@ -3458,7 +3461,7 @@
   year: 2024
   graduation_date: '2024-04-12'
   link: https://resolver.tudelft.nl/uuid:096553de-711c-49fd-8428-50ee6203b4ce
-  image: yang-Yang.webp
+  image: yang-Yang.jpg
   abstract: The rise of urban digital twins emphasises the critical role of
     representing real-world environments for decision-making and collaboration
     among stakeholders. This leads to an expectation of effective management
@@ -3849,7 +3852,7 @@
     vision.'
   uuid: 6b3a4d29-45f6-4432-ac31-67ceae7dd75a
 - surname: Papadimitriou
-  name: C.
+  name: Chrysanthi
   title: 'All in? Identifying and tackling private sector’s barriers to data
     sharing: A Perspective on geospatial data in the Netherlands'
   supervisors: Bastiaan van Loenen
@@ -4676,7 +4679,7 @@
   year: 2022
   graduation_date: '2022-06-27'
   link: https://resolver.tudelft.nl/uuid:9b1ba72c-9c74-45e1-952a-58c0824c9a74
-  image: 2931e385bdce-dynamic_objs.gif
+  image: 2931e385bdce-dynamic_objs.jpg
   abstract: Many MLS point cloud application scenarios, such as navigation
     and localization algorithms, require only static environments, but the
     original MLS data usually inevitably includes many dynamic objects such
@@ -5381,7 +5384,7 @@
   year: 2022
   graduation_date: '2022-06-23'
   link: https://resolver.tudelft.nl/uuid:1581231d-6109-44b2-ab57-bbbea3e08642
-  image: b29dbdfc6477-P1_image.gif
+  image: b29dbdfc6477-P1_image.jpg
   github: https://github.com/fiodccobw/3DFacade
   abstract: '3D building models play an important role in many real-world
     applications. Different models are suitable for different application
@@ -5542,7 +5545,7 @@
   year: 2021
   graduation_date: '2021-06-29'
   link: https://resolver.tudelft.nl/uuid:e33e7fa1-118e-41d8-904f-5f03eb36e887
-  image: 64798c59903b-sog_teaser_Fig1.gif
+  image: 64798c59903b-sog_teaser_Fig1.jpg
   github: https://github.com/chenzhaiyu/points2poly
   paper: https://doi.org/10.1016/j.isprsjprs.2022.09.017
   abstract: 'Three-dimensional building models play a pivotal role in shaping
@@ -9442,6 +9445,7 @@
   supervisors: Peter van Oosterom; Edward Verbree
   year: 2017
   link: https://resolver.tudelft.nl/uuid:b9a712da-f70e-43d9-b539-9e4c491966c0
+  image: Soffers.jpg
   abstract: For nearly 200 years the Netherlands’ Cadastre, Land Registry
     and Mapping Agency – in short ‘Kadaster’ has been the organization that
     registers and maintains all legal rights concerning property in the Netherlands.
@@ -9664,6 +9668,7 @@
   year: 2017
   graduation_date: '2017-11-03'
   link: https://resolver.tudelft.nl/uuid:6332755b-72ea-4a74-a781-5cb3f951de67
+  image: Willems.jpg
   abstract: Humans interact more and more with their environment through technology,
     recent decades have seen a huge increase in the need for and availability
     of Location-Based Services (LBS). Recently landmarks have gotten a renewed
@@ -9709,6 +9714,7 @@
   year: 2017
   graduation_date: '2017-06-29'
   link: https://resolver.tudelft.nl/uuid:73a070d2-2d4c-46e3-9372-9dd5121ef5cd
+  image: Xu.jpg
   abstract: This research focuses on a smooth rendering of continuous 2D map
     based on a smooth 3D vario-scale geographical data structure. A Space
     Scale Cube (SSC) offers non-redundant geometric data for the different
@@ -9800,6 +9806,7 @@
   supervisors: Marianne de Vries; Martijn Meijers
   year: 2016
   link: https://resolver.tudelft.nl/uuid:44d66025-3e51-4d32-81aa-e093f0aca833
+  image: de Liefde.jpg
   abstract: 'Developments such as smart cities, the Internet of Things (IoT)
     and the Infrastructure for Spatial Information in Europe (INSPIRE) are
     causing a growing amount of observation data to be produced. The Open
@@ -9855,6 +9862,7 @@
   supervisors: Wilko Quak; Peter van Oosterom
   year: 2016
   link: https://resolver.tudelft.nl/uuid:d11552c7-8b87-41a0-8b88-1090ea07e858
+  image: de Vreede.jpg
   abstract: This MSc thesis aims to develop a management solution for historical
     Automatic Identification Structure (AIS) data by finding a suitable database
     and data(base) structure for an effective extraction of historical AIS
@@ -10000,6 +10008,7 @@
   supervisors: Peter van Oosterom; Wilko Quak
   year: 2016
   link: https://resolver.tudelft.nl/uuid:2e3d7f53-9ca3-4003-b09b-77b82f312873
+  image: Kalogianni.jpg
   abstract: 'The massive developments and uses of high rise buildings indicate
     that the demand for use of space above and below the ground surface is
     rapidly increasing in recent years. In the context of this thesis, the
@@ -10069,6 +10078,7 @@
   supervisors: Wilko Quak; Bastiaan van Loenen
   year: 2016
   link: https://resolver.tudelft.nl/uuid:35f9ef5c-0923-4ceb-8932-830fcf7d18d8
+  image: Kastelijns.jpg
   abstract: Sensor data plays a significant role in our life. Sensors are
     devices that can sense our environment. This sensor data is part of the
     Sensor Web and needs a vast data infrastructure design, because many organisations
@@ -10309,6 +10319,7 @@
   supervisors: Martijn Meijers; Peter van Oosterom
   year: 2016
   link: https://resolver.tudelft.nl/uuid:215c9363-7fc8-466e-9c77-8a37defbce34
+  image: Rovers.jpg
   abstract: Vario-scale data structures make it possible to derive maps at
     arbitrary scale. When requesting a map, data has to be transferred from
     server to client. This takes time, which affects the responsiveness of
@@ -10412,6 +10423,7 @@
   supervisors: Peter van Oosterom; Marianne de Vries; Bastiaan van Loenen
   year: 2015
   link: https://resolver.tudelft.nl/uuid:c5a80e2d-b1ab-46ed-95e9-56c7f0fefb83
+  image: Abhilakh Missier.jpg
   abstract: Governments and municipalities open up their data and publish
     spatial data on the Web, to be transparent to their citizens and to stimulate
     innovation. This spatial open data can be confusing for non-GIS experts,
@@ -10493,6 +10505,7 @@
   supervisors: Edward Verbree
   year: 2015
   link: https://resolver.tudelft.nl/uuid:ae4c0beb-f864-4274-aeb6-2b33514862de
+  image: Makri.jpg
   abstract: 'Finding one''s way in complex indoor settings can be a quite
     stressful and time-consuming task, especially for users unfamiliar with
     the environment. There have been several different approaches to provide
@@ -10601,6 +10614,7 @@
   supervisors: Wilko Quak
   year: 2015
   link: https://resolver.tudelft.nl/uuid:35f4cc9b-0cb8-4030-b1ae-ad2be146636f
+  image: Onrust.jpg
   abstract: This research proposes an algorithm for the generation of realistic
     plant distribution for both existing and future areas using spatial data.
     The main motivation for this research is to be able to generate realistic
@@ -10733,6 +10747,7 @@
   supervisors: Stefan van der Spek; Edward Verbree; Wilko Quak
   year: 2015
   link: https://resolver.tudelft.nl/uuid:e0ea7327-4832-4e62-a702-c9e0acaa2939
+  image: Willems Hester.jpg
   abstract: Freight is moved by trucks on the road more and more, which is
     a worrying thing, especially for the environment. A very good alternative
     to transportation by trucks is transportation by trains. The Dutch government
@@ -10812,6 +10827,7 @@
   supervisors: Peter van Oosterom; Martijn Meijers; Erik Mosselman
   year: 2015
   link: https://resolver.tudelft.nl/uuid:f41ba0a0-acd5-462e-b5aa-7c1c5878e1ac
+  image: Zervakis.jpg
   abstract: All human life is dependent on fresh water and activities related
     to monitoring its availability have become crucial for financial and survival
     reasons. Most rivers are being constantly investigated today by both the
@@ -10962,6 +10978,7 @@
   supervisors: Peter van Oosterom; Theo Tijssen; Tom Commandeur; Roderik Lindenbergh
   year: 2014
   link: https://resolver.tudelft.nl/uuid:e55765a9-dfcb-4a6d-b9fb-f9279137c50c
+  image: Liu.jpg
   abstract: Like many ICT related domains, hydrology enters the era of big
     data and managing large volume of data is a potential issue facing hydrologists.
     However at present, hydrologic data research is mostly concerned with
@@ -11011,6 +11028,7 @@
   supervisors: Sisi Zlatanova; Peter van Oosterom
   year: 2014
   link: https://resolver.tudelft.nl/uuid:9bb42bcc-9081-4e48-9b4e-34505e562bec
+  image: Tierie.jpg
   abstract: The past seventy years the number of disasters that occur, man-made
     and natural, has increased. This problem requires suitable and efficient
     means to control and respond to emergency situations. Currently, the emergency
@@ -11046,6 +11064,7 @@
   supervisors: Wilko Quak; Stefan van der Spek; Pirouz Nourian
   year: 2014
   link: https://resolver.tudelft.nl/uuid:316d539f-d28e-478e-abf5-a255f920e61d
+  image: van der Laan.jpg
   abstract: 'Indoor localization is a hot topic since the demand for Location
     Based Services (LBS) has increased, especially (semi) public places like
     museums, office buildings and congress halls would benefit from LBS. Outdoor
@@ -11322,11 +11341,12 @@
     and freely available at https://github.com/tudelft-gist/ifc2citygml.'
   uuid: 31380219-f8e8-4c66-a2dc-548c3680bb8d
 - surname: Altena
-  name: B.
+  name: Bas
   title: Filling the white gap on the map
   supervisors: Ben Gorte; Christopher Nuth; Andreas Kääb; Massimo Menenti
   year: 2012
   link: https://resolver.tudelft.nl/uuid:f8cc2379-2275-449d-8f2d-902e9e7d0682
+  image: Altena.jpg
   abstract: In this study the limits and potentials of the principle of photoclinometry
     for glacier elevation modelling is assessed. A combination of optical
     and laser remote sensing instruments are used to map the surface of different
@@ -11376,6 +11396,7 @@
   supervisors: Peter van Oosterom; Hugo Ledoux; Mathias Lemmens
   year: 2012
   link: https://resolver.tudelft.nl/uuid:e1501114-d947-4278-8612-1e249e4dc02f
+  image: Bhattacharya.jpg
   abstract: The possibility of an automatic object matching process in combination
     with a VGI (Volunteered Geographical Information) type of map has been
     explored in this research. TOP10NL, the topographic map of the Netherlands
@@ -11425,6 +11446,7 @@
   supervisors: Hugo Ledoux; Peter van Oosterom
   year: 2012
   link: https://resolver.tudelft.nl/uuid:c0c665f7-0254-42c6-895b-cb59acc079f2
+  image: Commandeur.jpg
   abstract: 'For the creation of three-dimensional (3D) city models, extrusion
     of building footprints is widely applied. Extrusion results in block shaped
     buildings. The main problem with these 3D models is that they do not represent
@@ -11465,6 +11487,7 @@
   supervisors: Sisi Zlatanova; Martijn Meijers; Erik Jansen
   year: 2012
   link: https://resolver.tudelft.nl/uuid:b7f43166-c138-475f-8490-b1f28ed1383d
+  image: Guerrero Iñiguez.jpg
   abstract: This research discusses the conversion of underground utilities
     datasets into scene graph models for its 3D visualization using the WebGL
     technology, which is a Javascript interface to access the 3D graphics
@@ -11482,12 +11505,13 @@
   uuid: b7f43166-c138-475f-8490-b1f28ed1383d
   needs_review: true
 - surname: Koudijs
-  name: M.
+  name: Marjolein
   title: Using ICESat/GLAS laser altimetry for water level estimations in
     the Mekong River
   supervisors: Roderik Lindenbergh; Massimo Menenti
   year: 2012
   link: https://resolver.tudelft.nl/uuid:6b269952-3000-4d26-8690-d8a4d553c47e
+  image: Koudijs.jpg
   abstract: This study evaluates the potential of the Ice, Cloud and Elevation
     Satellite (ICESat) with the onboard Geoscience Laser Altimeter System
     (GLAS) instrument for the monitoring of water levels in river networks.
@@ -11506,6 +11530,7 @@
   supervisors: Hugo Ledoux
   year: 2012
   link: https://resolver.tudelft.nl/uuid:b429e899-9955-4a23-9ceb-66ffb6210b30
+  image: Nedkov.jpg
   abstract: 'Three-dimensional maps are deemed better for navigation purposes
     as they offer a larger number and more realistic navigation cues than
     two-dimensional maps. Improvements in two key technologies have opened
@@ -11551,6 +11576,7 @@
   supervisors: Hugo Ledoux
   year: 2012
   link: https://resolver.tudelft.nl/uuid:5977a99b-0875-44b4-abe1-09288bf2aed1
+  image: Peters.jpg
   abstract: 'Depth-contours are an essential part of any hydrographic chart—a
     map of a waterbody intended for safe ship navigation. Traditionally these
     were manually drawn by skilled hydrographers from a limited set of surveyed
@@ -11590,11 +11616,12 @@
   uuid: 5977a99b-0875-44b4-abe1-09288bf2aed1
   needs_review: true
 - surname: Rammos
-  name: P.
+  name: Penelope
   title: Automatic detection of benthos & birds
   supervisors: Roderik Lindenbergh
   year: 2012
   link: https://resolver.tudelft.nl/uuid:c7e67b12-6dc1-4b70-b1a9-443ad0730e60
+  image: Rammos.jpg
   abstract: 'Ecological monitoring, i.e. the process of assessing the quality
     and health of natural habitats, is required to assess the impact of anthropogenic
     influence. This process is often inhibited by the expenses involved and
@@ -11646,6 +11673,7 @@
   supervisors: Sisi Zlatanova
   year: 2012
   link: https://resolver.tudelft.nl/uuid:58266d2c-330c-4493-a03a-d8b180eb810d
+  image: Wijga-Hoefsloot.jpg
   abstract: 'With laser scanning (including laser altimetry and multi-beam
     echo sounding), many data points, called point clouds, are measured. The
     interest in point clouds is increasing. Depending on the laser scanner,
@@ -11694,11 +11722,12 @@
   uuid: 58266d2c-330c-4493-a03a-d8b180eb810d
   needs_review: true
 - surname: Wong
-  name: H.M.
+  name: Hoe-Ming
   title: Registration of range images using geometric features
   supervisors: Ben Gorte; Alexander Bucksch; Massimo Menenti
   year: 2012
   link: https://resolver.tudelft.nl/uuid:d0e5e873-5ac1-45d5-804d-1354d638cb52
+  image: Wong.jpg
   uuid: d0e5e873-5ac1-45d5-804d-1354d638cb52
   needs_review: true
 - surname: Boufidou
@@ -11708,6 +11737,7 @@
   supervisors: Nick van de Giesen; Sisi Zlatanova; Leon van Paassen
   year: 2011
   link: https://resolver.tudelft.nl/uuid:70b9c0da-be31-426e-8694-c082a5e36280
+  image: Boufidou.jpg
   abstract: The notion of terroir covers the interaction between the natural,
     the cultural conditions and the grape vine itself relative to the character
     of the final wine product. It is about a dynamic chain whose factors get
@@ -11772,11 +11802,12 @@
   uuid: 70b9c0da-be31-426e-8694-c082a5e36280
   needs_review: true
 - surname: Saleh
-  name: M.
+  name: Mohamed
   title: Sediment classification using Sub-bottom profiler
   supervisors: Dick Simons; Mirjam Snellen; Jens Wunderlich
   year: 2011
   link: https://resolver.tudelft.nl/uuid:565327fc-c023-4a04-ba7b-7d9a0671a66e
+  image: Saleh.jpg
   abstract: Sub bottom profilers are commonly used as mapping tool for the
     seafloor and sub-bottom structure in the upper few meters of the seafloor.
     Their recent enhanced performance in terms of resolution adds the potential
@@ -11822,12 +11853,13 @@
   uuid: 565327fc-c023-4a04-ba7b-7d9a0671a66e
   needs_review: true
 - surname: van Goor
-  name: B.
+  name: Bas
   title: Change detection and deformation analysis using Terrestrial Laser
     Scanning
   supervisors: Ramon Hanssen; Roderik Lindenbergh; Sylvie Soudarissanane
   year: 2011
   link: https://resolver.tudelft.nl/uuid:acd7e4f7-849b-400f-a5bb-29bb485d427a
+  image: van Goor.jpg
   abstract: A Terrestrial Laser Scanner (TLS) is a powerful tool for surveying.
     Tens of millions of points are acquired with a high accuracy and within
     a short time. The resulting point clouds can be used to find changes and
@@ -11855,19 +11887,21 @@
   uuid: acd7e4f7-849b-400f-a5bb-29bb485d427a
   needs_review: true
 - surname: van Halderen
-  name: L.M.
+  name: Lidia
   title: Visual ego-motion estimation from unmanned deep sea vehicles
   supervisors: Ben Gorte; Kees de Jong
   year: 2011
   link: https://resolver.tudelft.nl/uuid:ee690d46-3ec9-486a-8a16-b3738ae3f386
+  image: van Halderen.jpg
   uuid: ee690d46-3ec9-486a-8a16-b3738ae3f386
   needs_review: true
 - surname: Verlaar
-  name: S.H.S.
+  name: Stijn
   title: Evaluation of close range photogrammetric support for Pavescan
   supervisors: Roderik Lindenbergh; Ben Gorte
   year: 2011
   link: https://resolver.tudelft.nl/uuid:3c8d42b1-fdf1-47f2-91af-cc71882c75ff
+  image: Verlaar.jpg
   abstract: Pavescan is a low cost mobile system for road modelling survey.
     Because of the absence of navigation sensors it has several practical
     drawbacks compared to most of the other mobile mapping systems, but those
@@ -11904,6 +11938,7 @@
   supervisors: Peter van Oosterom; Sisi Zlatanova
   year: 2011
   link: https://resolver.tudelft.nl/uuid:702b94e8-903d-4794-8e53-bb5b8da0917a
+  image: Xu Daniel.jpg
   abstract: Nowadays the field of geo-information is undergoing major changes,
     and the transition from 2D to 3D is having a major influence. A significant
     amount of 3D datasets are stored in the database. Experts are aware that
@@ -11954,6 +11989,7 @@
   supervisors: Peter van Oosterom; Hugo Ledoux; Martijn Meijers
   year: 2010
   link: https://resolver.tudelft.nl/uuid:78807acb-4115-478c-93de-68b9db884c8e
+  image: Arroyo Ohori.jpg
   abstract: Planar partitions (subdivisions of the plane into polygonal areas)
     constitute one of the most important data representations in GIS. They
     are used to model concepts as varied as land use, administrative units,
@@ -11991,15 +12027,17 @@
     for transportation modes
   year: 2010
   link: https://resolver.tudelft.nl/uuid:b475fee9-5b67-446d-8a6e-ecce319c4250
+  image: Biljecki.jpg
   uuid: b475fee9-5b67-446d-8a6e-ecce319c4250
   needs_review: true
 - surname: Bitenc
-  name: M.
+  name: Maja
   title: Evaluation of a laser Land-based Mobile Mapping System for measuring
     sandy coast morphology
   supervisors: Roderik Lindenbergh; Kourosh Khoshelham
   year: 2010
   link: https://resolver.tudelft.nl/uuid:a7f7aac7-98e1-44c6-a3e2-5b2415b6cecc
+  image: Bitenc.jpg
   abstract: The coastal area is an important territory for many reasons, e.g.
     as a recreational area, natural parks and reservoirs, protection against
     sea flood and storms. The last usage is especially crucial in the Netherlands,
@@ -12114,12 +12152,13 @@
   uuid: a7f7aac7-98e1-44c6-a3e2-5b2415b6cecc
   needs_review: true
 - surname: Bloemsma
-  name: M.R.
+  name: Menno
   title: Semi-automatic core characterisation based on geochemical logging
     data
   supervisors: Gert Jan Weltje; Roderik Lindenbergh
   year: 2010
   link: https://resolver.tudelft.nl/uuid:4acf424e-6bb5-4044-a7af-2baea8108baa
+  image: Bloemsma.jpg
   abstract: Textural variations in sediment are considered to be one of the
     primary controls on the geochemical composition. This relation has been
     widely exploited for the climatological interpretation of unconsolidated
@@ -12180,11 +12219,12 @@
   uuid: 4acf424e-6bb5-4044-a7af-2baea8108baa
   needs_review: true
 - surname: Briels
-  name: S.A.
+  name: Sven Andreas
   title: Infrasound source location
   supervisors: Läslo Evers; Dick Simons
   year: 2010
   link: https://resolver.tudelft.nl/uuid:5d720169-fc34-4a9c-bf6d-49aa546e3966
+  image: Briels.jpg
   abstract: By recording infrasound signals one is able to listen to the sound
     of highly energetic events such as volcanoes, meteorites and the supersonic
     flight of aircraft, even if these occur hundreds of kilometres away. Recordings
@@ -12205,11 +12245,12 @@
   link: https://www.gdmc.nl/publications/2010/Quality_assessment_GSM_positioning.pdf
   needs_review: true
 - surname: Kalpoe
-  name: D.S.
+  name: Dinesh Sharma
   title: Vibration Measurement of a Model Wind Turbine using High Speed Photogrammetry
   supervisors: Massimo Menenti; Kourosh Khoshelham; Ben Gorte
   year: 2010
   link: https://resolver.tudelft.nl/uuid:2d8318f7-42bf-4637-8d34-285f98405b64
+  image: Kalpoe.jpg
   abstract: To meet the growing demand for sustainable energy, existing wind
     turbines have to be made more powerful and efficient. One of the research
     topics to achieve this, is the aero-elastic stability limit of the blades.
@@ -12248,12 +12289,13 @@
   uuid: 2d8318f7-42bf-4637-8d34-285f98405b64
   needs_review: true
 - surname: Possel
-  name: B.M.J.
+  name: Boudewijn Maarten Johannes
   title: Automatic detection of buried channel deposits using high resolution
     laser altimetry data (FLI-MAP)
   supervisors: Dick Simons; Roderik Lindenbergh; Joep Storms
   year: 2010
   link: https://resolver.tudelft.nl/uuid:6210b7b5-8599-4ed6-bf3b-738f9a8d0f97
+  image: Possel.jpg
   abstract: 'The formation of the current Rhine-Meuse delta has mainly taken
     place during the Holocene (the last 12,000 years). This period is characterised
     by avulsions that lead to sudden shifts in the location of river channels.
@@ -12298,12 +12340,13 @@
   uuid: 6210b7b5-8599-4ed6-bf3b-738f9a8d0f97
   needs_review: true
 - surname: Yu
-  name: H.
+  name: Hang
   title: Monitoring Glacier Elevation Changes over the Tibetan Plateau Using
     ALOS PRISM and ICESat
   supervisors: Massimo Menenti; Roderik Lindenbergh; Kourosh Khoshelham
   year: 2010
   link: https://resolver.tudelft.nl/uuid:9e11a9bd-49a9-4e86-a856-8558e39dfb34
+  image: Yu.jpg
   abstract: Glacier melting has become a key issue in the current discussion
     on global climate change. Glaciers of the Tibetan Plateau may be heavily
     affected by global warming. Hence, possible glacier melting over the plateau
@@ -12339,12 +12382,13 @@
   uuid: 9e11a9bd-49a9-4e86-a856-8558e39dfb34
   needs_review: true
 - surname: Altundağ
-  name: D.
+  name: Doğan
   title: De-noising terrestrial laser scanning data for roughness characterization
     of rock surfaces
   supervisors: Kourosh Khoshelham; Dominique Ngan-Tillard; Massimo Menenti
   year: 2009
   link: https://resolver.tudelft.nl/uuid:219f6326-95c9-445a-aa87-413cc80ea819
+  image: Altundağ.jpg
   abstract: To measure roughness a number of traditional measurement methods
     have been developed such as linear profiling, compass and disc clinometers.
     Although these measurement methods have been widely used, they are time
@@ -12401,21 +12445,23 @@
   uuid: 219f6326-95c9-445a-aa87-413cc80ea819
   needs_review: true
 - surname: Duijnmayer
-  name: K.
+  name: Koen
   title: Sediment characterization by geo-acoustic inversion of marine seismic
     data received on a towed hydrophone array
   supervisors: Dick Simons; Mirjam Snellen; Guy Drijkoningen
   year: 2009
   link: https://resolver.tudelft.nl/uuid:a8c94ef1-a817-4ca5-b1ab-290a93dd22e1
+  image: Duijnmayer.jpg
   uuid: a8c94ef1-a817-4ca5-b1ab-290a93dd22e1
   needs_review: true
 - surname: Molijn
-  name: R.A.
+  name: Ramses Amadeus
   title: ICESat full waveform signal analysis for the classification of land
     cover types over the cryosphere
   supervisors: Roderik Lindenbergh; Brian Gunter; Roland Klees
   year: 2009
   link: https://resolver.tudelft.nl/uuid:84ae2335-bda6-4880-af3e-217cd6289f27
+  image: Molijn.jpg
   abstract: 'The Earth needs attention. That is the bottom line of today’s
     discussion on the impact of humans on the environment and their contribution
     to global warming. With the rapid sea level rise and the melting ice caps,
@@ -12433,12 +12479,13 @@
   uuid: 84ae2335-bda6-4880-af3e-217cd6289f27
   needs_review: true
 - surname: Widiastuti
-  name: E.
+  name: Endang
   title: Data assimilation of GRACE terrestrial water storage data into a
     hydrological model using the Ensemble Kalman Smoother
   supervisors: Nick van de Giesen; Susan Steele-Dunne; Brian Gunter
   year: 2009
   link: https://resolver.tudelft.nl/uuid:a91d6dc5-bdeb-4ee3-9a34-75a72c89f806
+  image: Widiastuti.jpg
   abstract: Terrestrial water storage (TWS) can be defined as the storage
     of water on and below the land surface, and includes snow, ice, surface
     water, soil moisture, and ground water. TWS is a key component of the
@@ -12479,6 +12526,7 @@
   supervisors: Kourosh Khoshelham; Ben Gorte
   year: 2009
   link: https://resolver.tudelft.nl/uuid:9a2421c2-9c7b-4e4f-945c-1246ffa35bd4
+  image: Wortel.jpg
   abstract: Due to changing contract forms in road construction, contractors
     feel the need for accurate and fast quantity measurement methods. UAV
     Photogrammetry is a potential answer for contractors. Photogrammetric
@@ -12503,12 +12551,13 @@
   uuid: 9a2421c2-9c7b-4e4f-945c-1246ffa35bd4
   needs_review: true
 - surname: Bantis
-  name: T.
+  name: Thanos
   title: Aerostat Photogrammetry for Large Scale Hydrological Modeling with
     Special Focus on Energy Balance Terms
   supervisors: Nick van de Giesen; Kourosh Khoshelham; Sisi Zlatanova
   year: 2008
   link: https://resolver.tudelft.nl/uuid:3617d20d-43e8-4bbb-a54e-e1a5323cf882
+  image: Bantis.jpg
   abstract: Knowledge of temperature distributions on streams and lakes is
     considered to be a valuable source of information for a wide range of
     disciplines such as ecologists, hydrologists and geochemists, as it can
@@ -12550,6 +12599,7 @@
   supervisors: Peter van Oosterom; Arta Dilo; Bastiaan van Loenen
   year: 2008
   link: https://resolver.tudelft.nl/uuid:d650352b-78fb-4919-9cb0-f2f66b17aef5
+  image: Hofman.jpg
   abstract: 'The aim of this master thesis has been to answer the question:
     How can a vario-scale IMGeo be designed and developed by applying the
     constrained tGAP structure with Top10NL as initial constraint? This research
@@ -12605,12 +12655,13 @@
   uuid: d650352b-78fb-4919-9cb0-f2f66b17aef5
   needs_review: true
 - surname: Samiei-Esfahany
-  name: S.
+  name: Sami
   title: Improving Persistent Scatterer Interferometry Results for Deformation
     Monitoring
   supervisors: Ramon Hanssen; Freek van Leijen
   year: 2008
   link: https://resolver.tudelft.nl/uuid:d1eed85e-6625-434d-aacb-538464557f78
+  image: Samiei-Esfahany.jpg
   abstract: 'The persistent scatterer interferometry (PSI) is a relatively
     new technique in radar interferometry which has matured, within a last
     decade, to a practical technique for measuring the deformation of the
@@ -12670,6 +12721,7 @@
   supervisors: Peter van Oosterom; Edward Verbree; Eduardo Dias
   year: 2007
   link: https://resolver.tudelft.nl/uuid:b130806f-58be-466c-8890-a1534df3ff00
+  image: de Boer.jpg
   abstract: he increasing availability of digital camera devices and camera
     phones enable users to capture and upload digital photos at any a time
     and any place. Online image collections face the problem organizing increasing
@@ -12713,22 +12765,24 @@
   uuid: b130806f-58be-466c-8890-a1534df3ff00
   needs_review: true
 - surname: Pluymaekers
-  name: S.J.A.
+  name: Steven
   title: A data analysis to bed dynamics in the Western Scheldt estuary
   supervisors: Roderik Lindenbergh
   year: 2007
   link: https://resolver.tudelft.nl/uuid:c4b3b2de-f029-4461-ba20-362663d9f062
+  image: Pluymaekers.jpg
   abstract: Morphological parameter estimation and deformation analysis near
     the shoal of Walsoorden (Western Scheldt).
   uuid: c4b3b2de-f029-4461-ba20-362663d9f062
   needs_review: true
 - surname: Slobbe
-  name: D.C.
+  name: Cornelis
   title: Towards a combined estimation of Greenland’s ice sheet mass balance
     using GRACE and ICESat data
   supervisors: Pavel Ditmar; Roderik Lindenbergh
   year: 2007
   link: https://resolver.tudelft.nl/uuid:0d315b1b-84a4-4e03-8b65-95353e04a598
+  image: Slobbe.jpg
   abstract: The Greenland ice sheet is sensitive to climate change. Global
     heating is expected to result in ice mass losses that will contribute
     to global sea level rise. For this reason monitoring Greenland’s ice mass
@@ -12793,6 +12847,7 @@
   supervisors: Peter van Oosterom; Edward Verbree; A.L.J.M. Wiegerinck
   year: 2006
   link: https://resolver.tudelft.nl/uuid:ac4e2424-be72-4481-9b18-699172d045eb
+  image: Bont.jpg
   abstract: Planning and designing mobile telephone networks is a complicated
     process, which involves large amounts of money. The TIGER tool is under
     development at TNO ICT. The tool calculates the spatial traffic grids,
@@ -12821,11 +12876,12 @@
   uuid: ac4e2424-be72-4481-9b18-699172d045eb
   needs_review: true
 - surname: Kagkaras
-  name: A.
+  name: Adamantios
   title: Laser scanning modelling of a Cessna citation
   supervisors: Peter Teunissen; Ben Gorte; Alexander Bucksch
   year: 2006
   link: https://resolver.tudelft.nl/uuid:20993923-81e7-44ea-a296-1f02893412f1
+  image: Kagkaras.jpg
   abstract: In Aerospace Engineering the field of Computational Flow Dynamics
     (CFD) studies the aerodynamic behaviour of aircrafts. What is currently
     being used to perform CFD simulations are Computer Aided Design (CAD)
@@ -12840,12 +12896,13 @@
   uuid: 20993923-81e7-44ea-a296-1f02893412f1
   needs_review: true
 - surname: Kodde
-  name: M.P.
+  name: Martin
   title: Glacier Surface Analysis. Airborne Laser Scanning for monitoring
     glaciers and crevasses
   supervisors: Dick Simons; Ben Gorte; Norbert Pfeifer; Roderik Lindenbergh
   year: 2006
   link: https://resolver.tudelft.nl/uuid:1c7b4a64-e8f0-4ff2-957f-ae9c55617755
+  image: Kodde.jpg
   uuid: 1c7b4a64-e8f0-4ff2-957f-ae9c55617755
   needs_review: true
 - surname: Meijers
@@ -12854,6 +12911,7 @@
   supervisors: Peter van Oosterom; Wilko Quak
   year: 2006
   link: https://resolver.tudelft.nl/uuid:3449616f-fa03-4877-81e8-218141b580af
+  image: Meijers.jpg
   abstract: With the increase of the availability of large-scale geographic
     data set and the rise of widespread computer networks, such as the Internet,
     the need has arisen to be ableto transfer this data by means of these
@@ -12909,11 +12967,12 @@
   uuid: 3449616f-fa03-4877-81e8-218141b580af
   needs_review: true
 - surname: Oudman
-  name: R.J.
+  name: Erna
   title: The transformation of GPS into NAP heights
   supervisors: Roland Klees
   year: 2006
   link: https://resolver.tudelft.nl/uuid:e661fcdd-6fe8-46e9-b5ea-51dabbd89175
+  image: Oudman.jpg
   abstract: 'GPS is used more and more for height determination. Resulting
     ellipsoidal heights don''t give information about how the water flows.
     Therefore traditional height systems are used. In the Netherlands this
@@ -12927,11 +12986,12 @@
   uuid: e661fcdd-6fe8-46e9-b5ea-51dabbd89175
   needs_review: true
 - surname: Sablerolle
-  name: S.A.
+  name: Steven Alexander
   title: Automatic Registration of laser scanning data and colour images
   supervisors: Alexander Bucksch
   year: 2006
   link: https://resolver.tudelft.nl/uuid:00f12183-2577-44c5-a8b1-77287681779b
+  image: Sablerolle.jpg
   abstract: 'Laser scanning is a new technique for three dimensional point
     measurements. Over the last decades the number of applications in which
     these measurements take place, has grown significantly. In every application
@@ -12955,11 +13015,12 @@
   uuid: 00f12183-2577-44c5-a8b1-77287681779b
   needs_review: true
 - surname: van Ree
-  name: J.M.
+  name: Jane Margaret
   title: Determination of the precision and reliability parameters of terrestrial
     laser scanners by creating a practical experiment set-up
   supervisors: Roderik Lindenbergh; Alexander Bucksch
   year: 2006
   link: https://resolver.tudelft.nl/uuid:071ea771-7bb0-4914-b97e-1e2294affe71
+  image: van Ree.jpg
   uuid: 071ea771-7bb0-4914-b97e-1e2294affe71
   needs_review: true

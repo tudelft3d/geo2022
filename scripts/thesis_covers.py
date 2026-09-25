@@ -215,7 +215,9 @@ def choose_pdf(candidates, fetch, surname_k):
             s += 2
         elif rect:
             s -= 3  # landscape: slide deck
-        if pages >= SHORT_PAGES:
+        if pages >= 60:
+            s += 2  # a real MSc thesis; also beats text-layer-less picks
+        elif pages >= SHORT_PAGES:
             s += 1
         else:
             s -= 1
@@ -228,20 +230,26 @@ def choose_pdf(candidates, fetch, surname_k):
 
 
 def render(pdf_bytes, out_path, width, quality):
-    """Render page 1 to out_path as JPEG; returns (nearly_blank, size)."""
+    """Render page 1 to out_path as JPEG (page 2 when page 1 is nearly
+    blank, as with old theses); returns (nearly_blank, size)."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with pymupdf.open(stream=pdf_bytes, filetype="pdf") as doc:
         page = doc[0]
-        zoom = width / page.rect.width
-        pix = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom),
-                              alpha=False)
-        samples, n = pix.samples, pix.n
-        ink = sum(
-            1 for j in range(0, len(samples), n)
-            if (samples[j] + samples[j + 1] + samples[j + 2]) / 3 < 245)
-        frac = ink / (pix.width * pix.height)
+        pix = None
+        for pageno in range(min(2, doc.page_count)):
+            page = doc[pageno]
+            zoom = width / page.rect.width
+            pix = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom),
+                                  alpha=False)
+            samples, n = pix.samples, pix.n
+            ink = sum(
+                1 for j in range(0, len(samples), n)
+                if (samples[j] + samples[j + 1] + samples[j + 2]) / 3 < 245)
+            if ink / (pix.width * pix.height) >= BLANK_INK:
+                break
         out_path.write_bytes(pix.tobytes("jpeg", jpg_quality=quality))
-    return frac < BLANK_INK, out_path.stat().st_size
+    return ink / (pix.width * pix.height) < BLANK_INK, \
+        out_path.stat().st_size
 
 
 def main():
@@ -281,9 +289,14 @@ def main():
 
     progress = load_progress() if real_run else {}
     if real_run:
-        for e in entries:  # names from an interrupted earlier run
+        for e in entries:
+            # names from an interrupted earlier run
             if e.get("uuid") in progress and not e.get("image"):
                 e["image"] = progress[e["uuid"]]
+            elif e.get("uuid") in progress and \
+                    e["image"] != progress[e["uuid"]] and \
+                    (IMG_DIR / progress[e["uuid"]]).is_file():
+                e["image"] = progress[e["uuid"]]  # adopt the rendered name
     fresh = assign_filenames(entries)
 
     todo = []
@@ -292,7 +305,8 @@ def main():
             continue
         if args.uuid and e["uuid"] not in args.uuid:
             continue
-        if real_run and not args.redo_all and e["uuid"] in progress:
+        if real_run and not args.redo_all and not args.uuid and \
+                e["uuid"] in progress:
             continue
         if args.skip_existing and e.get("image") and \
                 (out_dir / e["image"]).is_file():

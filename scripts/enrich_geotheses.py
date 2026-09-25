@@ -390,7 +390,10 @@ def write_yaml(entries):
         ordered.append(clean)
 
     header = ("# Completed MSc Geomatics theses, newest first.\n"
-              "# name/surname as on the thesis record page; supervisors and\n"
+              "# name/surname as on the thesis record page (initials),\n"
+              "# except where scripts/expand_student_names.py has replaced\n"
+              "# an initials-only name with the student's full given name\n"
+              "# (from MyCase or the thesis title page); supervisors and\n"
               "# abstract from the finished thesis (repository record), not\n"
               "# the proposal. Supervisors are shown under their preferred\n"
               "# name (scripts/preferred_names.yml). Maintain by hand or via\n"

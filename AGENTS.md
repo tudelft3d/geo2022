@@ -36,6 +36,14 @@ python3 scripts/enrich_geotheses.py           # add --fetch-only / --offline
 # the same table). Unmapped strings are reported and block the write.
 python3 scripts/apply_preferred_names.py          # add --write to apply
 
+# Expand initials-only student names in the archive to full given names:
+# MyCase (closed cases) for recent theses, the thesis PDF's title pages +
+# metadata for older ones, all initials-checked against the record form.
+# PDFs are cached under .geotheses_cache/pdf/ (robots.txt delay, ~20 s per
+# thesis on the first run); evidence goes to student_names_report.md.
+# Dry-run by default; unresolved entries keep their initials.
+python3 scripts/expand_student_names.py          # add --write / --offline
+
 # Validate the archive data (required fields, canonical links, duplicate
 # people; image files when given --img-dir). Exit code is CI-usable.
 python3 scripts/check_geotheses.py --img-dir theses/img
@@ -125,6 +133,7 @@ After each graduation round (or whenever, really):
 | `scripts/enrich_geotheses.py` | Cleans/enriches the archive from repository records + MyCase |
 | `scripts/preferred_names.yml` | Preferred display names for the archive's people (`aliases` = repository/MyCase initials variants) |
 | `scripts/apply_preferred_names.py` | Rewrites archive supervisor names through `preferred_names.yml` (dry-run by default) |
+| `scripts/expand_student_names.py` | Replaces initials-only student names with full given names (MyCase / thesis PDF title pages; evidence in `student_names_report.md`) |
 | `scripts/check_geotheses.py` | Validates the archive data |
 | `scripts/find_missing_theses.py` | Cross-checks the archive with the GDMC + 3dge thesis lists |
 | `scripts/find_old_theses.py` | Sweeps the repository for pre-coverage theses by supervisor surname |
