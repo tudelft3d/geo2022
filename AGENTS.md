@@ -38,6 +38,7 @@ python3 scripts/check_geotheses.py --img-dir theses/img
 # pages, and writes missing_theses_report.md (confirmed gaps, candidates
 # for a manual look, verified non-Geomatics). Exit 1 while confirmed
 # gaps remain; --add appends them to the archive flagged needs_review.
+# Hand verdicts go in scripts/verified_theses.yml.
 python3 scripts/find_missing_theses.py          # add --offline / --no-pdf
 
 # Sync _data/ongoing_theses.yml (Current Theses page) with MyCase's open

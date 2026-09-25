@@ -1,0 +1,25 @@
+# Hand-verified theses from the GDMC / 3d.bk.tudelft.nl lists.
+#
+# scripts/find_missing_theses.py consults this file before its automatic
+# checks: 'programme: Geomatics' turns the thesis into a confirmed gap,
+# anything else records it as a verified non-Geomatics thesis. Theses
+# listed here are never reported as candidates again. 'note' (optional)
+# is copied into the report.
+
+- author: Filippo Mortari
+  year: 2013
+  programme: not Geomatics
+- author: Davide Russo
+  year: 2013
+  programme: not Geomatics
+- author: Vincent van Altena
+  year: 2014
+  programme: not Geomatics
+- author: Nikkie den Dekker
+  year: 2015
+  programme: not Geomatics
+- author: Patricia ten Rouwelaar
+  year: 2015
+  programme: not Geomatics
+  note: none of the five pre-2016 theses that only the 3d.bk.tudelft.nl
+    list knows are Geomatics (checked by Ken, 2026-09)

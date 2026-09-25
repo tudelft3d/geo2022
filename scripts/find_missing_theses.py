@@ -21,9 +21,11 @@ Evidence used to classify an uncovered thesis, most reliable first:
 A thesis with decisive Geomatics evidence is a confirmed gap; one whose
 record/PDF names another programme (GIMA, AUBS, remote sensing, ...) is a
 verified non-Geomatics thesis; anything still undecided is a candidate
-for a manual look. Theses from before --from-year (default: 2013, where
-the archive starts) are skipped, and GIMA theses are never gaps by
-definition: the archive covers the MSc Geomatics programme only.
+for a manual look. Verdicts checked by hand live in
+scripts/verified_theses.yml and always win. Theses from before
+--from-year (default: 2013, where the archive starts) are skipped, and
+GIMA theses are never gaps by definition: the archive covers the MSc
+Geomatics programme only.
 
 Output: missing_theses_report.md at the repo root and a console summary.
 Exit status is 1 while confirmed gaps remain, 2 when a source page could
@@ -72,6 +74,18 @@ OTHER_PROGRAMMES = ("GIMA", "Urbanism", "Building Technology", "MADE",
                     "Construction Management", "Applied Earth Sciences",
                     "Sustainable Energy", "Science Communication",
                     "Complex Systems")
+
+# Thesis PDFs name the programme in many ways ("Master of Science in
+# Geomatics", "Master of Science Geomatics for the Built Environment",
+# "Master of Science degree in Geomatics", "Thesis Master Geomatics",
+# "Master program: Geomatics", "MSc Geomatics", ...).
+GEO_PDF_RE = re.compile(
+    r"master of science (?:degree )?(?:in |of )?geomatics"
+    r"|master (?:program|programme):?\s+geomatics"
+    r"|master geomatics"
+    r"|msc\.?\s+(?:in\s+|of\s+)?geomatics"
+    r"|geomatics for the built environment",
+    re.IGNORECASE)
 
 
 # ---------------------------------------------------------------- sources
@@ -242,11 +256,10 @@ def search_repository_uuid(title, author, year, offline):
 
 
 def pdf_programme(pdf_url, author, year, offline):
-    """(programme named on the thesis PDF's title pages, mentions
-    geomatics anywhere in them). programme is '' when the title pages
-    name no programme, and both are None, None when the PDF could not be
-    read. The extracted text is cached so the (large) PDFs are downloaded
-    only once."""
+    """(geomatics-named, other-programme-named) from the thesis PDF's
+    first pages; either is '' when absent and both are None, None when
+    the PDF could not be read. The extracted text is cached so the
+    (large) PDFs are downloaded only once."""
     if not pdf_url:
         return None, None
     slug = eg.foldcase(f"{author} {year}")
@@ -268,22 +281,45 @@ def pdf_programme(pdf_url, author, year, offline):
             return None, None
         eg.CACHE_DIR.mkdir(exist_ok=True)
         cache.write_text(text, encoding="utf-8")
+    geo = "Geomatics" if GEO_PDF_RE.search(text) else ""
     m = re.search(r"[Mm]aster of [Ss]cience in ([A-Za-z][A-Za-z ,&/+]{2,60})"
                   r"|[Mm]Sc\.? (?:in |of )?([A-Z][A-Za-z ,&/+]{2,60})", text)
     named = ""
     if m:
         named = (m.group(1) or m.group(2)).strip(" ,.&")
         named = re.split(r"\s+by\s+|\s+[Tt]hesis\s+|\s+degree\b", named)[0]
-    return named, bool(re.search(r"[Gg]eomatics", text))
+        if named.lower().startswith("geomatics"):
+            named = ""
+    return geo, named
 
 
 # ------------------------------------------------------------------- main
 
-def investigate(t, args):
+def load_verified():
+    """Hand verdicts from scripts/verified_theses.yml (may be empty)."""
+    path = Path(__file__).resolve().parent / "verified_theses.yml"
+    if not path.exists():
+        return []
+    return yaml.safe_load(path.read_text()) or []
+
+
+def investigate(t, args, verified):
     """Set t['evidence'] and return 'gap', 'non' or 'cand'."""
     evidence = []
     school = t.get("school", "")
     verdict = None
+
+    for v in verified:
+        if (eg.foldcase(v.get("author", "")) == eg.foldcase(t["author"])
+                and int(v.get("year") or 0) == t["year"]):
+            prog = (v.get("programme") or "").strip()
+            note = (v.get("note") or "").strip()
+            evidence.append(f"verified by hand as {prog}"
+                            + (f" ({note})" if note else ""))
+            t["evidence"] = evidence
+            # "not Geomatics" contains "geomatics", so no substring test
+            return ("gap" if prog.lower().startswith("geomatics") else "non")
+
     if "geomatic" in school.lower():
         verdict = "gap"
         evidence.append(f"GDMC names the programme: {school}")
@@ -314,31 +350,20 @@ def investigate(t, args):
             evidence.append(f"repository Programme: {prog}")
 
         if verdict is None and not args.no_pdf:
-            named, mentions = pdf_programme(t.get("pdf", ""), t["author"],
-                                            t["year"], args.offline)
-            if named is None:
+            geo, named = pdf_programme(t.get("pdf", ""), t["author"],
+                                       t["year"], args.offline)
+            if geo is None:
                 if t.get("pdf"):
                     evidence.append("thesis PDF could not be read")
-            else:
-                # the capture picks up what follows the programme on the
-                # title page ("Geomatics by Ada Lovelace June 2016",
-                # all-caps thesis titles, ...), so trim it
-                clean = re.split(r"\s+by\s+|\s+at the\s+|\s+for the\s+"
-                                 r"|\s+[Tt]hesis\s+|\s+degree\b|,\s+",
-                                 named)[0].strip(" ,.&")
-                if clean.lower().startswith("geomatics"):
-                    verdict = "gap"
-                    evidence.append("thesis PDF title page: Master of "
-                                    "Science in Geomatics")
-                elif clean:
-                    verdict = "non"
-                    evidence.append(f"thesis PDF title page names: {clean}")
-                elif mentions:
-                    evidence.append("thesis PDF mentions Geomatics but its "
-                                    "title pages name no programme")
-                elif t.get("pdf"):
-                    evidence.append("thesis PDF names no recognisable "
-                                    "programme on its title pages")
+            elif geo:
+                verdict = "gap"
+                evidence.append("thesis PDF names the Geomatics programme")
+            elif named:
+                verdict = "non"
+                evidence.append(f"thesis PDF title page names: {named}")
+            elif t.get("pdf"):
+                evidence.append("thesis PDF names no recognisable "
+                                "programme on its title pages")
 
     if "3dge" in t["sources"]:
         evidence.append("listed on 3d.bk.tudelft.nl")
@@ -414,9 +439,13 @@ def append_gaps(gaps, args):
         entry = {"surname": surname, "name": " ".join(given),
                  "title": t["title"], "year": t["year"],
                  "needs_review": True}
-        if t.get("uuid"):
-            entry["link"] = eg.RESOLVER_URL.format(uuid=t["uuid"])
-            entry["uuid"] = t["uuid"]
+        uuid = t.get("uuid")
+        if not uuid:
+            uuid = search_repository_uuid(t["title"], t["author"],
+                                          t["year"], args.offline)
+        if uuid:
+            entry["link"] = eg.RESOLVER_URL.format(uuid=uuid)
+            entry["uuid"] = uuid
             page = eg.fetch_record(t["uuid"], args.delay, args.offline)
             if page:
                 rec = eg.parse_record(page)
@@ -514,11 +543,12 @@ def main():
           f"{len(theses)} external theses; investigating {len(uncovered)}.")
 
     gaps, non_geo, candidates = [], [], []
+    verified = load_verified()
     for i, t in enumerate(sorted(uncovered, key=lambda x: x["year"]), 1):
         print(f"[{i}/{len(uncovered)}] {t['author']} ({t['year']})",
               flush=True)
         {"gap": gaps, "non": non_geo, "cand": candidates}[
-            investigate(t, args)].append(t)
+            investigate(t, args, verified)].append(t)
 
     write_report(gaps, candidates, non_geo, covered_name, len(archive),
                  len(theses), args.from_year, skipped_old)

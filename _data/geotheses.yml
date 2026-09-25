@@ -10059,6 +10059,73 @@
     are described at the following chapters.'
   uuid: 2e3d7f53-9ca3-4003-b09b-77b82f312873
   needs_review: true
+- surname: Kastelijns
+  name: Matthijs
+  title: Making sense of standards An evaluation and harmonisation of standards
+    in the Sensor Web
+  supervisors: C.W. Quak; B. van Loenen
+  year: 2016
+  link: https://resolver.tudelft.nl/uuid:35f9ef5c-0923-4ceb-8932-830fcf7d18d8
+  abstract: Sensor data plays a significant role in our life. Sensors are
+    devices that can sense our environment. This sensor data is part of the
+    Sensor Web and needs a vast data infrastructure design, because many organisations
+    are involved, the abundance of different sensors and because of the big
+    volume of data and near-real time data. The extent to which sensor data
+    can be used depends on a variety of factors, among them the observations
+    of the sensor, the data about the sensor itself and interoperability between
+    sensor systems. Standards will lead the way to a well-functioning interoperable
+    Sensor Web, meaning all the systems can communicate with and understand
+    each other. Therefore, the sensor standards need to be discoverable, interoperable
+    and usable in their own domain. Currently this is not yet the case. There
+    is not sufficient information available about the gaps and overlaps in
+    the Sensor Web and there are a lot of different standards and therefore
+    the systems are not capable of communicating to each other. Currently
+    the standards are made and maintained by different organizations. There
+    is one cluster of standards assembled by Open Geospatial Consortium (OGC),
+    called Sensor Web Enablement (SWE), which forms the spine of the Sensor
+    Web, but there are also other non-OGC standards that are useful for the
+    Sensor Web, such as the IEEE standards and W3C's Semantic Sensor Network.
+    A use case demonstrates both the usefulness and the gaps and overlaps
+    of the standards in the Sensor Web, because it sketches a real-life situation
+    in which standards can bring interoperability. The Smart Emission project
+    in Nijmegen is a suitable candidate to assist in answering questions regarding
+    sensor standards. In Nijmegen there is a citizen request for air quality
+    data. The Smart Emission Project was initiated to respond to this request.
+    The project is a collaboration between different organizations to to keep
+    the city liveable by incorporating citizen participation in the Sensor
+    Web. Sensors that measure different environmental indicators namely air
+    quality, sound pollution, and meteorological data are placed all over
+    Nijmegen to sense the city. The plan is to provide the data to the citizen
+    for both viewing and downloading via applications. The project team is
+    currently using OGC sensor standards, namely the SensorThingsApi and Sensor
+    Observation Service, but is interested in alternatives, such as for remote
+    access to the sensor, and can profit from research on sensor standards.
+    The requirements for implementation in the use case are extracted from
+    meetings with citizens, network maintainers, experts in the Sensor Web
+    and project members. Validation of requirements from the Smart Emission
+    project demonstrates weaknesses and strong points in the current standards
+    and how they can be used in a combination to provide the right data to
+    the citizen. Validation is done through a data model based mainly on Observations
+    and Measurements. Results show that not all requirements for the use case
+    are met and that standardisation is not achieved for every requirement.
+    To improve standardisation for future projects the adapted Open Systems
+    Interconnection (OSI) model in combination with a digital sensor portal
+    is suggested to be used. The OSI model, adapted from computer science
+    and used for data interoperability on the Internet is an ordering system
+    and can indicate the right standard for the right usage. It is a layered
+    system in which data is added in all the five layers. The chosen data
+    flows through this system and ends up with relevant information for the
+    user and the system. The adapted OSI-model is changed on several aspects.
+    The layers are different than the original OSI-model. Furthermore division
+    between standards is made by categorizing them on implementation method.
+    Using the Adapted OSI-model will fill the gaps and demonstrate the overlaps
+    in the Sensor Web make it more interoperable. In this thesis data modeling
+    of a use case has been used to analyse sensor standards. The results show
+    that in the current situation the sensor standards are insufficient ordered,
+    interoperable and harmonised. The Adapted OSI-model can bring order and
+    the model can open up the way towards a more interoperable sensor web.
+  uuid: 35f9ef5c-0923-4ceb-8932-830fcf7d18d8
+  needs_review: true
 - surname: Koopman
   name: Martijn
   title: 3D Path-finding in a voxelized model of an indoor environment
@@ -10335,6 +10402,14 @@
     setting of the meet rollator the usefulness of other sensors should be
     further investigated.'
   uuid: 29fc70b1-c262-4f3d-837f-5ecddb56d6f0
+- surname: Abhilakh Missier
+  name: Godelief
+  title: Towards a Web application for viewing Spatial Linked Open Data of
+    Rotterdam
+  year: 2015
+  link: https://resolver.tudelft.nl/uuid:c5a80e2d-b1ab-46ed-95e9-56c7f0fefb83
+  uuid: c5a80e2d-b1ab-46ed-95e9-56c7f0fefb83
+  needs_review: true
 - surname: Chen
   name: Carl
   title: Edge-aware simplification of roof and facade point clouds into a
@@ -10382,14 +10457,8 @@
   title: Indoor Signposting and Wayfinding through an Adaptation of the Dutch
     cyclist Junction Network System
   year: 2015
-  link: https://www.gdmc.nl/publications/2015/Indoor_Signposting_and_Wayfinding.pdf
-  needs_review: true
-- surname: Missier
-  name: Godelief Abhilakh
-  title: Towards a Web application for viewing Spatial Linked Open Data of
-    Rotterdam
-  year: 2015
-  link: https://www.gdmc.nl/publications/2015/Viewing_Spatial_Linked_Open_Data.pdf
+  link: https://resolver.tudelft.nl/uuid:ae4c0beb-f864-4274-aeb6-2b33514862de
+  uuid: ae4c0beb-f864-4274-aeb6-2b33514862de
   needs_review: true
 - surname: Mulder
   name: Damien
@@ -10443,7 +10512,8 @@
   title: Automatic generation of plant distributions for existing and future
     natural environments using spatial data
   year: 2015
-  link: https://www.gdmc.nl/publications/2015/Automatic_generation_plant_distributions.pdf
+  link: https://resolver.tudelft.nl/uuid:35f4cc9b-0cb8-4030-b1ae-ad2be146636f
+  uuid: 35f4cc9b-0cb8-4030-b1ae-ad2be146636f
   needs_review: true
 - surname: Pronk
   name: Maarten
@@ -10487,6 +10557,13 @@
     Multistar is one of the smallest structures available and outperforms
     the other data structures significantly on massive TINs.'
   uuid: da6b7329-f45b-4560-8374-bb522e78121f
+- surname: Ramkisoen
+  name: Myron
+  title: Solid CAD Geometries in a Spatial DBMS - An Application in the Petrochemical
+    Industry
+  year: 2015
+  link: https://www.gdmc.nl/publications/2015/Solid_CAD_Geometries_Spatial_DBMS.pdf
+  needs_review: true
 - surname: van der Ham
   name: Martijn
   title: Real Time Localization of Assets in Hospitals using Quuppa Indoor
@@ -10531,6 +10608,13 @@
     model for making coordinate adjustments of the position estimates is described
     based on the reliability of the data from the test cases.
   uuid: 31da4059-5dac-4e60-93d7-36cad2d8ab46
+- surname: Willems
+  name: Hester
+  title: The localisation of freight wagons on marshalling yards
+  year: 2015
+  link: https://resolver.tudelft.nl/uuid:e0ea7327-4832-4e62-a702-c9e0acaa2939
+  uuid: e0ea7327-4832-4e62-a702-c9e0acaa2939
+  needs_review: true
 - surname: Wu
   name: Haoxiang
   title: Integration of 2D architectural floor plans into Indoor OpenStreetMap
@@ -10574,7 +10658,8 @@
   title: Combining a Physics-based Model and Spatial Interpolation of Scarce
     Bed Topography Data in Meandering Alluvial Rivers
   year: 2015
-  link: https://www.gdmc.nl/publications/2015/Scarce_Bed_Topography_Data.pdf
+  link: https://resolver.tudelft.nl/uuid:f41ba0a0-acd5-462e-b5aa-7c1c5878e1ac
+  uuid: f41ba0a0-acd5-462e-b5aa-7c1c5878e1ac
   needs_review: true
 - surname: Zhou
   name: Kaixuan
@@ -10687,6 +10772,29 @@
     be indicated in these models and analyse which approach provides better
     path calculation results.'
   uuid: c2a9a308-5cdc-4df2-bf30-9eea5ea176c5
+- surname: Liu
+  name: Haicheng
+  title: 'Comparing NetCDF and a multidimensional array database on managing
+    and querying large hydrologic datasets: a case study of SciDB'
+  year: 2014
+  link: https://resolver.tudelft.nl/uuid:e55765a9-dfcb-4a6d-b9fb-f9279137c50c
+  uuid: e55765a9-dfcb-4a6d-b9fb-f9279137c50c
+  needs_review: true
+- surname: Tierie
+  name: Elise
+  title: Visualisation conformity of three dimensional IMGeo for emergency
+    response
+  year: 2014
+  link: https://resolver.tudelft.nl/uuid:9bb42bcc-9081-4e48-9b4e-34505e562bec
+  uuid: 9bb42bcc-9081-4e48-9b4e-34505e562bec
+  needs_review: true
+- surname: van der Laan
+  name: Eva
+  title: Radio propagation aided indoor localization
+  year: 2014
+  link: https://resolver.tudelft.nl/uuid:316d539f-d28e-478e-abf5-a255f920e61d
+  uuid: 316d539f-d28e-478e-abf5-a255f920e61d
+  needs_review: true
 - surname: van Winden
   name: Karl
   title: Automatically deriving and updating attribute road data from movement
