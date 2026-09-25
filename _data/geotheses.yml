@@ -11480,6 +11480,56 @@
     wine products.
   uuid: 70b9c0da-be31-426e-8694-c082a5e36280
   needs_review: true
+- surname: Saleh
+  name: M.
+  title: Sediment classification using Sub-bottom profiler
+  supervisors: D.G. Simons; M. Snellen; J. Wunderlich
+  year: 2011
+  link: https://resolver.tudelft.nl/uuid:565327fc-c023-4a04-ba7b-7d9a0671a66e
+  abstract: Sub bottom profilers are commonly used as mapping tool for the
+    seafloor and sub-bottom structure in the upper few meters of the seafloor.
+    Their recent enhanced performance in terms of resolution adds the potential
+    to classify the sediment layers as well. In this research, the seabed
+    surface and sub layers classification are investigated using model based
+    techniques. The remote sediment classification technique of the seabed
+    surface is achieved by matching the back scatter measurements to the predicted
+    backscatter intensity of the model. The model simulates the returned signals
+    of a monostatic sub bottom profiler operating at 100 kHz. The back scattering
+    strength in the angle domain is estimated using the APL-UW backscattering
+    model. The matching procedure was applied on averaged echo envelopes performed
+    by Hilbert transform. The averaging process is essential to reduce the
+    stochastic variability of the acquired data. The sub layers data was obtained
+    by operating frequencies of (5, 10 and 15 kHz). The layer classification
+    was achieved by estimating the geoacoustic parameters such as reflectivity
+    and impedance contrast. Two techniques were investigated based on a reflectivity
+    model. The first technique is an extension work of D.Simons [11] which
+    aims to estimate the reflection coefficients via the received and transmitted
+    energy ratio. The second technique is an implementation of a similar approach
+    but applies the attenuation on the received frequency components in place
+    of the nominal components. Both models accounted for energy propagation
+    and its corresponding geometrical and sediment attenuation losses. The
+    classification techniques were carried out to a dataset that was acquired
+    in the Baltic Sea near Rostock in 2004. The acquired dataset is characterized
+    by various bottom types such as mud, sand and coarse sediments. The general
+    description of the acquired areas was used as a reference for the final
+    results. Due to the lack of core samples, the classification was evaluated
+    by comparing the results of the backscatter to the energy model. The results
+    were consistent with the general description of the dataset. However,
+    the matching process of the backscatter model is a cumbersome and very
+    sensible to the envelope averaging technique. Averaging the reflected
+    signals from the soft sediments has to ensure to preserve the surficial
+    and volume back scatter information. On the other hand, at rough surfaces,
+    the late arrivals are likely to be irregular reflections or noise that
+    has to be averaged to avoid ambiguous results. The initial results of
+    sub layers reflection models were consistent with the data description.
+    However, due to the high resolution of the sub bottom profile, the computation
+    procedure can easily fail by missing sub layers. In order to reduce the
+    probability of missing layers, an overlapping window concept was implemented,
+    where the reflection coefficients are estimated at shorter intervals.
+    The methods investigated here leaves room for further optimization through
+    model adjustment such as signal interference, backscatters and error propagation.
+  uuid: 565327fc-c023-4a04-ba7b-7d9a0671a66e
+  needs_review: true
 - surname: van Goor
   name: B.
   title: Change detection and deformation analysis using Terrestrial Laser
@@ -11838,6 +11888,24 @@
     a higher resolution camera to extract textural proxies from images.
   uuid: 4acf424e-6bb5-4044-a7af-2baea8108baa
   needs_review: true
+- surname: Briels
+  name: S.A.
+  title: Infrasound source location
+  supervisors: L.G. Evers; D.G. Simons
+  year: 2010
+  link: https://resolver.tudelft.nl/uuid:5d720169-fc34-4a9c-bf6d-49aa546e3966
+  abstract: By recording infrasound signals one is able to listen to the sound
+    of highly energetic events such as volcanoes, meteorites and the supersonic
+    flight of aircraft, even if these occur hundreds of kilometres away. Recordings
+    of infrasound signals are made using infrasound arrays, which can determine
+    the incoming direction of the signals. In this research a method is developed
+    to use the recordings of multiple infrasound arrays to estimate the location,
+    in latitude and longitude, of infrasound sources. The method is applied
+    to recordings of three infrasound arrays in the Netherlands which are
+    operated by the Koninklijk Nederlands Meteorologisch Instituut (KNMI)
+    and three additional arrays located in Germany and France.
+  uuid: 5d720169-fc34-4a9c-bf6d-49aa546e3966
+  needs_review: true
 - surname: de Koning
   name: Melina
   title: Quality assessment of GSM positioning - GSM fingerprinting versus
@@ -12041,6 +12109,15 @@
     laser scanned data for rock surface roughness characterization.
   uuid: 219f6326-95c9-445a-aa87-413cc80ea819
   needs_review: true
+- surname: Duijnmayer
+  name: K.
+  title: Sediment characterization by geo-acoustic inversion of marine seismic
+    data received on a towed hydrophone array
+  supervisors: D.G. Simons; M. Snellen; G.G. Drijkoningen
+  year: 2009
+  link: https://resolver.tudelft.nl/uuid:a8c94ef1-a817-4ca5-b1ab-290a93dd22e1
+  uuid: a8c94ef1-a817-4ca5-b1ab-290a93dd22e1
+  needs_review: true
 - surname: Molijn
   name: R.A.
   title: ICESat full waveform signal analysis for the classification of land
@@ -12063,6 +12140,47 @@
     for computing mass balance estimates and monitoring seasonal changes in
     land cover type of the cryosphere.'
   uuid: 84ae2335-bda6-4880-af3e-217cd6289f27
+  needs_review: true
+- surname: Widiastuti
+  name: E.
+  title: Data assimilation of GRACE terrestrial water storage data into a
+    hydrological model using the Ensemble Kalman Smoother
+  supervisors: N.C. van de Giesen; S.C. Steele-Dunne; B.C. Gunter
+  year: 2009
+  link: https://resolver.tudelft.nl/uuid:a91d6dc5-bdeb-4ee3-9a34-75a72c89f806
+  abstract: Terrestrial water storage (TWS) can be defined as the storage
+    of water on and below the land surface, and includes snow, ice, surface
+    water, soil moisture, and ground water. TWS is a key component of the
+    terrestrial and global hydrological cycles, which have important control
+    over the water, energy and biogeochemical fluxes, and plays a major role
+    in the Earth’s climate. An accurate estimation of terrestrial water storage
+    is thus important for improved water management. However, direct determination
+    of TWS is difficult due to insufficient in-situ data. TWS estimation can
+    be obtained through hydrological modelling, although models are not free
+    from uncertainties due to inaccurate forcing data and weak modelling assumptions.
+    However, the launch of the Gravity Recovery and Climate Experiment (GRACE)
+    twin satellite mission has provided the first space based dataset for
+    TWS estimates, although with coarse resolution and limited accuracy. It
+    is expected that combining GRACE observations and estimates from a model
+    could improve TWS estimates, and one way to this through data assimilation.
+    In this thesis, the ensemble Kalman filter (EnKF) and the ensemble Kalman
+    smoother (EnKS) have been applied to assimilate the GRACE TWS variation
+    data into the HBV-96 model, a conceptual rainfall-runoff model over the
+    Rhine river basin, for the study period of February 1st 2003 to January
+    31st 2004. Two TWS variation estimates were inferred from two sets of
+    GRACE solutions, one from DEOS – TU Delft, and another from CSR - University
+    of Texas. Both solutions use different filtering methods which yield different
+    estimates, and therefore can be expected to have different effect on the
+    data assimilation. The EnKF and EnKS have been successfully applied, fulfilling
+    the expectation of having a new estimate with lower variance than both
+    the prior model estimate and the GRACE observation estimate. The model
+    estimated discharge after the data assimilation was compared with measured
+    discharge at several stations. The discharge estimates were improved at
+    the beginning of the experiment, but the degree of improvement decreased
+    with time. Both of the GRACE data sets gave comparable results. Longer
+    experiment period and comparison with other validation data could lead
+    to a more definitive conclusion.
+  uuid: a91d6dc5-bdeb-4ee3-9a34-75a72c89f806
   needs_review: true
 - surname: Wortel
   name: T.P.
@@ -12498,6 +12616,52 @@
     that the data structures can provide the desired data reduction within
     a GII in real time.
   uuid: 3449616f-fa03-4877-81e8-218141b580af
+  needs_review: true
+- surname: Oudman
+  name: R.J.
+  title: The transformation of GPS into NAP heights
+  supervisors: R. Klees
+  year: 2006
+  link: https://resolver.tudelft.nl/uuid:e661fcdd-6fe8-46e9-b5ea-51dabbd89175
+  abstract: 'GPS is used more and more for height determination. Resulting
+    ellipsoidal heights don''t give information about how the water flows.
+    Therefore traditional height systems are used. In the Netherlands this
+    is the NAP. To perform a transformation between both height system a geoid
+    model is needed. This theses looks at the following issues, regarding
+    the determination of this geoid model: - Comparison between EGM96 and
+    EIGEN-CG03C for the Dutch geoid - Computation of a height reference surface
+    out of GPS/levelling data only - The use of variance component estimation
+    for computation of a height reference surface out of NAP, GPS and geoid
+    heights'
+  uuid: e661fcdd-6fe8-46e9-b5ea-51dabbd89175
+  needs_review: true
+- surname: Sablerolle
+  name: S.A.
+  title: Automatic Registration of laser scanning data and colour images
+  supervisors: A. Bucksch
+  year: 2006
+  link: https://resolver.tudelft.nl/uuid:00f12183-2577-44c5-a8b1-77287681779b
+  abstract: 'Laser scanning is a new technique for three dimensional point
+    measurements. Over the last decades the number of applications in which
+    these measurements take place, has grown significantly. In every application
+    the surveyors are looking for the same result, namely a three dimensional
+    point cloud of the object of interest. The purpose of this research is
+    to improve the quality of the visualization: the objective is to automatically
+    register a laser scanner point cloud with colour images. This objective
+    is based on the developed data acquisition of Zoller + Fröhlich GmbH,
+    Wangen im Allgäu, Germany: a digital camera is fixed on the laser scanner
+    close to its centre. The instrument produces a full scan and colour images
+    of its environment. The automatic registration of laser scanning data
+    and colour images designed in this research is successfully implemented
+    by making use of gradient operators, edge detectors and descriptors. Points
+    of interest are found and matched in both the intensity image of the laser
+    scanner and the colour images of the camera. The matched points are used
+    to determine the external parameters of the colour image in object space
+    with a non-linear rigid optimization. These parameters form the connection
+    between the colour points and the laser 3D coordinates. Visualization
+    can be made now by either plotting the colours onto the 3D points or plotting
+    the range data onto the colour image.'
+  uuid: 00f12183-2577-44c5-a8b1-77287681779b
   needs_review: true
 - surname: van Ree
   name: J.M.

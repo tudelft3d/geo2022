@@ -625,3 +625,52 @@
 - author: Y. Wang
   year: 2012
   programme: not Geomatics
+
+# --- verdicts on the 2026-09 bootstrap round (sweep with the mentors of
+# --- the recovered pre-2013 theses added to the supervisor list)
+
+- author: S.A. Sablerolle
+  year: 2006
+  programme: Geomatics
+  note: registration of laser scanning data and colour images, mentor
+    Bucksch (Ken, 2026-09)
+- author: R.J. Oudman
+  year: 2006
+  programme: Geomatics
+  note: transformation of GPS into NAP heights, mentor Klees (Ken, 2026-09)
+- author: E. Widiastuti
+  year: 2009
+  programme: Geomatics
+  note: GRACE terrestrial water storage data assimilation, mentors van de
+    Giesen, Steele-Dunne and Gunter (Ken, 2026-09)
+- author: A. Chan
+  year: 2010
+  programme: not Geomatics
+- author: P.M.G. Inácio
+  year: 2010
+  programme: not Geomatics
+- author: R. van Haren
+  year: 2011
+  programme: not Geomatics
+
+- author: M. Saleh
+  year: 2011
+  programme: Geomatics
+  note: sediment classification using sub-bottom profiler, mentor Simons
+    (Dick Simons) (Ken, 2026-09)
+
+- author: K. Lupogo
+  year: 2009
+  programme: not Geomatics
+- author: S. Shirasagi
+  year: 2009
+  programme: not Geomatics
+- author: K. Duijnmayer
+  year: 2009
+  programme: Geomatics
+  note: sediment characterization by geo-acoustic inversion of marine
+    seismic data, mentors Simons, Snellen and Drijkoningen (Ken, 2026-09)
+- author: S.A. Briels
+  year: 2010
+  programme: Geomatics
+  note: infrasound source location, mentors Evers and Simons (Ken, 2026-09)
