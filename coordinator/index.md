@@ -14,8 +14,9 @@ permalink: /coordinator/
   </div>
   <div class="column">
     <b>Ken Arroyo Ohori</b><br /><br />
-    k.ohori@tudelft.nl<br>
-    <a href="https://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br>
-    room BG.West.550 at BK-City<br>
+    <i class="fa-solid fa-envelope"></i> <a href="mailto:k.ohori@tudelft.nl">k.ohori@tudelft.nl</a><br>
+    <i class="fa-solid fa-globe"></i> <a href="https://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br>
+    <i class="fa-brands fa-discord"></i> kenohori<br>
+    <i class="fa-solid fa-location-dot"></i> room BG.West.550 at BK-City<br>
   </div>
 </div>
