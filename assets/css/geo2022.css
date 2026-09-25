@@ -16,6 +16,31 @@
 	color: hsl(var(--bulma-violet-h), var(--bulma-violet-s), var(--bulma-violet-60-invert-l)) !important;
 }
 
+/* Graduation-process phase colours, shared with the graduation calendar
+   (assets/css/calendar.css reuses these) and used for the phase tags on
+   the Current Theses page */
+:root {
+	--phase-kickoff: #4da6ff;
+	--phase-midterm: #9a6bff;
+	--phase-greenlight: #6bbf3f;
+	--phase-finalisation: #ff9d00;
+}
+
+.tag.is-phase-kickoff {
+	background-color: var(--phase-kickoff);
+	color: #fff;
+}
+
+.tag.is-phase-midterm {
+	background-color: var(--phase-midterm);
+	color: #fff;
+}
+
+.tag.is-phase-greenlight {
+	background-color: var(--phase-greenlight);
+	color: #fff;
+}
+
 /* Dark mode via OS preference (unless user explicitly chose light) */
 @media (prefers-color-scheme: dark) {
 	html:not(.light-mode) .has-background-danger-60 {

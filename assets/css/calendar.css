@@ -6,10 +6,12 @@
   --cal-a2: #e4d6ff;
   --cal-a3: #d2eec3;
   --cal-a4: #ffd9a8;
-  --cal-a1-strong: #4da6ff;
-  --cal-a2-strong: #9a6bff;
-  --cal-a3-strong: #6bbf3f;
-  --cal-a4-strong: #ff9d00;
+  /* Phase colours are defined in geo2022.css (--phase-*) so the Current
+     Theses tags can match; literals are fallbacks */
+  --cal-a1-strong: var(--phase-kickoff, #4da6ff);
+  --cal-a2-strong: var(--phase-midterm, #9a6bff);
+  --cal-a3-strong: var(--phase-greenlight, #6bbf3f);
+  --cal-a4-strong: var(--phase-finalisation, #ff9d00);
   --cal-deadline: #d0021b;
   margin: 1.5rem 0;
   display: grid;
