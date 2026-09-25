@@ -11030,3 +11030,464 @@
     between Architecture and Geomatics. The software package is open source
     and freely available at https://github.com/tudelft-gist/ifc2citygml.'
   uuid: 31380219-f8e8-4c66-a2dc-548c3680bb8d
+- surname: Bhattacharya
+  name: Prajnaparamita
+  title: Quality assessment and object matching of OpenStreetMap in combination
+    with the Dutch topographic map TOP10NL
+  supervisors: P. van Oosterom; H. Ledoux; M. Lemmens
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:e1501114-d947-4278-8612-1e249e4dc02f
+  abstract: The possibility of an automatic object matching process in combination
+    with a VGI (Volunteered Geographical Information) type of map has been
+    explored in this research. TOP10NL, the topographic map of the Netherlands
+    and OpenStreetMap (OSM), the VGI type of map have been chosen for this
+    purpose. The object matching process in this research became more critical
+    as OSM does not always follow strict rules. Therefore, to overcome the
+    complications special care has been taken into account on the characteristics
+    of these two datasets and have been incorporated in the object matching
+    process. Knowledge from previous studies in this field has been explored
+    and adapted in this study. As TOP10NL and OSM represent completely different
+    type of datamodels, a schema translation had to be done to harmonise them.
+    The average geometric accuracy of TOP10NL is ±2 meter, whereas the quality
+    of OSM is uncertain over locations. Therefore the quality of the OSM dataset
+    over the study areas was also judged before developing the object matching
+    model by some quality measures of geographic maps. Only the quality measures
+    ‘data lineage’, ‘completeness’ and ‘positional accuracy’ were considered
+    in this study. The data lineage shows that both datasets share quite a
+    large number of objects from the same origin. It was found that the road,
+    railway and building objects were quite complete in the OSM dataset over
+    the study areas whereas the water objects were quite incomplete. Because
+    of the reliable data lineage of the OSM data over the Netherlands the
+    positional accuracy of the OSM data were found to be quite good. Considering
+    the geographic location and the importance four areas within the Netherlands
+    were chosen for the experiments. The urbanised Delft and Rotterdam, semi-urbanised
+    Dokkum and the rural part of Echt were selected for the experiments. The
+    common features within both TOP10NL and OSM, which are road, building,
+    water and railway, were considered for the experiments. Two different
+    object matching models were developed for line and polygon objects. For
+    both models the decision rule was developed considering the characteristics
+    of the datasets used in this study. For line matching the decision rule
+    was developed to make the list of best matched pairs by accumulating them
+    in a step by step procedure, whereas a straight forward simple rule has
+    been developed for polygon matching process. These models were verified
+    with the different object class data of the different study areas. The
+    accuracy was high and for more than 90% instances the correct match was
+    found. In the road matching process it was possible to insert the ‘street
+    names’ from the OSM database as an attribute in the road network database
+    of TOP10NL. A number of matching tables have been formed for different
+    cardinality of matched objects which may be useful in the future in an
+    automatic updating process of TOP10NL and OSM.
+  uuid: e1501114-d947-4278-8612-1e249e4dc02f
+  needs_review: true
+- surname: Commandeur
+  name: Tom
+  title: Footprint decomposition combined with point cloud segmentation for
+    producing valid 3D models
+  supervisors: H. Ledoux; P.J.M. van Oosterom
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:c0c665f7-0254-42c6-895b-cb59acc079f2
+  abstract: 'For the creation of three-dimensional (3D) city models, extrusion
+    of building footprints is widely applied. Extrusion results in block shaped
+    buildings. The main problem with these 3D models is that they do not represent
+    height differences within a building. This thesis presents a method to
+    improve building footprints by subdivision into parts describing height
+    differences and roof shapes. These improved building footprints are used
+    for creating 3D models by separate extrusion of each of these parts. Applying
+    this method results in 3D building models with multiple heights. Several
+    subjects are discussed in this thesis: generalization, decomposition,
+    segmentation, 3D geometry reconstruction and their validation. This research
+    is based on the combination of two existing methods, one for generalization
+    and decomposition of building footprints, and one for segmentation of
+    point clouds. These methods are extended and problems are solved by including:
+    (1) direction of lines, (2) best fitting line, (3) adjacent buildings,
+    (4) preservation of holes, (5) handling of slant lines, (6) quality statistics
+    and (7) validation. The existing generalization method creates topology
+    errors which are reduced by including knowledge from adjacent buildings.
+    Decomposed building footprints are merged based on the segmented point
+    cloud. The resulting decomposition is a subdivision describing multiple
+    roof shapes and height jumps, based on linear features in the building
+    footprint. Reconstruction of the actual 3D geometry is performed by extrusion
+    of the decomposition cells. The resulting reconstruction is a Level of
+    Detail 1 (LoD) model with height differences. To test the usability of
+    the improved footprints for reconstruction of a LoD2 model, parametric
+    shape fitting is applied. These tests are executed using a small set of
+    roof shapes proving the usability. All reconstructed 3D building geometries
+    are validated using Oracle Spatial 11g. In order to analyze, test and
+    improve the developed algorithms, a prototype is implemented in C++. This
+    prototype is tested intensively with several real-world data sets. Results
+    from these tests are proving proper functioning of the developed method
+    and support the conclusions.'
+  uuid: c0c665f7-0254-42c6-895b-cb59acc079f2
+  needs_review: true
+- surname: Peters
+  name: Ravi
+  title: A Voronoi- and surface-based approach for the automatic generation
+    of depth-contours for hydrographic charts
+  supervisors: H. Ledoux
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:5977a99b-0875-44b4-abe1-09288bf2aed1
+  abstract: 'Depth-contours are an essential part of any hydrographic chart—a
+    map of a waterbody intended for safe ship navigation. Traditionally these
+    were manually drawn by skilled hydrographers from a limited set of surveyed
+    depth measurements. Nowadays this process of map making is shifted towards
+    the digital domain, not in the last place because of the huge amounts
+    of data resulting from modern surveying techniques. Furthermore, the task
+    of automating the process of cartographic generalization that depends
+    on subjective criteria is challenging. The produced depth-contours should
+    comply with the four hydrographic generalization constraints of safety,
+    legibility (smoothness), topology and waterbody morphology. I show that
+    grid-based approaches to generalize depth contours that are currently
+    used in practice do not always comply with those fundamental generalization
+    constraints. Most notably, the safety constraint, that ensures that a
+    map never indicates an area as being shallower than measured, is often
+    violated. But also the legibility and morphology constraints are not always
+    optimally respected. Furthermore, heterogeneous datasets (that contain
+    a transition of very sparse to very dense data), can lead to unwished
+    interpolation artifacts, when the popular Inverse Distance Weighting (IDW)
+    spatial interpolation method is used. Part of this problem is the non-adaptive
+    nature of IDW, that requires the user to re-set the interpolation parameters
+    when the spatial distribution of the input point changes. I present and
+    prototype a novel surface-based approach for the generalization of hydrographic
+    depth-contours that is based on the Voronoi Diagram (VD) and performs
+    generalization on the surface that defines the contours, rather on the
+    contour lines individually. Through the VD, a fully adaptive, automatic
+    and smooth spatial interpolation method known as the Laplace interpolant
+    is coupled with a Delaunay Triangulation (DT) data structure that contains
+    all data points with their exact planimetric coordinates. Using this concept
+    a number of operators is defined that are able to perform the relevant
+    cartographic generalization operations for hydrographic contours: simplification,
+    smoothing, aggregation, omission and enlargement. The significance of
+    the proposed approach lies herein that it honors all four hydrographic
+    generalization constraints, most notably: it is guaranteed to be safe.
+    As opposed to current automated approaches, it does therefore not require
+    any form of manual safety verification. And, because all of the employed
+    algorithms are local, it is also well scalable to big datasets in principle.'
+  uuid: 5977a99b-0875-44b4-abe1-09288bf2aed1
+  needs_review: true
+- surname: Wijga-Hoefsloot
+  name: Martine
+  title: Point Clouds in a Database
+  supervisors: S. Zlatanova
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:58266d2c-330c-4493-a03a-d8b180eb810d
+  abstract: 'With laser scanning (including laser altimetry and multi-beam
+    echo sounding), many data points, called point clouds, are measured. The
+    interest in point clouds is increasing. Depending on the laser scanner,
+    the measurement set-up and the technique, the number of points in one
+    dataset can vary from a few hundred points to over a billion points. The
+    data volume of a laser survey mission can easily reach Gigabyte or even
+    Terabyte level. It is a problem to handle these voluminous datasets efficiently.
+    One way to manage the data is to partition the data with tiles or grids
+    and then store the data in each tile or grid as a single file in text
+    or binary format; the large volume of data is divided into separate files
+    of a reasonable size. As an alternative, the data can be stored in a database
+    management system (DBMS); each point in a single record based on standard
+    data types. Since the data stored can be accessed in single point level,
+    it is easy to perform queries and analysis on the data server, and only
+    the qualified points are returned to the user. Since the data is spatial
+    data, it has a location; data can be stored based on a spatial data type
+    in a spatial DBMS, spatial objects can be clustered and spatially indexed
+    to limit searches, with the result that spatial queries can be performed.
+    Storing and retrieving massive datasets as single point records (one point
+    per record) results in storing and retrieving lots of records, but fast
+    retrieval become questionable, as there is overhead per record and because
+    of the number of records to be retrieved. As Oracle is the market leader
+    in the development of DBMS, this research is limited primarily to Oracle.
+    This leads directly to the research question of this thesis: What is the
+    best design for a data model to store large point clouds in an Oracle
+    DBMS, such that it is generally accessible by spatial applications, that
+    all attributes are preserved and that performance is optimised? Analysis
+    A solution has been found by reducing the number of records by clustering
+    nearby points without loss of information. If points are clustered, associated
+    attributes have to be clustered as well. It has been decided how to record
+    these attributes with the points. The Region Quadtree is implemented to
+    grid the data in logical parts. The Morton space-filling curve is implemented
+    to cluster the data. Hilbert space-filling curve would even be better.
+    The points have been stored using a well-known data type called SDO_GEOMETRY
+    (GTYPE 3005, POINTCLUSTER), SDO_GEOMETRY is a standard spatial data type
+    implemented in Oracle. Attributes have been stored in one or more arrays
+    (VARRAY), because ordinates are also stored in a VARRAY. This method is
+    been compared to the newer SDO_PC data type. Conclusion The presented
+    method using SDO_GEOMETRY (GTYPE 3005, POINTCLUSTER) performs optimal
+    for large point cloud datasets in terms of performance and the points
+    can generally be accessed by spatial applications. The alternative method
+    using SDO_PC is not suitable for the conditions as stipulated in the research
+    question. Because the SDO_PC data type is newly implemented in Oracle,
+    not generally readable by spatial applications, not (yet) fully supported
+    by all vendors and required storage space is double the amount.'
+  uuid: 58266d2c-330c-4493-a03a-d8b180eb810d
+  needs_review: true
+- surname: Boufidou
+  name: Effrosyni
+  title: 'Towards understanding the DOQ Priorat terroirs: A multivariate GIS
+    analysis'
+  supervisors: N. van de Giesen; S. Zlatanova; L. van Paassen
+  year: 2011
+  link: https://resolver.tudelft.nl/uuid:70b9c0da-be31-426e-8694-c082a5e36280
+  abstract: The notion of terroir covers the interaction between the natural,
+    the cultural conditions and the grape vine itself relative to the character
+    of the final wine product. It is about a dynamic chain whose factors get
+    different weights in each wine region and this results in the typicality
+    of the different terroir wine products. The Old World wine regions have
+    been for many years occupied with the terroir research in order to explain
+    the uniqueness and the specificities of their wine products. Nowadays,
+    more and more wine regions are interested in such kind of investigations
+    in order to highlight their distinct products, expose their originality
+    and get a place in the wine market. DOQ Priorat is located in South Catalonia
+    in Spain and is a wine region that has recently been nominated a label
+    of originality for its products. Such a denomination made the region’s
+    cultivators interested to learn more about the natural conditions of the
+    area in a try to explain the success of their products and with the prospect
+    to preserve the quality of their wines. In these terms, Geographical Information
+    Systems (GIS), providing the ability for spatial, statistical analysis
+    and visualisation, have been considered important tools for the DOQ Priorat’s
+    natural conditions’ analysis and diverse terroir investigation. Previous
+    research has indicated topography, the soil properties and the climate
+    of a region to define the natural conditions of a region and therefore
+    being the factors of interest/effect in the wine terroir. These three
+    factors can be described by specific attributes. For instance, elevation
+    and ground inclination for topography, PH and texture for soil, temperature
+    and precipitation for climate. The distribution of such attributes and
+    many others that characterize the aforementioned natural conditions, has
+    been studied in the DOQ Priorat territory in order to examine the resemblance
+    of the DOQ Priorat vine growing conditions to the conditions that are
+    considered beneficial from international research. The correspondence
+    of the DOQ Priorat conditions to the standards for vine growing has been
+    treated by means of a multivariate GIS analysis. The DOQ Priorat topographic
+    and soil attributes have been evaluated relative to their suitability
+    for vine growing and different suitability classes have been defined.
+    Moreover, the growing season temperature distribution and its capability
+    to define conditions of viability for specific grape varieties, has been
+    used to define two major terroir units in DOQ Priorat. The suitability
+    of the DOQ Priorat land for cultivation of specific varieties has been
+    assessed through the topographic-soil composite suitability in relation
+    to the teroir units defined. DOQ Priorat’s greatest extend has been classified
+    in intermediate and intermediate to high vine growing suitability classes
+    relative to its topography and soil conditions. The shallow and dry soils
+    as well as the steep slopes visited in the area seem to contradict to
+    what is considered beneficial for vine growing. In terms of climate however,
+    the whole area presents ideal conditions for a wide variety of grape cultivations
+    whereas most of these varieties proposed to fit the area are already cultivated
+    today. Even though the current vineyard cultivations still present conditions
+    of intermediate and intermediate-high suitability relative to what is
+    considered beneficial from international vine growing research, the quality
+    of the wines produced in DOQ Priorat is indisputable; there are therefore
+    some unique features in the DOQ Priorat terroirs. The DOQ Priorat vines
+    are cultivated in higher elevations and in soils shallower and less fine
+    textured than what is considered to fit for vine growing internationally.
+    That is what gives the DOQ Priorat wines their unique character and these
+    are finally the conditions that are considered ideal for Priorat wines.
+    Such a conclusion, leads to the confirmation of the dynamic nature of
+    terroir, whose factors and attributes cannot be strictly defined and quantified
+    for every wine region. New vine growing standards could be defined for
+    several wine regions relative to their specificities whereas it is mostly
+    the try, the result and the experience that define good and bad terroirs.
+    The DOQ Priorat case has been a very nice example of a region going against
+    the vine cultivation pattern whereas obtaining high quality and recognised
+    wine products.
+  uuid: 70b9c0da-be31-426e-8694-c082a5e36280
+  needs_review: true
+- surname: Xu
+  name: Daniel
+  title: Design and Implementation of Constraints for 3D Spatial Database
+    - Using Climate City Campus Database as an Example
+  supervisors: P.J.M. van Oosterom; S.Z. Zlatanova
+  year: 2011
+  link: https://resolver.tudelft.nl/uuid:702b94e8-903d-4794-8e53-bb5b8da0917a
+  abstract: Nowadays the field of geo-information is undergoing major changes,
+    and the transition from 2D to 3D is having a major influence. A significant
+    amount of 3D datasets are stored in the database. Experts are aware that
+    new quality control mechanisms need to be built into the database systems
+    in order to secure and guarantee high-performing data. Constraints are
+    effective in providing solutions needed to avoid errors and enable maintenance
+    of data quality. Whereas constraints for 2D geographic datasets have already
+    been the subject of several research projects, studies into 3D geo-data
+    constraints are largely unexplored. This thesis research discovers a new
+    approach to model, conceptualise and implement 3D geo-constraints which
+    can function in the database. At the outset, constraints can be formulated
+    using natural language. As natural language is subjective and varies between
+    individuals, expressions can be ambiguous and can easily cause confusion.
+    So spatial constraints are abstracted using geometry that depicts the
+    exact shape, and also topology that reveals the spatial relationship between
+    geometries. This step makes the meaning of a constraint clearer to others.
+    Furthermore, using standardised UML diagrams and OCL expressions, geo-constraints
+    can be formalised to an extent that not only humans, but also machines
+    can understand them. With model-driven architecture supported by various
+    softwares, OCL expressions can be automatically converted to other models/executable
+    codes (e.g. PL/SQL) just by a few clicks. And with small modifications,
+    database triggers can be formulated to carry out constraints check. A
+    database including various topographic objects (e.g. buildings, trees,
+    roads, grass, water-bodies and terrains) is used as a study case to apply
+    the discovered approach. During this research, a first attempt to formulate
+    3D geo-constraints in OCL has been made. These expressions can be tested
+    and translated to other models/implementations when the OCL standard is
+    extended with spatial types and operations. In the implementation stage,
+    the current 3D functions in Oracle Spatial database are found to be insufficient.
+    A new 3D function using existing 2D functions - plus additional code relating
+    to computational geometry - has been developed by the author to bridge
+    the gap. Based upon this function, a large group of spatial constraints
+    which apply to objects in 3D space can be checked. Bentley Map and Python
+    IDLE are used to test the performance of constraints as well as the visualisation
+    of warning messages to clients. Database error messages are immediately
+    displayed on the front-ends when a modification that does not satisfy
+    a constraint is attempted to commit to the database. During the case study,
+    new classes of constraints are also discovered. They are higher-level
+    constraints, parameterised constraints, constraints allowing exceptional
+    instances, extra-check rules to detect conflicting constraints and constraints
+    relating to multi-scale representations.
+  uuid: 702b94e8-903d-4794-8e53-bb5b8da0917a
+  needs_review: true
+- surname: Arroyo Ohori
+  name: Gustavo Adolfo Ken
+  title: Validation and automatic repair of planar partitions using a constrained
+    triangulation
+  supervisors: P.J.M. van Oosterom; H. Ledoux; B.M. Meijers
+  year: 2010
+  link: https://resolver.tudelft.nl/uuid:78807acb-4115-478c-93de-68b9db884c8e
+  abstract: Planar partitions (subdivisions of the plane into polygonal areas)
+    constitute one of the most important data representations in GIS. They
+    are used to model concepts as varied as land use, administrative units,
+    natural features and cadastral parcels, among many others. However, since
+    polygons are often stored separately, different errors and inconsistencies
+    are introduced during their creation, manipulation (both manual and automatic)
+    and exchange. These come in the form of invalid polygons, gaps, overlaps
+    and disconnected polygons, which severely hampers their use in other software.
+    Existing approaches to solve this problem usually involve polygon repair
+    using a list of constraints, and complex planar partition repair operations
+    performed on a planar graph. However, these have many shortcomings in
+    terms of complexity, numerical robustness and difficulty of implementation.
+    Moreover, they leave many invalid cases untouched. To solve this problem,
+    a novel method to validate and automatically repair planar partitions
+    has been developed. It uses a constrained triangulation of the polygons
+    as a base, which being by definition a planar partition, means that only
+    relatively simple operations are needed to ensure that the output becomes
+    valid. Point locations are maintained throughout the process, while fully
+    automatic repair is possible using customisable criteria. This approach
+    is also extensible to individual polygons, is capable of handling a larger
+    variety of cases and has good performance compared to existing alternatives;
+    all of this with numerical robustness and maintaining topological consistency
+    throughout. In order to analyse, test and improve the developed algorithms,
+    and encourage further development, a fast and efficient implementation
+    has been written in C++, which has been tested with several large data
+    sets and compared with other available software, regarding both performance
+    and functionality. This prototype is able to successfully repair planar
+    partitions of more than 100,000 polygons. It is also open source and freely
+    available on the GDMC website (http://www.gdmc.nl/).
+  uuid: 78807acb-4115-478c-93de-68b9db884c8e
+  needs_review: true
+- surname: de Koning
+  name: Melina
+  title: Quality assessment of GSM positioning - GSM fingerprinting versus
+    cellid positioning
+  year: 2010
+  link: https://www.gdmc.nl/publications/2010/Quality_assessment_GSM_positioning.pdf
+  needs_review: true
+- surname: de Boer
+  name: Arnoud
+  title: Label placement in 3D georeferenced and oriented digital photographs
+    using GIS technology
+  supervisors: P.J.M. van Oosterom; E. Verbree; E.S. Dias
+  year: 2007
+  link: https://resolver.tudelft.nl/uuid:b130806f-58be-466c-8890-a1534df3ff00
+  abstract: he increasing availability of digital camera devices and camera
+    phones enable users to capture and upload digital photos at any a time
+    and any place. Online image collections face the problem organizing increasing
+    photo collections. Because users experience adding qualitative photo annotations
+    as a time-consuming and tedious task, they omit to do it. However, good
+    photo annotation is very important for fast and reliable photo retrieval.
+    The integration of positioning devices (e.g. GPS) with digital camera
+    enables to capture position along with the photo and this location metadata
+    has been applied in previous research to automatically caption digital
+    photos. The disadvantage of describing a photo using location metadata
+    only is that it only enables to add information about its surrounding
+    and not about the actual objects pictured. This research carried out in
+    the framework of the EU research project Tripod assumes in the near future
+    camera devices integrated with GPS and digital compass will be available.
+    Using this full spatial metadata, it is possible to exactly identify and
+    localize objects inside the pictured scene. Digital photos with 3D position
+    and view direction are collected on the Market Square in Delft (The Netherlands)
+    using a Topcon imaging total station and Nikon D100 camera mounted with
+    digital 3-axis compass and GPS to carry out a proof-of-concept. Using
+    the output of a perspective viewer service, a tool that renders an three-dimensional
+    model, a virtual abstraction that matches the digital photo is created
+    to be able to identify and localize visible objects in order to place
+    a label next to it. The three-dimensional models applied for this research
+    are created from conventional GIS datasets (e.g. TOP10NL and GBKN) and
+    a digital elevation model (AHN) by extruding the building footprints.
+    The best possible for a label is defined at the empty areas and constraints
+    and rules are added to ESRI ArcGIS label Engine Maplex to carry out the
+    label placement inside the digital photo in a GIS environment. Misidentification
+    and misplacement due to lens distortions, and GPS and compass inaccuracies
+    are evaluated. A demo-application is developed in ESRI ArcGIS using Visual
+    Basic for Applications (VBA) programming and system architecture is proposed
+    for implementation of a photo labelling service. It is concluded that
+    the virtual scenes as output of perspective viewer services are appropriate
+    to apply for object identification and localization. In doing so, the
+    problem of label placement in three-dimensional geographic environments
+    is reduced to a two-dimensional map-labelling problem. The best location
+    of label placement is determined using constraints and rules to be applied
+    to the virtual scene and the reclassified-to-binary image of the input
+    photo, and the depth map enables to vary in label font size depending
+    on the object distance.
+  uuid: b130806f-58be-466c-8890-a1534df3ff00
+  needs_review: true
+- surname: Meijers
+  name: Martijn
+  title: Implementation and testing of variable scale topological data structures
+  supervisors: P.J.M. van Oosterom; C.W. Quak
+  year: 2006
+  link: https://resolver.tudelft.nl/uuid:3449616f-fa03-4877-81e8-218141b580af
+  abstract: With the increase of the availability of large-scale geographic
+    data set and the rise of widespread computer networks, such as the Internet,
+    the need has arisen to be ableto transfer this data by means of these
+    networks. The networks form the basis for a Geographic Information Infrastructure
+    (GII), in which data users, data providers and data producers are connected
+    with each other.There also exists the need to offer this data on several
+    scales to end users, for example to get an overview of an area first.
+    Because the geographical information are now sent by the computer networks
+    and large-scale geographic information brings many data, data reduction
+    must take place. This is to prevent that sending of the information takes
+    too much time. Generalization of geographical information is a possible
+    means to let this reduction take place.Generalization is the selection
+    and simplification of detail appropriate to the scaleand or purpose of
+    the map. The appliance of generalization demands that choices mustbe made
+    with respect to which geographical objects are selected and simplified
+    and how this selection and simplification must take place. Moreover, also
+    the surroundings of the objects to be generalized, are often taken into
+    account in the generalization process, which makes that the complete process
+    even requires more time. This way, the complete process can not be carried
+    out in real time.Earlier, reactive data structures, in which geographical
+    information is stored in the computer with several levels of detail, have
+    been proposed as a solution to allow the use of generalized large-scale
+    geographical information in real time. So far, these data structures were
+    using redundancy with respect to geometry. For this reason a new conceptual
+    model has been developed, where a number of existing data structures have
+    been combined into two new data structures, namely, the GAP face tree
+    and the GAP edge forest (described in Van Oosterom, 2005). The complete
+    structure is termed tGAP structure, inwhich tGAP stands for topological
+    Generalized Area Partitioning.The tGAP structure has not been theoretically
+    verified, nor implemented or tested. Therefore, the objective of this
+    research is to theoretically verify the data structures and to test the
+    data structures considering requirements such as loading time and storage
+    capacity.To reach the objective literature study has been performed in
+    the field of generalization, database management systems and the data
+    structures. Moreover, a prototype has been built, with which the data
+    structures have been implemented in a mainstream database management system
+    (DBMS) with spatial data types. Literature study has shown that generalization
+    is a key issue in the complete process of obtaining and processing geo-information
+    and that using reactive data structures is asuitable option to offer the
+    results of generalization within a GII in real time.The implementation
+    of a prototype has shown, that it is possible to implement thedata structures
+    in a mainstream DBMS. The data structures are implemented in Oracle Spatial,
+    the DBMS, and by means of Apache, a web server, opened up to Google Earth,
+    a geographical viewer. The data structures in the prototype make it possible
+    to view thegeographical data interactively within the viewer independent
+    from the size of the area to be loaded.The final conclusion must be, that
+    with some workarounds and with some changes tothe proposed conceptual
+    model, it is possible to implement the model as described in (Van Oosterom,
+    2005). With an implementation it becomes possible to show geographical
+    data on a variable number of detail levels and the implementation shows
+    that the data structures can provide the desired data reduction within
+    a GII in real time.
+  uuid: 3449616f-fa03-4877-81e8-218141b580af
+  needs_review: true

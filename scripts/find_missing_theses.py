@@ -446,7 +446,7 @@ def append_gaps(gaps, args):
         if uuid:
             entry["link"] = eg.RESOLVER_URL.format(uuid=uuid)
             entry["uuid"] = uuid
-            page = eg.fetch_record(t["uuid"], args.delay, args.offline)
+            page = eg.fetch_record(uuid, args.delay, args.offline)
             if page:
                 rec = eg.parse_record(page)
                 if rec.get("title"):
