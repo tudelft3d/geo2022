@@ -11030,6 +11030,54 @@
     between Architecture and Geomatics. The software package is open source
     and freely available at https://github.com/tudelft-gist/ifc2citygml.'
   uuid: 31380219-f8e8-4c66-a2dc-548c3680bb8d
+- surname: Altena
+  name: B.
+  title: Filling the white gap on the map
+  supervisors: B. Gorte; C. Nuth; A. Kääb; M. Menenti
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:f8cc2379-2275-449d-8f2d-902e9e7d0682
+  abstract: In this study the limits and potentials of the principle of photoclinometry
+    for glacier elevation modelling is assessed. A combination of optical
+    and laser remote sensing instruments are used to map the surface of different
+    remote ice bodies. Loss and gain of a glaciers' mass is a good indicator
+    for local climate. If mass-balances of glaciers are known on a world-wide
+    scale, they can give a better understanding of global climate change.
+    Due to the remoteness and harsh environments at which glaciers are located
+    a mass-balance is difficult to maintain or even start-up. Therefore, the
+    use of optical and laser remote sensing can be of great value. The focus
+    of this thesis is to identify options in which optical and laser remote
+    sensing instruments can reliably map the surface of a glacier. It will
+    use the technique of photoclinometry, also known as shape-from-shading,
+    onto optical acquisitions. Estimated surface and topographic information
+    will be integrated with spaceborne laser altimetry. These methodologies
+    will compose a workflow, which produces elevation estimates of a glaciers'
+    surface. Snow has a homogeneous reflection pattern, therefore the perceived
+    reflection of a surface is primarily dependent on the amount of received
+    sunlight per unit area. In that sense brightness values, perceived by
+    an optical spaceborne sensor, may directly be related to surface orientation.
+    This relation is used in this study to estimate a surface model from an
+    optical image. Estimation of this model is done through the relations
+    of a Lambertian reflection function and inverse theory. Only small patches
+    of imagery can be processed, as its estimation is limited in size due
+    to accumulating elevation errors and computational limitations. The methodology
+    was tested on the high mountain glacier of Zhadang, on the Tibetan Plateau.
+    An optical acquisition from the Earth Observation (EO-1) satellite with
+    the on board Advanced Land Imager (ALI) was used. The estimated surface
+    model was assessed and validated with another elevation dataset and leveling
+    transects from a surveying campaign. The resulting surface model needs
+    transformation to be of use for elevation modelling. Different strategies
+    are used to resolve the residual unknowns of the transformation. Registration
+    of surface models was conducted on the icefield of Lomonosovfonna, Svalbard.
+    Laser altimetric measurements from the Ice, Cloud and Elevation Satellite
+    (ICESat) with the on board Geoscience Laser Altimeter System (GLAS) instrument
+    are used for this registration problem. Both geometric and temporal relations
+    are included into the registration model, but only under specific circumstances
+    the registration is reliable. A profile based approach of photoclinometry
+    is also investigated. It may give topographic correction to resolve errors
+    due to miss-alignment of the ICESat GLAS laser profiler. However, assumptions
+    on terrain geometry were too optimistic to resolve in a reliable correction.
+  uuid: f8cc2379-2275-449d-8f2d-902e9e7d0682
+  needs_review: true
 - surname: Bhattacharya
   name: Prajnaparamita
   title: Quality assessment and object matching of OpenStreetMap in combination
@@ -11142,6 +11190,24 @@
     applicability to WebGL environments.
   uuid: b7f43166-c138-475f-8490-b1f28ed1383d
   needs_review: true
+- surname: Koudijs
+  name: M.
+  title: Using ICESat/GLAS laser altimetry for water level estimations in
+    the Mekong River
+  supervisors: R. Lindenbergh; M. Menenti
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:6b269952-3000-4d26-8690-d8a4d553c47e
+  abstract: This study evaluates the potential of the Ice, Cloud and Elevation
+    Satellite (ICESat) with the onboard Geoscience Laser Altimeter System
+    (GLAS) instrument for the monitoring of water levels in river networks.
+    The determination of water level estimations with GLAS altimetry data
+    in the Mekong River (Southeast Asia) is evaluated. The research questions
+    in this study aimed to develop a classification method to derive water
+    level estimations and eventually water level trends in the Mekong River.
+    Furthermore, the strengths and weaknesses of GLAS altimetry data for hydrological
+    monitoring of water levels in the Mekong River are evaluated.
+  uuid: 6b269952-3000-4d26-8690-d8a4d553c47e
+  needs_review: true
 - surname: Nedkov
   name: Simeon
   title: Knowledge-based optimisation of three-dimensional city models for
@@ -11232,6 +11298,57 @@
     algorithms are local, it is also well scalable to big datasets in principle.'
   uuid: 5977a99b-0875-44b4-abe1-09288bf2aed1
   needs_review: true
+- surname: Rammos
+  name: P.
+  title: Automatic detection of benthos & birds
+  supervisors: R. Lindenbergh
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:c7e67b12-6dc1-4b70-b1a9-443ad0730e60
+  abstract: 'Ecological monitoring, i.e. the process of assessing the quality
+    and health of natural habitats, is required to assess the impact of anthropogenic
+    influence. This process is often inhibited by the expenses involved and
+    a limited accessibility to the study site. The use of remotely sensed
+    data then logically comes to mind as a potential solution. This thesis
+    focuses on the ecological monitoring of an intertidal mudflat located
+    in the Oosterschelde known as the Galgeplaat. It possesses a monitoring
+    platform standing 15 meters tall producing imagery that was previously
+    used for monitoring the morphology of the mudflat. The goal is to examine
+    the potential of using this available terrestrial imagery for ecological
+    monitoring of the mudflat and whether it is possible to do this automatically.
+    Two separate case studies were formulated to investigate this potential;
+    1. automatic detectionof microphytobenthos and 2. automatic detection
+    of bird numbers. The primary focus in this thesis was put on the microphytobenthos
+    case study which elicited the most interest from involved parties. The
+    main inhibiting factor for microphytobenthos detection was the presence
+    of macroalgae (in particular brown macroalgae) in the images, which possess
+    similar spectral properties to that of microphytobenthos. Two methods
+    were used to detect microphytobenthos: I. maximum likelihood classification
+    combined with the masking of the macroalgae (the undesired target) and
+    II. Kohonen’s self organising maps (SOM). The results of this case study
+    indicated that distinguishment between microphytobenthos and macroalgae
+    was best achieved with the Self organizing map (SOM) approach. For the
+    detection of bird numbers consecutive snapshot images of the camera were
+    used such that the motion of birds could be taken advantage of. Background
+    subtraction using a weighted mean background image and a standard deviation
+    image was the most promising of the methods used to count the birds in
+    the 20 frame video sequences. The video sequences with the least zoom
+    (far scale) produced the most erroneous detections. This probably as a
+    result of the lack of movement visible in the video and the small size
+    of the birds (more interference from noise). The results suggest ecological
+    monitoring, in this case of microphytobenthos cover and bird numbers on
+    the Galgeplaat, is indeed possible by using the available terrestrial
+    imagery from the platform. In the current state of development however,
+    the process cannot be claimed fully automatic yet as some a priori knowledge
+    from the user’s part is still required. Regardless, the use of remotely
+    sensed imagery for ecological monitoring proves promising in comparison
+    with current ecological monitoring for several reasons. Provided that
+    unsuitable images are filtered out (images where raindrops are on the
+    camera lens, or other irreparable images) the problem of limited accessibility
+    to the mudflat is ruled out. This makes it possible to produce high time
+    resolution data. Additionally, no costs are required for lab work or transport
+    to the mudflat for bird counting and the collection of specimen.'
+  uuid: c7e67b12-6dc1-4b70-b1a9-443ad0730e60
+  needs_review: true
 - surname: Wijga-Hoefsloot
   name: Martine
   title: Point Clouds in a Database
@@ -11284,6 +11401,14 @@
     not generally readable by spatial applications, not (yet) fully supported
     by all vendors and required storage space is double the amount.'
   uuid: 58266d2c-330c-4493-a03a-d8b180eb810d
+  needs_review: true
+- surname: Wong
+  name: H.M.
+  title: Registration of range images using geometric features
+  supervisors: B. Gorte; A. Bucksch; M. Menenti
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:d0e5e873-5ac1-45d5-804d-1354d638cb52
+  uuid: d0e5e873-5ac1-45d5-804d-1354d638cb52
   needs_review: true
 - surname: Boufidou
   name: Effrosyni
@@ -11354,6 +11479,82 @@
     the vine cultivation pattern whereas obtaining high quality and recognised
     wine products.
   uuid: 70b9c0da-be31-426e-8694-c082a5e36280
+  needs_review: true
+- surname: van Goor
+  name: B.
+  title: Change detection and deformation analysis using Terrestrial Laser
+    Scanning
+  supervisors: R.F. Hanssen; R.C. Lindenbergh; S.S. Soudarissanane
+  year: 2011
+  link: https://resolver.tudelft.nl/uuid:acd7e4f7-849b-400f-a5bb-29bb485d427a
+  abstract: A Terrestrial Laser Scanner (TLS) is a powerful tool for surveying.
+    Tens of millions of points are acquired with a high accuracy and within
+    a short time. The resulting point clouds can be used to find changes and
+    deformations. For this project, four point clouds of the metro station
+    and tunnel at Rotterdam central station are available. The processing
+    of the Laser Scanning data can be a time consuming task. Depending on
+    the desired end product, various steps are required. During this graduation
+    project, a method is proposed to find changes and deformation in the repeated
+    TLS point clouds. A key step in this method is to distinguish surfaces
+    in the point clouds that are changed from unchanged surfaces. The unchanged
+    surfaces are investigated in more detail to find deformations in the Signal-to-Noise
+    Ratio. The proposed method consists of three processing steps. The first
+    step is to transform all the scans to the same (absolute) coordinate system.
+    The second step is to divide the point clouds in segments. These segments
+    are planar surfaces in the metro tunnel. During the segmentation matching,
+    corresponding surfaces sampled at two different moments are identified,
+    which is the third step. These matching segments are compared in more
+    details during a deformation analysis. Segments without a match are subject
+    to a change detection. The proposed method is applied to three case studies,
+    using real data from the metro tunnel. The first case demonstrates the
+    use of the method to research the registration accuracy and find occlusions
+    between two scans. The two other cases demonstrate the change detection
+    and deformation analysis. The results are validated using total station
+    and joint meter measurements.
+  uuid: acd7e4f7-849b-400f-a5bb-29bb485d427a
+  needs_review: true
+- surname: van Halderen
+  name: L.M.
+  title: Visual ego-motion estimation from unmanned deep sea vehicles
+  supervisors: B.G.H. Gorte; C.D. De Jong
+  year: 2011
+  link: https://resolver.tudelft.nl/uuid:ee690d46-3ec9-486a-8a16-b3738ae3f386
+  uuid: ee690d46-3ec9-486a-8a16-b3738ae3f386
+  needs_review: true
+- surname: Verlaar
+  name: S.H.S.
+  title: Evaluation of close range photogrammetric support for Pavescan
+  supervisors: R.C. Lindenbergh; B.G.H. Gorte
+  year: 2011
+  link: https://resolver.tudelft.nl/uuid:3c8d42b1-fdf1-47f2-91af-cc71882c75ff
+  abstract: Pavescan is a low cost mobile system for road modelling survey.
+    Because of the absence of navigation sensors it has several practical
+    drawbacks compared to most of the other mobile mapping systems, but those
+    sensors are very expensive and do not fulfil most of the accuracy requirements.
+    Pavescan will be more attractive if some of the practical drawbacks are
+    reduced. Pavescan measures road profiles across the road by laser scanning
+    at a series of positions. The separate scans are linked via control points,
+    which have to be measured in an additional survey. The accuracy in height
+    of the scans is most important (e.g. for volume calculations) and has
+    to be in the range of millimetres. It is evaluated if integrating close
+    range photogrammetry can achieve millimeter accuracy of the scan and reduce
+    the number of control points. A test survey was conducted with a downward
+    looking camera, which was mounted close to the scanner at a height of
+    around 3.6 metres above the road's surface. The position and orientation
+    of the camera at each exposure is retrieved by bundle adjustment. The
+    accuracy of the bundle adjustment depended strongly on the configuration
+    of the control points. Due to the narrow shape of a strip of images, this
+    configuration will always be weak. For a sequence of 28 images ( 43 metres),
+    around five control points are needed to achieve sub-centimetre accuracy
+    of the object points. If more than 36 images or fewer than four control
+    points were used, the bundle adjustment diverged (i.e. no solution could
+    be obtained). A reduction of control points is therefore not possible.
+    The practical feasibility for integrating close range photogrammetry into
+    Pavescan is low, since too many control points are needed that should
+    spatially be well distributed and measured with tachymetry (or with similar
+    accuracy). Therefore it is not recommended to integrate photogrammetry
+    in Pavescan.
+  uuid: 3c8d42b1-fdf1-47f2-91af-cc71882c75ff
   needs_review: true
 - surname: Xu
   name: Daniel
@@ -11451,12 +11652,488 @@
   link: https://resolver.tudelft.nl/uuid:b475fee9-5b67-446d-8a6e-ecce319c4250
   uuid: b475fee9-5b67-446d-8a6e-ecce319c4250
   needs_review: true
+- surname: Bitenc
+  name: M.
+  title: Evaluation of a laser Land-based Mobile Mapping System for measuring
+    sandy coast morphology
+  supervisors: R. Lindenbergh; K. Khoshelham
+  year: 2010
+  link: https://resolver.tudelft.nl/uuid:a7f7aac7-98e1-44c6-a3e2-5b2415b6cecc
+  abstract: The coastal area is an important territory for many reasons, e.g.
+    as a recreational area, natural parks and reservoirs, protection against
+    sea flood and storms. The last usage is especially crucial in the Netherlands,
+    because the most densely populated areas are located just behind the coastal
+    defense and are partly below the mean sea level. Therefore, it is essential
+    to continuously monitor and maintain the coast in order to protect the
+    Dutch hinterland from the sea. Since 1965 the Dutch Ministry of Transport,
+    Public Works and Water Management (RWS, Rijkswaterstaat) annually acquire
+    the JAarlijkse KUStmetingen (JARKUS) data. The cross-shore topography
+    and bathymetry is measured along profiles 250m apart. The disadvantage
+    is, that the JARKUS data are too sparse in time and space, to ensure sufficient
+    observations of the dynamic coast environment. The time is especially
+    important, when a high energy event occurs that can cause most dramatic
+    changes. Therefore, a flexible system is needed that can access a damaged
+    area immediately after the storm and enables (near) real-time processing
+    of the captured data. To make right and timely decisions it is important
+    that results, e.g. DTM, are available shortly after the acquisition itself.
+    Besides, to estimate in detail the beach erosion caused by heavy storm
+    events, high spatial resolution measurements are needed. According to
+    the above described application and requirements the most appropriate
+    acquisition technique and processing has to be chosen. Advances in the
+    hardware and software technologies enable to directly acquire 3D models
+    from real world environments [Grinstead et al., 2005]. Compared to the
+    laser airborne system, i.e. ALS, which is commonly used by now to map
+    the beach topography, the vehicle platform is considered to be more flexible.
+    One of the potential techniques is the laser L-MMS. It is a complex real-time,
+    multi-tasking and multi-sensor system. It integrates line scanners and
+    optionally digital cameras for mapping, Global Navigation Satellite Systems
+    (GNSS) for positioning and usually Inertial Navigation System (INS) to
+    measure platform orientation. The measurements from those sensors are
+    integrated and result in a 3D laser point cloud. In principle it is possible
+    to quickly obtain 3D data of a large extended area with a high spatial
+    resolution. On the basis of the mentioned properties, RWS decided to initiate
+    a pilot-project using a laser L-MMS. The requirements for the acquired
+    data are that the vertical accuracy of DTM is at least 10cm at a grid
+    spacing of 1x1m and that this result is available close to the real-time.
+    In this master thesis the level of obtainable quality of the laser L-MMS
+    data and derived laser L-MMS DTM is investigated in detail. This evaluation
+    is performed in three steps. First, an a-priory analysis is performed
+    on the basis of the L-MMS geo-referencing model. This model includes L-MMS
+    measurements of the three sensors and calibration parameters connecting
+    those sensors. The result is 3D laser point cloud. By nature, the observations
+    entering the geo-referencing model include errors and therefore effect
+    the 3D laser point positioning quality. To estimate this quality a theoretical
+    random error budget is constructed. It shows the relative components of
+    random errors within the system and the expected quality of the laser
+    point positioning. The specifications and estimated observations’ random
+    errors of the L-MMS system called StreetMapper are considered in a practical
+    random error budget computations. Results show that the GPS/INS positioning
+    error impacts the 3D laser point position the most. The second biggest
+    contributors are errors of the laser scanner measurements, i.e. errors
+    in range and scanning angle. The range error effects more the horizontal
+    and scan angle error the vertical positioning error. Because the StreetMapper
+    GPS/INS positioning solution on the open beach area is relatively good,
+    the further laser point quality improvements should consider laser scanners
+    of higher precision. In the second analysis the theoretical model of the
+    described pre-analysis is applied on the real L-MMS data. That is, the
+    height precision due to the L-MMS measurement and calibration errors (measuring
+    precision) is computed for each laser point. Besides, the intersection
+    geometry of the laser beam with the relatively horizontal and flat beach
+    is investigated. The scanning geometry is changing a lot over the beach
+    and gets poorer further away from the trajectory. This means that the
+    distance from the laser scanner to the target as well as the incidence
+    angle increases. Those geometric attributes are teken into account to
+    compute the so-called geometrical precision. Together with the measuring
+    precision they define the theoretical precision of the laser point height.
+    Besides, an empirical quality measure is obtained by a relative Quality
+    Control (QC). The relative QC is here developed considering the land-based
+    laser data advantage, like a high laser point density that results in
+    overlapping footprints. Height differences between the two overlapping
+    laser points, called identical points, are considered as the empirical
+    quality measure. The comparison of the theoretical and empirical quality
+    measures shows big differences. Most likely the theoretical precision
+    is estimated too pessimistic, because the random errors of the measurements
+    and calibration parameters are mostly overestimated. It is therefore recommended
+    to first verify the theoretical error model by comparing the values obtained
+    in this research with reference data of a higher quality. This way also
+    the systematic errors could be verified, that are here assumed to equal
+    zero. On the other hand, the assumptions on the identical points should
+    be further tested. In the third analysis a laser L-MMS DTM is evaluated.
+    DTM is the most important or in other words, the most widely used L-MMS
+    product that should be provided to the end user together with a detailed
+    quality description. This way, a DTM user can better trust and rely on
+    the DTM height information. Here, the goal is to answer the RWS question,
+    weather the DTM of 1x1m size can have a quality better than 10cm. The
+    L-MMS and ALS dataset are used in this analysis. First, the L-MMS terrain
+    laser points are divided into a 1x1m grid cells. A weighted Moving Least
+    Squares (MLS) is performed for each grid cell to fit a tilted plane to
+    its terrain points. The weight matrix is constructed from the individual
+    theoretical laser point variances. This method is applied on the StreetMapper
+    terrain points that lie on the sandy beach and part of the dunes. Resulting
+    interpolated grid point heights do not differ much from the averaged height
+    of those terrain points. Therefore it is concluded, that the simple averaging
+    interpolation can be used to construct a laser L-MMS DTM on the Dutch
+    beach. The resulting L-MMS DTM quality is highly dependent on the number
+    of terrain points within a grid cell. Because the L-MMS point density
+    is in general very high, those redundant data reduce the random errors
+    of laser point positioning. Thus, the DTM has on average higher quality
+    than the input laser data. It is concluded that the RWS requirement on
+    the laser L-MMS DTM accuracy can be easily met for the beach and the dune
+    area. Most of the grid cell on the beach have the height precision better
+    than 1cm. To achieve similar accuracy also in the dune area, a measurement
+    set-up needs to be changed in order to acquire more points. Thus, it is
+    recommended that the vehicle drives closer to the dune foot and that the
+    laser scanners are lifted higher above the ground. The comparison of L-MMS
+    and ALS data shows the advantage of the L-MMS technique due the high laser
+    point density. On the other hand ALS technique offers better data coverage
+    on the coast. However, higher laser scanner platform might minimize the
+    L-MMS data voids that occur behind elevated features in the pre-dune area.
+    This way the completeness, reliability and the quality of the laser L-MMS
+    DTM DTM could be improved.
+  uuid: a7f7aac7-98e1-44c6-a3e2-5b2415b6cecc
+  needs_review: true
+- surname: Bloemsma
+  name: M.R.
+  title: Semi-automatic core characterisation based on geochemical logging
+    data
+  supervisors: G.J. Weltje; R.C. Lindenbergh
+  year: 2010
+  link: https://resolver.tudelft.nl/uuid:4acf424e-6bb5-4044-a7af-2baea8108baa
+  abstract: Textural variations in sediment are considered to be one of the
+    primary controls on the geochemical composition. This relation has been
+    widely exploited for the climatological interpretation of unconsolidated
+    Quartenary sediment cores. Despite the common objectives in respectively
+    unconsolidated and consolidated sedimentological studies, for the latter
+    the use of novel techniques to acquire geochemical data, such as non-destructive
+    XRF on cores, has not been applied yet. Because there is an ever increasing
+    need for detailed (textural) sedimentological data, this study investigated
+    the possibilities of in-situ XRF for semi-automatic textural characterization.
+    An improvement to the current work flow of XRF core scanning data acquisition
+    was suggested by a pre-calibration filtering step, in order to increase
+    the signal to noise ratio. Apart from that, a sample selection routine
+    was developed which, given the underlying calibration strategy, was expected
+    to yield improved calibration results. Embedding the two algorithms into
+    the calibration work flow proved that the sample selection algorithm as
+    well as the pre-calibration filtering step result in improved calibration
+    output. They are also found to be effective for real data; when applied
+    to two datasets of unconsolidated cores, similar results were obtained.
+    The second part of this study included the design of a sedimentary basin
+    infill model ”LINMIX”, based on the mixing of different sediment sources
+    with a grain size dependent chemical composition. By doing so, the observed
+    geochemical signal is decomposed into a portion that is the result of
+    textural variations and a portion that reflects differences in provenance.
+    When applying LINMIX to a record of Quaternary sediment (offshore Senegal)
+    as a proof-of-concept, the model was able to reconstruct the geochemical
+    record satisfyingly by linear mixing of 3 endmembers with 3 unique Grain
+    Size Distributions (GSD’s) and 2 unique functions characterising the compositional
+    change in the grain size spectrum (Transfer function or ’TF’). This result
+    implies that the chemical variation induced by the relative mixing of
+    two endmembers was only the result of grain size variation and not of
+    source material variation. The two endmembers that were designated a common
+    TF, have in a previous study been interpreted as both reflecting material
+    from the same sediment source. This implies that the LINMIX model has
+    potential for semi-automatic provenance interpretation of sediment cores.
+    Additionally the endmember compositions correspond fairly well with the
+    present-day composition of the Senegal river and African eolian dust.
+    Finally it was investigated how geochemical data can support semi-automatic
+    grain size prediction of consolidated sediment, for which holds that there
+    is no sediment source variation. This was done using a dataset of Carboniferous
+    material, which is highly variable in terms of lithofacies. Around 11
+    meter of core has been geochemically logged with an XRF core scanner and
+    successfully calibrated using 40 calibration samples (20 unique sample
+    depths). The quality of the core scanning data was found to be high; the
+    main rock-forming elements were calibrated with a signal to noise ratio
+    larger than 4. Subsequently the textural information content of the geochemical
+    data was investigated in two different setups. Initially the data was
+    used as a quantitative tool to fill in the gaps between the grain size
+    derived from plug data using Multi Variate Regression (MVR). Apart from
+    that it was used as input for an unsupervised Bayesian classification
+    scheme in terms of grain size classes. Whereas the former yielded a residual
+    variance on the input data smaller than 1.5 f -units in 66 % of the cases,
+    the latter identified two core sections that, given RGB and geochemical
+    data, should be classified differently. In both cases, an additional validation
+    step should give more insight in the performance of the scanner as a grain
+    size predictor. Recommendations w.r.t the scanner include (1) embedding
+    the suggested algorithms in the data acquisition work flow and (2) installing
+    a higher resolution camera to extract textural proxies from images.
+  uuid: 4acf424e-6bb5-4044-a7af-2baea8108baa
+  needs_review: true
 - surname: de Koning
   name: Melina
   title: Quality assessment of GSM positioning - GSM fingerprinting versus
     cellid positioning
   year: 2010
   link: https://www.gdmc.nl/publications/2010/Quality_assessment_GSM_positioning.pdf
+  needs_review: true
+- surname: Kalpoe
+  name: D.S.
+  title: Vibration Measurement of a Model Wind Turbine using High Speed Photogrammetry
+  supervisors: M. Menenti; K. Khosh Elham; B.G.H. Gorte
+  year: 2010
+  link: https://resolver.tudelft.nl/uuid:2d8318f7-42bf-4637-8d34-285f98405b64
+  abstract: To meet the growing demand for sustainable energy, existing wind
+    turbines have to be made more powerful and efficient. One of the research
+    topics to achieve this, is the aero-elastic stability limit of the blades.
+    This can be analyzed by the vibrations that occur on the blades during
+    normal operational conditions. In this study high speed photogrammetry
+    is used to measure blade vibrations of a model wind turbine. By placing
+    targets on the blades of the wind turbine and taking images with two synchronized
+    high speed cameras, the motion of the blades is captured. High speed cameras
+    produce a large number of images, making manual target measurements impractical.
+    In this study, it is investigated how target measurements in high speed
+    images can be automated and what accuracy can be obtained for the reconstructed
+    object coordinates. To automate the target measurements, a method is developed
+    based on target detection and tracking. The targets in the images are
+    detected using a threshold histogram segmentation. Since the targets describe
+    a circular motion a circle is used as model to track its position in the
+    sequence of frames. To measure the targets with subpixel precision, the
+    edges of the targets are detected and a circle is fitted to the edges.
+    To reconstruct the object coordinates a Direct Linear Transformation (DLT)
+    is used. The DLT equations are linear and can easily be solved with standard
+    Least Squares Estimation. The developed methods were used for an experiment
+    in a wind tunnel, whereby images of a model wind turbine were made with
+    an acquisition frequency of 500 Hz and a rotational speed of 260 rpm.
+    Retro-reflective targets were put on the blades to identify the measuring
+    points. Using the developed methods, the targets were successfully measured
+    and tracked in the images of the experiment. Using the targets measured
+    in the images, 3D object coordinates were calculated with an accuracy
+    of 1.32 millimeter. The vibrations of a target were obtained by means
+    of Principal Component Analyses (PCA). Using PCA, the track of coordinates
+    of a target was transformed to a new coordinate system. The xy plane of
+    this new coordinate system coincided with the rotation plane of the target
+    and the z axis is perpendicular to it, containing the vibrations. The
+    measured vibration had a maximum amplitude of 6 mm, with an accuracy of
+    0.56 mm in the vibration component. From the performed experiment with
+    the model wind turbine, it can be concluded that the blade vibrations
+    can be measured using high speed photogrammetry.
+  uuid: 2d8318f7-42bf-4637-8d34-285f98405b64
+  needs_review: true
+- surname: Possel
+  name: B.M.J.
+  title: Automatic detection of buried channel deposits using high resolution
+    laser altimetry data (FLI-MAP)
+  supervisors: D.G. Simons; R.C. Lindenbergh; J.E.A. Storms
+  year: 2010
+  link: https://resolver.tudelft.nl/uuid:6210b7b5-8599-4ed6-bf3b-738f9a8d0f97
+  abstract: 'The formation of the current Rhine-Meuse delta has mainly taken
+    place during the Holocene (the last 12,000 years). This period is characterised
+    by avulsions that lead to sudden shifts in the location of river channels.
+    The channel deposits left behind by abandoned rivers are often distinct
+    sandy layers in the shallow sub-surface, called buried channel deposits.
+    Knowledge of the location of buried channel deposits is interesting from
+    a historical point of view and is essential for planning, constructing
+    and maintaining structures that intersect these channels. Traditionally,
+    buried channel deposits are traced using labour intensive soil drillings
+    and visual interpretation. However, some buried channel deposits can also
+    be detected by using local elevation differences (1 - 2 m) caused by differential
+    compaction. Automating the detection process and using Digital Elevation
+    Models could result in faster processing and a higher detailed, more objective
+    map. This leads to the following research question: is it possible to
+    automatically derive a detailed map of buried channel deposits from high
+    resolution laser altimetry data? The dataset used for this purpose is
+    a rasterized elevation model measured by the FLI-MAP system with the same
+    specifications as AHN-2. First, two filtering methods are applied to remove
+    infrastructure and other objects using existing topographical data (GBKN)
+    and terrain characteristics (variability and density). If these objects
+    are not removed they cause errors in the final result. In the detection
+    procedure four structural attributes are calculated using the elevation
+    dataset: slope, curvature, relative elevation (TPI) and smoothed TPI.
+    This is done to use as much of the available information in the detection
+    procedure. With these attributes a multi-band image is formed. Classification
+    is then performed using a Maximum Likelihood classifier were each point
+    is assigned to a predefined class. A majority filter is applied on the
+    result and empty areas are interpolated using a conditional dilation to
+    get a full coverage of the area. Processing speed is increased by downsampling
+    datapatches that are used for computational intensive algorithms. Additional
+    automation of the detection process is performed by developing a method
+    to resolve edge effects on tiled datasets. Validation is performed by
+    comparing the detection result to two independent datasets. A palaeogeographic
+    map is used to make a numerical and visual comparison. An analysis using
+    shallow drilling measurements is performed to determine the depth of the
+    detected sand layers. The results indicate that buried channel deposits
+    (between 4,620 and 1,700 years old) can be mapped roughly in a fully automatic
+    way. The probability that these channels are within a certain depth can
+    be calculated. Validation shows that this new method is strongly hampered
+    due to human intervention in the landscape. Further research is recommended
+    to improve the filtering and detection method.'
+  uuid: 6210b7b5-8599-4ed6-bf3b-738f9a8d0f97
+  needs_review: true
+- surname: Yu
+  name: H.
+  title: Monitoring Glacier Elevation Changes over the Tibetan Plateau Using
+    ALOS PRISM and ICESat
+  supervisors: M. Menenti; R.C. Lindenbergh; K. Khosh Elham
+  year: 2010
+  link: https://resolver.tudelft.nl/uuid:9e11a9bd-49a9-4e86-a856-8558e39dfb34
+  abstract: Glacier melting has become a key issue in the current discussion
+    on global climate change. Glaciers of the Tibetan Plateau may be heavily
+    affected by global warming. Hence, possible glacier melting over the plateau
+    attracts the most attention. Possible glacier melting is evaluated via
+    studies on mass balance of the glaciers. Glacier elevation change is an
+    important parameter in mass balance assessments. Traditional observations
+    of glacier elevation changes were acquired by surveying. As an example,
+    a large elevation change of 1.5 m decrease was reported at Zhadang glacier
+    on the southwest Tibetan Plateau between 2005 and 2006. Traditional surveying
+    is expensive for large areas and is limited by the extreme terrain and
+    weather conditions on the Tibetan plateau. Therefore, remote sensing techniques
+    are preferred in the research on ongoing glacier elevation changes. The
+    research method assessed here considers elevation changes obtained by
+    comparing serial DEMs. Photogrammetry techniques are applied for DEM generation.
+    The 2.5 m horizontal resolution satellite images of the ALOS PRISM instrument
+    are used as base image. One PRISM scene centered at longitude 81°15´37”N
+    and latitude 29°49´53”E, available at both Level 1A/1B and Level 1B2R/1B2G,
+    is employed for DEM and quality evaluation. ICESat laser altimetry data
+    from campaign L3I is selected as ground control points (GCPs). ICESat
+    has decimeter vertical accuracy over flat terrain In this case ICESat
+    elevations are chosen as GCPs because sufficient GCPs from other sources
+    are not available. The DEM generation is performed in the ERDAS LPS 9.3
+    software. The quality of the resulting TDEM (Tibetan Plateau DEM) is evaluated
+    by ASTER GDEM and by data from different ICESat campaigns. Compared with
+    ASTER GDEM, the mean difference is -41 meters. The TDEM has a mean difference
+    of 5-10 meters with ICESat data from campaigns L3H, L3J and L3K. It is
+    concluded that TDEM’s accuracy is sufficient to detect 15 m elevation
+    change in 10 year’s time, which correspond to an annual glacier elevation
+    change rate of 1.5 meters. The accuracy of TDEM is notably better than
+    ASTER GDEM. As one TDEM tile reports the elevation of a glacier at a clear
+    moment in time, TDEM is more suitable than ASTER GDEM for glacier mass
+    balance studies.
+  uuid: 9e11a9bd-49a9-4e86-a856-8558e39dfb34
+  needs_review: true
+- surname: Altundağ
+  name: D.
+  title: De-noising terrestrial laser scanning data for roughness characterization
+    of rock surfaces
+  supervisors: K. Khoshelham; D. Ngan-Tillard; M. Menenti
+  year: 2009
+  link: https://resolver.tudelft.nl/uuid:219f6326-95c9-445a-aa87-413cc80ea819
+  abstract: To measure roughness a number of traditional measurement methods
+    have been developed such as linear profiling, compass and disc clinometers.
+    Although these measurement methods have been widely used, they are time
+    consuming, and labor intensive. The accuracy of the local measurements
+    depends heavily on expertise and measurements are limited to places that
+    are accessible. Therefore, the demand for ways of acquiring roughness
+    information quickly and with a high spatial resolution and accuracy for
+    surfaces out of human reach is increasing. Terrestrial laser scanning
+    (TLS) is a data acquisition technique promising to fill all these needs.
+    However, data acquired by terrestrial laser scanner devices always contain
+    noise. Therefore, using the raw laser data for roughness characterization
+    can cause inaccurate and unreliable results. In order to confirm that
+    terrestrial laser scanning technique can replace the traditional measurement
+    methods for roughness characterization it is essential to remove noise
+    present in the data as accurate as possible without distorting the detailed
+    features underlying the original data. The research presented in this
+    thesis focuses on analyzing the influence of terrestrial laser scanner
+    (TLS) instrument noise on rock surface roughness characterization. To
+    characterize roughness the roughness length method is used. Linear profiles
+    are generated on the rock surface and from these profiles roughness data
+    are obtained using both terrestrial laser scanner data and manual measurements.
+    The manual measurements are used as reference for the evaluation of the
+    results from the laser scanner data. From the profiles the fractal parameters
+    are obtained to quantify roughness using the roughness length method.
+    Both raw data and denoised laser scanner data are used to obtain fractal
+    parameter values. With respect to the selection of the most appropriate
+    threshold value to distinguish the original data from the laser range
+    noise, an experiment was performed using the wavelet denoising approach.
+    In this experiment, the threshold values were changed incrementally until
+    the fractal dimension values approached the values of the reference data.
+    If the selected threshold value was too small to remove noise then the
+    denoising procedure resulted in the noise being underestimated (e.g. 0.001m
+    for our case). In contrast, if the threshold value is too high then the
+    denoising procedure resulted in the noise being overestimated. The results
+    clearly showed that the selection of threshold values in denoising procedure
+    play a significant role in changing the values of the fractal dimension.
+    However this method was only used to see the effect of the threshold value
+    on the fractal parameters. It was concluded that the best approach is
+    to first estimate the noise level in the laser data and then determine
+    the threshold values. For this reason two methods were applied to determine
+    the noise level (Donoho-Johnstone’s and Menenti-Ritchie’s methods), and
+    then they are used in different threshold estimation methods. In total
+    10 different thresholding methods, including the hard and soft modes,
+    were performed on the wavelet coefficients obtained separately from discrete
+    wavelet transform and wavelet packets. Donoho-Johnstone’s, Fixed form,
+    hard thresholding method and Birge-Massart’s, Penalized medium soft, thresholding
+    methods when applied to the coefficients of wavelet packets resulted in
+    very close fractal dimension values to the reference values in x directional
+    laser profile. However, for y directional profiles Birge-Massart’s Penalized
+    medium hard thresholding method resulted in the closest value to the reference
+    data. In this research it is showed that noise can be successfully eliminated
+    to such a degree that accurate measurement values can be obtained from
+    laser scanned data for rock surface roughness characterization.
+  uuid: 219f6326-95c9-445a-aa87-413cc80ea819
+  needs_review: true
+- surname: Molijn
+  name: R.A.
+  title: ICESat full waveform signal analysis for the classification of land
+    cover types over the cryosphere
+  supervisors: R.C. Lindenbergh; B.C. Gunter; R. Klees
+  year: 2009
+  link: https://resolver.tudelft.nl/uuid:84ae2335-bda6-4880-af3e-217cd6289f27
+  abstract: 'The Earth needs attention. That is the bottom line of today’s
+    discussion on the impact of humans on the environment and their contribution
+    to global warming. With the rapid sea level rise and the melting ice caps,
+    it is becoming increasingly important to understand these processes. Mass
+    balance estimates of the cryosphere (e.g. Greenland and Antarctica) are
+    one of the keys to unlocking the secrets of today’s concerns and predicting
+    tomorrow’s problems. The primary objective of this research is to construct
+    an automatic classification algorithm to that will distinguish between
+    the polar land cover types: ice, rock, snow and water. The algorithm is
+    based on full waveform laser altimetry measurements gathered by the Ice,
+    Cloud and Elevation Satellite (ICESat). The results of this research have
+    the potential to play an important role in improving the current methods
+    for computing mass balance estimates and monitoring seasonal changes in
+    land cover type of the cryosphere.'
+  uuid: 84ae2335-bda6-4880-af3e-217cd6289f27
+  needs_review: true
+- surname: Wortel
+  name: T.P.
+  title: Automating quantity surveying in road construction using UAV Videogrammetry
+  supervisors: K. Khoshelham; B.H.G. Gorte
+  year: 2009
+  link: https://resolver.tudelft.nl/uuid:9a2421c2-9c7b-4e4f-945c-1246ffa35bd4
+  abstract: Due to changing contract forms in road construction, contractors
+    feel the need for accurate and fast quantity measurement methods. UAV
+    Photogrammetry is a potential answer for contractors. Photogrammetric
+    measurement processing should be automated in order to reach its full
+    potential in speed and obtainability. Automatic extraction of reliable
+    point correspondences between stereoscopic images is still difficult.
+    This research presents a solution to obtain reliable point correspondences
+    between multiple images. The approach is to use Scale Invariant Feature
+    Transform (SIFT) to automatically extract point matches. These point matches
+    are not reliable. SIFT Tracking is a new method that tracks SIFT features
+    in a sequence of images with very high overlap. SIFT tracking, in combination
+    with a motion constraint and a unique matching constraint, extracts reliable
+    point matches. SIFT tracking is tested in road construction image sequences
+    with 99% overlap between consecutive images. SIFT extracts approximately
+    30 reliable point correspondences over 40 images, such that there is 60%
+    overlap between the first and the ast image of the sequence. These point
+    correspondences can be used to compute a reliable digital terrain model
+    of the road construction site. SIFT Tracking is an improved version of
+    SIFT that can be used to extract reliable point correspondences between
+    photogrammetric images. It fills the last gap in automating photogrammetric
+    measurement campaigns.
+  uuid: 9a2421c2-9c7b-4e4f-945c-1246ffa35bd4
+  needs_review: true
+- surname: Bantis
+  name: T.
+  title: Aerostat Photogrammetry for Large Scale Hydrological Modeling with
+    Special Focus on Energy Balance Terms
+  supervisors: N. van De Giesen; K. Khos Elham; S. Zlatanova
+  year: 2008
+  link: https://resolver.tudelft.nl/uuid:3617d20d-43e8-4bbb-a54e-e1a5323cf882
+  abstract: Knowledge of temperature distributions on streams and lakes is
+    considered to be a valuable source of information for a wide range of
+    disciplines such as ecologists, hydrologists and geochemists, as it can
+    provide insights into the dynamics of these water bodies (Westhoff, 2006).
+    Modeling of surface water temperature on the other hand is a complex process
+    requiring coupling of spatial and hydrological data (Boyd, Kasper, 2003).
+    At local scales, all influences of the landscape to the water temperature
+    are considered important, even those which are too difficult to quantify.
+    High resolution terrain data can compensate landscape influences by providing
+    insight in the thermal effects of direct solar radiation (by shadow modeling)
+    and longwave radiation (by modeling of ‘Sky View Coefficient’, SVC). Usually,
+    the demand on high resolution terrain data is translated into increased
+    costs during acquisition. As a result, scientists interested in temperature
+    distribution along streams are forced to make a compromise between costs
+    and more detailed temperature modeling. Photogrammetry employed from an
+    aerostat platform is proposed as an inexpensive technique, able at providing
+    terrain data of centimeter level accuracy and resolution. The applicability
+    of the proposed method was tested on a first order stream located in Maisbich
+    subcatchment in central Luxembourg, where temperature modeling experiments
+    are taking place. A 10 x 10 cm digital elevation model (DEM) was extracted
+    using photogrammetric principles for the upstream and downstream part
+    of the subcatchment. The accuracy of the derived DEM was assessed using
+    ground truth points measured by a total station and points collected using
+    the floating mark principle. The resulted height root mean squared error
+    was found 7cm for the upstream and 6.44 cm for the downstream part having
+    the ground truth points as reference, and 8.34 cm and 23.14 cm having
+    the floating mark points as reference. The DEM served as a basis for information
+    extraction relevant to the temperature distribution model. The influence
+    of shadow in the stream temperature was modeled using hillshade and viewshed
+    algorithms. The SVC was modeled by using upward looking viewshed algorithms.
+    The resulted data were imported in the temperature model. An improvement
+    of 0.0727°C was observed when compared to the temperature output using
+    data from a coarser DEM (5 x 5 meters).
+  uuid: 3617d20d-43e8-4bbb-a54e-e1a5323cf882
   needs_review: true
 - surname: Hofman
   name: Arjen
@@ -11518,6 +12195,65 @@
     IMGeo as described in this report.'
   uuid: d650352b-78fb-4919-9cb0-f2f66b17aef5
   needs_review: true
+- surname: Samiei-Esfahany
+  name: S.
+  title: Improving Persistent Scatterer Interferometry Results for Deformation
+    Monitoring
+  supervisors: R. F Hanssen; F. J van Leijen
+  year: 2008
+  link: https://resolver.tudelft.nl/uuid:d1eed85e-6625-434d-aacb-538464557f78
+  abstract: 'The persistent scatterer interferometry (PSI) is a relatively
+    new technique in radar interferometry which has matured, within a last
+    decade, to a practical technique for measuring the deformation of the
+    Earth’s surface. PSI overcomes the main limitations of conventional InSAR
+    methods by identifying radar targets, called persistent scatterers (PS),
+    which have stable backscattering characteristics in time. In 2003, ESA
+    (European space agency) initiated the PSI Codes Cross-comparison and Certification
+    (PSIC4) project to produce reliable information about accuracy and validity
+    of PSI methodologies. The results of the experiment clearly indicated
+    that different PSI approaches resulted in different number of detected
+    PS (or PS density). Especially in deforming areas with strong deformations,
+    the experience shows the low PS density. This causes that main areas of
+    subsidence could not be assessed and identified. This lack of PS in deforming
+    areas raises the hypothesis of type-I errors (falsely rejected PS) due
+    to imperfections in the mathematical model of PSI processing. The background
+    of this thesis is formed by the idea of using the results of the PSIC4
+    study to evaluate algorithm performance and assess which approaches are
+    most suitable to retrieve reliable deformation parameters at a high spatial
+    density. In this study, the contribution of four different sources of
+    type-I errors is investigated, and some approaches to improve the PS density
+    are proposed. The Gardanne mining area (the test site for PSIC4) was chosen
+    as the case study for validation of the proposed approaches. The following
+    optimizations are addressed in this study: 1) Initial network optimization
+    2) Optimized atmospheric phase screen (APS) estimation 3) Azimuthal subpixel
+    position estimation 4) Non-linear deformation modeling In addition to
+    these optimizations, the new approach for the final selection of PS is
+    presented. Spatio-temporal consistency (STC) is introduced as a quality
+    assessment for the final selection of PS. The advantage of using STC is
+    that it can reduce the dependency of the PS quality assessment to the
+    assumed deformation model and therefore it is better indicator for the
+    observations precision. Integration of all proposed optimizations together
+    results in 236% improvement in the number of detected PS in the Gardanne
+    deforming area, leading to the improved identification of the Gardanne
+    deformation field. Results of the study show that application of the proposed
+    optimizations can improve the PS density. However, detected PS in areas
+    with fast deformation mechanisms suffer from the unreliable estimation
+    of ambiguities (unwrapping errors), resulting in unreliable estimates
+    of deformation time series. The main reason for this localized effect
+    (as it occurs mostly in deforming areas) is the fast evolution of deformation
+    mechanisms. For example, in the case study of this thesis, the deformations
+    range from few centimeters up to some decimeters occurred in few months.
+    These deformations are strong ”fast deformation” for the view point of
+    C-band radar (with wavelength of 5:6 cm) with at most monthly acquisition
+    of ERS data. Different methods with restricted or relaxed conditions for
+    removing unwrapping errors are presented. The decision for removing unwrapping
+    errors from final selected PS or relaxing the acceptance condition of
+    unwrapping errors is dependent to the application of PSI results. However,
+    in order to deliver the PSI results including unwrapping errors to end
+    users, a PS quality description which contains the quality of estimated
+    ambiguities is required.'
+  uuid: d1eed85e-6625-434d-aacb-538464557f78
+  needs_review: true
 - surname: de Boer
   name: Arnoud
   title: Label placement in 3D georeferenced and oriented digital photographs
@@ -11567,6 +12303,81 @@
     on the object distance.
   uuid: b130806f-58be-466c-8890-a1534df3ff00
   needs_review: true
+- surname: Pluymaekers
+  name: S.J.A.
+  title: A data analysis to bed dynamics in the Western Scheldt estuary
+  supervisors: R.C. Lindenbergh
+  year: 2007
+  link: https://resolver.tudelft.nl/uuid:c4b3b2de-f029-4461-ba20-362663d9f062
+  abstract: Morphological parameter estimation and deformation analysis near
+    the shoal of Walsoorden (Western Scheldt).
+  uuid: c4b3b2de-f029-4461-ba20-362663d9f062
+  needs_review: true
+- surname: Slobbe
+  name: D.C.
+  title: Towards a combined estimation of Greenland’s ice sheet mass balance
+    using GRACE and ICESat data
+  supervisors: P. Ditmar; R.C. Lindenbergh
+  year: 2007
+  link: https://resolver.tudelft.nl/uuid:0d315b1b-84a4-4e03-8b65-95353e04a598
+  abstract: The Greenland ice sheet is sensitive to climate change. Global
+    heating is expected to result in ice mass losses that will contribute
+    to global sea level rise. For this reason monitoring Greenland’s ice mass
+    balance is of utmost importance. Data of both the Ice, Cloud, and land
+    Elevation Satellite (ICESat) laser altimetry mission and the Gravity Recovery
+    and Climate Experiment (GRACE) gravity mission are used to create two
+    independent estimates of Greenland’s ice sheet mass balance over the full
+    measurement period of about 2003 until 2007. For ICESat data, a processing
+    strategy is developed that uses the elevation differences of geometrically
+    overlapping footprints of both crossing and repeated tracks. The dataset
+    is cleaned using quality flags defined by the Geoscience Laser Altimeter
+    System (GLAS) science team. (The GLAS is the sole scientific instrument
+    on ICESat). The cleaned dataset reveals some strong, spatially correlated
+    signals that are shown to be related to physical phenomena like melting
+    glaciers. On the other hand, strong correlation is also visible between
+    the observed elevation differences and the combined effect of roughness
+    and surface slope. Different processing strategies applied to different
+    sets of laser campaigns are used to convert the observed temporal elevation
+    differences to mass changes for 6 different drainage systems, further
+    divided into a region above and below 2000 meter elevation. Here all available
+    laser campaigns are used and outliers are removed using N-sigma thresholding.
+    Both a uniform and non-uniform weighting scheme,used to estimate the elevation
+    changes with respect to a reference epoch, is evaluated. The non-uniform
+    weighting scheme is developed to account for the influence of roughness
+    and surface slope, but it turns out that also signals of interest are
+    sometimes suppressed. In order to obtain our final estimates based on
+    ICESat data, the uniform weighting scheme is applied. For the whole of
+    Greenland the estimated mass change rate is equal to -142.6 Gton/year.
+    This value can be mainly attributed to strong mass losses in the region
+    below 2000 meter elevation. On the other hand we show that for different
+    processing strategies this value ranges between approximately 0 and -200
+    Gton/year. In general, the obtained results confirm trends discovered
+    by other authors who use altimetry. Differences can be explained by different
+    time spans of the used datasets, but mainly by differences in sampling
+    of the data in the region below 2000 meter. Furthermore, GRACE based monthly
+    variations of the Earth’s gravity field as processed by CNES, CSR, DEOS
+    and GFZ are used to estimate the mass change rate for North and South
+    Greenland. Here, both a Gaussian filter, for half-widths of 300, 500 and
+    800 km, and a Wiener filter is used. It turns out that the Gaussian filter
+    with a half-width of 500 km has the best performance. The final estimates
+    obtained after application of this filter for the different GRACE solutions
+    range between -60.9 and -93.1 Gton/year. The differences in estimates
+    among different GRACE solutions can be mainly explained by differences
+    in processing strategies used by the processing centers to obtain the
+    monthly gravity fields. Only for the DEOS solutions, these differences
+    can also be attributed to the different time span of this dataset. In
+    any case the estimates are low compared with recently published GRACE
+    estimates, which can be explained by an unaccounted leakage effect in
+    our estimates. The unaccounted leakage effect also mainly explains the
+    differences between estimates based on ICESat and GRACE data. Due to their
+    global coverage and high temporal resolution both the ICESat and GRACE
+    mission have improved the estimations of Greenland’s ice sheet mass balance.
+    Further improvements are possible when both datasets are combined. Hence
+    an attempt is made for a joint inversion of both datasets. Depending on
+    the used GRACE solution the estimated combined mass change rates range
+    between -114.3 and -124.7 Gton/year.
+  uuid: 0d315b1b-84a4-4e03-8b65-95353e04a598
+  needs_review: true
 - surname: Bont
   name: Tirza
   title: Geographic data integration for telecommunication purposes
@@ -11599,6 +12410,34 @@
     of the route, which i sone of the characteristics of the input data set
     containing the distribution of the travelers.
   uuid: ac4e2424-be72-4481-9b18-699172d045eb
+  needs_review: true
+- surname: Kagkaras
+  name: A.
+  title: Laser scanning modelling of a Cessna citation
+  supervisors: P. Teunissen; B. Gorte; A. Bucksch
+  year: 2006
+  link: https://resolver.tudelft.nl/uuid:20993923-81e7-44ea-a296-1f02893412f1
+  abstract: In Aerospace Engineering the field of Computational Flow Dynamics
+    (CFD) studies the aerodynamic behaviour of aircrafts. What is currently
+    being used to perform CFD simulations are Computer Aided Design (CAD)
+    models of the airplanes, which are usually low-detail industrial design
+    models. Research of new methods for improving the results of the simulating
+    process is of great importance. One method that can be tested in this
+    direction is the creation of more detailed models of the actual airplanes
+    via reverse engineering techniques. Laser scanning is one of these techniques.
+    Here, a laser scanner is used to measure TU Delft’s Cessna Citation. Afterwards,
+    parts of the airplane are modelled by using suitable methods to process
+    the obtained laser points.
+  uuid: 20993923-81e7-44ea-a296-1f02893412f1
+  needs_review: true
+- surname: Kodde
+  name: M.P.
+  title: Glacier Surface Analysis. Airborne Laser Scanning for monitoring
+    glaciers and crevasses
+  supervisors: D.G. Simons; B.G.H. Gorte; N. Pfeifer; R.C. Lindenbergh
+  year: 2006
+  link: https://resolver.tudelft.nl/uuid:1c7b4a64-e8f0-4ff2-957f-ae9c55617755
+  uuid: 1c7b4a64-e8f0-4ff2-957f-ae9c55617755
   needs_review: true
 - surname: Meijers
   name: Martijn
@@ -11659,4 +12498,13 @@
     that the data structures can provide the desired data reduction within
     a GII in real time.
   uuid: 3449616f-fa03-4877-81e8-218141b580af
+  needs_review: true
+- surname: van Ree
+  name: J.M.
+  title: Determination of the precision and reliability parameters of terrestrial
+    laser scanners by creating a practical experiment set-up
+  supervisors: R.C. Lindenbergh; A. Bucksch
+  year: 2006
+  link: https://resolver.tudelft.nl/uuid:071ea771-7bb0-4914-b97e-1e2294affe71
+  uuid: 071ea771-7bb0-4914-b97e-1e2294affe71
   needs_review: true

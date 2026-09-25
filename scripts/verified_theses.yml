@@ -54,3 +54,574 @@
   programme: Geomatics
   note: no source names the programme, but Ken knows he was a Geomatics
     student (checked 2026-09)
+
+# --- verdicts from the supervisor-search sweep
+# --- (scripts/find_old_theses.py reports them under Likely)
+
+- author: J.M. van Ree
+  year: 2006
+  programme: Geomatics
+  note: precision of terrestrial laser scanners, mentors Lindenbergh and
+    Bucksch (Ken, 2026-09)
+- author: M.P. Kodde
+  year: 2006
+  programme: Geomatics
+  note: airborne laser scanning of glaciers, mentors Gorte and Lindenbergh
+    (Ken, 2026-09)
+- author: A. Kagkaras
+  year: 2006
+  programme: Geomatics
+  note: laser scanning of a Cessna, mentor Gorte (Ken, 2026-09)
+- author: S.J.A. Pluymaekers
+  year: 2007
+  programme: Geomatics
+  note: bed dynamics of the Western Scheldt, mentor Lindenbergh
+    (Ken, 2026-09)
+- author: D.C. Slobbe
+  year: 2007
+  programme: Geomatics
+  note: Greenland ice sheet mass balance from GRACE and ICESat, mentors
+    Ditmar and Lindenbergh (Ken, 2026-09)
+
+# all remaining 2006-2007 sweep hits, checked by Ken (2026-09): none are
+# Geomatics
+- author: D.A.E. Jansen
+  year: 2006
+  programme: not Geomatics
+- author: R.A.G. Kerklaan
+  year: 2006
+  programme: not Geomatics
+- author: M. Gyeltshen
+  year: 2006
+  programme: not Geomatics
+- author: P.J. De Graaf
+  year: 2006
+  programme: not Geomatics
+- author: S.C. Chong
+  year: 2006
+  programme: not Geomatics
+- author: S. De Boer
+  year: 2007
+  programme: not Geomatics
+- author: S. Wesselingh
+  year: 2007
+  programme: not Geomatics
+
+# all remaining 2008 sweep hits, checked by Ken (2026-09): none are
+# Geomatics
+- author: A. Huisman van Zijp
+  year: 2008
+  programme: not Geomatics
+- author: N.C.R. Klomp
+  year: 2008
+  programme: not Geomatics
+- author: E.J. Pols
+  year: 2008
+  programme: not Geomatics
+- author: M.S. Kibria
+  year: 2008
+  programme: not Geomatics
+- author: A. Gout
+  year: 2008
+  programme: not Geomatics
+- author: M. Fuchs
+  year: 2008
+  programme: not Geomatics
+- author: T.H. van der Meer
+  year: 2008
+  programme: not Geomatics
+- author: E. Felici
+  year: 2008
+  programme: not Geomatics
+- author: W.E. Schotanus
+  year: 2008
+  programme: not Geomatics
+- author: J. van Bennekom-Minnema
+  year: 2008
+  programme: not Geomatics
+
+- author: T. Bantis
+  year: 2008
+  programme: Geomatics
+  note: aerostat photogrammetry for hydrological modelling, mentors
+    van de Giesen and Zlatanova (Ken, 2026-09)
+- author: S. Samiei-Esfahany
+  year: 2008
+  programme: Geomatics
+  note: persistent scatterer interferometry, mentor Hanssen (Ken, 2026-09)
+- author: D. Altunda?
+  year: 2009
+  programme: Geomatics
+  note: de-noising terrestrial laser scanning data for rock roughness,
+    mentors Khoshelham, Ngan-Tillard and Menenti; the repository record
+    corrupts the name (Altundağ) to 'Altunda?' (Ken, 2026-09)
+- author: R.A. Molijn
+  year: 2009
+  programme: Geomatics
+  note: ICESat full-waveform land-cover classification over the
+    cryosphere, mentor Lindenbergh (Ken, 2026-09)
+
+# --- batch verdicts by Ken (2026-09): 2009-2011 sweep hits
+
+- author: A. Korfali
+  year: 2009
+  programme: not Geomatics
+
+- author: A. Weeda
+  year: 2009
+  programme: not Geomatics
+
+- author: H.L. Roodvoets
+  year: 2009
+  programme: not Geomatics
+
+- author: I. Visser
+  year: 2009
+  programme: not Geomatics
+
+- author: J. De Vries
+  year: 2009
+  programme: not Geomatics
+
+- author: J.B. Moelker
+  year: 2009
+  programme: not Geomatics
+
+- author: J.B. Moelker
+  year: 2009
+  programme: not Geomatics
+
+- author: J.H. Emid
+  year: 2009
+  programme: not Geomatics
+
+- author: K. Klok
+  year: 2009
+  programme: not Geomatics
+
+- author: K.N.T. Truijens
+  year: 2009
+  programme: not Geomatics
+
+- author: L. Kleerekoper
+  year: 2009
+  programme: not Geomatics
+
+- author: L. Verhelst
+  year: 2009
+  programme: not Geomatics
+
+- author: M. Katterbach
+  year: 2009
+  programme: not Geomatics
+
+- author: M.M. Baruti
+  year: 2009
+  programme: not Geomatics
+
+- author: M.N. Linsen
+  year: 2009
+  programme: not Geomatics
+
+- author: P.A. Minnema
+  year: 2009
+  programme: not Geomatics
+
+- author: S. Brand
+  year: 2009
+  programme: not Geomatics
+
+- author: S. Osinga
+  year: 2009
+  programme: not Geomatics
+
+- author: S.T.J. van Son
+  year: 2009
+  programme: not Geomatics
+
+- author: T. Beuker
+  year: 2009
+  programme: not Geomatics
+
+- author: T. van der Putte
+  year: 2009
+  programme: not Geomatics
+
+- author: T.P. Wortel
+  year: 2009
+  programme: Geomatics
+  note: UAV videogrammetry for road quantity surveying, mentors Khoshelham and Gorte; PDF is a draft copy that never names the programme, inferred from mentors and programme-website citation (Ken, 2026-09)
+
+- author: Y. Farchi Nachman
+  year: 2009
+  programme: not Geomatics
+
+- author: B. Brugman
+  year: 2010
+  programme: not Geomatics
+
+- author: B.M.J. Possel
+  year: 2010
+  programme: Geomatics
+  note: buried channel deposits from FLI-MAP laser altimetry, mentor Lindenbergh (Ken, 2026-09)
+
+- author: D.R.I. Zimmerman
+  year: 2010
+  programme: not Geomatics
+
+- author: D.S. Kalpoe
+  year: 2010
+  programme: Geomatics
+  note: wind-turbine vibration by high-speed photogrammetry, mentors Gorte and Menenti (Ken, 2026-09)
+
+- author: E. Tsompanopoulos
+  year: 2010
+  programme: not Geomatics
+
+- author: E.D. Black
+  year: 2010
+  programme: not Geomatics
+
+- author: F. Fakhrurrazi
+  year: 2010
+  programme: not Geomatics
+
+- author: F.E. Wullink
+  year: 2010
+  programme: not Geomatics
+
+- author: H. Yu
+  year: 2010
+  programme: Geomatics
+  note: Tibetan Plateau glacier elevation from ALOS and ICESat, mentors Menenti and Lindenbergh (Ken, 2026-09)
+
+- author: I. Brouwer
+  year: 2010
+  programme: not Geomatics
+
+- author: J. Schaap
+  year: 2010
+  programme: not Geomatics
+
+- author: J.B. van den Muijsenberg
+  year: 2010
+  programme: not Geomatics
+
+- author: K. van Tienen
+  year: 2010
+  programme: not Geomatics
+
+- author: L.P.J. Capota
+  year: 2010
+  programme: not Geomatics
+
+- author: L.S. Barkey
+  year: 2010
+  programme: not Geomatics
+
+- author: M. Bitenc
+  year: 2010
+  programme: Geomatics
+  note: land-based mobile laser mapping of sandy coast, mentors Lindenbergh and Khoshelham (Ken, 2026-09)
+
+- author: M. Liu
+  year: 2010
+  programme: not Geomatics
+
+- author: M. Mamo
+  year: 2010
+  programme: not Geomatics
+
+- author: M. Sriubaite
+  year: 2010
+  programme: not Geomatics
+
+- author: M.A. van Duijn
+  year: 2010
+  programme: not Geomatics
+
+- author: M.R. Bloemsma
+  year: 2010
+  programme: Geomatics
+  note: semi-automatic core characterisation from geochemical logging, mentors Weltje and Lindenbergh (Ken, 2026-09)
+
+- author: P. Sudra
+  year: 2010
+  programme: not Geomatics
+
+- author: P. Wu
+  year: 2010
+  programme: not Geomatics
+
+- author: P.R. Marte
+  year: 2010
+  programme: not Geomatics
+
+- author: Q. Lu
+  year: 2010
+  programme: not Geomatics
+
+- author: S. van Bellen
+  year: 2010
+  programme: not Geomatics
+
+- author: T. Yang
+  year: 2010
+  programme: not Geomatics
+
+- author: X. Guo
+  year: 2010
+  programme: not Geomatics
+
+- author: X. Zhang
+  year: 2010
+  programme: not Geomatics
+
+- author: A. Aygun
+  year: 2011
+  programme: not Geomatics
+
+- author: B. van Goor
+  year: 2011
+  programme: Geomatics
+  note: terrestrial laser scanning change detection and deformation, mentors Hanssen and Lindenbergh (Ken, 2026-09)
+
+- author: C.M. van Langelaar
+  year: 2011
+  programme: not Geomatics
+
+- author: D. Vorselaars
+  year: 2011
+  programme: not Geomatics
+
+- author: D.F.M. Heimeriks
+  year: 2011
+  programme: not Geomatics
+
+- author: E. Dopper
+  year: 2011
+  programme: not Geomatics
+
+- author: E. Jongkind
+  year: 2011
+  programme: not Geomatics
+
+- author: E. Tensen
+  year: 2011
+  programme: not Geomatics
+
+- author: J. Boon
+  year: 2011
+  programme: not Geomatics
+
+- author: J. Stook
+  year: 2011
+  programme: not Geomatics
+
+- author: L.M. van Halderen
+  year: 2011
+  programme: Geomatics
+  note: visual ego-motion estimation for deep sea vehicles, mentor Gorte (Ken, 2026-09)
+
+- author: M. De Lange
+  year: 2011
+  programme: not Geomatics
+
+- author: M.G.H. Rozemuller
+  year: 2011
+  programme: not Geomatics
+
+- author: M.J. Riesenkamp
+  year: 2011
+  programme: not Geomatics
+
+- author: P.B. Cruz Lopez
+  year: 2011
+  programme: not Geomatics
+
+- author: R.P. Staal
+  year: 2011
+  programme: not Geomatics
+
+- author: S. Hoogewerf
+  year: 2011
+  programme: not Geomatics
+
+- author: S.H.S. Verlaar
+  year: 2011
+  programme: Geomatics
+  note: close-range photogrammetry for Pavescan, mentors Gorte and Lindenbergh (Ken, 2026-09)
+
+- author: S.J.M. Brouwer
+  year: 2011
+  programme: not Geomatics
+
+- author: W. Streefkerk
+  year: 2011
+  programme: not Geomatics
+
+- author: W.J. Kok
+  year: 2011
+  programme: not Geomatics
+
+# --- final batch by Ken (2026-09): 2012 sweep hits
+
+- author: A. Al-Saidi
+  year: 2012
+  programme: not Geomatics
+
+- author: A. Kroese
+  year: 2012
+  programme: not Geomatics
+
+- author: A.M. Symvoulidou
+  year: 2012
+  programme: not Geomatics
+
+- author: B. Altena
+  year: 2012
+  programme: Geomatics
+  note: filling gaps in glacier mapping, mentors Gorte, Nuth, Kaab and
+    Menenti (Ken, 2026-09)
+
+- author: B. Baas
+  year: 2012
+  programme: not Geomatics
+
+- author: B. Zhou
+  year: 2012
+  programme: not Geomatics
+
+- author: B.A. Spreeuwers
+  year: 2012
+  programme: not Geomatics
+
+- author: B.J.T. Aalders
+  year: 2012
+  programme: not Geomatics
+
+- author: B.W.P. Albers
+  year: 2012
+  programme: not Geomatics
+
+- author: D.C. Duives
+  year: 2012
+  programme: not Geomatics
+  note: pedestrian crowd movements; title page names the
+    Department of Transport & Planning (CEG) with Hoogendoorn
+    as chair and Gorte only as external member (Ken, 2026-09)
+
+- author: D.Q. Cloppenburg
+  year: 2012
+  programme: not Geomatics
+
+- author: D.T.J.A. Knipping
+  year: 2012
+  programme: not Geomatics
+
+- author: E.B. Scheltema
+  year: 2012
+  programme: not Geomatics
+
+- author: E.J. De Visser
+  year: 2012
+  programme: not Geomatics
+
+- author: F. Oikonomopoulou
+  year: 2012
+  programme: not Geomatics
+
+- author: H.A.W. Voskamp
+  year: 2012
+  programme: not Geomatics
+
+- author: H.J. Lekkerkerk
+  year: 2012
+  programme: not Geomatics
+
+- author: H.M. Wong
+  year: 2012
+  programme: Geomatics
+  note: registration of range images using geometric features, mentors Gorte, Bucksch and Menenti (Ken, 2026-09)
+
+- author: I. Tziouvara
+  year: 2012
+  programme: not Geomatics
+
+- author: J. Schaaphok
+  year: 2012
+  programme: not Geomatics
+
+- author: J.B. Berkhout
+  year: 2012
+  programme: not Geomatics
+
+- author: J.M.J. Kappen
+  year: 2012
+  programme: not Geomatics
+
+- author: J.P. Den Bieman
+  year: 2012
+  programme: not Geomatics
+
+- author: J.W.H. van Petegem
+  year: 2012
+  programme: not Geomatics
+
+- author: K.I.M. van Klooster
+  year: 2012
+  programme: not Geomatics
+
+- author: L.A.J. van Kessel
+  year: 2012
+  programme: not Geomatics
+
+- author: M. Koudijs
+  year: 2012
+  programme: Geomatics
+  note: ICESat/GLAS altimetry for Mekong water levels, mentors Lindenbergh and Menenti (Ken, 2026-09)
+
+- author: M.J. Mol
+  year: 2012
+  programme: not Geomatics
+
+- author: N. Tamash
+  year: 2012
+  programme: not Geomatics
+
+- author: N.W.H. Meijer
+  year: 2012
+  programme: not Geomatics
+
+- author: P. Rammos
+  year: 2012
+  programme: Geomatics
+  note: automatic detection of benthos and birds, mentor Lindenbergh (Ken, 2026-09)
+
+- author: R. Sommer
+  year: 2012
+  programme: not Geomatics
+
+- author: R.R. Berntsen
+  year: 2012
+  programme: not Geomatics
+
+- author: S.S. Elshot
+  year: 2012
+  programme: not Geomatics
+
+- author: T.B. Schilder
+  year: 2012
+  programme: not Geomatics
+
+- author: W. Socha
+  year: 2012
+  programme: not Geomatics
+
+- author: W.A. Villerius
+  year: 2012
+  programme: not Geomatics
+
+- author: Y. Wang
+  year: 2012
+  programme: not Geomatics
