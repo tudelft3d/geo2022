@@ -14,9 +14,12 @@ Evidence used to classify an uncovered thesis, most reliable first:
      Geomatics, ..."); only its post-2017 entries are explicit.
   2. The repository record's Programme field (2017+ records only; older
      records migrated from the previous repository have no Programme).
-  3. The thesis PDF's title page ("Master of Science in Geomatics"),
-     which GDMC hosts for most of its theses. A passing mention of
-     Geomatics in the PDF text is noted as a hint, not as evidence.
+  3. The thesis PDF's first pages, which GDMC hosts for most of its
+     theses. "Master of Science in Geomatics" (or one of its many
+     phrasings) confirms the thesis; the phrases identifying the old
+     Geodesy (Geodetic Engineering) MSc -- the programme before
+     Geomatics existed, e.g. "Afdeling Geodesie" or "Geodetic
+     Engineering" -- discard it.
 
 A thesis with decisive Geomatics evidence is a confirmed gap; one whose
 record/PDF names another programme (GIMA, AUBS, remote sensing, ...) is a
@@ -78,14 +81,20 @@ OTHER_PROGRAMMES = ("GIMA", "Urbanism", "Building Technology", "MADE",
 # Thesis PDFs name the programme in many ways ("Master of Science in
 # Geomatics", "Master of Science Geomatics for the Built Environment",
 # "Master of Science degree in Geomatics", "Thesis Master Geomatics",
-# "Master program: Geomatics", "MSc Geomatics", ...).
-GEO_PDF_RE = re.compile(
-    r"master of science (?:degree )?(?:in |of )?geomatics"
-    r"|master (?:program|programme):?\s+geomatics"
-    r"|master geomatics"
-    r"|msc\.?\s+(?:in\s+|of\s+)?geomatics"
-    r"|geomatics for the built environment",
-    re.IGNORECASE)
+# "Master program: Geomatics", "MSc Geomatics", "Master's Thesis in
+# Geomatics", ...). Matched space-insensitively: some PDFs extract with
+# mangled spacing ("MasterofScienceinGeomatics", "MS C THESIS IN ...").
+GEO_PDF_KEYS = ("masterofscienceingeomatics", "thesisingeomatics",
+                "studyongeomatics", "masteringeomatics", "mscgeomatics",
+                "geomaticsforthebuiltenvironment",
+                "masterprogramme:geomatics", "masterprogram:geomatics",
+                "mastergeomatics")
+
+# The MSc Geomatics programme only started in 2005/2006; earlier theses
+# at the same section belong to the old Geodesy (Geodetic Engineering)
+# MSc, which the archive does not cover. These phrases identify them.
+GEODESY_PDF_KEYS = ("afdelinggeodesie", "departmentofgeodesy",
+                    "geodeticengineering", "studygeodesy")
 
 
 # ---------------------------------------------------------------- sources
@@ -255,6 +264,26 @@ def search_repository_uuid(title, author, year, offline):
     return uuid or None
 
 
+def pdf_keys_present(keys, text):
+    """True when one of the keys appears in the (first pages of the) PDF
+    text, tolerating two text-extraction artifacts seen in the wild:
+    every space turned into 'u' ("studyuonuGeomaticsu") and every letter
+    doubled ("GGEEOODDEESSIIEE"; at word boundaries the doubled letters
+    merge, so the collapsed variant is also matched with one character
+    dropped)."""
+    sq = re.sub(r"\s+", "", text).lower()
+    coll = re.sub(r"(.)\1+", r"\1", sq)
+    for k in keys:
+        u_join = "u?".join(map(re.escape, k))
+        if re.search(u_join, sq):
+            return True
+        for i in range(len(k)):  # doubled-boundary merges drop a letter
+            dropped = "u?".join(map(re.escape, k[:i] + k[i + 1:]))
+            if re.search(dropped, coll):
+                return True
+    return False
+
+
 def pdf_programme(pdf_url, author, year, offline):
     """(geomatics-named, other-programme-named) from the thesis PDF's
     first pages; either is '' when absent and both are None, None when
@@ -281,15 +310,19 @@ def pdf_programme(pdf_url, author, year, offline):
             return None, None
         eg.CACHE_DIR.mkdir(exist_ok=True)
         cache.write_text(text, encoding="utf-8")
-    geo = "Geomatics" if GEO_PDF_RE.search(text) else ""
-    m = re.search(r"[Mm]aster of [Ss]cience in ([A-Za-z][A-Za-z ,&/+]{2,60})"
-                  r"|[Mm]Sc\.? (?:in |of )?([A-Z][A-Za-z ,&/+]{2,60})", text)
-    named = ""
-    if m:
-        named = (m.group(1) or m.group(2)).strip(" ,.&")
-        named = re.split(r"\s+by\s+|\s+[Tt]hesis\s+|\s+degree\b", named)[0]
-        if named.lower().startswith("geomatics"):
-            named = ""
+    geo = "Geomatics" if pdf_keys_present(GEO_PDF_KEYS, text) else ""
+    if not geo and pdf_keys_present(GEODESY_PDF_KEYS, text):
+        named = "Geodesy (Geodetic Engineering era)"
+    else:
+        m = re.search(r"[Mm]aster of [Ss]cience in ([A-Za-z][A-Za-z ,&/+]{2,60})"
+                      r"|[Mm]Sc\.? (?:in |of )?([A-Z][A-Za-z ,&/+]{2,60})", text)
+        named = ""
+        if m:
+            named = (m.group(1) or m.group(2)).strip(" ,.&")
+            named = re.split(r"\s+by\s+|\s+[Tt]hesis\s+|\s+degree\b",
+                             named)[0]
+            if named.lower().startswith("geomatics"):
+                named = ""
     return geo, named
 
 

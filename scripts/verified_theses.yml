@@ -23,3 +23,28 @@
   programme: not Geomatics
   note: none of the five pre-2016 theses that only the 3d.bk.tudelft.nl
     list knows are Geomatics (checked by Ken, 2026-09)
+
+# --- 2000-2005 theses at the GIS-technology section by students of other
+# --- programmes (the geodesy-era ones are caught by the script's own
+# --- GEODESY_PDF_KEYS rule)
+
+- author: Franklin Monteiro
+  year: 2001
+  programme: not Geomatics
+  note: Technical Informatics student, thesis done at the GIS-technology
+    section (PDF foreword)
+- author: Ilmar Kotte
+  year: 2002
+  programme: not Geomatics
+  note: Technical Informatics student, computer graphics and CAD/CAM
+    group, faculty ITS (PDF title page)
+- author: Martin Tomko
+  year: 2003
+  programme: not Geomatics
+  note: diploma work for the Slovak University of Technology in
+    Bratislava, research done at the GISt section (PDF title page)
+- author: Shi Pu
+  year: 2005
+  programme: not Geomatics
+  note: Media Knowledge Engineering student (EEMCS), research done at
+    GIS Technology, OTB (PDF foreword)
