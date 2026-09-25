@@ -16,7 +16,10 @@ jobs:
     - name: Install dependencies
       run: |
         sudo gem install jekyll jekyll-redirect-from
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
+      with:
+        # full history, for _plugins/theses_updated.rb
+        fetch-depth: 0
     - name: jekyll build
       run: |
         jekyll build --trace

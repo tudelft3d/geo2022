@@ -17,3 +17,7 @@ Looking for finished theses? Browse the
 [thesis archive]({{ "/theses/" | prepend: site.baseurl }}).
 
 {% include thesis_current.html %}
+
+<p class="is-size-7 has-text-grey">
+  Last updated: {{ site.data.theses_updated.current | date_to_long_string }}.
+</p>

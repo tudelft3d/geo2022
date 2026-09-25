@@ -16,13 +16,16 @@ plan, ...) candidates are ranked by filename, page orientation and
 page count, with the student's surname on page 1 as a tie-breaker, so
 slides and proposal-stage milestone documents (P1–P4) don't win;
 anything slides-like or short that still gets chosen is flagged.
-Entries whose image field has an extension PyMuPDF cannot write (webp,
-gif, ...) are renamed to .jpg and the old file is deleted once its
-replacement is rendered. Entries without an image field get
-Surname.jpg (or a variant when that filename is taken) and the image
-fields are written back to geotheses.yml at the end of a run; rendered
-entries are recorded in .geotheses_cache/covers_progress.yml so a
-re-run resumes instead of re-downloading (--redo-all starts over).
+Entries whose image field has an extension PyMuPDF cannot write (png,
+webp, gif, ... — everything is rendered as JPEG) get a fresh name from
+the scheme and the old file is deleted once its replacement is
+rendered. Entries without an image field get one from the same scheme:
+<year>_<Surname>.jpg, ASCII-folded and hyphenated (2026_Aalders.jpg,
+2010_de-Koning.jpg, 2016_Felix-Aires.jpg); when that name is taken the
+given name is appended (2015_Wu_Haoxiang.jpg). The image fields are
+written back to geotheses.yml at the end of a run; rendered entries are
+recorded in .geotheses_cache/covers_progress.yml so a re-run resumes
+instead of re-downloading (--redo-all starts over).
 reports/covers_report.md lists everything that needs a manual look; validate
 with scripts/check_geotheses.py.
 
@@ -40,6 +43,7 @@ import html
 import re
 import sys
 import time
+import unicodedata
 from pathlib import Path
 
 import requests
@@ -69,7 +73,7 @@ SLIDES_NAME = re.compile(
     re.IGNORECASE)
 MILESTONE_NAME = re.compile(r"(?<![A-Za-z0-9])[Pp][1-4](?![0-9])")
 THESIS_NAME = re.compile(r"thesis|scriptie", re.IGNORECASE)
-SUPPORTED_EXTS = {"jpg", "jpeg", "png"}  # what PyMuPDF can write
+SUPPORTED_EXTS = {"jpg", "jpeg"}  # what this script writes (JPEG only)
 USER_AGENT = ("geo2022-site-maintainer/1.0 "
               "(https://geomatics.bk.tudelft.nl/geo2022/; one-off cover "
               "thumbnails for the thesis archive, honors robots.txt)")
@@ -80,6 +84,49 @@ SHORT_PAGES = 40  # theses are longer; below this the pick is suspicious
 
 def foldcase(s):
     return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+def ascii_fold(s):
+    """Surnames/given names for filenames: ASCII only, spaces -> hyphens.
+    Combining marks are stripped (Köbben -> Kobben); letters without a
+    decomposition get an explicit map."""
+    s = (s or "").strip()
+    for src, dst in (("ł", "l"), ("Ł", "L"), ("ø", "o"), ("Ø", "O"),
+                     ("đ", "d"), ("Đ", "D"), ("ß", "ss"), ("æ", "ae"),
+                     ("Æ", "AE"), ("œ", "oe"), ("Œ", "OE"), ("þ", "th"),
+                     ("Þ", "TH"), ("ð", "d"), ("Ð", "D")):
+        s = s.replace(src, dst)
+    s = unicodedata.normalize("NFKD", s)
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = re.sub(r"[\s_]+", "-", s.strip())
+    return re.sub(r"[^A-Za-z0-9-]", "", s)
+
+
+def scheme_name(e, taken):
+    """Canonical thumbnail filename for an entry: <year>_<Surname>.jpg,
+    ASCII-folded; the given name is appended when that name is taken
+    (2015_Wu_Haoxiang.jpg), then a counter. `taken` is updated."""
+    year = e.get("year") or 0
+    base = "-".join(filter(None, (ascii_fold(t) for t in
+                                  re.split(r"\s+", e.get("surname") or ""))))
+    given = ascii_fold(e.get("name"))
+    first = re.sub(r"-.*", "", given) if given else ""
+    candidates = [f"{year}_{base}.jpg"]
+    if first:
+        candidates += [f"{year}_{base}_{first}.jpg"]
+    if given and given != first:
+        candidates += [f"{year}_{base}_{given}.jpg"]
+    for c in candidates:
+        if c.lower() not in taken:
+            taken.add(c.lower())
+            return c
+    n = 2
+    stem = candidates[0][:-4]
+    while f"{stem}-{n}.jpg".lower() in taken:
+        n += 1
+    final = f"{stem}-{n}.jpg"
+    taken.add(final.lower())
+    return final
 
 
 def surname_key(surname):
@@ -100,47 +147,32 @@ def save_progress(progress):
 
 
 def assign_filenames(entries):
-    """Give every entry an image filename (Surname.jpg, uniquified the
-    same ad-hoc way as the existing thumbnails). Returns the entries
-    that got a new name; main() rolls those back if they end up not
-    rendered, so no entry keeps a dangling image field."""
+    """Give every entry without an image field a name from the canonical
+    scheme (scheme_name). Returns the entries that got a new name;
+    main() rolls those back if they end up not rendered, so no entry
+    keeps a dangling image field."""
     taken = {str(e.get("image", "")).lower() for e in entries}
     fresh = []
     for e in entries:
         if e.get("image"):
             continue
-        base = re.sub(r"\s+", " ", e.get("surname", "")).strip() or "thesis"
-        for candidate in (base,
-                          f"{base} {e.get('name', '')}".strip(),
-                          f"{base} {e.get('year', '')}"):
-            candidate = f"{candidate}.jpg"
-            if candidate.lower() not in taken:
-                taken.add(candidate.lower())
-                e["image"] = candidate
-                fresh.append(e)
-                break
+        e["image"] = scheme_name(e, taken)
+        fresh.append(e)
     return fresh
 
 
 def normalize_extensions(todo, taken):
-    """Rename image fields whose extension PyMuPDF cannot write (webp,
-    gif, ...) to .jpg; main() deletes the old file after the
-    replacement is rendered. Returns {entry: old name}."""
+    """Entries whose image extension the script cannot write (it only
+    renders JPEG) get a fresh scheme name; main() deletes the old file
+    after the replacement is rendered. Returns {entry: old name}."""
     renames = {}
     for e in todo:
         image = str(e.get("image", ""))
         ext = image.rsplit(".", 1)[-1].lower() if "." in image else ""
         if not image or ext in SUPPORTED_EXTS:
             continue
-        stem = image[: -len(ext) - 1] or "thesis"
-        for candidate in (f"{stem}.jpg",
-                          f"{stem} {e.get('year', '')}".strip() + ".jpg",
-                          f"{stem} {e.get('name', '')}".strip() + ".jpg"):
-            if candidate.lower() not in taken:
-                taken.add(candidate.lower())
-                renames[id(e)] = image
-                e["image"] = candidate
-                break
+        renames[id(e)] = image
+        e["image"] = scheme_name(e, taken)
     return renames
 
 

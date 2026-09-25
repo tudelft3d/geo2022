@@ -15,6 +15,10 @@ _site/
 # Cache of repository record pages used by scripts/enrich_geotheses.py
 /.geotheses_cache/
 
+# Backup copies of theses whose only public source is GDMC (no TU Delft
+# repository record; see scripts/verified_theses.yml)
+/gdmc_backup/
+
 # Python bytecode
 __pycache__/
 
