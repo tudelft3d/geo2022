@@ -1,0 +1,317 @@
+#!/usr/bin/env python3
+"""Generate cover thumbnails for the thesis archive from the thesis PDFs.
+
+For each archive entry with a repository uuid, the cached record page
+(.geotheses_cache/<uuid>.html, fetched by scripts/enrich_geotheses.py)
+is scanned for the thesis file link (the download buttons carry the
+file's real filename), the PDF is downloaded in memory and its first
+page is rendered with PyMuPDF into theses/img/<image> as a small JPEG.
+PDFs are discarded after rendering (--keep-pdfs caches them under
+.geotheses_cache/pdf/ instead), so the run needs no meaningful disk
+space; the repository's robots.txt crawl-delay makes a full run take
+~2 h. When a record has several files (thesis, slides, graduation
+plan, ...) candidates are ranked by filename, page orientation and
+page count, with the student's surname on page 1 as a tie-breaker, so
+the slides don't win; anything slides-like that still gets chosen is
+flagged. The text on the first page is matched against the student's
+surname to catch supplementary or wrong files, and near-blank first
+pages are flagged. Entries without an image field get Surname.jpg (or
+a variant when that filename is taken) and the image field is written
+back to geotheses.yml. covers_report.md lists everything that needs a
+manual look; validate with scripts/check_geotheses.py.
+
+Usage:
+  python3 scripts/thesis_covers.py                 # fetch + render
+  python3 scripts/thesis_covers.py --skip-existing # keep existing thumbnails
+  python3 scripts/thesis_covers.py --limit 3       # first N entries (testing)
+  python3 scripts/thesis_covers.py --uuid 675ee... # specific entries
+  python3 scripts/thesis_covers.py --keep-pdfs --offline  # re-render offline
+"""
+
+import argparse
+import html
+import re
+import sys
+import time
+from pathlib import Path
+
+import requests
+import yaml
+
+try:
+    import pymupdf
+except ImportError:  # older PyMuPDF installs
+    import fitz as pymupdf
+
+from enrich_geotheses import write_yaml
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DATA_FILE = REPO_ROOT / "_data" / "geotheses.yml"
+CACHE_DIR = REPO_ROOT / ".geotheses_cache"
+PDF_DIR = CACHE_DIR / "pdf"
+REPORT_FILE = REPO_ROOT / "covers_report.md"
+IMG_DIR = REPO_ROOT / "theses" / "img"
+
+FILE_BLOCK = re.compile(
+    r'href="(/file/File_[0-9a-f-]+)"[^>]*?onclick=\'[^\']*?'
+    r'"File Download",\s*"[0-9a-f-]+\s*\|\s*([^"]+)"')
+FILE_HREF = re.compile(r'href="(/file/File_[0-9a-f-]+)')
+SLIDES_NAME = re.compile(
+    r"present|slide|graduation[ _-]?plan|defen[cs]e|poster|pitch|proposal",
+    re.IGNORECASE)
+THESIS_NAME = re.compile(r"thesis|scriptie", re.IGNORECASE)
+USER_AGENT = ("geo2022-site-maintainer/1.0 "
+              "(https://geomatics.bk.tudelft.nl/geo2022/; one-off cover "
+              "thumbnails for the thesis archive, honors robots.txt)")
+BLANK_INK = 0.015  # fraction of non-white pixels below which page 1 is blank
+
+
+def foldcase(s):
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+def surname_key(surname):
+    """Surname minus tussenvoegsels, for matching against page text."""
+    return foldcase(re.sub(r"^(van|de|den|der|ter|te|het|'t) ", "",
+                           surname or "", flags=re.IGNORECASE))
+
+
+def assign_filenames(entries):
+    """Give every entry an image filename (Surname.jpg, uniquified the
+    same ad-hoc way as the existing thumbnails). Returns the entries
+    that got a new name; main() rolls those back if they end up not
+    rendered, so no entry keeps a dangling image field."""
+    taken = {str(e.get("image", "")).lower() for e in entries}
+    fresh = []
+    for e in entries:
+        if e.get("image"):
+            continue
+        base = re.sub(r"\s+", " ", e.get("surname", "")).strip() or "thesis"
+        for candidate in (base,
+                          f"{base} {e.get('name', '')}".strip(),
+                          f"{base} {e.get('year', '')}"):
+            candidate = f"{candidate}.jpg"
+            if candidate.lower() not in taken:
+                taken.add(candidate.lower())
+                e["image"] = candidate
+                fresh.append(e)
+                break
+    return fresh
+
+
+def parse_files(page):
+    """(path, filename) pairs from a record page's download buttons,
+    falling back to bare /file/ links when the markup differs."""
+    out = [(path, html.unescape(name.strip()))
+           for path, name in FILE_BLOCK.findall(page)]
+    if not out:
+        out = [(p, "") for p in dict.fromkeys(FILE_HREF.findall(page))]
+    return list(dict.fromkeys(out))
+
+
+def name_score(name):
+    s = 0
+    if SLIDES_NAME.search(name):
+        s -= 4
+    if THESIS_NAME.search(name):
+        s += 2
+    return s
+
+
+def fetch_pdf(path, delay, offline, keep):
+    """Download one thesis PDF, given the /file/... path from its record
+    page. Returns bytes or None; cached when keep is set."""
+    stem = path.rsplit("/", 1)[-1]
+    cache = PDF_DIR / f"{stem}.pdf"
+    if cache.exists():
+        return cache.read_bytes()
+    if offline:
+        return None
+    PDF_DIR.mkdir(exist_ok=True)
+    for attempt in (1, 2):
+        try:
+            r = requests.get(f"https://repository.tudelft.nl{path}",
+                             headers={"User-Agent": USER_AGENT}, timeout=300)
+        except requests.RequestException as e:
+            print(f"    pdf {stem}: {e}", flush=True)
+            time.sleep(delay)
+            continue
+        if r.status_code == 200 and r.content[:5] == b"%PDF-":
+            if keep:
+                cache.write_bytes(r.content)
+            time.sleep(delay)
+            return r.content
+        print(f"    pdf {stem}: HTTP {r.status_code} "
+              f"(attempt {attempt})", flush=True)
+        time.sleep(delay)
+    return None
+
+
+def choose_pdf(candidates, fetch, surname_k):
+    """Pick the thesis PDF among a record's files. Candidates are tried
+    thesis-named first; each downloaded file is scored on filename,
+    portrait orientation, page count and the surname on page 1, and a
+    confident score stops the search. Returns the best as a dict, or
+    None; n/a means the file could not be downloaded."""
+    best = None
+    for path, name in sorted(candidates, key=lambda c: name_score(c[1]),
+                             reverse=True):
+        if name_score(name) <= -4 and best is not None:
+            break  # obvious slides; don't even download them
+        data = fetch(path)
+        if not data:
+            continue
+        with pymupdf.open(stream=data, filetype="pdf") as doc:
+            pages = doc.page_count
+            rect = doc[0].rect if pages else None
+            text = foldcase(doc[0].get_text()) if pages else ""
+        portrait = bool(rect and rect.width < rect.height)
+        s = name_score(name)
+        if surname_k and surname_k in text:
+            s += 3
+        if portrait:
+            s += 2
+        elif rect:
+            s -= 3  # landscape: slide deck
+        if pages >= 40:
+            s += 1
+        elif pages <= 30:
+            s -= 1
+        if best is None or s > best["score"]:
+            best = {"score": s, "data": data, "path": path, "name": name,
+                    "pages": pages, "portrait": portrait}
+        if s >= 4 and portrait and not SLIDES_NAME.search(name):
+            break  # thesis-named, portrait, right pages: good enough
+    return best
+
+
+def render(pdf_bytes, out_path, width, quality):
+    """Render page 1 to out_path; returns (nearly_blank, file_size)."""
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with pymupdf.open(stream=pdf_bytes, filetype="pdf") as doc:
+        page = doc[0]
+        zoom = width / page.rect.width
+        pix = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom),
+                              alpha=False)
+        samples, n = pix.samples, pix.n
+        ink = sum(
+            1 for j in range(0, len(samples), n)
+            if (samples[j] + samples[j + 1] + samples[j + 2]) / 3 < 245)
+        frac = ink / (pix.width * pix.height)
+        pix.save(out_path, jpg_quality=quality)
+    return frac < BLANK_INK, out_path.stat().st_size
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap.add_argument("--offline", action="store_true",
+                    help="render from cached PDFs only, no network "
+                         "(needs a previous --keep-pdfs run)")
+    ap.add_argument("--keep-pdfs", action="store_true",
+                    help="cache the PDFs under .geotheses_cache/pdf/ "
+                         "(GBs; default is to discard after rendering)")
+    ap.add_argument("--skip-existing", action="store_true",
+                    help="keep existing thumbnails")
+    ap.add_argument("--limit", type=int, default=None,
+                    help="only process the first N entries (testing)")
+    ap.add_argument("--uuid", action="append", default=[],
+                    help="only process these entry uuids (repeatable)")
+    ap.add_argument("--delay", type=float, default=20.0,
+                    help="seconds between PDF fetches "
+                         "(repository robots.txt asks for 20)")
+    ap.add_argument("--width", type=int, default=256,
+                    help="thumbnail width in px (display is 96x96)")
+    ap.add_argument("--quality", type=int, default=85, help="JPEG quality")
+    ap.add_argument("--out-dir", default=None,
+                    help="write thumbnails here instead of theses/img "
+                         "(previews; image fields are not written back)")
+    ap.add_argument("--report", default=None,
+                    help="report file (default covers_report.md)")
+    args = ap.parse_args()
+
+    entries = yaml.safe_load(DATA_FILE.read_text())
+    fresh = assign_filenames(entries)
+    out_dir = Path(args.out_dir) if args.out_dir else IMG_DIR
+    report_file = Path(args.report) if args.report else REPORT_FILE
+
+    todo = []
+    for e in entries:
+        if not e.get("uuid"):
+            continue
+        if args.uuid and e["uuid"] not in args.uuid:
+            continue
+        if args.skip_existing and e.get("image") and \
+                (out_dir / e["image"]).is_file():
+            continue
+        todo.append(e)
+    if args.limit:
+        todo = todo[: args.limit]
+
+    print(f"{len(todo)} entr(y/ies) to do, {args.delay}s between fetches.")
+    reports, mb = [], 0.0
+    done, rendered = 0, set()
+    for n, e in enumerate(todo, 1):
+        who = f"{e.get('name', '')} {e.get('surname', '')}" \
+            f" ({e.get('year', '')})".strip()
+        print(f"[{n}/{len(todo)}] {who}", flush=True)
+
+        record = CACHE_DIR / f"{e['uuid']}.html"
+        if not record.exists():
+            reports.append(f"NO RECORD PAGE: {who} uuid={e['uuid']}")
+            continue
+        candidates = parse_files(record.read_text(errors="replace"))
+        if not candidates:
+            reports.append(f"NO FILE ON RECORD: {who} uuid={e['uuid']}")
+            continue
+
+        surname_k = surname_key(e.get("surname"))
+        pick = choose_pdf(candidates,
+                          lambda p: fetch_pdf(p, args.delay, args.offline,
+                                              args.keep_pdfs),
+                          surname_k)
+        if pick is None:
+            reports.append(f"NO PDF: {who} uuid={e['uuid']} "
+                           f"files={len(candidates)}")
+            continue
+        if pick["name"] and SLIDES_NAME.search(pick["name"]):
+            reports.append(f"CHOSEN FILE LOOKS LIKE SLIDES "
+                           f"({pick['name']}, {pick['pages']} pages): {who}")
+        elif not pick["portrait"]:
+            reports.append(f"CHOSEN FILE IS LANDSCAPE "
+                           f"({pick['name'] or 'unnamed'}, "
+                           f"{pick['pages']} pages): {who}")
+        mb += len(pick["data"]) / 1e6
+
+        image = e["image"]
+        blank, size = render(pick["data"], out_dir / image,
+                             args.width, args.quality)
+        if blank:
+            reports.append(f"PAGE 1 NEARLY BLANK: {who} -> {image}")
+        done += 1
+        rendered.add(id(e))
+        print(f"    -> {image} {size // 1024} KB "
+              f"({pick['name'] or 'unnamed file'}, {pick['pages']} pages) "
+              f"[{mb:.0f} MB downloaded]", flush=True)
+
+    if out_dir == IMG_DIR:
+        for e in fresh:
+            if id(e) not in rendered:
+                e.pop("image", None)
+        write_yaml(entries)
+        print(f"Wrote image fields for {len(rendered & set(map(id, fresh)))} "
+              f"new entr(y/ies) to {DATA_FILE.name}.")
+
+    with report_file.open("w") as f:
+        f.write(f"# cover thumbnails report ({time.strftime('%Y-%m-%d')})\n\n")
+        f.write(f"{done} thumbnail(s) rendered"
+                + (f", {len(todo) - done} not" if done != len(todo) else "")
+                + ".\n\n## Needs a manual look\n\n")
+        for line in reports:
+            f.write(f"- {line}\n")
+    print(f"Done: {done} thumbnail(s); {len(reports)} note(s) in "
+          f"{report_file.name}.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

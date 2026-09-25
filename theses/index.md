@@ -6,6 +6,6 @@ logo: fa-box-archive
 permalink: /theses/
 ---
 
-An archive of completed MSc Geomatics thesis (work in progress). The students graduating right now are on the [current theses page]({{ "/ongoing/" | prepend: site.baseurl }}).
+This is a mostly complete list of MSc Geomatics thesis, but there are likely a few missing. For the students graduating right now, see the [current theses page]({{ "/ongoing/" | prepend: site.baseurl }}).
 
 {% include thesis_archive.html %}

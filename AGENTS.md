@@ -55,6 +55,15 @@ python3 scripts/find_old_theses.py          # add --offline / --from-year / --al
 # supervisors/official titles, reports who is no longer open. --prune
 # removes entries without an open case. Read-only without MyCase data.
 python3 scripts/update_theses.py
+
+# Generate cover thumbnails for the archive from the thesis PDFs on the
+# repository: downloads each PDF in memory (robots.txt delay, so a full
+# run takes ~2 h; PDFs are discarded after rendering, so nothing
+# multi-MB is kept on disk), renders page 1 into theses/img/<image>,
+# assigns image fields where missing and writes covers_report.md (blank
+# covers, surname mismatches). --keep-pdfs caches the PDFs for offline
+# re-renders; --skip-existing leaves existing thumbnails alone.
+python3 scripts/thesis_covers.py          # add --skip-existing / --offline / --limit
 ```
 
 ## Per-quarter maintenance workflow
@@ -83,7 +92,10 @@ After each graduation round (or whenever, really):
 6. Cover images for new archive entries go into `theses/img/` under the
    entry's `image` filename (salvaged proposal-era images are already
    there for many entries; replace them with final-thesis covers as
-   they arrive). Ongoing-thesis images go into `ongoing/img/`.
+   they arrive). `python3 scripts/thesis_covers.py` regenerates them
+   from the repository PDFs wholesale and writes `covers_report.md` —
+   work through its flags (plain/blank first pages, surname
+   mismatches) afterwards. Ongoing-thesis images go into `ongoing/img/`.
 
 ## Structure
 
@@ -104,6 +116,7 @@ After each graduation round (or whenever, really):
 | `scripts/check_geotheses.py` | Validates the archive data |
 | `scripts/find_missing_theses.py` | Cross-checks the archive with the GDMC + 3dge thesis lists |
 | `scripts/find_old_theses.py` | Sweeps the repository for pre-coverage theses by supervisor surname |
+| `scripts/thesis_covers.py` | Generates the archive's cover thumbnails from the repository thesis PDFs |
 | `scripts/geomatics_supervisors.yml` | Supervisor list feeding `find_old_theses.py` (status `yes`/`pending`) |
 
 ## Conventions
