@@ -649,3 +649,31 @@ supervisors:
   aliases:
   - F. J van Leijen
   note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+# --- mentors of the theses confirmed in the 2026-09 bootstrap round-2
+# --- (Duijnmayer, Briels, Saleh, Widiastuti)
+- surname: Drijkoningen
+  status: 'no'
+  aliases:
+  - G.G. Drijkoningen
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+- surname: Steele-Dunne
+  status: 'yes'
+  aliases:
+  - S.C. Steele-Dunne
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+- surname: Evers
+  status: 'yes'
+  aliases:
+  - L.G. Evers
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+- surname: Snellen
+  status: 'yes'
+  aliases:
+  - M. Snellen
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+- surname: Wunderlich
+  status: 'yes'
+  aliases:
+  - J. Wunderlich
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
