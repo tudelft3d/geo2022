@@ -11119,6 +11119,74 @@
     and support the conclusions.'
   uuid: c0c665f7-0254-42c6-895b-cb59acc079f2
   needs_review: true
+- surname: Guerrero Iñiguez
+  name: Josafat Isaí
+  title: Three-dimensional reconstruction of underground utilities for real-time
+    visualization
+  supervisors: S. Zlatanova; M. Meijers; E. Jansen
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:b7f43166-c138-475f-8490-b1f28ed1383d
+  abstract: This research discusses the conversion of underground utilities
+    datasets into scene graph models for its 3D visualization using the WebGL
+    technology, which is a Javascript interface to access the 3D graphics
+    hardware. This conversion requires to reconstruct the volumetric appearance
+    of the objects from its abstract representation, involving several decisions
+    towards its mapping into a scene graph. Each decision taken carries consequences
+    in the rendering performance and given the nature of the underground utilities,
+    multiple problems arise which should be addressed before achieving a fluid
+    visual- ization. This research considers multiple reconstruction approaches
+    and studies the corresponding factors affecting the performance by introducing
+    a testing framework. With the results of the tests, the considered factors
+    are ranked based on their performance and used to give advice towards
+    the best approaches for the reconstruction underground utilities and its
+    applicability to WebGL environments.
+  uuid: b7f43166-c138-475f-8490-b1f28ed1383d
+  needs_review: true
+- surname: Nedkov
+  name: Simeon
+  title: Knowledge-based optimisation of three-dimensional city models for
+    car navigation devices
+  supervisors: H. Ledoux
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:b429e899-9955-4a23-9ceb-66ffb6210b30
+  abstract: 'Three-dimensional maps are deemed better for navigation purposes
+    as they offer a larger number and more realistic navigation cues than
+    two-dimensional maps. Improvements in two key technologies have opened
+    the doors towards utilization of 3D maps for car navigation devices. Advances
+    in data acquisition technologies and data processing methods have made
+    creating photorealistic three-dimensional city models cheaper and to a
+    large extent automatic, while advances in mobile technologies have made
+    e.g. modern smartphones powerful enough to visualize photorealistic 3D
+    graphics. Despite the latter improvements, making three-dimensional mobile
+    maps remains a challenge due to the large amounts of data and the device’s
+    limited amount of memory and pro- cessing power. These limitations can
+    be overcome by intelligently reducing the amount of information that is
+    handled and displayed by the device. This thesis presents an information
+    reduction and prototyping framework that reduces the amount of information
+    contained in city models so a to enable their loading and display on car
+    navigation devices. The information reduction method consists of two steps.
+    The first step selects buildings that are close to the driver’s route
+    with the idea that these aid the driver in navigating. Buildings that
+    are far from the route are discarded. In the second step, the selected
+    buildings’ external representation is adapted to match their navigational
+    value that is based on their thematic, semantic and cognitive properties.
+    For instance, a building of type ’restaurant’ and ’brand’ McDonald’s offers
+    more navigational cues than a block of gray, anonymous residential buildings.
+    The latter are styled in generic textures whereas the former is styled
+    in photorealistic textures. The relations between a building’s semantic
+    and thematic properties and its external representation are captured in
+    visualisation rules. A prototype is built that implements the designed
+    information reduction methods and tests their effectivity. The selection
+    step is performed using a spatial database while the visualisation rules
+    are processed by an expert system. The reduced 3D scenes are displayed
+    in a game engine that also performs performance measurements. The obtained
+    results are conclusive: the performance of a visualisaion in terms of
+    frame rate and used graphics memory is governed by the the amount of textures,
+    much more so than the number of geometries. Effort should therefore be
+    directed towards the reduction and/or simplification of textures rather
+    than geometries.'
+  uuid: b429e899-9955-4a23-9ceb-66ffb6210b30
+  needs_review: true
 - surname: Peters
   name: Ravi
   title: A Voronoi- and surface-based approach for the automatic generation
@@ -11375,12 +11443,80 @@
     available on the GDMC website (http://www.gdmc.nl/).
   uuid: 78807acb-4115-478c-93de-68b9db884c8e
   needs_review: true
+- surname: Biljecki
+  name: Filip
+  title: Automatic segmentation and classification of movement trajectories
+    for transportation modes
+  year: 2010
+  link: https://resolver.tudelft.nl/uuid:b475fee9-5b67-446d-8a6e-ecce319c4250
+  uuid: b475fee9-5b67-446d-8a6e-ecce319c4250
+  needs_review: true
 - surname: de Koning
   name: Melina
   title: Quality assessment of GSM positioning - GSM fingerprinting versus
     cellid positioning
   year: 2010
   link: https://www.gdmc.nl/publications/2010/Quality_assessment_GSM_positioning.pdf
+  needs_review: true
+- surname: Hofman
+  name: Arjen
+  title: Developing a vario-scale IMGeo using the constrained tGAP structure
+  supervisors: P.J.M. van Oosterom; A. Dilo; B. van Loenen
+  year: 2008
+  link: https://resolver.tudelft.nl/uuid:d650352b-78fb-4919-9cb0-f2f66b17aef5
+  abstract: 'The aim of this master thesis has been to answer the question:
+    How can a vario-scale IMGeo be designed and developed by applying the
+    constrained tGAP structure with Top10NL as initial constraint? This research
+    has been done under authority of Gemeentewerken Rotterdam and TU Delft.
+    For Gemeentewerken Rotterdam the main goal is to investigate the possibilities
+    of automatic generalisation based on their project "Basisregistratie Geografie",
+    for TU Delft the main goal is to see the concept of the constrained tGAP
+    structure being investigated. The models IMGeo, a new large scale topographical
+    standard in The Netherlands, and Top10NL, the authentic registration for
+    medium scale topography in The Netherlands, are both derived from NEN
+    3610; they form the basis for the generalisation in this research. The
+    main differences are explained by their backgrounds. IMGeo originates
+    from the GBKN, whereas Top10NL is based on Top10Vector. The fact that
+    these models are not made cooperatively is bad luck for this research;
+    no object class hierarchy could be made from these models, because there
+    are object classes in Top10NL which don''t even exist in IMGeo. The Top10NL
+    object classes therefore can''t be seen as a generalisation of the object
+    classes of IMGeo. The generalisation approach in this research was the
+    constrained tGAP structure, a concept from the universities of Hannover
+    and Delft. In this research IMGeo objects were assigned to Top10NL regions.
+    Four possible methods to assign IMGeo objects to Top10NL regions were
+    developed: - Simple overlay method. An intersection between the models
+    where every IMGeo object is split at the borders of the overlapping Top10NL
+    object. In the end result only Top10NL geometry will be visible. - The
+    maximum area method. The Top10NL object which overlaps the IMGeo object
+    the most is the shape to which the whole IMGeo object is assigned to.
+    The IMGeo geometry is kept in this method. - The 35%-split method. If
+    an IMGeo object belongs for more than 35% to two Top10NL objects we consider
+    this Top10NL geometry as enrichment of the structure; therefore the IMGeo
+    object is split and a new IMGeo object is created. For all IMGeo objects
+    that don''t have two Top10NL objects overlapping for more than 35% the
+    maximum area method is applied. - The building first method. This method
+    assigns IMGeo-buildings to a building region in case of some overlap with
+    a Top10NL building without considering the amount of overlap. The other
+    IMGeo objects are selected as in the maximum area method. The building
+    first method has been developed because the results of the maximum area
+    method and the 35%-split method were unsatisfying. This building first
+    method gives the best results of the four methods. With this method further
+    research was done. For the test dataset from the municipality of Almere
+    class weights and class compatibilities have been derived, which are input
+    values for the tGAP structure. This has been done after tuning the weights
+    and compatibilities of the constrained tGAP structure and comparing the
+    end result to the Top10NL dataset. Final conclusion of this report is
+    that the constrained tGAP absolutely offers possibilities for automatic
+    generalisation from large to medium scale data. However, the amount of
+    pre-processing of the data and the state of development of the tGAP structure
+    are reasons for a governmental organisation like Gemeentewerken Rotterdam
+    to not yet develop a product like this. A topological structure of the
+    models might possibly solve these problems. Cooperation between researching
+    parties, industrial parties and governmental organisations in projects
+    like DURP Ondergronden could be a good opportunity to develop a vario-scale
+    IMGeo as described in this report.'
+  uuid: d650352b-78fb-4919-9cb0-f2f66b17aef5
   needs_review: true
 - surname: de Boer
   name: Arnoud
@@ -11430,6 +11566,39 @@
     photo, and the depth map enables to vary in label font size depending
     on the object distance.
   uuid: b130806f-58be-466c-8890-a1534df3ff00
+  needs_review: true
+- surname: Bont
+  name: Tirza
+  title: Geographic data integration for telecommunication purposes
+  supervisors: P.J.M. van Oosterom; E. Verbree; A.L.J.M. Wiegerinck
+  year: 2006
+  link: https://resolver.tudelft.nl/uuid:ac4e2424-be72-4481-9b18-699172d045eb
+  abstract: Planning and designing mobile telephone networks is a complicated
+    process, which involves large amounts of money. The TIGER tool is under
+    development at TNO ICT. The tool calculates the spatial traffic grids,
+    which are one of the input data sets for mobile telephone network planning
+    tools. The input data for the TIGER tool consists of the distribution
+    of the potential users of the mobile telephone network. The distribution
+    of the traveling users is only available at low detail and this data set
+    has to be matched with the detailed road and railroad data set. The match
+    of both data sets should be optimized and an indication of the reliability
+    and accuracy of the matches has to be given. In order to perform this
+    task properly the follwing research question has been formulated. Find
+    the best match between generalized, low detailed schematic links and the
+    more detailed road and railroad network and give an indication of reliability
+    and accuracy of the results. This graduation project has been executed
+    in two ways. First an eximanation of related researchers on the topic
+    of matching multiple representations of street data sets has been performed.
+    Second, different variants of solution definitions have been implemented.
+    The results have finally been compared in order to give an indicaation
+    of the reliability and accuracy. This best variant has the highest matching
+    rate of all of the implemented variants, determined by comparing the results
+    of the variants mutually. The variant generalizes the matching route of
+    the travelers with the Douglas-Peucker line simplificatin algorithm. The
+    number of vertices that are left gives an indication of the smoothness
+    of the route, which i sone of the characteristics of the input data set
+    containing the distribution of the travelers.
+  uuid: ac4e2424-be72-4481-9b18-699172d045eb
   needs_review: true
 - surname: Meijers
   name: Martijn
