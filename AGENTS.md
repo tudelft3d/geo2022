@@ -32,6 +32,14 @@ python3 scripts/enrich_geotheses.py           # add --fetch-only / --offline
 # people; image files when given --img-dir). Exit code is CI-usable.
 python3 scripts/check_geotheses.py --img-dir theses/img
 
+# Cross-check the archive against the MSc theses on 3d.bk.tudelft.nl and
+# gdmc.nl (both cached in .geotheses_cache/). Investigates archive gaps
+# via the repository's Programme field and the GDMC thesis PDFs' title
+# pages, and writes missing_theses_report.md (confirmed gaps, candidates
+# for a manual look, verified non-Geomatics). Exit 1 while confirmed
+# gaps remain; --add appends them to the archive flagged needs_review.
+python3 scripts/find_missing_theses.py          # add --offline / --no-pdf
+
 # Sync _data/ongoing_theses.yml (Current Theses page) with MyCase's open
 # cases: adds new starters (flagged needs_summary), syncs phases/
 # supervisors/official titles, reports who is no longer open. --prune
@@ -57,7 +65,12 @@ After each graduation round (or whenever, really):
    ongoing page.
 4. `python3 scripts/check_geotheses.py --img-dir theses/img` —
    validate the archive (errors should stay at zero).
-5. Cover images for new archive entries go into `theses/img/` under the
+5. `python3 scripts/find_missing_theses.py` — cross-check the archive
+   against the GDMC and 3d.bk.tudelft.nl lists (writes
+   `missing_theses_report.md`; exit 1 while confirmed gaps remain).
+   Add the confirmed gaps (or re-run with `--add`, which flags them
+   `needs_review`) and work through the report's candidates.
+6. Cover images for new archive entries go into `theses/img/` under the
    entry's `image` filename (salvaged proposal-era images are already
    there for many entries; replace them with final-thesis covers as
    they arrive). Ongoing-thesis images go into `ongoing/img/`.
@@ -79,6 +92,7 @@ After each graduation round (or whenever, really):
 | `scripts/update_theses.py` | Syncs ongoing theses with MyCase open cases |
 | `scripts/enrich_geotheses.py` | Cleans/enriches the archive from repository records + MyCase |
 | `scripts/check_geotheses.py` | Validates the archive data |
+| `scripts/find_missing_theses.py` | Cross-checks the archive with the GDMC + 3dge thesis lists |
 
 ## Conventions
 

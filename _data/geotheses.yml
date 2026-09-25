@@ -9432,6 +9432,63 @@
     is the most suitable way to proceed. Achieving scalability, time efficiency
     and dynamic insertions can be achieved for various use cases.'
   uuid: c1e625b0-0a74-48b5-b748-6968e7f83e2b
+- surname: Soffers
+  name: Pieter
+  title: Designing an integrated future data model for survey data and cadastral
+    mapping
+  supervisors: P.J.M. van Oosterom; E. Verbree
+  year: 2017
+  link: https://resolver.tudelft.nl/uuid:b9a712da-f70e-43d9-b539-9e4c491966c0
+  abstract: For nearly 200 years the Netherlands’ Cadastre, Land Registry
+    and Mapping Agency – in short ‘Kadaster’ has been the organization that
+    registers and maintains all legal rights concerning property in the Netherlands.
+    An elementary part of its activities is the spatial description of parcels
+    that are built up by boundaries which are surveyed in the field and depicted
+    on the Dutch cadastral map. Nowadays this is an open source digital map
+    which provides an overview of the cadastral situation for the entire country.
+    The map exists of unique representations of all cadastral boundaries and
+    parcels. It must be pointed out though that these locations are only depicted
+    by approximation, which is caused by several factors. The most precise
+    location of a boundary still remains the original survey data in the field,
+    which is documented on separate survey documents. In the Dutch cadastral
+    map every parcel has its own number, which is the link to original survey
+    documents. Relating the boundary on the map to the correct survey data
+    happens by intuition. This is feasible when cadastral situations are documented
+    from scratch. However the Dutch cadastral situation is dynamic; parcels
+    can split and merge, which results in new numbers and extra survey documents.
+    As a result searching for survey data is getting more and more complex.
+    Additionally the Kadaster has used different survey techniques over time
+    offering different meta data, administration and accuracy. The survey
+    data have been stored at different locations. Also boundary reconstructions
+    lead to extra survey documents for one boundary. All these factors together
+    have decreased the interaction and overview of quality. This thesis presents
+    a research to design a data model which relates all survey data directly
+    to its boundaries in the Dutch cadastral map instead of parcel numbers.
+    As a starting point for this data model requirements are defined, which
+    are based on preliminary investigation of the Dutch cadastral work flow.
+    The requirements are establishing a link between survey data and the Dutch
+    cadastral map, incorporating all survey methods, assuming more elements
+    in the Dutch cadastral map as entities in their own right, the maintenance
+    of topology, the maintenance of quality and the use of ISO standards.
+    The design of the data model uses the Land Administration Domain Model
+    (LADM) as template. This is an international standard for land administration.
+    This data model was adjusted to the situation of the Kadaster. This is
+    a common method applied by cadastral organizations to improve their work
+    flow. The LADM template offers solutions for generally upcoming cadastral
+    issues as well as a data organization that is clearer and more accessible
+    for externals. Nevertheless there are multiple approaches to solve the
+    issues of the Kadaster by this template. This research will discuss several
+    options to meet the stated requirements and deliberate on the best choice.
+    Real Dutch cadastral cases are used to demonstrate how the final data
+    model operates. At last a comparison is made with related cadastral systems
+    abroad to reflect on its drawbacks and benefits. The final model can support
+    the current work flow of the Kadaster by assuming boundaries as own entities.
+    A direct link to its related survey data saves time, labour and expert
+    knowledge. The model places similar objects in similar classes in order
+    to increase overview. The data model may be a starting point for improvement
+    of the Dutch cadastral map.
+  uuid: b9a712da-f70e-43d9-b539-9e4c491966c0
+  needs_review: true
 - surname: Staats
   name: Bart
   title: Identification of walkable space in a voxel model, derived from a
@@ -9733,6 +9790,105 @@
     currently require a small amount of calibration when applied to new areas,
     they can in principle be fully automated.
   uuid: 7a64a9f7-2fef-46b1-9e48-5e0b0d736056
+- surname: de Liefde
+  name: Ivo
+  title: Exploring the Use of the Semantic Web for discovering, retrieving
+    and processing data from Sensor Observation Services
+  supervisors: M.E. De Vries; B.M. Meijers
+  year: 2016
+  link: https://resolver.tudelft.nl/uuid:44d66025-3e51-4d32-81aa-e093f0aca833
+  abstract: 'Developments such as smart cities, the Internet of Things (IoT)
+    and the Infrastructure for Spatial Information in Europe (INSPIRE) are
+    causing a growing amount of observation data to be produced. The Open
+    Geospatial Consortium (OGC) has developed Sensor Web Enablement (SWE)
+    standards for modelling and publishing this data online. However, their
+    use is currently limited to geo information specialists, who have knowledge
+    about which data services are available and how to access them. With the
+    use of the semantic web, online processes can automatically find and understand
+    observation metadata. This opens up the SWE services to a large user audience.
+    Therefore, this thesis has designed a conceptual system architecture that
+    uses the semantic web to improve sensor data discovery as well as the
+    integration and aggregation of sensor data from multiple sources. A conceptual
+    system architecture is presented containing two web processes. The first
+    process automatically creates an online semantic knowledge base of sensor
+    metadata, by harvesting Sensor Observation Services. Metadata based on
+    the Observations and Measurements (O&M) data model are retrieved, which
+    includes the location of deployed sensors, what they observe, how they
+    observe it and at which SWE service their data can be requested. The second
+    process automatically translates logical queries of users into observation
+    data requests. It also performs further processing before returning the
+    observation data to the user. Both of these processes have been tested
+    in a proof of concept implementation. A Web Processing Service (WPS) has
+    been created as a proof of concept, making the two processes available
+    online. The proof of concept is able to harvest sensor metadata, convert
+    it to linked data, and publish it on the semantic web with links to and
+    from other metadata. It results in a semantic knowledge base of sensor
+    metadata, which improves the discovery in a machine understandable way.
+    It allows multiple Sensor Observation Services to be used in combination
+    with each other, due to the harmonisation involved in creating linked
+    data. The WPS is therefore able to retrieve and process observation data
+    from multiple Sensor Observation Services, using queries such as: What
+    are the average particulate matter levels per month in neighbourhoods
+    of Delft over the last five years? In conclusion, the presented conceptual
+    system architecture contains two processes which improve the discovery,
+    retrieval and aggregation of sensor data from multiple Sensor Observation
+    Services using the semantic web. However, creating a completely automated
+    process for harvesting metadata, which works with every Sensor Observation
+    Service is not yet feasible, as non-meaningful identifiers are allowed
+    to be used according to the SWE standards. Linked data ontologies should
+    also be extended to include all available metadata. Currently there are
+    no ontologies able to define the concept of a geo web service. Another
+    conclusion is that the SPARQL endpoints used in this thesis cannot cope
+    with complex vector geometries. This is due to their inability to handle
+    verbose queries. Nevertheless, the proof of concept shows that the semantic
+    web can enable current SWE services to be used in new ways, making observation
+    data available to a larger user audience.'
+  uuid: 44d66025-3e51-4d32-81aa-e093f0aca833
+  needs_review: true
+- surname: de Vreede
+  name: Irene
+  title: Managing Historic Automatic Identification System data by using a
+    proper Database Management System structure
+  supervisors: C.W. Quak; P.J.M. van Oosterom
+  year: 2016
+  link: https://resolver.tudelft.nl/uuid:d11552c7-8b87-41a0-8b88-1090ea07e858
+  abstract: This MSc thesis aims to develop a management solution for historical
+    Automatic Identification Structure (AIS) data by finding a suitable database
+    and data(base) structure for an effective extraction of historical AIS
+    data to support Spatial-Temporal analyses. The work-flow the thesis proposes
+    focusses on the selection of a database, the organization of the data
+    inside this database and the effectiveness of the extraction of information
+    that can be used in Spatial-Temporal analyses. AIS data, vessel movement
+    data, has a complex structure consisting of 27 different kind of encoded
+    messages. These messages hold their own unique and similar data and are
+    related to each other by their vessel-ID number (MMSI). The update rate
+    of the messages, the data, is dynamic, different for each kind of message.
+    Storing and structuring historic AIS data should be able to handle the
+    data features. Based on the comparison between the AIS data features,
+    the requirements that the database has to meet which are set by Rijkswaterstaat
+    and related literature and documentation is MongoDB a suitable database
+    to manage AIS data. The requirements that are set by Rijkswaterstaat are
+    based on three use cases; location, trajectory and bounding box. Extraction
+    of the information, that can answer the use cases, from the historic AIS
+    data that is stored within the database, should be effective. To ensure
+    this, two data(base) organizations are developed, one storing AIS data
+    in a way that it will support the Spatial-Temporal analyses of the specified
+    use cases and one storing AIS data in a way that it will support all possible
+    spatial-temporal use cases. The first will store only the four decoded
+    attributes that are necessary to answer the use cases together with the
+    original encoded AIS message. The second will store all decoded attributes
+    an AIS message holds. To enhance the performance of MongoDB holding AIS
+    data in one of the two data(base) organization, four indexes on individual
+    attributes and one 4D Morton code index are developed. A 4D Morton code
+    index based on latitude, longitude, MMSI and date-time is developed to
+    enhance the effectiveness of the extraction of the information from the
+    database that will answer the three use cases. A comparison between the
+    two data(base) organizations and the five indexes by measuring their effectiveness
+    while executing three, on the by Rijkswaterstaat specified use cases based,
+    queries, concludes on a suitable management solution for historical AIS
+    data which will support Spatial-Temporal analyses.
+  uuid: d11552c7-8b87-41a0-8b88-1090ea07e858
+  needs_review: true
 - surname: Fichtner
   name: Florian W.
   title: Semantic enrichment of a point cloud based on an octree for multi-storey
@@ -9834,6 +9990,75 @@
     with currently available raster-based height maps with a sensitivity rate
     between 56?100% ± 5%.'
   uuid: b1d1c50d-24bf-4a12-b0e5-3c2479907d66
+- surname: Kalogianni
+  name: Eftychia
+  title: Linking the legal with the physical reality of 3D objects in the
+    context of Land Administration Domain Model
+  supervisors: P.J.M. Oosterom; W. Quak
+  year: 2016
+  link: https://resolver.tudelft.nl/uuid:2e3d7f53-9ca3-4003-b09b-77b82f312873
+  abstract: 'The massive developments and uses of high rise buildings indicate
+    that the demand for use of space above and below the ground surface is
+    rapidly increasing in recent years. In the context of this thesis, the
+    research is focused on exploring the possibilities of linking 3D legal
+    RRR spaces, modeled with LADM (ISO 19152), with physical reality of 3D
+    objects. The possibilities are explored towards the development of a prototype
+    which is elaborated in two core stages: At first, a physical model is
+    derived from the corresponding conceptual model, using existing national
+    and international standards and then, its efficiency is tested using real
+    world sample data, querying the database and visualizing the result in
+    3D environment. The conceptual modeling of the proposed model is based
+    on the "people to land" relationship using LADM core concepts described
+    with UML diagrams. Towards the conversion from conceptual model to implementation
+    of a working prototype, the model is first converted into the INTERLIS
+    modeling language, in order to be formally expressed including various
+    constraints in a platform/ vendor neutral manner. INTERLIS is a standard
+    modeling language for geodata exchange which is used to provide more direct
+    implementable models and at the same time support the constraints. The
+    model described, initially, with UML diagrams and especially the constraints
+    in OCL cannot be automatically converted into implementations. During
+    the prototype, emphasis is given at the exploitation of the capabilities
+    of INTERLIS, under the scope of LADM, which is used in actual implementation
+    of land administration system. INTERLIS tools are used to automatically
+    generate implementation components for specific environments; e.g. database
+    schema or exchange file format. Challenges among others during the system''s
+    development cycle include the following: how to express the various LADM
+    constraints OCL and semi-formal in standard) formally in INTERLIS, how
+    to include extensible hierarchical code lists in INTERLIS models (not
+    natively available) and distinguish them from enumeration values, how
+    to model 3D volumetric primitives in INTERLIS (not natively available),
+    how to link two models (legal - physical) using cross domain constraints,
+    etc. The system’s development cycle, is illustrated with a proposed model
+    for MLAS in Greece. The model is based on international standards, covering
+    a broader perspective than the existing one used today, including several
+    types of objects and interests that are not currently registered by the
+    Hellenic Cadastre. More precisely, utility networks (both the legal and
+    their physical counterpart), planning zones, marine parcels and 3D (land)
+    parcels are now included at the proposed model and organized appropriately.
+    The different types of spatial units are organized in levels according
+    to the LA_Level structure of LADM, ISO19152. This model is considered
+    as an effort for overcoming these shortcomings, based on international
+    standards, including the representation of a wide range of different types
+    of spatial units, in three dimensions, aiming to establish an appropriate
+    basis for the NSDI of Greece. It is a flexible proposal for comprehensive
+    multipurpose LAS supporting both 2D and 3D cadastral registration in Greece.
+    The prototype is developed in order to evaluate the strengths and limitations
+    of the proposed conceptual model (linking legal and physical objects),
+    as well as to investigate the efficiency and limitations of the existing
+    technological (INTERLIS) tools. The process followed during the prototype
+    development is cyclical and repetitive, providing feedback to the initial
+    model during all the stages and improving it in terms of efficiency, reality
+    and technical implementation. Finally, differences and similarities are
+    mentioned from the comparison of the final (corrected) conceptual model,
+    which results after the evaluation of the prototype, with the initial
+    one. Conclusions and remarks made based on the database queries and visualization,
+    as well as similarities, differences and patterns can be observed between
+    the legal and physical objects. All the design and technical decisions
+    that were taken during the system’s development cycle together with the
+    problems arised, the solutions proposed and challenges for future work
+    are described at the following chapters.'
+  uuid: 2e3d7f53-9ca3-4003-b09b-77b82f312873
+  needs_review: true
 - surname: Koopman
   name: Martijn
   title: 3D Path-finding in a voxelized model of an indoor environment
@@ -10007,6 +10232,42 @@
     point precision errors is the biggest limitation factor in the thematic
     and the semantic labelling.'
   uuid: 61236178-3b72-4923-8d72-1d44446783df
+- surname: Rovers
+  name: Adrie
+  title: Exploring the use of a generic spatial access method for caching
+    and efficient retrieval of vario-scale data in a client-server architecture
+  supervisors: M. Meijers; P. van Oosterom
+  year: 2016
+  link: https://resolver.tudelft.nl/uuid:215c9363-7fc8-466e-9c77-8a37defbce34
+  abstract: Vario-scale data structures make it possible to derive maps at
+    arbitrary scale. When requesting a map, data has to be transferred from
+    server to client. This takes time, which affects the responsiveness of
+    the system, and sometimes costs can be involved for every byte that is
+    send over the network. Redundant data transfers should thus be avoided.
+    Having vario-scale data, the opportunity arises to reuse data already
+    present on the client and retrieve only the missing data from the server
+    when requesting a new map. This thesis explores if a generic data driven
+    spatial access method can be used for this purpose, while keeping the
+    service scalable and responsive. The research shows that there is no ready-made
+    solution available that can facilitate in reaching this goal, but that
+    the Hilbert R-tree is suited to be used as a starting point. Like the
+    generic Hilbert R-tree, an index is build using a space filling curve.
+    However, instead of indexing individual objects, an index is made based
+    on a set of objects. The objects are grouped together into packages based
+    on spatial proximity and level of detail. Using the index, a client can
+    request these packages over the network. The newly suggested method makes
+    it possible to utilize client side processing for constructing vario-scale
+    maps and thereby use the client cache to reuse already received responses.
+    The results show that the efficiency of data communication and the responsiveness
+    of the client can improve for an average user scenario. This is shown
+    with the use of a prototype. Furthermore, the method is generic for the
+    way in which data is retrieved by a client from the server. Therefore,
+    the hypothesis is that the method can also facilitate communication for
+    other use cases with higher dimensional data such as 4D point clouds.
+    It is expected that communication can be similar as with vario-scale data,
+    and that only the filter and visualization steps are different.
+  uuid: 215c9363-7fc8-466e-9c77-8a37defbce34
+  needs_review: true
 - surname: Aarsen
   name: Rosann
   title: Using sensor-data collected by a meet rollator for deriving outdoor
@@ -10116,6 +10377,20 @@
     geohydrology possible: based on the vectorised GeoTOP (TNO) data the water
     infiltration and storage capacity of specific locations can be determined.'
   uuid: 7cec6091-5c62-4645-b2b2-c74c149e92a6
+- surname: Makri
+  name: Antigoni
+  title: Indoor Signposting and Wayfinding through an Adaptation of the Dutch
+    cyclist Junction Network System
+  year: 2015
+  link: https://www.gdmc.nl/publications/2015/Indoor_Signposting_and_Wayfinding.pdf
+  needs_review: true
+- surname: Missier
+  name: Godelief Abhilakh
+  title: Towards a Web application for viewing Spatial Linked Open Data of
+    Rotterdam
+  year: 2015
+  link: https://www.gdmc.nl/publications/2015/Viewing_Spatial_Linked_Open_Data.pdf
+  needs_review: true
 - surname: Mulder
   name: Damien
   title: Automatic repair of geometrically invalid 3D City Building models
@@ -10163,6 +10438,13 @@
     determine the suitability of the second workflow for the repair of 3D
     City Building Models.
   uuid: 8ef4459d-b940-4007-bc3c-d87349015129
+- surname: Onrust
+  name: Benny
+  title: Automatic generation of plant distributions for existing and future
+    natural environments using spatial data
+  year: 2015
+  link: https://www.gdmc.nl/publications/2015/Automatic_generation_plant_distributions.pdf
+  needs_review: true
 - surname: Pronk
   name: Maarten
   title: Storing massive TINs in a DBMS - A comparison and a prototype implementation
@@ -10287,6 +10569,13 @@
     floor plans from real life for 3D reconstruction. User feedback validated
     the feasibility and efficiency of the redrawing rules.
   uuid: 26a4c6b8-8ea0-4246-b30e-5c83a28cccb4
+- surname: Zervakis
+  name: Dimitrios
+  title: Combining a Physics-based Model and Spatial Interpolation of Scarce
+    Bed Topography Data in Meandering Alluvial Rivers
+  year: 2015
+  link: https://www.gdmc.nl/publications/2015/Scarce_Bed_Topography_Data.pdf
+  needs_review: true
 - surname: Zhou
   name: Kaixuan
   title: Exploring Regularities for Improving Quality of Facade Reconstruction
