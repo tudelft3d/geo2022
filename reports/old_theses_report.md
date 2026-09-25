@@ -1,0 +1,685 @@
+# Supervisor-search cross-check (2026-09-25)
+
+The archive holds 313 theses. Sweeping the repository for MSc theses supervised by the surnames in scripts/geomatics_supervisors.yml matched 2936 theses, 210 of them from 2006–2012 and absent from the archive (another 161 from before 2006 were discarded).
+
+## Confirmed gaps (0)
+
+The repository record's Programme field names Geomatics.
+
+
+## Likely (0)
+
+Pre-2017 records have no Programme field; these have a mentor whose initials and surname match a supervisor on the list. Check the PDF title page.
+
+
+## Name collisions (173)
+
+Same surname among the mentors, but the initials point to someone else (or no usable mentor name). Probably not ours, listed for completeness.
+
+- **de Rooij G.V.P. (2006)** — A Very Large Floating Container Terminal Feasibility study.
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:f9bb2f97-81b5-485f-94a5-60c45de91ffd
+- **Faber M. (2006)** — Constrution of parking space under water
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:53e4f0be-76d0-4420-9c2e-dec75c51b55b
+- **Sperling C.P. (2006)** — Development of a multi-channel e-service design method
+  - supervisor surnames on the record: Simons
+  - record: https://resolver.tudelft.nl/uuid:52da6914-684f-4fdd-afc4-ad8fd9d8cba5
+- **de Brabander W.H. (2006)** — Dynamic behaviour of long jetty structures under seismic condtions
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:6e35ad29-d328-4245-8cc6-dbd7e009e798
+- **Ghile D.B. (2006)** — Effects of Nanoclay Modification on Rheology of Bitumen and on Performance of Asphalt Mixtures
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:e92ae692-10e5-455d-b8ad-0eff3702071e
+- **Van Ginhoven J. (2006)** — Het effect van erosie en grondeigenschappen op het dynamisch gedrag van offshore windturbines betreffende stalen en betonnen monopile funderingen
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:71429016-bd4f-4a1a-9b02-831eb40578f4
+- **Trung L.H. (2006)** — Interacting artificial surf reefs
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:f0ac427f-7e55-4263-b17c-209a87b9d1d9
+- **Weisz G.H.S. (2006)** — Ontwikkeling Life Cycle Management
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:a8024445-125e-494d-a65b-cd401a6ae80d
+- **Woldekidan M.K. (2006)** — Performance study of C-Fix in Porous Asphalt Concrete using a 2D Finite Element Model
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:a66d1100-7770-46d2-944a-48b5a1fece23
+- **Servais R. (2006)** — Plaxis SSC
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:1282f24d-54f3-40f8-9f80-639c9f28c4dd
+- **R.N. Khedoe (2006)** — Possible use of C-Fix in Porous Asphalt
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:172af9d0-c419-40e1-a42c-d154eb01e45b
+- **van der Meer J.M. (2006)** — Stormvloedkering in de Westerschelde
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:318e5773-6787-4c48-82ec-a9fa4f221f7f
+- **Segers S. (2006)** — Uretek Deep Injection Method
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:5fc134d2-9899-44e0-91ae-06f32e3ce481
+- **Blom J.A.H. (2006)** — Veldproeven op steenzettingen in Zeeland
+  - supervisor surnames on the record: Peters
+  - record: https://resolver.tudelft.nl/uuid:b59d4352-c2a1-45c7-9f86-0fa1b95884ae
+- **van der Zwan N.L. (2006)** — Verbetering Zeetoegang IJmuiden
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:248f063f-48ab-48a4-b701-d57f087c5f62
+- **Schunck R.M. (2006)** — Verhoging van de haalbaarheid van weginfrastructurele projecten door toepassing van een PPS-model
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:47f6f696-ead1-4078-a82d-4af223d08a66
+- **Pu B. (2007)** — Analysis of the performance of pavements with a cement treated base
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:8383b76d-73af-4f12-a031-be1c07298e48
+- **Wierenga J.N. (2007)** — Dichtheidsstroming en bodemligging achter de extra spuisluis in de Afsluitdijk
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:1be5f113-42f3-45ae-beeb-8f32018e8c3c
+- **Fousert M.W. (2007)** — Floating Breakwater
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:87d7e889-8aaf-410b-9502-495412c59308
+- **Van Meerkerk L. (2007)** — KunStad Ostra; herontwerp voor een markthal in Dresden
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:9634c5ed-4cd2-47cb-8578-d741467fed10
+- **Lemma Bokan G. (2007)** — Mechanical behavior of a clay subgrade material for mechanistic pavement design
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:e66f2258-ca16-4dbf-8384-141a447beee8
+- **Krol R.E.J. (2007)** — Next generation storage tanks
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:ae0eb00c-8dd6-450d-9911-350697842d0a
+- **Poort M.C.L. (2007)** — Rip currents
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:28bacb8b-8f89-4930-a4c8-5da5f616ffa2
+- **Bonte P. (2007)** — Structural design of a sandwich wall as the quay wall for the future: And an investigation to apply parametric design to quay wall structures
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:81f4ccd4-8710-4898-aa72-33c75398cc93
+- **Broerse D.B.T. (2007)** — Surface motion modeling for the southeastern Carpathians
+  - supervisor surnames on the record: Simons
+  - record: https://resolver.tudelft.nl/uuid:b8129918-9a55-49f7-b5be-16441dc7725a
+- **Arce F. (2007)** — The potential of Altraflex-2006 to improve low temperature behaviour of C-fix mixtures
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:28890bbb-1f3b-4016-8a7a-b6725f89c5b6
+- **Van Lent D.Q. (2008)** — Aggregate characterisation in relation to bitumen-aggregate adhesion
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:ac6c62de-9f15-415c-b55c-0dc54d9c3e8e
+- **Janssen J. (2008)** — A structural solution in reinforced concrete for the roof structure of the Al Ghubaiba ferry terminal
+  - supervisor surnames on the record: Peters
+  - record: https://resolver.tudelft.nl/uuid:18a73d9e-0ee3-4f29-ae64-62b219448a07
+- **Zweers S.A. (2008)** — A study of the erosion problem along Rosslare Strand
+  - supervisor surnames on the record: Peters
+  - record: https://resolver.tudelft.nl/uuid:08b27ffb-39a6-4b65-80bd-0fbeec12ef60
+- **Van Langen F. (2008)** — Cultuurzone in Paramaribo
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:ab56a09e-c0a8-4a77-a1b6-fccb22e8bac5
+- **Groenewegen D.M. (2008)** — Declarative Access Control for WebDSL
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:4d1844c8-89df-4787-b777-c742b4a27217
+- **De Simone A. (2008)** — Design and realization of a setup for mechanical tests on a MEMS based micro gravity-gradiometer
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:c97c4389-3d4e-42d4-8d69-14c8fbce9469
+- **Put S.C. (2008)** — Earthquake slip distribution inversions using Synthetic Aperture Radar Interferometry
+  - supervisor surnames on the record: Hanssen
+  - record: https://resolver.tudelft.nl/uuid:bbbb76da-f0ce-422f-8da2-1cb2c92e44b3
+- **Chow W.M.A. (2008)** — Effects of Shielding Gas Contamination on Aluminium Weid Porosity
+  - supervisor surnames on the record: Zhao
+  - record: https://resolver.tudelft.nl/uuid:007ee53b-d38a-4017-b28a-7aecd193fe1c
+- **Van Tol P.T.G. (2008)** — Floating breakwaters; a theoretical study and preliminary design of a dynamic wave attenuating system
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:dde70882-22bc-45de-a12b-860bbc2bac85
+- **Spiteri R.M.C. (2008)** — Gravitational signature of titan's (sub) surface lakes
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:0d21020b-72c6-44bc-b9dd-880fcde43514
+- **De Wit B.M.M. (2008)** — Herontwerp nv Glans tot ontmoetingsplek met bibliotheek en sportfuncties
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:fec9e27e-9add-43d5-8019-778702554c21
+- **Citrawati F. (2008)** — Martensitic Transformation during Mechanical Loading at Room Temperature in Low-Alloyed Multiphase TRIP Steel
+  - supervisor surnames on the record: Zhao
+  - record: https://resolver.tudelft.nl/uuid:57167a8f-5d8e-48ac-8c72-68f6cf98c404
+- **Adhin A.J.D. (2008)** — Modification of an Asphalt Binder with Altraflex 2006
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:b6eb9c08-d70d-4e44-b4f3-16c501df4fb7
+- **Dentz F.J. (2008)** — On the use of Spaceborne Remote Sensing for Archaeology
+  - supervisor surnames on the record: Hanssen
+  - record: https://resolver.tudelft.nl/uuid:5731bb4d-aa69-40ef-9cd3-80a770d89cf6
+- **Nguyen Minh Tuan (2008)** — Quenching and Partitioning of low alloyed steels
+  - supervisor surnames on the record: Zhao
+  - record: https://resolver.tudelft.nl/uuid:20d3d617-67b3-4758-a2bd-c19e3dd062b6
+- **Dekkers M. (2008)** — Regeneratie van de binnenstad van Paramaribo
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:b36ad9a5-cba1-4dd1-aa2f-bd96d2ca9899
+- **Shah N. (2008)** — Restructuring South Arch, Rotterdam" - Waterfront regeneration
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:c75e7b9e-0aff-41bf-bae3-f6d1f4512c2d
+- **Holwerda J.J. (2008)** — Separation of Concerns in Web User Interface Design
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:861b2cc7-8ca3-4bed-8d51-f94a359824fc
+- **Vielvoije E. (2008)** — SPIN's Promela to Java Compiler
+  - supervisor surnames on the record: Pronk
+  - record: https://resolver.tudelft.nl/uuid:c7106f0b-5b8f-44fe-bca7-421653ec76c5
+- **Van Rijsewijk A.S. (2008)** — Surinaams parlement
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:dd7364f7-be13-4d39-b0b2-67bd375c638e
+- **Alvarez H.A. (2008)** — Sustainable business design
+  - supervisor surnames on the record: Simons
+  - record: https://resolver.tudelft.nl/uuid:1fa5ae33-05e2-43b2-9def-56178e096553
+- **McCall R.T. (2008)** — The longshore dimension in dune overwash modelling
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:5a8919f1-65c6-4b81-8652-dd4f5d7d142b
+- **Kouwenberg P.E.D.M. (2009)** — 3D subsurface modelling and geotechnical risk analysis for the tunnel construction of the A2-project Maastricht
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:615dfe85-b3a5-441a-9523-d83d56df41a6
+- **Weststrate M.C. (2009)** — Abstractions for Asynchronous User Interfaces in Web Applications
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:355f297a-bc22-445e-a489-934582d1d1d2
+- **Stegers E.M. (2009)** — A Solution Method for Vehicle Routing Problems with Time-Dependent Travel Times
+  - supervisor surnames on the record: Quak
+  - record: https://resolver.tudelft.nl/uuid:2329a49e-f80e-4340-ae2c-c64883e82999
+- **Schoutens P. (2009)** — Constructing a parking garage underneath historical city canals - a case study
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:bcf5c485-cb0c-482d-9287-ffb32679b698
+- **Emmen J.S.C. (2009)** — Design of a water cooler.
+  - supervisor surnames on the record: Broekhuizen
+  - record: https://resolver.tudelft.nl/uuid:2f1a5c21-c359-4438-89e6-121d6e9ce86f
+- **Mengiste Merine G. (2009)** — Development of a mix design method in the laboratory for mixes with recycled asphalt pavement in a drum mix facility
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:7912f839-fa44-450b-afba-aca7696c7575
+- **Parasie N. (2009)** — Discrete Element Modelling
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:bcf5c5d8-e00e-430a-9684-1938a356cf0b
+- **Van Hellenberg Hubar S.C.B.L.M. (2009)** — Duurzaamheid, flexibilliteit en kosten van hoogbouw
+  - supervisor surnames on the record: Peters
+  - record: https://resolver.tudelft.nl/uuid:951d7b03-a0e9-4e1f-824a-909c8c6705fc
+- **John R.A. (2009)** — Experiental Services Concept design and asessment
+  - supervisor surnames on the record: Simons
+  - record: https://resolver.tudelft.nl/uuid:ae5d55c7-59ec-4d88-bb51-39959378f0dc
+- **Pla Puigvert M.P.M. (2009)** — Explorative Insight of Methods and Factors to Manage the Execution of Collaborative Research Projects
+  - supervisor surnames on the record: Simons
+  - record: https://resolver.tudelft.nl/uuid:90da4458-b269-411f-8a51-2fb62d9ad008
+- **Nterekas D. (2009)** — Failure of Peat Dikes due to Drought
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:6ef38a8d-093b-4f42-8c24-b15bb8ed551b
+- **Benit M.P. (2009)** — Formulation and Quantification of the Distributed Collinear Triad Approximation
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:2d1720e2-f4ce-4c6b-8e3d-1bd7d9f7cfa1
+- **Schoolderman J.E. (2009)** — Generating electricity from waves at a breakwater in a moderate wave climate
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:c329464e-0911-4b30-9a87-94470f298f9c
+- **Van der Knaap J. (2009)** — Herbestemming Berckepoort & Statenschool Dordrecht
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:26de86ae-e011-43c3-bb44-147db3a27413
+- **Haas E.G.W. (2009)** — Het Nieuwe Dordrechts museum
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a8d6d083-460b-42d6-89cf-2c15b097a516
+- **Van Damme M. (2009)** — How biofilms influence morphology
+  - supervisor surnames on the record: Simons
+  - record: https://resolver.tudelft.nl/uuid:9b4ee2dd-89b0-40cf-90a3-a8fb8eaf1323
+- **Mwinchande A.K. (2009)** — Maintenance Strategies for the TANZAM Highway in Tanzania
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:0d4b1e0e-4bfb-4925-b696-98ac82f3c52a
+- **Hellemons J.F.L. (2009)** — Moblie Rail Survey System
+  - supervisor surnames on the record: Hanssen
+  - record: https://resolver.tudelft.nl/uuid:8e4e436a-de0a-40c8-b41b-e2d6e0bacb67
+- **Taverne P. (2009)** — RAFFS
+  - supervisor surnames on the record: Pronk
+  - record: https://resolver.tudelft.nl/uuid:2b4a1434-8169-481d-9824-fe79e9c4874c
+- **Rutten D.H.G. (2009)** — Stimulating interpersonal connectedness
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:12315283-2c4b-4e94-b482-c67d2aad2ff1
+- **Liu J. (2009)** — Swell propagation in a natural coastal channel in the SWAN model
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:5daeaa85-556a-408c-8a70-d3c3498d1ba2
+- **De Groot R.J.A. (2009)** — The functional flexibility of lock design
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:42e05732-8482-47e5-96b8-e0014b767280
+- **Francke L. (2009)** — Voorgespannen diepwanden
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:0a9f4dee-f62d-4be4-be8e-802705cf4589
+- **Rahman N. (2010)** — A Mobile Communication Concept to Enhance Perceived Proximity
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:3147c002-2955-4fa6-8d74-98d3489a1245
+- **Boezeman G. (2010)** — Awareness Creation for the Carbon Policy among Employees
+  - supervisor surnames on the record: Brink
+  - record: https://resolver.tudelft.nl/uuid:b78cd294-55ca-42e7-89bd-d601cc2d0637
+- **Van Doorn F. (2010)** — Challenging children to choose a book in the library
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:822781e0-a3cb-4345-95fe-bf08b333055d
+- **Van den Eijnden A.P. (2010)** — Conditional simulation for characterising the spatial variability of sand state
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:a93ef6f6-a0d1-4359-9d01-d2bfea645b67
+- **Koekoek M.J. (2010)** — Connecting Modular Floating Structures
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:33b59201-1718-4dda-98f8-ee16d5b7c023
+- **Alberdi Alvaro A. (2010)** — Could Philips get into the personal care routine of young men?
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:fd8012d2-463d-44bf-b271-503a7517511c
+- **Van Wissen S. (2010)** — Creating a Social Cohesive Product Service System in a Slum Community
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:5f2c016a-5dc3-4679-802c-f00a2e1cab7c
+- **Wolsky E. (2010)** — Design for maladjusted youth
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:f315ebb0-71a7-4818-8861-be048d2af96c
+- **Sharew Yehualaeset J. (2010)** — Development of a laboratory ageing method for bitumen in porous asphalt
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:d998faa5-105d-46be-83c0-2442f78516c3
+- **Roodbol G. (2010)** — Exploring the future of travel information
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:21727ba3-1db0-4dcb-b4db-a18dccea1e9b
+- **De Boer E. (2010)** — Fun to drive personal mobility vehicle for elderly and everyone else.
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:6f4478e1-4038-4a8f-9f25-c5c93a63240e
+- **Versluis M. (2010)** — Hydrodynamic pressures on large lock structures
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:efbc60e5-4c0c-4dd6-a73c-89bfb67b1f6b
+- **Van Eeden C.J. (2010)** — Measurement of partial discharges and dielectric losses on rotating machines using damped AC voltages
+  - supervisor surnames on the record: Quak
+  - record: https://resolver.tudelft.nl/uuid:42788ce0-06a6-463b-a667-0db979694586
+- **Van der Giessen H.J. (2010)** — Mooring facility Cruiseport The Hague
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:0b952b1c-6afe-4deb-9120-0d311c31388f
+- **Tool F. (2010)** — Ontwerptool voor de beoordeling van constructieve alternatieven op duurzaamheid
+  - supervisor surnames on the record: Peters
+  - record: https://resolver.tudelft.nl/uuid:56de9008-8b50-4303-8136-47ac13cd4eda
+- **Wierda C.H. (2010)** — Salt based dam design in a hyper saline environment
+  - supervisor surnames on the record: Peters
+  - record: https://resolver.tudelft.nl/uuid:b83eaca4-fdf4-4366-975d-21e8d0d894b3
+- **Sun X. (2010)** — Small and medium scale direct shear test of the Bremanger sandstone rockfill
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:0ad129cb-d6a6-4d25-8f88-982b18ef8be6
+- **Luijten B.J.H. (2010)** — The In?uence of Software Maintainability on Issue Handling
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:8a144747-576f-431a-b091-79cebf20ba8b
+- **Mohan S.A. (2010)** — Winter damage of porous asphalt; Case study using a meso-mechanics based Tool for Lifetime Optimization of PA
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:6e187b10-66e4-4cae-9fe3-aaf75e31062b
+- **Nasserazad N. (2011)** — A Case Study in DSL Re-targetability
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:3606603c-9988-4c11-98d8-9192331778a0
+- **Scheepens S.A. (2011)** — A space of flows. The Kejetia Lorry Station
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a2c32e21-d50c-4fcd-8680-04380f98d8bb
+- **Bijster J. (2011)** — Bese Saka
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:ff124d0f-a92e-48a1-92c7-d1fa6f393973
+- **Athanasiou D. (2011)** — Constructing a Test Code Quality Model and Empirically Assessing its Relation to Issue Handling Performance
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:cff6cd3b-a587-42f2-a3ce-e735aebf87ce
+- **Berkheij D.S.H. (2011)** — Cultureel centrum 'het Taplokaal'
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:bee19769-9b86-4bfc-9c55-5ab54323d6e0
+- **Rabbelier S. (2011)** — Declarative Specification of Web-based Integrated Development Environments
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:cc3b1a6f-4a74-481a-a585-3308ed116d57
+- **Smolders M.A. (2011)** — Delft Schieoevers
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:79ceaf17-1572-48b1-886e-52d88639f993
+- **Ni Y. (2011)** — Design a baby "Stroller" for families of migrant workers in China
+  - supervisor surnames on the record: Joosten
+  - record: https://resolver.tudelft.nl/uuid:3467a3b6-f98d-44e5-a6f3-21efb53d1773
+- **Lietaert B.K.J. (2011)** — Design and development of a hazard map for the positioning and siting of large jack-up rigs at the geologically complex areas of the Gulf of Suez
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:325eb00b-038e-4ebd-893a-2e4a42e251cd
+- **Lu Y. (2011)** — Design for Remote Touch
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:5c469729-6108-4351-89f6-7ae31e6fc991
+- **Veen S. (2011)** — Designing physical social media
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:b1e2cb9b-8ebb-4c39-b8f7-5ceee8c4c04c
+- **Kisman G.A. (2011)** — Design of a low power television for rural Cambodia
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:859b6d2d-e06f-442a-8100-900cc553217d
+- **Moerland E. (2011)** — Development of an aeroelastic analysis tool for structural sizing of high-lift devices during preliminary design
+  - supervisor surnames on the record: Nagel
+  - record: https://resolver.tudelft.nl/uuid:feca38a2-e2f4-4249-9b73-5bcc4171ca9d
+- **Leunis M.A. (2011)** — Empowering Lines
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:3ebb513f-28a8-467a-b82f-2999e9b63ee1
+- **De Vos B. (2011)** — EpiSpin
+  - supervisor surnames on the record: Pronk
+  - record: https://resolver.tudelft.nl/uuid:7b209c0b-1162-4cf2-a231-4b92b7f9dd03
+- **Snijders J.W. (2011)** — Estimation of in-vivo muscle moment arms around the MCP joint using ultrasound
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:81f9fbc7-e55d-45cd-8ee0-12712a83d5f1
+- **Hinborch M. (2011)** — Flood defence town centre Dordrecht
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:dfac8bb7-3c53-4bb9-8da6-267dc350d83f
+- **Jelier W.P.C. (2011)** — Het concept Stedelijk Metabolisme
+  - supervisor surnames on the record: Snellen
+  - record: https://resolver.tudelft.nl/uuid:da21782a-5592-48ab-98be-2e26471d05fc
+- **Van der Torren P.T. (2011)** — Identification and analysis of point scatterers in time series InSAR
+  - supervisor surnames on the record: Hanssen
+  - record: https://resolver.tudelft.nl/uuid:7ab39a28-2902-4811-8efc-c4645d656e74
+- **Castaneda O. (2011)** — Link Prediction and the Evolution of Communities on Twitter
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:f943dcfd-b11c-4b2c-ab55-db8d04ee0b28
+- **Oort E.N. (2011)** — Making tracks for Tamale
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:6a4217d4-2e96-4227-b793-2b695702e959
+- **Yuan Y. (2011)** — Measuring Surface Deformation Caused by Permafrost Thawing Using Radar Interferometry, Case Study
+  - supervisor surnames on the record: Hanssen
+  - record: https://resolver.tudelft.nl/uuid:6ac10891-98d9-4173-9f34-533149664ec0
+- **Rek M.B. (2011)** — Motivating people to reflect on and share their experiences for design research
+  - supervisor surnames on the record: Romero
+  - record: https://resolver.tudelft.nl/uuid:48f59925-054c-416d-87d7-abaa066ebf2e
+- **Hendrich T.J.M. (2011)** — Multidisciplinary Design Optimization in the Conceptual Design Phase
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:d586ee6e-4815-4561-87d9-6ae00bdb739e
+- **Deinum H.T. (2011)** — Optimizing the functional and ergonomic properties of a conceptual bullet resistant police shield
+  - supervisor surnames on the record: Someren
+  - record: https://resolver.tudelft.nl/uuid:aad1e2a5-bcf4-4982-b869-3b199069d90f
+- **Botermans B.A.M. (2011)** — Provotyping in the wild
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:2f2fb381-97ef-4f39-a3ed-31e8eb9085a9
+- **Schoenmaker R. (2011)** — Reclaiming the City
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:e15398a6-ffe2-45fe-b109-adcfff6fe1ed
+- **Jonker J.S. (2011)** — Revitalizing the Schie waterfronts
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:d6141339-ad28-4bf7-9de2-72a81da7edd8
+- **Emha F.Y. (2011)** — Shear strength of Bremanger sandstone rockf ill at low stress
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:c6ee9046-9a13-4405-bdca-e988c190727a
+- **Segers T. (2011)** — Suiting the city-P5 presentation
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:36766968-6885-4625-9004-d107cb13fd17
+- **Pauwels G.J.J.M. (2011)** — Superbus Positioning System
+  - supervisor surnames on the record: Hanssen
+  - record: https://resolver.tudelft.nl/uuid:994a46e0-b56f-4121-aa93-ea17a0457daa
+- **De Vries L. (2011)** — The deviating interpretation of Almere to the NEN-6743
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:07a33267-fe81-40c3-b0e7-33936fcddce1
+- **Kochx J.P. (2011)** — The effect of filter jacket clogging on the performance of prefabricated vertical drains in soft soils
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:d29a4ce6-880a-416c-a189-0304f8ae0cdb
+- **Hendriksen R. (2011)** — The floating construction method
+  - supervisor surnames on the record: Hendriksen, Molenaar
+  - record: https://resolver.tudelft.nl/uuid:10518aa6-82eb-4d6a-959f-6417d8033246
+- **Swijnenburg M.C. (2011)** — The Intervention of the Faculty of Art at the Kwame Nkrumah University of Science and Technology in Kumasi
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:c4f8584f-2dd5-4d4a-88b5-93b8d61522e1
+- **Krukkert R. (2011)** — The redesign of the logistical system of Schiphol Airport Retail
+  - supervisor surnames on the record: Quak
+  - record: https://resolver.tudelft.nl/uuid:34be85c8-1579-44aa-a50c-c12c3aeb3fe0
+- **Sickenga N. (2011)** — The Transformation of the urban structure of Kumasi
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:b9266918-3d1f-46e7-8ff8-ef4d35933649
+- **Van de Ven J.E.G. (2011)** — Transformation of the former Artillery Depot in Delft
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a326530f-b903-4849-bcd2-8c1a3c2a2b41
+- **Gerding L.T. (2011)** — Transformation of the Kumasi Zoological Gardens, towards a 21st century zoo.
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:206704f6-13cf-4df5-a716-7aa1e39ed410
+- **Dekker K. (2011)** — Upgrading Ayigya, the transformation of a low income neighbourhood in Kumasi, Ghana
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:47c503f5-e511-41df-8a21-52090c757561
+- **Roelofs J. (2011)** — Using video in personas
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:952a278f-c6e1-42e2-a1d5-0b0ed3513206
+- **Camps A. (2011)** — Winning trust in the performance of a robot vacuum cleaner
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:84360747-e6ba-4b11-b1db-a02c16a544c5
+- **Levie P. (2012)** — Activiteit genereren
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a015c058-bbab-42e1-8a31-2dc707f5adcc
+- **Govindarajan N. (2012)** — An optimal control approach for estimating aircraft command margins
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:48dbad61-728a-4c7e-ba3e-cf8382ef1cef
+- **Ren Y. (2012)** — Breach Flow Modeled as Flow over a Weir
+  - supervisor surnames on the record: Visser, Zhao
+  - record: https://resolver.tudelft.nl/uuid:b53b74c0-6ab6-4e0e-bcd6-6754f4138ad7
+- **Hailu T.G. (2012)** — DC/DC Converter For Helicopter Starter/Generator
+  - supervisor surnames on the record: Brink
+  - record: https://resolver.tudelft.nl/uuid:a1ffdbad-0620-42ea-a02c-a807a2b932d8
+- **Vollebregt T.J. (2012)** — Declarative specification of template-based textual editors
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:8907468c-b102-4a35-aa84-d49bb2110541
+- **Beelen E.P.R. (2012)** — Designing a product service system aimed at embedding a vitality mindset into the daily work-lifestyles of employees
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:345f6cd4-aff3-445c-bae1-7aca3f24ec65
+- **Alkaya M.Ö. (2012)** — Developing a tailor-made empathic design tool
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:c40b30b9-c4d1-4ccc-b538-d83efad06a02
+- **Janssen J. (2012)** — Development of a wind farm power forecast model
+  - supervisor surnames on the record: Brink
+  - record: https://resolver.tudelft.nl/uuid:d19d75c1-e328-4128-853c-48177a5abaf4
+- **Hofschreuder B. (2012)** — Flood protection and marine power in the Wash estuary, United Kingdom
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:2124eacb-36d6-4dea-a696-771d07ec07ec
+- **Doeksen J.W. (2012)** — Gate Design For Large, High Head Locks
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:10298cf5-eff0-4664-ab16-980bc86dbd44
+- **De Jong V.I. (2012)** — Herbestemming watertoren Heuveloord – ‘Wenn der Architekt nicht weiter weiss, dann macht er einen Kreis’
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:c830c9fa-2f9c-4cfc-9dc5-555ead5dc5db
+- **Rennen R. (2012)** — Het nieuwe werkveld
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:30c551bc-976e-48e6-969e-120670daa3ba
+- **Klinkhamer C. (2012)** — Het revitaliseren van de Vaartsche Rijn zone, Rotsoord en de Pastoe Fabriek
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a8454dda-8740-424a-aade-b730e29124f4
+- **Kroon L.K. (2012)** — Het verval gekoesterd
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:84e41f8a-cdbb-4fd5-b1b8-7fd6893cf933
+- **Wasch E. (2012)** — Housing and user interface design of the Elana medical laser
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:32b1475c-a752-4fac-9e6b-7781e2a9997e
+- **Pham L.A. (2012)** — Impacts of waves and sea level rise on ports due to global climate change
+  - supervisor surnames on the record: Du, Molenaar
+  - record: https://resolver.tudelft.nl/uuid:725ab328-bac6-4576-9c32-081fef5dee8e
+- **Chacho A. (2012)** — Investigating the effect of different lab mixing procedures on the mechanical characteristics by using more RAP in asphalt mixtures
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:2a6ffd62-516c-4b48-a2df-d920c9449747
+- **Den Uijl C. (2012)** — 'Kathedraal van de industrie, het gebouw als herinnering'
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:7a89500f-8664-424b-a271-18071d153130
+- **Sassen A.C. (2012)** — KEMA seal reconsidered
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:5cba47c0-8055-4bba-9efb-d3013c356158
+- **Alferink J. (2012)** — `Kunsthuis` aan het Merwedekanaal
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:14aa38b7-1a04-4550-bb27-5b12a5df8bb8
+- **Vergu V.A. (2012)** — LabBack
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:8c683733-546a-4fd2-8303-a2cf2edf3cd8
+- **Konat G.D.P. (2012)** — Language-Parametric Incremental and Parallel Name Resolution
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:5b6b9077-0b32-4f35-bf0f-ccbf0c41ff43
+- **Van Overmeir A.L. (2012)** — Nuclear resistance _ Keeping the historical fabric
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:1e709b34-4b0b-4321-9dc2-58413b1609a5
+- **Hosseinzadeh S. (2012)** — Numerical assessment and validation of a swelling rock model
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:fcd2a9bf-0df8-4e27-9d2a-b687194c9c3c
+- **Feenstra G.T. (2012)** — P5
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:61fc3387-0507-4c3d-ae10-e269b2b1e356
+- **Lendering K.T. (2012)** — Polder Terminal
+  - supervisor surnames on the record: Peters
+  - record: https://resolver.tudelft.nl/uuid:0e3ed140-3c52-4c5a-9079-9b80d88ed1f1
+- **Pronk T.M.S. (2012)** — Publiek gebouw in voormalige opslagloods
+  - supervisor surnames on the record: Meijers, Pronk
+  - record: https://resolver.tudelft.nl/uuid:7a528434-1e1e-453a-bc4a-03c3bcc2092d
+- **Willeumier E.B. (2012)** — Revitalization of the Baixa de Maputo (Mozambique) through dense informal housing
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:1f4322f7-2967-4aa9-8099-6dabe8450f2a
+- **Van Berge Henegouwen H.L.A. (2012)** — Second Life - The Lasloods
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:af08ed0a-fa45-43a4-9574-d7e0d18d93b8
+- **Hoevenaar T.C.M. (2012)** — Speelruimte gemaakt
+  - supervisor surnames on the record: Broekhuizen
+  - record: https://resolver.tudelft.nl/uuid:617969e2-7623-4c2a-8f5a-c0473ec48baf
+- **Hofste G.M. (2012)** — Stevin Outlet Sluices
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:246cd36d-cded-4ab8-a882-7663a631e0ac
+- **Toh H.L. (2012)** — Suspended Sediment and Light Attenuation Characteristics in Singapore Waters
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:bec65307-9a87-416c-b0b2-1da55f316e97
+- **Bijloo E.M. (2012)** — The Application of Passenger Transport Systems at Schiphol Airport to reduce Walking Distances
+  - supervisor surnames on the record: Brink
+  - record: https://resolver.tudelft.nl/uuid:332ec841-f4ba-42cc-81a6-4f582844d58c
+- **Senster P.A.M. (2012)** — The design and implementation of Google Swiffy
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:cab4b862-d662-432a-afa4-45ccb725177f
+- **Kleiterp R. (2012)** — The feasibility of a commercial osmotic power plant
+  - supervisor surnames on the record: Molenaar
+  - record: https://resolver.tudelft.nl/uuid:fbaa8d2f-3c01-45e3-8473-9a2ccd2b9a67
+- **Hemmati N.B. (2012)** — Towards Regional Synergy
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:94d3414f-6fd7-4457-a440-eb597784fd83
+- **Zu Castell-Rüdenhausen R.F. (2012)** — Triumfatorkerk, Kanaleneiland Utrecht
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a81d3990-a30a-4874-a5c3-7c4cbd67a26e
+- **Do P.B. (2012)** — Upflow limestone contactor for soft and desalinated water
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:dbe6e42a-c7be-472f-86f4-e5562a5a9d36
+- **Hoevenagel J.S. (2012)** — Watertoren Heuveloord - Herbestemming van een icoon
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:e0ba2c17-8620-43de-8ae3-660bb2e0a12f
+- **Mariens J. (2012)** — Wing Shape Multidisciplinary Design Optimization
+  - supervisor surnames on the record: Elham
+  - record: https://resolver.tudelft.nl/uuid:3b1c6432-cfbf-4fec-894b-9f6b870015f5
+- **Martin J.D. (2012)** — Zilver Reflection. An innovation strategy for an innovation consultancy
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:5a9e7526-9268-4d39-8d24-ee5f63bf4a96
+
+## Verified non-Geomatics (37)
+
+Already verdict-ed in scripts/verified_theses.yml.
+
+- **R.A.G. Kerklaan (2006)** — Design tools for the virtual wind tunnel
+  - mentors/coaches: J.N.J.A. Vambersky; L.A.G. Wagemans; J.L. Coenders; S. Zlatanova; L.L.M. Veldhuis
+  - supervisor surnames on the record: Zlatanova
+  - record: https://resolver.tudelft.nl/uuid:b81191e8-d955-4942-9dda-fe36348161e1
+- **P.J. De Graaf (2006)** — Geographic information infrastructure and local land use plans
+  - mentors/coaches: B. van Loenen; J.W.J. Besemer
+  - supervisor surnames on the record: Loenen
+  - record: https://resolver.tudelft.nl/uuid:c18aa681-26e2-42f4-8bb5-6fa7475b7398
+- **De Boer S. (2007)** — Busstations, meer dan traditionele halte
+  - supervisor surnames on the record: Peters
+  - record: https://resolver.tudelft.nl/uuid:9e7c4d76-46fb-40d3-9bae-f702a919b1a4
+- **S. Wesselingh (2007)** — Visualization of a TEN (Tetrahedral Irregular Network) in a web client.
+  - mentors/coaches: M.E. De Vries; F. Penninga; P.J.M. van Oosterom
+  - supervisor surnames on the record: Oosterom
+  - record: https://resolver.tudelft.nl/uuid:a825ae39-027d-4f34-9ae3-af0a8c3de8ae
+- **A. Huisman van Zijp (2008)** — De invloed van organisatie en cultuur op een geo-informatie infrastructuur
+  - mentors/coaches: J.W.J. Besemer; B. van Loenen
+  - supervisor surnames on the record: Loenen
+  - record: https://resolver.tudelft.nl/uuid:72e5b0ec-c7c7-4182-95f7-f12debf24637
+- **M.S. Kibria (2008)** — Functionalities of geo-virtual environments to visualize urban projects
+  - mentors/coaches: P. van Oosterom
+  - supervisor surnames on the record: Oosterom
+  - record: https://resolver.tudelft.nl/uuid:c529b04b-d010-4103-a19b-9550cd6f75f7
+- **J. van Bennekom-Minnema (2008)** — The Land Administration Domain Model 'Survey Package' and Model Driven Architecture
+  - mentors/coaches: C.H.J. Lemmen; P.J.M. van Oosterom
+  - supervisor surnames on the record: Oosterom
+  - record: https://resolver.tudelft.nl/uuid:1a9887fc-c2df-4846-a92a-318886e50960
+- **R.J. van der Ent (2009)** — A new perspective on continental moisture recycling
+  - mentors/coaches: H.H.G. Savenije; B. Schaefli; S.C. Steele-Dunne; S.R. De Roode
+  - supervisor surnames on the record: Steele-Dunne
+  - record: https://resolver.tudelft.nl/uuid:cfefc140-a4a2-4ce1-9996-476ae0794c05
+- **E. Ravenstijn (2009)** — Behaviour of nourishments in quasi 3-dimensional graded sediment models
+  - mentors/coaches: C.J. Sloff; E. Mosselman; M. Snellen; H.J. De Vriend
+  - supervisor surnames on the record: Snellen
+  - record: https://resolver.tudelft.nl/uuid:4935a560-c90b-4f35-963b-18708cecbc5f
+- **K. Lupogo (2009)** — Effects of fines on mechanical behaviour of sandy soils
+  - mentors/coaches: B. Vos; D. Ngan-Tillard
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:f4b5b6d0-8b00-44da-8011-cd664bfa96bd
+- **Katterbach M. (2009)** — Final safety design of the Cumbindanovu dam in Sardina
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:dad1d94d-e2e5-4820-9d87-6862628c2519
+- **S. Shirasagi (2009)** — Hybrid Rowe cell for measurement of complex conductivity
+  - mentors/coaches: D. Ngan-Tillard; M. Ponziani
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:43e5dd6e-39d8-4710-8042-8e4620f8baa1
+- **S.T.J. van Son (2009)** — Monitoring and modeling nearshore morphodynamic behaviour on storm time scales
+  - mentors/coaches: W.S.J. Uijttewaal; A.J.F. van der Spek; D.J.R. Walstra; R.C. Lindenbergh; S. De Vries; M.A. De Schipper; M.J.F. Stive
+  - supervisor surnames on the record: Lindenbergh
+  - record: https://resolver.tudelft.nl/uuid:6c34f2da-6e37-4c06-ae3e-50b9a6bd6c2b
+- **I. Visser (2009)** — Route determination in disaster areas
+  - mentors/coaches: P.J.M. van Oosterom; C.W. Quak; B.J. Köbben
+  - supervisor surnames on the record: Oosterom, Quak, Visser
+  - record: https://resolver.tudelft.nl/uuid:0c0a5052-f76c-4ed8-8615-ec45c2870cb2
+- **L. Verhelst (2009)** — Using semantic technologies to design a Spatio-Temporal database
+  - mentors/coaches: P. van Oosterom
+  - supervisor surnames on the record: Oosterom
+  - record: https://resolver.tudelft.nl/uuid:972f0098-4255-4e12-95bf-3c63d3147fe5
+- **T. van der Putte (2009)** — Using the discrete 3D Voronoi diagram for the modelling of 3D continuous information in geosciences
+  - mentors/coaches: H. Ledoux; P.J.M. Oosterom
+  - supervisor surnames on the record: Ledoux, Oosterom
+  - record: https://resolver.tudelft.nl/uuid:b35ad433-067a-4b20-8067-e18a2de76490
+- **B. Brugman (2010)** — 3D topological structure management within a DBMS
+  - mentors/coaches: P.J.M. van Oosterom; T.P.M. Tijssen
+  - supervisor surnames on the record: Oosterom
+  - record: https://resolver.tudelft.nl/uuid:ecd55682-a222-48e9-ab21-899437f1b107
+- **P.M.G. Inácio (2010)** — A Sensitivity Study into Strapdown Airborne Gravimetry
+  - mentors/coaches: B.C. Gunter; R. Klees
+  - supervisor surnames on the record: Gunter, Klees
+  - record: https://resolver.tudelft.nl/uuid:e28927bf-3d9b-43fe-bffb-22d9038186b1
+- **E.D. Black (2010)** — Assessing organisational aspects of Sub-national SDIs
+  - mentors/coaches: B. van Loenen; J.W.J. Besemer
+  - supervisor surnames on the record: Loenen
+  - record: https://resolver.tudelft.nl/uuid:a06352df-4ddb-4cd5-bd88-62e6a06a2b9b
+- **Brouwer I. (2010)** — Fixing the Link - Creating a strong, vital and attractive link between the Dutch central railway station and city centre
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:6bbfcc6f-9908-421b-b665-89df1dba9efc
+- **P. Sudra (2010)** — INSPIRE-compliant web services
+  - mentors/coaches: M.E. De Vries; P.J.M. van Oosterom; J.A. Zevenbergen
+  - supervisor surnames on the record: Oosterom
+  - record: https://resolver.tudelft.nl/uuid:7aabb920-7ece-41bf-90e6-8d2b315e6f01
+- **Mamo M. (2010)** — Statistical Characterization of Spatial Variability for a Hydraulic Fill Slope
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:b21f2443-8182-44ff-931b-d15a8c23d487
+- **J. Schaap (2010)** — Towards a 3D geo-data model to support pedestrian routing in multimodal public transport travel advices
+  - mentors/coaches: P.J.M. van Oosterom; S. Zlatanova; C.P.J.M. van Elzakker
+  - supervisor surnames on the record: Oosterom, Zlatanova
+  - record: https://resolver.tudelft.nl/uuid:af8604dd-ff0c-4e90-ac5b-ca37d4265250
+- **A. Chan (2010)** — Using 3D terrestrial laser scanning technique to determine volume changes of a cobble beach
+  - mentors/coaches: D.J.M. Ngan-Tillard; K. Khoshelham
+  - supervisor surnames on the record: Khoshelham, Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:49218367-0a1c-43f2-80a2-b08ef76b8099
+- **E. Dopper (2011)** — Exploring the possibilities of production of a culture codes dataset on cadastral parcel level by making use of external source datasets
+  - mentors/coaches: J. Stoter; J. van Buren; G. Leenders; P. van Oosterom
+  - supervisor surnames on the record: Oosterom
+  - record: https://resolver.tudelft.nl/uuid:45864885-760e-4941-8708-335430fc2577
+- **E. Jongkind (2011)** — Integrated Water Vapour mapping using vertical Wind Profiles
+  - mentors/coaches: R.C. Lindenbergh; H. van der Marel
+  - supervisor surnames on the record: Lindenbergh
+  - record: https://resolver.tudelft.nl/uuid:9c1ec4e8-bcc3-45e9-93d7-26293db08d2f
+- **R. van Haren (2011)** — Observing the hydrology of China from space - detection of anthropogenic changes in hydrology using spaceborne measurements
+  - mentors/coaches: B.C. Gunter
+  - supervisor surnames on the record: Gunter
+  - record: https://resolver.tudelft.nl/uuid:4fbfd196-72c1-4593-b15c-fe8a2f2e2767
+- **J. Stook (2011)** — Planning an indoor navigation service for a smartphone with Wi-Fi fingerprinting localization
+  - mentors/coaches: E. Verbree; P. van Oosterom; C. van Elzakker
+  - supervisor surnames on the record: Oosterom, Verbree
+  - record: https://resolver.tudelft.nl/uuid:4688f59d-62b5-4826-85b0-1bb8bad8508a
+- **D.C. Duives (2012)** — Analysis of Pedestrian Crowd Movements at Lowlands
+  - mentors/coaches: S.P. Hoogendoorn; W. Daamen; P.B. Wiggenraad; B. Gorte
+  - supervisor surnames on the record: Gorte
+  - record: https://resolver.tudelft.nl/uuid:38c0d41e-6676-405f-9378-89de88c80894
+- **Y. Wang (2012)** — Assimilating Soil Moisture Data into a Hydrological Model of the Volta Basin
+  - mentors/coaches: N. van de Giesen; S. Steele-Dunne
+  - supervisor surnames on the record: Steele-Dunne
+  - record: https://resolver.tudelft.nl/uuid:fcb8d5fb-c08f-4ac0-a9a9-c4413d9f0e90
+- **J.W.H. van Petegem (2012)** — Een modelonderzoek naar bermongevallen
+  - mentors/coaches: F.C.M. Wegman; P.B.L. Wiggenraad; A. Dijkstra; E. Verbree; J. Verpuij
+  - supervisor surnames on the record: Verbree
+  - record: https://resolver.tudelft.nl/uuid:d3a04532-ec41-422c-b7e5-0069fb787ac9
+- **Meijer N.W.H. (2012)** — HYBRID BUILDINGS
+  - supervisor surnames on the record: Sanchez
+  - record: https://resolver.tudelft.nl/uuid:37559829-ba47-4996-a204-b6cc63d6171e
+- **N. Tamash (2012)** — INSPIRE Compliant Datasets Transformation & Conformance Testing
+  - mentors/coaches: M. De Vries; P. van Oosterom; R. Lemmens
+  - supervisor surnames on the record: Lemmens, Oosterom
+  - record: https://resolver.tudelft.nl/uuid:654d32cd-489b-4e96-b780-11ea372ba73f
+- **H.J. Lekkerkerk (2012)** — Integrating data
+  - mentors/coaches: P. van Oosterom; M. De Vries; B. Everwijn
+  - supervisor surnames on the record: Oosterom
+  - record: https://resolver.tudelft.nl/uuid:bf227187-470e-4b3b-b33f-0d36c2cf8e94
+- **H.A.W. Voskamp (2012)** — Measuring the influence of congested bottleneck on route choice behavior of pedestrians at Utrecht Centraal
+  - mentors/coaches: S.P. Hoogendoorn; W. Daamen; B.G.H. Gorte; P.B.L. Wiggenraad; J. Heuvel
+  - supervisor surnames on the record: Gorte
+  - record: https://resolver.tudelft.nl/uuid:6a272595-d98b-4769-99b4-1eec7ab2b620
+- **B. Baas (2012)** — NoSQL spatial
+  - mentors/coaches: W. Quak; P. van Oosterom; R. De By
+  - supervisor surnames on the record: Oosterom, Quak
+  - record: https://resolver.tudelft.nl/uuid:a47d3b8e-650a-4152-a310-366db0773848
+- **W. Socha (2012)** — Specifying requirements for Automatic Generalisation of Electronic Navigational Charts
+  - mentors/coaches: J. Stoter; P. van Oosterom
+  - supervisor surnames on the record: Oosterom
+  - record: https://resolver.tudelft.nl/uuid:7500de93-fcaf-460e-a938-fdc6324d5e7b

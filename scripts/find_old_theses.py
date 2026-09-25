@@ -8,7 +8,7 @@ the repository search API for MSc theses whose supervisors (record
 contributors) have a surname from scripts/geomatics_supervisors.yml, keeps
 the ones from before the archive's coverage, fetches their repository
 record pages (cached, robots.txt-delayed) to get mentors and programme,
-and writes old_theses_report.md:
+and writes reports/old_theses_report.md:
 
   confirmed gaps    the record's Programme field names Geomatics
   likely            a mentor's initials + surname match a supervisor on
@@ -46,7 +46,7 @@ import enrich_geotheses as eg
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SUPERVISORS_FILE = REPO_ROOT / "scripts" / "geomatics_supervisors.yml"
 VERIFIED_FILE = REPO_ROOT / "scripts" / "verified_theses.yml"
-REPORT_FILE = REPO_ROOT / "old_theses_report.md"
+REPORT_FILE = REPO_ROOT / "reports" / "old_theses_report.md"
 SEARCH_API = "https://repository.tudelft.nl/search/data"
 TUSS = {"van", "de", "den", "der", "ter", "te", "het", "'t"}
 MAX_PAGES = 40  # per surname; 800 records is plenty for any one person
@@ -262,6 +262,7 @@ def describe(t):
 def write_report(gaps, likely, collisions, verified_non, n_archive,
                  n_matched, n_new, before_year, from_year, n_discarded,
                  extra_years):
+    REPORT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with REPORT_FILE.open("w", encoding="utf-8") as f:
         f.write(f"# Supervisor-search cross-check "
                 f"({datetime.now():%Y-%m-%d})\n\n")

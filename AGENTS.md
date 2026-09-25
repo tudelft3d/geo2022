@@ -25,8 +25,8 @@ python3 scripts/fetch_mycase.py
 # repository's robots.txt asks for a 20 s crawl-delay, so the first full run
 # takes ~1.5 h and later runs only fetch new records) and from MyCase's
 # closed cases. Writes geotheses.yml.original (backup) and
-# geotheses_report.md (issues needing a manual look). Supervisor names
-# come out as preferred display names via scripts/preferred_names.yml.
+# reports/geotheses_report.md (issues needing a manual look). Supervisor
+# names come out as preferred display names via scripts/preferred_names.yml.
 python3 scripts/enrich_geotheses.py           # add --fetch-only / --offline
 
 # Rewrite the archive's supervisors fields through the canonical people
@@ -40,7 +40,7 @@ python3 scripts/apply_preferred_names.py          # add --write to apply
 # MyCase (closed cases) for recent theses, the thesis PDF's title pages +
 # metadata for older ones, all initials-checked against the record form.
 # PDFs are cached under .geotheses_cache/pdf/ (robots.txt delay, ~20 s per
-# thesis on the first run); evidence goes to student_names_report.md.
+# thesis on the first run); evidence goes to reports/student_names_report.md.
 # Dry-run by default; unresolved entries keep their initials.
 python3 scripts/expand_student_names.py          # add --write / --offline
 
@@ -51,7 +51,7 @@ python3 scripts/check_geotheses.py --img-dir theses/img
 # Cross-check the archive against the MSc theses on 3d.bk.tudelft.nl and
 # gdmc.nl (both cached in .geotheses_cache/). Investigates archive gaps
 # via the repository's Programme field and the GDMC thesis PDFs' title
-# pages, and writes missing_theses_report.md (confirmed gaps, candidates
+# pages, and writes reports/missing_theses_report.md (confirmed gaps, candidates
 # for a manual look, verified non-Geomatics). Exit 1 while confirmed
 # gaps remain; --add appends them to the archive flagged needs_review.
 # Hand verdicts go in scripts/verified_theses.yml.
@@ -61,7 +61,7 @@ python3 scripts/find_missing_theses.py          # add --offline / --no-pdf
 # reach back to the archive's start) by supervisor surname: searches the
 # repository's search API for MSc theses whose supervisors include someone
 # from scripts/geomatics_supervisors.yml, fetches record pages for the
-# older ones and writes old_theses_report.md (confirmed gaps, likely,
+# older ones and writes reports/old_theses_report.md (confirmed gaps, likely,
 # name collisions). --add appends the first two buckets flagged
 # needs_review; hand verdicts go in scripts/verified_theses.yml.
 python3 scripts/find_old_theses.py          # add --offline / --from-year / --all-years
@@ -76,7 +76,7 @@ python3 scripts/update_theses.py
 # repository: downloads each PDF in memory (robots.txt delay, so a full
 # run takes ~2 h; PDFs are discarded after rendering, so nothing
 # multi-MB is kept on disk), renders page 1 into theses/img/<image>,
-# assigns image fields where missing and writes covers_report.md (blank
+# assigns image fields where missing and writes reports/covers_report.md (blank
 # covers, slides/milestone picks, surname mismatches). Re-runs resume
 # from .geotheses_cache/covers_progress.yml; --redo-all starts over.
 # --keep-pdfs caches the PDFs for offline re-renders; --skip-existing
@@ -97,21 +97,21 @@ After each graduation round (or whenever, really):
    `python3 scripts/enrich_geotheses.py` — it appends closed cases that
    are missing from the archive, fetches their repository records
    (abstract, supervisors, graduation date) and writes
-   `geotheses_report.md` for anything needing a manual look. Then
+   `reports/geotheses_report.md` for anything needing a manual look. Then
    `python3 scripts/update_theses.py --prune` to drop them from the
    ongoing page.
 4. `python3 scripts/check_geotheses.py --img-dir theses/img` —
    validate the archive (errors should stay at zero).
 5. `python3 scripts/find_missing_theses.py` — cross-check the archive
    against the GDMC and 3d.bk.tudelft.nl lists (writes
-   `missing_theses_report.md`; exit 1 while confirmed gaps remain).
+   `reports/missing_theses_report.md`; exit 1 while confirmed gaps remain).
    Add the confirmed gaps (or re-run with `--add`, which flags them
    `needs_review`) and work through the report's candidates.
 6. Cover images for new archive entries go into `theses/img/` under the
    entry's `image` filename (salvaged proposal-era images are already
    there for many entries; replace them with final-thesis covers as
    they arrive). `python3 scripts/thesis_covers.py` regenerates them
-   from the repository PDFs wholesale and writes `covers_report.md` —
+   from the repository PDFs wholesale and writes `reports/covers_report.md` —
    work through its flags (plain/blank first pages, surname
    mismatches) afterwards. Ongoing-thesis images go into `ongoing/img/`.
 
@@ -128,12 +128,13 @@ After each graduation round (or whenever, really):
 | `rules/`, `templates/`, `faq/`, etc. | Content pages (markdown) |
 | `ongoing/` | Current Theses page (`/ongoing/`); images in `ongoing/img/` |
 | `theses/` | Thesis archive page (`/theses/`); cover images in `theses/img/` |
+| `reports/` | Generated maintenance reports (enrichment, covers, cross-checks, student names); written by the scripts above |
 | `scripts/fetch_mycase.py` | MyCase metadata fetcher (output gitignored) |
 | `scripts/update_theses.py` | Syncs ongoing theses with MyCase open cases |
 | `scripts/enrich_geotheses.py` | Cleans/enriches the archive from repository records + MyCase |
 | `scripts/preferred_names.yml` | Preferred display names for the archive's people (`aliases` = repository/MyCase initials variants) |
 | `scripts/apply_preferred_names.py` | Rewrites archive supervisor names through `preferred_names.yml` (dry-run by default) |
-| `scripts/expand_student_names.py` | Replaces initials-only student names with full given names (MyCase / thesis PDF title pages; evidence in `student_names_report.md`) |
+| `scripts/expand_student_names.py` | Replaces initials-only student names with full given names (MyCase / thesis PDF title pages; evidence in `reports/student_names_report.md`) |
 | `scripts/check_geotheses.py` | Validates the archive data |
 | `scripts/find_missing_theses.py` | Cross-checks the archive with the GDMC + 3dge thesis lists |
 | `scripts/find_old_theses.py` | Sweeps the repository for pre-coverage theses by supervisor surname |

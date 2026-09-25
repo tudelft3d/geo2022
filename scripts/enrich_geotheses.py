@@ -20,7 +20,7 @@ Three stages, all idempotent, so the script can be re-run at any time:
 
 Output: the rewritten _data/geotheses.yml (a backup of the original is kept
 at geotheses.yml.original on first run) and a human-readable
-geotheses_report.md listing everything that needs a manual look.
+reports/geotheses_report.md listing everything that needs a manual look.
 
 Usage:
   python3 scripts/enrich_geotheses.py              # fetch (if needed) + merge
@@ -47,7 +47,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = REPO_ROOT / "_data" / "geotheses.yml"
 BACKUP_FILE = REPO_ROOT / "geotheses.yml.original"
 CACHE_DIR = REPO_ROOT / ".geotheses_cache"
-REPORT_FILE = REPO_ROOT / "geotheses_report.md"
+REPORT_FILE = REPO_ROOT / "reports" / "geotheses_report.md"
 MYCASE_CSV = REPO_ROOT / "mycase" / "mycase_index.csv"
 
 RECORD_URL = "https://repository.tudelft.nl/record/uuid:{uuid}"
@@ -578,6 +578,7 @@ def main():
     output = [dict(e) for e in cleaned if not e.pop("_rec", None)]
     write_yaml(output)
 
+    REPORT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with REPORT_FILE.open("w", encoding="utf-8") as f:
         f.write(f"# geotheses enrichment report ({datetime.now():%Y-%m-%d})\n\n")
         f.write(f"{len(output)} entries written to _data/geotheses.yml.\n\n")

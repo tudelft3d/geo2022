@@ -21,7 +21,7 @@ Surname.jpg (or a variant when that filename is taken) and the image
 fields are written back to geotheses.yml at the end of a run; rendered
 entries are recorded in .geotheses_cache/covers_progress.yml so a
 re-run resumes instead of re-downloading (--redo-all starts over).
-covers_report.md lists everything that needs a manual look; validate
+reports/covers_report.md lists everything that needs a manual look; validate
 with scripts/check_geotheses.py.
 
 Usage:
@@ -55,7 +55,7 @@ DATA_FILE = REPO_ROOT / "_data" / "geotheses.yml"
 CACHE_DIR = REPO_ROOT / ".geotheses_cache"
 PDF_DIR = CACHE_DIR / "pdf"
 PROGRESS_FILE = CACHE_DIR / "covers_progress.yml"
-REPORT_FILE = REPO_ROOT / "covers_report.md"
+REPORT_FILE = REPO_ROOT / "reports" / "covers_report.md"
 IMG_DIR = REPO_ROOT / "theses" / "img"
 
 FILE_BLOCK = re.compile(
@@ -279,13 +279,14 @@ def main():
                     help="write thumbnails here instead of theses/img "
                          "(previews; nothing is written back)")
     ap.add_argument("--report", default=None,
-                    help="report file (default covers_report.md)")
+                    help="report file (default reports/covers_report.md)")
     args = ap.parse_args()
 
     entries = yaml.safe_load(DATA_FILE.read_text())
     real_run = args.out_dir is None
     out_dir = Path(args.out_dir) if args.out_dir else IMG_DIR
     report_file = Path(args.report) if args.report else REPORT_FILE
+    report_file.parent.mkdir(parents=True, exist_ok=True)
 
     progress = load_progress() if real_run else {}
     if real_run:

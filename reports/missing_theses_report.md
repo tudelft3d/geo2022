@@ -1,0 +1,558 @@
+# External-source cross-check (2026-09-24)
+
+The archive holds 280 theses; the GDMC and 3d.bk.tudelft.nl lists together cover 413 MSc theses from 2000 onwards.
+
+## Confirmed gaps (5)
+
+Geomatics theses on the external lists that the archive is missing.
+
+- **Tirza Bont (2006)** — Geographic data integration for telecommunication purposes
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:ac4e2424-be72-4481-9b18-699172d045eb
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF names the Geomatics programme
+  - pdf: https://www.gdmc.nl/publications/2006/Geographic_data_integration_telecommunication.pdf
+- **Arjen Hofman (2008)** — Developing a vario-scale IMGeo using the constrained tGAP structure
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:d650352b-78fb-4919-9cb0-f2f66b17aef5
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF names the Geomatics programme
+  - pdf: https://www.gdmc.nl/publications/2008/Vario-scale_IMGeo_using_constrained_tGAP.pdf
+- **Filip Biljecki (2010)** — Automatic segmentation and classification of movement trajectories for transportation modes
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:b475fee9-5b67-446d-8a6e-ecce319c4250
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF names the Geomatics programme
+  - pdf: https://www.gdmc.nl/publications/2010/Automatic_segmentation_classification_trajectories.pdf
+- **Josafat Isaí Guerrero Iñiguez (2012)** — Three-dimensional reconstruction of underground utilities for real-time visualization
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:b7f43166-c138-475f-8490-b1f28ed1383d
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF names the Geomatics programme
+  - pdf: https://www.gdmc.nl/publications/2012/3D_reconstruction_underground_utilities.pdf
+- **Simeon Nedkov (2012)** — Knowledge-based optimisation of three-dimensional city models for car navigation devices
+  - verified by hand as Geomatics (no source names the programme, but Ken knows he was a Geomatics student (checked 2026-09))
+
+## Candidates for a manual look (0)
+
+No source names a programme; most are pre-2017, when repository records still had no Programme field. Check the thesis PDF's title page or the faculty records.
+
+None.
+
+## Verified non-Geomatics (135)
+
+On the external lists but named to another programme — correctly absent from the archive.
+
+- **Ingrid Alkemade (2000)** — Beeldschermkartografie ten behoeve van multi-bron internet GIS
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:182d6317-f8df-40fb-b222-ded98eef12d6
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2000/BeeldschermKarto.pdf
+- **Maureen Rengelink (2000)** — Automatisch afleiden en classificeren van woningen uit kadastrale gegevens
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:d67dce11-c0f5-47d1-9965-b15b85ec23ae
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2000/woning_classif.pdf
+- **Merlijn Simonse (2000)** — 3DTOP10; Integratie van TOP10vector en het AHN
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:403a145d-0f02-41ba-a762-5471454c592a
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2000/TOP10vector_AHN.pdf
+- **Jeroen de Vries (2001)** — Driedimensionale buffering op basis van Tetraëder Netwerken; opslag en analyse in een 3D-GIS
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:fcc1da2e-998d-4489-a26d-d658e8987b86
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2001/3D_buffering_Tetraeder_Netwerken.pdf
+- **Patrice Wijnands (2001)** — Jasmine; Spatial modelling with an object oriented database system
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:9773a93d-bc7e-4220-bd30-c381ca262b2d
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2001/Object_oriented_dbms.pdf
+- **Franklin Monteiro (2001)** — GML and Complex Features
+  - verified by hand as not Geomatics (Technical Informatics student, thesis done at the GIS-technology section (PDF foreword))
+- **Ilmar Kotte (2002)** — Een kartografisch expert systeem ten behoeve van presentatie van gedistribueerde geografische informatie
+  - verified by hand as not Geomatics (Technical Informatics student, computer graphics and CAD/CAM group, faculty ITS (PDF title page))
+- **Calin Arens (2003)** — Maintaining Reality; Modelling 3D spatial objects in a Geo-DBMS using a 3D primitive
+  - no repository record found
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2003/Maintaining_reality.pdf
+- **Friso Penninga (2003)** — Genereren van een 6-positie postcodebestand op basis van de kadastrale registratie
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:50b64ecb-1dc1-4a33-adb4-b023be6801c2
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2003/Genereren_6ppc.pdf
+- **Maarten Vermeij (2003)** — Development of a Topological Data Structure for On-the-Fly Map Generalization
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:343bfe9e-86f8-4a7a-9c00-ca78c731a9ee
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2003/Topological_structure_generalization.pdf
+- **Martin Tomko (2003)** — Spatial Databases for Mobile GIS Applications
+  - verified by hand as not Geomatics (diploma work for the Slovak University of Technology in Bratislava, research done at the GISt section (PDF title page))
+- **Jildou Louwsma (2004)** — Constraints in geo-information models; Applied to geo-VR in landscape architecture
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:3272904f-b7a8-42ab-b393-f1f55ae5c791
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2004/Constraints.pdf
+- **Thijs Brentjens (2004)** — OpenGIS Web Feature Services for editing cadastral data; Analysis and practical experiences
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:682ee7f3-1220-49f1-a2ee-709ef61a2829
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2004/OpenGIS_WFS.pdf
+- **Marco Baars (2004)** — Moving objects in a geo-DBMS; Structuring, indexing, querying and visualizing moving point objects in a geo-DBMS context
+  - no repository record found
+  - thesis PDF title page names: Thesis Section GIS Technology Faculty of Civil Engineering an
+  - pdf: https://www.gdmc.nl/publications/2004/Moving_objects_geo-DBMS.pdf
+- **Marcel de Rink (2004)** — Synchronisation of "Work Processes" vs. "Geo-information", a RWS case
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:ed6ca8fe-1f63-4d2f-8d57-b1d66314d178
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2004/Synchronisation.pdf
+- **Arno van der Most (2004)** — An algorithm for overlaying 3D features using a tetrahedral network
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:d31c5389-8634-4b35-8d73-e8837a021fde
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2004/3D_overlay.pdf
+- **Bart van den Berg (2004)** — Harmonisation of distributed geographic datasets; A model driven approach for geotechnical &amp; footprint data
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:c9d5b7ff-4d34-4135-8c31-da743ed0b2ed
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2004/Harmonisation.pdf
+- **Tryggvi Már Ingvarsson (2005)** — CCDM and Open Source Applications
+  - repository record found by title search: https://resolver.tudelft.nl/uuid:6d806733-a023-4eaa-a050-8f412db22649
+  - repository record has no Programme field (older, migrated record)
+  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
+  - pdf: https://www.gdmc.nl/publications/2005/CCDM_Open_Source_applications.pdf
+- **Shi Pu (2005)** — Managing Freeform Curves and Surfaces in a Spatial DBMS
+  - verified by hand as not Geomatics (Media Knowledge Engineering student (EEMCS), research done at GIS Technology, OTB (PDF foreword))
+- **Sijmen Wesselingh (2007)** — Visualization of a TEN (Tetrahedral Irregular Network) in a web client
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2007/Visualization_TEN_web_client.pdf
+- **Jan van Bennekom-Minnema (2008)** — The Land Administration Domain Model 'Survey Package' and Model Driven Architecture
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2008/LADM_Model_Driven_Architecture.pdf
+- **Mahmud Shahrear Kibria (2008)** — Functionalities of geo-virtual environments to visualize urban projects
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2008/Geo-virtual_environments.pdf
+- **Lieke Verhelst (2009)** — Using semantic technologies to design a Spatio-Temporal database
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2009/Semantic_technologies_spatio-temporal_db.pdf
+- **Tom van der Putte (2009)** — Using the discrete 3D Voronoi diagram for the modelling of 3D continuous information in geosciences
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2009/3D_Voronoi_diagram.pdf
+- **Ivo Visser (2009)** — Route determination in disaster areas - Using predictions and introducing the option to wait to improve routing results
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2009/Route_determination_disaster_areas.pdf
+- **John Schaap (2010)** — Towards a 3D geo-data model to support pedestrian routing in multimodal public transport travel advices
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2010/3D_geo-data_model_support_pedestrian_routing.pdf
+- **Bregje Brugman (2010)** — 3D topological structure management within a DBMS - validating a topological volume
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR), pp. 151 p. (incl. scripts)
+  - pdf: https://www.gdmc.nl/publications/2010/3D_topological_structure_management_DBMS.pdf
+- **Pawel Sudra (2010)** — INSPIRE-compliant web services - The case of Narew National Park, Poland
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2010/INSPIRE-compliant_web_services.pdf
+- **Emiel Dopper (2011)** — Exploring the possibilities of production of a culture codes dataset on cadastral parcel level by making use of external source datasets
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2011/Production_culture_codes_dataset.pdf
+- **Justin Stook (2011)** — Planning an indoor navigation service for a smartphone with Wi-Fi fingerprinting localization
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2011/Indoor_Navigation_Service_Smartphone.pdf
+- **Nart Tamash (2012)** — INSPIRE Compliant Datasets - Transformation &amp; Conformance Testing
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2012/INSPIRE_Compliant_Datasets.pdf
+- **Huibert-Jan Lekkerkerk (2012)** — Integrating data: a water quality case study
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2012/Integrating_data_water_quality_case_study.pdf
+- **Bart Baas (2012)** — NoSQL spatial - Neo4j versus PostGIS
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2012/Neo4j_versus_PostGIS.pdf
+- **Weronika Socha (2012)** — Specifying requirements for Automatic Generalisation of Electronic Navigational Charts
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2012/Automatic_Generalisation_Electronic_Navigational_Charts.pdf
+- **Joost Boerboom (2013)** — Implementing the WPS Standard - Case Study for Dissemination of Coastal and Marine Tools
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2013/Implementing_WPS_Standard.pdf
+- **Mark Verschuur (2013)** — A GIS approach to monitor accessibility of public urban space for the elderly
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR), pp. 110 p. (incl. appendices)
+  - pdf: https://www.gdmc.nl/publications/2013/Accessibility_public_urban_space_elderly.pdf
+- **Filippo Mortari (2013)** — Automatic extraction of improved geometrical network model from CityGML for indoor navigation
+  - verified by hand as not Geomatics
+- **Davide Russo (2013)** — Route Directions using Visible Landmarks for an Indoor Navigation System based on Android device IndoorNav
+  - verified by hand as not Geomatics
+- **Vincent van Altena (2014)** — Improvement of automatic generalisation of manmade water networks for topographic maps by context-dependent pruning
+  - verified by hand as not Geomatics
+- **Ferry Westdijk (2015)** — Towards risk based pipeline integrity management through integrated use of heterogeneous SDI data sources
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2015/Risk_based_pipeline_integrity_management.pdf
+- **Niels van Beek (2015)** — Using airborne laser scanning for deriving topographic features for the purpose of general boundary based cadastral mapping
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2015/Topographic_Features_from_Airborne_Laser_Scanning.pdf
+- **Alexander Boersema (2015)** — Towards a cooperation between the registry holders of the large scale topographic map and the cadastral map
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2015/Topographic_map_and_cadastral_map.pdf
+- **Nikkie den Dekker (2015)** — Smart cities, sensors &amp; 3D GIS
+  - verified by hand as not Geomatics
+- **Patricia ten Rouwelaar (2015)** — Uniformity of topographical key registrations: The derivation of data specifications in order to automatically generalize the BGT into a uniform BGT product and into a midscale data product
+  - verified by hand as not Geomatics (none of the five pre-2016 theses that only the 3d.bk.tudelft.nl list knows are Geomatics (checked by Ken, 2026-09))
+- **Djamilja Oud (2017)** — GIS based property valuation - Objectifying the value of view
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2017/MScThesis_DjamiljaOud.pdf
+- **Ruben van der Valk (2017)** — Secret room in the train? A study about the use of indoor localization to measure real-time occupancy in the train per compartment
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2017/MScThesis_RubenvdValk.pdf
+- **Deniz Leyla Kilic (2017)** — Privacy Paradox on Geotagging - Perception on location privacy by social media users in the Netherlands
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2017/GIMA_Thesis_Deniz_Kilic.pdf
+- **Kai Passier (2017)** — Making open geo-data attainable for everyone - Requirements for a Layman's GeoPortal
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2017/GIMA_Thesis_Kai_Passier.pdf
+- **Oscar Ribberink (2017)** — Standardization of geo data exchange between network operators and contractors in underground utilities
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2017/GIMA_Thesis_Oscar_Ribberink.pdf
+- **Jennifer Oldfield (2017)** — Working with Open BIM Standards to Source Legal Spaces for a 3D Cadastre
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2017/JenniferMSc_BIM_3DCadastre.pdf
+- **Stephan Kool (2018)** — Viable Service Design Method for Earth Observation Applications: Developing a method for the design of viable services for applications using on big and open earth observation data as a resource
+  - GDMC names the programme: Complex Systems Engineering and Management, Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2018/MSc_thesis_Stephan_Kool.pdf
+  - record: https://resolver.tudelft.nl/uuid:886733af-94b5-4dfc-ace4-1014cbcb095b
+- **Adriaan van Natijne (2018)** — Locating PS-InSAR derived deformation using LiDAR point clouds
+  - GDMC names the programme: Civil Engineering and Geosciences, Geoscience and Remote Sensing, Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2018/MSc_thesis_Adriaan_van_Natijne.pdf
+  - record: https://resolver.tudelft.nl/uuid:a3009786-9b1b-4e57-ae1a-23aef33bcfa5
+- **Tom van der Meer (2018)** — Geovisualization for the Dutch fire brigade - a research about effective cartographic methods for assisting tactics choice and indoor deployments during building fires
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2018/MSc_thesis_Tom_van_der_Meer.pdf
+- **Falco Joosten (2018)** — Map supported point cloud registration - a method for creation of a smart point cloud
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2018/MSc_thesis_Falco_Joosten.pdf
+- **Rik de Kleijn (2018)** — Route modelling for gritting vehicles - A GIS-based approach for the Municipality of Rotterdam
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2018/Thesis_Rik_de_kleijn_final.pdf
+- **Thomas Lier (2019)** — Encounter Probability of Inland Maritime Traffic
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_Thesis_Thomas_Lier.pdf
+- **Felipe Reinel Tarazona (2019)** — Multidimensional Labor Resource Visualization for Integrated Turnarounds
+  - GDMC names the programme: Civil Engineering and Geosciences, Construction Management and Engineering, Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_Thesis_Felipe_Reinel.pdf
+- **Tom Sassen (2019)** — The influence of drone flightpath on photogrammetric model quality
+  - GDMC names the programme: Civil Engineering and Geosciences, Geoscience and Remote Sensing, Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_Thesis_Tom_Sassen.pdf
+  - record: https://resolver.tudelft.nl/uuid:f3fc7682-ba88-470c-83fc-0510c4413678
+- **Simon Groen (2019)** — Running the Tracks - Contextual Influence Modeling
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Simon_Groen.pdf
+- **Jesse Gruijters (2019)** — Weather conditions and route choice of cyclists: Investigating the impact of weather conditions on the route choice behaviour of commuting cyclists in the Netherlands
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Jesse_Gruijters.pdf
+- **Joep Kelderman (2019)** — The effect of the built environment on bicycle use as travel mode
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Joep_Kelderman.pdf
+- **Kai Meijning (2019)** — Assessing the impact of bicycle infrastructure on cyclists’ route choice in the Dutch province of Noord-Brabant
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Kai_Meijning.pdf
+- **Laurens Kik (2019)** — A study into the effects of assisted and autonomous vehicles on stop-and-go waves at on-ramps
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Laurens_Kik.pdf
+- **Inge van den Meiracker (2019)** — Exploring 3D functionalities: A research into software that support the spatial analysis and visualisation of 3D subsurface data
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Inge_van_den_Meiracker.pdf
+- **Derek van Bochove (2019)** — The combination of Mobile Laser Scanning and Airborne Laser Scanning point cloud data at the municipality of Rotterdam
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Derek_van_Bochove.pdf
+- **Sander van der Klei (2019)** — The Role of Geospatial Technologies in Building Smarter Cities
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Sander_van_der_Klei.pdf
+- **Lieuwe Arend Visser (2019)** — Built environment and cycling speed: Investigating built environment influences on cycling speed in the Netherlands
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Lieuwe_Visser.pdf
+- **Guillermo Martín Jiménez (2019)** — Towards open geo-information science; Assessing academic user involvement in portal development and its effect on their usage and perceived satisfaction
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Guillermo_Martin_Jimenez.pdf
+- **Florieke Drenth (2019)** — Involving third parties in the development of the “Digitaal Stelsel Omgevingswet”
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Florieke_Drenth.pdf
+- **Yannick Brangers (2019)** — Project A-Locate: Using location-allocation modelling to optimise human resources in retail environments
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Yannick_Brangers.pdf
+- **Eoin Scollard (2019)** — An Evaluation Model for GI SMEs migrating to GeoCloud Services
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2019/MSc_thesis_Eoin_Scollard.pdf
+- **Zhiwei Ai (2019)** — Semantic Segmentation of Large-scale Urban Scenes from Point Clouds
+  - repository Programme: Mechanical Engineering
+  - listed on 3d.bk.tudelft.nl
+  - record: https://resolver.tudelft.nl/uuid:a9cedaac-42ae-4cb0-9c14-67bab8e96a6d
+- **Mick Visser (2020)** — Creating a user-centric assessment framework to assess Spatial Data Infrastructures for Crisis Management
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2020/MScMickVisser.pdf
+- **Robin van de Wal (2020)** — A GIS-based analysis of offensive movement actions in football - Assessing the quality of off-the-ball, offensive positioning in football using a GIS platform
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2020/MScRobinvandeWal.pdf
+- **Bart-Peter Smit (2020)** — Creating Remote Situation Awareness of Indoor First Responder Operations using SLAM
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2020/MScThesisBart-PeterSmit.pdf
+- **Suzanne Maljaars (2020)** — Detecting spatial ship behaviour patterns using clustering of static and dynamic information in AIS data
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2020/MScThesisSuzanneMaljaars.pdf
+- **Marc Bruna (2020)** — Analyzing subsidence in the Netherlands with attribute-enriched InSAR data
+  - GDMC names the programme: Civil Engineering and Geosciences, Geoscience and Remote Sensing, Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2020/MSc_Thesis_final_marcbruna2.pdf
+  - record: https://resolver.tudelft.nl/uuid:90970051-1c2c-4bfa-8862-051c4cdf3b5a
+- **Aviva Opsomer (2020)** — Exploring the effects of void decks on urban ventilation in Singapore
+  - repository Programme: Architecture, Urbanism and Building Sciences, Building Technology, Sustainable Design
+  - listed on 3d.bk.tudelft.nl
+  - record: https://resolver.tudelft.nl/uuid:97304da6-8938-48eb-8117-ca53321b1e34
+- **Yılmaz Bahadır Tüzgel (2021)** — An SDI assessment framework for emergency response data provision readiness
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisBahadirTuzgel.pdf
+- **Marjan Broekhuizen (2021)** — BIM/IFC-files as input for 3D Land Administration Systems
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisMarjanBroekhuizen.pdf
+- **Charlie Groenewegen (2021)** — GIS-based site suitability analysis for solar and wind to hydrogen potential in Europe and Mediterranean region in 2030 and 2040
+  - GDMC names the programme: Sustainable Energy Technology, TU Delft
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisCharlieGroenewegen.pdf
+- **Abhishek Holla (2021)** — Digital Solutions for a Circular Façade Economy - A conceptual framework of a Façade’s Product Passport to facilitate decision making at its End of Service (EoS)
+  - GDMC names the programme: Building Technology, TU Delft
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisAbhishekHolla.pdf
+- **Bram Pijnenburg (2021)** — Assesment of heating energy use at postal code level 6: influence of the local climate
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisBramPijnenburg.pdf
+- **Jimme Smit (2021)** — Cycling Behaviours: Minimising Travel Distance, Minimising Travel Time and Continuous Cycling
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisJimmeSmit.pdf
+- **Maaike Kuiper (2021)** — The impact of safety on cycling route choice
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisMaaikeKuiper.pdf
+- **Marc Baauw (2021)** — Maintaining an up to date digital twin by direct use of point cloud data
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisMarcBaauw.pdf
+- **Chia-Yun Chang (2021)** — Identify and visualize Dutch inland waterways vessel movement anomalies during low water levels
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisChia-YunChang.pdf
+- **Daan Molleman (2021)** — Who can command the Random Forest and make the trees pull Data out of the earth? - Predicting soil types through Random Forest machine learning using open-source data
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisDaanMolleman.pdf
+- **Frida Boone (2021)** — Third wave open data in the Netherlands: Identifying and overcoming the barriers towards open geographical data of public undertakings
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisFridaBoone.pdf
+- **Harmke Vliek (2021)** — Cyclists’ route choice: analysing the greenness of the built and rural environment
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisHarmkeVliek.pdf
+- **Luc van der Lecq (2021)** — Mapping Maritime Risk in the Kattegat Using the Automatic Identification System
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisLucvanderLecq.pdf
+- **Luka van der Klaauw (2021)** — Introducing 3D representations as an advanced method for the case of the Hot-Warm-Cold zone model
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisLukavanderKlaauw.pdf
+- **Nienke Vogelzang (2021)** — Improvement of Land Subsidence Communication through Point Cloud Visualizations
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisNienkeVogelzang.pdf
+- **Stijn Ticheloven (2021)** — The added value of direct point cloud analysis in hydrology: A new method to derive streams from LiDAR data
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisStijnTicheloven.pdf
+- **Ynke Schreijer (2021)** — Visual insight into the temporal changes of sand patterns along the Dutch coast
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2021/MScThesisYnkeSchreijer.pdf
+- **Anastasios Vogiatzis (2021)** — Automated railway object mapping using imagery and point clouds
+  - repository Programme: Geoscience and Remote Sensing
+  - listed on 3d.bk.tudelft.nl
+  - record: https://resolver.tudelft.nl/uuid:ddba89ed-61cd-478a-8f07-8e2bccdfb403
+- **Yannick Bouten (2022)** — An eye in the sky: a use-case for evaluating super resolution
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2022/MScThesisYannickBouten.pdf
+- **Jesse Dijkstra (2022)** — Identification, analysis, and mapping of collision risk in the Strait of Istanbul using AIS data
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2022/MScThesisJesseDijkstra.pdf
+- **Gido Stoop (2022)** — Using Land-use Data to Improve Automatic Classification Accuracy of Machine Learning Models for Classifying Outdoor Sport Activities in GNSS-Tracks
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2022/MScThesisGidoStoop.pdf
+- **Odyssefs Karatzaferis (2022)** — Crosswalk detection for the outdoor navigation of people with visual impairment
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2022/MScThessiOdyssefsKaratzaferis.pdf
+- **Christian Riesner (2022)** — Integrating Ground Penetrating Radar data in a GIS to detect unmarked graves via a Convolutional Neural Network framework for 3D point cloud interpretation
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2022/MScThesisChristianRiesner.pdf
+- **Daniël Koster (2023)** — Integrating urban context in daylighting simulationThe design consequences in Dutch urban areas,regarding visual & non-visual levels of daylightMaster
+  - GDMC names the programme: Building Technology, Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisDanielKoster.pdf
+  - record: https://resolver.tudelft.nl/uuid:ac38ca66-578b-425d-869b-68da3b585e8d
+- **Niek Manders (2023)** — Comparing AHN point clouds for their performance in representing 3D buildings in Zuid-Holland -- A quantitative and qualitative performance review between AHN3 and AHN4
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisNiekManders.pdf
+- **Renato Markus (2023)** — An assessment of the open data governance of middle-sized Dutch Municipalities
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisRenatoMarkus.pdf
+- **Danny van Steijn (2023)** — Building an IndoorGML model in (near) real time
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisDannyVanSteijn.pdf
+- **Juraj Zvolenský (2023)** — The current state of open standards for spatial data in Solid environments for secure spatial personal data and use by third parties
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisJurajZvolensky.pdf
+- **Floris Bottema (2023)** — Spatial shift and urban resilience: A case study on the city of Rotterdam
+  - GDMC names the programme: MADE (TUD, WUR, AMS Institute)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisFlorisBottema.pdf
+- **Matthijs Hoogmoed (2023)** — Visualizing the area differences of the 6th Cadastral Map of the Netherlands
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisMatthijsHoogmoed.pdf
+- **Marijn Meilink (2023)** — The efficiency of ground forces following Network Centric Warfare characteristics in the urban region of The Hague: An ABM study in GAMA
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisMarijnMeilink.pdf
+- **Jurek van Goor (2023)** — Impact of the urban design on Urban Heat Islands: The Use and Possibilities of Thermal Satellite Imagery
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisJurekVanGoor.pdf
+- **Willem van de Corput (2023)** — Detecting and Resolving Narrow Conflicts for Vario-scale Maps
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisWillemVanDeCorput.pdf
+- **Stijn Mars (2023)** — Analysing the relation between land use and subsidence in the Randstad in the Netherlands
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisStijnMars.pdf
+- **Sibe van den Beukel (2023)** — 3D GIS distribution network of Brabant Water - Possibilities for spatial decision support
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisSibe_van_den_Beukel.pdf
+- **Karalidis Konstantinos (2023)** — Deep Learning Method for forest fire detection and simulation of wildfire expansion using sentinel-2 images
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisKonstantinosKaralidis.pdf
+- **Flinn Berks (2023)** — Can’t See the Forest for the Trees - Applying Geospatial Statistics to assess Tree based Machine Learning AVMs in the Dutch Residential Real Estate Market
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisFlinnBerks.pdf
+- **Ferran Oró Arán (2023)** — Understanding the Spatial Employment Distribution in Barcelna Metropolitan Area
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2023/MScThesisFerranOróArán.pdf
+- **Camera Ford (2024)** — Laser Scanning for Emergency First Responders - Evaluating LiDAR Technology in Practice
+  - GDMC names the programme: Education and Communication and Applied Earth Sciences, Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2024/MScThesisCameraFord.pdf
+- **Carlijn Ligterink (2024)** — ‘Pay-Per-Use’ vehicle tax in the Netherlands: a spatial accessibility perspective
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2024/MScThesisCarlijnLigterink.pdf
+- **Algan Mert Yasar (2024)** — Direct Use of Indoor Point Clouds for Path Planning and Navigation Exploration in Emergency Situations
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2024/MScThesisAlganYasar.pdf
+- **Geunchan Song (2025)** — Urban form, urban heat island effect and energy demand: Insights from Seoul
+  - GDMC names the programme: Master Architecture, Urbanism and Building Sciences, Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2025/MScThesisGeunchanSong.pdf
+  - record: https://resolver.tudelft.nl/uuid:da3d415d-f012-4522-a02e-2ff8634dd952
+- **Valentijn Cloo (2025)** — Deep learning-based object detection for efflorescence recognition in maosnry
+  - GDMC names the programme: Master Architecture, Urbanism and Building Sciences, Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2025/MScThesisValentijnCloo.pdf
+  - record: https://resolver.tudelft.nl/uuid:76e82d46-af6b-45e9-9e14-6e62faf381f1
+- **Pleun Gottenbos (2025)** — Data Lineage in the RVB (Rijksvastgoedbedrijf)
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2025/MScThesisPleunGottenbos.pdf
+- **Wouter Niessen (2025)** — On the use of VR for improved interpretation of InSAR results
+  - GDMC names the programme: Applied Earth Sciences (Earth Observation Track), Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2025/MScThesisWouterNiessen.pdf
+  - record: https://resolver.tudelft.nl/uuid:db240fa1-e37c-4fa1-8cc7-97b7743e91d0
+- **Isabelle Lucchese (2025)** — Optimizing Building Retrofit Process with Artificial Intelligence
+  - GDMC names the programme: Master Architecture, Urbanism and Building Sciences, Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2025/MScThesisIsabellaLucchese.pdf
+- **Reinier van Kleef (2025)** — Exploring the Possibilities of (Near) Real-Time Semantic Segmentation with 3D Point Cloud Data and Effective User-Centric Visualizations for First Responders
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2025/MScThesisReinierVanKleef.pdf
+- **Bram van der Pas (2025)** — Degassing in Inland Shipping - An Exploratory Study on Identifying Degassing Patterns and Hotspots on Dutch Inland Waterways Based on AIS and IVS data
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2025/MScThesisBramVdPas.pdf
+- **Konstantin Terhaar (2025)** — Exploring the Potential of BIM in Addressing Key Challenges in Offshore Wind Energy Projects
+  - GDMC names the programme: Construction Management and Engineering, Delft University of Technology
+  - pdf: https://www.gdmc.nl/publications/2025/MScThesisKonstantinTerhaar.pdf
+- **Boris Leendertszoon Beije (2025)** — Modelling Urban Transformations: A Spatio-Temporal Analysis of Building Changes in the Conservation Area of Utrecht
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2025/MScThesisBorisBeije.pdf
+- **Jop Smeets (2025)** — Creating Digital Surface Models from satellite imagery using Neural Radiance Fields (NeRF)
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2025/MSsThesisJopSmeets.pdf
+- **Hidde-Jan van der Geest (2025)** — Quantifying the Impact of Coastal Dune Management Policies - a Case Study of Meijendel, Wassenaar, 1975-2020
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2025/MScHiddeJanVdGeest.pdf
+- **Olivier Wijnmaalen (2026)** — Rethinking the Business Model of Open Data Intermediaries: A Case Study of 9292 in the Dutch Public Transport Ecosystem
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2026/MScThesisOlivierWijnmaalen.pdf
+- **Mareike de Lanversin (2026)** — Quantifying per-pixel radiometric uncertainties due to geolocation error: a CHIME case study
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2026/MScThesisMareikeDeLanversin.pdf
+- **Luuk Jochems (2026)** — Local Climate, Urban Form and Residential Gas Consumption: Assessing the Added Value of Crowdsourced Temperature Data in The Hague
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2026/MScThesisLuukJochems.pdf
+- **Jasper Zoon (2026)** — Inclusivity in Spatial Data Infrastructure Assessment - How to measure SDI performance in non-Western contexts - With a case study on South Africa & the City of Cape Town
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2026/MScThesisJasperZoon.pdf
+- **David Leoni (2026)** — From Amsterdam and Mexico City to the World: Heritage Conservation Areas in Comparative Perspective Pertaining to Water
+  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
+  - pdf: https://www.gdmc.nl/publications/2026/MScThesisDavidLeoni.pdf
+
+## Archive matches by name only (77)
+
+Matched on name and year without a repository uuid on both sides; worth glancing at for wrong attributions.
+
+- Mingjie Teo (2026) — IndoorGML-Constrained Navigation Across Multiple 3D Gaussian Splatting
+- Qiaorui Yang (2025) — Integrating Spatial Knowledge Graphs and Graph Neural Networks for Clu
+- Vidushi Bhatt (2025) — Geospatial Analytics from IoT ecosystem in Built spaces
+- Dimitrios Mouzakidis (2025) — LADM-based 3D system for Archaeological Site Information Registration
+- Xueheng Li (2025) — 3D Visualization and Dissemination of Property Valuation Information B
+- Lars Huizer (2025) — PHYSHADE-Net: Leveraging Geometric-Priors in Physics-Guided Neural Net
+- Lars Boertjes (2025) — Selective image region focus for efficient 3D building reconstruction 
+- Walter Hugo Johannes Kahn (2025) — Working Towards Oblique Aerial Adjustment through the Creation of Synt
+- Rafał Marek Tarczyński (2025) — ST-SimNet: A Spatio-Temporal Graph Neural Network for Urban Freight Fo
+- Michail Michalas (2025) — Super-Resolution for Enhanced Aerial Imagery
+- Xiaoluo Gong (2025) — Dynamic Seamless Oblique Image Mosaics for Aerial Visualization
+- Citra Andinasari (2025) — Point Cloud for 3D Land Administration System (LAS)
+- Yan Gao (2025) — Labeling Vario-scale Maps
+- Zhuoyue Wang (2025) — Structuring Semantics in Smart Point Clouds Using an HBIM Ontology for
+- Xenia Una Mainelli (2022) — Exploring Isovist Applications in Third-Person View Visualisations of 
+- Pratyush Kumar (2022) — An OGC 3D tiling technique based user-interactive platform for digital
+- Zhenyu Liu (2022) — Dynamic Objects Detection and Removal in Mobile Laser Scanning Data
+- Rohit Ramlakhan (2022) — Modelling the legal spaces of 3D underground objects in a 3D LAS
+- Ioannis Dardavesis (2022) — Indoor localisation and location tracking in semi-public buildings bas
+- Georgios Triantafyllou (2022) — Isovist Fingerprinting as new way of Indoor Localisation
+- Michiel de Jong (2022) — Using voxelised spaces for the generation and visualisation of dynamic
+- Theodoros Papakostas (2022) — Modelling a military scene using a Discrete Global Grid System
+- Liyao Zhang (2020) — Visualization of Point Cloud Models in Mobile Augmented Reality Using 
+- Dimitris Xenakis (2019) — Placement optimization of Positioning Nodes: Maximizing the distinctio
+- Lydia Kotoula (2018) — The Smart Point Cloud framework to detect pipelines using raw point cl
+- Benny Onrust (2015) — Automatic generation of plant distributions for existing and future na
+- Antigoni Makri (2015) — Indoor Signposting and Wayfinding through an Adaptation of the Dutch c
+- Hester Willems (2015) — The localisation of freight wagons on marshalling yards
+- Godelief Abhilakh Missier (2015) — Towards a Web application for viewing Spatial Linked Open Data of Rott
+- Dimitrios Zervakis (2015) — Combining a Physics-based Model and Spatial Interpolation of Scarce Be
+- Myron Ramkisoen (2015) — Solid CAD Geometries in a Spatial DBMS - An Application in the Petroch
+- Elise Tierie (2014) — Visualisation conformity of three dimensional IMGeo for emergency resp
+- Haicheng Liu (2014) — Comparing NetCDF and a multidimensional array database on managing and
+- Marija Krūminaitė (2014) — Space Subdivision for Indoor Navigation
+- Eva van der Laan (2014) — Radio propagation aided indoor localization
+- Karl van Winden (2014) — Automatically Deriving and Updating Attribute Road Data from Movement 
+- Xu Weilin (2014) — Spatial model-aided indoor tracking
+- Roeland Boeters (2013) — Automatic enhancement of CityGML LoD2 models with interiors and its us
+- Sjors Donkers (2013) — Automatic generation of CityGML LoD3 building models from IFC models
+- Lars de Vries (2013) — A research towards completing the asset information life cycle
+- Martine Wijga-Hoefsloot (2012) — Point Clouds in a Database
+- Tom Commandeur (2012) — Footprint decomposition combined with point cloud segmentation for pro
+- Prajnaparamita Bhattacharya (2012) — Quality assessment and object matching of OpenStreetMap in combination
+- Ravi Peters (2012) — A Voronoi- and surface-based approach for the automatic generation of 
+- Effrosyni Boufidou (2011) — Towards understanding the DOQ Priorat terroirs: A multivariate GIS ana
+- Daniel Xu (2011) — Design and Implementation of Constraints for 3D Spatial Database - Usi
+- Ken Arroyo Ohori (2010) — Validation and automatic repair of planar partitions using a constrain
+- Melina de Koning (2010) — Quality assessment of GSM positioning - GSM fingerprinting versus cell
+- Arnoud de Boer (2007) — Label placement in 3D georeferenced and oriented digital photographs u
+- Martijn Meijers (2006) — Implementation and testing of variable scale topological data structur
+- Giorgos Iliopoulos (2026) — (Semi-)automatic modeling of indoor building 3D models for daylight si
+- Vincent Vanderheeren (2026) — Pillar of Morphology - Enhancing point-based mathematical morphology f
+- Sue Wang (2026) — From IFC BIM to Semantically Enriched 2.5D Indoor Navigation Graphs fo
+- Lotte de Niet (2025) — Reconstructing legal 3D apartment models from 2D division drawings
+- Yingxin Feng (2024) — 3D building model edit with generative AI
+- Sitong Li (2024) — Enhancing 3D model for urban area with neural representations
+- Chengzhi Rao (2024) — Reconstructing a high-detailed 2D areal representation of road network
+- Qiuxian Wei (2024) — Multi-levels of detail terrain construction for navigation
+- Longxiang Xu (2024) — Large-scale, High-resolution Urban solar potential analysis through se
+- Daniël Dobson (2023) — Floor count from street view imagery using learning-based façade parsi
+- Lan Yan (2023) — Extraction of Exterior Building Envelopes from Building Information Mo
+- Fengyan Zhang (2023) — Snap rounding polygons with a triangulation
+- Irène Apra (2022) — Semantic segmentation of roof superstructures
+- Jos Feenstra (2022) — Geofront: directly accessible GIS tools using a web-based visual progr
+- Lars Langhorst (2022) — Predicting sedimentation in Lake Alajuela
+- Özge Tufan (2022) — Development and testing of the CityJSON Energy Extension for space hea
+- Jasper van der Vaart (2022) — Automatic building feature detection and reconstruction in IFC models
+- Yustisi Ardhitasari Lumban Gaol (2021) — Convolutional neural networks for satellite-derived bathymetry
+- Jialun Wu (2021) — A CityJSON extension to store city information towards the automation 
+- Felix Dahle (2020) — Automatic change detection in digital maps using aerial images and poi
+- Laurens Oostwegel (2020) — Indoor positioning using augmented reality
+- Pablo Ruben (2020) — Knowledge sharing on Q&amp;A fora: challenges of automated interaction
+- Puck Flikweert (2019) — Automatic Extraction of an IndoorGML Navigation from an Indoor Point C
+- Nebras Salheb (2019) — Automatic Conversion of CityGML to IFC
+- Teng Wu (2019) — Visibility analysis in a point cloud based on the medial axis transfor
+- Yixin Xu (2019) — Improving location accuracy of a crowdsourced weather station by using
+- Panagiotis Karydakis (2018) — Simplification &amp; visualization of BIM models through Hololens

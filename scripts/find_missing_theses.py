@@ -30,7 +30,7 @@ scripts/verified_theses.yml and always win. Theses from before
 GIMA theses are never gaps by definition: the archive covers the MSc
 Geomatics programme only.
 
-Output: missing_theses_report.md at the repo root and a console summary.
+Output: reports/missing_theses_report.md and a console summary.
 Exit status is 1 while confirmed gaps remain, 2 when a source page could
 not be parsed (so silent breakage of the two external pages is noticed).
 
@@ -57,7 +57,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import enrich_geotheses as eg  # noqa: E402  (shared helpers)
 
 REPO_ROOT = eg.REPO_ROOT
-REPORT_FILE = REPO_ROOT / "missing_theses_report.md"
+REPORT_FILE = REPO_ROOT / "reports" / "missing_theses_report.md"
 
 GDMC_URL = "https://www.gdmc.nl/publications/pubs.php"
 THREE_DGE_URL = "https://3d.bk.tudelft.nl/education/"
@@ -417,6 +417,7 @@ def describe(t):
 
 def write_report(gaps, candidates, non_geo, covered_name, n_archive,
                  n_theses, from_year, skipped_old):
+    REPORT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with REPORT_FILE.open("w", encoding="utf-8") as f:
         f.write(f"# External-source cross-check "
                 f"({datetime.now():%Y-%m-%d})\n\n")

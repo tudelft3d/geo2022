@@ -21,7 +21,7 @@ order above. PDFs are cached under .geotheses_cache/pdf/ (the
 repository's robots.txt crawl-delay makes the first run take ~20 s per
 thesis). Unresolved entries keep their initials and are reported.
 
-Dry-run by default: prints the proposal and writes student_names_report.md
+Dry-run by default: prints the proposal and writes reports/student_names_report.md
 with the evidence. Pass --write to apply to geotheses.yml.
 
 Usage:
@@ -51,7 +51,7 @@ from enrich_geotheses import (DATA_FILE, foldcase, mycase_closed,
 from thesis_covers import CACHE_DIR, choose_pdf, fetch_pdf, parse_files, \
     surname_key
 
-REPORT_FILE = REPO_ROOT / "student_names_report.md"
+REPORT_FILE = REPO_ROOT / "reports" / "student_names_report.md"
 GDMC_PUBS = CACHE_DIR / "src-gdmc-pubs.html"
 
 # tokens that may sit between a degree prefix and the surname without
@@ -316,9 +316,10 @@ def main():
                          f"{DATA_FILE.name}.\n")
     else:
         report.insert(1, "\nDry run: nothing written to geotheses.yml.\n")
-    Path(args.report or REPORT_FILE).write_text("\n".join(report),
-                                                encoding="utf-8")
-    print(f"report: {args.report or REPORT_FILE.name}")
+    report_file = Path(args.report or REPORT_FILE)
+    report_file.parent.mkdir(parents=True, exist_ok=True)
+    report_file.write_text("\n".join(report), encoding="utf-8")
+    print(f"report: {report_file}")
     return 0
 
 
