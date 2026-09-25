@@ -1263,6 +1263,7 @@
   year: 2025
   graduation_date: '2025-06-23'
   link: https://resolver.tudelft.nl/uuid:423f2ae2-6bb0-403f-875e-781194f87d46
+  image: Chontos.jpg
   abstract: While reconstructing urban environments, the accuracy of the model
     is strongly related to the quality of the input data. The initial type
     of input data for this process could be the footprints of the buildings,
@@ -2513,7 +2514,7 @@
   year: 2024
   graduation_date: '2024-07-03'
   link: https://resolver.tudelft.nl/uuid:5d20ed5a-9467-4760-b086-6da90073a257
-  image: Kaal.webp
+  image: Kaal.jpg
   abstract: 'The transition to a fully electrified energy grid in the Netherlands
     is essential for the country''s energy transition strategy. However, the
     existing grid infrastructure struggles to support the increased demand

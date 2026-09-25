@@ -61,9 +61,11 @@ python3 scripts/update_theses.py
 # run takes ~2 h; PDFs are discarded after rendering, so nothing
 # multi-MB is kept on disk), renders page 1 into theses/img/<image>,
 # assigns image fields where missing and writes covers_report.md (blank
-# covers, surname mismatches). --keep-pdfs caches the PDFs for offline
-# re-renders; --skip-existing leaves existing thumbnails alone.
-python3 scripts/thesis_covers.py          # add --skip-existing / --offline / --limit
+# covers, slides/milestone picks, surname mismatches). Re-runs resume
+# from .geotheses_cache/covers_progress.yml; --redo-all starts over.
+# --keep-pdfs caches the PDFs for offline re-renders; --skip-existing
+# leaves existing thumbnails alone.
+python3 scripts/thesis_covers.py          # add --skip-existing / --redo-all / --limit
 ```
 
 ## Per-quarter maintenance workflow
