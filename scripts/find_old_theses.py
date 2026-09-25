@@ -55,21 +55,37 @@ MAX_PAGES = 40  # per surname; 800 records is plenty for any one person
 # ------------------------------------------------------------ supervisors
 
 def load_supervisors():
-    """(surname_key, display) for every status='yes' supervisor, plus the
-    archive aliases' initial strings per key (e.g. ['me'] for
+    """(key -> display surname) for every status='yes' supervisor, plus
+    the archive aliases' initial strings per key (e.g. ['me'] for
     'M.E. De Vries'), used for consistency checks."""
     supervisors = yaml.safe_load(SUPERVISORS_FILE.read_text())["supervisors"]
     keys, initials = {}, {}
     for entry in supervisors:
         if entry.get("status") != "yes":
             continue
-        key = surname_key(entry["surname"])
-        keys[key] = entry["surname"]
+        for key in name_keys(entry["surname"]):
+            keys[key] = entry["surname"]
         for alias in entry.get("aliases", []):
             got = given_initials(alias)
             if got:
-                initials.setdefault(key, set()).add(got)
+                initials.setdefault(surname_key(entry["surname"]),
+                                    set()).add(got)
     return keys, initials
+
+
+def name_keys(name):
+    """Matching keys for a person's (last) name: the last word's key and,
+    for multi-word names, the compactly joined key -- the repository
+    inconsistently splits some surnames ('Khosh Elham' ~ 'Khoshelham',
+    'Arroyo Ohori')."""
+    tokens = name.replace(",", " ").split()
+    i = 0
+    while i < len(tokens) - 1 and tokens[i].lower().strip("'") in TUSS:
+        i += 1
+    keys = {eg.foldcase(tokens[-1])}
+    if len(tokens) - i > 1:
+        keys.add(eg.foldcase("".join(tokens[i:])))
+    return keys
 
 
 def surname_key(surname):
@@ -132,12 +148,11 @@ def search_surname(surname, offline):
 # --------------------------------------------------------------- matching
 
 def contributor_surnames(record):
-    """Normalised surnames of the record's contributors (mentors etc.)."""
+    """Matching keys of the record's contributors' names (mentors etc.)."""
     out = set()
     for person in record.get("contributors", []):
-        key = surname_key(person.get("last_name") or "")
-        if key:
-            out.add(key)
+        out |= name_keys(person.get("last_name") or "")
+    out.discard("")
     return out
 
 
@@ -174,12 +189,12 @@ def search_initials_match(record, initials):
     initials (in the search data). Missing initials count as consistent;
     the record page is the real check."""
     for person in record.get("contributors", []):
-        key = surname_key(person.get("last_name") or "")
-        if key not in initials:
+        keys = name_keys(person.get("last_name") or "") & initials.keys()
+        if not keys:
             continue
         got = given_initials((person.get("first_name") or "") + " "
                              + (person.get("last_name") or ""))
-        if initials_consistent(got, initials[key]):
+        if any(initials_consistent(got, initials[k]) for k in keys):
             return True
     return False
 
@@ -212,10 +227,11 @@ def classify(theses, initials, verdicts):
             gaps.append(t)
             continue
         mentors = t.get("mentors", []) + t.get("coaches", [])
-        match_names = {m.split()[-1] for m in mentors
-                       if surname_key(m.split()[-1]) in initials
-                       and initials_match(m, initials[surname_key(
-                           m.split()[-1])])}
+        match_names = {m for m in mentors
+                       if name_keys(m) & initials.keys()
+                       and any(initials_consistent(
+                           given_initials(m), initials[k])
+                           for k in name_keys(m) & initials.keys())}
         if match_names or t.get("search_initials_ok"):
             likely.append(t)
         else:
@@ -289,7 +305,7 @@ def write_report(gaps, likely, collisions, verified_non, n_archive,
 # ------------------------------------------------------------------- add
 
 def append_theses(theses, args):
-    """Append confirmed gaps + likely theses to the archive, enriched from
+    """Append confirmed gaps to the archive, enriched from
     the record page where possible; needs_review until a human confirms."""
     entries = yaml.safe_load((REPO_ROOT / "_data" / "geotheses.yml")
                              .read_text())
@@ -329,8 +345,9 @@ def append_theses(theses, args):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--add", action="store_true",
-                    help="append confirmed gaps + likely theses to "
-                         "_data/geotheses.yml (flagged needs_review)")
+                    help="append confirmed gaps (the likely bucket stays "
+                         "report-only) to _data/geotheses.yml "
+                         "(flagged needs_review)")
     ap.add_argument("--offline", action="store_true",
                     help="work from the cache only, no network")
     ap.add_argument("--delay", type=float, default=20.0,
@@ -435,7 +452,7 @@ def main():
     print(f"Report written to {REPORT_FILE}", flush=True)
 
     if args.add:
-        added = append_theses(gaps + likely, args)
+        added = append_theses(gaps, args)
         print(f"Appended {added} theses to the archive "
               "(flagged needs_review).", flush=True)
         return 0

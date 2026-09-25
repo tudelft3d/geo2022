@@ -8,6 +8,10 @@
 # status meanings:
 #   yes      supervisor of at least one thesis already in the archive
 #            (2013+), so no confirmation needed
+#   no       evaluated and not predictive: contributed no confirmed
+#            Geomatics thesis in the 2006-2012 sweep window (or its one
+#            hit is covered by a kept co-supervisor), so the script skips
+#            it; flip back to 'yes' if that ever changes
 #   pending  candidate for the pre-2013 / remote-sensing era; Ken confirms
 #            or discards (change to 'yes', or delete the entry)
 #
@@ -59,7 +63,7 @@ supervisors:
   - S.Z. Zlatanova
   - Sisi Zlatanova
 - surname: Stoter
-  status: 'yes'
+  status: 'no'
   aliases:
   - J. Stoter
   - J.E. Stoter
@@ -96,7 +100,7 @@ supervisors:
   - B. van Loenen
   - Bastiaan van Loenen
 - surname: Sánchez
-  status: 'yes'
+  status: 'no'
   aliases:
   - C.A. León Sánchez
   - Camilo León Sánchez
@@ -145,7 +149,7 @@ supervisors:
   - P. Nourian
   - Pirouz Nourian
 - surname: Vries
-  status: 'yes'
+  status: 'no'
   aliases:
   - M.E. De Vries
   - Marianne de Vries
@@ -155,7 +159,7 @@ supervisors:
   - F. Biljecki
   - Filip Biljecki
 - surname: Ploeger
-  status: 'yes'
+  status: 'no'
   aliases:
   - H.D. Ploeger
   - Hendrik Ploeger
@@ -179,12 +183,12 @@ supervisors:
   - M.J. Pronk
   - Maarten Pronk
 - surname: Patil
-  status: 'yes'
+  status: 'no'
   aliases:
   - A. Patil
   - Akshay Patil
 - surname: Spek
-  status: 'yes'
+  status: 'no'
   aliases:
   - S.C. van der Spek
   - Stefan van der Spek
@@ -198,7 +202,7 @@ supervisors:
   - A. Labetski
   - Anna Labetski
 - surname: Liu
-  status: 'yes'
+  status: 'no'
   aliases:
   - H. Liu
   - L. Liu
@@ -213,7 +217,7 @@ supervisors:
   - J. Schembri
   - Justin Schembri
 - surname: Zhou
-  status: 'yes'
+  status: 'no'
   aliases:
   - Kaixuan Zhou
   - X. Zhou
@@ -228,7 +232,7 @@ supervisors:
   - Jasper van der Vaart
   - Niels van der Vaart
 - surname: Hackauf
-  status: 'yes'
+  status: 'no'
   aliases:
   - U. Hackauf
   - U.D. Hackauf
@@ -238,7 +242,7 @@ supervisors:
   - S. Du
   - Shenglan Du
 - surname: Esch
-  status: 'yes'
+  status: 'no'
   aliases:
   - M.M.E. Pijpers-van Esch
   - M.M.E. van Esch
@@ -264,12 +268,12 @@ supervisors:
   aliases:
   - Rusne Šileryte
 - surname: Veldhuis
-  status: 'yes'
+  status: 'no'
   aliases:
   - C. Veldhuis
   - Henri Veldhuis
 - surname: Giesen
-  status: 'yes'
+  status: 'no'
   aliases:
   - N. van de Giesen
   - Nick van de Giesen
@@ -283,7 +287,7 @@ supervisors:
   aliases:
   - A.A. Diakité
 - surname: Giardina
-  status: 'yes'
+  status: 'no'
   aliases:
   - G. Giardina
 - surname: Bal
@@ -327,7 +331,7 @@ supervisors:
   aliases:
   - C. Cottineau
 - surname: Leenders
-  status: 'yes'
+  status: 'no'
   aliases:
   - Nick Leenders
 - surname: Doi
@@ -335,7 +339,7 @@ supervisors:
   aliases:
   - Hiba Doi
 - surname: Bokel
-  status: 'yes'
+  status: 'no'
   aliases:
   - R.M.J. Bokel
 - surname: Hakim
@@ -399,7 +403,7 @@ supervisors:
   aliases:
   - F.M. Welle Donker
 - surname: Cavallo
-  status: 'yes'
+  status: 'no'
   aliases:
   - R. Cavallo
 - surname: Khademi
@@ -419,7 +423,7 @@ supervisors:
   aliases:
   - Kees Maat
 - surname: Baart
-  status: 'yes'
+  status: 'no'
   aliases:
   - Fedor Baart
 - surname: Hendriksen
@@ -427,7 +431,7 @@ supervisors:
   aliases:
   - Gerrit Hendriksen
 - surname: Heijer
-  status: 'yes'
+  status: 'no'
   aliases:
   - Alexandra den Heijer
 - surname: Thompson
@@ -451,7 +455,7 @@ supervisors:
   aliases:
   - Agung Indrajit
 - surname: Dekker
-  status: 'yes'
+  status: 'no'
   aliases:
   - Paco Lopez Dekker
 - surname: Davelaar
@@ -471,11 +475,11 @@ supervisors:
   aliases:
   - Clayton Miller
 - surname: Tijssen
-  status: 'yes'
+  status: 'no'
   aliases:
   - T.P.M. Tijssen
 - surname: Eisemann
-  status: 'yes'
+  status: 'no'
   aliases:
   - E. Eisemann
 - surname: Buchholz
@@ -483,7 +487,7 @@ supervisors:
   aliases:
   - B.B.E. Buchholz
 - surname: Hooimeijer
-  status: 'yes'
+  status: 'no'
   aliases:
   - F.L. Hooimeijer
 - surname: Wasserman
@@ -495,11 +499,11 @@ supervisors:
   aliases:
   - J. Zhao
 - surname: Jansen
-  status: 'yes'
+  status: 'no'
   aliases:
   - E. Jansen
 - surname: Paassen
-  status: 'yes'
+  status: 'no'
   aliases:
   - L. van Paassen
 - surname: Dilo
@@ -540,3 +544,108 @@ supervisors:
 
 # Su (remote sensing / evapotranspiration) was proposed and discarded by
 # Ken in 2026-09: no evidence he supervised Geomatics MSc theses.
+
+# --- mentors of the pre-2013 theses confirmed in the 2026-09
+# --- supervisor sweep (bootstrapped from the recovered theses)
+
+- surname: Bucksch
+  status: 'yes'
+  aliases:
+  - A. Bucksch
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: De Jong
+  status: 'no'
+  aliases:
+  - C.D. De Jong
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Ditmar
+  status: 'yes'
+  aliases:
+  - P. Ditmar
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Elham
+  status: 'yes'
+  aliases:
+  - K. Khosh Elham
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Gunter
+  status: 'yes'
+  aliases:
+  - B.C. Gunter
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Khoshelham
+  status: 'yes'
+  aliases:
+  - K. Khoshelham
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Klees
+  status: 'yes'
+  aliases:
+  - R. Klees
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Kääb
+  status: 'yes'
+  aliases:
+  - A. Kääb
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Ngan-Tillard
+  status: 'yes'
+  aliases:
+  - D. Ngan-Tillard
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Nuth
+  status: 'yes'
+  aliases:
+  - C. Nuth
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Pfeifer
+  status: 'yes'
+  aliases:
+  - N. Pfeifer
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Simons
+  status: 'yes'
+  aliases:
+  - D.G. Simons
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Soudarissanane
+  status: 'yes'
+  aliases:
+  - S.S. Soudarissanane
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Storms
+  status: 'no'
+  aliases:
+  - J.E.A. Storms
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Teunissen
+  status: 'yes'
+  aliases:
+  - P. Teunissen
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: Weltje
+  status: 'no'
+  aliases:
+  - G.J. Weltje
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+- surname: van Leijen
+  status: 'yes'
+  aliases:
+  - F. J van Leijen
+  note: mentor of theses confirmed in the 2026-09 supervisor sweep
