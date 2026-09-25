@@ -41,6 +41,15 @@ python3 scripts/check_geotheses.py --img-dir theses/img
 # Hand verdicts go in scripts/verified_theses.yml.
 python3 scripts/find_missing_theses.py          # add --offline / --no-pdf
 
+# Sweep the repository for pre-coverage theses (the GDMC / 3dge lists only
+# reach back to the archive's start) by supervisor surname: searches the
+# repository's search API for MSc theses whose supervisors include someone
+# from scripts/geomatics_supervisors.yml, fetches record pages for the
+# older ones and writes old_theses_report.md (confirmed gaps, likely,
+# name collisions). --add appends the first two buckets flagged
+# needs_review; hand verdicts go in scripts/verified_theses.yml.
+python3 scripts/find_old_theses.py          # add --offline / --from-year / --all-years
+
 # Sync _data/ongoing_theses.yml (Current Theses page) with MyCase's open
 # cases: adds new starters (flagged needs_summary), syncs phases/
 # supervisors/official titles, reports who is no longer open. --prune
@@ -94,6 +103,8 @@ After each graduation round (or whenever, really):
 | `scripts/enrich_geotheses.py` | Cleans/enriches the archive from repository records + MyCase |
 | `scripts/check_geotheses.py` | Validates the archive data |
 | `scripts/find_missing_theses.py` | Cross-checks the archive with the GDMC + 3dge thesis lists |
+| `scripts/find_old_theses.py` | Sweeps the repository for pre-coverage theses by supervisor surname |
+| `scripts/geomatics_supervisors.yml` | Supervisor list feeding `find_old_theses.py` (status `yes`/`pending`) |
 
 ## Conventions
 

@@ -1,0 +1,542 @@
+# Draft list of likely Geomatics MSc supervisors.
+#
+# Intended input for scripts/find_old_theses.py, which sweeps the TU Delft
+# repository for MSc theses supervised by these people and reports the ones
+# missing from _data/geotheses.yml (especially pre-2013, the era before the
+# GDMC / 3d.bk.tudelft.nl lists start).
+#
+# status meanings:
+#   yes      supervisor of at least one thesis already in the archive
+#            (2013+), so no confirmation needed
+#   pending  candidate for the pre-2013 / remote-sensing era; Ken confirms
+#            or discards (change to 'yes', or delete the entry)
+#
+# 'aliases' are the exact supervisor strings found in the archive, kept so
+# the script can match against the repository's contributor names.
+#
+# NOTE: every 'yes' name is only a SEARCH KEY -- the theses it turns up are
+# classified separately (programme field, mentors, title keywords) and
+# never added without review.
+
+supervisors:
+- surname: Oosterom
+  status: 'yes'
+  aliases:
+  - P. van Oosterom
+  - P.J.M. Oosterom
+  - P.J.M. van Oosterom
+  - Peter van Oosterom
+- surname: Ledoux
+  status: 'yes'
+  aliases:
+  - H. Ledoux
+  - Hugo Ledoux
+- surname: Meijers
+  status: 'yes'
+  aliases:
+  - B.M. Meijers
+  - M. Meijers
+  - Martijn Meijers
+- surname: Verbree
+  status: 'yes'
+  aliases:
+  - E. Verbree
+  - Edward Verbree
+- surname: Rafiee
+  status: 'yes'
+  aliases:
+  - A. Rafiee
+  - Azarakhsh Rafiee
+- surname: Ohori
+  status: 'yes'
+  aliases:
+  - G.A.K. Arroyo Ohori
+  - Ken Arroyo Ohori
+- surname: Zlatanova
+  status: 'yes'
+  aliases:
+  - S. Zlatanova
+  - S.Z. Zlatanova
+  - Sisi Zlatanova
+- surname: Stoter
+  status: 'yes'
+  aliases:
+  - J. Stoter
+  - J.E. Stoter
+  - Jantien Stoter
+- surname: Agugiaro
+  status: 'yes'
+  aliases:
+  - G. Agugiaro
+  - Giorgio Agugiaro
+- surname: Nan
+  status: 'yes'
+  aliases:
+  - L. Nan
+  - Liangliang Nan
+- surname: Sanchez
+  status: 'yes'
+  aliases:
+  - C. Garcia Sanchez
+  - Clara Garcia Sanchez
+- surname: Peters
+  status: 'yes'
+  aliases:
+  - R.Y. Peters
+  - Ravi Peters
+- surname: Quak
+  status: 'yes'
+  aliases:
+  - C.W. Quak
+  - W. Quak
+  - Wilko Quak
+- surname: Loenen
+  status: 'yes'
+  aliases:
+  - B. van Loenen
+  - Bastiaan van Loenen
+- surname: Sánchez
+  status: 'yes'
+  aliases:
+  - C.A. León Sánchez
+  - Camilo León Sánchez
+- surname: Voûte
+  status: 'yes'
+  aliases:
+  - R.L. Voûte
+  - Robert Voûte
+- surname: Vitalis
+  status: 'yes'
+  aliases:
+  - S. Vitalis
+  - Stelios Vitalis
+- surname: Ibrahimli
+  status: 'yes'
+  aliases:
+  - N. Ibrahimli
+- surname: Gao
+  status: 'yes'
+  aliases:
+  - W. Gao
+  - Weixiao Gao
+- surname: Kalogianni
+  status: 'yes'
+  aliases:
+  - E. Kalogianni
+  - Eftychia Kalogianni
+- surname: Lemmens
+  status: 'yes'
+  aliases:
+  - M. Lemmens
+  - Mathias Lemmens
+- surname: Wandl
+  status: 'yes'
+  aliases:
+  - A. Wandl
+  - Alexander Wandl
+- surname: Dukai
+  status: 'yes'
+  aliases:
+  - B. Dukai
+  - Balázs Dukai
+- surname: Nourian
+  status: 'yes'
+  aliases:
+  - P. Nourian
+  - Pirouz Nourian
+- surname: Vries
+  status: 'yes'
+  aliases:
+  - M.E. De Vries
+  - Marianne de Vries
+- surname: Biljecki
+  status: 'yes'
+  aliases:
+  - F. Biljecki
+  - Filip Biljecki
+- surname: Ploeger
+  status: 'yes'
+  aliases:
+  - H.D. Ploeger
+  - Hendrik Ploeger
+- surname: Beuster
+  status: 'yes'
+  aliases:
+  - L.R.N. Beuster
+- surname: Brembilla
+  status: 'yes'
+  aliases:
+  - E. Brembilla
+  - Eleonora Brembilla
+- surname: Lindenbergh
+  status: 'yes'
+  aliases:
+  - R.C. Lindenbergh
+  - Roderik Lindenbergh
+- surname: Pronk
+  status: 'yes'
+  aliases:
+  - M.J. Pronk
+  - Maarten Pronk
+- surname: Patil
+  status: 'yes'
+  aliases:
+  - A. Patil
+  - Akshay Patil
+- surname: Spek
+  status: 'yes'
+  aliases:
+  - S.C. van der Spek
+  - Stefan van der Spek
+- surname: Pađen
+  status: 'yes'
+  aliases:
+  - I. Pađen
+- surname: Labetski
+  status: 'yes'
+  aliases:
+  - A. Labetski
+  - Anna Labetski
+- surname: Liu
+  status: 'yes'
+  aliases:
+  - H. Liu
+  - L. Liu
+- surname: Gorte
+  status: 'yes'
+  aliases:
+  - B. Gorte
+  - B.G.H. Gorte
+- surname: Schembri
+  status: 'yes'
+  aliases:
+  - J. Schembri
+  - Justin Schembri
+- surname: Zhou
+  status: 'yes'
+  aliases:
+  - Kaixuan Zhou
+  - X. Zhou
+- surname: Heide
+  status: 'yes'
+  aliases:
+  - D.H. van der Heide
+  - Daan van der Heide
+- surname: Vaart
+  status: 'yes'
+  aliases:
+  - Jasper van der Vaart
+  - Niels van der Vaart
+- surname: Hackauf
+  status: 'yes'
+  aliases:
+  - U. Hackauf
+  - U.D. Hackauf
+- surname: Du
+  status: 'yes'
+  aliases:
+  - S. Du
+  - Shenglan Du
+- surname: Esch
+  status: 'yes'
+  aliases:
+  - M.M.E. Pijpers-van Esch
+  - M.M.E. van Esch
+- surname: Lhermitte
+  status: 'yes'
+  aliases:
+  - S.L.M. Lhermitte
+  - Stef Lhermitte
+- surname: Noardo
+  status: 'yes'
+  aliases:
+  - F. Noardo
+- surname: Brink
+  status: 'yes'
+  aliases:
+  - L.E. van den Brink
+- surname: Joosten
+  status: 'yes'
+  aliases:
+  - Peter Joosten
+- surname: Šileryte
+  status: 'yes'
+  aliases:
+  - Rusne Šileryte
+- surname: Veldhuis
+  status: 'yes'
+  aliases:
+  - C. Veldhuis
+  - Henri Veldhuis
+- surname: Giesen
+  status: 'yes'
+  aliases:
+  - N. van de Giesen
+  - Nick van de Giesen
+- surname: Diakite
+  status: 'yes'
+  aliases:
+  - A.A. Diakite
+  - Abdoulaye Diakite
+- surname: Diakité
+  status: 'yes'
+  aliases:
+  - A.A. Diakité
+- surname: Giardina
+  status: 'yes'
+  aliases:
+  - G. Giardina
+- surname: Bal
+  status: 'yes'
+  aliases:
+  - Ihsan E. Bal
+- surname: Vallet
+  status: 'yes'
+  aliases:
+  - B. Vallet
+- surname: Bianchi
+  status: 'yes'
+  aliases:
+  - S. Bianchi
+- surname: Maiullari
+  status: 'yes'
+  aliases:
+  - D. Maiullari
+- surname: Vargiemezis
+  status: 'yes'
+  aliases:
+  - T. Vargiemezis
+- surname: Gool
+  status: 'yes'
+  aliases:
+  - Frank van Gool
+- surname: Weinmann
+  status: 'yes'
+  aliases:
+  - M. Weinmann
+- surname: Roders
+  status: 'yes'
+  aliases:
+  - A.R. Roders
+- surname: Shahraki
+  status: 'yes'
+  aliases:
+  - N. Forouzandeh Shahraki
+- surname: Cottineau
+  status: 'yes'
+  aliases:
+  - C. Cottineau
+- surname: Leenders
+  status: 'yes'
+  aliases:
+  - Nick Leenders
+- surname: Doi
+  status: 'yes'
+  aliases:
+  - Hiba Doi
+- surname: Bokel
+  status: 'yes'
+  aliases:
+  - R.M.J. Bokel
+- surname: Hakim
+  status: 'yes'
+  aliases:
+  - Amir Hakim
+- surname: Romero
+  status: 'yes'
+  aliases:
+  - Martín Mosteiro Romero
+- surname: Kara
+  status: 'yes'
+  aliases:
+  - Abdullah Kara
+- surname: Charton
+  status: 'yes'
+  aliases:
+  - Rémi Charton
+- surname: Cannatella
+  status: 'yes'
+  aliases:
+  - Daniele Cannatella
+- surname: Forgaci
+  status: 'yes'
+  aliases:
+  - Claudiu Forgaci
+- surname: Broekhuizen
+  status: 'yes'
+  aliases:
+  - Marjan Broekhuizen
+- surname: Krogt
+  status: 'yes'
+  aliases:
+  - Rob van der Krogt
+- surname: Visser
+  status: 'yes'
+  aliases:
+  - Wilfred Visser
+- surname: Calzati
+  status: 'yes'
+  aliases:
+  - S. Calzati
+- surname: Nagel
+  status: 'yes'
+  aliases:
+  - Claus Nagel
+- surname: Yao
+  status: 'yes'
+  aliases:
+  - Zhihang Yao
+- surname: Kämpf
+  status: 'yes'
+  aliases:
+  - Jérôme Kämpf
+- surname: Peronato
+  status: 'yes'
+  aliases:
+  - Giuseppe Peronato
+- surname: Donker
+  status: 'yes'
+  aliases:
+  - F.M. Welle Donker
+- surname: Cavallo
+  status: 'yes'
+  aliases:
+  - R. Cavallo
+- surname: Khademi
+  status: 'yes'
+  aliases:
+  - Seyran Khademi
+- surname: Liempt
+  status: 'yes'
+  aliases:
+  - J.N.H. van Liempt
+- surname: Gemert
+  status: 'yes'
+  aliases:
+  - Jan van Gemert
+- surname: Maat
+  status: 'yes'
+  aliases:
+  - Kees Maat
+- surname: Baart
+  status: 'yes'
+  aliases:
+  - Fedor Baart
+- surname: Hendriksen
+  status: 'yes'
+  aliases:
+  - Gerrit Hendriksen
+- surname: Heijer
+  status: 'yes'
+  aliases:
+  - Alexandra den Heijer
+- surname: Thompson
+  status: 'yes'
+  aliases:
+  - Rodney Thompson
+- surname: Someren
+  status: 'yes'
+  aliases:
+  - Berry van Someren
+- surname: Suba
+  status: 'yes'
+  aliases:
+  - Radan Suba
+- surname: Kruithof
+  status: 'yes'
+  aliases:
+  - Maarten Kruithof
+- surname: Indrajit
+  status: 'yes'
+  aliases:
+  - Agung Indrajit
+- surname: Dekker
+  status: 'yes'
+  aliases:
+  - Paco Lopez Dekker
+- surname: Davelaar
+  status: 'yes'
+  aliases:
+  - Hilbert Davelaar
+- surname: Commandeur
+  status: 'yes'
+  aliases:
+  - Tom Commandeur
+- surname: Tindemans
+  status: 'yes'
+  aliases:
+  - Simon Tindemans
+- surname: Miller
+  status: 'yes'
+  aliases:
+  - Clayton Miller
+- surname: Tijssen
+  status: 'yes'
+  aliases:
+  - T.P.M. Tijssen
+- surname: Eisemann
+  status: 'yes'
+  aliases:
+  - E. Eisemann
+- surname: Buchholz
+  status: 'yes'
+  aliases:
+  - B.B.E. Buchholz
+- surname: Hooimeijer
+  status: 'yes'
+  aliases:
+  - F.L. Hooimeijer
+- surname: Wasserman
+  status: 'yes'
+  aliases:
+  - N. Wasserman
+- surname: Zhao
+  status: 'yes'
+  aliases:
+  - J. Zhao
+- surname: Jansen
+  status: 'yes'
+  aliases:
+  - E. Jansen
+- surname: Paassen
+  status: 'yes'
+  aliases:
+  - L. van Paassen
+- surname: Dilo
+  status: 'yes'
+  aliases:
+  - A. Dilo
+- surname: Dias
+  status: 'yes'
+  aliases:
+  - E.S. Dias
+- surname: Wiegerinck
+  status: 'yes'
+  aliases:
+  - A.L.J.M. Wiegerinck
+
+  # --- pre-2013 / remote-sensing-era names confirmed by Ken (2026-09) ---
+
+- surname: Menenti
+  status: 'yes'
+  aliases:
+  - M. Menenti
+  - Massimo Menenti
+  note: remote sensing / thermal hydrology; confirmed by Ken 2026-09; already
+    appears as contributor on the 2012 Geomatics thesis 'Registration of
+    range images using geometric features'
+- surname: Hanssen
+  status: 'yes'
+  aliases:
+  - R. Hanssen
+  - Ramon Hanssen
+  note: radar interferometry, CEG; confirmed by Ken 2026-09
+- surname: Molenaar
+  status: 'yes'
+  aliases:
+  - M. Molenaar
+  - Martin Molenaar
+  note: photogrammetry, historic OTB/geodesy; confirmed by Ken 2026-09
+
+# Su (remote sensing / evapotranspiration) was proposed and discarded by
+# Ken in 2026-09: no evidence he supervised Geomatics MSc theses.
