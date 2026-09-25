@@ -347,9 +347,11 @@ people:
   aliases:
   - B. van Loenen
   source: mycase
-- name: Paco Lopez Dekker
-  aliases: []
+- name: Paco López Dekker
+  aliases:
+  - Paco Lopez Dekker
   source: archive
+  note: diacritics per Ken; MyCase lists the unaccented form
 - name: Kees Maat
   aliases: []
   source: archive
