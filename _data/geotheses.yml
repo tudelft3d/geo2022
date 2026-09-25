@@ -2063,7 +2063,7 @@
   year: 2025
   graduation_date: '2025-10-27'
   link: https://www.gdmc.nl/publications/2025/MScThesisQiaoruiYang.pdf
-  image: Yang.webp
+  image: Yang.jpg
 - surname: Zhao
   name: Xiaduo
   title: Structure guided roof heightmap completion
@@ -10696,6 +10696,7 @@
     Industry
   year: 2015
   link: https://www.gdmc.nl/publications/2015/Solid_CAD_Geometries_Spatial_DBMS.pdf
+  image: Ramkisoen.jpg
   needs_review: true
 - surname: van der Ham
   name: Martijn
@@ -12243,6 +12244,7 @@
     cellid positioning
   year: 2010
   link: https://www.gdmc.nl/publications/2010/Quality_assessment_GSM_positioning.pdf
+  image: de Koning.jpg
   needs_review: true
 - surname: Kalpoe
   name: Dinesh Sharma

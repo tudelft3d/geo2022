@@ -6,6 +6,8 @@ For each archive entry with a repository uuid, the cached record page
 is scanned for the thesis file link (the download buttons carry the
 file's real filename), the PDF is downloaded in memory and its first
 page is rendered with PyMuPDF into theses/img/<image> as a small JPEG.
+Entries without a repository record fall back to the PDF their link
+points at (the GDMC thesis PDFs found by the pre-coverage sweeps).
 PDFs are discarded after rendering (--keep-pdfs caches them under
 .geotheses_cache/pdf/ instead), so the run needs no meaningful disk
 space; the repository's robots.txt crawl-delay makes a full run take
@@ -163,7 +165,10 @@ def name_score(name):
 
 def fetch_pdf(path, delay, offline, keep):
     """Download one thesis PDF, given the /file/... path from its record
-    page. Returns bytes or None; cached when keep is set."""
+    page (or an absolute URL, for entries linked to GDMC PDFs directly).
+    Returns bytes or None; cached when keep is set."""
+    url = path if path.startswith("http") else \
+        f"https://repository.tudelft.nl{path}"
     stem = path.rsplit("/", 1)[-1]
     cache = PDF_DIR / f"{stem}.pdf"
     if cache.exists():
@@ -173,8 +178,8 @@ def fetch_pdf(path, delay, offline, keep):
     PDF_DIR.mkdir(exist_ok=True)
     for attempt in (1, 2):
         try:
-            r = requests.get(f"https://repository.tudelft.nl{path}",
-                             headers={"User-Agent": USER_AGENT}, timeout=300)
+            r = requests.get(url, headers={"User-Agent": USER_AGENT},
+                             timeout=300)
         except requests.RequestException as e:
             print(f"    pdf {stem}: {e}", flush=True)
             time.sleep(delay)
@@ -293,23 +298,27 @@ def main():
     progress = load_progress() if real_run else {}
     if real_run:
         for e in entries:
+            key = e.get("uuid") or str(e.get("link", ""))
             # names from an interrupted earlier run
-            if e.get("uuid") in progress and not e.get("image"):
-                e["image"] = progress[e["uuid"]]
-            elif e.get("uuid") in progress and \
-                    e["image"] != progress[e["uuid"]] and \
-                    (IMG_DIR / progress[e["uuid"]]).is_file():
-                e["image"] = progress[e["uuid"]]  # adopt the rendered name
+            if key in progress and not e.get("image"):
+                e["image"] = progress[key]
+            elif key in progress and \
+                    e["image"] != progress[key] and \
+                    (IMG_DIR / progress[key]).is_file():
+                e["image"] = progress[key]  # adopt the rendered name
     fresh = assign_filenames(entries)
 
     todo = []
     for e in entries:
-        if not e.get("uuid"):
+        # entries without a repository record fall back to a linked
+        # PDF (the GDMC page the pre-coverage sweeps found)
+        if not e.get("uuid") and not str(e.get("link", "")).endswith(".pdf"):
             continue
-        if args.uuid and e["uuid"] not in args.uuid:
+        key = e.get("uuid") or str(e.get("link", ""))
+        if args.uuid and e.get("uuid") and e["uuid"] not in args.uuid:
             continue
         if real_run and not args.redo_all and not args.uuid and \
-                e["uuid"] in progress:
+                key in progress:
             continue
         if args.skip_existing and e.get("image") and \
                 (out_dir / e["image"]).is_file():
@@ -329,14 +338,18 @@ def main():
             f" ({e.get('year', '')})".strip()
         print(f"[{n}/{len(todo)}] {who}", flush=True)
 
-        record = CACHE_DIR / f"{e['uuid']}.html"
-        if not record.exists():
-            reports.append(f"NO RECORD PAGE: {who} uuid={e['uuid']}")
-            continue
-        candidates = parse_files(record.read_text(errors="replace"))
-        if not candidates:
-            reports.append(f"NO FILE ON RECORD: {who} uuid={e['uuid']}")
-            continue
+        if e.get("uuid"):
+            record = CACHE_DIR / f"{e['uuid']}.html"
+            if not record.exists():
+                reports.append(f"NO RECORD PAGE: {who} uuid={e['uuid']}")
+                continue
+            candidates = parse_files(record.read_text(errors="replace"))
+            if not candidates:
+                reports.append(f"NO FILE ON RECORD: {who} uuid={e['uuid']}")
+                continue
+        else:
+            candidates = [(e["link"],
+                           e["link"].rsplit("/", 1)[-1].replace("%20", " "))]
 
         surname_k = surname_key(e.get("surname"))
         pick = choose_pdf(candidates,
@@ -376,7 +389,7 @@ def main():
         done += 1
         rendered.add(id(e))
         if real_run:
-            progress[e["uuid"]] = image
+            progress[e.get("uuid") or str(e.get("link", ""))] = image
             save_progress(progress)
         print(f"    -> {image} {size // 1024} KB ({label}, "
               f"{pick['pages']} pages) [{mb:.0f} MB downloaded]", flush=True)
