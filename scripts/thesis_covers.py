@@ -71,7 +71,8 @@ SUPPORTED_EXTS = {"jpg", "jpeg", "png"}  # what PyMuPDF can write
 USER_AGENT = ("geo2022-site-maintainer/1.0 "
               "(https://geomatics.bk.tudelft.nl/geo2022/; one-off cover "
               "thumbnails for the thesis archive, honors robots.txt)")
-BLANK_INK = 0.015  # fraction of non-white pixels below which page 1 is blank
+BLANK_INK = 0.005  # fraction of non-white pixels below which page 1 counts
+                   # as blank (minimal title pages sit around 0.01–0.05)
 SHORT_PAGES = 40  # theses are longer; below this the pick is suspicious
 
 
@@ -230,13 +231,14 @@ def choose_pdf(candidates, fetch, surname_k):
 
 
 def render(pdf_bytes, out_path, width, quality):
-    """Render page 1 to out_path as JPEG (page 2 when page 1 is nearly
-    blank, as with old theses); returns (nearly_blank, size)."""
+    """Render page 1 to out_path as JPEG (page 2 when page 1 is blank,
+    as with old theses); returns (nearly_blank, size, page_used)."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with pymupdf.open(stream=pdf_bytes, filetype="pdf") as doc:
-        page = doc[0]
+        used = 0
         pix = None
         for pageno in range(min(2, doc.page_count)):
+            used = pageno + 1
             page = doc[pageno]
             zoom = width / page.rect.width
             pix = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom),
@@ -249,7 +251,7 @@ def render(pdf_bytes, out_path, width, quality):
                 break
         out_path.write_bytes(pix.tobytes("jpeg", jpg_quality=quality))
     return ink / (pix.width * pix.height) < BLANK_INK, \
-        out_path.stat().st_size
+        out_path.stat().st_size, used
 
 
 def main():
@@ -361,9 +363,11 @@ def main():
         mb += len(pick["data"]) / 1e6
 
         image = e["image"]
-        blank, size = render(pick["data"], out_dir / image,
-                             args.width, args.quality)
-        if blank:
+        blank, size, used = render(pick["data"], out_dir / image,
+                                   args.width, args.quality)
+        if used > 1:
+            reports.append(f"PAGE 1 BLANK, USED PAGE {used}: {who} -> {image}")
+        elif blank:
             reports.append(f"PAGE 1 NEARLY BLANK: {who} -> {image}")
         if id(e) in renames:
             renamed.append(f"{who}: {renames[id(e)]} -> {image}")
