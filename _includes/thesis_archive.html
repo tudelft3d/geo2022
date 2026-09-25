@@ -49,14 +49,17 @@
 {% assign archive_img_hit = site.static_files | where: 'path', archive_img | first %}
   <article class="media archive-item" data-year="{{ t.year }}">
     <figure class="media-left">
-      <p class="image is-96x96 archive-thumb">
+      <p class="archive-thumb">
+        {% if t.link %}<a href="{{ t.link }}" target="_blank" rel="noopener"
+           tabindex="-1" aria-hidden="true">{% endif %}
         {% if archive_img_hit %}
         <img src="{{ archive_img | prepend: site.baseurl }}"
              alt="Cover of the thesis by {{ t.name | escape }} {{ t.surname | escape }}"
-             loading="lazy">
+             loading="lazy" decoding="async">
         {% else %}
         <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
         {% endif %}
+        {% if t.link %}</a>{% endif %}
       </p>
     </figure>
     <div class="media-content">

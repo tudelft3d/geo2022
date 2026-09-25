@@ -262,7 +262,7 @@ html.light-mode {
 	opacity: 1;
 }
 
-/* Thesis archive (theses/archive/) */
+/* Thesis archive (theses/) */
 .archive-year {
 	margin-top: 2.5rem;
 }
@@ -272,33 +272,99 @@ html.light-mode {
 	font-weight: normal;
 }
 
+/* Cover thumbnails, shaped like the cover PDFs themselves (A4 portrait)
+   so the full cover is visible instead of a square centre crop */
 .archive-thumb {
+	flex-shrink: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 96px;
-	height: 96px;
+	width: 7.5rem;
+	aspect-ratio: 210 / 297;
 	border-radius: 6px;
 	overflow: hidden;
-	background: hsl(var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-scheme-main-ter-l));
-	border: 1px solid hsl(var(--bulma-border-h), var(--bulma-border-s), var(--bulma-border-l));
+	background: var(--bulma-scheme-main-ter);
+	border: 1px solid var(--bulma-border);
+	box-shadow: 0 1px 3px rgba(10, 10, 10, 0.12);
 	color: inherit;
-	opacity: 0.45;
 	font-size: 2.25rem;
+	transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.archive-thumb a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
 }
 
 .archive-thumb img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: contain;
+}
+
+.archive-thumb i {
+	opacity: 0.4;
+}
+
+.archive-thumb:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 10px rgba(10, 10, 10, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+	.archive-thumb {
+		width: 5.5rem;
+	}
+}
+
+/* Hairline between consecutive theses within a year */
+.archive-year-block > .archive-item + .archive-item {
+	border-top: 1px solid var(--bulma-border-weak);
+}
+
+/* Abstract disclosure: quiet until used, chevron instead of blue text */
+.archive-item .archive-abstract {
+	margin-top: 0.25rem;
 }
 
 .archive-item .archive-abstract summary {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4em;
 	cursor: pointer;
-	color: hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l));
+	color: var(--bulma-text-weak);
+	font-size: 0.85em;
+	list-style: none;
+	user-select: none;
+}
+
+.archive-item .archive-abstract summary::-webkit-details-marker {
+	display: none;
+}
+
+.archive-item .archive-abstract summary::before {
+	content: "";
+	width: 0.4em;
+	height: 0.4em;
+	border-right: 1.5px solid currentColor;
+	border-bottom: 1.5px solid currentColor;
+	transform: rotate(-45deg);
+	transition: transform 0.15s ease;
+}
+
+.archive-item .archive-abstract[open] summary::before {
+	transform: rotate(45deg);
+}
+
+.archive-item .archive-abstract summary:hover {
+	color: var(--bulma-link);
 }
 
 .archive-item .archive-abstract p {
 	margin-top: 0.5rem;
+	max-width: 70ch;
 	font-size: 0.95em;
 }
