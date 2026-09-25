@@ -29,17 +29,22 @@
   name: Phuong Anh
   cohort: 2026sep
   phase: Preparation
-  title: Urban Heat Island Modelling Using Deep Learning and Satellite
-    Thermal Imagery
+  title: Urban Heat Island Modelling Using Deep Learning and Satellite Thermal
+    Imagery
   supervisors: Azarakhsh Rafiee
   needs_summary: true
 - surname: Nurmohamed
   name: Faried
   cohort: 2026sep
   phase: Preparation
-  title: Improving public spaces through urban comfort metrics
-    (thermal and social quality)
+  title: Improving public spaces through urban comfort metrics (thermal and
+    social quality)
   supervisors: Daniele Cannatella; Claudiu Forgaci
+  needs_summary: true
+- surname: Prikazchikov
+  name: Stepan
+  cohort: 2026sep
+  phase: Preparation
   needs_summary: true
 - surname: Garcia Mezo
   name: Juan
@@ -64,9 +69,9 @@
   name: Danny
   cohort: 2026april
   phase: Kick-off
-  title: Applying Implicit Neural Representations to Landsat Thermal
-    Infrared Imagery for Super-Resolution
-  supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
+  title: Applying Implicit Neural Representations to Landsat Thermal Infrared
+    Imagery for Super-Resolution
+  supervisors: Azarakhsh Rafiee; Roderik Lindenbergh; Massimo Menenti
   needs_summary: true
 - surname: Winterdal
   name: Josephine
