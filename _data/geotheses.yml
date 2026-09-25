@@ -1148,7 +1148,7 @@
   image: Bhatt.png
 - surname: Boertjes
   name: Lars
-  title: Selective imag region focus for efficient 3D building reconstruction
+  title: Selective image region focus for efficient 3D building reconstruction
     using SAM in oblique aerial imagery
   supervisors: Azarakhsh Rafiee; Ken Arroyo Ohori
   year: 2025
@@ -9597,6 +9597,87 @@
     the performance of spatial analysis and boost the evolution on the use
     of such models on real life applications.
   uuid: 560bd9fb-7688-492f-b1c0-799644707be9
+- surname: Willems
+  name: Oscar
+  title: Exploring a pure landmark-based approach for indoor localisation
+  supervisors: Sisi Zlatanova; Edward Verbree
+  year: 2017
+  graduation_date: '2017-11-03'
+  link: https://resolver.tudelft.nl/uuid:6332755b-72ea-4a74-a781-5cb3f951de67
+  abstract: Humans interact more and more with their environment through technology,
+    recent decades have seen a huge increase in the need for and availability
+    of Location-Based Services (LBS). Recently landmarks have gotten a renewed
+    interest in the field of LBS , although already a quite old phenomenon.
+    In both the outdoor and indoor environment they are being used to enrich
+    existing services such as navigation, but not used as the basis for a
+    technique or service. The indoor environment relies heavily on building
+    specific and less-scalable sensor-based localisation techniques (such
+    as Wi-Fi and Bluetooth), alternatives to sensor-based are becoming a necessity
+    and would be a welcome addition. The exploration and development of landmark-based
+    approaches for indoor localisation is something that can extend the field
+    of geomatics and \ac{lbs}. This research investigates if a pure landmark-based
+    approach works for indoor localisation and which characteristics of landmarks
+    can be exploited. This is achieved by developing a conceptual framework
+    that explores how a landmark-based indoor localisation would work from
+    an artificial point of view. A Minimal Viable Product (MVP) is implemented
+    to evaluate if a landmark-based approach works and what needs to be improved
+    or considered in future studies Starting from an artificial test case,
+    the MVP to achieve indoor localisation is implementing and evaluated using
+    a manually digitised real-world and more complex test case. The fundamental
+    principle of landmark-based localisation is that through the observation
+    of landmarks within the (indoor) environment a user’s location is obtained
+    because the visibility and location of landmarks are known. The workflow
+    to go from an observation to a location is by 1) calculating the visibility/isovist
+    area of each landmark, 2) interpret the observations into a combination
+    of landmarks, 3) intersect the visibility of all landmarks in the observation,
+    4) refine the location based on relative landmark constellations, and
+    5) follow-up with questions on potentially visible landmarks to improve
+    location further One of the key giveaways of this research is that approach
+    for indoor localisation a landmark-based is feasible, principles and techniques
+    exist (or are being developed), it is only a matter of setting them up
+    in the right order and format them to work, and connect input with the
+    researched process and use them for LBS driven applications. Future work
+    on the subject of landmark-based localisation and LBS is connecting with
+    existing spatial standards, extend the principles into the 3 rd dimension,
+    and integrate more aspects of landmark salience.
+  uuid: 6332755b-72ea-4a74-a781-5cb3f951de67
+- surname: Xu
+  name: Yueqian
+  title: Construction of a Responsive Web Service for Smooth Rendering of
+    Large SSC Dataset and the Corresponding Preprocessor for Source Data
+  supervisors: Martijn Meijers
+  year: 2017
+  graduation_date: '2017-06-29'
+  link: https://resolver.tudelft.nl/uuid:73a070d2-2d4c-46e3-9372-9dd5121ef5cd
+  abstract: This research focuses on a smooth rendering of continuous 2D map
+    based on a smooth 3D vario-scale geographical data structure. A Space
+    Scale Cube (SSC) offers non-redundant geometric data for the different
+    level of details. SSC model represents geographic data as a closed polyhedron,
+    to generate a 2D map; SSC is intersected with the projection plane; resulting
+    in a set of 2D polygons. However, problems emerge when creating maps with
+    a large sized SSC dataset under web environment due to limited bandwidth
+    and decoding speed. Repetitively transmitting data from the server to
+    the client can be time and bandwidth consuming. A preprocess should be
+    applied to a source that allows the follow-up development of an online
+    traffic and time-efficient prototype. After preprocessing, large sized
+    data will be subdivided based on octree algorithm to minimize transmission
+    time from server to the client; moreover, accessible to WebGL. A prototype
+    has been developed which enables smooth and timely vario-scale map rendering
+    against heavy user actions such as fast zooming and panning in a short
+    period. Modified prototype program allows query of only relevant data
+    chunks by current viewport position; it prevents repeated loading of same
+    chunks; what is more, repeated transmission of data from outside to GPU
+    is eliminated. A tree structure is embedded at the client side that facilitates
+    retrieve time. Rendering happens every frame; hence the prototype responses
+    to heavy user actions timely. Also, it can obtain coordinates in RD coordinate
+    system by double clicking. After testing the modified program with a 9km
+    by 9km dataset online, exceptional performance is indicated by a high
+    average frame rate (57 fps) and low main memory occupation (with a network
+    speed at 9MB/s). The prototype performance is significant affected by
+    the client network condition; low network speed can decrease the frame
+    rate. For instance, the web service achieved a frame rate of 47 fps at
+    a network speed at 6MB/s.
+  uuid: 73a070d2-2d4c-46e3-9372-9dd5121ef5cd
 - surname: Broersen
   name: Tom
   title: Automatic identification of water courses from AHN3 in flat and engineered
