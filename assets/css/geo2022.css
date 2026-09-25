@@ -66,8 +66,9 @@
 		color: hsl(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-l)) !important;
 	}
 
+	/* Homepage Current Theses tile: grey, lighter than the has-background-light calendar tile (~21%) */
 	html:not(.light-mode) .has-background-white {
-		background-color: hsl(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-invert-l)) !important;
+		background-color: hsl(var(--bulma-white-h), var(--bulma-white-s), 30%) !important;
 	}
 
 	html:not(.light-mode) .has-text-white-invert {
@@ -169,8 +170,9 @@ html.dark-mode .has-text-primary-60-invert {
 	color: hsl(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-l)) !important;
 }
 
+/* Homepage Current Theses tile: grey, lighter than the has-background-light calendar tile (~21%) */
 html.dark-mode .has-background-white {
-	background-color: hsl(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-invert-l)) !important;
+	background-color: hsl(var(--bulma-white-h), var(--bulma-white-s), 30%) !important;
 }
 
 html.dark-mode .has-text-white-invert {
