@@ -14,8 +14,9 @@ Three stages, all idempotent, so the script can be re-run at any time:
           supervisors/graduation date from the finished thesis, fill gaps
           from MyCase's closed cases (never grades or student numbers),
           fix swapped name fields against the repository's author string,
-          and append closed MyCase cases that are missing from the archive
-          (flagged needs_review)
+          canonicalise supervisor names to their preferred display forms
+          via scripts/preferred_names.yml, and append closed MyCase cases
+          that are missing from the archive (flagged needs_review)
 
 Output: the rewritten _data/geotheses.yml (a backup of the original is kept
 at geotheses.yml.original on first run) and a human-readable
@@ -345,6 +346,32 @@ def mycase_supervisors(row):
     return "; ".join(names)
 
 
+# --------------------------------------------------- preferred display names
+
+PREFERRED_NAMES_FILE = REPO_ROOT / "scripts" / "preferred_names.yml"
+
+
+def load_preferred_names():
+    """Alias -> preferred display name from scripts/preferred_names.yml;
+    {} when the file is absent."""
+    if not PREFERRED_NAMES_FILE.exists():
+        return {}
+    names = {}
+    for person in yaml.safe_load(PREFERRED_NAMES_FILE.read_text())["people"]:
+        for alias in [person["name"], *person.get("aliases", [])]:
+            names[alias] = person["name"]
+    return names
+
+
+def preferred_supervisors(sups, names):
+    """"H. Ledoux; E. Verbree" -> "Hugo Ledoux; Edward Verbree". Unknown
+    names pass through unchanged, so new spellings show up as-is until
+    they are added to preferred_names.yml."""
+    mapped = [names.get(s.strip(), s.strip())
+              for s in (sups or "").split("; ") if s.strip()]
+    return "; ".join(dict.fromkeys(mapped))
+
+
 # ------------------------------------------------------------------- main
 
 def write_yaml(entries):
@@ -365,7 +392,8 @@ def write_yaml(entries):
     header = ("# Completed MSc Geomatics theses, newest first.\n"
               "# name/surname as on the thesis record page; supervisors and\n"
               "# abstract from the finished thesis (repository record), not\n"
-              "# the proposal. Maintain by hand or via\n"
+              "# the proposal. Supervisors are shown under their preferred\n"
+              "# name (scripts/preferred_names.yml). Maintain by hand or via\n"
               "# scripts/enrich_geotheses.py; validate with\n"
               "# scripts/check_geotheses.py.\n")
     body = yaml.safe_dump(ordered, allow_unicode=True, width=72,
@@ -531,6 +559,13 @@ def main():
         reports.append(f"APPENDED FROM MYCASE (not in archive before): "
                        f"{row['student_name']} ({year}) "
                        f"{row.get('thesis_title', '')}")
+
+    # --- canonicalise supervisor names to their preferred display forms
+    preferred_names = load_preferred_names()
+    for e in cleaned:
+        if e.get("supervisors"):
+            e["supervisors"] = preferred_supervisors(e["supervisors"],
+                                                     preferred_names)
 
     # --- write everything back
     if not BACKUP_FILE.exists():

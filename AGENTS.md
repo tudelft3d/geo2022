@@ -25,8 +25,16 @@ python3 scripts/fetch_mycase.py
 # repository's robots.txt asks for a 20 s crawl-delay, so the first full run
 # takes ~1.5 h and later runs only fetch new records) and from MyCase's
 # closed cases. Writes geotheses.yml.original (backup) and
-# geotheses_report.md (issues needing a manual look).
+# geotheses_report.md (issues needing a manual look). Supervisor names
+# come out as preferred display names via scripts/preferred_names.yml.
 python3 scripts/enrich_geotheses.py           # add --fetch-only / --offline
+
+# Rewrite the archive's supervisors fields through the canonical people
+# table in scripts/preferred_names.yml (initials variants -> preferred
+# display names). Dry-run by default; only needed after hand-editing
+# preferred_names.yml (enrich_geotheses.py routes new ingests through
+# the same table). Unmapped strings are reported and block the write.
+python3 scripts/apply_preferred_names.py          # add --write to apply
 
 # Validate the archive data (required fields, canonical links, duplicate
 # people; image files when given --img-dir). Exit code is CI-usable.
@@ -115,6 +123,8 @@ After each graduation round (or whenever, really):
 | `scripts/fetch_mycase.py` | MyCase metadata fetcher (output gitignored) |
 | `scripts/update_theses.py` | Syncs ongoing theses with MyCase open cases |
 | `scripts/enrich_geotheses.py` | Cleans/enriches the archive from repository records + MyCase |
+| `scripts/preferred_names.yml` | Preferred display names for the archive's people (`aliases` = repository/MyCase initials variants) |
+| `scripts/apply_preferred_names.py` | Rewrites archive supervisor names through `preferred_names.yml` (dry-run by default) |
 | `scripts/check_geotheses.py` | Validates the archive data |
 | `scripts/find_missing_theses.py` | Cross-checks the archive with the GDMC + 3dge thesis lists |
 | `scripts/find_old_theses.py` | Sweeps the repository for pre-coverage theses by supervisor surname |

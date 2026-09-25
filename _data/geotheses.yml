@@ -1,14 +1,15 @@
 # Completed MSc Geomatics theses, newest first.
 # name/surname as on the thesis record page; supervisors and
 # abstract from the finished thesis (repository record), not
-# the proposal. Maintain by hand or via
+# the proposal. Supervisors are shown under their preferred
+# name (scripts/preferred_names.yml). Maintain by hand or via
 # scripts/enrich_geotheses.py; validate with
 # scripts/check_geotheses.py.
 - surname: Aalders
   name: R.M.
   title: 'Exploring a ''coordinating'' smart city data governance model: A
     case study of The Green Village on the TU Delft Campus'
-  supervisors: H.D. Ploeger; B. van Loenen
+  supervisors: Hendrik Ploeger; Bastiaan van Loenen
   year: 2026
   graduation_date: '2026-01-21'
   link: https://resolver.tudelft.nl/uuid:353dd7a1-2b70-4dca-accb-a1137a55fc91
@@ -58,7 +59,7 @@
   name: Frederick
   title: Testing and Enhancing the Scenario ADE in the context of building
     energy performance simulations in Rotterdam
-  supervisors: C.A. León Sánchez; G. Agugiaro
+  supervisors: Camilo León Sánchez; Giorgio Agugiaro
   year: 2026
   graduation_date: '2026-06-22'
   link: https://resolver.tudelft.nl/uuid:42e6250f-7dfb-49e2-bfc1-3277b915bdcb
@@ -98,7 +99,7 @@
   name: Michel
   title: Improving 3D alpha wrapping by preserving concave features and reducing
     mesh complexity
-  supervisors: C. Garcia Sanchez; H. Ledoux
+  supervisors: Clara García Sánchez; Hugo Ledoux
   year: 2026
   graduation_date: '2026-06-26'
   link: https://resolver.tudelft.nl/uuid:a3876cb2-8740-4277-9292-d4f113de97b4
@@ -133,7 +134,7 @@
   name: Xinya
   title: Recovering Visual Saliency from Intrinsic Properties of 3D Gaussian
     Splatting
-  supervisors: B.M. Meijers; L. Nan
+  supervisors: Martijn Meijers; Liangliang Nan
   year: 2026
   graduation_date: '2026-06-17'
   link: https://resolver.tudelft.nl/uuid:d1148812-2a69-4d6b-b956-9560897e8b1d
@@ -162,7 +163,7 @@
   name: Sara
   title: Extracting building typology parameters from 3D city models for earthquake
     risk assessment
-  supervisors: J.E. Stoter; G. Giardina; Ihsan E. Bal
+  supervisors: Jantien Stoter; Giorgia Giardina; Ihsan E. Bal
   year: 2026
   graduation_date: '2026-04-24'
   link: https://resolver.tudelft.nl/uuid:c4b6866d-fc45-430a-962a-4b53fd883ef0
@@ -206,7 +207,7 @@
   name: Alexandre
   title: From points to prints -- Generating building roofprints and footprints
     from airborne lidar data and inaccurate outlines
-  supervisors: H. Ledoux; R.Y. Peters; B. Vallet
+  supervisors: Hugo Ledoux; Ravi Peters; Bruno Vallet
   year: 2026
   graduation_date: '2026-06-26'
   link: https://resolver.tudelft.nl/uuid:101ba3d8-1988-4025-b041-fafb12d2d2f3
@@ -234,7 +235,7 @@
 - surname: Cordes
   name: Carlo
   title: Spatio-temporal Transformers for Wildfire Risk Prediction
-  supervisors: A. Rafiee; J. Schembri; S. Bianchi
+  supervisors: Azarakhsh Rafiee; Justin Schembri; Simona Bianchi
   year: 2026
   graduation_date: '2026-06-24'
   link: https://resolver.tudelft.nl/uuid:700a6579-a227-4984-8fd8-f980af99c8ba
@@ -276,7 +277,7 @@
   name: Anne
   title: 'Thermally conscious urban mobility: operationalizing urban microclimate
     data into a pedestrian routing tool'
-  supervisors: C. Garcia Sanchez; D. Maiullari; L.R.N. Beuster
+  supervisors: Clara García Sánchez; Daniela Maiullari; Lukas Beuster
   year: 2026
   graduation_date: '2026-06-16'
   link: https://resolver.tudelft.nl/uuid:0e63075e-ae21-4953-b0c1-6b4080de2420
@@ -305,7 +306,7 @@
   name: Carmem
   title: A Comparison of Wind Velocity Predictions from Wind-Only and Thermally
     Coupled OpenFOAM Solvers in Urban Models with Complex Terrain
-  supervisors: C. Garcia Sanchez; T. Vargiemezis; Frank van Gool
+  supervisors: Clara García Sánchez; Themis Vargiemezis; Frank van Gool
   year: 2026
   graduation_date: '2026-06-24'
   link: https://resolver.tudelft.nl/uuid:d18b9ec9-a296-47c3-a2d0-92969777369e
@@ -351,7 +352,7 @@
 - surname: Hu
   name: Ming-Chieh
   title: Adaptive Plane Splatting for 3D Building Reconstruction
-  supervisors: L. Nan; M. Weinmann
+  supervisors: Liangliang Nan; Michael Weinmann
   year: 2026
   graduation_date: '2026-06-15'
   link: https://resolver.tudelft.nl/uuid:bbbae5e7-81a5-4cb1-9e01-d349ee7c24ad
@@ -387,7 +388,7 @@
   name: Andika Hadi
   title: Patch-Level and Object-Level Deep Learning for Urban Extent Extraction
     from Multi-Temporal Historical Maps
-  supervisors: B.M. Meijers; A.R. Roders
+  supervisors: Martijn Meijers; Ana Pereira Roders
   year: 2026
   graduation_date: '2026-06-19'
   link: https://resolver.tudelft.nl/uuid:87d76db5-8f12-45ba-9317-045b71773cc5
@@ -439,7 +440,7 @@
   name: Giorgos
   title: (Semi-)automatic modeling of indoor building 3D models for daylight
     simulation with Lidar-enabled mobile devices
-  supervisors: G.A.K. Arroyo Ohori; E. Brembilla; N. Forouzandeh Shahraki
+  supervisors: Ken Arroyo Ohori; Eleonora Brembilla; Nima Forouzandeh Shahraki
   year: 2026
   graduation_date: '2026-01-16'
   link: https://resolver.tudelft.nl/uuid:1954f6ce-686c-4686-80d1-37f26ee22d8e
@@ -479,7 +480,7 @@
   name: Hyeji
   title: Generating synthetic housing distributions for modelling economic
     segregation
-  supervisors: C. Cottineau; H. Ledoux
+  supervisors: Clémentine Cottineau; Hugo Ledoux
   year: 2026
   graduation_date: '2026-07-02'
   link: https://resolver.tudelft.nl/uuid:4a7d373a-f100-483d-9eb2-9e07a392e1e7
@@ -509,7 +510,7 @@
 - surname: Jonker
   name: Luc
   title: Automated generation of tree-aware urban shade maps using deep learning
-  supervisors: H. Ledoux; L.R.N. Beuster
+  supervisors: Hugo Ledoux; Lukas Beuster
   year: 2026
   graduation_date: '2026-06-23'
   link: https://resolver.tudelft.nl/uuid:d2954f9d-f996-43ae-81f0-a587c34ed715
@@ -544,7 +545,7 @@
 - surname: Pille
   name: Julia
   title: Seabed Fingerprinting for Maritime Navigation in GNSS-Denied Environments
-  supervisors: Robert Voûte; L. Nan; R.C. Lindenbergh
+  supervisors: Robert Voûte; Liangliang Nan; Roderik Lindenbergh
   year: 2026
   graduation_date: '2026-06-18'
   link: https://resolver.tudelft.nl/uuid:3da9ea32-06b5-444a-bca2-5a0ffec282b2
@@ -577,7 +578,7 @@
   name: Yair
   title: 'Now you see me, now you don''t: Direct LiDAR-Based Intervisibility
     Modeling with Semi-Transparent Vegetation for Military Mission Planning'
-  supervisors: P.J.M. van Oosterom; B.M. Meijers; Nick Leenders
+  supervisors: Peter van Oosterom; Martijn Meijers; Nick Leenders
   year: 2026
   graduation_date: '2026-06-19'
   link: https://resolver.tudelft.nl/uuid:7602dac0-1b60-4ccd-bf67-e6d40b3e4da7
@@ -606,7 +607,7 @@
 - surname: Rotteveel
   name: Heiko
   title: Automatic water detection using ICESat-2 measurements
-  supervisors: H. Ledoux; M.J. Pronk
+  supervisors: Hugo Ledoux; Maarten Pronk
   year: 2026
   graduation_date: '2026-06-22'
   link: https://resolver.tudelft.nl/uuid:2fd2a861-a1f8-4b64-a02e-17a804b04bc6
@@ -715,7 +716,7 @@
 - surname: Singh
   name: Neelabh
   title: Identifying Sidewalks from Crowdsourced SVI
-  supervisors: H. Ledoux; L.R.N. Beuster
+  supervisors: Hugo Ledoux; Lukas Beuster
   year: 2026
   graduation_date: '2026-06-23'
   link: https://resolver.tudelft.nl/uuid:47f57012-2d9b-4bca-8d72-c31ffd2db163
@@ -754,7 +755,7 @@
   name: Mingjie
   title: IndoorGML-Constrained Navigation Across Multiple 3D Gaussian Splatting
     Scenes for Indoor Environments
-  supervisors: E. Verbree; B.M. Meijers
+  supervisors: Edward Verbree; Martijn Meijers
   year: 2026
   graduation_date: '2026-06-22'
   link: https://resolver.tudelft.nl/uuid:6d044e6b-20e2-4329-8fe5-709a7064bb5a
@@ -795,7 +796,7 @@
   name: Lars
   title: Air temperature estimation through thermal satellite imagery using
     uncertainty-integrated transformers
-  supervisors: A. Rafiee; R.C. Lindenbergh
+  supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
   year: 2026
   graduation_date: '2026-06-23'
   link: https://resolver.tudelft.nl/uuid:dd91471f-e3a5-4c71-94d9-1162ee7ac0ae
@@ -858,7 +859,7 @@
   name: Sue
   title: From IFC BIM to Semantically Enriched 2.5D Indoor Navigation Graphs
     for Congestion-Aware Pedestrian Simulation
-  supervisors: G.A.K. Arroyo Ohori; B.M. Meijers
+  supervisors: Ken Arroyo Ohori; Martijn Meijers
   year: 2026
   graduation_date: '2026-06-09'
   link: https://resolver.tudelft.nl/uuid:ba9ea5f6-abdf-44e4-8a6f-cb50bdf804f2
@@ -899,7 +900,7 @@
   name: Jiaoyang
   title: Detecting building element/material through ground-based thermal
     imagery using Deep Neural Networks approach
-  supervisors: A. Rafiee; R.M.J. Bokel
+  supervisors: Azarakhsh Rafiee; Regina Bokel
   year: 2026
   graduation_date: '2026-06-23'
   link: https://resolver.tudelft.nl/uuid:4504aec1-8cb9-4945-90eb-d5f6e9a1d5fd
@@ -944,7 +945,7 @@
   name: Hongyu
   title: 'LiDAR-TreeRisk: A transferable, LiDAR-driven framework for storm-event
     risk of wind damage to individual urban trees'
-  supervisors: A. Rafiee; X. Zhou
+  supervisors: Azarakhsh Rafiee; Xuanchen Zhou
   year: 2026
   graduation_date: '2026-06-23'
   link: https://resolver.tudelft.nl/uuid:7c6cabb3-a5a9-43d4-b710-75ed3075b4c3
@@ -976,7 +977,7 @@
   name: Noah
   title: 'From point clouds to porous crowns: A scalable approach for CFD-ready
     urban tree reconstruction'
-  supervisors: Hugo Ledoux; Clara Garcia Sanchez
+  supervisors: Hugo Ledoux; Clara García Sánchez
   year: 2025
   graduation_date: '2025-10-31'
   link: https://resolver.tudelft.nl/uuid:adc9c299-b8f7-4854-b004-dcf2393d06fb
@@ -1189,7 +1190,7 @@
   name: Aswathy
   title: 'Proposal for the integration of a Building Material part: (ISO 19152-7)
     within the Land Administration Domain Model'
-  supervisors: P.J.M. van Oosterom; C.W. Quak
+  supervisors: Peter van Oosterom; Wilko Quak
   year: 2025
   graduation_date: '2025-03-12'
   link: https://resolver.tudelft.nl/uuid:ccbbc7d1-65d8-42b1-a542-f007961bb28b
@@ -1259,7 +1260,7 @@
 - surname: Chontos
   name: Christos
   title: The effect of building footprint uncertainty on CFD simulations
-  supervisors: Clara Garcia Sanchez; Akshay Patil
+  supervisors: Clara García Sánchez; Akshay Patil
   year: 2025
   graduation_date: '2025-06-23'
   link: https://resolver.tudelft.nl/uuid:423f2ae2-6bb0-403f-875e-781194f87d46
@@ -1585,7 +1586,7 @@
   name: Bart
   title: Impact of building model voxel resolution in wind simulations using
     RANS
-  supervisors: Clara Garcia Sanchez; Jasper van der Vaart
+  supervisors: Clara García Sánchez; Jasper van der Vaart
   year: 2025
   graduation_date: '2025-10-29'
   link: https://resolver.tudelft.nl/uuid:7f192b96-9d07-4445-bbf7-376d00f6621e
@@ -1703,7 +1704,7 @@
   name: Jessica
   title: 'Cool by Design. SOLFD: Extending SOLWEIG for Urban Design Decision-Making
     on Outdoor Thermal Comfort'
-  supervisors: Clara Garcia Sanchez; Hugo Ledoux
+  supervisors: Clara García Sánchez; Hugo Ledoux
   year: 2025
   graduation_date: '2025-06-19'
   link: https://resolver.tudelft.nl/uuid:02dbba26-0535-4c05-a39b-e5b09c3d0712
@@ -1935,7 +1936,7 @@
   name: Eirini Chrysovalantou
   title: Usability of the vario-scale approach in interactive and dynamic
     mapping
-  supervisors: B.M. Meijers; P.J.M. van Oosterom
+  supervisors: Martijn Meijers; Peter van Oosterom
   year: 2025
   graduation_date: '2025-01-15'
   link: https://resolver.tudelft.nl/uuid:39932cfe-97d0-40ee-a071-55d31e7b5d0c
@@ -2106,7 +2107,7 @@
   name: Simay
   title: 'Spatial Plan Registration and Compliance Checks in Estonia, based
     on LADM Part 5: Spatial Plan Information'
-  supervisors: P.J.M. van Oosterom; E. Kalogianni; Marjan Broekhuizen
+  supervisors: Peter van Oosterom; Eftychia Kalogianni; Marjan Broekhuizen
   year: 2024
   graduation_date: '2024-10-30'
   link: https://resolver.tudelft.nl/uuid:77dce0e4-beac-462d-82d6-69e5b3764df3
@@ -2155,7 +2156,7 @@
   name: Gees
   title: 'Automated data-driven generation of 3D coral reef models: Assessing
     and integrating empirical data sources'
-  supervisors: H. Ledoux; A. Patil
+  supervisors: Hugo Ledoux; Akshay Patil
   year: 2024
   graduation_date: '2024-10-31'
   link: https://resolver.tudelft.nl/uuid:4893ca9e-5cce-42ba-8ded-7cff98258cce
@@ -2197,7 +2198,7 @@
 - surname: Cai
   name: Yuduan
   title: 'SplitSFC: A database solution for massive point cloud data management'
-  supervisors: B.M. Meijers
+  supervisors: Martijn Meijers
   year: 2024
   graduation_date: '2024-01-18'
   link: https://resolver.tudelft.nl/uuid:485371bf-9a86-4eef-92c3-125a8904672c
@@ -2229,7 +2230,7 @@
   name: Mengying
   title: 'Formalizing land indicators for SDGs: Implementation and evaluation
     using international standards'
-  supervisors: P.J.M. van Oosterom; E. Kalogianni
+  supervisors: Peter van Oosterom; Eftychia Kalogianni
   year: 2024
   graduation_date: '2024-10-30'
   link: https://resolver.tudelft.nl/uuid:1f082b4d-5d96-4c72-8777-c62f76cc2624
@@ -2262,7 +2263,7 @@
 - surname: Dechamps
   name: L.C.
   title: Spatial and semantic enrichment of utility networks data
-  supervisors: G. Agugiaro
+  supervisors: Giorgio Agugiaro
   year: 2024
   graduation_date: '2024-06-19'
   link: https://resolver.tudelft.nl/uuid:060a3f80-3200-4900-8b8f-572cbbb57e5f
@@ -2301,7 +2302,7 @@
   name: Constantijn
   title: Visualizing massive computation fluid dynamic outputs in game engines
     using voxelization and dynamic loading
-  supervisors: C. Garcia Sanchez
+  supervisors: Clara García Sánchez
   year: 2024
   graduation_date: '2024-04-10'
   link: https://resolver.tudelft.nl/uuid:605302d7-8939-416a-8488-ff48842b02ec
@@ -2345,7 +2346,7 @@
 - surname: Feng
   name: Yingxin
   title: 3D building model edit with generative AI
-  supervisors: N. Ibrahimli; G.A.K. Arroyo Ohori
+  supervisors: Nail Ibrahimli; Ken Arroyo Ohori
   year: 2024
   graduation_date: '2024-06-20'
   link: https://resolver.tudelft.nl/uuid:a180e48a-4bd2-4606-bce5-9449559bee12
@@ -2392,7 +2393,7 @@
   name: Irina
   title: Analysis of the visibility of GPS satellites in the urban environment
     using point cloud representation
-  supervisors: E. Verbree
+  supervisors: Edward Verbree
   year: 2024
   graduation_date: '2024-01-19'
   link: https://resolver.tudelft.nl/uuid:0d4f6592-456a-413a-a10b-e7d30930e126
@@ -2428,7 +2429,7 @@
   name: Sicong
   title: 'Towards Adaptive Trajectory Data Management: Modelling, Accessing,
     Distributing, and Query Optimization in Distributed Database'
-  supervisors: B.M. Meijers
+  supervisors: Martijn Meijers
   year: 2024
   graduation_date: '2024-06-17'
   link: https://resolver.tudelft.nl/uuid:2a3d6f15-c8d5-4ab6-b3c5-f46c6c433d43
@@ -2480,7 +2481,7 @@
 - surname: Hengelmolen
   name: Maren
   title: Urban computational fluid dynamics simulations set-up validations
-  supervisors: C. Garcia Sanchez
+  supervisors: Clara García Sánchez
   year: 2024
   graduation_date: '2024-01-16'
   link: https://resolver.tudelft.nl/uuid:4bfbc01f-1681-4640-9b00-c1a800a4f74d
@@ -2510,7 +2511,7 @@
   title: 'Optimizing Energy Balance in Multi-Energy Microgrids -- Enhancing
     Grid Efficiency: Utilizing Deep Reinforcement Learning for Efficient Distribution
     of Local Renewable Energy Resources'
-  supervisors: A. Rafiee
+  supervisors: Azarakhsh Rafiee
   year: 2024
   graduation_date: '2024-07-03'
   link: https://resolver.tudelft.nl/uuid:5d20ed5a-9467-4760-b086-6da90073a257
@@ -2563,7 +2564,7 @@
 - surname: Kan
   name: Leo
   title: Spatial Height Prediction of ICESat-2 Data using Random Forest Regression
-  supervisors: H. Ledoux
+  supervisors: Hugo Ledoux
   year: 2024
   graduation_date: '2024-01-17'
   link: https://resolver.tudelft.nl/uuid:50e2609e-644d-4241-b3f2-a17f204d2c06
@@ -2593,8 +2594,8 @@
   name: Maria Luisa Tarozzo
   title: 'Common Ground: Bridging Subsurface Information Models and Climate
     Adaptation Design'
-  supervisors: P.J.M. van Oosterom; U.D. Hackauf; A. Wandl; Rob van der Krogt;
-    Wilfred Visser
+  supervisors: Peter van Oosterom; Ulf Hackauf; Alexander Wandl; Rob van der
+    Krogt; Wilfred Visser
   year: 2024
   graduation_date: '2024-06-17'
   link: https://resolver.tudelft.nl/uuid:6331f94b-b1f0-49f7-96d7-6ddb3e45d124
@@ -2644,7 +2645,7 @@
   title: 'An automatic geometry repair framework for semantic 3D city models:
     Develop a framework for the automatic repair and reconstruction of 3D
     city models to facilitate different use cases and implement a prototype'
-  supervisors: H. Ledoux
+  supervisors: Hugo Ledoux
   year: 2024
   graduation_date: '2024-11-01'
   link: https://resolver.tudelft.nl/uuid:b5de420d-e0a2-4265-8bac-e7ae12f75e8c
@@ -2688,7 +2689,7 @@
 - surname: Köbben
   name: Stein
   title: Integrating 3D Functionality into a Web Application for Sharing Geo-information
-  supervisors: B.M. Meijers; E. Kalogianni
+  supervisors: Martijn Meijers; Eftychia Kalogianni
   year: 2024
   graduation_date: '2024-06-18'
   link: https://resolver.tudelft.nl/uuid:ca630fac-e9ed-4653-af9e-325bcb821794
@@ -2731,7 +2732,7 @@
   name: Gabriela
   title: 'Implementing a Dutch building energy simulation tool: Energy model
     testing for Rijssen-Holten'
-  supervisors: C.A. León Sánchez
+  supervisors: Camilo León Sánchez
   year: 2024
   graduation_date: '2024-06-26'
   link: https://resolver.tudelft.nl/uuid:4fce75a7-05f6-4854-b3f8-7fff5de114aa
@@ -2765,7 +2766,7 @@
 - surname: Li
   name: Sitong
   title: Enhancing 3D model for urban area with neural representations
-  supervisors: G.A.K. Arroyo Ohori; N. Ibrahimli
+  supervisors: Ken Arroyo Ohori; Nail Ibrahimli
   year: 2024
   graduation_date: '2024-07-03'
   link: https://resolver.tudelft.nl/uuid:c9211a3c-2b54-4895-8a85-06dcdfe6df3b
@@ -2808,7 +2809,7 @@
   name: Sharath Chandra
   title: A Confidence-aware Deep Learning Framework for Refining Laser-scanned
     Point Cloud Classification
-  supervisors: Shenglan Du; D.H. van der Heide; J.E. Stoter
+  supervisors: Shenglan Du; Daan van der Heide; Jantien Stoter
   year: 2024
   graduation_date: '2024-11-04'
   link: https://resolver.tudelft.nl/uuid:e6ab08b9-a4d9-4e9c-86ec-3805631cf998
@@ -2846,7 +2847,7 @@
   name: Dimitris
   title: CNN-based roofing material segmentation using aerial imagery and
     LiDAR data fusion
-  supervisors: H. Ledoux
+  supervisors: Hugo Ledoux
   year: 2024
   graduation_date: '2024-10-31'
   link: https://resolver.tudelft.nl/uuid:c463e920-61e6-40c5-89e9-25354fadf549
@@ -2897,7 +2898,7 @@
 - surname: Mao
   name: Ping
   title: A digital twin based on Land Administration
-  supervisors: P.J.M. van Oosterom; A. Rafiee
+  supervisors: Peter van Oosterom; Azarakhsh Rafiee
   year: 2024
   graduation_date: '2024-07-08'
   link: https://resolver.tudelft.nl/uuid:e8d8fa2a-91b5-4ef7-8d19-a354dccfd6c7
@@ -2936,7 +2937,7 @@
   title: Creating a methodology to more objectively measure the performance
     of reconstruction algorithms for large urban objects generated from low
     detailed complete ground truth models
-  supervisors: N. Ibrahimli
+  supervisors: Nail Ibrahimli
   year: 2024
   graduation_date: '2024-06-27'
   link: https://resolver.tudelft.nl/uuid:47fbe5bb-fdf2-44b4-8aa0-19d16385f781
@@ -2962,7 +2963,7 @@
   name: Georgios Konstantinos
   title: Exploring the potential of 5G positioning via RSSI, comparing its
     efficacy with GNSS-RTK positioning
-  supervisors: E. Verbree; B.M. Meijers; R.L. Voûte
+  supervisors: Edward Verbree; Martijn Meijers; Robert Voûte
   year: 2024
   graduation_date: '2024-10-31'
   link: https://resolver.tudelft.nl/uuid:269af5b6-1278-4afc-9b06-64cfba0bbf40
@@ -2996,7 +2997,7 @@
 - surname: Poon
   name: Hoi-Kang (Chris)
   title: Inferring the residential building type from 3DBAG
-  supervisors: C.A. León Sánchez
+  supervisors: Camilo León Sánchez
   year: 2024
   graduation_date: '2024-01-18'
   link: https://resolver.tudelft.nl/uuid:3ef77acb-b38b-4fa5-9b1e-31813b00b739
@@ -3047,7 +3048,7 @@
   name: Oliver
   title: 'The City Stack: A morphology-based city analysis and generation
     framework'
-  supervisors: H. Ledoux; A. Patil
+  supervisors: Hugo Ledoux; Akshay Patil
   year: 2024
   graduation_date: '2024-11-01'
   link: https://resolver.tudelft.nl/uuid:d6dc629c-c75e-4578-b1a1-8ac741133751
@@ -3087,7 +3088,7 @@
   name: Chengzhi
   title: Reconstructing a high-detailed 2D areal representation of road network
     based on OSM data
-  supervisors: G.A.K. Arroyo Ohori; S. Vitalis
+  supervisors: Ken Arroyo Ohori; Stelios Vitalis
   year: 2024
   graduation_date: '2024-10-29'
   link: https://resolver.tudelft.nl/uuid:0bae72e4-ff16-4921-8f6e-d92fa4a377d7
@@ -3127,7 +3128,7 @@
 - surname: Shen
   name: Qiwei
   title: Plant Skeleton Extraction and Stem-leaf Segmentation
-  supervisors: L. Nan
+  supervisors: Liangliang Nan
   year: 2024
   graduation_date: '2024-10-30'
   link: https://resolver.tudelft.nl/uuid:42ae723f-4924-402c-9d8a-992f70f21bf4
@@ -3177,7 +3178,7 @@
   name: J.L.
   title: Evaluating Gender-Blindness and User Satisfaction in Dutch Campus
     Map Creation
-  supervisors: B. van Loenen; S. Calzati
+  supervisors: Bastiaan van Loenen; Stefano Calzati
   year: 2024
   graduation_date: '2024-10-31'
   link: https://resolver.tudelft.nl/uuid:c97064d2-6ddb-4297-81bf-8e159ffd1d2e
@@ -3204,7 +3205,7 @@
   name: Pam
   title: Exploring the potential of explorative point clouds in floodplain
     maintenance
-  supervisors: E. Verbree
+  supervisors: Edward Verbree
   year: 2024
   graduation_date: '2024-01-17'
   link: https://resolver.tudelft.nl/uuid:e1fdfc2b-c0e3-4c02-bb78-cdbf0cc10c1a
@@ -3257,7 +3258,8 @@
   name: Bing-Shiuan
   title: '3DCityDB-Tools plug-in for QGIS: Adding server-side support to 3DCityDB
     v.5.0'
-  supervisors: G. Agugiaro; C.A. León Sánchez; Claus Nagel; Zhihang Yao
+  supervisors: Giorgio Agugiaro; Camilo León Sánchez; Claus Nagel; Zhihang
+    Yao
   year: 2024
   graduation_date: '2024-10-29'
   link: https://resolver.tudelft.nl/uuid:5992ba24-8618-48d7-9e24-28839b5da16b
@@ -3312,7 +3314,7 @@
   name: Marjolein
   title: A standards-based portal for integrated Land Administration information
     - A case study of the Netherlands
-  supervisors: P.J.M. van Oosterom
+  supervisors: Peter van Oosterom
   year: 2024
   graduation_date: '2024-04-10'
   link: https://resolver.tudelft.nl/uuid:1de8932b-2106-4b7b-9b32-7fc4b70a3cc6
@@ -3369,7 +3371,7 @@
   title: From thermal comfort to heat mitigation action - A reproducable QGIS
     plugin for calculating the physiological equivalent temperature in Dutch
     cities
-  supervisors: E. Verbree; S.C. van der Spek; M.M.E. van Esch
+  supervisors: Edward Verbree; Stefan van der Spek; Marjolein van Esch
   year: 2024
   graduation_date: '2024-04-17'
   link: https://resolver.tudelft.nl/uuid:c05dedaa-5beb-45f9-b107-9ccd93b29e64
@@ -3410,7 +3412,7 @@
 - surname: Wei
   name: Qiuxian
   title: Multi-levels of detail terrain construction for navigation
-  supervisors: G.A.K. Arroyo Ohori; S. Vitalis
+  supervisors: Ken Arroyo Ohori; Stelios Vitalis
   year: 2024
   graduation_date: '2024-07-03'
   link: https://resolver.tudelft.nl/uuid:5b504409-dace-4569-93c0-a9be4f49c478
@@ -3452,7 +3454,7 @@
 - surname: Yang
   name: Yue
   title: Directly Serving 3D Tiles From A Geo-DBMS
-  supervisors: B.M. Meijers
+  supervisors: Martijn Meijers
   year: 2024
   graduation_date: '2024-04-12'
   link: https://resolver.tudelft.nl/uuid:096553de-711c-49fd-8428-50ee6203b4ce
@@ -3477,7 +3479,7 @@
   name: Chi
   title: 'Diffusion MVSNet: A Learning-based MVS Boosted by Diffusion-Based
     Image Enhancement Model'
-  supervisors: N. Ibrahimli
+  supervisors: Nail Ibrahimli
   year: 2024
   graduation_date: '2024-06-27'
   link: https://resolver.tudelft.nl/uuid:02a605e4-ebb1-4f5d-b7c8-7ef32baa82b1
@@ -3504,7 +3506,7 @@
 - surname: Bachert
   name: Carolin
   title: Mapping the Energy ADE to CityGML 3.0
-  supervisors: G. Agugiaro
+  supervisors: Giorgio Agugiaro
   year: 2023
   graduation_date: '2023-01-20'
   link: https://resolver.tudelft.nl/uuid:d253b343-7c96-45ee-9239-5c85594ad4fa
@@ -3546,7 +3548,7 @@
   name: Daniël
   title: Floor count from street view imagery using learning-based façade
     parsing
-  supervisors: G.A.K. Arroyo Ohori
+  supervisors: Ken Arroyo Ohori
   year: 2023
   graduation_date: '2023-01-20'
   link: https://resolver.tudelft.nl/uuid:857658d4-9134-4935-9c28-fef907d9ace1
@@ -3631,7 +3633,7 @@
   name: Mihai-Alexandru
   title: Improving the content of Vario-Scale Maps - An analysis into the
     generalization of border structures
-  supervisors: B.M. Meijers; P.J.M. van Oosterom
+  supervisors: Martijn Meijers; Peter van Oosterom
   year: 2023
   graduation_date: '2023-01-19'
   link: https://resolver.tudelft.nl/uuid:1f17418f-63a8-47ab-a843-8a2624925a7c
@@ -3671,7 +3673,7 @@
   name: Lisa Yvette
   title: 'Localising objects with drones: A case study on the localisation
     of fisher boats in restricted areas'
-  supervisors: B.M. Meijers; A. Rafiee; Niels van der Vaart
+  supervisors: Martijn Meijers; Azarakhsh Rafiee; Niels van der Vaart
   year: 2023
   graduation_date: '2023-01-17'
   link: https://resolver.tudelft.nl/uuid:bced95cc-54eb-474d-b963-21cc9eb0cf13
@@ -3702,7 +3704,7 @@
 - surname: Mbwanda
   name: Tendai
   title: Further Development of a QGIS plugin for the CityGML 3D City Database
-  supervisors: G. Agugiaro; C.A. León Sánchez
+  supervisors: Giorgio Agugiaro; Camilo León Sánchez
   year: 2023
   graduation_date: '2023-06-20'
   link: https://resolver.tudelft.nl/uuid:6786ac5c-b61d-4e17-8501-e3cf2c7a9577
@@ -3741,7 +3743,7 @@
   name: Siebren
   title: 'LuminaCity: a Real-Time Daylight Analysis Tool for Architectural
     and Urban Development Using Unreal Engine'
-  supervisors: A. Rafiee; E. Brembilla
+  supervisors: Azarakhsh Rafiee; Eleonora Brembilla
   year: 2023
   graduation_date: '2023-07-03'
   link: https://resolver.tudelft.nl/uuid:8fefa31e-636d-48b6-9647-1181859c8300
@@ -3819,7 +3821,7 @@
   name: Ioanna
   title: 'Semantically-Guided 3D Building Facade Reconstruction: A Learning-Based
     MVS Approach'
-  supervisors: N. Ibrahimli
+  supervisors: Nail Ibrahimli
   year: 2023
   graduation_date: '2023-10-27'
   link: https://resolver.tudelft.nl/uuid:6b3a4d29-45f6-4432-ac31-67ceae7dd75a
@@ -3850,7 +3852,7 @@
   name: C.
   title: 'All in? Identifying and tackling private sector’s barriers to data
     sharing: A Perspective on geospatial data in the Netherlands'
-  supervisors: B. van Loenen
+  supervisors: Bastiaan van Loenen
   year: 2023
   graduation_date: '2023-10-31'
   link: https://resolver.tudelft.nl/uuid:0e21cba1-a238-43b0-935e-ef70ec9b160d
@@ -3887,7 +3889,7 @@
   name: Simon Pena
   title: Automated rooftop solar panel detection through Convolutional Neural
     Networks
-  supervisors: A. Rafiee; S.L.M. Lhermitte
+  supervisors: Azarakhsh Rafiee; Stef Lhermitte
   year: 2023
   graduation_date: '2023-01-18'
   link: https://resolver.tudelft.nl/uuid:deceb957-59ae-46f7-9c48-cf0489ce0f23
@@ -3949,7 +3951,7 @@
   name: Eleni
   title: Implementation of OGC SensorThings API standard for the integration
     of dynamic sensor data in a 3D urban digital twin
-  supervisors: A. Rafiee
+  supervisors: Azarakhsh Rafiee
   year: 2023
   graduation_date: '2023-11-16'
   link: https://resolver.tudelft.nl/uuid:b92de6b0-a868-4910-9392-cf1063fb9639
@@ -3983,7 +3985,7 @@
   name: Adele
   title: 'Integrating radar and multi-spectral data to detect cocoa crops:
     a deep learning approach'
-  supervisors: A. Rafiee
+  supervisors: Azarakhsh Rafiee
   year: 2023
   graduation_date: '2023-06-21'
   link: https://resolver.tudelft.nl/uuid:314e12c9-c3bc-478b-b664-d0c0680f3caf
@@ -4013,7 +4015,7 @@
 - surname: Visser
   name: Fabian
   title: Neural Surface Reconstruction and Stylization
-  supervisors: N. Ibrahimli; L. Nan
+  supervisors: Nail Ibrahimli; Liangliang Nan
   year: 2023
   graduation_date: '2023-06-21'
   link: https://resolver.tudelft.nl/uuid:7f8ef49b-7c9c-4281-bd93-b921d9b28d49
@@ -4047,7 +4049,7 @@
 - surname: Xia
   name: Yitong
   title: A data-driven approach to add openings to 3D BAG building models
-  supervisors: J.E. Stoter
+  supervisors: Jantien Stoter
   year: 2023
   graduation_date: '2023-06-19'
   link: https://resolver.tudelft.nl/uuid:eaff38b9-65f4-4c1c-8cec-aebd8fc4b18f
@@ -4084,7 +4086,7 @@
   name: Lan
   title: Extraction of Exterior Building Envelopes from Building Information
     Models
-  supervisors: G.A.K. Arroyo Ohori
+  supervisors: Ken Arroyo Ohori
   year: 2023
   graduation_date: '2023-06-19'
   link: https://resolver.tudelft.nl/uuid:2ff23b56-dc28-4c71-adf7-a9aecfcce413
@@ -4139,7 +4141,7 @@
 - surname: Zhang
   name: Fengyan
   title: Snap rounding polygons with a triangulation
-  supervisors: G.A.K. Arroyo Ohori; H. Ledoux
+  supervisors: Ken Arroyo Ohori; Hugo Ledoux
   year: 2023
   graduation_date: '2023-06-22'
   link: https://resolver.tudelft.nl/uuid:295f89f6-445b-4f3c-a764-cb78d7e9b825
@@ -4175,7 +4177,7 @@
 - surname: Apra
   name: Irène
   title: Semantic segmentation of roof superstructures
-  supervisors: G.A.K. Arroyo Ohori
+  supervisors: Ken Arroyo Ohori
   year: 2022
   graduation_date: '2022-06-28'
   link: https://resolver.tudelft.nl/uuid:a9530c9d-3732-4c68-9cf0-0b25d994f691
@@ -4215,7 +4217,7 @@
   name: Camilo
   title: Automated Semantic Segmentation of Aerial Imagery using Synthetic
     Data
-  supervisors: S. Du
+  supervisors: Shenglan Du
   year: 2022
   graduation_date: '2022-06-15'
   link: https://resolver.tudelft.nl/uuid:677ad184-1169-45b3-a31b-bcb7239dd451
@@ -4272,7 +4274,7 @@
   name: Ioannis
   title: Indoor localisation and location tracking in semi-public buildings
     based on LiDAR point clouds and images of the ceilings
-  supervisors: E. Verbree
+  supervisors: Edward Verbree
   year: 2022
   graduation_date: '2022-06-28'
   link: https://resolver.tudelft.nl/uuid:40b823ed-9334-4a35-a69b-83c7ab393e5c
@@ -4325,7 +4327,7 @@
   name: Michiel
   title: Using voxelised spaces for the generation and visualisation of dynamic
     evacuation routes
-  supervisors: R.L. Voûte
+  supervisors: Robert Voûte
   year: 2022
   graduation_date: '2022-06-17'
   link: https://resolver.tudelft.nl/uuid:0b5e90b8-6ca1-4cd8-b5db-31539bddad1d
@@ -4368,7 +4370,7 @@
   name: Jos
   title: 'Geofront: directly accessible GIS tools using a web-based visual
     programming language'
-  supervisors: G.A.K. Arroyo Ohori
+  supervisors: Ken Arroyo Ohori
   year: 2022
   graduation_date: '2022-11-04'
   link: https://resolver.tudelft.nl/uuid:0ace357b-d07a-40a0-9167-6d8e775f5ba0
@@ -4417,7 +4419,7 @@
 - surname: Fratzeskou
   name: Christina
   title: From GIS to 3D flow simulations in urban environments
-  supervisors: C. Garcia Sanchez
+  supervisors: Clara García Sánchez
   year: 2022
   graduation_date: '2022-10-31'
   link: https://resolver.tudelft.nl/uuid:a603d34f-997c-4fa2-8538-db018f5b6fec
@@ -4459,7 +4461,7 @@
 - surname: Fu
   name: Runnan
   title: Modeling tree topology effects on wind
-  supervisors: C. Garcia Sanchez; I. Pađen
+  supervisors: Clara García Sánchez; Ivan Pađen
   year: 2022
   graduation_date: '2022-06-24'
   link: https://resolver.tudelft.nl/uuid:557e824d-a088-4cf4-8fe5-c98f5b893057
@@ -4501,7 +4503,7 @@
   name: Robin
   title: 'Efficient Solar Potential Estimation of 3D Buildings: 3D BAG as
     use case'
-  supervisors: H. Ledoux
+  supervisors: Hugo Ledoux
   year: 2022
   graduation_date: '2022-11-11'
   link: https://resolver.tudelft.nl/uuid:0d6fe201-5676-48c0-850f-942d1ee9a353
@@ -4548,7 +4550,8 @@
 - surname: Jin
   name: Yuzhen
   title: Dynamic energy simulations based on the 3D BAG 2.0
-  supervisors: G. Agugiaro; C.A. León Sánchez; Jérôme Kämpf; Giuseppe Peronato
+  supervisors: Giorgio Agugiaro; Camilo León Sánchez; Jérôme Kämpf; Giuseppe
+    Peronato
   year: 2022
   graduation_date: '2022-06-16'
   link: https://resolver.tudelft.nl/uuid:3ae123bd-cae4-45b2-be48-27ffe5cab980
@@ -4592,7 +4595,7 @@
   name: Pratyush
   title: An OGC 3D tiling technique based user-interactive platform for digital
     twins in a virtual reality environment
-  supervisors: A. Rafiee
+  supervisors: Azarakhsh Rafiee
   year: 2022
   graduation_date: '2022-06-16'
   link: https://resolver.tudelft.nl/uuid:629d3bd6-04d3-49b6-9f5c-13589f1c8ceb
@@ -4669,7 +4672,7 @@
 - surname: Liu
   name: Zhenyu
   title: Dynamic Objects Detection and Removal in Mobile Laser Scanning Data
-  supervisors: P.J.M. van Oosterom
+  supervisors: Peter van Oosterom
   year: 2022
   graduation_date: '2022-06-27'
   link: https://resolver.tudelft.nl/uuid:9b1ba72c-9c74-45e1-952a-58c0824c9a74
@@ -4707,7 +4710,7 @@
   name: Xenia Una
   title: Exploring Isovist Applications in Third-Person View Visualisations
     of Outdoor Space Boundaries Using Point Clouds
-  supervisors: E. Verbree; B.M. Meijers; R.L. Voûte
+  supervisors: Edward Verbree; Martijn Meijers; Robert Voûte
   year: 2022
   graduation_date: '2022-08-30'
   link: https://resolver.tudelft.nl/uuid:922ad01c-0d36-494b-b499-2c0744f474dd
@@ -4795,7 +4798,7 @@
 - surname: Papakostas
   name: Theodoros
   title: Modelling a military scene using a Discrete Global Grid System
-  supervisors: R.L. Voûte
+  supervisors: Robert Voûte
   year: 2022
   graduation_date: '2022-06-28'
   link: https://resolver.tudelft.nl/uuid:aca1d742-9fbe-4577-a4fd-b8b0ba50f368
@@ -4844,7 +4847,7 @@
 - surname: Pavlidou
   name: Androniki
   title: Integrated modeling of utility networks in the urban environment
-  supervisors: G. Agugiaro; J.E. Stoter
+  supervisors: Giorgio Agugiaro; Jantien Stoter
   year: 2022
   graduation_date: '2022-06-16'
   link: https://resolver.tudelft.nl/uuid:81549126-bbb9-49d5-bc46-d050a2463c6d
@@ -4901,7 +4904,7 @@
   name: M. Maundri
   title: Funding Model for The Production of Large-Scale (1:5.000) Base Map
     in Indonesia
-  supervisors: F.M. Welle Donker
+  supervisors: Frederika Welle Donker
   year: 2022
   graduation_date: '2022-11-09'
   link: https://resolver.tudelft.nl/uuid:339371b5-0c6a-4756-9266-461d87677e29
@@ -4933,7 +4936,7 @@
   name: Maarit
   title: How could BIM support the digital building permit process in the
     Netherlands?
-  supervisors: J.E. Stoter
+  supervisors: Jantien Stoter
   year: 2022
   graduation_date: '2022-06-29'
   link: https://resolver.tudelft.nl/uuid:33b125b5-d902-4432-9043-2ceb10f2e53e
@@ -5031,7 +5034,7 @@
 - surname: Roy
   name: Ellie
   title: Inferring the number of floors of building footprints in the Netherlands
-  supervisors: H. Ledoux
+  supervisors: Hugo Ledoux
   year: 2022
   graduation_date: '2022-01-13'
   link: https://resolver.tudelft.nl/uuid:6de4255c-ab2b-49c2-a282-ed779de092a1
@@ -5079,7 +5082,7 @@
 - surname: Smit
   name: Mels
   title: Deducing the Location of Glass Windows in 3D Indoor Environments
-  supervisors: E. Verbree; B.M. Meijers; Robert Voûte
+  supervisors: Edward Verbree; Martijn Meijers; Robert Voûte
   year: 2022
   graduation_date: '2022-01-13'
   link: https://resolver.tudelft.nl/uuid:b1e20016-5e1c-4610-a951-6631983b7511
@@ -5121,7 +5124,7 @@
 - surname: Triantafyllou
   name: Georgios
   title: Isovist Fingerprinting as new way of Indoor Localisation
-  supervisors: E. Verbree
+  supervisors: Edward Verbree
   year: 2022
   graduation_date: '2022-06-28'
   link: https://resolver.tudelft.nl/uuid:4c97f5e2-dfa1-403d-85e7-0fb43d98cc82
@@ -5197,7 +5200,7 @@
 - surname: van der Horst
   name: Noortje
   title: Procedural Modelling of Tree Growth Using Multi-temporal Point Clouds
-  supervisors: L. Nan; J.E. Stoter
+  supervisors: Liangliang Nan; Jantien Stoter
   year: 2022
   graduation_date: '2022-06-23'
   link: https://resolver.tudelft.nl/uuid:d284c33a-7297-4509-81e1-e183ed6cca3c
@@ -5231,7 +5234,7 @@
 - surname: van der Vaart
   name: Jasper
   title: Automatic building feature detection and reconstruction in IFC models
-  supervisors: G.A.K. Arroyo Ohori
+  supervisors: Ken Arroyo Ohori
   year: 2022
   graduation_date: '2022-06-22'
   link: https://resolver.tudelft.nl/uuid:db6edbfc-5310-47db-b2c7-3d8e2b62de0f
@@ -5283,7 +5286,7 @@
   name: Laurens
   title: Generating consistent triangular terrain elevation data for noise
     modelling
-  supervisors: B. Dukai
+  supervisors: Balázs Dukai
   year: 2022
   graduation_date: '2022-01-13'
   link: https://resolver.tudelft.nl/uuid:f77cd8e1-682b-4812-9652-25b23b5319a4
@@ -5313,7 +5316,7 @@
 - surname: van Schendel
   name: Maximiliaan
   title: Merging of Topometric Maps of Indoor Environments -- Extraction
-  supervisors: E. Verbree
+  supervisors: Edward Verbree
   year: 2022
   graduation_date: '2022-10-31'
   link: https://resolver.tudelft.nl/uuid:92e1ea3a-3a34-449c-b0b4-731d6480266a
@@ -5335,7 +5338,7 @@
 - surname: Veselý
   name: Ondrej
   title: Building massing generation using GAN trained on Dutch 3D city models
-  supervisors: G. Agugiaro; R. Cavallo
+  supervisors: Giorgio Agugiaro; Roberto Cavallo
   year: 2022
   graduation_date: '2022-06-27'
   link: https://resolver.tudelft.nl/uuid:27085fd4-654a-4748-92d0-61563fe6040c
@@ -5374,7 +5377,7 @@
 - surname: Wang
   name: Linjun
   title: Detailed Facade Reconstruction for Mahattan-world Buildings
-  supervisors: L. Nan
+  supervisors: Liangliang Nan
   year: 2022
   graduation_date: '2022-06-23'
   link: https://resolver.tudelft.nl/uuid:1581231d-6109-44b2-ab57-bbbea3e08642
@@ -5415,7 +5418,7 @@
 - surname: Wu
   name: Ziyan
   title: 'Estimating building height from ICESat-2 data: The case of the Netherlands'
-  supervisors: H. Ledoux
+  supervisors: Hugo Ledoux
   year: 2022
   graduation_date: '2022-06-29'
   link: https://resolver.tudelft.nl/uuid:bb13b322-1ad8-48d1-9baf-89f539e18adf
@@ -5453,7 +5456,7 @@
   name: Khaled
   title: ISO 19650 standards in Web GIS for project's information management
     including GIS & BIM
-  supervisors: S. Vitalis
+  supervisors: Stelios Vitalis
   year: 2021
   graduation_date: '2021-11-03'
   link: https://resolver.tudelft.nl/uuid:306f0b94-2827-4aa0-90df-66110ee5a484
@@ -5497,7 +5500,7 @@
 - surname: Chatzidiakos
   name: Charalampos
   title: Safety-driven road width estimations from vector data
-  supervisors: A. Labetski; G.A.K. Arroyo Ohori; S. Vitalis
+  supervisors: Anna Labetski; Ken Arroyo Ohori; Stelios Vitalis
   year: 2021
   graduation_date: '2021-11-05'
   link: https://resolver.tudelft.nl/uuid:86c86f99-eaf3-4de6-b4e0-aef06ba158a8
@@ -5580,7 +5583,7 @@
 - surname: de Jong
   name: Maarten
   title: Simplification of massive TINs with the streaming geometries paradigm
-  supervisors: H. Ledoux; R.Y. Peters
+  supervisors: Hugo Ledoux; Ravi Peters
   year: 2021
   graduation_date: '2021-07-02'
   link: https://resolver.tudelft.nl/uuid:e7df1d5a-8819-40aa-a3d1-1f6d50b8a39e
@@ -5648,7 +5651,7 @@
 - surname: de Jongh
   name: Wessel
   title: Urban morphological analysis for wind potential
-  supervisors: C. Garcia Sanchez; B. Dukai
+  supervisors: Clara García Sánchez; Balázs Dukai
   year: 2021
   graduation_date: '2021-07-02'
   link: https://resolver.tudelft.nl/uuid:fdbff288-fede-4796-9972-54627af0db77
@@ -5735,7 +5738,7 @@
   name: Denis
   title: Solar Analysis on Buildings of Favelas in São Paulo to Estimate PV
     Potential
-  supervisors: G. Agugiaro
+  supervisors: Giorgio Agugiaro
   year: 2021
   graduation_date: '2021-11-04'
   link: https://resolver.tudelft.nl/uuid:05ff635a-8113-4d65-aae1-bc0c727831d8
@@ -5793,7 +5796,7 @@
   name: Nadine
   title: CFD, sensitivity analysis and optimisation to promote the formation
     of dunes
-  supervisors: C. Garcia Sanchez; I. Pađen
+  supervisors: Clara García Sánchez; Ivan Pađen
   year: 2021
   graduation_date: '2021-07-02'
   link: https://resolver.tudelft.nl/uuid:40a081bc-e32c-4c01-ab4b-ad71a1057c70
@@ -5827,7 +5830,7 @@
 - surname: Kenesei
   name: Kristof
   title: Constructing a digital 3D road network for The Netherlands
-  supervisors: R.Y. Peters
+  supervisors: Ravi Peters
   year: 2021
   graduation_date: '2021-06-22'
   link: https://resolver.tudelft.nl/uuid:2a987bdc-82e1-4d82-92ea-fecd17e6c567
@@ -5872,7 +5875,7 @@
 - surname: Li
   name: Xiaoai
   title: 'CityREST: CityJSON in a database + RESTful access'
-  supervisors: H. Ledoux; J.N.H. van Liempt
+  supervisors: Hugo Ledoux; Jordi van Liempt
   year: 2021
   graduation_date: '2021-07-01'
   link: https://resolver.tudelft.nl/uuid:e6bb2142-c113-4add-a466-41bf0fea3b11
@@ -5976,7 +5979,7 @@
   name: N.A. Nur An Nisa
   title: 'Designing User Experience (UX) to Support Public Participation in
     Spatial Planning: Case study: Indonesia'
-  supervisors: H.D. Ploeger; B. van Loenen
+  supervisors: Hendrik Ploeger; Bastiaan van Loenen
   year: 2021
   graduation_date: '2021-07-05'
   link: https://resolver.tudelft.nl/uuid:b0876cc2-d8b8-4286-8b3f-1888a5f45d97
@@ -6069,7 +6072,7 @@
 - surname: Papageorgiou
   name: Manos
   title: Semantic segmentation of the AHN dataset with the Random Forest Classifier
-  supervisors: R.Y. Peters
+  supervisors: Ravi Peters
   year: 2021
   graduation_date: '2021-09-14'
   link: https://resolver.tudelft.nl/uuid:699fb934-4d4b-4cf1-a115-75dcb79fbebb
@@ -6119,7 +6122,7 @@
 - surname: Stevers
   name: Anna Vera
   title: The effects of beach house configurations on dune-ward sediment transport
-  supervisors: C. Garcia Sanchez; G. Agugiaro; I. Pađen
+  supervisors: Clara García Sánchez; Giorgio Agugiaro; Ivan Pađen
   year: 2021
   graduation_date: '2021-06-30'
   link: https://resolver.tudelft.nl/uuid:d85b5773-f511-4bdf-91a8-496107c8faba
@@ -6171,7 +6174,7 @@
 - surname: van Heerden
   name: Natasja
   title: BIM and 3D City Models as Input for Microclimate Simulation
-  supervisors: F. Noardo; M.M.E. Pijpers-van Esch
+  supervisors: Francesca Noardo; Marjolein van Esch
   year: 2021
   graduation_date: '2021-07-02'
   link: https://resolver.tudelft.nl/uuid:630d57be-5660-4971-84c2-83bf12b1d204
@@ -6218,7 +6221,7 @@
 - surname: Wu
   name: Jialun
   title: Automatic building permits checks by means of 3D city models
-  supervisors: F. Noardo
+  supervisors: Francesca Noardo
   year: 2021
   graduation_date: '2021-09-14'
   link: https://resolver.tudelft.nl/uuid:d6d23631-281a-4107-9f05-7e4942f2dabf
@@ -6302,7 +6305,7 @@
 - surname: Ceccarelli
   name: Giulia
   title: Semantic segmentation of point clouds with the 3D medial axis transform
-  supervisors: R.Y. Peters; W. Gao
+  supervisors: Ravi Peters; Weixiao Gao
   year: 2020
   graduation_date: '2020-07-03'
   link: https://resolver.tudelft.nl/uuid:85973c1e-1798-4fae-9790-3d1bab9476e1
@@ -6437,7 +6440,7 @@
   name: Mutian
   title: Using Foreign Data Wrapper in PostgreSQL to Expose Point Clouds on
     File System
-  supervisors: B.M. Meijers; P.J.M. van Oosterom
+  supervisors: Martijn Meijers; Peter van Oosterom
   year: 2020
   graduation_date: '2020-11-09'
   link: https://resolver.tudelft.nl/uuid:0182ce77-96e3-493b-a933-e91910b6302b
@@ -6453,7 +6456,7 @@
 - surname: Duynstee
   name: Charlotte
   title: Data driven sustainable mobility analysis in the city of Amsterdam
-  supervisors: C.W. Quak
+  supervisors: Wilko Quak
   year: 2020
   graduation_date: '2020-07-08'
   link: https://resolver.tudelft.nl/uuid:1db0ce92-b034-474a-9fc3-e6845a85c4c0
@@ -6597,7 +6600,7 @@
   name: Konrad
   title: Parallel step assignment for continuous generalization constrained
     with target map
-  supervisors: B.M. Meijers
+  supervisors: Martijn Meijers
   year: 2020
   graduation_date: '2020-07-09'
   link: https://resolver.tudelft.nl/uuid:77153f80-c529-477c-98d3-e3d120966bd6
@@ -6701,7 +6704,7 @@
 - surname: Li
   name: Jinglan
   title: Manage 4D historical AIS data by space filling curve
-  supervisors: B.M. Meijers; H. Liu
+  supervisors: Martijn Meijers; Haicheng Liu
   year: 2020
   graduation_date: '2020-07-07'
   link: https://resolver.tudelft.nl/uuid:aa4dfaa6-4793-4996-b6f8-a3ac72d978ef
@@ -6746,7 +6749,7 @@
 - surname: Mastorakis
   name: Konstantinos
   title: An integrative workflow for 3D city model versioning
-  supervisors: H. Ledoux; S. Vitalis
+  supervisors: Hugo Ledoux; Stelios Vitalis
   year: 2020
   graduation_date: '2020-11-04'
   link: https://resolver.tudelft.nl/uuid:a7f7f0c8-7a34-454e-973a-d55f5b8b0dfe
@@ -6791,7 +6794,7 @@
   name: Maria
   title: Comparison of Remotely Sensed and Volunteered Geographic Information
     for water reservoirs
-  supervisors: C. Garcia Sanchez
+  supervisors: Clara García Sánchez
   year: 2020
   graduation_date: '2020-11-09'
   link: https://resolver.tudelft.nl/uuid:03bd4cce-6852-4784-b192-05cd02bd2106
@@ -6936,7 +6939,7 @@
 - surname: Staring
   name: Karin
   title: CityJSON in combination with MongoDB, PostgreSQL and GraphQL
-  supervisors: S. Vitalis; L.E. van den Brink
+  supervisors: Stelios Vitalis; Linda van den Brink
   year: 2020
   graduation_date: '2020-11-13'
   link: https://resolver.tudelft.nl/uuid:7f9209f7-248f-4c93-9ba3-5866655e6040
@@ -7050,7 +7053,7 @@
 - surname: van Liempt
   name: Jordi
   title: 'CityJSON: does (file) size matter?'
-  supervisors: H. Ledoux; B. Dukai
+  supervisors: Hugo Ledoux; Balázs Dukai
   year: 2020
   graduation_date: '2020-07-02'
   link: https://resolver.tudelft.nl/uuid:4aad07f4-8f64-46b1-aad3-3d4abe36c5bf
@@ -7106,7 +7109,7 @@
 - surname: van Opstal
   name: Willem
   title: Automatic isobath generalisation for navigational charts
-  supervisors: B.M. Meijers
+  supervisors: Martijn Meijers
   year: 2020
   graduation_date: '2020-07-09'
   link: https://resolver.tudelft.nl/uuid:2e95de28-c9ce-4d07-8131-ae3c4c5b9d86
@@ -7189,7 +7192,7 @@
   name: Gabriella
   title: 'Towards the linking of geospatial government data: A study on the
     semantic harmonisation between data from Dutch geo-registries'
-  supervisors: L.E. van den Brink; J.E. Stoter
+  supervisors: Linda van den Brink; Jantien Stoter
   year: 2020
   graduation_date: '2020-07-09'
   link: https://resolver.tudelft.nl/uuid:f02e513c-bbb4-4b19-813b-4b5a062725d0
@@ -7235,7 +7238,7 @@
   name: Liyao
   title: Visualization of Point Clouds in Mobile Augmented Reality using Continuous
     Level of Detail Method
-  supervisors: P.J.M. van Oosterom
+  supervisors: Peter van Oosterom
   year: 2020
   graduation_date: '2020-11-04'
   link: https://resolver.tudelft.nl/uuid:d465b8e7-4022-4e33-94b0-3a996fec2ec3
@@ -7286,7 +7289,7 @@
 - surname: Zhao
   name: Yifang
   title: Outer surface extraction for complex 3D building models
-  supervisors: L. Nan; H. Ledoux
+  supervisors: Liangliang Nan; Hugo Ledoux
   year: 2020
   graduation_date: '2020-07-06'
   link: https://resolver.tudelft.nl/uuid:b0dac42c-6d7a-4dbf-a11b-ce851d573862
@@ -7332,7 +7335,7 @@
   name: Anastasia
   title: A probabilistic analysis of results of co-registration of aerial
     and mobile laser-scanned point clouds
-  supervisors: P.J.M. van Oosterom; Peter Joosten
+  supervisors: Peter van Oosterom; Peter Joosten
   year: 2019
   graduation_date: '2019-07-10'
   link: https://resolver.tudelft.nl/uuid:f5429395-475a-4c94-a049-f6038f476805
@@ -7653,7 +7656,7 @@
   name: Giorgos
   title: From static to dynamic visualization of the sea surface height on
     a web GIS application
-  supervisors: P.J.M. van Oosterom; Fedor Baart
+  supervisors: Peter van Oosterom; Fedor Baart
   year: 2019
   graduation_date: '2019-11-01'
   link: https://resolver.tudelft.nl/uuid:6fd75a74-8ddf-44ed-a641-4aab228aa028
@@ -7959,7 +7962,7 @@
   name: Roeland Willem Erik
   title: 'BIM Legal: Proposal for defining legal spaces for apartment rights
     in the Dutch cadastre using the IFC data model'
-  supervisors: P.J.M. van Oosterom
+  supervisors: Peter van Oosterom
   year: 2019
   graduation_date: '2019-07-01'
   link: https://resolver.tudelft.nl/uuid:ca32eb79-7f53-4948-b3cb-d52a3b8c18a5
@@ -8015,7 +8018,7 @@
   name: Ioanna
   title: Design and Evaluate the OGC Web Services Architecture of a Geohazard
     analysis tool
-  supervisors: P.J.M. van Oosterom; Gerrit Hendriksen
+  supervisors: Peter van Oosterom; Gerrit Hendriksen
   year: 2019
   graduation_date: '2019-11-01'
   link: https://resolver.tudelft.nl/uuid:2071a403-830f-4750-89d4-37e01f8f5034
@@ -8269,7 +8272,7 @@
   name: Evangelos
   title: 'How to solve spatial problems using linked-data: the case of planning
     a shopping center in Delft'
-  supervisors: P.J.M. van Oosterom
+  supervisors: Peter van Oosterom
   year: 2019
   graduation_date: '2019-04-10'
   link: https://resolver.tudelft.nl/uuid:843174be-bb0c-4bde-8df1-70022448e26e
@@ -8339,7 +8342,7 @@
 - surname: van der Maaden
   name: Jippe
   title: Vario-scale visualization of the AHN2 point cloud
-  supervisors: P.J.M. van Oosterom; B.M. Meijers
+  supervisors: Peter van Oosterom; Martijn Meijers
   year: 2019
   graduation_date: '2019-04-15'
   link: https://resolver.tudelft.nl/uuid:42496941-d12a-48b0-af48-ae4cb12984a6
@@ -8399,7 +8402,7 @@
 - surname: Wu
   name: Teng
   title: Visibility analysis in a point cloud based on the medial axis transform
-  supervisors: R.Y. Peters
+  supervisors: Ravi Peters
   year: 2019
   graduation_date: '2019-11-11'
   link: https://resolver.tudelft.nl/uuid:1b2da021-816b-4516-9e4d-e8315707b6fc
@@ -8593,7 +8596,7 @@
 - surname: Cemellini
   name: Barbara
   title: Web-based visualization of 3D cadastre
-  supervisors: P.J.M. van Oosterom; Marianne de Vries; Rodney Thompson
+  supervisors: Peter van Oosterom; Marianne de Vries; Rodney Thompson
   year: 2018
   graduation_date: '2018-07-13'
   link: https://resolver.tudelft.nl/uuid:c38d2ee0-9fe7-47db-9f9e-d1afc899ee2c
@@ -8643,8 +8646,7 @@
   name: Antria
   title: An image-based method for the pairwise registration of mobile laser
     scanning point clouds
-  supervisors: P.J.M. van Oosterom; Ravi Peters; Peter Joosten; Berry van
-    Someren
+  supervisors: Peter van Oosterom; Ravi Peters; Peter Joosten; Berry van Someren
   year: 2018
   graduation_date: '2018-10-30'
   link: https://resolver.tudelft.nl/uuid:5c1d2d90-8f2f-4dc2-b6c3-d5c635323c35
@@ -8825,7 +8827,7 @@
 - surname: Groeneveld
   name: IJsbrand
   title: Generalisation of Hydrography Networks for a Vario-scale Basemap
-  supervisors: P.J.M. van Oosterom; Martijn Meijers; Radan Suba
+  supervisors: Peter van Oosterom; Martijn Meijers; Radan Suba
   year: 2018
   graduation_date: '2018-02-01'
   link: https://resolver.tudelft.nl/uuid:a08dc9f7-6d7b-419d-ac42-44ea3b5318ab
@@ -8855,7 +8857,7 @@
   name: Tom
   title: Classification of large scale outdoor point clouds using convolutional
     neural networks
-  supervisors: Mathias Lemmens; P.J.M. van Oosterom; Kaixuan Zhou; Maarten
+  supervisors: Mathias Lemmens; Peter van Oosterom; Kaixuan Zhou; Maarten
     Kruithof
   year: 2018
   graduation_date: '2018-04-17'
@@ -9102,7 +9104,7 @@
   name: Neeraj
   title: Utilizing a Discrete Global Grid System For Handling Point Clouds
     With Varying Locations, Times, and Levels of Detail
-  supervisors: Edward Verbree; P.J.M. van Oosterom
+  supervisors: Edward Verbree; Peter van Oosterom
   year: 2018
   graduation_date: '2018-06-25'
   link: https://resolver.tudelft.nl/uuid:56e06ce9-fbad-4ded-8cd5-978f21f9aa2c
@@ -9206,7 +9208,7 @@
   name: Jade
   title: Towards interoperable standards for 1D time series data within the
     water sector
-  supervisors: P.J.M. van Oosterom; Nick van de Giesen
+  supervisors: Peter van Oosterom; Nick van de Giesen
   year: 2017
   graduation_date: '2017-11-10'
   link: https://resolver.tudelft.nl/uuid:b0ec4837-a641-41c1-b869-b20d2621c077
@@ -9284,7 +9286,7 @@
   name: Dimitrios
   title: The identification of road modality and occupancy patterns by Wi-Fi
     monitoring sensors as a way to support the “Smart Cities” concept
-  supervisors: E. Verbree; S. Zlatanova
+  supervisors: Edward Verbree; Sisi Zlatanova
   year: 2017
   link: https://resolver.tudelft.nl/uuid:68a1d7d2-3828-4df5-9c05-63a2511188e4
   image: 2017_Kyritsis.jpg
@@ -9389,7 +9391,7 @@
   name: Stella
   title: Using a Space Filling Curve for the Management of Dynamic Point Cloud
     Data in a Relational DBMS
-  supervisors: T.P.M. Tijssen; P.J.M. van Oosterom
+  supervisors: Theo Tijssen; Peter van Oosterom
   year: 2017
   link: https://resolver.tudelft.nl/uuid:c1e625b0-0a74-48b5-b748-6968e7f83e2b
   image: stella.jpg
@@ -9437,7 +9439,7 @@
   name: Pieter
   title: Designing an integrated future data model for survey data and cadastral
     mapping
-  supervisors: P.J.M. van Oosterom; E. Verbree
+  supervisors: Peter van Oosterom; Edward Verbree
   year: 2017
   link: https://resolver.tudelft.nl/uuid:b9a712da-f70e-43d9-b539-9e4c491966c0
   abstract: For nearly 200 years the Netherlands’ Cadastre, Land Registry
@@ -9740,7 +9742,7 @@
   name: Tom
   title: Automatic identification of water courses from AHN3 in flat and engineered
     landscapes
-  supervisors: H. Ledoux; R.Y. Peters
+  supervisors: Hugo Ledoux; Ravi Peters
   year: 2016
   link: https://resolver.tudelft.nl/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056
   image: broersen.png
@@ -9795,7 +9797,7 @@
   name: Ivo
   title: Exploring the Use of the Semantic Web for discovering, retrieving
     and processing data from Sensor Observation Services
-  supervisors: M.E. De Vries; B.M. Meijers
+  supervisors: Marianne de Vries; Martijn Meijers
   year: 2016
   link: https://resolver.tudelft.nl/uuid:44d66025-3e51-4d32-81aa-e093f0aca833
   abstract: 'Developments such as smart cities, the Internet of Things (IoT)
@@ -9850,7 +9852,7 @@
   name: Irene
   title: Managing Historic Automatic Identification System data by using a
     proper Database Management System structure
-  supervisors: C.W. Quak; P.J.M. van Oosterom
+  supervisors: Wilko Quak; Peter van Oosterom
   year: 2016
   link: https://resolver.tudelft.nl/uuid:d11552c7-8b87-41a0-8b88-1090ea07e858
   abstract: This MSc thesis aims to develop a management solution for historical
@@ -9894,7 +9896,7 @@
   name: Florian W.
   title: Semantic enrichment of a point cloud based on an octree for multi-storey
     pathfinding
-  supervisors: A.A. Diakité; S. Zlatanova
+  supervisors: Abdoulaye Diakite; Sisi Zlatanova
   year: 2016
   link: https://resolver.tudelft.nl/uuid:b4c13508-dbcc-4a32-a7b7-9cb22230e0a7
   image: Florian.png
@@ -9937,7 +9939,7 @@
   name: Erik
   title: 'Exploring the 3D BAG: How to define it and to what extent can it
     automatically be created using open data'
-  supervisors: J. Stoter; H. Ledoux
+  supervisors: Jantien Stoter; Hugo Ledoux
   year: 2016
   link: https://resolver.tudelft.nl/uuid:bb4a1667-1d6f-41ac-b12e-fb70c0013881
   image: heeres.png
@@ -9946,7 +9948,7 @@
   name: Kees
   title: Automatic generation of raster-based height data for the Netherlands
     based on the AHN2 data set
-  supervisors: J.E. Stoter; H. Ledoux; B.G.H. Gorte
+  supervisors: Jantien Stoter; Hugo Ledoux; Ben Gorte
   year: 2016
   link: https://resolver.tudelft.nl/uuid:b1d1c50d-24bf-4a12-b0e5-3c2479907d66
   image: jonker.png
@@ -9995,7 +9997,7 @@
   name: Eftychia
   title: Linking the legal with the physical reality of 3D objects in the
     context of Land Administration Domain Model
-  supervisors: P.J.M. Oosterom; W. Quak
+  supervisors: Peter van Oosterom; Wilko Quak
   year: 2016
   link: https://resolver.tudelft.nl/uuid:2e3d7f53-9ca3-4003-b09b-77b82f312873
   abstract: 'The massive developments and uses of high rise buildings indicate
@@ -10064,7 +10066,7 @@
   name: Matthijs
   title: Making sense of standards An evaluation and harmonisation of standards
     in the Sensor Web
-  supervisors: C.W. Quak; B. van Loenen
+  supervisors: Wilko Quak; Bastiaan van Loenen
   year: 2016
   link: https://resolver.tudelft.nl/uuid:35f9ef5c-0923-4ceb-8932-830fcf7d18d8
   abstract: Sensor data plays a significant role in our life. Sensors are
@@ -10130,7 +10132,7 @@
 - surname: Koopman
   name: Martijn
   title: 3D Path-finding in a voxelized model of an indoor environment
-  supervisors: S. Zlatanova; B. Gorte; U. Hackauf
+  supervisors: Sisi Zlatanova; Ben Gorte; Ulf Hackauf
   year: 2016
   link: https://resolver.tudelft.nl/uuid:13788271-e19d-41e1-b827-fe7535a66281
   image: martijn.png
@@ -10155,7 +10157,7 @@
   name: Marco
   title: Creating the medial axis transform for billions of lidar points using
     a memory efficient method
-  supervisors: J.E. Stoter; R.Y. Peters; P. Nourian
+  supervisors: Jantien Stoter; Ravi Peters; Pirouz Nourian
   year: 2016
   link: https://resolver.tudelft.nl/uuid:2452566b-058a-4fde-aa0e-e300421bb8b2
   image: lam.jpg
@@ -10198,7 +10200,7 @@
 - surname: Nagelkerke
   name: Tim
   title: Navigation to a human in motion by using points of interest
-  supervisors: S. Zlatanova; A.A. Diakite
+  supervisors: Sisi Zlatanova; Abdoulaye Diakite
   year: 2016
   link: https://resolver.tudelft.nl/uuid:b9e42100-1bad-43de-bd1f-87f47779460a
   image: Tim.png
@@ -10239,7 +10241,7 @@
   name: Olivier
   title: The effect of A* pathfinding characteristics on the path length and
     performance in an octree representation of an indoor point cloud
-  supervisors: S. Zlatanova; E. Verbree
+  supervisors: Sisi Zlatanova; Edward Verbree
   year: 2016
   link: https://resolver.tudelft.nl/uuid:fa1444c0-b957-43a3-9a9e-a0a7664bb6c8
   image: Olivier.png
@@ -10269,7 +10271,7 @@
 - surname: Rook
   name: Merwin
   title: Automatic thematic and semantic classification of 3D city models
-  supervisors: F. Biljecki; A.A. Diakité
+  supervisors: Filip Biljecki; Abdoulaye Diakite
   year: 2016
   link: https://resolver.tudelft.nl/uuid:61236178-3b72-4923-8d72-1d44446783df
   image: mrook.png
@@ -10304,7 +10306,7 @@
   name: Adrie
   title: Exploring the use of a generic spatial access method for caching
     and efficient retrieval of vario-scale data in a client-server architecture
-  supervisors: M. Meijers; P. van Oosterom
+  supervisors: Martijn Meijers; Peter van Oosterom
   year: 2016
   link: https://resolver.tudelft.nl/uuid:215c9363-7fc8-466e-9c77-8a37defbce34
   abstract: Vario-scale data structures make it possible to derive maps at
@@ -10340,7 +10342,7 @@
   name: Rosann
   title: Using sensor-data collected by a meet rollator for deriving outdoor
     accessibility information concerning mobility impaired people
-  supervisors: S. Zlatanova; E. Verbree; A. Wandl
+  supervisors: Sisi Zlatanova; Edward Verbree; Alexander Wandl
   year: 2015
   link: https://resolver.tudelft.nl/uuid:29fc70b1-c262-4f3d-837f-5ecddb56d6f0
   image: rosann.png
@@ -10407,15 +10409,46 @@
   name: Godelief
   title: Towards a Web application for viewing Spatial Linked Open Data of
     Rotterdam
+  supervisors: Peter van Oosterom; Marianne de Vries; Bastiaan van Loenen
   year: 2015
   link: https://resolver.tudelft.nl/uuid:c5a80e2d-b1ab-46ed-95e9-56c7f0fefb83
+  abstract: Governments and municipalities open up their data and publish
+    spatial data on the Web, to be transparent to their citizens and to stimulate
+    innovation. This spatial open data can be confusing for non-GIS experts,
+    since data is published as either typical geo-formats or metadata is missing.
+    Linked data could benefit in that regard. Linked data is a method to publish
+    data on the Web in a way that it can be easily combined with other datasets
+    on the Web. Linked data has benefits for spatial data regarding the combining
+    of datasets to solve cross knowledge domain issues, the linking of metadata
+    with the spatial data and the possibility to ask spatial queries. The
+    research focused on how to apply the linked data method for spatial open
+    data in order to profit from the benefits of linked data. The research
+    provided a methodology to create spatial linked open data. In the case
+    study for the Municipality of Rotterdam, four spatial open datasets concerning
+    the composition of areas and neighborhoods in Rotterdam Zuid were converted
+    to spatial linked open data and visualized on a Web map to exemplify the
+    possibilities and limitations for spatial linked open data. The case study
+    showed that there are multiple users who benefit from spatial linked open
+    data. The results also showed that modeling spatial data according to
+    the OGC standard for spatial linked data, the GeoSPARQL ontology, provides
+    the possibility to ask spatial queries over the data to do a simple analysis
+    or inventory over multiple heterogeneous and distributed datasets, by
+    dynamically and implicitly linking datasets together on their location.
+    As of now, not all tools for creating linked data support spatial data
+    yet, therefore it can be time consuming to convert the data to spatial
+    linked data. The on-the-fly method, where the existing spatial data is
+    converted on the fly to linked data would be ideal, in terms of data management,
+    since the data is more up-to-date and not copied. Spatial linked open
+    data has benefits in cross knowledge domain issues where multiple heterogeneous
+    and distributed datasets are required, such as in emergency management
+    and urban planning.
   uuid: c5a80e2d-b1ab-46ed-95e9-56c7f0fefb83
   needs_review: true
 - surname: Chen
   name: Carl
   title: Edge-aware simplification of roof and facade point clouds into a
     uniformly dense point cloud
-  supervisors: S. Zlatanova; E. Eisemann; B.B.E. Buchholz
+  supervisors: Sisi Zlatanova; Elmar Eisemann; Bert Buchholz
   year: 2015
   link: https://resolver.tudelft.nl/uuid:662fad08-51a9-4f8d-acb1-4caf78d602bb
   image: chen-Chen.png
@@ -10443,7 +10476,7 @@
   name: Milo
   title: 3D Intersection operations for voxel data represented as surfaces
     in GIS
-  supervisors: S. Zlatanova; M.E. De Vries; F.L. Hooimeijer
+  supervisors: Sisi Zlatanova; Marianne de Vries; Fransje Hooimeijer
   year: 2015
   link: https://resolver.tudelft.nl/uuid:7cec6091-5c62-4645-b2b2-c74c149e92a6
   image: milo.jpg
@@ -10457,15 +10490,68 @@
   name: Antigoni
   title: Indoor Signposting and Wayfinding through an Adaptation of the Dutch
     cyclist Junction Network System
+  supervisors: Edward Verbree
   year: 2015
   link: https://resolver.tudelft.nl/uuid:ae4c0beb-f864-4274-aeb6-2b33514862de
+  abstract: 'Finding one''s way in complex indoor settings can be a quite
+    stressful and time-consuming task, especially for users unfamiliar with
+    the environment. There have been several different approaches to provide
+    wayfinding assistance in order to guide a person from a starting point
+    to a destination, ranging from traditional maps and signposting systems
+    to the most recent developments of navigation systems displaying direction
+    information on a mobile device screen. However, so far none of them has
+    emerged to be efficient enough in order to act as a uniform solution for
+    the wayfinding problem in indoor environments. Moreover, referencing to
+    landmarks is not widely employed by wayfinding assistance systems despite
+    the fact that landmark-based navigation is the most common way for people
+    to navigate themselves through unfamiliar environments. The aim of this
+    work is to propose a new wayfinding assistance method for indoor environments
+    that makes use of the landmark concept. The method to achieve it is by
+    translating the main principles of an already existing outdoor system
+    named Junction Network System, which applies successfully for providing
+    guidance to cyclists in The Netherlands. The most important parameter
+    of the system is that assistance is provided to users where they actually
+    need to make a directional choice. The first step is to automatically
+    define the locations, i.e. the decision points, where wayfinding assistance
+    is needed in indoor settings and the second is to supply them with a special
+    type of landmark which will have the form of a signpost that provides
+    all the necessary information. A graph based representation of the indoor
+    setting is generated in order to extract the decision points and create
+    the network of all possible routes in the environment. The conceptual
+    framework for the determination of the decision points is implemented
+    in two case studies: GeoFort main building and the Faculty of Architecture
+    and the Built Environment (BK) of TU Delft. Two different building cases
+    are used in order to gain an insight on how the system can be applied
+    in different indoor environments. The part of the navigable indoor space
+    where movement mainly occurs when people are in search of a destination
+    was subdivided according to a geometric criterion (Constrained Delaunay
+    Triangulation) while also the semantics of the space were taken into account
+    in order to determine the decision points. By connecting all the decision
+    points and the destinations a network of all the possible routes is created.
+    A route is followed by referring to the sequence of numbers corresponding
+    to the nodes of the network. The proposed system was verified based on
+    a human-based survey. The proposed landmark-signs were installed at part
+    of the faculty of Architecture and users were asked to find their way
+    in the building relying only on them. The time to reach the destination
+    and the number of detours were counted, while a questionnaire-based survey
+    was used in order to further investigate the feelings and views of participants
+    regarding the effectiveness of the system. The findings of the experiment
+    are quite promising, as the performance of the participants in both measures
+    was very good. Additionally, the results of the questionnaire indicate
+    that users consider the system simple and comprehensive and they are in
+    general satisfied by the provided assistance. However, further implementation
+    and testing in more indoor space cases is needed in order to draw an indisputable
+    conclusion about its effectiveness. Nevertheless, an important contribution
+    of the research is the generation of a conceptual model in order to automatically
+    determine the decision points in indoor environments that this can be
+    applied invariable to other wayfinding assistance systems.'
   uuid: ae4c0beb-f864-4274-aeb6-2b33514862de
   needs_review: true
 - surname: Mulder
   name: Damien
   title: Automatic repair of geometrically invalid 3D City Building models
     using a voxel-based repair method
-  supervisors: J.E. Stoter; H. Ledoux; P. Nourian
+  supervisors: Jantien Stoter; Hugo Ledoux; Pirouz Nourian
   year: 2015
   link: https://resolver.tudelft.nl/uuid:8ef4459d-b940-4007-bc3c-d87349015129
   image: damien.jpg
@@ -10512,15 +10598,47 @@
   name: Benny
   title: Automatic generation of plant distributions for existing and future
     natural environments using spatial data
+  supervisors: Wilko Quak
   year: 2015
   link: https://resolver.tudelft.nl/uuid:35f4cc9b-0cb8-4030-b1ae-ad2be146636f
+  abstract: This research proposes an algorithm for the generation of realistic
+    plant distribution for both existing and future areas using spatial data.
+    The main motivation for this research is to be able to generate realistic
+    plant positions for the 3D visualization of existing and future natural
+    environments. Current techniques for determining plant positions are limited.
+    Plant detection techniques from the remote sensing domain are only able
+    to detect positions for large plants using high-resolution imagery and
+    LiDAR data. Often, the plant type of each detected position is not known.
+    In addition, imagery and LiDAR data are not available for future areas.
+    This research demonstrates that spatial data for future can be generated
+    by using dynamic ecological models. These models can produce height, biomass,
+    and coverage maps for future areas. The proposed algorithm must be able
+    to translate data from existing areas as well as data produces by ecological
+    models to a realistic plant distribution. A realistic plant distribution
+    can contain plant positions for small and large plants with their corresponding
+    plant type. To be able to realize this, an algorithm is proposed that
+    integrates concepts of procedural generation and ecological modeling.
+    Different spatial datasets can be provided as input and are analyzed to
+    obtain information of where certain plant types can or cannot be placed
+    in the target area. The algorithm was tested on both an existing area
+    and a future area generated by an ecological model. The results were validated
+    with statistical and expert validation methods. The statistical validation
+    showed that algorithm is able to map the spatial data input correctly
+    to a plant distribution. The expert validation showed that the generated
+    plant distributions were in general judged realistic and that most issues
+    in each plant distribution were because of missing data input or due to
+    low data quality. In the future, the algorithm could be used for different
+    applications and research. One possibility is to improve the current plant
+    detection technique by providing additional information about the positions
+    of small plants and by providing information about the plant type for
+    each point with this algorithm.
   uuid: 35f4cc9b-0cb8-4030-b1ae-ad2be146636f
   needs_review: true
 - surname: Pronk
   name: Maarten
   title: Storing massive TINs in a DBMS - A comparison and a prototype implementation
     of the multistar approach
-  supervisors: J. Stoter; H. Ledoux; M. Meijers
+  supervisors: Jantien Stoter; Hugo Ledoux; Martijn Meijers
   year: 2015
   link: https://resolver.tudelft.nl/uuid:da6b7329-f45b-4560-8374-bb522e78121f
   image: maarten.png
@@ -10569,7 +10687,7 @@
   name: Martijn
   title: Real Time Localization of Assets in Hospitals using Quuppa Indoor
     Positioning Technology
-  supervisors: S. Zlatanova; E. Verbree
+  supervisors: Sisi Zlatanova; Edward Verbree
   year: 2015
   link: https://resolver.tudelft.nl/uuid:31da4059-5dac-4e60-93d7-36cad2d8ab46
   image: martijn.png
@@ -10612,15 +10730,48 @@
 - surname: Willems
   name: Hester
   title: The localisation of freight wagons on marshalling yards
+  supervisors: Stefan van der Spek; Edward Verbree; Wilko Quak
   year: 2015
   link: https://resolver.tudelft.nl/uuid:e0ea7327-4832-4e62-a702-c9e0acaa2939
+  abstract: Freight is moved by trucks on the road more and more, which is
+    a worrying thing, especially for the environment. A very good alternative
+    to transportation by trucks is transportation by trains. The Dutch government
+    aims to increase the transportation of goods by train from 13% of all
+    transportation to 20% of all transportation, but in reality, freight transportation
+    by rail is used less and less. One of the main reasons is inefficiency
+    in the process, which is caused partly by the fact that freight wagons
+    or entire freight trains can get lost, easily for as long as a week. Not
+    only does this cause inefficiency in the transportation of goods, it also
+    poses dangerous situations if the location of wagons is not exactly known.
+    In this thesis, performed at the company CGI, a system was researched
+    and developed to make real time localisation of trains on marshalling
+    yards possible, using low cost GNSS devices. Three characteristics of
+    marshalling yards have played a large role in the development of this
+    system. First, the fact that freight trains are usually stationary on
+    marshalling yards, this posed an interesting research angle for this project.
+    During the project, the influence of combining multiple GPS measurements
+    to improve the accuracy of the result was investigated, both average and
+    median calculations were used to take these previous measurements into
+    account. A second important characteristic of a marshalling yard is the
+    fact that trains will always be located on a specific track on the marshalling
+    yard. In the time that it remained stationary, it cannot have moved from
+    one track to the other. The tracks on the marshalling yards will be taken
+    as an extra reference system in this project and play an important role
+    in making the resulting location understandable for the end users of the
+    system. The last characteristic is that the order of the wagons cannot
+    change while the wagons are stationary. This order of the wagons is also
+    important to make the result understandable. The order of the wagons on
+    one track is calculated using the distance and the bearing between the
+    different devices. Using these characteristics in the processing phase
+    of the GPS measurements, a real time system to localise the freight wagons
+    on marshalling yards has been developed.
   uuid: e0ea7327-4832-4e62-a702-c9e0acaa2939
   needs_review: true
 - surname: Wu
   name: Haoxiang
   title: Integration of 2D architectural floor plans into Indoor OpenStreetMap
     for reconstructing 3D building models
-  supervisors: S. Zlatanova; L. Liu
+  supervisors: Sisi Zlatanova; Liu Liu
   year: 2015
   link: https://resolver.tudelft.nl/uuid:26a4c6b8-8ea0-4246-b30e-5c83a28cccb4
   image: wu.png
@@ -10658,15 +10809,46 @@
   name: Dimitrios
   title: Combining a Physics-based Model and Spatial Interpolation of Scarce
     Bed Topography Data in Meandering Alluvial Rivers
+  supervisors: Peter van Oosterom; Martijn Meijers; Erik Mosselman
   year: 2015
   link: https://resolver.tudelft.nl/uuid:f41ba0a0-acd5-462e-b5aa-7c1c5878e1ac
+  abstract: All human life is dependent on fresh water and activities related
+    to monitoring its availability have become crucial for financial and survival
+    reasons. Most rivers are being constantly investigated today by both the
+    private and public sector using various means. In advanced countries,
+    the researches cover extensively the riverbed in order to fully assess
+    its topography. However, there are quite often cases where the data collected
+    are disorderly scarce, resulting in questionable assumptions and interpolated
+    predictions. The purpose of this thesis is to provide a new method for
+    reconstructing the riverbed topography when data are scarce, so as to
+    achieve better results than the ones conventional methods currently give.
+    The chosen course of action involves a combination of the datasets outputted
+    by a simplified physics-based model and spatial interpolation of the available
+    scarce topography data. The surrounding research involves numerous aspects
+    of mathematics, physics and spatial analysis, which together are called
+    in to provide a complete solution to an existing problem. The focus lies
+    on meandering alluvial rivers, whose planform style is the most common
+    in human-populated river basin areas. Three rivers of different extent
+    and interest are explored, namely the Danube (Romanian area), IJssel (Netherlands)
+    and Kootenai (United States). The study cases comprise river areas extracted
+    from each of them, in order to focus on bends and mildly widening or narrowing
+    parts of the rivers. The final outcome of this Master Graduation Thesis
+    project was achieved through literature research, exploration and implementation
+    of ideas and scientific methods, made possible through cooperation with
+    the Deltares independent institute for applied research. The proposed
+    method combines scarce riverbed topography data with the basics of river
+    morphology and spatial interpolation techniques to come to a new method
+    that achieves a result of higher value in the complex field of river and
+    geomatics engineering. The method is further assessed and evaluated and
+    will ideally be incorporated in the Rapid Assessment Tool for Inland Navigation
+    (RAT-IN) which is currently under development at Deltares.
   uuid: f41ba0a0-acd5-462e-b5aa-7c1c5878e1ac
   needs_review: true
 - surname: Zhou
   name: Kaixuan
   title: Exploring Regularities for Improving Quality of Facade Reconstruction
     from Point Cloud
-  supervisors: B.G.H. Gorte; S. Zlatanova; P. Nourian
+  supervisors: Ben Gorte; Sisi Zlatanova; Pirouz Nourian
   year: 2015
   link: https://resolver.tudelft.nl/uuid:8f548788-1e42-475b-adbf-93f9dbcd04a1
   image: zhou.png
@@ -10711,7 +10893,7 @@
 - surname: Krūminaitė
   name: Marija
   title: Space subdivision for indoor navigation
-  supervisors: S. Zlatanova
+  supervisors: Sisi Zlatanova
   year: 2014
   link: https://resolver.tudelft.nl/uuid:c2a9a308-5cdc-4df2-bf30-9eea5ea176c5
   image: marija.png
@@ -10777,30 +10959,138 @@
   name: Haicheng
   title: 'Comparing NetCDF and a multidimensional array database on managing
     and querying large hydrologic datasets: a case study of SciDB'
+  supervisors: Peter van Oosterom; Theo Tijssen; Tom Commandeur; Roderik Lindenbergh
   year: 2014
   link: https://resolver.tudelft.nl/uuid:e55765a9-dfcb-4a6d-b9fb-f9279137c50c
+  abstract: Like many ICT related domains, hydrology enters the era of big
+    data and managing large volume of data is a potential issue facing hydrologists.
+    However at present, hydrologic data research is mostly concerned with
+    data collection, interpretation, modelling and visualization. Management
+    and query of large datasets do not draw much interest. The motivation
+    of this research originates from a specific data management problem reflected
+    by Hydrologic Research B.V. and that is, time series extraction costs
+    intolerable time when the large multidimensional dataset is stored in
+    NetCDF classic or 64-bit offset format. The essence of this issue lies
+    in the contiguous storage structure adopted by NetCDF. So in this research,
+    NetCDF-4 format and a multidimensional array database applying chunked
+    storage structure are benchmarked to learn whether and how chunked storage
+    structure can benefit queries executed by hydrologists. To achieve a convincing
+    and representative benchmark result, expert consultancy was conducted
+    to collect queries and sample datasets frequently handled by water experts.
+    From the raw consultancy records, 5 classes of query were summarized and
+    specific queries for benchmarking were devised. After this, 9 criteria
+    were established to assess which multidimensional array database is most
+    suitable for benchmarking and finally SciDB was chosen. To establish a
+    fair benchmark test environment, HydroNET-4 system was utilized and adapters
+    for NetCDF files and SciDB were developed to manage and query data. For
+    final benchmark tests, influence of data compression on query, and scalability
+    of diverse data solutions, i.e. 64-bit offset, NetCDF-4 and SciDB solutions
+    were investigated. In addition, chunk size and dimensions order effect
+    of SciDB arrays on query performance were also explored. It turns out
+    that NetCDF-4 solution with a recommended chunk size has the best overall
+    management and query performance among all solutions. SciDB arrays utilizing
+    small chunk sizes present favorable performance. However with current
+    implementation of SciDB, large amount of small chunks cause huge overload
+    of main memory which constraints SciDB’s scalability. For SciDB, DEFLATE
+    compression can either have negative or no effect on query performance.
+    In time series extraction test, compression effect is found to be correlated
+    with chunk size and the negative impact of compression on query decreases
+    as chunk size reduces. It is deduced that with hypercubic and modest chunk
+    sizes, the internal data structure of chunks in SciDB has no significant
+    influence on query performance. The research demonstrates that for large
+    data management and query, a file based solution can be a better choice
+    than a database utilizing smart caching and indexing strategies. But due
+    to the limited scope of the research, for instance no parallel query processing
+    tested, more work need to be conducted in the future.
   uuid: e55765a9-dfcb-4a6d-b9fb-f9279137c50c
   needs_review: true
 - surname: Tierie
   name: Elise
   title: Visualisation conformity of three dimensional IMGeo for emergency
     response
+  supervisors: Sisi Zlatanova; Peter van Oosterom
   year: 2014
   link: https://resolver.tudelft.nl/uuid:9bb42bcc-9081-4e48-9b4e-34505e562bec
+  abstract: The past seventy years the number of disasters that occur, man-made
+    and natural, has increased. This problem requires suitable and efficient
+    means to control and respond to emergency situations. Currently, the emergency
+    responders use maps and software that allows for two dimensional visualisations
+    of situations. Meanwhile the development of visualisation software continues.
+    In the Netherlands the interest in CityGML, software for 3D city visualisation,
+    has vastly increased after the 3D pilot ‘NL’, coordinated by Geonovum.
+    As a result of this interest, Geonovum has set up a Dutch CityGML format,
+    which is an extension of the existing 2D IMGeo format. This extension
+    contains the standard 3D objects that make up a city, but might lack objects
+    that are required specifically for disaster fighting. A three dimensional
+    environment could provide a better overview of a location than a 2D map
+    and also allow for 3D, and thus more realistic, computations such as 3D
+    distance, 3D flow computation, 3D visibility analysis and for example
+    flood simulations. These possibilities could have profits for emergency
+    responders but might require extensions of the IMGeo information model
+    and its data before IMGeo can be used for emergency response. There are
+    a lot of organisations, actors, involved in emergency response. Based
+    on their experience, obtained insight and a literature study, this thesis
+    researched to what extent IMGeo and CityGML comply with the user requirements
+    for an emergency response model. The results indicated that IMGeo covers
+    the basics of an emergency response model, but that a lot of scenario
+    related objects are missing (e.g. dikes). These objects are to be combined
+    per scenario and thus form scenario based modelling; the base of this
+    research. This modelling allows dosed relevant visuals of the model. which
+    is important since too much information will slow down a model and could
+    counteract the user.
   uuid: 9bb42bcc-9081-4e48-9b4e-34505e562bec
   needs_review: true
 - surname: van der Laan
   name: Eva
   title: Radio propagation aided indoor localization
+  supervisors: Wilko Quak; Stefan van der Spek; Pirouz Nourian
   year: 2014
   link: https://resolver.tudelft.nl/uuid:316d539f-d28e-478e-abf5-a255f920e61d
+  abstract: 'Indoor localization is a hot topic since the demand for Location
+    Based Services (LBS) has increased, especially (semi) public places like
+    museums, office buildings and congress halls would benefit from LBS. Outdoor
+    localization and its applications like navigation systems are well implemented
+    in society and used by many on a daily basis. Applications using indoor
+    localization are underrepresented due to the lack of a robust and scalable
+    indoor localization technique. Attempting to solve this problem, first,
+    a suitable indoor localization technique (hardware) is selected and second,
+    an indoor localization method (algorithm) is applied. For the localization
+    technique two radio propagation techniques are tested in this research:
+    first an established technique called Ultra High Frequency Radio Frequency
+    Identification (UHF RFID) and second, a newly arrived technique called
+    Bluetooth Low Energy (BLE). Both techniques use a sensor and tag. In the
+    case of UHF RFID the person to be located carries a tag and is recorded
+    by sensors on the ceiling. In the case of BLE the person to be located
+    holds the sensor in hand and senses the tags on the ceiling. Results show
+    that the UHF RFID is highly sensitive to environmental changes and water
+    bodies (including the user itself). This makes the proximity indication
+    of the technique unpredictable and the technique difficult to use in various
+    locations with a large amount of users, which is often the case in (semi)
+    public places. The BLE shows quite stable results in terms of its sensitivity
+    to interferences and shows a clear correlation between distance and signal
+    strength. The latter two characteristics make it a suitable technique
+    for indoor localization. Two localization algorithms using BLE are proposed;
+    first a dependent algorithm which takes into account the specific characteristics
+    of the sensor, and second, an independent algorithm (referred to as PML)
+    which functions independently from the type of sensor used. The latter
+    is an advantage because the sensor is incorporated in the mobile phone
+    of the user. Especially when there are potentially multiple users holding
+    different types of mobile phones, the sensors can vary widely. The dependent
+    algorithm is based on a probability function using a basic concept of
+    trilateration dependent on the measurements of at least three beacons.
+    PML is based on the ratio between measurements of at least three beacons.
+    Results of both algorithms show in most cases a computed location within
+    a meter of the actual location. Generally, the dependent algorithm shows
+    slightly better results with regards to the PML method. However, the practical
+    usability and scalability of the PML method makes it preferable over the
+    dependent algorithm.'
   uuid: 316d539f-d28e-478e-abf5-a255f920e61d
   needs_review: true
 - surname: van Winden
   name: Karl
   title: Automatically deriving and updating attribute road data from movement
     trajectories
-  supervisors: F. Biljecki; S.C. van der Spek
+  supervisors: Filip Biljecki; Stefan van der Spek
   year: 2014
   link: https://resolver.tudelft.nl/uuid:eec252e0-1a6b-4a3a-a167-45aaadc2bb7f
   image: karl.png
@@ -10853,7 +11143,7 @@
 - surname: Xu
   name: Weilin
   title: Spatial model-aided indoor tracking
-  supervisors: L. Liu
+  supervisors: Liu Liu
   year: 2014
   link: https://resolver.tudelft.nl/uuid:8fd6a9ef-3dfb-4bd1-b54e-44d5b2cca973
   image: xu.png
@@ -10889,7 +11179,7 @@
   name: Roeland
   title: Automatic enhancement of CityGML LoD2 models with interiors and its
     usability for net internal area determination
-  supervisors: G.A.K. Arroyo Ohori; S. Zlatanova; C. Veldhuis
+  supervisors: Ken Arroyo Ohori; Sisi Zlatanova; Christian Veldhuis
   year: 2013
   link: https://resolver.tudelft.nl/uuid:b22a2b93-4a0a-4aa7-8e3b-6e08e0027634
   image: roeland.jpg
@@ -10937,7 +11227,7 @@
     An analysis of the relationships between data exchange, BIM and the asset
     life cycle and the solutions to overcome existing issues at Amsterdam
     Airport Schiphol.
-  supervisors: S. Zlatanova; P.J.M. van Oosterom; N. Wasserman
+  supervisors: Sisi Zlatanova; Peter van Oosterom; Nico Wasserman
   year: 2013
   link: https://resolver.tudelft.nl/uuid:88b6c2fc-b182-4fb2-98c8-25b6a24292ce
   image: lars.png
@@ -10993,7 +11283,7 @@
 - surname: Donkers
   name: Sjors
   title: Automatic generation of CityGML LoD3 building models from IFC models
-  supervisors: H. Ledoux; J. Zhao; J.E. Stoter
+  supervisors: Hugo Ledoux; John Zhao; Jantien Stoter
   year: 2013
   link: https://resolver.tudelft.nl/uuid:31380219-f8e8-4c66-a2dc-548c3680bb8d
   image: sjors.png
@@ -11034,7 +11324,7 @@
 - surname: Altena
   name: B.
   title: Filling the white gap on the map
-  supervisors: B. Gorte; C. Nuth; A. Kääb; M. Menenti
+  supervisors: Ben Gorte; Christopher Nuth; Andreas Kääb; Massimo Menenti
   year: 2012
   link: https://resolver.tudelft.nl/uuid:f8cc2379-2275-449d-8f2d-902e9e7d0682
   abstract: In this study the limits and potentials of the principle of photoclinometry
@@ -11083,7 +11373,7 @@
   name: Prajnaparamita
   title: Quality assessment and object matching of OpenStreetMap in combination
     with the Dutch topographic map TOP10NL
-  supervisors: P. van Oosterom; H. Ledoux; M. Lemmens
+  supervisors: Peter van Oosterom; Hugo Ledoux; Mathias Lemmens
   year: 2012
   link: https://resolver.tudelft.nl/uuid:e1501114-d947-4278-8612-1e249e4dc02f
   abstract: The possibility of an automatic object matching process in combination
@@ -11132,7 +11422,7 @@
   name: Tom
   title: Footprint decomposition combined with point cloud segmentation for
     producing valid 3D models
-  supervisors: H. Ledoux; P.J.M. van Oosterom
+  supervisors: Hugo Ledoux; Peter van Oosterom
   year: 2012
   link: https://resolver.tudelft.nl/uuid:c0c665f7-0254-42c6-895b-cb59acc079f2
   abstract: 'For the creation of three-dimensional (3D) city models, extrusion
@@ -11172,7 +11462,7 @@
   name: Josafat Isaí
   title: Three-dimensional reconstruction of underground utilities for real-time
     visualization
-  supervisors: S. Zlatanova; M. Meijers; E. Jansen
+  supervisors: Sisi Zlatanova; Martijn Meijers; Erik Jansen
   year: 2012
   link: https://resolver.tudelft.nl/uuid:b7f43166-c138-475f-8490-b1f28ed1383d
   abstract: This research discusses the conversion of underground utilities
@@ -11195,7 +11485,7 @@
   name: M.
   title: Using ICESat/GLAS laser altimetry for water level estimations in
     the Mekong River
-  supervisors: R. Lindenbergh; M. Menenti
+  supervisors: Roderik Lindenbergh; Massimo Menenti
   year: 2012
   link: https://resolver.tudelft.nl/uuid:6b269952-3000-4d26-8690-d8a4d553c47e
   abstract: This study evaluates the potential of the Ice, Cloud and Elevation
@@ -11213,7 +11503,7 @@
   name: Simeon
   title: Knowledge-based optimisation of three-dimensional city models for
     car navigation devices
-  supervisors: H. Ledoux
+  supervisors: Hugo Ledoux
   year: 2012
   link: https://resolver.tudelft.nl/uuid:b429e899-9955-4a23-9ceb-66ffb6210b30
   abstract: 'Three-dimensional maps are deemed better for navigation purposes
@@ -11258,7 +11548,7 @@
   name: Ravi
   title: A Voronoi- and surface-based approach for the automatic generation
     of depth-contours for hydrographic charts
-  supervisors: H. Ledoux
+  supervisors: Hugo Ledoux
   year: 2012
   link: https://resolver.tudelft.nl/uuid:5977a99b-0875-44b4-abe1-09288bf2aed1
   abstract: 'Depth-contours are an essential part of any hydrographic chart—a
@@ -11302,7 +11592,7 @@
 - surname: Rammos
   name: P.
   title: Automatic detection of benthos & birds
-  supervisors: R. Lindenbergh
+  supervisors: Roderik Lindenbergh
   year: 2012
   link: https://resolver.tudelft.nl/uuid:c7e67b12-6dc1-4b70-b1a9-443ad0730e60
   abstract: 'Ecological monitoring, i.e. the process of assessing the quality
@@ -11353,7 +11643,7 @@
 - surname: Wijga-Hoefsloot
   name: Martine
   title: Point Clouds in a Database
-  supervisors: S. Zlatanova
+  supervisors: Sisi Zlatanova
   year: 2012
   link: https://resolver.tudelft.nl/uuid:58266d2c-330c-4493-a03a-d8b180eb810d
   abstract: 'With laser scanning (including laser altimetry and multi-beam
@@ -11406,7 +11696,7 @@
 - surname: Wong
   name: H.M.
   title: Registration of range images using geometric features
-  supervisors: B. Gorte; A. Bucksch; M. Menenti
+  supervisors: Ben Gorte; Alexander Bucksch; Massimo Menenti
   year: 2012
   link: https://resolver.tudelft.nl/uuid:d0e5e873-5ac1-45d5-804d-1354d638cb52
   uuid: d0e5e873-5ac1-45d5-804d-1354d638cb52
@@ -11415,7 +11705,7 @@
   name: Effrosyni
   title: 'Towards understanding the DOQ Priorat terroirs: A multivariate GIS
     analysis'
-  supervisors: N. van de Giesen; S. Zlatanova; L. van Paassen
+  supervisors: Nick van de Giesen; Sisi Zlatanova; Leon van Paassen
   year: 2011
   link: https://resolver.tudelft.nl/uuid:70b9c0da-be31-426e-8694-c082a5e36280
   abstract: The notion of terroir covers the interaction between the natural,
@@ -11484,7 +11774,7 @@
 - surname: Saleh
   name: M.
   title: Sediment classification using Sub-bottom profiler
-  supervisors: D.G. Simons; M. Snellen; J. Wunderlich
+  supervisors: Dick Simons; Mirjam Snellen; Jens Wunderlich
   year: 2011
   link: https://resolver.tudelft.nl/uuid:565327fc-c023-4a04-ba7b-7d9a0671a66e
   abstract: Sub bottom profilers are commonly used as mapping tool for the
@@ -11535,7 +11825,7 @@
   name: B.
   title: Change detection and deformation analysis using Terrestrial Laser
     Scanning
-  supervisors: R.F. Hanssen; R.C. Lindenbergh; S.S. Soudarissanane
+  supervisors: Ramon Hanssen; Roderik Lindenbergh; Sylvie Soudarissanane
   year: 2011
   link: https://resolver.tudelft.nl/uuid:acd7e4f7-849b-400f-a5bb-29bb485d427a
   abstract: A Terrestrial Laser Scanner (TLS) is a powerful tool for surveying.
@@ -11567,7 +11857,7 @@
 - surname: van Halderen
   name: L.M.
   title: Visual ego-motion estimation from unmanned deep sea vehicles
-  supervisors: B.G.H. Gorte; C.D. De Jong
+  supervisors: Ben Gorte; Kees de Jong
   year: 2011
   link: https://resolver.tudelft.nl/uuid:ee690d46-3ec9-486a-8a16-b3738ae3f386
   uuid: ee690d46-3ec9-486a-8a16-b3738ae3f386
@@ -11575,7 +11865,7 @@
 - surname: Verlaar
   name: S.H.S.
   title: Evaluation of close range photogrammetric support for Pavescan
-  supervisors: R.C. Lindenbergh; B.G.H. Gorte
+  supervisors: Roderik Lindenbergh; Ben Gorte
   year: 2011
   link: https://resolver.tudelft.nl/uuid:3c8d42b1-fdf1-47f2-91af-cc71882c75ff
   abstract: Pavescan is a low cost mobile system for road modelling survey.
@@ -11611,7 +11901,7 @@
   name: Daniel
   title: Design and Implementation of Constraints for 3D Spatial Database
     - Using Climate City Campus Database as an Example
-  supervisors: P.J.M. van Oosterom; S.Z. Zlatanova
+  supervisors: Peter van Oosterom; Sisi Zlatanova
   year: 2011
   link: https://resolver.tudelft.nl/uuid:702b94e8-903d-4794-8e53-bb5b8da0917a
   abstract: Nowadays the field of geo-information is undergoing major changes,
@@ -11661,7 +11951,7 @@
   name: Gustavo Adolfo Ken
   title: Validation and automatic repair of planar partitions using a constrained
     triangulation
-  supervisors: P.J.M. van Oosterom; H. Ledoux; B.M. Meijers
+  supervisors: Peter van Oosterom; Hugo Ledoux; Martijn Meijers
   year: 2010
   link: https://resolver.tudelft.nl/uuid:78807acb-4115-478c-93de-68b9db884c8e
   abstract: Planar partitions (subdivisions of the plane into polygonal areas)
@@ -11707,7 +11997,7 @@
   name: M.
   title: Evaluation of a laser Land-based Mobile Mapping System for measuring
     sandy coast morphology
-  supervisors: R. Lindenbergh; K. Khoshelham
+  supervisors: Roderik Lindenbergh; Kourosh Khoshelham
   year: 2010
   link: https://resolver.tudelft.nl/uuid:a7f7aac7-98e1-44c6-a3e2-5b2415b6cecc
   abstract: The coastal area is an important territory for many reasons, e.g.
@@ -11827,7 +12117,7 @@
   name: M.R.
   title: Semi-automatic core characterisation based on geochemical logging
     data
-  supervisors: G.J. Weltje; R.C. Lindenbergh
+  supervisors: Gert Jan Weltje; Roderik Lindenbergh
   year: 2010
   link: https://resolver.tudelft.nl/uuid:4acf424e-6bb5-4044-a7af-2baea8108baa
   abstract: Textural variations in sediment are considered to be one of the
@@ -11892,7 +12182,7 @@
 - surname: Briels
   name: S.A.
   title: Infrasound source location
-  supervisors: L.G. Evers; D.G. Simons
+  supervisors: Läslo Evers; Dick Simons
   year: 2010
   link: https://resolver.tudelft.nl/uuid:5d720169-fc34-4a9c-bf6d-49aa546e3966
   abstract: By recording infrasound signals one is able to listen to the sound
@@ -11917,7 +12207,7 @@
 - surname: Kalpoe
   name: D.S.
   title: Vibration Measurement of a Model Wind Turbine using High Speed Photogrammetry
-  supervisors: M. Menenti; K. Khosh Elham; B.G.H. Gorte
+  supervisors: Massimo Menenti; Kourosh Khoshelham; Ben Gorte
   year: 2010
   link: https://resolver.tudelft.nl/uuid:2d8318f7-42bf-4637-8d34-285f98405b64
   abstract: To meet the growing demand for sustainable energy, existing wind
@@ -11961,7 +12251,7 @@
   name: B.M.J.
   title: Automatic detection of buried channel deposits using high resolution
     laser altimetry data (FLI-MAP)
-  supervisors: D.G. Simons; R.C. Lindenbergh; J.E.A. Storms
+  supervisors: Dick Simons; Roderik Lindenbergh; Joep Storms
   year: 2010
   link: https://resolver.tudelft.nl/uuid:6210b7b5-8599-4ed6-bf3b-738f9a8d0f97
   abstract: 'The formation of the current Rhine-Meuse delta has mainly taken
@@ -12011,7 +12301,7 @@
   name: H.
   title: Monitoring Glacier Elevation Changes over the Tibetan Plateau Using
     ALOS PRISM and ICESat
-  supervisors: M. Menenti; R.C. Lindenbergh; K. Khosh Elham
+  supervisors: Massimo Menenti; Roderik Lindenbergh; Kourosh Khoshelham
   year: 2010
   link: https://resolver.tudelft.nl/uuid:9e11a9bd-49a9-4e86-a856-8558e39dfb34
   abstract: Glacier melting has become a key issue in the current discussion
@@ -12052,7 +12342,7 @@
   name: D.
   title: De-noising terrestrial laser scanning data for roughness characterization
     of rock surfaces
-  supervisors: K. Khoshelham; D. Ngan-Tillard; M. Menenti
+  supervisors: Kourosh Khoshelham; Dominique Ngan-Tillard; Massimo Menenti
   year: 2009
   link: https://resolver.tudelft.nl/uuid:219f6326-95c9-445a-aa87-413cc80ea819
   abstract: To measure roughness a number of traditional measurement methods
@@ -12114,7 +12404,7 @@
   name: K.
   title: Sediment characterization by geo-acoustic inversion of marine seismic
     data received on a towed hydrophone array
-  supervisors: D.G. Simons; M. Snellen; G.G. Drijkoningen
+  supervisors: Dick Simons; Mirjam Snellen; Guy Drijkoningen
   year: 2009
   link: https://resolver.tudelft.nl/uuid:a8c94ef1-a817-4ca5-b1ab-290a93dd22e1
   uuid: a8c94ef1-a817-4ca5-b1ab-290a93dd22e1
@@ -12123,7 +12413,7 @@
   name: R.A.
   title: ICESat full waveform signal analysis for the classification of land
     cover types over the cryosphere
-  supervisors: R.C. Lindenbergh; B.C. Gunter; R. Klees
+  supervisors: Roderik Lindenbergh; Brian Gunter; Roland Klees
   year: 2009
   link: https://resolver.tudelft.nl/uuid:84ae2335-bda6-4880-af3e-217cd6289f27
   abstract: 'The Earth needs attention. That is the bottom line of today’s
@@ -12146,7 +12436,7 @@
   name: E.
   title: Data assimilation of GRACE terrestrial water storage data into a
     hydrological model using the Ensemble Kalman Smoother
-  supervisors: N.C. van de Giesen; S.C. Steele-Dunne; B.C. Gunter
+  supervisors: Nick van de Giesen; Susan Steele-Dunne; Brian Gunter
   year: 2009
   link: https://resolver.tudelft.nl/uuid:a91d6dc5-bdeb-4ee3-9a34-75a72c89f806
   abstract: Terrestrial water storage (TWS) can be defined as the storage
@@ -12186,7 +12476,7 @@
 - surname: Wortel
   name: T.P.
   title: Automating quantity surveying in road construction using UAV Videogrammetry
-  supervisors: K. Khoshelham; B.H.G. Gorte
+  supervisors: Kourosh Khoshelham; Ben Gorte
   year: 2009
   link: https://resolver.tudelft.nl/uuid:9a2421c2-9c7b-4e4f-945c-1246ffa35bd4
   abstract: Due to changing contract forms in road construction, contractors
@@ -12216,7 +12506,7 @@
   name: T.
   title: Aerostat Photogrammetry for Large Scale Hydrological Modeling with
     Special Focus on Energy Balance Terms
-  supervisors: N. van De Giesen; K. Khos Elham; S. Zlatanova
+  supervisors: Nick van de Giesen; Kourosh Khoshelham; Sisi Zlatanova
   year: 2008
   link: https://resolver.tudelft.nl/uuid:3617d20d-43e8-4bbb-a54e-e1a5323cf882
   abstract: Knowledge of temperature distributions on streams and lakes is
@@ -12257,7 +12547,7 @@
 - surname: Hofman
   name: Arjen
   title: Developing a vario-scale IMGeo using the constrained tGAP structure
-  supervisors: P.J.M. van Oosterom; A. Dilo; B. van Loenen
+  supervisors: Peter van Oosterom; Arta Dilo; Bastiaan van Loenen
   year: 2008
   link: https://resolver.tudelft.nl/uuid:d650352b-78fb-4919-9cb0-f2f66b17aef5
   abstract: 'The aim of this master thesis has been to answer the question:
@@ -12318,7 +12608,7 @@
   name: S.
   title: Improving Persistent Scatterer Interferometry Results for Deformation
     Monitoring
-  supervisors: R. F Hanssen; F. J van Leijen
+  supervisors: Ramon Hanssen; Freek van Leijen
   year: 2008
   link: https://resolver.tudelft.nl/uuid:d1eed85e-6625-434d-aacb-538464557f78
   abstract: 'The persistent scatterer interferometry (PSI) is a relatively
@@ -12377,7 +12667,7 @@
   name: Arnoud
   title: Label placement in 3D georeferenced and oriented digital photographs
     using GIS technology
-  supervisors: P.J.M. van Oosterom; E. Verbree; E.S. Dias
+  supervisors: Peter van Oosterom; Edward Verbree; Eduardo Dias
   year: 2007
   link: https://resolver.tudelft.nl/uuid:b130806f-58be-466c-8890-a1534df3ff00
   abstract: he increasing availability of digital camera devices and camera
@@ -12425,7 +12715,7 @@
 - surname: Pluymaekers
   name: S.J.A.
   title: A data analysis to bed dynamics in the Western Scheldt estuary
-  supervisors: R.C. Lindenbergh
+  supervisors: Roderik Lindenbergh
   year: 2007
   link: https://resolver.tudelft.nl/uuid:c4b3b2de-f029-4461-ba20-362663d9f062
   abstract: Morphological parameter estimation and deformation analysis near
@@ -12436,7 +12726,7 @@
   name: D.C.
   title: Towards a combined estimation of Greenland’s ice sheet mass balance
     using GRACE and ICESat data
-  supervisors: P. Ditmar; R.C. Lindenbergh
+  supervisors: Pavel Ditmar; Roderik Lindenbergh
   year: 2007
   link: https://resolver.tudelft.nl/uuid:0d315b1b-84a4-4e03-8b65-95353e04a598
   abstract: The Greenland ice sheet is sensitive to climate change. Global
@@ -12500,7 +12790,7 @@
 - surname: Bont
   name: Tirza
   title: Geographic data integration for telecommunication purposes
-  supervisors: P.J.M. van Oosterom; E. Verbree; A.L.J.M. Wiegerinck
+  supervisors: Peter van Oosterom; Edward Verbree; A.L.J.M. Wiegerinck
   year: 2006
   link: https://resolver.tudelft.nl/uuid:ac4e2424-be72-4481-9b18-699172d045eb
   abstract: Planning and designing mobile telephone networks is a complicated
@@ -12533,7 +12823,7 @@
 - surname: Kagkaras
   name: A.
   title: Laser scanning modelling of a Cessna citation
-  supervisors: P. Teunissen; B. Gorte; A. Bucksch
+  supervisors: Peter Teunissen; Ben Gorte; Alexander Bucksch
   year: 2006
   link: https://resolver.tudelft.nl/uuid:20993923-81e7-44ea-a296-1f02893412f1
   abstract: In Aerospace Engineering the field of Computational Flow Dynamics
@@ -12553,7 +12843,7 @@
   name: M.P.
   title: Glacier Surface Analysis. Airborne Laser Scanning for monitoring
     glaciers and crevasses
-  supervisors: D.G. Simons; B.G.H. Gorte; N. Pfeifer; R.C. Lindenbergh
+  supervisors: Dick Simons; Ben Gorte; Norbert Pfeifer; Roderik Lindenbergh
   year: 2006
   link: https://resolver.tudelft.nl/uuid:1c7b4a64-e8f0-4ff2-957f-ae9c55617755
   uuid: 1c7b4a64-e8f0-4ff2-957f-ae9c55617755
@@ -12561,7 +12851,7 @@
 - surname: Meijers
   name: Martijn
   title: Implementation and testing of variable scale topological data structures
-  supervisors: P.J.M. van Oosterom; C.W. Quak
+  supervisors: Peter van Oosterom; Wilko Quak
   year: 2006
   link: https://resolver.tudelft.nl/uuid:3449616f-fa03-4877-81e8-218141b580af
   abstract: With the increase of the availability of large-scale geographic
@@ -12621,7 +12911,7 @@
 - surname: Oudman
   name: R.J.
   title: The transformation of GPS into NAP heights
-  supervisors: R. Klees
+  supervisors: Roland Klees
   year: 2006
   link: https://resolver.tudelft.nl/uuid:e661fcdd-6fe8-46e9-b5ea-51dabbd89175
   abstract: 'GPS is used more and more for height determination. Resulting
@@ -12639,7 +12929,7 @@
 - surname: Sablerolle
   name: S.A.
   title: Automatic Registration of laser scanning data and colour images
-  supervisors: A. Bucksch
+  supervisors: Alexander Bucksch
   year: 2006
   link: https://resolver.tudelft.nl/uuid:00f12183-2577-44c5-a8b1-77287681779b
   abstract: 'Laser scanning is a new technique for three dimensional point
@@ -12668,7 +12958,7 @@
   name: J.M.
   title: Determination of the precision and reliability parameters of terrestrial
     laser scanners by creating a practical experiment set-up
-  supervisors: R.C. Lindenbergh; A. Bucksch
+  supervisors: Roderik Lindenbergh; Alexander Bucksch
   year: 2006
   link: https://resolver.tudelft.nl/uuid:071ea771-7bb0-4914-b97e-1e2294affe71
   uuid: 071ea771-7bb0-4914-b97e-1e2294affe71

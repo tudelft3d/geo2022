@@ -1,0 +1,617 @@
+# Preferred display names for the people appearing in the thesis
+# archive's supervisors fields (_data/geotheses.yml). 'name' is the
+# preferred form we show; 'aliases' are the other exact strings found in
+# the archive (initials variants, spelling variants) that refer to the
+# same person. Matching is on exact strings.
+#
+# source meanings:
+#   verified   confirmed against TU Delft staff pages / ORCID / records
+#              (see note); OK to keep unless you know better
+#   likely     best candidate from public sources, worth a second look
+#   mycase     full form taken from MyCase (the graduation system)
+#   archive    full form already present in the archive data
+#   unresolved no full form found anywhere; initials shown until resolved
+#
+# scripts/apply_preferred_names.py rewrites the archive supervisors
+# fields through this table (dry-run by default, --write to apply);
+# scripts/enrich_geotheses.py consults it when ingesting new records.
+# Edit by hand: add aliases, fix names, flip source when you confirm.
+people:
+- name: Giorgio Agugiaro
+  aliases:
+  - G. Agugiaro
+  source: mycase
+- name: Ken Arroyo Ohori
+  aliases:
+  - G.A.K. Arroyo Ohori
+  source: verified
+  note: official initials G.A.K. (TU Delft research portal); preferred name
+    Ken (ORCID); MyCase lists Ken Arroyo Ohori
+- name: Fedor Baart
+  aliases: []
+  source: archive
+- name: Lukas Beuster
+  aliases:
+  - L.R.N. Beuster
+  source: mycase
+- name: Simona Bianchi
+  aliases:
+  - S. Bianchi
+  source: verified
+  note: TU Delft staff page S. (Simona) Bianchi, ReStruct group
+- name: Filip Biljecki
+  aliases:
+  - F. Biljecki
+  source: archive
+- name: Regina Bokel
+  aliases:
+  - R.M.J. Bokel
+  source: mycase
+- name: Eleonora Brembilla
+  aliases:
+  - E. Brembilla
+  source: mycase
+- name: Linda van den Brink
+  aliases:
+  - L.E. van den Brink
+  source: verified
+  note: second supervisor in the 2020 thesis PDF; TU Delft PhD, Geonovum
+- name: Marjan Broekhuizen
+  aliases: []
+  source: archive
+- name: Bert Buchholz
+  aliases:
+  - B.B.E. Buchholz
+  source: likely
+  note: Kitepower / TU Delft computer graphics alumnus; middle initials unexpanded
+- name: Alexander Bucksch
+  aliases:
+  - A. Bucksch
+  source: verified
+  note: University of Arizona profile; TU Delft alumnus (tree skeletonisation
+    with Lindenbergh)
+- name: Stefano Calzati
+  aliases:
+  - S. Calzati
+  source: verified
+  note: TU Delft Urbanism postdoc, urban commons
+- name: Daniele Cannatella
+  aliases: []
+  source: mycase
+- name: Roberto Cavallo
+  aliases:
+  - R. Cavallo
+  source: verified
+  note: TU Delft Architecture, City of the Future graduation studio
+- name: Rémi Charton
+  aliases: []
+  source: mycase
+- name: Tom Commandeur
+  aliases:
+  - T. Commandeur
+  source: archive
+- name: Clémentine Cottineau
+  aliases:
+  - C. Cottineau
+  source: verified
+  note: TU Delft Urbanism, urban scaling
+- name: Hilbert Davelaar
+  aliases: []
+  source: archive
+- name: Abdoulaye Diakite
+  aliases:
+  - A.A. Diakite
+  - A.A. Diakité
+  source: archive
+- name: Eduardo Dias
+  aliases:
+  - E.S. Dias
+  source: likely
+  note: VU Amsterdam; geo-information researcher, formerly ITC/Utrecht
+- name: Arta Dilo
+  aliases:
+  - A. Dilo
+  source: verified
+  note: Google Scholar; fuzzy spatial data, co-published with Van Oosterom
+    at TU Delft
+- name: Pavel Ditmar
+  aliases:
+  - P. Ditmar
+  source: verified
+  note: TU Delft staff page, satellite gravimetry
+- name: Hiba Doi
+  aliases: []
+  source: mycase
+- name: Guy Drijkoningen
+  aliases:
+  - G.G. Drijkoningen
+  source: verified
+  note: TU Delft staff page, Applied Geophysics, marine seismics
+- name: Shenglan Du
+  aliases:
+  - S. Du
+  source: archive
+- name: Balázs Dukai
+  aliases:
+  - B. Dukai
+  source: archive
+- name: Ihsan E. Bal
+  aliases: []
+  source: archive
+- name: Elmar Eisemann
+  aliases:
+  - E. Eisemann
+  source: verified
+  note: head of Computer Graphics group, TU Delft EEMCS
+- name: Marjolein van Esch
+  aliases:
+  - M.M.E. Pijpers-van Esch
+  - M.M.E. van Esch
+  source: verified
+  note: PhD published as Marjolein Pijpers-van Esch; same person as M.M.E.
+    van Esch
+- name: Läslo Evers
+  aliases:
+  - L.G. Evers
+  source: verified
+  note: ORCID Läslo G. Evers; TU Delft seismo-acoustics professor, also KNMI
+- name: Claudiu Forgaci
+  aliases: []
+  source: mycase
+- name: Nima Forouzandeh Shahraki
+  aliases:
+  - N. Forouzandeh Shahraki
+  source: verified
+  note: TU Delft staff page N. (Nima) Forouzandeh Shahraki
+- name: Weixiao Gao
+  aliases:
+  - W. Gao
+  source: mycase
+- name: Clara García Sánchez
+  aliases:
+  - C. Garcia Sanchez
+  - Clara Garcia Sanchez
+  source: mycase
+  note: diacritics per Ken; MyCase lists the unaccented form
+- name: Jan van Gemert
+  aliases: []
+  source: archive
+- name: Giorgia Giardina
+  aliases:
+  - G. Giardina
+  source: mycase
+- name: Nick van de Giesen
+  aliases:
+  - N. van De Giesen
+  - N. van de Giesen
+  - N.C. van de Giesen
+  source: archive
+- name: Frank van Gool
+  aliases: []
+  source: archive
+- name: Ben Gorte
+  aliases:
+  - B. Gorte
+  - B.G.H. Gorte
+  - B.H.G. Gorte
+  source: verified
+  note: officially Bernardus Gorte (ORCID); goes by Ben (UNSW staff page)
+- name: Brian Gunter
+  aliases:
+  - B.C. Gunter
+  source: verified
+  note: Georgia Tech aerospace; publications show Brian C. Gunter
+- name: Ulf Hackauf
+  aliases:
+  - U. Hackauf
+  - U.D. Hackauf
+  source: verified
+  note: TU Delft staff page U.D. (Ulf) Hackauf; 2016 "U." is the same person
+- name: Amir Hakim
+  aliases: []
+  source: mycase
+- name: Ramon Hanssen
+  aliases:
+  - R. F Hanssen
+  - R. Hanssen
+  - R.F. Hanssen
+  source: archive
+- name: Daan van der Heide
+  aliases:
+  - D.H. van der Heide
+  source: mycase
+- name: Alexandra den Heijer
+  aliases: []
+  source: archive
+- name: Gerrit Hendriksen
+  aliases: []
+  source: archive
+- name: Fransje Hooimeijer
+  aliases:
+  - F.L. Hooimeijer
+  source: verified
+  note: TU Delft Urbanism, Environmental Technology & Design
+- name: Nail Ibrahimli
+  aliases:
+  - N. Ibrahimli
+  source: verified
+  note: 3d.bk.tudelft.nl/nail, 3D geoinformation PhD
+- name: Agung Indrajit
+  aliases: []
+  source: archive
+- name: Gert Jan Weltje
+  aliases:
+  - G.J. Weltje
+  source: verified
+  note: KU Leuven sedimentology, formerly TU Delft
+- name: Erik Jansen
+  aliases:
+  - E. Jansen
+  source: likely
+  note: TU Delft EEMCS visualisation professor; acknowledged in a 2012 thesis
+    — confirm
+- name: Kees de Jong
+  aliases:
+  - C.D. De Jong
+  source: likely
+  note: officially Cornelis Dick de Jong (GNSS/geodesy, ex TU Delft, Fugro)
+- name: Peter Joosten
+  aliases: []
+  source: archive
+- name: Eftychia Kalogianni
+  aliases:
+  - E. Kalogianni
+  source: mycase
+- name: Abdullah Kara
+  aliases: []
+  source: mycase
+- name: Seyran Khademi
+  aliases: []
+  source: mycase
+- name: Kourosh Khoshelham
+  aliases:
+  - K. Khos Elham
+  - K. Khosh Elham
+  - K. Khoshelham
+  source: verified
+  note: archive spellings Khos Elham / Khosh Elham / Khoshelham all refer
+    to Kourosh Khoshelham (laser scanning, then TU Delft, now Melbourne)
+- name: Roland Klees
+  aliases:
+  - R. Klees
+  source: verified
+  note: TU Delft staff page, satellite gravity
+- name: Rob van der Krogt
+  aliases: []
+  source: archive
+- name: Maarten Kruithof
+  aliases: []
+  source: archive
+- name: Jérôme Kämpf
+  aliases: []
+  source: archive
+- name: Andreas Kääb
+  aliases:
+  - A. Kääb
+  source: verified
+  note: University of Oslo, glacier remote sensing
+- name: Anna Labetski
+  aliases:
+  - A. Labetski
+  source: archive
+- name: Hugo Ledoux
+  aliases:
+  - H. Ledoux
+  source: mycase
+- name: Nick Leenders
+  aliases: []
+  source: archive
+- name: Freek van Leijen
+  aliases:
+  - F. J van Leijen
+  source: verified
+  note: TU Delft research portal F.J. van Leijen, InSAR/geodesy
+- name: Mathias Lemmens
+  aliases:
+  - M. Lemmens
+  source: archive
+- name: Camilo León Sánchez
+  aliases:
+  - C.A. León Sánchez
+  source: mycase
+- name: Stef Lhermitte
+  aliases:
+  - S.L.M. Lhermitte
+  source: archive
+- name: Jordi van Liempt
+  aliases:
+  - J.N.H. van Liempt
+  source: verified
+  note: 3D geoinformation group TU Delft research software engineer
+- name: Roderik Lindenbergh
+  aliases:
+  - R. Lindenbergh
+  - R.C. Lindenbergh
+  source: mycase
+- name: Haicheng Liu
+  aliases:
+  - H. Liu
+  source: likely
+  note: supervisor on a 2020 GDMC-hosted Geomatics thesis — confirm
+- name: Liu Liu
+  aliases:
+  - L. Liu
+  source: verified
+  note: thesis title pages name Ph.D. Liu Liu (indoor navigation)
+- name: Bastiaan van Loenen
+  aliases:
+  - B. van Loenen
+  source: mycase
+- name: Paco Lopez Dekker
+  aliases: []
+  source: archive
+- name: Kees Maat
+  aliases: []
+  source: archive
+- name: Daniela Maiullari
+  aliases:
+  - D. Maiullari
+  source: mycase
+- name: Martijn Meijers
+  aliases:
+  - B.M. Meijers
+  - M. Meijers
+  source: mycase
+- name: Massimo Menenti
+  aliases:
+  - M. Menenti
+  source: archive
+- name: Clayton Miller
+  aliases: []
+  source: archive
+- name: Martín Mosteiro Romero
+  aliases: []
+  source: mycase
+- name: Claus Nagel
+  aliases: []
+  source: archive
+- name: Liangliang Nan
+  aliases:
+  - L. Nan
+  source: mycase
+- name: Dominique Ngan-Tillard
+  aliases:
+  - D. Ngan-Tillard
+  source: verified
+  note: TU Delft staff page Dominique (Dien) Ngan-Tillard — commonly goes
+    by Dien
+- name: Francesca Noardo
+  aliases:
+  - F. Noardo
+  source: verified
+  note: 3D geoinformation group TU Delft, later Heidelberg/OGC
+- name: Pirouz Nourian
+  aliases:
+  - P. Nourian
+  - P. Nourian Ghadi Kolaee
+  source: archive
+- name: Christopher Nuth
+  aliases:
+  - C. Nuth
+  source: verified
+  note: University of Oslo, glaciers/DEMs
+- name: Peter van Oosterom
+  aliases:
+  - P. van Oosterom
+  - P.J.M. Oosterom
+  - P.J.M. van Oosterom
+  source: mycase
+- name: Leon van Paassen
+  aliases:
+  - L. van Paassen
+  source: verified
+  note: then TU Delft CEG geotechnology, now Arizona State
+- name: Akshay Patil
+  aliases:
+  - A. Patil
+  source: mycase
+- name: Ivan Pađen
+  aliases:
+  - I. Pađen
+  source: verified
+  note: TU Delft 3D geoinformation, co-author with Garcia Sanchez & Ledoux
+- name: Ana Pereira Roders
+  aliases:
+  - A.R. Roders
+  source: mycase
+- name: Giuseppe Peronato
+  aliases: []
+  source: archive
+- name: Ravi Peters
+  aliases:
+  - R.Y. Peters
+  source: mycase
+- name: Erik Mosselman
+  aliases:
+  - E. Mosselman
+  source: verified
+  note: Deltares river morphodynamics specialist; meandering-river thesis mentor
+- name: Norbert Pfeifer
+  aliases:
+  - N. Pfeifer
+  source: verified
+  note: TU Wien photogrammetry professor
+- name: Hendrik Ploeger
+  aliases:
+  - H.D. Ploeger
+  source: mycase
+- name: Maarten Pronk
+  aliases:
+  - M.J. Pronk
+  source: mycase
+- name: Wilko Quak
+  aliases:
+  - C.W. Quak
+  - W. Quak
+  source: mycase
+- name: Azarakhsh Rafiee
+  aliases:
+  - A. Rafiee
+  source: mycase
+- name: Justin Schembri
+  aliases:
+  - J. Schembri
+  source: mycase
+- name: Dick Simons
+  aliases:
+  - D.G. Simons
+  source: verified
+  note: TU Delft AE+T acoustics professor, goes by Dick
+- name: Mirjam Snellen
+  aliases:
+  - M. Snellen
+  source: verified
+  note: TU Delft staff page, underwater acoustics
+- name: Berry van Someren
+  aliases: []
+  source: archive
+- name: Sylvie Soudarissanane
+  aliases:
+  - S.S. Soudarissanane
+  source: verified
+  note: ORCID Sylvie; TU Delft laser-scanning PhD; now Dijkstra-Soudarissanane
+    at TNO
+- name: Stefan van der Spek
+  aliases:
+  - S.C. van der Spek
+  source: archive
+- name: Susan Steele-Dunne
+  aliases:
+  - S.C. Steele-Dunne
+  source: verified
+  note: TU Delft staff page, GRST hydrology/microwave remote sensing
+- name: Joep Storms
+  aliases:
+  - J.E.A. Storms
+  source: verified
+  note: TU Delft staff page JEA (Joep) Storms, sedimentary geology
+- name: Jantien Stoter
+  aliases:
+  - J. Stoter
+  - J.E. Stoter
+  source: mycase
+- name: Radan Suba
+  aliases: []
+  source: archive
+- name: Peter Teunissen
+  aliases:
+  - P. Teunissen
+  source: verified
+  note: TU Delft staff page PJG Teunissen, mathematical geodesy
+- name: Rodney Thompson
+  aliases: []
+  source: archive
+- name: Theo Tijssen
+  aliases:
+  - T.P.M. Tijssen
+  - T. Tijssen
+  source: likely
+  note: long-time TU Delft GIS Technology staff, co-author with Van Oosterom
+- name: Simon Tindemans
+  aliases: []
+  source: archive
+- name: Jasper van der Vaart
+  aliases: []
+  source: mycase
+- name: Niels van der Vaart
+  aliases: []
+  source: archive
+- name: Bruno Vallet
+  aliases:
+  - B. Vallet
+  source: verified
+  note: LASTIG / IGN-ENSG, point-cloud registration
+- name: Themis Vargiemezis
+  aliases:
+  - T. Vargiemezis
+  source: verified
+  note: TU Delft 3D geoinformation postdoc, Themistoklis (Themis)
+- name: Christian Veldhuis
+  aliases:
+  - C. Veldhuis
+  source: likely
+  note: Gemeente Rotterdam 3D/digital twin; co-author with Stoter 2011 — confirm
+- name: Henri Veldhuis
+  aliases: []
+  source: archive
+- name: Edward Verbree
+  aliases:
+  - E. Verbree
+  source: mycase
+- name: Wilfred Visser
+  aliases: []
+  source: archive
+- name: Stelios Vitalis
+  aliases:
+  - S. Vitalis
+  source: archive
+- name: Robert Voûte
+  aliases:
+  - R.L. Voûte
+  source: mycase
+- name: Marianne de Vries
+  aliases:
+  - M.E. De Vries
+  source: archive
+- name: Alexander Wandl
+  aliases:
+  - A. Wandl
+  source: archive
+- name: Nico Wasserman
+  aliases:
+  - N. Wasserman
+  source: verified
+  note: thesis title page N. (Nico) Wasserman, Schiphol AGI manager
+- name: Michael Weinmann
+  aliases:
+  - M. Weinmann
+  source: mycase
+- name: Frederika Welle Donker
+  aliases:
+  - F.M. Welle Donker
+  source: likely
+  note: TU Delft open-data/geo-ICT; Scholar shows Frederika Welle Donker
+- name: A.L.J.M. Wiegerinck
+  aliases: []
+  source: unresolved
+  note: TNO ICT, Delft; initials never expanded in any public source found
+- name: Jens Wunderlich
+  aliases:
+  - J. Wunderlich
+  source: verified
+  note: confirmed by Ken via the Mohamed Saleh thesis; marine acoustics
+    (INNOMAR/Rostock), no TU Delft page
+- name: Zhihang Yao
+  aliases: []
+  source: archive
+- name: John Zhao
+  aliases:
+  - J. Zhao
+  source: likely
+  note: acknowledged as Junqiao (John) Zhao, TU Delft GIS Technology postdoc
+    — confirm
+- name: Kaixuan Zhou
+  aliases: []
+  source: archive
+- name: Xuanchen Zhou
+  aliases:
+  - X. Zhou
+  source: mycase
+- name: Sisi Zlatanova
+  aliases:
+  - S. Zlatanova
+  - S.Z. Zlatanova
+  source: archive
+- name: Rusne Šileryte
+  aliases: []
+  source: archive
