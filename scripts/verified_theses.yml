@@ -692,3 +692,33 @@
 - author: G. Diaferia
   year: 2012
   programme: not Geomatics
+
+# --- repository-coverage verdicts (2026-09): Geomatics theses with no
+# --- TU Delft repository record, checked via the repository search API
+# --- (author name, exact title fragments and supervisors, all record
+# --- types). The archive links their GDMC PDFs instead. Inert while the
+# --- entries are in the archive; makes each a confirmed gap if one ever
+# --- drops out.
+- author: Vidushi Bhatt
+  year: 2025
+  programme: Geomatics
+  note: no repository record; GDMC PDF is the only source
+- author: Xueheng Li
+  year: 2025
+  programme: Geomatics
+  note: no repository record; GDMC PDF is the only source
+- author: Qiaorui Yang
+  year: 2025
+  programme: Geomatics
+  note: no repository record; GDMC PDF is the only source
+- author: Melina de Koning
+  year: 2010
+  programme: Geomatics
+  note: no repository record; GDMC PDF is the only source
+- author: Longxiang Xu
+  year: 2024
+  programme: Geomatics
+  note: no repository record and not on GDMC either; the archive entry
+    links the derived journal article instead (High resolution solar
+    potential computation in large scale urban areas, repository uuid
+    5a8d60e7-ac2b-4786-b003-57f3007a473c)

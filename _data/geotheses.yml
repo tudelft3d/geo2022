@@ -3452,8 +3452,10 @@
     semantic 3D city models
   year: 2024
   image: Xu.png
+  # the thesis itself is not in the repository and not on GDMC (checked
+  # 2026-09); paper is the journal article derived from it
   paper: https://repository.tudelft.nl/record/uuid:5a8d60e7-ac2b-4786-b003-57f3007a473c
-  needs_review: true
+  paper_label: journal article
 - surname: Yang
   name: Yue
   title: Directly Serving 3D Tiles From A Geo-DBMS
@@ -10695,9 +10697,9 @@
   title: Solid CAD Geometries in a Spatial DBMS - An Application in the Petrochemical
     Industry
   year: 2015
-  link: https://www.gdmc.nl/publications/2015/Solid_CAD_Geometries_Spatial_DBMS.pdf
+  link: https://resolver.tudelft.nl/uuid:2b5044e5-388d-47ee-bb13-65bec9443070
+  uuid: 2b5044e5-388d-47ee-bb13-65bec9443070
   image: Ramkisoen.jpg
-  needs_review: true
 - surname: van der Ham
   name: Martijn
   title: Real Time Localization of Assets in Hospitals using Quuppa Indoor

@@ -73,12 +73,14 @@ python3 scripts/find_old_theses.py          # add --offline / --from-year / --al
 python3 scripts/update_theses.py
 
 # Generate cover thumbnails for the archive from the thesis PDFs on the
-# repository: downloads each PDF in memory (robots.txt delay, so a full
-# run takes ~2 h; PDFs are discarded after rendering, so nothing
-# multi-MB is kept on disk), renders page 1 into theses/img/<image>,
-# assigns image fields where missing and writes reports/covers_report.md (blank
-# covers, slides/milestone picks, surname mismatches). Re-runs resume
-# from .geotheses_cache/covers_progress.yml; --redo-all starts over.
+# repository (entries without a repository record fall back to the GDMC
+# PDF their link points at): downloads each PDF in memory (robots.txt
+# delay, so a full run takes ~2 h; PDFs are discarded after rendering,
+# so nothing multi-MB is kept on disk), renders page 1 into
+# theses/img/<image>, assigns image fields where missing and writes
+# reports/covers_report.md (blank covers, slides/milestone picks,
+# surname mismatches). Re-runs resume from
+# .geotheses_cache/covers_progress.yml; --redo-all starts over.
 # --keep-pdfs caches the PDFs for offline re-renders; --skip-existing
 # leaves existing thumbnails alone.
 python3 scripts/thesis_covers.py          # add --skip-existing / --redo-all / --limit
@@ -138,7 +140,7 @@ After each graduation round (or whenever, really):
 | `scripts/check_geotheses.py` | Validates the archive data |
 | `scripts/find_missing_theses.py` | Cross-checks the archive with the GDMC + 3dge thesis lists |
 | `scripts/find_old_theses.py` | Sweeps the repository for pre-coverage theses by supervisor surname |
-| `scripts/thesis_covers.py` | Generates the archive's cover thumbnails from the repository thesis PDFs |
+| `scripts/thesis_covers.py` | Generates the archive's cover thumbnails from the repository/GDMC thesis PDFs |
 | `scripts/geomatics_supervisors.yml` | Supervisor list feeding `find_old_theses.py` (status `yes`/`pending`) |
 
 ## Conventions

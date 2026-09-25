@@ -56,8 +56,14 @@ def main():
         if link.lower().startswith("missing"):
             errors.append(f"{who}: link still starts with 'missing'")
         elif not link:
-            msg = f"{who}: missing required field 'link'"
-            (warnings if e.get("needs_review") else errors).append(msg)
+            if e.get("paper"):
+                # thesis has no repository record; the derived paper is
+                # the entry's link (see verified_theses.yml)
+                warnings.append(f"{who}: no thesis record; 'paper' "
+                                f"linked instead")
+            else:
+                msg = f"{who}: missing required field 'link'"
+                (warnings if e.get("needs_review") else errors).append(msg)
         elif "uuid" in link:
             if not link.startswith("https://resolver.tudelft.nl/uuid:"):
                 warnings.append(f"{who}: link not in canonical resolver "

@@ -74,7 +74,7 @@
           <small>· <a href="{{ t.github }}" target="_blank" rel="noopener">code</a></small>
           {% endif %}
           {% if t.paper %}
-          <small>· <a href="{{ t.paper }}" target="_blank" rel="noopener">paper</a></small>
+          <small>· <a href="{{ t.paper }}" target="_blank" rel="noopener">{{ t.paper_label | default: "paper" }}</a></small>
           {% endif %}
           {% if t.supervisors %}
           <br>

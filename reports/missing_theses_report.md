@@ -1,33 +1,12 @@
-# External-source cross-check (2026-09-24)
+# External-source cross-check (2026-09-25)
 
-The archive holds 280 theses; the GDMC and 3d.bk.tudelft.nl lists together cover 413 MSc theses from 2000 onwards.
+The archive holds 313 theses; the GDMC and 3d.bk.tudelft.nl lists together cover 364 MSc theses from 2013 onwards (49 earlier ones ignored).
 
-## Confirmed gaps (5)
+## Confirmed gaps (0)
 
 Geomatics theses on the external lists that the archive is missing.
 
-- **Tirza Bont (2006)** — Geographic data integration for telecommunication purposes
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:ac4e2424-be72-4481-9b18-699172d045eb
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF names the Geomatics programme
-  - pdf: https://www.gdmc.nl/publications/2006/Geographic_data_integration_telecommunication.pdf
-- **Arjen Hofman (2008)** — Developing a vario-scale IMGeo using the constrained tGAP structure
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:d650352b-78fb-4919-9cb0-f2f66b17aef5
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF names the Geomatics programme
-  - pdf: https://www.gdmc.nl/publications/2008/Vario-scale_IMGeo_using_constrained_tGAP.pdf
-- **Filip Biljecki (2010)** — Automatic segmentation and classification of movement trajectories for transportation modes
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:b475fee9-5b67-446d-8a6e-ecce319c4250
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF names the Geomatics programme
-  - pdf: https://www.gdmc.nl/publications/2010/Automatic_segmentation_classification_trajectories.pdf
-- **Josafat Isaí Guerrero Iñiguez (2012)** — Three-dimensional reconstruction of underground utilities for real-time visualization
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:b7f43166-c138-475f-8490-b1f28ed1383d
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF names the Geomatics programme
-  - pdf: https://www.gdmc.nl/publications/2012/3D_reconstruction_underground_utilities.pdf
-- **Simeon Nedkov (2012)** — Knowledge-based optimisation of three-dimensional city models for car navigation devices
-  - verified by hand as Geomatics (no source names the programme, but Ken knows he was a Geomatics student (checked 2026-09))
+None — the archive covers every thesis the sources identify as Geomatics.
 
 ## Candidates for a manual look (0)
 
@@ -35,136 +14,10 @@ No source names a programme; most are pre-2017, when repository records still ha
 
 None.
 
-## Verified non-Geomatics (135)
+## Verified non-Geomatics (101)
 
 On the external lists but named to another programme — correctly absent from the archive.
 
-- **Ingrid Alkemade (2000)** — Beeldschermkartografie ten behoeve van multi-bron internet GIS
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:182d6317-f8df-40fb-b222-ded98eef12d6
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2000/BeeldschermKarto.pdf
-- **Maureen Rengelink (2000)** — Automatisch afleiden en classificeren van woningen uit kadastrale gegevens
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:d67dce11-c0f5-47d1-9965-b15b85ec23ae
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2000/woning_classif.pdf
-- **Merlijn Simonse (2000)** — 3DTOP10; Integratie van TOP10vector en het AHN
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:403a145d-0f02-41ba-a762-5471454c592a
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2000/TOP10vector_AHN.pdf
-- **Jeroen de Vries (2001)** — Driedimensionale buffering op basis van Tetraëder Netwerken; opslag en analyse in een 3D-GIS
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:fcc1da2e-998d-4489-a26d-d658e8987b86
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2001/3D_buffering_Tetraeder_Netwerken.pdf
-- **Patrice Wijnands (2001)** — Jasmine; Spatial modelling with an object oriented database system
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:9773a93d-bc7e-4220-bd30-c381ca262b2d
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2001/Object_oriented_dbms.pdf
-- **Franklin Monteiro (2001)** — GML and Complex Features
-  - verified by hand as not Geomatics (Technical Informatics student, thesis done at the GIS-technology section (PDF foreword))
-- **Ilmar Kotte (2002)** — Een kartografisch expert systeem ten behoeve van presentatie van gedistribueerde geografische informatie
-  - verified by hand as not Geomatics (Technical Informatics student, computer graphics and CAD/CAM group, faculty ITS (PDF title page))
-- **Calin Arens (2003)** — Maintaining Reality; Modelling 3D spatial objects in a Geo-DBMS using a 3D primitive
-  - no repository record found
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2003/Maintaining_reality.pdf
-- **Friso Penninga (2003)** — Genereren van een 6-positie postcodebestand op basis van de kadastrale registratie
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:50b64ecb-1dc1-4a33-adb4-b023be6801c2
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2003/Genereren_6ppc.pdf
-- **Maarten Vermeij (2003)** — Development of a Topological Data Structure for On-the-Fly Map Generalization
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:343bfe9e-86f8-4a7a-9c00-ca78c731a9ee
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2003/Topological_structure_generalization.pdf
-- **Martin Tomko (2003)** — Spatial Databases for Mobile GIS Applications
-  - verified by hand as not Geomatics (diploma work for the Slovak University of Technology in Bratislava, research done at the GISt section (PDF title page))
-- **Jildou Louwsma (2004)** — Constraints in geo-information models; Applied to geo-VR in landscape architecture
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:3272904f-b7a8-42ab-b393-f1f55ae5c791
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2004/Constraints.pdf
-- **Thijs Brentjens (2004)** — OpenGIS Web Feature Services for editing cadastral data; Analysis and practical experiences
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:682ee7f3-1220-49f1-a2ee-709ef61a2829
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2004/OpenGIS_WFS.pdf
-- **Marco Baars (2004)** — Moving objects in a geo-DBMS; Structuring, indexing, querying and visualizing moving point objects in a geo-DBMS context
-  - no repository record found
-  - thesis PDF title page names: Thesis Section GIS Technology Faculty of Civil Engineering an
-  - pdf: https://www.gdmc.nl/publications/2004/Moving_objects_geo-DBMS.pdf
-- **Marcel de Rink (2004)** — Synchronisation of "Work Processes" vs. "Geo-information", a RWS case
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:ed6ca8fe-1f63-4d2f-8d57-b1d66314d178
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2004/Synchronisation.pdf
-- **Arno van der Most (2004)** — An algorithm for overlaying 3D features using a tetrahedral network
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:d31c5389-8634-4b35-8d73-e8837a021fde
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2004/3D_overlay.pdf
-- **Bart van den Berg (2004)** — Harmonisation of distributed geographic datasets; A model driven approach for geotechnical &amp; footprint data
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:c9d5b7ff-4d34-4135-8c31-da743ed0b2ed
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2004/Harmonisation.pdf
-- **Tryggvi Már Ingvarsson (2005)** — CCDM and Open Source Applications
-  - repository record found by title search: https://resolver.tudelft.nl/uuid:6d806733-a023-4eaa-a050-8f412db22649
-  - repository record has no Programme field (older, migrated record)
-  - thesis PDF title page names: Geodesy (Geodetic Engineering era)
-  - pdf: https://www.gdmc.nl/publications/2005/CCDM_Open_Source_applications.pdf
-- **Shi Pu (2005)** — Managing Freeform Curves and Surfaces in a Spatial DBMS
-  - verified by hand as not Geomatics (Media Knowledge Engineering student (EEMCS), research done at GIS Technology, OTB (PDF foreword))
-- **Sijmen Wesselingh (2007)** — Visualization of a TEN (Tetrahedral Irregular Network) in a web client
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2007/Visualization_TEN_web_client.pdf
-- **Jan van Bennekom-Minnema (2008)** — The Land Administration Domain Model 'Survey Package' and Model Driven Architecture
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2008/LADM_Model_Driven_Architecture.pdf
-- **Mahmud Shahrear Kibria (2008)** — Functionalities of geo-virtual environments to visualize urban projects
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2008/Geo-virtual_environments.pdf
-- **Lieke Verhelst (2009)** — Using semantic technologies to design a Spatio-Temporal database
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2009/Semantic_technologies_spatio-temporal_db.pdf
-- **Tom van der Putte (2009)** — Using the discrete 3D Voronoi diagram for the modelling of 3D continuous information in geosciences
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2009/3D_Voronoi_diagram.pdf
-- **Ivo Visser (2009)** — Route determination in disaster areas - Using predictions and introducing the option to wait to improve routing results
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2009/Route_determination_disaster_areas.pdf
-- **John Schaap (2010)** — Towards a 3D geo-data model to support pedestrian routing in multimodal public transport travel advices
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2010/3D_geo-data_model_support_pedestrian_routing.pdf
-- **Bregje Brugman (2010)** — 3D topological structure management within a DBMS - validating a topological volume
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR), pp. 151 p. (incl. scripts)
-  - pdf: https://www.gdmc.nl/publications/2010/3D_topological_structure_management_DBMS.pdf
-- **Pawel Sudra (2010)** — INSPIRE-compliant web services - The case of Narew National Park, Poland
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2010/INSPIRE-compliant_web_services.pdf
-- **Emiel Dopper (2011)** — Exploring the possibilities of production of a culture codes dataset on cadastral parcel level by making use of external source datasets
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2011/Production_culture_codes_dataset.pdf
-- **Justin Stook (2011)** — Planning an indoor navigation service for a smartphone with Wi-Fi fingerprinting localization
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2011/Indoor_Navigation_Service_Smartphone.pdf
-- **Nart Tamash (2012)** — INSPIRE Compliant Datasets - Transformation &amp; Conformance Testing
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2012/INSPIRE_Compliant_Datasets.pdf
-- **Huibert-Jan Lekkerkerk (2012)** — Integrating data: a water quality case study
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2012/Integrating_data_water_quality_case_study.pdf
-- **Bart Baas (2012)** — NoSQL spatial - Neo4j versus PostGIS
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2012/Neo4j_versus_PostGIS.pdf
-- **Weronika Socha (2012)** — Specifying requirements for Automatic Generalisation of Electronic Navigational Charts
-  - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
-  - pdf: https://www.gdmc.nl/publications/2012/Automatic_Generalisation_Electronic_Navigational_Charts.pdf
 - **Joost Boerboom (2013)** — Implementing the WPS Standard - Case Study for Dissemination of Coastal and Marine Tools
   - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
   - pdf: https://www.gdmc.nl/publications/2013/Implementing_WPS_Standard.pdf
@@ -475,7 +328,7 @@ On the external lists but named to another programme — correctly absent from t
   - GDMC names the programme: GIMA (TUD, UT-ITC, UU, WUR)
   - pdf: https://www.gdmc.nl/publications/2026/MScThesisDavidLeoni.pdf
 
-## Archive matches by name only (77)
+## Archive matches by name only (67)
 
 Matched on name and year without a repository uuid on both sides; worth glancing at for wrong attributions.
 
@@ -519,16 +372,6 @@ Matched on name and year without a repository uuid on both sides; worth glancing
 - Roeland Boeters (2013) — Automatic enhancement of CityGML LoD2 models with interiors and its us
 - Sjors Donkers (2013) — Automatic generation of CityGML LoD3 building models from IFC models
 - Lars de Vries (2013) — A research towards completing the asset information life cycle
-- Martine Wijga-Hoefsloot (2012) — Point Clouds in a Database
-- Tom Commandeur (2012) — Footprint decomposition combined with point cloud segmentation for pro
-- Prajnaparamita Bhattacharya (2012) — Quality assessment and object matching of OpenStreetMap in combination
-- Ravi Peters (2012) — A Voronoi- and surface-based approach for the automatic generation of 
-- Effrosyni Boufidou (2011) — Towards understanding the DOQ Priorat terroirs: A multivariate GIS ana
-- Daniel Xu (2011) — Design and Implementation of Constraints for 3D Spatial Database - Usi
-- Ken Arroyo Ohori (2010) — Validation and automatic repair of planar partitions using a constrain
-- Melina de Koning (2010) — Quality assessment of GSM positioning - GSM fingerprinting versus cell
-- Arnoud de Boer (2007) — Label placement in 3D georeferenced and oriented digital photographs u
-- Martijn Meijers (2006) — Implementation and testing of variable scale topological data structur
 - Giorgos Iliopoulos (2026) — (Semi-)automatic modeling of indoor building 3D models for daylight si
 - Vincent Vanderheeren (2026) — Pillar of Morphology - Enhancing point-based mathematical morphology f
 - Sue Wang (2026) — From IFC BIM to Semantically Enriched 2.5D Indoor Navigation Graphs fo
