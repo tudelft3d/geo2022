@@ -368,3 +368,8 @@ html.light-mode {
 	max-width: 70ch;
 	font-size: 0.95em;
 }
+/* Bulma's fixed image sizes stop at 128x128; the coordinator page uses a bigger avatar */
+.image.is-256x256 {
+	height: 256px;
+	width: 256px;
+}
