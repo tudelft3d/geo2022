@@ -5171,35 +5171,56 @@
   name: Özge
   title: Development and testing of the CityJSON Energy Extension for space
     heating demand calculation
+  supervisors: Camilo León Sánchez
   year: 2022
-  link: https://resolver.tudelft.nl/uuid:816735b7-4305-4f72-bbab-31f5e5491acf
+  link: https://resolver.tudelft.nl/uuid:0061d94c-46b6-4910-bb73-b6cdc9b85f84
   image: 2022_Tufan.jpg
   github: https://github.com/ozgetufan/cjenergy
   paper: https://doi.org/10.5194/isprs-archives-XLVIII-4-W4-2022-169-2022
   abstract: 3D city models are frequently used to acquire and store energy-related
-    information of buildings for energy applications. In this context, CityGML
-    is the most common data model, and the Energy ADE, one of its most complex
-    extensions, provides a systematic way of storing detailed energy-related
-    data in XML format. Contrarily, even though CityGML's JSON-based encoding,
-    CityJSON, has an extension mechanism, an energy-related CityJSON Extension
-    is missing. This paper, therefore, presents the first results of the development
-    of a CityJSON Energy Extension and space heating demand calculation is
-    utilized as the use case. The simplified version of the Energy ADE, called
-    the Energy ADE KIT profile, is used to create a semi-direct translation
-    to the CityJSON Energy Extension. This Extension is then validated through
-    the official validator of CityJSON and the use case, and improvements
-    are made considering the validation results. The space heating demand
-    is calculated according to the Dutch standard NTA 8800 for a subset of
-    Rijssen-Holten in the Netherlands although the solar gains calculation
-    requires further review. The results show that the final CityJSON Energy
-    Extension provides full support for space heating demand calculations
-    based on the NTA 8800 and eliminates the deep hierarchical structure of
-    the Energy ADE. A comparison on CityJSON file sizes shows a 25.2 MB increase
-    after the required input data is stored in a CityJSON + Energy Extension
-    file, which is not significant considering the high amount of data stored
-    in the file. Overall, this paper shows that the CityJSON Energy Extension
-    could provide an easy-to-use alternative to the CityGML Energy ADE.
-  uuid: 816735b7-4305-4f72-bbab-31f5e5491acf
+    information of buildings to be used in energy applications, such as solar
+    potential analyses and energy demand calculations. In this context, the
+    most common data model is CityGML, which provides an application domain
+    extension called the Energy ADE to store energy-related data in a systematic
+    manner in XML format. On the other hand, CityJSON has been developed as
+    a JSON-based encoding to exchange 3D city models, with the aim of eliminating
+    the hierarchical structure and shortcomings of the XML-based CityGML.
+    However, even though an extension mechanism exists in CityJSON, an energy-related
+    CityJSON extension is not present in the current literature. Therefore,
+    the aim of this thesis is to develop and test a CityJSON Energy Extension.
+    To achieve this, the space heating demand calculation of buildings is
+    chosen as the use case to validate and test the Extension. In this thesis,
+    a simplified version of the Energy ADE, called the Energy ADE KIT profile,
+    is used as the first step to create a semi-direct translation to a CityJSON
+    Energy Extension. After validating the Extension with the official validator
+    of CityJSON, the space heating demand is calculated for a subset of the
+    Rijssen-Holten in the Netherlands according to the Dutch standard NTA
+    8800. Required input data is collected from various data sources and stored
+    in the CityJSON Energy Extension to test its usability for the use case.
+    The Extension is then improved depending on the results of the tests based
+    on the use case. The results show that the semi-direct translation lacked
+    numerous objects and attributes to store certain input data, while the
+    final version of the Extension fully supports the use case. Furthermore,
+    while the semi-direct translation contained deep hierarchical structures,
+    these were eliminated in the final Extension to comply with the design
+    decisions behind CityJSON. The main differences between the Energy ADE
+    and the CityJSON Energy Extension reflected this philosophy as well, where
+    the former was built with a deep hierarchical structure, while the latter
+    flattens this hierarchy by using the characteristics of JSON. In addition,
+    a comparison in file sizes showed that the input 3D city model of the
+    study area in CityJSON format had a file size of 40.6 MB, whereas the
+    output CityJSON + Energy Extension file with all input and output data
+    was 65.8 MB. It was discussed that this increase of 25.2 MB in file size
+    is not significant, considering the high increase in the number of objects
+    stored in the file. On the other hand, space heating demand calculation
+    resulted in negative values for 32 buildings in the study area, which
+    was not expected. While the possible reasons were detected, a solution
+    could not be developed in the given time frame of the thesis. Overall,
+    this thesis showed that the CityJSON Energy Extension can provide an easy-to-use
+    alternative to CityGML Energy ADE, where the Extension files can be simply
+    parsed by software and easily understood by the user without reaching
+    large file sizes.
+  uuid: 0061d94c-46b6-4910-bb73-b6cdc9b85f84
 - surname: van der Horst
   name: Noortje
   title: Procedural Modelling of Tree Growth Using Multi-temporal Point Clouds
@@ -11241,65 +11262,6 @@
     conversion of LoD2 to LoD2+ buildings and the calculation of net internal
     area. This software package is open source and freely available at http://lod2plus.googlecode.com.
   uuid: b22a2b93-4a0a-4aa7-8e3b-6e08e0027634
-- surname: de Vries
-  name: Lars
-  title: A research towards completing the asset information life cycle --
-    An analysis of the relationships between data exchange, BIM and the asset
-    life cycle and the solutions to overcome existing issues at Amsterdam
-    Airport Schiphol.
-  supervisors: Sisi Zlatanova; Peter van Oosterom; Nico Wasserman
-  year: 2013
-  link: https://resolver.tudelft.nl/uuid:88b6c2fc-b182-4fb2-98c8-25b6a24292ce
-  image: 2013_de-Vries.jpg
-  abstract: This thesis research for the Master of Science programme Geographical
-    Information Management and Applications looks at the possibilities of
-    completing the asset information life cycle at Amsterdam Airport Schiphol.
-    Therefor an analysis was made of the current situation, after a literature
-    research was conducted towards the subjects of data exchange and Building
-    Information Modelling (BIM). The insights in data exchange principles
-    are needed to understand the potential problems in completing the asset
-    information life cycle. At the moment as-built information is delivered
-    to SGIS, but not re-used in new projects. The most important problems
-    are caused by systems that are not able to communicate with each other
-    and data structures that are different by nature because of its native
-    software. BIM is a topic that currently gets much attention in the world
-    of design and construction. From their perspective BIM deals with another
-    way of executing design and construction, where collaboration and integration
-    are the key words. In practice BIM has a broader scope and can be defined
-    as, being a process in which relevant actors collaborate on creating,
-    analysing and managing multiple dimension data within a dynamic model
-    representing one or more assets throughout its/their life cycle. For this
-    thesis research the new data model for asset information at Amsterdam
-    Airport Schiphol, Schiphol GIS or SGIS, was analysed. SGIS replaces four
-    other systems that contained all asset information at Schiphol, but that
-    also contained double and inconsistent information. With SGIS these problems
-    must belong to the past. The data model mostly contains 2D or 2½D data
-    of all assets, including the most relevant information on the asset. SGIS
-    also communicates, or will do so within two years, with three other systems
-    that as a complex are the back bone of the asset management process at
-    Amsterdam Airport Schiphol. There are currently two problems with completing
-    the asset information life cycle. The first problem is getting the information
-    from the 3D model to SGIS. To solve this problem a workflow is suggested.
-    This workflow includes an export to the open standard IFC from the original
-    3D AEC modelling software. A small addition to SGIS has to be made therefor,
-    to be able to support the 3D geometries that are coming from that software.
-    The second problem is to get the information back from the operations
-    and maintenance phase to a new design phase. Currently the most optimal
-    solution seems to re-use the received IFC file and to add a DWG containing
-    the changed geometries. Thereby it needs to be mentioned that the multi-patch
-    objects from SGIS will be exploded to individual faces. The preferred
-    solution would have been to work from one central (spatial) database,
-    but that is technically not possible yet. The problems are caused by the
-    fact that AEC (3D modelling) software and GIS do not share a common geometric
-    data model. Additionally it needs to be researched what the actual information
-    demand is for the design phase. In the current situation information gets
-    lost after the exchange from construction to operations and maintenance,
-    because the information need in those phases is less detailed. With the
-    suggested solutions and changes/additions to SGIS it is possible to complete
-    the asset information life cycle for Schiphol and the relevant stakeholders
-    and main-contractors. An inventory of the necessary resources to plan
-    these changes still needs to be made.
-  uuid: 88b6c2fc-b182-4fb2-98c8-25b6a24292ce
 - surname: Donkers
   name: Sjors
   title: Automatic generation of CityGML LoD3 building models from IFC models
@@ -12026,11 +11988,51 @@
   name: Filip
   title: Automatic segmentation and classification of movement trajectories
     for transportation modes
+  supervisors: Peter van Oosterom; Hugo Ledoux
   year: 2010
-  link: https://resolver.tudelft.nl/uuid:b475fee9-5b67-446d-8a6e-ecce319c4250
+  link: https://resolver.tudelft.nl/uuid:654587d2-6e93-4619-ab9a-29d95f843f35
   image: 2010_Biljecki.jpg
-  uuid: b475fee9-5b67-446d-8a6e-ecce319c4250
-  needs_review: true
+  paper: https://resolver.tudelft.nl/uuid:b475fee9-5b67-446d-8a6e-ecce319c4250
+  abstract: The knowledge of the transportation mode used in a movement trajectory
+    (derived in form of timestamped positions) is critical for applications
+    such as travel behaviour studies. This thesis presents a method for segmenting
+    movement data into single-mode segments and their classification with
+    respect to the used transportation mode. The method relies on concepts
+    found in expert systems, most notably membership functions, fuzzy logic,
+    and certainty factors. A prototype, which may serve as a framework for
+    managing travel behaviour surveys has been built in order to validate
+    the presented theories and to classify the available test dataset. The
+    transportation modes that this system classifies are walking, bicycle,
+    tram, car, bus, train, underground, sailing boat, ferry, and aircraft.
+    This research also investigates the performance of OpenStreetMap data
+    in solving this problem. This free source of geodata proved to be crucial
+    for the classification, where the ten transportation modes are discerned
+    with various indicators mostly derived from the geodata, for instance,
+    the proximity of the trajectory to the tram network and the information
+    whether the movement has been made on a water surface or not. The classification
+    relies on eliminating unlikely transportation modes by values set with
+    a number of empirically derived fuzzy membership functions, and by using
+    the selected combination of indicators it is possible to distinguish in
+    between transportation modes which exhibit a similar behaviour (e.g. a
+    car and bus in urban areas). Finally, the classification results are attached
+    with a certainty value. The results are supplemented with additional mode-related
+    information, e.g. the name of the departure train station. The segmentation
+    has been done by detecting potential transition points between two transportation
+    modes as brief stops. After each segment between consecutive potential
+    transition points is classified, adjacent segments with the same classification
+    outcome are merged (and removing the transition point in between), and
+    keeping only the actual transition points where the transportation modes
+    had been changed. The method solves the problem with noisy data, and traffic
+    congestions which bias the indicators by using additional statistic values.
+    The classification of gaps in the data (e.g. caused by a signal shortage
+    during the logging of a trajectory) derived satisfying results, and segments
+    with only their starting and ending point have been successfully classified.
+    Thanks to the coverage of the OpenStreetMap data, in this research trajectories
+    located outside the Netherlands (e.g. Norway and Denmark) have been segmented
+    and classified as well. The accuracy of the classification with the developed
+    prototype, determined with the comparison of the classified results with
+    the reference data derived from manual classification, is 91.6 percent.
+  uuid: 654587d2-6e93-4619-ab9a-29d95f843f35
 - surname: Bitenc
   name: Maja
   title: Evaluation of a laser Land-based Mobile Mapping System for measuring

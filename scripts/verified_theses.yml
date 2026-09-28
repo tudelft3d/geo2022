@@ -722,3 +722,13 @@
     links the derived journal article instead (High resolution solar
     potential computation in large scale urban areas, repository uuid
     5a8d60e7-ac2b-4786-b003-57f3007a473c)
+
+# --- removed from the archive after hand checks (2026-09)
+
+- author: Lars de Vries
+  year: 2013
+  programme: not Geomatics
+  note: GIMA (Geographical Information Management and Applications)
+    student; the thesis abstract's first sentence names the programme;
+    thesis done at the GISt section, which is why the 3dge list knows
+    it (Ken, 2026-09)
