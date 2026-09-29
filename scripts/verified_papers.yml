@@ -24,3 +24,45 @@
 - author: Sami Samiei-Esfahany
   year: 2008
   verdict: no papers
+
+# Both multi-robot papers are by a different José Guerrero (University of
+# the Balearic Islands); the Geomatics student did not publish on his
+# thesis (checked by Ken, 2026-09).
+- author: Josafat Isaí Guerrero Iñiguez
+  year: 2012
+  doi: 10.1016/j.robot.2012.06.004
+  verdict: not related
+- author: Josafat Isaí Guerrero Iñiguez
+  year: 2012
+  doi: 10.5772/13281
+  verdict: not related
+
+# The Gi4DM paper predates the thesis and is about obstacle avoidance in
+# Google Maps, not about the thesis's knowledge-based optimisation of 3D
+# city models (checked by Ken, 2026-09).
+- author: Simeon Nedkov
+  year: 2012
+  url: https://www.gdmc.nl/publications/2011/Enabling_obstacle_avoidance.pdf
+  verdict: not related
+
+# The 2018 EAGE extended abstract continues the Henares/Weltje core
+# analysis line; M. Bloemsma is only a co-author and it is not a paper
+# on his thesis (checked by Ken, 2026-09).
+- author: Menno Bloemsma
+  year: 2010
+  doi: 10.3997/2214-4609.201801136
+  verdict: not related
+
+# The ISPRS museum paper is a different project she co-authored, not a
+# paper on her thesis (checked by Ken, 2026-09).
+- author: Marija Krūminaitė
+  year: 2014
+  doi: 10.5194/isprsarchives-xl-4-w4-51-2013
+  verdict: not related
+
+# Every candidate the search surfaced is the supervisors' follow-up
+# glacier work (Lindenbergh/Menenti with Vu Hien Phan); Hang Yu is not a
+# co-author on any of them (checked by Ken, 2026-09).
+- author: Hang Yu
+  year: 2010
+  verdict: no papers

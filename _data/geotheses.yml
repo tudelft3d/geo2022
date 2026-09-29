@@ -10923,6 +10923,8 @@
   year: 2014
   link: https://resolver.tudelft.nl/uuid:c2a9a308-5cdc-4df2-bf30-9eea5ea176c5
   image: 2014_Kruminaite.jpg
+  paper: https://doi.org/10.1145/2676528.2676529
+  paper_label: conference paper
   abstract: 'The aim of the research was to develop conceptual model for determination
     of functional areas with abstract borders within indoor space and to illustrate
     how determined functional areas can be applied to facilitate wayfinding
@@ -11519,6 +11521,11 @@
   year: 2012
   link: https://resolver.tudelft.nl/uuid:5977a99b-0875-44b4-abe1-09288bf2aed1
   image: 2012_Peters.jpg
+  papers:
+  - url: https://doi.org/10.1080/01490419.2014.902882
+    label: journal article
+  - url: https://www.gdmc.nl/publications/2013/Safe_depth-contours_hydrographic_charts.pdf
+    label: conference paper (ICA Generalisation Workshop 2013)
   abstract: 'Depth-contours are an essential part of any hydrographic chart—a
     map of a waterbody intended for safe ship navigation. Traditionally these
     were manually drawn by skilled hydrographers from a limited set of surveyed
@@ -11615,6 +11622,11 @@
   year: 2012
   link: https://resolver.tudelft.nl/uuid:11a3bbc4-5013-4833-871d-1035fca04636
   image: 2012_Valk.jpg
+  papers:
+  - url: https://doi.org/10.5194/hessd-10-13743-2013
+    label: preprint (HESS Discussions 2013)
+  - url: https://doi.org/10.5194/hess-18-2599-2014
+    label: journal article
   abstract: In this paper I present a novel method to determine the time of
     occurrence of tidal slack with a GPS receiver mounted on an anchored buoy
     commonly used to delineate shipping lanes in estuaries and tidal channels.
@@ -12165,6 +12177,8 @@
   year: 2010
   link: https://resolver.tudelft.nl/uuid:4acf424e-6bb5-4044-a7af-2baea8108baa
   image: 2010_Bloemsma.jpg
+  paper: https://lirias.kuleuven.be/1921710
+  paper_label: report
   abstract: Textural variations in sediment are considered to be one of the
     primary controls on the geochemical composition. This relation has been
     widely exploited for the climatological interpretation of unconsolidated
@@ -12255,6 +12269,8 @@
   year: 2010
   link: https://resolver.tudelft.nl/uuid:2d8318f7-42bf-4637-8d34-285f98405b64
   image: 2010_Kalpoe.jpg
+  paper: https://doi.org/10.1117/12.889440
+  paper_label: conference paper
   abstract: To meet the growing demand for sustainable energy, existing wind
     turbines have to be made more powerful and efficient. One of the research
     topics to achieve this, is the aero-elastic stability limit of the blades.
@@ -12299,6 +12315,8 @@
   year: 2010
   link: https://resolver.tudelft.nl/uuid:6210b7b5-8599-4ed6-bf3b-738f9a8d0f97
   image: 2010_Possel.jpg
+  paper: https://repository.tudelft.nl/record/uuid:6da0f5e1-e629-4a62-a847-a07438587ae7
+  paper_label: conference paper
   abstract: 'The formation of the current Rhine-Meuse delta has mainly taken
     place during the Holocene (the last 12,000 years). This period is characterised
     by avulsions that lead to sudden shifts in the location of river channels.
