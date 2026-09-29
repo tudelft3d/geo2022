@@ -669,11 +669,16 @@ def verified_keys(verified):
     return keys
 
 
-def candidate_key(entry, cand):
+def candidate_keys(entry, cand):
+    """Verdict-matching keys for one candidate. The verdict file's
+    `author:` may be written as the bare surname or as the student's
+    full name, so both forms are offered."""
     ident = (cand.get("doi") or eg.foldcase(cand.get("url")
                                             or cand.get("id") or ""))[:80]
-    return (eg.foldcase(entry["surname"]), int(entry.get("year") or 0),
-            ident)
+    year = int(entry.get("year") or 0)
+    return {(eg.foldcase(entry["surname"]), year, ident),
+            (eg.foldcase(f"{entry.get('name', '')} "
+                         f"{entry.get('surname', '')}"), year, ident)}
 
 
 # ------------------------------------------------------------ calibration
@@ -925,7 +930,7 @@ def main():
         cands = []
         for cand in pool_for(entry, gdmc, works_cache, args.offline,
                              with_student, oa_ok):
-            if candidate_key(entry, cand) in verified:
+            if candidate_keys(entry, cand) & verified:
                 continue
             s = evaluate(entry, cand, sup_keys)
             if keep_all or s["verdict"]:

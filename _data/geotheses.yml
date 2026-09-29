@@ -3094,7 +3094,6 @@
   link: https://resolver.tudelft.nl/uuid:0bae72e4-ff16-4921-8f6e-d92fa4a377d7
   image: 2024_Rao.jpg
   paper: https://doi.org/10.5281/zenodo.21605442
-  paper_label: conference paper
   abstract: Road network models are essential for modern urban planning, transportation
     analysis, and digital map reconstruction. This thesis addresses the development
     of a comprehensive digital road network model that advances from linear
@@ -3127,6 +3126,7 @@
     research successfully bridges the gap between OSM’s raw linear road centerline
     data and the lane-level areal representations.
   uuid: 0bae72e4-ff16-4921-8f6e-d92fa4a377d7
+  paper_label: conference paper
 - surname: Shen
   name: Qiwei
   title: Plant Skeleton Extraction and Stem-leaf Segmentation
@@ -11609,20 +11609,22 @@
   uuid: c7e67b12-6dc1-4b70-b1a9-443ad0730e60
 - surname: Valk
   name: Martin
-  title: 'Estimation of slack tide using GPS measurements on a buoy: A case study
-    on buoy 18 in the Schelde Estuary'
+  title: 'Estimation of slack tide using GPS measurements on a buoy: A case
+    study on buoy 18 in the Schelde Estuary'
   supervisors: Christian Tiberius
   year: 2012
   link: https://resolver.tudelft.nl/uuid:11a3bbc4-5013-4833-871d-1035fca04636
-  abstract: In this paper I present a novel method to determine the time of occurrence
-    of tidal slack with a GPS receiver mounted on an anchored buoy commonly used to
-    delineate shipping lanes in estuaries and tidal channels. Slack tide occurs when
-    the tide changes direction from ebb to flood flow, or from flood to ebb. The determination
-    of this point in time is not only useful for shipping and salvaging, it is also
-    important information for calibrating tidal models, for determining the maximum
-    salt intrusion and for the further refinement of the theory on tidal propagation.
-    The accuracy of the timing is well within 10 minutes and the method - able to
-    operate in real-time - is relatively cheap and easy to implement on a permanent
+  image: 2012_Valk.jpg
+  abstract: In this paper I present a novel method to determine the time of
+    occurrence of tidal slack with a GPS receiver mounted on an anchored buoy
+    commonly used to delineate shipping lanes in estuaries and tidal channels.
+    Slack tide occurs when the tide changes direction from ebb to flood flow,
+    or from flood to ebb. The determination of this point in time is not only
+    useful for shipping and salvaging, it is also important information for
+    calibrating tidal models, for determining the maximum salt intrusion and
+    for the further refinement of the theory on tidal propagation. The accuracy
+    of the timing is well within 10 minutes and the method - able to operate
+    in real-time - is relatively cheap and easy to implement on a permanent
     basis or in short field campaigns.
   uuid: 11a3bbc4-5013-4833-871d-1035fca04636
 - surname: Wijga-Hoefsloot
@@ -12703,32 +12705,36 @@
 - surname: Wienia
   name: Rikkert
   title: 'Use of global ionospheric maps for precise point positioning: Developing
-    an optimised procedure in using Global Ionospheric Maps for single-frequency standalone
-    positioning with GPS'
+    an optimised procedure in using Global Ionospheric Maps for single-frequency
+    standalone positioning with GPS'
   supervisors: Hans van der Marel
   year: 2008
   link: https://resolver.tudelft.nl/uuid:dec284ff-7f52-4ad3-bfc0-28b4b1851bcd
-  abstract: 'GPS-transmitted waves are affected by the Earth''s atmosphere resulting
-    in a decrease of the measured position accuracy. The highest region of the atmosphere,
-    known as the ionosphere, is the main cause of this accuracy degradation. Due to
-    the dispersive nature of the ionosphere for GPS-signals, the induced delay can
-    be measured or eliminated if a dual-receiver is used. (By constructing the Geometry/Ionosphere-free
-    Linear Combination, respectively). If a single-frequency receiver is used instead,
-    one is obliged to account for the ionospheric delay in other ways. In this thesis
-    is investigated how Global Ionospheric Maps (GIMs) can be used to correct for
-    the ionospheric delay. Because these GIMs provide vertical ionospheric delays
-    on given gridpoints and at discrete time-epochs, several processing steps have
-    to be carried out: a spatial- and temporal-interpolation has to be performed to
-    obtain an ionospheric delay estimate at the desired location and time and, subsequently,
-    a mapping function has to be applied to transform the (interpolated) vertical
-    value into the desired slant value. The objective of this research is to investigate
-    the contribution of these processing steps to be able to develop an optimised
-    procedure in using GIMs. With a stochastic analysis, in which GIM-based ionospheric
-    delay estimates are compared with real measured ionospheric delays, a best-suited
-    procedure in using GIMs is found. This optimised procedure is finally implemented
-    into a single-frequency Precise Point Positioning (PPP) concept. Static observations
-    reveal a position accuracy at the three-decimetre level horizontally and at the
-    five-decimetre level vertically, for the European region.'
+  image: 2008_Wienia.jpg
+  abstract: 'GPS-transmitted waves are affected by the Earth''s atmosphere
+    resulting in a decrease of the measured position accuracy. The highest
+    region of the atmosphere, known as the ionosphere, is the main cause of
+    this accuracy degradation. Due to the dispersive nature of the ionosphere
+    for GPS-signals, the induced delay can be measured or eliminated if a
+    dual-receiver is used. (By constructing the Geometry/Ionosphere-free Linear
+    Combination, respectively). If a single-frequency receiver is used instead,
+    one is obliged to account for the ionospheric delay in other ways. In
+    this thesis is investigated how Global Ionospheric Maps (GIMs) can be
+    used to correct for the ionospheric delay. Because these GIMs provide
+    vertical ionospheric delays on given gridpoints and at discrete time-epochs,
+    several processing steps have to be carried out: a spatial- and temporal-interpolation
+    has to be performed to obtain an ionospheric delay estimate at the desired
+    location and time and, subsequently, a mapping function has to be applied
+    to transform the (interpolated) vertical value into the desired slant
+    value. The objective of this research is to investigate the contribution
+    of these processing steps to be able to develop an optimised procedure
+    in using GIMs. With a stochastic analysis, in which GIM-based ionospheric
+    delay estimates are compared with real measured ionospheric delays, a
+    best-suited procedure in using GIMs is found. This optimised procedure
+    is finally implemented into a single-frequency Precise Point Positioning
+    (PPP) concept. Static observations reveal a position accuracy at the three-decimetre
+    level horizontally and at the five-decimetre level vertically, for the
+    European region.'
   uuid: dec284ff-7f52-4ad3-bfc0-28b4b1851bcd
 - surname: de Boer
   name: Arnoud

@@ -1,6 +1,6 @@
-# cover thumbnails report (2026-09-25)
+# cover thumbnails report (2026-09-29)
 
-7 thumbnail(s) rendered.
+6 thumbnail(s) rendered.
 
 ## Needs a manual look
 
