@@ -2,122 +2,25 @@
 #
 # A candidate listed here with 'verdict: not related' is silenced in
 # future runs of scripts/find_papers.py (matched on author -- surname or
-# full student name --, year and doi/url). Papers that ARE the thesis's
-# paper are not recorded here: add them directly to the entry's
-# `paper:` field in _data/geotheses.yml (optionally `paper_label:`) and
-# they drop out of the report by themselves.
+# full student name --, year and doi/url). An entry-level
+# 'verdict: no papers' skips a thesis altogether, for theses whose
+# follow-up papers belong to the student's later PhD work rather than to
+# the thesis. Papers that ARE the thesis's paper are not recorded here:
+# add them directly to the entry's `paper:` field in
+# _data/geotheses.yml (optionally `paper_label:`) and they drop out of
+# the report by themselves.
 
-# Martijn Meijers (2006): his vario-scale papers continue his PhD work
-# ("Variable-scale Geo-information"), not his MSc thesis -- checked by
-# Ken, 2026-09. OpenAlex-only candidates without a DOI are recorded by
-# their openalex.org work URL so they still match.
+# His vario-scale papers continue his PhD work ("Variable-scale
+# Geo-information"), not his MSc thesis; the search also keeps matching
+# his whole publication record and namesakes (checked by Ken, 2026-09).
 - author: Martijn Meijers
   year: 2006
-  doi: 10.5194/isprsarchives-xl-4-w7-1-2015
-  verdict: not related
-  note: PhD-era vario-scale work
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.1016/j.cageo.2014.01.009
-  verdict: not related
-  note: polygon repair is Arroyo Ohori's thesis line; Meijers co-author
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.1201/b14914-14
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.1007/978-3-642-29793-9_7
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  url: https://www.gdmc.nl/publications/2013/2D_vario-scale_representations_3D_structure.pdf
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  url: https://www.gdmc.nl/publications/2012/5D_modeling_applications.pdf
-  verdict: not related
-  note: PhD-era 5D modelling with Stoter/Ledoux/Arroyo Ohori
-- author: Martijn Meijers
-  year: 2006
-  url: https://www.gdmc.nl/publications/2012/vario-scale_approach_versus_multi-representation_approach.pdf
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  url: https://www.gdmc.nl/publications/2011/True_vario-scale_structure.pdf
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  url: https://www.gdmc.nl/publications/2011/Progressive_data_streaming.pdf
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  url: https://www.gdmc.nl/publications/2010/Validation_planar_partitions.pdf
-  verdict: not related
-  note: Arroyo Ohori's thesis line; Meijers co-author
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.1007/978-3-642-00318-9_18
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.1201/9780203869352.ch4
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.1007/978-3-540-68566-1_14
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.1016/j.isprsjprs.2015.11.011
-  verdict: not related
-  note: PhD-era web maps work
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.1080/23729333.2019.1705144
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.5194/isprs-archives-xlviii-g-2025-513-2025
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.5194/isprs-archives-xlviii-4-w11-2024-25-2024
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.4230/dagsemproc.09161.3
-  verdict: not related
-  note: PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  url: https://openalex.org/W2119336239
-  verdict: not related
-  note: PhD dissertation chapter listing (Variable-schaal geo-informatie)
-- author: Martijn Meijers
-  year: 2006
-  url: https://openalex.org/W2122823746
-  verdict: not related
-  note: SplitArea (GDMC), PhD-era work
-- author: Martijn Meijers
-  year: 2006
-  url: https://openalex.org/W3195384000
-  verdict: not related
-  note: Video Map, unrelated to the MSc thesis
-- author: Martijn Meijers
-  year: 2006
-  doi: 10.54419/r2gjph
-  verdict: not related
-  note: his PhD dissertation itself
+  verdict: no papers
+
+# He continued into a PhD at the radar group (Hanssen/van Leijen); every
+# candidate the search surfaced is either their pre-thesis work, a
+# colleague's paper he co-authored, or his own PhD-era papers -- nothing
+# directly derived from the MSc thesis (checked by Ken, 2026-09).
+- author: Sami Samiei-Esfahany
+  year: 2008
+  verdict: no papers

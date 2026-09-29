@@ -18,8 +18,9 @@ more by comparing every thesis without a paper link against two sources:
      skipped (with a console note) when exhausted -- Crossref then
      carries the run alone.
 
-Candidates are scored on co-authorship (the student and/or the thesis's
-supervisors among the paper's authors), title similarity and abstract
+Candidates are scored on co-authorship (the thesis's student -- preferably
+as first author -- and/or its supervisors among the paper's authors),
+title similarity and abstract
 similarity (paper abstract vs the thesis abstract in the archive) and
 bucketed into Likely and Possible for a manual look. Adding an accepted
 paper is a hand edit of the entry's `paper:` field in
@@ -95,15 +96,11 @@ YEAR_FORWARD = 9  # ... or years later (slow journals, extended versions)
 # and tj (jaccard alone) backs the title-only rules, since unrelated
 # titles with the same word order score high on string ratio; abstract
 # similarity is a token cosine (None when either side has no abstract).
-# Domain vocabulary overlaps easily (0.4-0.5 title similarity between
-# unrelated laser-scanning papers), so one supervisor co-author alone
-# never makes a Likely.
+# A thesis's paper is authored by its student (preferably first), so a
+# Likely requires the student among the authors; supervisor or
+# title-only matches can only be a Possible.
 T_LIKELY_STU_TITLE = 0.35  # student co-author + title similarity
 T_LIKELY_STU_ABS = 0.40    # student co-author + abstract similarity
-T_LIKELY_SUP_TITLE = 0.55  # >= half the supervisors + title similarity
-T_LIKELY_SUP_ABS = 0.45    # supervisors + abstract similarity, near year
-T_LIKELY_2SUP = 0.45       # 2+ supervisors + this title/abstract similarity
-T_LIKELY_TITLE = 0.65      # title token overlap alone, near year
 T_POSS_STU_TITLE = 0.20    # student + weak title similarity, near year
 T_POSS_STU_ABS = 0.25      # student + weak abstract similarity, near year
 T_POSS_SUP_TITLE = 0.30    # a supervisor + weak title similarity
@@ -559,33 +556,23 @@ def year_weight(dy):
 
 def evaluate(entry, cand, sup_keys):
     """Score one candidate against one thesis: the similarity components
-    plus a verdict of 'likely'/'possible'/None."""
+    plus a verdict of 'likely'/'possible'/None. A Likely requires the
+    student among the paper's authors (first authorship boosts the
+    ranking); supervisor or title-only matches stay a Possible."""
     tj, ts = title_sims(entry.get("title") or "", cand.get("title") or "")
     t = max(tj, ts)
     b = abs_sim(entry.get("abstract") or "", cand.get("abstract") or "")
     authors = cand.get("authors") or []
     stu = any(student_author_match(entry, nm) for nm in authors)
+    # the paper's first listed author (merged sources keep primary order)
+    first = bool(authors) and student_author_match(entry, authors[0])
     surs = author_surnames(authors) & sup_keys
     dy = (cand.get("year") or 0) - int(entry.get("year") or 0)
     yw = year_weight(dy)
-    # "half the supervisors" means a real majority: 1 of 1-2, 2 of 3-4
-    sup_half = len(surs) >= max(1, (len(sup_keys) + 1) // 2)
     near = 0 <= dy <= 6
 
     if stu and (t >= T_LIKELY_STU_TITLE
                 or (b is not None and b >= T_LIKELY_STU_ABS)):
-        verdict = "likely"
-    elif len(surs) >= 2 and near and (t >= T_LIKELY_2SUP
-                                      or (b is not None
-                                          and b >= T_LIKELY_2SUP)):
-        verdict = "likely"
-    elif sup_half and (t >= T_LIKELY_SUP_TITLE
-                       or (b is not None and b >= T_LIKELY_SUP_ABS
-                           and yw >= 0.85)):
-        verdict = "likely"
-    elif tj >= T_LIKELY_TITLE and yw >= 0.85:
-        # title-only: token overlap, not sentence shape, and near in time
-        # (unrelated titles with the same word order ratio high otherwise)
         verdict = "likely"
     elif stu and near and (t >= T_POSS_STU_TITLE
                            or (b is not None and b >= T_POSS_STU_ABS)):
@@ -597,10 +584,11 @@ def evaluate(entry, cand, sup_keys):
         verdict = "possible"
     else:
         verdict = None
-    score = (2.0 * stu + 1.5 * (len(surs) / max(1, len(sup_keys)))
+    score = (2.0 * stu + 0.5 * first
+             + 1.5 * (len(surs) / max(1, len(sup_keys)))
              + t + (b or 0.0) + 0.3 * yw)
-    return {"stu": stu, "surs": surs, "t": t, "b": b, "dy": dy, "yw": yw,
-            "verdict": verdict, "score": score}
+    return {"stu": stu, "first": first, "surs": surs, "t": t, "b": b,
+            "dy": dy, "yw": yw, "verdict": verdict, "score": score}
 
 
 def pool_for(entry, gdmc, works_cache, offline, with_student, oa_ok):
@@ -669,6 +657,28 @@ def verified_keys(verified):
     return keys
 
 
+def no_papers_keys(verified):
+    """(author, year) pairs with an entry-level 'verdict: no papers':
+    the whole thesis is skipped, not individual candidates (used when a
+    former student's papers belong to their later PhD work, which no
+    single candidate list captures)."""
+    keys = set()
+    for v in verified:
+        if (v.get("verdict") or "").strip().lower() in ("no papers",
+                                                        "no paper"):
+            keys.add((eg.foldcase(v.get("author") or ""),
+                      int(v.get("year") or 0)))
+    return keys
+
+
+def entry_is_skipped(entry, no_papers):
+    year = int(entry.get("year") or 0)
+    keys = {(eg.foldcase(entry.get("surname", "")), year),
+            (eg.foldcase(f"{entry.get('name', '')} "
+                         f"{entry.get('surname', '')}"), year)}
+    return bool(keys & no_papers)
+
+
 def candidate_keys(entry, cand):
     """Verdict-matching keys for one candidate. The verdict file's
     `author:` may be written as the bare surname or as the student's
@@ -729,6 +739,7 @@ def calibrate(entry, scored, sup_keys, args):
     desc = (f"title {s['t']:.2f}, abstract "
             + ("n/a" if s["b"] is None else f"{s['b']:.2f}")
             + f", student co-author: {'yes' if s['stu'] else 'no'}"
+            + f" (first author: {'yes' if s['first'] else 'no'})"
             + f", supervisors among authors: {sups}")
     status = "surfaced" if s["verdict"] else "missed"
     return status, f"{how} — {desc}", s
@@ -751,10 +762,10 @@ def describe_candidate(entry, cand, s, n):
                 for x in (entry.get("supervisors") or "").split(";")
                 if x.strip()}
     au, seen = [], set()
-    for nm in cand.get("authors") or []:
+    for i, nm in enumerate(cand.get("authors") or []):
         mark = ""
         if student_author_match(entry, nm):
-            mark = " (student)"
+            mark = " (student; first author)" if i == 0 else " (student)"
         else:
             key = surname_key(eg.split_full_name(nm)[0])
             if key in s["surs"] and key in sup_full:
@@ -810,7 +821,8 @@ def write_report(archive, targets, results, calibration, n_gdmc, args):
                 "_data/geotheses.yml (optionally `paper_label:`), several "
                 "at once as a `papers:` list of {url, label} entries; "
                 "rejected candidates go into scripts/verified_papers.yml "
-                "with `verdict: not related` so they stop reappearing.\n\n")
+                "with `verdict: not related`, and a thesis to skip "
+                "entirely with `verdict: no papers`.\n\n")
 
         def write_thesis(f, e, cs, cap, verdict):
             f.write(f"- **{e['name']} {e['surname']} ({e['year']})** — "
@@ -826,8 +838,9 @@ def write_report(archive, targets, results, calibration, n_gdmc, args):
                         "--limit/--surname to see them all.\n")
 
         f.write(f"## Likely ({len(likely)} theses)\n\n"
-                "Strong signals: student or supervisor co-authorship "
-                "plus a clear title or abstract overlap.\n\n")
+                "Strong signals: the thesis's student as co-author "
+                "(preferably first author) plus a clear title or "
+                "abstract overlap.\n\n")
         if not likely:
             f.write("None.\n")
         for e, cs in likely:
@@ -921,6 +934,14 @@ def main():
           f"(+{len(known)} known links for calibration).", flush=True)
 
     verified = verified_keys(load_verified())
+    no_papers = no_papers_keys(load_verified())
+    skipped = [e for e in targets if entry_is_skipped(e, no_papers)]
+    if skipped:
+        targets = [e for e in targets if not entry_is_skipped(e, no_papers)]
+        print(f"Skipping {len(skipped)} thesis(es) with a 'no papers' "
+              f"verdict: "
+              + ", ".join(f"{e['surname']} ({e['year']})"
+                          for e in skipped), flush=True)
     works_cache = {}
     oa_ok = (not args.no_openalex) and probe_openalex(args.offline)
     args.openalex_used = oa_ok

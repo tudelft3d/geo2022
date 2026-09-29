@@ -77,7 +77,8 @@ python3 scripts/find_old_theses.py          # add --offline / --from-year / --al
 # (Calibration section). Adding an accepted paper is a hand edit of the
 # entry's `paper:` field (several at once as a `papers:` list of
 # {url, label} entries); rejected candidates go in
-# scripts/verified_papers.yml ('verdict: not related').
+# scripts/verified_papers.yml ('verdict: not related'; an entry-level
+# 'verdict: no papers' skips a thesis altogether).
 python3 scripts/find_papers.py          # add --offline / --limit / --surname
 
 # Sync _data/ongoing_theses.yml (Current Theses page) with MyCase's open

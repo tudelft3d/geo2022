@@ -12040,6 +12040,11 @@
   year: 2010
   link: https://resolver.tudelft.nl/uuid:a7f7aac7-98e1-44c6-a3e2-5b2415b6cecc
   image: 2010_Bitenc.jpg
+  papers:
+  - url: https://doi.org/10.3390/rs3071472
+    label: journal article (Remote Sensing 2011)
+  - url: https://openalex.org/W1501596185
+    label: conference paper (2010)
   abstract: The coastal area is an important territory for many reasons, e.g.
     as a recreational area, natural parks and reservoirs, protection against
     sea flood and storms. The last usage is especially crucial in the Netherlands,
@@ -12456,6 +12461,11 @@
   year: 2009
   link: https://resolver.tudelft.nl/uuid:84ae2335-bda6-4880-af3e-217cd6289f27
   image: 2009_Molijn.jpg
+  papers:
+  - url: https://doi.org/10.1080/01431161.2010.547532
+    label: journal article (Int. J. Remote Sensing 2011)
+  - url: https://openalex.org/W3012045693
+    label: conference abstract (AGU 2010)
   abstract: 'The Earth needs attention. That is the bottom line of today’s
     discussion on the impact of humans on the environment and their contribution
     to global warming. With the rapid sea level rise and the melting ice caps,
@@ -12479,6 +12489,8 @@
   year: 2009
   link: https://resolver.tudelft.nl/uuid:a91d6dc5-bdeb-4ee3-9a34-75a72c89f806
   image: 2009_Widiastuti.jpg
+  paper: https://openalex.org/W2991856925
+  paper_label: conference abstract (AGU 2009)
   abstract: Terrestrial water storage (TWS) can be defined as the storage
     of water on and below the land surface, and includes snow, ice, surface
     water, soil moisture, and ground water. TWS is a key component of the
@@ -12590,6 +12602,8 @@
   year: 2008
   link: https://resolver.tudelft.nl/uuid:d650352b-78fb-4919-9cb0-f2f66b17aef5
   image: 2008_Hofman.jpg
+  paper: https://www.gdmc.nl/publications/2008/Constrained_tGAP.pdf
+  paper_label: conference paper
   abstract: 'The aim of this master thesis has been to answer the question:
     How can a vario-scale IMGeo be designed and developed by applying the
     constrained tGAP structure with Top10NL as initial constraint? This research
@@ -12744,6 +12758,8 @@
   year: 2007
   link: https://resolver.tudelft.nl/uuid:b130806f-58be-466c-8890-a1534df3ff00
   image: 2007_de-Boer.jpg
+  paper: https://doi.org/10.1007/978-3-540-68566-1_20
+  paper_label: book chapter
   abstract: he increasing availability of digital camera devices and camera
     phones enable users to capture and upload digital photos at any a time
     and any place. Online image collections face the problem organizing increasing
@@ -12792,6 +12808,8 @@
   year: 2007
   link: https://resolver.tudelft.nl/uuid:c4b3b2de-f029-4461-ba20-362663d9f062
   image: 2007_Pluymaekers.jpg
+  paper: https://doi.org/10.1109/oceanse.2007.4302305
+  paper_label: conference paper
   abstract: Morphological parameter estimation and deformation analysis near
     the shoal of Walsoorden (Western Scheldt).
   uuid: c4b3b2de-f029-4461-ba20-362663d9f062
@@ -12803,6 +12821,8 @@
   year: 2007
   link: https://resolver.tudelft.nl/uuid:0d315b1b-84a4-4e03-8b65-95353e04a598
   image: 2007_Slobbe.jpg
+  paper: https://doi.org/10.1111/j.1365-246x.2008.03978.x
+  paper_label: journal article
   abstract: The Greenland ice sheet is sensitive to climate change. Global
     heating is expected to result in ice mass losses that will contribute
     to global sea level rise. For this reason monitoring Greenland’s ice mass
@@ -12920,6 +12940,8 @@
   year: 2006
   link: https://resolver.tudelft.nl/uuid:1c7b4a64-e8f0-4ff2-957f-ae9c55617755
   image: 2006_Kodde.jpg
+  paper: https://doi.org/10.11588/heidok.00036925
+  paper_label: journal article
   uuid: 1c7b4a64-e8f0-4ff2-957f-ae9c55617755
 - surname: Meijers
   name: Martijn
