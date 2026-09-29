@@ -1,0 +1,16 @@
+# Hand-checked paper candidates from reports/papers_report.md.
+#
+# A candidate listed here with 'verdict: not related' is silenced in
+# future runs of scripts/find_papers.py (matched on author, year and
+# doi/url). Papers that ARE the thesis's paper are not recorded here:
+# add them directly to the entry's `paper:` field in
+# _data/geotheses.yml (optionally `paper_label:`) and they drop out of
+# the report by themselves.
+#
+# Append entries in this form (the file may stay empty otherwise):
+
+# - author: Weilin Xu
+#   year: 2024
+#   doi: 10.1016/j.isprsjprs.2024.xx.xxx   # or url: for doi-less candidates
+#   verdict: not related
+#   note: same topic, different thesis (checked by Ken, 2026-09)

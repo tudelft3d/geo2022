@@ -677,3 +677,27 @@ supervisors:
   aliases:
   - J. Wunderlich
   note: mentor of theses confirmed in the 2026-09 supervisor sweep
+
+# 2026-09-29: the positioning crowd Ken asked about (Klees was already on
+# the list; van der Marel and the other GNSS/satellite-geodesy staff of the
+# pre-2013 era were not). Search keys -- hits are classified and never
+# added without review.
+- surname: Van der Marel
+  status: 'yes'
+  aliases:
+  - H. van der Marel
+- surname: Tiberius
+  status: 'yes'
+  aliases:
+  - C.C.J.M. Tiberius
+- surname: Ambrosius
+  status: 'no'
+  aliases:
+  - B.A.C. Ambrosius
+  note: evaluated in the 2026-09 sweep -- all his 2006-2012 hits are
+    Faculty of Aerospace Engineering theses (PDF-confirmed); flip back
+    to 'yes' if that ever changes
+- surname: Verhagen
+  status: 'yes'
+  aliases:
+  - S. Verhagen

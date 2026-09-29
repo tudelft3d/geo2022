@@ -74,6 +74,12 @@ def main():
         elif not link.startswith("http"):
             errors.append(f"{who}: unrecognised link: {link}")
 
+        for p in e.get("papers") or []:
+            if not (isinstance(p, dict)
+                    and str(p.get("url", "")).startswith("http")):
+                errors.append(f"{who}: papers entries need a 'url' "
+                              f"(optionally 'label'), got {p!r}")
+
         if not isinstance(e.get("year"), int):
             errors.append(f"{who}: year is not an integer")
 

@@ -1294,7 +1294,6 @@
     uncertainties. This approach could help us to improve the accuracy and
     reliability of the CFD simulations.
   uuid: 423f2ae2-6bb0-403f-875e-781194f87d46
-  needs_review: true
 - surname: de Niet
   name: Lotte
   title: Reconstructing legal 3D apartment models from 2D division drawings
@@ -1625,7 +1624,6 @@
     velocity difference stagnates, indicating that smaller voxel sizes offer
     limited additional benefit to CFD accuracy.
   uuid: 7f192b96-9d07-4445-bbf7-376d00f6621e
-  needs_review: true
 - surname: Martinez
   name: Javier
   title: Rock and soil classification using thermal and SAR data in deep learning
@@ -1881,7 +1879,6 @@
     spatial analysis, with machine learning, to assist in decision making
     to make urban areas more resilient.
   uuid: aeca557e-a350-45af-9427-d7a503416129
-  needs_review: true
 - surname: Tsalapati
   name: Victoria
   title: Assessing The Impact of Tree 3D Representations on Urban Daylight
@@ -9516,7 +9513,6 @@
     to increase overview. The data model may be a starting point for improvement
     of the Dutch cadastral map.
   uuid: b9a712da-f70e-43d9-b539-9e4c491966c0
-  needs_review: true
 - surname: Staats
   name: Bart
   title: Identification of walkable space in a voxel model, derived from a
@@ -9875,7 +9871,6 @@
     web can enable current SWE services to be used in new ways, making observation
     data available to a larger user audience.'
   uuid: 44d66025-3e51-4d32-81aa-e093f0aca833
-  needs_review: true
 - surname: de Vreede
   name: Irene
   title: Managing Historic Automatic Identification System data by using a
@@ -9920,7 +9915,6 @@
     queries, concludes on a suitable management solution for historical AIS
     data which will support Spatial-Temporal analyses.
   uuid: d11552c7-8b87-41a0-8b88-1090ea07e858
-  needs_review: true
 - surname: Fichtner
   name: Florian W.
   title: Semantic enrichment of a point cloud based on an octree for multi-storey
@@ -10091,7 +10085,6 @@
     problems arised, the solutions proposed and challenges for future work
     are described at the following chapters.'
   uuid: 2e3d7f53-9ca3-4003-b09b-77b82f312873
-  needs_review: true
 - surname: Kastelijns
   name: Matthijs
   title: Making sense of standards An evaluation and harmonisation of standards
@@ -10159,7 +10152,6 @@
     interoperable and harmonised. The Adapted OSI-model can bring order and
     the model can open up the way towards a more interoperable sensor web.
   uuid: 35f9ef5c-0923-4ceb-8932-830fcf7d18d8
-  needs_review: true
 - surname: Koopman
   name: Martijn
   title: 3D Path-finding in a voxelized model of an indoor environment
@@ -10369,7 +10361,6 @@
     It is expected that communication can be similar as with vario-scale data,
     and that only the filter and visualization steps are different.
   uuid: 215c9363-7fc8-466e-9c77-8a37defbce34
-  needs_review: true
 - surname: Aarsen
   name: Rosann
   title: Using sensor-data collected by a meet rollator for deriving outdoor
@@ -10476,7 +10467,6 @@
     and distributed datasets are required, such as in emergency management
     and urban planning.
   uuid: c5a80e2d-b1ab-46ed-95e9-56c7f0fefb83
-  needs_review: true
 - surname: Chen
   name: Carl
   title: Edge-aware simplification of roof and facade point clouds into a
@@ -10580,7 +10570,6 @@
     determine the decision points in indoor environments that this can be
     applied invariable to other wayfinding assistance systems.'
   uuid: ae4c0beb-f864-4274-aeb6-2b33514862de
-  needs_review: true
 - surname: Mulder
   name: Damien
   title: Automatic repair of geometrically invalid 3D City Building models
@@ -10668,7 +10657,6 @@
     of small plants and by providing information about the plant type for
     each point with this algorithm.
   uuid: 35f4cc9b-0cb8-4030-b1ae-ad2be146636f
-  needs_review: true
 - surname: Pronk
   name: Maarten
   title: Storing massive TINs in a DBMS - A comparison and a prototype implementation
@@ -10803,7 +10791,6 @@
     of the GPS measurements, a real time system to localise the freight wagons
     on marshalling yards has been developed.
   uuid: e0ea7327-4832-4e62-a702-c9e0acaa2939
-  needs_review: true
 - surname: Wu
   name: Haoxiang
   title: Integration of 2D architectural floor plans into Indoor OpenStreetMap
@@ -10881,7 +10868,6 @@
     will ideally be incorporated in the Rapid Assessment Tool for Inland Navigation
     (RAT-IN) which is currently under development at Deltares.
   uuid: f41ba0a0-acd5-462e-b5aa-7c1c5878e1ac
-  needs_review: true
 - surname: Zhou
   name: Kaixuan
   title: Exploring Regularities for Improving Quality of Facade Reconstruction
@@ -11042,7 +11028,6 @@
     to the limited scope of the research, for instance no parallel query processing
     tested, more work need to be conducted in the future.
   uuid: e55765a9-dfcb-4a6d-b9fb-f9279137c50c
-  needs_review: true
 - surname: Tierie
   name: Elise
   title: Visualisation conformity of three dimensional IMGeo for emergency
@@ -11079,7 +11064,6 @@
     is important since too much information will slow down a model and could
     counteract the user.
   uuid: 9bb42bcc-9081-4e48-9b4e-34505e562bec
-  needs_review: true
 - surname: van der Laan
   name: Eva
   title: Radio propagation aided indoor localization
@@ -11126,7 +11110,6 @@
     usability and scalability of the PML method makes it preferable over the
     dependent algorithm.'
   uuid: 316d539f-d28e-478e-abf5-a255f920e61d
-  needs_review: true
 - surname: van Winden
   name: Karl
   title: Automatically deriving and updating attribute road data from movement
@@ -11351,7 +11334,6 @@
     due to miss-alignment of the ICESat GLAS laser profiler. However, assumptions
     on terrain geometry were too optimistic to resolve in a reliable correction.
   uuid: f8cc2379-2275-449d-8f2d-902e9e7d0682
-  needs_review: true
 - surname: Bhattacharya
   name: Prajnaparamita
   title: Quality assessment and object matching of OpenStreetMap in combination
@@ -11401,7 +11383,6 @@
     cardinality of matched objects which may be useful in the future in an
     automatic updating process of TOP10NL and OSM.
   uuid: e1501114-d947-4278-8612-1e249e4dc02f
-  needs_review: true
 - surname: Commandeur
   name: Tom
   title: Footprint decomposition combined with point cloud segmentation for
@@ -11442,7 +11423,6 @@
     from these tests are proving proper functioning of the developed method
     and support the conclusions.'
   uuid: c0c665f7-0254-42c6-895b-cb59acc079f2
-  needs_review: true
 - surname: Guerrero Iñiguez
   name: Josafat Isaí
   title: Three-dimensional reconstruction of underground utilities for real-time
@@ -11466,7 +11446,6 @@
     the best approaches for the reconstruction underground utilities and its
     applicability to WebGL environments.
   uuid: b7f43166-c138-475f-8490-b1f28ed1383d
-  needs_review: true
 - surname: Koudijs
   name: Marjolein
   title: Using ICESat/GLAS laser altimetry for water level estimations in
@@ -11485,7 +11464,6 @@
     Furthermore, the strengths and weaknesses of GLAS altimetry data for hydrological
     monitoring of water levels in the Mekong River are evaluated.
   uuid: 6b269952-3000-4d26-8690-d8a4d553c47e
-  needs_review: true
 - surname: Nedkov
   name: Simeon
   title: Knowledge-based optimisation of three-dimensional city models for
@@ -11531,7 +11509,6 @@
     directed towards the reduction and/or simplification of textures rather
     than geometries.'
   uuid: b429e899-9955-4a23-9ceb-66ffb6210b30
-  needs_review: true
 - surname: Peters
   name: Ravi
   title: A Voronoi- and surface-based approach for the automatic generation
@@ -11577,7 +11554,6 @@
     any form of manual safety verification. And, because all of the employed
     algorithms are local, it is also well scalable to big datasets in principle.'
   uuid: 5977a99b-0875-44b4-abe1-09288bf2aed1
-  needs_review: true
 - surname: Rammos
   name: Penelope
   title: Automatic detection of benthos & birds
@@ -11629,7 +11605,24 @@
     resolution data. Additionally, no costs are required for lab work or transport
     to the mudflat for bird counting and the collection of specimen.'
   uuid: c7e67b12-6dc1-4b70-b1a9-443ad0730e60
-  needs_review: true
+- surname: Valk
+  name: Martin
+  title: 'Estimation of slack tide using GPS measurements on a buoy: A case study
+    on buoy 18 in the Schelde Estuary'
+  supervisors: Christian Tiberius
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:11a3bbc4-5013-4833-871d-1035fca04636
+  abstract: In this paper I present a novel method to determine the time of occurrence
+    of tidal slack with a GPS receiver mounted on an anchored buoy commonly used to
+    delineate shipping lanes in estuaries and tidal channels. Slack tide occurs when
+    the tide changes direction from ebb to flood flow, or from flood to ebb. The determination
+    of this point in time is not only useful for shipping and salvaging, it is also
+    important information for calibrating tidal models, for determining the maximum
+    salt intrusion and for the further refinement of the theory on tidal propagation.
+    The accuracy of the timing is well within 10 minutes and the method - able to
+    operate in real-time - is relatively cheap and easy to implement on a permanent
+    basis or in short field campaigns.
+  uuid: 11a3bbc4-5013-4833-871d-1035fca04636
 - surname: Wijga-Hoefsloot
   name: Martine
   title: Point Clouds in a Database
@@ -11683,7 +11676,6 @@
     not generally readable by spatial applications, not (yet) fully supported
     by all vendors and required storage space is double the amount.'
   uuid: 58266d2c-330c-4493-a03a-d8b180eb810d
-  needs_review: true
 - surname: Wong
   name: Hoe-Ming
   title: Registration of range images using geometric features
@@ -11692,7 +11684,6 @@
   link: https://resolver.tudelft.nl/uuid:d0e5e873-5ac1-45d5-804d-1354d638cb52
   image: 2012_Wong.jpg
   uuid: d0e5e873-5ac1-45d5-804d-1354d638cb52
-  needs_review: true
 - surname: Boufidou
   name: Effrosyni
   title: 'Towards understanding the DOQ Priorat terroirs: A multivariate GIS
@@ -11763,7 +11754,6 @@
     the vine cultivation pattern whereas obtaining high quality and recognised
     wine products.
   uuid: 70b9c0da-be31-426e-8694-c082a5e36280
-  needs_review: true
 - surname: Saleh
   name: Mohamed
   title: Sediment classification using Sub-bottom profiler
@@ -11814,7 +11804,6 @@
     The methods investigated here leaves room for further optimization through
     model adjustment such as signal interference, backscatters and error propagation.
   uuid: 565327fc-c023-4a04-ba7b-7d9a0671a66e
-  needs_review: true
 - surname: van Goor
   name: Bas
   title: Change detection and deformation analysis using Terrestrial Laser
@@ -11848,7 +11837,6 @@
     and deformation analysis. The results are validated using total station
     and joint meter measurements.
   uuid: acd7e4f7-849b-400f-a5bb-29bb485d427a
-  needs_review: true
 - surname: van Halderen
   name: Lidia
   title: Visual ego-motion estimation from unmanned deep sea vehicles
@@ -11857,7 +11845,6 @@
   link: https://resolver.tudelft.nl/uuid:ee690d46-3ec9-486a-8a16-b3738ae3f386
   image: 2011_van-Halderen.jpg
   uuid: ee690d46-3ec9-486a-8a16-b3738ae3f386
-  needs_review: true
 - surname: Verlaar
   name: Stijn
   title: Evaluation of close range photogrammetric support for Pavescan
@@ -11893,7 +11880,6 @@
     accuracy). Therefore it is not recommended to integrate photogrammetry
     in Pavescan.
   uuid: 3c8d42b1-fdf1-47f2-91af-cc71882c75ff
-  needs_review: true
 - surname: Xu
   name: Daniel
   title: Design and Implementation of Constraints for 3D Spatial Database
@@ -11944,15 +11930,25 @@
     instances, extra-check rules to detect conflicting constraints and constraints
     relating to multi-scale representations.
   uuid: 702b94e8-903d-4794-8e53-bb5b8da0917a
-  needs_review: true
 - surname: Arroyo Ohori
-  name: Gustavo Adolfo Ken
+  name: Ken
   title: Validation and automatic repair of planar partitions using a constrained
     triangulation
   supervisors: Peter van Oosterom; Hugo Ledoux; Martijn Meijers
   year: 2010
   link: https://resolver.tudelft.nl/uuid:78807acb-4115-478c-93de-68b9db884c8e
   image: 2010_Arroyo-Ohori.jpg
+  papers:
+  - url: https://www.gdmc.nl/publications/2011/Edge-matching_polygons.pdf
+    label: conference paper (GIS Ostrava 2011)
+  - url: https://www.gdmc.nl/publications/2012/Automatically_repairing_with_constrained_triangulation.pdf
+    label: conference paper (AGILE 2012)
+  - url: https://www.gdmc.nl/publications/2012/Automatically_repairing_polygons_and_planar_partitions.pdf
+    label: conference paper (Open Source GIS UK 2012)
+  - url: https://doi.org/10.1127/1432-8364/2012/0143
+    label: journal article (PFG 2012)
+  - url: https://doi.org/10.1016/j.cageo.2014.01.009
+    label: journal article (Computers & Geosciences 2014)
   abstract: Planar partitions (subdivisions of the plane into polygonal areas)
     constitute one of the most important data representations in GIS. They
     are used to model concepts as varied as land use, administrative units,
@@ -11983,7 +11979,6 @@
     partitions of more than 100,000 polygons. It is also open source and freely
     available on the GDMC website (http://www.gdmc.nl/).
   uuid: 78807acb-4115-478c-93de-68b9db884c8e
-  needs_review: true
 - surname: Biljecki
   name: Filip
   title: Automatic segmentation and classification of movement trajectories
@@ -12153,7 +12148,6 @@
     This way the completeness, reliability and the quality of the laser L-MMS
     DTM DTM could be improved.
   uuid: a7f7aac7-98e1-44c6-a3e2-5b2415b6cecc
-  needs_review: true
 - surname: Bloemsma
   name: Menno
   title: Semi-automatic core characterisation based on geochemical logging
@@ -12220,7 +12214,6 @@
     the suggested algorithms in the data acquisition work flow and (2) installing
     a higher resolution camera to extract textural proxies from images.
   uuid: 4acf424e-6bb5-4044-a7af-2baea8108baa
-  needs_review: true
 - surname: Briels
   name: Sven Andreas
   title: Infrasound source location
@@ -12239,7 +12232,6 @@
     operated by the Koninklijk Nederlands Meteorologisch Instituut (KNMI)
     and three additional arrays located in Germany and France.
   uuid: 5d720169-fc34-4a9c-bf6d-49aa546e3966
-  needs_review: true
 - surname: de Koning
   name: Melina
   title: Quality assessment of GSM positioning - GSM fingerprinting versus
@@ -12247,7 +12239,6 @@
   year: 2010
   link: https://www.gdmc.nl/publications/2010/Quality_assessment_GSM_positioning.pdf
   image: 2010_de-Koning.jpg
-  needs_review: true
 - surname: Kalpoe
   name: Dinesh Sharma
   title: Vibration Measurement of a Model Wind Turbine using High Speed Photogrammetry
@@ -12291,7 +12282,6 @@
     the model wind turbine, it can be concluded that the blade vibrations
     can be measured using high speed photogrammetry.
   uuid: 2d8318f7-42bf-4637-8d34-285f98405b64
-  needs_review: true
 - surname: Possel
   name: Boudewijn Maarten Johannes
   title: Automatic detection of buried channel deposits using high resolution
@@ -12342,7 +12332,6 @@
     due to human intervention in the landscape. Further research is recommended
     to improve the filtering and detection method.'
   uuid: 6210b7b5-8599-4ed6-bf3b-738f9a8d0f97
-  needs_review: true
 - surname: Yu
   name: Hang
   title: Monitoring Glacier Elevation Changes over the Tibetan Plateau Using
@@ -12384,7 +12373,6 @@
     moment in time, TDEM is more suitable than ASTER GDEM for glacier mass
     balance studies.
   uuid: 9e11a9bd-49a9-4e86-a856-8558e39dfb34
-  needs_review: true
 - surname: Altundağ
   name: Doğan
   title: De-noising terrestrial laser scanning data for roughness characterization
@@ -12447,7 +12435,6 @@
     to such a degree that accurate measurement values can be obtained from
     laser scanned data for rock surface roughness characterization.
   uuid: 219f6326-95c9-445a-aa87-413cc80ea819
-  needs_review: true
 - surname: Duijnmayer
   name: Koen
   title: Sediment characterization by geo-acoustic inversion of marine seismic
@@ -12457,7 +12444,6 @@
   link: https://resolver.tudelft.nl/uuid:a8c94ef1-a817-4ca5-b1ab-290a93dd22e1
   image: 2009_Duijnmayer.jpg
   uuid: a8c94ef1-a817-4ca5-b1ab-290a93dd22e1
-  needs_review: true
 - surname: Molijn
   name: Ramses Amadeus
   title: ICESat full waveform signal analysis for the classification of land
@@ -12481,7 +12467,6 @@
     for computing mass balance estimates and monitoring seasonal changes in
     land cover type of the cryosphere.'
   uuid: 84ae2335-bda6-4880-af3e-217cd6289f27
-  needs_review: true
 - surname: Widiastuti
   name: Endang
   title: Data assimilation of GRACE terrestrial water storage data into a
@@ -12523,7 +12508,6 @@
     experiment period and comparison with other validation data could lead
     to a more definitive conclusion.
   uuid: a91d6dc5-bdeb-4ee3-9a34-75a72c89f806
-  needs_review: true
 - surname: Wortel
   name: Tom
   title: Automating quantity surveying in road construction using UAV Videogrammetry
@@ -12553,7 +12537,6 @@
     photogrammetric images. It fills the last gap in automating photogrammetric
     measurement campaigns.
   uuid: 9a2421c2-9c7b-4e4f-945c-1246ffa35bd4
-  needs_review: true
 - surname: Bantis
   name: Thanos
   title: Aerostat Photogrammetry for Large Scale Hydrological Modeling with
@@ -12596,7 +12579,6 @@
     of 0.0727°C was observed when compared to the temperature output using
     data from a coarser DEM (5 x 5 meters).
   uuid: 3617d20d-43e8-4bbb-a54e-e1a5323cf882
-  needs_review: true
 - surname: Hofman
   name: Arjen
   title: Developing a vario-scale IMGeo using the constrained tGAP structure
@@ -12657,7 +12639,6 @@
     like DURP Ondergronden could be a good opportunity to develop a vario-scale
     IMGeo as described in this report.'
   uuid: d650352b-78fb-4919-9cb0-f2f66b17aef5
-  needs_review: true
 - surname: Samiei-Esfahany
   name: Sami
   title: Improving Persistent Scatterer Interferometry Results for Deformation
@@ -12717,7 +12698,36 @@
     users, a PS quality description which contains the quality of estimated
     ambiguities is required.'
   uuid: d1eed85e-6625-434d-aacb-538464557f78
-  needs_review: true
+- surname: Wienia
+  name: Rikkert
+  title: 'Use of global ionospheric maps for precise point positioning: Developing
+    an optimised procedure in using Global Ionospheric Maps for single-frequency standalone
+    positioning with GPS'
+  supervisors: Hans van der Marel
+  year: 2008
+  link: https://resolver.tudelft.nl/uuid:dec284ff-7f52-4ad3-bfc0-28b4b1851bcd
+  abstract: 'GPS-transmitted waves are affected by the Earth''s atmosphere resulting
+    in a decrease of the measured position accuracy. The highest region of the atmosphere,
+    known as the ionosphere, is the main cause of this accuracy degradation. Due to
+    the dispersive nature of the ionosphere for GPS-signals, the induced delay can
+    be measured or eliminated if a dual-receiver is used. (By constructing the Geometry/Ionosphere-free
+    Linear Combination, respectively). If a single-frequency receiver is used instead,
+    one is obliged to account for the ionospheric delay in other ways. In this thesis
+    is investigated how Global Ionospheric Maps (GIMs) can be used to correct for
+    the ionospheric delay. Because these GIMs provide vertical ionospheric delays
+    on given gridpoints and at discrete time-epochs, several processing steps have
+    to be carried out: a spatial- and temporal-interpolation has to be performed to
+    obtain an ionospheric delay estimate at the desired location and time and, subsequently,
+    a mapping function has to be applied to transform the (interpolated) vertical
+    value into the desired slant value. The objective of this research is to investigate
+    the contribution of these processing steps to be able to develop an optimised
+    procedure in using GIMs. With a stochastic analysis, in which GIM-based ionospheric
+    delay estimates are compared with real measured ionospheric delays, a best-suited
+    procedure in using GIMs is found. This optimised procedure is finally implemented
+    into a single-frequency Precise Point Positioning (PPP) concept. Static observations
+    reveal a position accuracy at the three-decimetre level horizontally and at the
+    five-decimetre level vertically, for the European region.'
+  uuid: dec284ff-7f52-4ad3-bfc0-28b4b1851bcd
 - surname: de Boer
   name: Arnoud
   title: Label placement in 3D georeferenced and oriented digital photographs
@@ -12767,7 +12777,6 @@
     photo, and the depth map enables to vary in label font size depending
     on the object distance.
   uuid: b130806f-58be-466c-8890-a1534df3ff00
-  needs_review: true
 - surname: Pluymaekers
   name: Steven
   title: A data analysis to bed dynamics in the Western Scheldt estuary
@@ -12778,7 +12787,6 @@
   abstract: Morphological parameter estimation and deformation analysis near
     the shoal of Walsoorden (Western Scheldt).
   uuid: c4b3b2de-f029-4461-ba20-362663d9f062
-  needs_review: true
 - surname: Slobbe
   name: Cornelis
   title: Towards a combined estimation of Greenland’s ice sheet mass balance
@@ -12844,7 +12852,6 @@
     the used GRACE solution the estimated combined mass change rates range
     between -114.3 and -124.7 Gton/year.
   uuid: 0d315b1b-84a4-4e03-8b65-95353e04a598
-  needs_review: true
 - surname: Bont
   name: Tirza
   title: Geographic data integration for telecommunication purposes
@@ -12878,7 +12885,6 @@
     of the route, which i sone of the characteristics of the input data set
     containing the distribution of the travelers.
   uuid: ac4e2424-be72-4481-9b18-699172d045eb
-  needs_review: true
 - surname: Kagkaras
   name: Adamantios
   title: Laser scanning modelling of a Cessna citation
@@ -12898,7 +12904,6 @@
     parts of the airplane are modelled by using suitable methods to process
     the obtained laser points.
   uuid: 20993923-81e7-44ea-a296-1f02893412f1
-  needs_review: true
 - surname: Kodde
   name: Martin
   title: Glacier Surface Analysis. Airborne Laser Scanning for monitoring
@@ -12908,7 +12913,6 @@
   link: https://resolver.tudelft.nl/uuid:1c7b4a64-e8f0-4ff2-957f-ae9c55617755
   image: 2006_Kodde.jpg
   uuid: 1c7b4a64-e8f0-4ff2-957f-ae9c55617755
-  needs_review: true
 - surname: Meijers
   name: Martijn
   title: Implementation and testing of variable scale topological data structures
@@ -12969,7 +12973,6 @@
     that the data structures can provide the desired data reduction within
     a GII in real time.
   uuid: 3449616f-fa03-4877-81e8-218141b580af
-  needs_review: true
 - surname: Oudman
   name: Erna
   title: The transformation of GPS into NAP heights
@@ -12988,7 +12991,6 @@
     for computation of a height reference surface out of NAP, GPS and geoid
     heights'
   uuid: e661fcdd-6fe8-46e9-b5ea-51dabbd89175
-  needs_review: true
 - surname: Sablerolle
   name: Steven Alexander
   title: Automatic Registration of laser scanning data and colour images
@@ -13017,7 +13019,6 @@
     can be made now by either plotting the colours onto the 3D points or plotting
     the range data onto the colour image.'
   uuid: 00f12183-2577-44c5-a8b1-77287681779b
-  needs_review: true
 - surname: van Ree
   name: Jane Margaret
   title: Determination of the precision and reliability parameters of terrestrial
@@ -13027,4 +13028,3 @@
   link: https://resolver.tudelft.nl/uuid:071ea771-7bb0-4914-b97e-1e2294affe71
   image: 2006_van-Ree.jpg
   uuid: 071ea771-7bb0-4914-b97e-1e2294affe71
-  needs_review: true

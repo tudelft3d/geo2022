@@ -66,6 +66,20 @@ python3 scripts/find_missing_theses.py          # add --offline / --no-pdf
 # needs_review; hand verdicts go in scripts/verified_theses.yml.
 python3 scripts/find_old_theses.py          # add --offline / --from-year / --all-years
 
+# Hunt for papers (journal/conference articles) published on top of the
+# archived theses, for entries without a `paper:` field: cross-checks the
+# GDMC publication list (which also lists the group's papers), Crossref
+# (searched per thesis) and OpenAlex works of each supervisor/student
+# (skipped when OpenAlex's free daily budget is exhausted, which happens;
+# re-run later), scoring candidates on co-authorship + title/abstract
+# similarity. Writes reports/papers_report.md (likely, possible, nothing)
+# and self-checks the entries that already carry a paper link
+# (Calibration section). Adding an accepted paper is a hand edit of the
+# entry's `paper:` field (several at once as a `papers:` list of
+# {url, label} entries); rejected candidates go in
+# scripts/verified_papers.yml ('verdict: not related').
+python3 scripts/find_papers.py          # add --offline / --limit / --surname
+
 # Sync _data/ongoing_theses.yml (Current Theses page) with MyCase's open
 # cases: adds new starters (flagged needs_summary), syncs phases/
 # supervisors/official titles, reports who is no longer open. --prune
@@ -117,6 +131,13 @@ After each graduation round (or whenever, really):
    work through its flags (plain/blank first pages, surname
    mismatches) afterwards. Ongoing-thesis images go into `ongoing/img/`.
 
+Once a year or so (papers appear long after graduation):
+
+7. `python3 scripts/find_papers.py` — look for papers published on top
+   of archived theses (`reports/papers_report.md`). Add the good
+   candidates to the entries' `paper:` field and record rejected ones
+   in `scripts/verified_papers.yml` so they stop reappearing.
+
 ## Structure
 
 | Path | Purpose |
@@ -140,6 +161,7 @@ After each graduation round (or whenever, really):
 | `scripts/check_geotheses.py` | Validates the archive data |
 | `scripts/find_missing_theses.py` | Cross-checks the archive with the GDMC + 3dge thesis lists |
 | `scripts/find_old_theses.py` | Sweeps the repository for pre-coverage theses by supervisor surname |
+| `scripts/find_papers.py` | Hunts for papers published on top of archived theses (GDMC list + Crossref + OpenAlex) |
 | `scripts/thesis_covers.py` | Generates the archive's cover thumbnails from the repository/GDMC thesis PDFs |
 | `scripts/geomatics_supervisors.yml` | Supervisor list feeding `find_old_theses.py` (status `yes`/`pending`) |
 

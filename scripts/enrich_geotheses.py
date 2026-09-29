@@ -59,7 +59,7 @@ USER_AGENT = ("geo2022-site-maintainer/1.0 "
 TUSS_ENVGESELLS = ("van ", "de ", "den ", "der ", "ter ", "te ", "het ", "'t ")
 FIELD_ORDER = ["surname", "name", "title", "supervisors", "year",
                "graduation_date", "link", "image", "github", "paper",
-               "abstract", "uuid", "needs_review"]
+               "papers", "abstract", "uuid", "needs_review"]
 
 
 # ---------------------------------------------------------------- cleaning

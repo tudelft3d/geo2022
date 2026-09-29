@@ -721,7 +721,8 @@
   note: no repository record and not on GDMC either; the archive entry
     links the derived journal article instead (High resolution solar
     potential computation in large scale urban areas, repository uuid
-    5a8d60e7-ac2b-4786-b003-57f3007a473c)
+    5a8d60e7-ac2b-4786-b003-57f3007a473c); a PDF copy obtained via the
+    Brightspace plagiarism scanner (2026-09) is kept in thesis_backup/
 
 # --- removed from the archive after hand checks (2026-09)
 
@@ -732,3 +733,118 @@
     student; the thesis abstract's first sentence names the programme;
     thesis done at the GISt section, which is why the 3dge list knows
     it (Ken, 2026-09)
+
+# --- verdicts on the 2026-09-29 supervisor-sweep round (Van der Marel,
+# --- Tiberius, Ambrosius and Verhagen were added to the list). Wienia and
+# --- Valk came out of it as Geomatics and were added to the archive; the
+# --- entries below are the interfacultary-era Aerospace Engineering
+# --- theses the same sweep turned up, PDF-confirmed. Twigt was checked
+# --- alongside (Schrama probe; Schrama himself is not on the list).
+- author: R. Rietbroek
+  year: 2007
+  programme: not Geomatics
+  note: title page says MSc Aerospace Engineering; GRACE ocean mass,
+    mentors Ambrosius, Wouters, Schrama and LeGrand (Ken, 2026-09)
+- author: D.B.T. Broerse
+  year: 2007
+  programme: not Geomatics
+  note: title page says MSc Aerospace Engineering, Section Astrodynamics
+    and Satellite Systems (Ken, 2026-09)
+- author: J.C.P. Melman
+  year: 2007
+  programme: not Geomatics
+  note: preface names his studies in Aerospace Engineering (Ken, 2026-09)
+- author: T. Paulino
+  year: 2008
+  programme: not Geomatics
+  note: acknowledgements thank the Aerospace faculty; low-thrust
+    trajectory design (Ken, 2026-09)
+- author: R.J. Wienia
+  year: 2008
+  programme: Geomatics
+  note: preface says 'the last stage of the MSc Geomatics at the faculty
+    of Aerospace Engineering', done at the MGP section under van der
+    Marel; added to the archive (Ken, 2026-09)
+- author: V. Zuccarelli
+  year: 2009
+  programme: not Geomatics
+  note: title page says Faculty of Aerospace Engineering (Ken, 2026-09)
+- author: S. Ruevekamp
+  year: 2009
+  programme: not Geomatics
+  note: title page says Faculty of Aerospace (Ken, 2026-09)
+- author: H.M. Jara Orue
+  year: 2009
+  programme: not Geomatics
+  note: preface says degree of MSc in Aerospace Engineering (Ken, 2026-09)
+- author: M. Uitendaal
+  year: 2009
+  programme: not Geomatics
+  note: preface says Masters Degree of the study Aerospace Engineering
+    (Ken, 2026-09)
+- author: M.T. Tantardini
+  year: 2009
+  programme: not Geomatics
+  note: title page says Faculty of Aerospace Engineering (Ken, 2026-09)
+- author: J.F.L. Hellemons
+  year: 2009
+  programme: not Geomatics
+  note: title page says Geomatics Engineering at the AE faculty, but the
+    (Dutch) preface says 'afstudeeronderzoek van de opleiding Geodesie' --
+    the old Dutch-language programme; the included pre-2013 theses all
+    name Geomatics in their own text (Ken, 2026-09)
+- author: S. van Doorn
+  year: 2010
+  programme: not Geomatics
+  note: preface says the Aerospace Engineering Masters is concluded
+    (Ken, 2026-09)
+- author: W.J. van der Weg
+  year: 2010
+  programme: not Geomatics
+  note: title page says Faculty of Aerospace Engineering (Ken, 2026-09)
+- author: A. Pagano
+  year: 2010
+  programme: not Geomatics
+  note: no programme statement in the PDF, but launcher trajectory
+    optimization with Ambrosius as sole mentor and no Geomatics/Geodesy
+    signal anywhere in the front matter (Ken, 2026-09)
+- author: N. Silvestri
+  year: 2010
+  programme: not Geomatics
+  note: preface says the Aerospace Engineering Masters (Ken, 2026-09)
+- author: H.P.D. Gorter
+  year: 2010
+  programme: not Geomatics
+  note: title page says Faculty of Aerospace Engineering (Ken, 2026-09)
+- author: M. Boere
+  year: 2010
+  programme: not Geomatics
+  note: title page says Faculty of Aerospace Engineering (Ken, 2026-09)
+- author: G.J.J.M. Pauwels
+  year: 2011
+  programme: not Geomatics
+  note: title page says MSc in Aerospace; Superbus positioning system
+    with an MGP committee member (Ken, 2026-09)
+- author: M. Valk
+  year: 2012
+  programme: Geomatics
+  note: title page says MSc in Geomatics Engineering at CEG; added to
+    the archive (Ken, 2026-09)
+- author: J.M.V. Vandamme
+  year: 2012
+  programme: not Geomatics
+  note: title page says MSc in Aerospace (Ken, 2026-09)
+- author: B.C. Root
+  year: 2012
+  programme: not Geomatics
+  note: preface says 'my master Space Engineering' at TU Delft;
+    CryoSat-2 orbit determination (Ken, 2026-09)
+- author: F.M. Engelen
+  year: 2012
+  programme: not Geomatics
+  note: preface names his study of Aerospace engineering (Ken, 2026-09)
+- author: D.J. Twigt
+  year: 2006
+  programme: not Geomatics
+  note: title page says MSc in Aerospace; project carried out at WL |
+    Delft Hydraulics (Ken, 2026-09)
