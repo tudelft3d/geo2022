@@ -3093,6 +3093,8 @@
   graduation_date: '2024-10-29'
   link: https://resolver.tudelft.nl/uuid:0bae72e4-ff16-4921-8f6e-d92fa4a377d7
   image: 2024_Rao.jpg
+  paper: https://doi.org/10.5281/zenodo.21605442
+  paper_label: conference paper
   abstract: Road network models are essential for modern urban planning, transportation
     analysis, and digital map reconstruction. This thesis addresses the development
     of a comprehensive digital road network model that advances from linear
