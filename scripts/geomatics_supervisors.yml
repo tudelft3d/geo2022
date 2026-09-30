@@ -63,11 +63,13 @@ supervisors:
   - S.Z. Zlatanova
   - Sisi Zlatanova
 - surname: Stoter
-  status: 'no'
+  status: 'yes'
   aliases:
   - J. Stoter
   - J.E. Stoter
   - Jantien Stoter
+  note: flipped back to 'yes' 2026-09-30 -- Jantien Stoter is on the GDMC
+    former-staff page (staff until 2014)
 - surname: Agugiaro
   status: 'yes'
   aliases:
@@ -149,10 +151,12 @@ supervisors:
   - P. Nourian
   - Pirouz Nourian
 - surname: Vries
-  status: 'no'
+  status: 'yes'
   aliases:
   - M.E. De Vries
   - Marianne de Vries
+  note: flipped back to 'yes' 2026-09-30 -- Marian de Vries is on the GDMC
+    former-staff page (staff until 2021)
 - surname: Biljecki
   status: 'yes'
   aliases:
@@ -202,10 +206,12 @@ supervisors:
   - A. Labetski
   - Anna Labetski
 - surname: Liu
-  status: 'no'
+  status: 'yes'
   aliases:
   - H. Liu
   - L. Liu
+  note: flipped back to 'yes' 2026-09-30 -- Haicheng Liu and Liu Liu are on
+    the GDMC former-staff page (PhD researchers)
 - surname: Gorte
   status: 'yes'
   aliases:
@@ -217,10 +223,13 @@ supervisors:
   - J. Schembri
   - Justin Schembri
 - surname: Zhou
-  status: 'no'
+  status: 'yes'
   aliases:
   - Kaixuan Zhou
   - X. Zhou
+  - Y. Zhou
+  note: flipped back to 'yes' 2026-09-30 -- Yan Zhou is on the GDMC
+    former-staff page (postdoc)
 - surname: Heide
   status: 'yes'
   aliases:
@@ -475,9 +484,11 @@ supervisors:
   aliases:
   - Clayton Miller
 - surname: Tijssen
-  status: 'no'
+  status: 'yes'
   aliases:
   - T.P.M. Tijssen
+  note: flipped back to 'yes' 2026-09-30 -- Theo Tijssen is on the GDMC
+    former-staff page (staff until 2017)
 - surname: Eisemann
   status: 'no'
   aliases:
@@ -701,3 +712,34 @@ supervisors:
   status: 'yes'
   aliases:
   - S. Verhagen
+
+# 2026-09-30: cross-check against the GDMC staff + former-staff pages
+# (https://www.gdmc.nl/staff/staff.html,
+# https://www.gdmc.nl/staff_old/former_staff.html). Liu, Vries, Tijssen,
+# Stoter and Zhou were flipped back to 'yes' for the same reason, and
+# Wang, Zhang and Hespanha added here as pre-2013-era former staff. The
+# remaining GDMC names absent from the list (Kodde, Fendel, Yong Li,
+# Martínez Rubi, Lina Huang, and the post-2013 PhD researchers and
+# guests) were judged unlikely to have supervised Geomatics MSc theses.
+- surname: Wang
+  status: 'yes'
+  aliases:
+  - Z. Wang
+  - Zhiyong Wang
+  - Z.W. Wang
+  note: GDMC former staff (PhD researcher until 2015); Zhiyong Wang
+    co-authored papers on archived Zlatanova-supervised theses. By surname
+    key this also covers current PhD researcher Andy Wang (Z.W. Wang).
+- surname: Zhang
+  status: 'yes'
+  aliases:
+  - Y. Zhang
+  - Yeting Zhang
+  note: GDMC former staff (postdoc until 2014). By surname key this also
+    covers Guanting Zhang (guest until 2017), judged unlikely.
+- surname: Hespanha
+  status: 'yes'
+  aliases:
+  - J.P. Hespanha
+  - João Paulo Hespanha
+  note: GDMC former staff (PhD researcher until 2012)

@@ -848,3 +848,157 @@
   programme: not Geomatics
   note: title page says MSc in Aerospace; project carried out at WL |
     Delft Hydraulics (Ken, 2026-09)
+
+# --- 2026-09-30 re-run of the supervisor sweep after flipping the GDMC
+# --- former-staff surnames Liu/Vries/Tijssen/Stoter/Zhou back to 'yes' and
+# --- adding Wang/Zhang/Hespanha (all three candidates checked in the PDF)
+
+- author: A.H.P.N. Munthe
+  year: 2009
+  programme: not Geomatics
+  note: preface says MSc Sustainable Energy Technology, EEMCS Electrical
+    Energy Conversion; the Y. Zhou mentor is not the GDMC postdoc
+- author: B. De Keijzer
+  year: 2009
+  programme: not Geomatics
+  note: title page says MSc in Computer Science, Algorithmics Group EEMCS;
+    the Y. Zhang mentor is not the GDMC postdoc
+- author: A. Noroozian
+  year: 2010
+  programme: not Geomatics
+  note: title page says MSc in Computer Science, Algorithmics Research
+    Group EEMCS; the Y. Zhang mentor is not the GDMC postdoc
+
+# --- 2026-09-30 probe of the March-2005 GISt staff list (Aalders, Gehlot,
+# --- Penninga were not yet search keys; their only repository records are
+# --- the two below plus the already-verdict-ed S. Wesselingh GIMA thesis)
+
+- author: M.L. Bovy
+  year: 2001
+  programme: not Geomatics
+  note: contra-expertise study of the Zuidelijke Ringweg Groningen road
+    project, mentored by H. Aalders at OTB (PDF, 2026-09-30)
+- author: K. Kraaier
+  year: 2012
+  programme: not Geomatics
+  note: innovation project portfolio management (R&D/NPD literature),
+    TPM mentors incl. F. Aalders; record abstract names the field
+    (2026-09-30)
+
+# --- 2026-09-30 PDF check of the 2004 GISt-supervised trio surfaced by the
+# --- March-2005 GISt staff cross-check (all done at the GIS-technology
+# --- section before the MSc Geomatics programme existed)
+
+- author: M. Baars
+  year: 2004
+  programme: not Geomatics
+  note: title page says MSc thesis, Section GIS Technology, OTB/CEG, June
+    2004, no programme named; GISt mentors van Oosterom, Verbree, Gorte
+- author: T.J. Brentjens
+  year: 2004
+  programme: not Geomatics
+  note: title page says Section GIS Technology, Geodetic Engineering (the
+    pre-Geomatics geodesy programme); supervisors van Oosterom, de Vries,
+    Quak, Vijlbrief (Kadaster)
+- author: M.A. de Rink
+  year: 2004
+  programme: not Geomatics
+  note: title page says Section GIS Technology, Geodetic Engineering (the
+    pre-Geomatics geodesy programme); RWS highway-maintenance project with
+    mentors van Oosterom, Lemmens, De Boer
+
+# --- 2026-09-30 check of the 2025 GiGb (Geo-information and Land
+# --- Development, OTB) staff list: Besemer/Kap/Kok/van der Meer/
+# --- Zevenbergen/van Dijk/Groetelaers/Korthals Altes/Munoz Gielen/
+# --- van Rij/van der Veen/de Wolff were never search keys; the seven
+# --- 2006-2012 repository theses their names appear on were PDF-checked
+# --- (Cozijnsen 2012: PDF campus-only, left for a hand check)
+
+- author: R. Abdulharis
+  year: 2006
+  programme: not Geomatics
+  note: title page says Section Geo-information and Land Development, OTB,
+    Faculty of Technology, Policy and Management; supervisors Korthals
+    Altes and Zevenbergen; no Geomatics signal in the text
+- author: A.C.F. van Ham
+  year: 2006
+  programme: not Geomatics
+  note: title page says Opleiding Geodesie, CEG (the pre-Geomatics
+    geodesy programme); mentors Zevenbergen, Korthals Altes, van Rij,
+    van Dijk
+- author: R.P. Pennings
+  year: 2012
+  programme: not Geomatics
+  note: foreword names the master Real Estate & Housing at Bouwkunde;
+    mentors Van der Toorn Vrijthoff and Korthals Altes
+- author: R.A. Gutiérrez Sepúlveda
+  year: 2012
+  programme: not Geomatics
+  note: cover says MSc lab Urban Area Development; mentors Wigmans and
+    Korthals Altes
+- author: A.M. Bedoya Ruiz
+  year: 2012
+  programme: not Geomatics
+  note: cover says Graduation Project MSc Urbanism (Bouwkunde); mentors
+    Sepulveda Carmona and Korthals Altes
+- author: E. Martens
+  year: 2006
+  programme: not Geomatics
+  note: cover says student Civiele Techniek; mentors Sanders, De Boer,
+    Schrijnen, Korthals Altes, Van der Steen
+
+# --- 2026-09-30 (continued) the three pre-2013 H.W. de Wolff (Herman,
+# --- GiGb) theses surfaced by the GiGb probe, PDF-checked
+
+- author: Y. Galama
+  year: 2009
+  programme: not Geomatics
+  note: area-development/infrastructure project run with DHV B.V. (deelstudie
+    1, no TU programme named); mentors Schrijnen, De Wolff, Van der Vlugt,
+    Sanders
+- author: J. van den Burg
+  year: 2008
+  programme: not Geomatics
+  note: title page says MSc Transport, Infrastructure and Logistics; the
+    3D tool for area development is the subject, not geo-information
+- author: M.C.M. Kokshoorn
+  year: 2005
+  programme: not Geomatics
+  note: foreword says studie Civiele Techniek, sectie
+    infrastructuurplanning; commission at TU Delft faculty Civiele Techniek
+
+# --- Cozijnsen PDF is campus-only; Ken checked it via VPN (2026-09-30),
+# --- closing the last open item from the GiGb list check
+
+- author: R.L. Cozijnsen
+  year: 2012
+  programme: not Geomatics
+  note: title page says MSc Systems Engineering, Policy Analysis and
+    Management (TPM); mentors Korthals Altes, Groetelaers, Broekhans,
+    Van Rij (Ken via VPN, 2026-09-30)
+
+# --- 2026-09-30 check of the FMR (physical/space geodesy) staff list.
+# --- Klees/Ditmar/Gunter are 'yes' keys; Kusche, Prutkin, Tenzer,
+# --- Wittwer, Zapreeva, Reudink, J.P. van Loon and M.J.F. Jansen have no
+# --- MSc records in the repository at all. The group's only non-archive
+# --- MSc hit is the one below, an MSc Geoscience and Remote Sensing
+# --- (CEG) thesis, i.e. not the Geomatics MSc (BK).
+
+- author: U. Rajvanshi
+  year: 2021
+  programme: not Geomatics
+  note: record says programme Geoscience and Remote Sensing (CEG);
+    mentors Verhagen and Van der Marel, coach Bas Alberts
+
+# --- 2026-09-30 check of the old FRS (photogrammetry & remote sensing,
+# --- Aerospace-faculty era) staff list. Gorte and Pfeifer are 'yes' keys;
+# --- Vosselman, Van den Heuvel, Filin, Sithole and Rabbani have essentially
+# --- no MSc footprint in the repository -- their Delft-era photogrammetry
+# --- theses predate the repository's coverage. The single hit is below,
+# --- a Geodesie-programme thesis (pre-Geomatics).
+
+- author: J. Lesparre
+  year: 2003
+  programme: not Geomatics
+  note: foreword says afstudeeronderzoek voor de opleiding Geodesie,
+    Afdeling Geodesie; mentors Vosselman, Gorte, Jordans

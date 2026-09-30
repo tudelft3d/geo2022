@@ -10,9 +10,10 @@ This is a mostly complete list of MSc Geomatics thesis, but there are likely a f
 
 {% include thesis_archive.html %}
 
+<br />
 <p class="is-size-7 has-text-grey">
-  Spotted a mistake, or is your thesis missing? Please contact the thesis
-  coordinator, <a href="{{ "/coordinator/" | prepend: site.baseurl }}">Ken Arroyo Ohori</a>.
+  Spotted a mistake, or is your thesis missing? Please contact the <a href="{{ "/coordinator/" | prepend: site.baseurl }}">thesis
+  coordinator</a>.
   <br>
   Last updated: {{ site.data.theses_updated.archive | date_to_long_string }}.
 </p>
