@@ -52,11 +52,11 @@ Use the form below to register your MSc thesis topic with the thesis coordinator
 
 <i class="fa-solid fa-triangle-exclamation"></i> If you don't plan to do your Kick-off at the specified date, you must cancel your Kick-off. Ask your responsible supervisor to withdraw your Kick-off registration in MyCase.
 
-<i class="fa-solid fa-triangle-exclamation"></i> To register for the Kick-off, you must have obtained 45 ECTS from 9 out of the 10 mandatory courses, and 15 out of the 25 ECTS from the electives by the time of registration.
+<i class="fa-solid fa-triangle-exclamation"></i> To register for the Kick-off, you must have obtained 45 ECTS from 9 out of the 10 mandatory courses, and 15 out of the 25 ECTS from the electives by the time of the Kick-off.
 
 1. Write a project proposal. If you want, you can use [this template](../templates/#proposal).
 2. At least one week before your Kick-off, upload your graduation plan (thesis proposal) in [MyCase](https://mycase.tudelft.nl). There will be additional pages to fill in [if you're doing your thesis at a company](../company/) (external party), need a confidentiality agreement, or have human participants in your thesis (see Appendix VI in the Graduation Guide - Data Management Checklist). <i class="fa-solid fa-triangle-exclamation"></i>  Make sure you do the "Ready for kick-off" task in MyCase so that your supervisors can read your proposal and enter your result in the system.
-3. Your supervisors will read your proposal. At the Kick-off meeting, you will give a 15-minute presentation about your proposal, your supervisors will ask you questions about it and decide if it's approved.
+3. Your supervisors will read your proposal. At the Kick-off meeting, you will give a 15-minute presentation about your proposal, your supervisors will ask you questions about it and decide if it's approved. A delegate of the Board of Examiners chairs the session.
   - If you pass, together with your supervisors you should schedule the Green-light and Finalisation at least 2 weeks before the start of the Green-light period. Preferably, you should also pick a co-reader and make sure they're available on the date of the Finalisation.
   - If you don't pass (retake), together with your supervisors you should schedule a new Kick-off date before the [registration deadline](../dates/).
 
@@ -72,7 +72,7 @@ Use the form below to register your MSc thesis topic with the thesis coordinator
 
 <i class="fa-solid fa-triangle-exclamation"></i> To register for the Green-light, you must have completed all Master's courses with the exception of GEO2022, and must have successfully completed the Midterm milestone.
 
-A delegate of the Board of Examiners is appointed before the Green-light. They chair the Green-light and Finalisation sessions. If both supervisors are from the same department, the delegate must be from a different one.
+A delegate of the Board of Examiners is appointed before the Kick-off. They chair the Kick-off, Green-light and Finalisation sessions. If both supervisors are from the same department, the delegate must be from a different one.
 
 1. At least one week before your Green-light, you must register that you have completed the required parts of your study, check the personal information for your diploma, fill in the final title of your thesis and upload your final graduation report (thesis) in [MyCase](https://mycase.tudelft.nl) and to the [Brightspace Plagiarism Scan](https://brightspace.tudelft.nl/d2l/home/47493) page. To access it, you first need to enrol for the course **Plagiarism scan MSc thesis - BK**. <i class="fa-solid fa-triangle-exclamation"></i>  Make sure you do the "Ready for green light" task in MyCase so that your supervisors can read your thesis and enter your result in the system.
 2. Your supervisors will read your submission. The first supervisor will check the Plagiarism Scan results. At the Green-light meeting, you will give a 20-minute technical presentation about your thesis, and your supervisors will ask questions about it and decide if it's approved.

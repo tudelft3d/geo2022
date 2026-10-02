@@ -51,6 +51,7 @@ Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatic
 
 - Both supervisors must read the proposal, attend the Kick-off meeting and ask questions.
 - Both supervisors jointly decide if it's a go (continue to Midterm) or no-go (retake).
+- A delegate of the Board of Examiners chairs the Kick-off.
 - The 1st supervisor must put in the system the final result of the Kick-off.
   - If it's a go (continue to Midterm), both supervisors, student, co-reader (if known) and delegate should decide on Green-light and Finalisation dates from the slots available in SuperSaaS and enter them in the system.
   - If it's a no-go (retake), the same but for a new Kick-off date in the next period.
@@ -65,8 +66,8 @@ Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatic
 ### Green-light
 
 - The 1st supervisor has to assess if the work is original, and thus you need to go to the [Brightspace Plagiarism Scan](https://brightspace.tudelft.nl/d2l/lms/dropbox/admin/folders_manage.d2l?ou=47493) and check the report. If the link doesn't work, search for Plagiarism scan MSc thesis - BK in Brightspace.
-- A delegate of the Board of Examiners is appointed before the Green-light and chairs the Green-light and Finalisation sessions. If both supervisors are from the same department, the delegate must be from a different one.
-- Both supervisors must read the final thesis, attend the Green-light meeting and ask questions.
+- A delegate of the Board of Examiners is appointed before the Kick-off and chairs the Kick-off, Green-light and Finalisation sessions. If both supervisors are from the same department, the delegate must be from a different one.
+- Both supervisors must read the draft thesis, attend the Green-light meeting and ask questions.
   - If it's a go (continue to Finalisation), the student must do the Finalisation at least 4 weeks later. The final mark will be decided at the Finalisation by the two supervisors and the co-reader with [the rubric](../rubric/): the supervisors assess the research, process and communication criteria, while the co-reader assesses the research and communication criteria only.
   - If it's a no-go (retake), both supervisors, student and delegate should decide on new Green-light and Finalisation dates from the slots available in SuperSaaS and enter them in the system.
 
