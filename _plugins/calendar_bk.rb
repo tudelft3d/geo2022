@@ -239,7 +239,7 @@ module CalendarBk
       { 'colour' => 'a1', 'label' => 'Kick-off assessments' },
       { 'colour' => 'a2', 'label' => 'Midterm assessments' },
       { 'colour' => 'a3', 'label' => 'Green light assessments' },
-      { 'colour' => 'a4', 'label' => 'Finalisation' }
+      { 'colour' => 'a4', 'label' => 'Finalisation assessments' }
     ]
   end
 end

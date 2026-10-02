@@ -18,6 +18,7 @@ permalink: /dates/
 <div class="cal-tab-pane is-active" id="cal-nominal">
   <p>Milestones on the on-time path:</p>
   <ul>
+    <li>Topic submission in Quarter 1</li>
     <li>Kick-off in Quarter 2</li>
     <li>Midterm in Quarter 3</li>
     <li>Green light and Finalisation in Quarter 4</li>
