@@ -80,17 +80,17 @@
   title: 'Assessing Coastal Change and Vulnerability Using Remote Sensing:
     A Comparative Study of Aruba and Bonaire'
   supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
-  summary: This thesis proposal assesses coastal change and vulnerability along
-    the coastlines of Aruba and Bonaire using multi-source satellite data.
-    Coastlines are segmented and classified by coastal type, after which
+  summary: This thesis proposal assesses coastal change and vulnerability
+    along the coastlines of Aruba and Bonaire using multi-source satellite
+    data. Coastlines are segmented and classified by coastal type, after which
     per-segment indicators are extracted — shoreline position from optical
     imagery (NDWI/MNDWI), vegetation buffers from NDVI, built-up intensity
     from Sentinel-1 SAR backscatter, and external exposure from coastline
-    orientation, wave fetch and reef presence. Linking these indicators
-    reveals how external exposure and development pressures shape coastal
-    change, and a composite index produces relative vulnerability maps.
-    Comparing PlanetScope (Aruba) and NSO (Bonaire) imagery additionally
-    shows how data quality and island characteristics affect the results.
+    orientation, wave fetch and reef presence. Linking these indicators reveals
+    how external exposure and development pressures shape coastal change,
+    and a composite index produces relative vulnerability maps. Comparing
+    PlanetScope (Aruba) and NSO (Bonaire) imagery additionally shows how data
+    quality and island characteristics affect the results.
   image: josephine.jpg
 - surname: ter Braak
   name: Segher

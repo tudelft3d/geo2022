@@ -33,7 +33,7 @@ permalink: /dates/
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/calendar.css">
 <script src="{{ site.baseurl }}/assets/js/calendar.js"></script>
 
-A [print version of the nominal calendar](print-nominal/) and a [print version of the complete calendar](print/) are also available, e.g. to embed in the graduation guide.
+A [print version of the on-time path (nominal) calendar](print-nominal/) and a [print version of the complete calendar](print/) are also available, e.g. to embed in the graduation guide.
 
 Archive:
 - [2025-2026](2025-2026.pdf)
