@@ -2,7 +2,7 @@
 #
 # The nominal calendar shows only the milestones and deadlines that apply to
 # students who do their thesis in a single academic year and graduate on time:
-# Kick-off in Q2, Midterm in Q3, Green light in Q4, and Finalisation in Q4
+# Kick-off in Q2, Midterm in Q3, Green-light in Q4, and Finalisation in Q4
 # weeks 9-10 and Q5 week 1.
 #
 # Exposes two computed structures to Liquid:

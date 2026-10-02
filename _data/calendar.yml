@@ -2,7 +2,7 @@ year: "2026-2027"
 
 # Nominal (on-time) trajectory: the quarter(s) in which students doing their
 # thesis in one academic year reach each milestone. Used to build the
-# "Nominal calendar" (Kick-off in Q2, Midterm in Q3, Green light in Q4, and
+# "Nominal calendar" (Kick-off in Q2, Midterm in Q3, Green-light in Q4, and
 # Finalisation in Q4 week 10 and Q5 week 1). A list of quarter numbers
 # means the milestone is nominal in each of those quarters.
 nominal:
@@ -21,7 +21,7 @@ phases:
   - id: a2
     label: Midterm
   - id: a3
-    label: Green light
+    label: Green-light
   - id: a4
     label: Finalisation
 
@@ -39,7 +39,7 @@ quarters:
         label: "Deadline to submit thesis topic"
         nominal: true
       - date: "2026-09-07"
-        label: "Final registration date for Green light and Finalisation assessments"
+        label: "Final registration date for Green-light and Finalisation assessments"
       - date: "2026-09-11"
         label: "Final registration date for Kick-off assessments"
 
@@ -55,7 +55,7 @@ quarters:
       - date: "2026-11-27"
         label: "Deadline to submit thesis topic"
       - date: "2026-11-16"
-        label: "Final registration date for Green light and Finalisation assessments"
+        label: "Final registration date for Green-light and Finalisation assessments"
       - date: "2027-01-04"
         label: "Final registration date for Kick-off assessments"
         nominal: true
@@ -72,7 +72,7 @@ quarters:
       - date: "2027-02-26"
         label: "Deadline to submit thesis topic"
       - date: "2027-02-22"
-        label: "Final registration date for Green light and Finalisation assessments"
+        label: "Final registration date for Green-light and Finalisation assessments"
       - date: "2027-03-25"
         label: "Final registration date for Kick-off assessments"
 
@@ -88,7 +88,7 @@ quarters:
       - date: "2027-05-04"
         label: "Deadline to submit thesis topic"
       - date: "2027-04-26"
-        label: "Final registration date for Green light and Finalisation assessments"
+        label: "Final registration date for Green-light and Finalisation assessments"
         nominal: true
       - date: "2027-06-07"
         label: "Final registration date for Kick-off assessments"

@@ -1,6 +1,6 @@
 {% comment %}
   Students currently graduating (open MyCase cases), ordered by process
-  step (Preparation → Kick-off → Midterm → Green light), then by surname.
+  step (Preparation → Kick-off → Midterm → Green-light), then by surname.
   Missing or unknown phases count as Preparation, matching the tag shown.
   scripts/update_theses.py keeps names, cohorts, phases, titles and
   supervisors in sync with MyCase; summaries and images are hand-written.
@@ -40,7 +40,7 @@
           <strong>{{ s.name | escape }} {{ s.surname | escape }}</strong>
           {% case s.phase %}
           {% when 'Green light' %}
-          <span class="tag is-phase-greenlight">{{ s.phase }}</span>
+          <span class="tag is-phase-greenlight">Green-light</span>
           {% when 'Midterm' %}
           <span class="tag is-phase-midterm">{{ s.phase }}</span>
           {% when 'Kick-off' %}

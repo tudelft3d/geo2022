@@ -13,7 +13,7 @@ If you're starting your thesis now in Q1, you should already have a (submitted) 
 - Register your graduation project in <a href="https://mycase.tudelft.nl">MyCase</a> as soon as possible, preferably this week.
 - Schedule your kick-off before the end of week 1.4 (Friday 25 September). The kick-off will be in week 1.10 (2&ndash;6 November).
 
-If you're far enough along to do your Green light and Finalisation this quarter, you can expect them in week 1.8 (19&ndash;23 October) and week 1.10 (2&ndash;6 November), following the BK calendar. Note that according to the 2025-2026 graduation guide, your graduation report (thesis) is final at Green light. No significant changes allowed.
+If you're far enough along to do your Green-light and Finalisation this quarter, you can expect them in week 1.8 (19&ndash;23 October) and week 1.10 (2&ndash;6 November), following the BK calendar. Note that according to the 2025-2026 graduation guide, your graduation report (thesis) is final at Green-light. No significant changes allowed.
 
 For more information, see the <a href="{{ '/dates/' | prepend: site.baseurl }}">graduation calendar</a>. I'll do my best to keep it up to date based on the information that is available.
 

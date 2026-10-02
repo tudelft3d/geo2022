@@ -32,7 +32,7 @@ Your second supervisor can be a scientific staff member from TU Delft whose expe
 
 #### Can my thesis be written in Dutch?
 
-No, it must be in English. And your presentations (Kick-off, Green light and Finalisation) must also all be made in English.
+No, it must be in English. And your presentations (Kick-off, Green-light and Finalisation) must also all be made in English.
 
 - - -
 
@@ -287,7 +287,7 @@ It is a good idea to let one of them proof-read the thesis to see if they unders
 
 #### With the final thesis, submit a rebuttal/corrections document
 
-Your committee will have to read your thesis twice: before the Green light (draft thesis) and before the Finalisation (final version).
+Your committee will have to read your thesis twice: before the Green-light (draft thesis) and before the Finalisation (final version).
 It's in your interest to tell them clearly what was changed between the two versions: they will appreciate not having to re-read parts that haven't changed, and will be able to focus on the parts you've improved.
 
 We thus suggest that you submit a rebuttal and corrections document: a ~2-page document, submitted as extra (or in an email).

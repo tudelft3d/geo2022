@@ -21,7 +21,7 @@ permalink: /dates/
     <li>Topic submission in Quarter 1</li>
     <li>Kick-off in Quarter 2</li>
     <li>Midterm in Quarter 3</li>
-    <li>Green light and Finalisation in Quarter 4</li>
+    <li>Green-light and Finalisation in Quarter 4</li>
   </ul>
   {% include calendar.html data="calendar_nominal" uid="nominal" %}
 </div>

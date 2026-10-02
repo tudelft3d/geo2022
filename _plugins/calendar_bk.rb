@@ -208,7 +208,7 @@ module CalendarBk
   def self.deadline_colour(label)
     l = label.to_s
     return 'deadline-a0' if l.include?('thesis topic')
-    return 'deadline-a34' if l.include?('Green light and Finalisation')
+    return 'deadline-a34' if l.include?('Green-light and Finalisation')
     'deadline-a1'
   end
 
@@ -227,7 +227,7 @@ module CalendarBk
   def self.day_legend
     [
       { 'colour' => 'deadline-a0', 'label' => 'Deadline to submit thesis topic' },
-      { 'colour' => 'deadline-a34', 'label' => 'Final registration date for Green light and Finalisation assessments' },
+      { 'colour' => 'deadline-a34', 'label' => 'Final registration date for Green-light and Finalisation assessments' },
       { 'colour' => 'deadline-a1', 'label' => 'Final registration date for Kick-off assessments' }
     ]
   end
@@ -238,7 +238,7 @@ module CalendarBk
       { 'colour' => 'no-education', 'label' => 'No education' },
       { 'colour' => 'a1', 'label' => 'Kick-off assessments' },
       { 'colour' => 'a2', 'label' => 'Midterm assessments' },
-      { 'colour' => 'a3', 'label' => 'Green light assessments' },
+      { 'colour' => 'a3', 'label' => 'Green-light assessments' },
       { 'colour' => 'a4', 'label' => 'Finalisation assessments' }
     ]
   end

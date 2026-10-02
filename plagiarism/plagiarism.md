@@ -6,7 +6,7 @@ color: danger-60
 logo: fa-shield-halved
 ---
 
-One week before the Green light, students need to upload their draft to the [Brightspace Plagiarism Scan page](https://brightspace.tudelft.nl/d2l/home/47493) (using the Turnitin tool) so that their supervisors can assess whether it's original work or not. If the link doesn't work, search for Plagiarism scan MSc thesis - BK in Brightspace.
+One week before the Green-light, students need to upload their draft to the [Brightspace Plagiarism Scan page](https://brightspace.tudelft.nl/d2l/home/47493) (using the Turnitin tool) so that their supervisors can assess whether it's original work or not. If the link doesn't work, search for Plagiarism scan MSc thesis - BK in Brightspace.
 
 Students can upload provisional versions of their document as often as they like for plagiarism feedback. The final submission folder, however, only allows one submission per student, and the plagiarism feedback there is only visible to the supervisors.
 
