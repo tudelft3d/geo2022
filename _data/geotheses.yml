@@ -3449,8 +3449,8 @@
   name: Longxiang
   title: Large-scale, High-resolution Urban solar potential analysis through
     semantic 3D city models
+  supervisors: Camilo León Sánchez; Giorgio Agugiaro
   year: 2024
-  image: 2024_Xu.jpg
   paper: https://repository.tudelft.nl/record/uuid:5a8d60e7-ac2b-4786-b003-57f3007a473c
   paper_label: journal article
 - surname: Yang
@@ -5172,6 +5172,7 @@
     heating demand calculation
   supervisors: Camilo León Sánchez
   year: 2022
+  graduation_date: '2022-06-29'
   link: https://resolver.tudelft.nl/uuid:0061d94c-46b6-4910-bb73-b6cdc9b85f84
   image: 2022_Tufan.jpg
   github: https://github.com/ozgetufan/cjenergy
@@ -10705,9 +10706,28 @@
   name: Myron
   title: Solid CAD Geometries in a Spatial DBMS - An Application in the Petrochemical
     Industry
+  supervisors: Peter van Oosterom; Wilko Quak; Sisi Zlatanova
   year: 2015
   link: https://resolver.tudelft.nl/uuid:2b5044e5-388d-47ee-bb13-65bec9443070
   image: 2015_Ramkisoen.jpg
+  abstract: Fugro GeoServices is currently storing their CAD models of the
+    Petrochemical Industry as attributes of 2D lines in a spatial DBMS. This
+    solution works well for web visualization, but not for performing analyses
+    in 3D. The main objective of this graduation project is to create a 3D
+    spatial DBMS with solid CAD geometries as input. The difficulty of this
+    graduation project is the conversion of CAD geometries to 3D GIS geometries.
+    By linking parametric combination models (CAD) with solid polyhedral modelling
+    (GIS) it is possible to reconstruct CAD geometries with help of its parameters
+    as a polyhedron. This graduation thesis has compared the functionality
+    performance of a 3D parametric DBMS with a 3D non-parametric database.
+    For making an optimal comparison the 3D parametric DBMS had to be optimized
+    as much as possible in terms of query execution time. However a 3D non-parametric
+    DBMS has a better performance, it requires a lot of storage space. The
+    3D parametric DBMS requires less storage space, but needs some effort
+    for optimizing the performance, such as defining functions for each geometry
+    type, enabling index creation on PostgreSQL’s Box3D and making a function
+    that converts this Box3D to a 3D geometry instead of a 2D polygon for
+    querying.
   uuid: 2b5044e5-388d-47ee-bb13-65bec9443070
 - surname: van der Ham
   name: Martijn
@@ -10924,7 +10944,6 @@
   link: https://resolver.tudelft.nl/uuid:c2a9a308-5cdc-4df2-bf30-9eea5ea176c5
   image: 2014_Kruminaite.jpg
   paper: https://doi.org/10.1145/2676528.2676529
-  paper_label: conference paper
   abstract: 'The aim of the research was to develop conceptual model for determination
     of functional areas with abstract borders within indoor space and to illustrate
     how determined functional areas can be applied to facilitate wayfinding
@@ -10983,6 +11002,7 @@
     be indicated in these models and analyse which approach provides better
     path calculation results.'
   uuid: c2a9a308-5cdc-4df2-bf30-9eea5ea176c5
+  paper_label: conference paper
 - surname: Liu
   name: Haicheng
   title: 'Comparing NetCDF and a multidimensional array database on managing
@@ -12178,7 +12198,6 @@
   link: https://resolver.tudelft.nl/uuid:4acf424e-6bb5-4044-a7af-2baea8108baa
   image: 2010_Bloemsma.jpg
   paper: https://lirias.kuleuven.be/1921710
-  paper_label: report
   abstract: Textural variations in sediment are considered to be one of the
     primary controls on the geochemical composition. This relation has been
     widely exploited for the climatological interpretation of unconsolidated
@@ -12237,6 +12256,7 @@
     the suggested algorithms in the data acquisition work flow and (2) installing
     a higher resolution camera to extract textural proxies from images.
   uuid: 4acf424e-6bb5-4044-a7af-2baea8108baa
+  paper_label: report
 - surname: Briels
   name: Sven Andreas
   title: Infrasound source location
@@ -12259,6 +12279,7 @@
   name: Melina
   title: Quality assessment of GSM positioning - GSM fingerprinting versus
     cellid positioning
+  supervisors: Peter van Oosterom; Edward Verbree
   year: 2010
   link: https://www.gdmc.nl/publications/2010/Quality_assessment_GSM_positioning.pdf
   image: 2010_de-Koning.jpg
@@ -12270,7 +12291,6 @@
   link: https://resolver.tudelft.nl/uuid:2d8318f7-42bf-4637-8d34-285f98405b64
   image: 2010_Kalpoe.jpg
   paper: https://doi.org/10.1117/12.889440
-  paper_label: conference paper
   abstract: To meet the growing demand for sustainable energy, existing wind
     turbines have to be made more powerful and efficient. One of the research
     topics to achieve this, is the aero-elastic stability limit of the blades.
@@ -12307,6 +12327,7 @@
     the model wind turbine, it can be concluded that the blade vibrations
     can be measured using high speed photogrammetry.
   uuid: 2d8318f7-42bf-4637-8d34-285f98405b64
+  paper_label: conference paper
 - surname: Possel
   name: Boudewijn Maarten Johannes
   title: Automatic detection of buried channel deposits using high resolution
@@ -12316,7 +12337,6 @@
   link: https://resolver.tudelft.nl/uuid:6210b7b5-8599-4ed6-bf3b-738f9a8d0f97
   image: 2010_Possel.jpg
   paper: https://repository.tudelft.nl/record/uuid:6da0f5e1-e629-4a62-a847-a07438587ae7
-  paper_label: conference paper
   abstract: 'The formation of the current Rhine-Meuse delta has mainly taken
     place during the Holocene (the last 12,000 years). This period is characterised
     by avulsions that lead to sudden shifts in the location of river channels.
@@ -12359,6 +12379,7 @@
     due to human intervention in the landscape. Further research is recommended
     to improve the filtering and detection method.'
   uuid: 6210b7b5-8599-4ed6-bf3b-738f9a8d0f97
+  paper_label: conference paper
 - surname: Yu
   name: Hang
   title: Monitoring Glacier Elevation Changes over the Tibetan Plateau Using
@@ -12508,7 +12529,6 @@
   link: https://resolver.tudelft.nl/uuid:a91d6dc5-bdeb-4ee3-9a34-75a72c89f806
   image: 2009_Widiastuti.jpg
   paper: https://openalex.org/W2991856925
-  paper_label: conference abstract (AGU 2009)
   abstract: Terrestrial water storage (TWS) can be defined as the storage
     of water on and below the land surface, and includes snow, ice, surface
     water, soil moisture, and ground water. TWS is a key component of the
@@ -12542,6 +12562,7 @@
     experiment period and comparison with other validation data could lead
     to a more definitive conclusion.
   uuid: a91d6dc5-bdeb-4ee3-9a34-75a72c89f806
+  paper_label: conference abstract (AGU 2009)
 - surname: Wortel
   name: Tom
   title: Automating quantity surveying in road construction using UAV Videogrammetry
@@ -12621,7 +12642,6 @@
   link: https://resolver.tudelft.nl/uuid:d650352b-78fb-4919-9cb0-f2f66b17aef5
   image: 2008_Hofman.jpg
   paper: https://www.gdmc.nl/publications/2008/Constrained_tGAP.pdf
-  paper_label: conference paper
   abstract: 'The aim of this master thesis has been to answer the question:
     How can a vario-scale IMGeo be designed and developed by applying the
     constrained tGAP structure with Top10NL as initial constraint? This research
@@ -12675,6 +12695,7 @@
     like DURP Ondergronden could be a good opportunity to develop a vario-scale
     IMGeo as described in this report.'
   uuid: d650352b-78fb-4919-9cb0-f2f66b17aef5
+  paper_label: conference paper
 - surname: Samiei-Esfahany
   name: Sami
   title: Improving Persistent Scatterer Interferometry Results for Deformation
@@ -12777,7 +12798,6 @@
   link: https://resolver.tudelft.nl/uuid:b130806f-58be-466c-8890-a1534df3ff00
   image: 2007_de-Boer.jpg
   paper: https://doi.org/10.1007/978-3-540-68566-1_20
-  paper_label: book chapter
   abstract: he increasing availability of digital camera devices and camera
     phones enable users to capture and upload digital photos at any a time
     and any place. Online image collections face the problem organizing increasing
@@ -12819,6 +12839,7 @@
     photo, and the depth map enables to vary in label font size depending
     on the object distance.
   uuid: b130806f-58be-466c-8890-a1534df3ff00
+  paper_label: book chapter
 - surname: Pluymaekers
   name: Steven
   title: A data analysis to bed dynamics in the Western Scheldt estuary
@@ -12827,10 +12848,10 @@
   link: https://resolver.tudelft.nl/uuid:c4b3b2de-f029-4461-ba20-362663d9f062
   image: 2007_Pluymaekers.jpg
   paper: https://doi.org/10.1109/oceanse.2007.4302305
-  paper_label: conference paper
   abstract: Morphological parameter estimation and deformation analysis near
     the shoal of Walsoorden (Western Scheldt).
   uuid: c4b3b2de-f029-4461-ba20-362663d9f062
+  paper_label: conference paper
 - surname: Slobbe
   name: Cornelis
   title: Towards a combined estimation of Greenland’s ice sheet mass balance
@@ -12840,7 +12861,6 @@
   link: https://resolver.tudelft.nl/uuid:0d315b1b-84a4-4e03-8b65-95353e04a598
   image: 2007_Slobbe.jpg
   paper: https://doi.org/10.1111/j.1365-246x.2008.03978.x
-  paper_label: journal article
   abstract: The Greenland ice sheet is sensitive to climate change. Global
     heating is expected to result in ice mass losses that will contribute
     to global sea level rise. For this reason monitoring Greenland’s ice mass
@@ -12898,6 +12918,7 @@
     the used GRACE solution the estimated combined mass change rates range
     between -114.3 and -124.7 Gton/year.
   uuid: 0d315b1b-84a4-4e03-8b65-95353e04a598
+  paper_label: journal article
 - surname: Bont
   name: Tirza
   title: Geographic data integration for telecommunication purposes
@@ -12959,8 +12980,8 @@
   link: https://resolver.tudelft.nl/uuid:1c7b4a64-e8f0-4ff2-957f-ae9c55617755
   image: 2006_Kodde.jpg
   paper: https://doi.org/10.11588/heidok.00036925
-  paper_label: journal article
   uuid: 1c7b4a64-e8f0-4ff2-957f-ae9c55617755
+  paper_label: journal article
 - surname: Meijers
   name: Martijn
   title: Implementation and testing of variable scale topological data structures

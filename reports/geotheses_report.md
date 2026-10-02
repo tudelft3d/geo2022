@@ -1,8 +1,8 @@
-# geotheses enrichment report (2026-09-25)
+# geotheses enrichment report (2026-10-01)
 
-313 entries written to _data/geotheses.yml.
+314 entries written to _data/geotheses.yml.
 
-Enriched from repository records: abstracts 8, supervisors 8, graduation dates 0.
+Enriched from repository records: abstracts 1, supervisors 1, graduation dates 1.
 0 entries appended from MyCase (needs_review: true).
 
 ## Needs a manual look
@@ -11,5 +11,5 @@ Enriched from repository records: abstracts 8, supervisors 8, graduation dates 0
     yaml: Selective image region focus for efficient 3D building reconstruction using SAM in oblique aerial imagery
     repo: Selective imag region focus for efficient 3D building reconstruction using SAM in oblique aerial imagery
 - NAME CHECK: Altundağ (2009)
-    yaml: D. Altundağ
+    yaml: Doğan Altundağ
     repo: D. Altunda?
