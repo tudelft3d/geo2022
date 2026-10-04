@@ -11712,6 +11712,39 @@
     not generally readable by spatial applications, not (yet) fully supported
     by all vendors and required storage space is double the amount.'
   uuid: 58266d2c-330c-4493-a03a-d8b180eb810d
+- surname: Wang
+  name: Yijing
+  title: Assimilating Soil Moisture Data into a Hydrological Model of the Volta Basin
+  supervisors: Nick van de Giesen; Susan Steele-Dunne
+  year: 2012
+  link: https://resolver.tudelft.nl/uuid:fcb8d5fb-c08f-4ac0-a9a9-c4413d9f0e90
+  image: 2012_Wang.jpg
+  abstract: 'Soil moisture is important for the Volta Basin. However, in-situ measurements
+    of soil moisture in the Volta Basin are scarce, only remote sensing
+    observations are available. Remote sensing observations are also provided with
+    limited temporal and spatial resolutions. Also capabilities of the sensors are
+    limited (e.g measuring soil moisture limited in shallow layer), and
+    observations from different instruments do not totally agree. Hydrological
+    model can predict soil moisture. But model predictions rely on assumptions and
+    suffer from input uncertainties. Therefore, data assimilation is used to
+    combine the information from observation and model to achieve optimal
+    estimation of soil moisture. In this thesis, AMSR-E data of volumetric water
+    content and ERS data of relative saturation for the Votla Basin were compared,
+    and TRMM precipitation data were also used to compare with the two sets of
+    soil moisture data. The dataset of ERS relative saturation was further
+    assimilated into the PCR-GLOBWB model for the period of January 1st 2003 to
+    December 31st 2006 in the Volta Basin. An ensemble size of 100 was applied. A
+    key objective of the thesis is to address spatial correlation of data.
+    Uncertainties of the model parameter (storage capacity) and input forcings
+    (evapotranspiration and precipitation) were represented with spatial
+    correlation. Correlation lengths of the parameter and forcings were thus
+    calculated. The outcome of perturbation managed to maintain the spatial
+    pattern of data. In the next part, four EnKF schemes (EnKF (Ind), EnKF (Blk),
+    EnKF (DistMx) and EnKF (NonObserved)) were applied and compared. Results show
+    that the block size is consistent with the correlation length and that schemes
+    which account for spatial correlation produce better and more realistic
+    results than the one without spatial correlation.'
+  uuid: fcb8d5fb-c08f-4ac0-a9a9-c4413d9f0e90
 - surname: Wong
   name: Hoe-Ming
   title: Registration of range images using geometric features
@@ -11840,6 +11873,30 @@
     The methods investigated here leaves room for further optimization through
     model adjustment such as signal interference, backscatters and error propagation.
   uuid: 565327fc-c023-4a04-ba7b-7d9a0671a66e
+- surname: van der Torren
+  name: Piers Titus
+  title: Identification and analysis of point scatterers in time series InSAR
+  supervisors: Ramon Hanssen; Sami Samiei-Esfahany
+  year: 2011
+  link: https://resolver.tudelft.nl/uuid:7ab39a28-2902-4811-8efc-c4645d656e74
+  image: 2011_van-der-Torren.jpg
+  abstract: 'In this study methods are developed for improved analysis and processing of
+    PSI data. PSI, or radar interferometry, makes it possible to use satellite
+    radar images to measure deformation of the Earth’s surface and objects on it
+    with millimetre accuracy. However, interpretation of the measurements and
+    identifying the actually measured objects is still a common problem. There are
+    no dedicated tools available for validation, for finding both falsely detected
+    and falsely rejected points, or for deeper analysis of PSI results. Existing
+    algorithms for automatic coherent scatterer selection need a lot of
+    acquisitions to obtain reliable results, which makes it necessary to collect
+    data for many months or years before processing can be done. In this study a
+    suite of tools is developed that facilitate detailed analysis of results and
+    versatile processing of radar data. This suite consists of a visual inspection
+    tool, and a toolbox that handles metadata and can do versatile processing of
+    radar data. Furthermore a method is developed for reliable point scatterer
+    selection, that works for a small number of acquisitions, among other
+    improvements.'
+  uuid: 7ab39a28-2902-4811-8efc-c4645d656e74
 - surname: van Goor
   name: Bas
   title: Change detection and deformation analysis using Terrestrial Laser
@@ -11966,6 +12023,44 @@
     instances, extra-check rules to detect conflicting constraints and constraints
     relating to multi-scale representations.
   uuid: 702b94e8-903d-4794-8e53-bb5b8da0917a
+- surname: Yuan
+  name: Ye
+  title: Measuring Surface Deformation Caused by Permafrost Thawing Using Radar Interferometry, Case Study
+  supervisors: Ramon Hanssen; Andrew Hooper
+  year: 2011
+  link: https://resolver.tudelft.nl/uuid:6ac10891-98d9-4173-9f34-533149664ec0
+  image: 2011_Yuan.jpg
+  abstract: 'Permafrost in high-arctic regions has been very much influenced by global
+    warming. Many thousands of square kilometers of permafrost are under certain
+    degree of thawing. Site measurements have provided useful data for
+    researchers. However, these ground-based measurements are usually site-
+    specific with poor spatial coverage. Here we apply Multi-Temporal
+    Interferometric Synthetic Aperture Radar (MT-InSAR) to measure the surface
+    deformation over permafrost north-east Greenland during the past two periods
+    1995--1999 and 2006--2009 to infer permafrost behaviors. We have found a
+    considerable rate of surface subsidence occurring with respect to a relatively
+    stable area. Over the whole study area, during 1995--1999, we find a surface
+    subsidence rate of 0.3--2.4 mm/yr and a seasonally varying displacement of 0.4
+    --6.1 mm with subsidence occurring during the thawing season of each year.
+    While in period of 2006--2009, we find the overall surface subsidence rate
+    goes up to 0.8--2.7 mm/yr and the seasonally varying displacements increased
+    to 2.3--7.4 mm within the thawing season. Comparing with the two periods, we
+    find a general accelerating trend in subsidence rate of 4.5 x 102 mm/yr2,
+    which indicates a acceleration in permafrost thawing rate. We also find a
+    general increment in surface seasonal varying displacements of 1.9 mm, which
+    indicates a thickening trend in the active layer. In total, by applying MT-
+    InSAR technique over the 5000 km2 study area, we have found a permafrost area
+    506.1 km2 of that is under thawing and the general magnitude of permafrost
+    thawing rate is 17.0±8.4 cm/yr during 1995--1999. During 2006--2009, we have
+    found 633.9 km2 of permafrost area is thawing with a magnitude of thawing rate
+    about 24.0±12.0cm/yr. We have also estimated the total volume loss of
+    permafrost as (2.1±1.1) x 108 m2 and (3.0±1.5) x 108 m3 in each corresponding
+    period. Further, assuming the linear relationship between the thawed
+    permafrost and the released methane fluxes observed during 19-Jun-1997 to
+    18-Aug-1997 at Zackenberg valley, we apply this relationship to the whole
+    subsidence area. We estimate the total magnitude of methane fluxes released
+    from the study area within this period, which is about 1081.7±398.5 T.'
+  uuid: 6ac10891-98d9-4173-9f34-533149664ec0
 - surname: Arroyo Ohori
   name: Ken
   title: Validation and automatic repair of planar partitions using a constrained
@@ -12634,6 +12729,31 @@
     of 0.0727°C was observed when compared to the temperature output using
     data from a coarser DEM (5 x 5 meters).
   uuid: 3617d20d-43e8-4bbb-a54e-e1a5323cf882
+- surname: Dentz
+  name: Frank
+  title: 'On the use of Spaceborne Remote Sensing for Archaeology: A case study on early iron production sites at the Jordan Valley'
+  supervisors: Ramon Hanssen; Zbigniew Perski
+  year: 2008
+  link: https://resolver.tudelft.nl/uuid:5731bb4d-aa69-40ef-9cd3-80a770d89cf6
+  image: 2008_Dentz.jpg
+  abstract: 'The purpose of this research was to investigate the surroundings of the Jordan
+    Valley in Jordan with a large variety of spaceborne remote sensing data to
+    examine the potential of this technique for the application of archaeology in
+    general. The Jordan Valley is a region where many archaeological remains have
+    been discovered, such as ancient settlements, old irrigation systems, and
+    remains of early iron production. The used data sources includes multispectral
+    (ASTER), hyperspectral (Hyperion), high-resolution (Quickbird), and radar data
+    (ERS, Envisat and SIR-C). ASTER and Hyperion data are used to investigate the
+    mineralogical content of the soil, whereas pan-sharpened Quickbird imagery is
+    used to reveal the smallest structures in the landscape. Spectral field
+    measurements are carried out as well for collecting groundtruth information.
+    Radar (SAR) is used to map the terrain texture. Spaceborne remote sensing
+    appears to be capable to map the known archaeological sites, showing its
+    potential for the use in unexplored areas. However, the Jordan Valley itself
+    is an area that is well known, and most archaeologically interesting features
+    visible at the surface there are already documented, also detailed geological
+    maps are available. No new discoveries therefore have been made.'
+  uuid: 5731bb4d-aa69-40ef-9cd3-80a770d89cf6
 - surname: Hofman
   name: Arjen
   title: Developing a vario-scale IMGeo using the constrained tGAP structure
@@ -12696,6 +12816,21 @@
     IMGeo as described in this report.'
   uuid: d650352b-78fb-4919-9cb0-f2f66b17aef5
   paper_label: conference paper
+- surname: Put
+  name: Sabine
+  title: Earthquake slip distribution inversions using Synthetic Aperture Radar Interferometry
+  supervisors: Ramon Hanssen; Gertjan van Zwieten
+  year: 2008
+  link: https://resolver.tudelft.nl/uuid:bbbb76da-f0ce-422f-8da2-1cb2c92e44b3
+  image: 2008_Put.jpg
+  abstract: 'The research presented in this M.Sc. thesis focuses on the inversion of
+    earthquake slip distributions using Synthetic Aperture Radar Interferometry
+    (InSAR). This space-borne remote sensing technique enables one to observe
+    surface deformation caused by earthquakes. These observations can be used to
+    estimate earthquake slip distributions. A slip distribution shows the variable
+    amount of displacement on a fault plane that caused the earthquake. Slip
+    distributions can be used to point out areas of potential earthquake hazard.'
+  uuid: bbbb76da-f0ce-422f-8da2-1cb2c92e44b3
 - surname: Samiei-Esfahany
   name: Sami
   title: Improving Persistent Scatterer Interferometry Results for Deformation
