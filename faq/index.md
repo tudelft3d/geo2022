@@ -48,7 +48,7 @@ If you get (threatening) emails from the administration at BK asking for it: rep
 
 #### How is the final thesis evaluated by the committee?
 
-The evaluation criteria that will be used by the committee to mark the final thesis, also called a rubric, are available in the Appendix IV of the Graduation Guide.
+The evaluation criteria that will be used by the committee to mark the final thesis, also called a rubric, are available in Appendix E of the Graduation Guide.
 
 [Download the rubric](../rubric/)
 
@@ -69,7 +69,7 @@ So you don't need to explain at length what a GIS is, but all the more advanced 
 
 #### How long should my thesis be?
 
-*As short as possible*, but it needs to cover all the criteria in the Section 3.3 of the [Graduation Guide]({{ "/rules/" | prepend: site.baseurl }})
+*As short as possible*, but it needs to cover all the criteria in Section 3.4 of the [Graduation Guide]({{ "/rules/" | prepend: site.baseurl }})
 
 Writing concisely is difficult and time-consuming.
 Actually, it takes more time than writing long pieces.

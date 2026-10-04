@@ -20,7 +20,7 @@ permalink: /templates/
 </section>
 ## Proposal template
 
-The document for the Kick-off is a project proposal that must contain all the elements listed in the template available in the [Graduation Guide]({{ "/rules/" | prepend: site.baseurl }}) (Section 3.2).
+The document for the Kick-off is a project proposal that must contain all the elements listed in the template available in the [Graduation Guide]({{ "/rules/" | prepend: site.baseurl }}) (Section 3.3).
 
 *Ignore* any other template you might get from the central BK system if different, they send these emails without realising that Geomatics doesn't have the same criteria.
 
@@ -42,7 +42,7 @@ It contains:
 
   - an introduction in which the relevance of the project and its place in the context of geomatics is described, along with a clearly-defined problem statement;
   - a related work section in which the relevant literature is presented and linked to the project;
-  - the research questions are clearly defined, along with the scope (ie what you will *not* be doing); to help you define a "good" research question, read [this document]( {{ '/templates/Research-Questions_WS-handout.pdf' | relative_url }})
+  - the research questions are clearly defined, along with the scope (ie what you will and will not be doing); to help you define a "good" research question, read [this document]( {{ '/templates/Research-Questions_WS-handout.pdf' | relative_url }})
   - overview of the methodology to be used;
   - time planning---having a [Gantt chart](https://en.wikipedia.org/wiki/Gantt_chart) is probably a better idea than just a list;
   - since specific data and tools have to be used, it's good to present these concretely, so that the supervisors know that you have a grasp of all aspects of the project;

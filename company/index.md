@@ -34,7 +34,7 @@ The official [Rules and guidelines for graduating at a company](O&S_rules_guidel
 
 1. **Start from a scientific topic.** Some of the topics in [the list of potential topics](../potentialtopics/) involve a company or a government organisation. You can also propose your own if you already have contact with an organisation — but the topic still needs to be approved by a Geomatics staff member who will act as your supervisor.
 2. **Go through a Geomatics staff member.** Please do not contact companies that are not listed on the potential topics page unless you already know someone there. Staff often have contacts in industry and can match you with a good project, so speak to them first.
-3. **Register the project early.** Mention that your thesis involves an external party when registering: there are additional pages to fill in [in MyCase](https://mycase.tudelft.nl) when submitting your graduation plan (see [Appendix VI of the Graduation Guide](../rules/#gradmanual)).
+3. **Register the project early.** Mention that your thesis involves an external party when registering: there are additional pages to fill in [in MyCase](https://mycase.tudelft.nl) when submitting your graduation plan (see [Appendix G of the Graduation Guide](../rules/#gradmanual)).
 4. **Sign the paperwork before you start.**
 
 Keep in mind that more people need to agree on the topic — finding one that is both scientifically sound *and* useful for the company can be tricky. That said, many students have graduated in collaboration with a company successfully in recent years.
