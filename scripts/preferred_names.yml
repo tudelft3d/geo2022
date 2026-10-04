@@ -617,3 +617,19 @@ people:
 - name: Rusne Šileryte
   aliases: []
   source: archive
+- name: Andrew Hooper
+  aliases:
+  - A.J. Hooper
+  source: verified
+  note: InSAR; supervised Geomatics theses at DEOS with Hanssen (2008-2011)
+- name: Zbigniew Perski
+  aliases:
+  - Z.A. Perski
+  source: verified
+  note: SAR geology, Hanssen co-author in the DEOS years
+- name: Gertjan van Zwieten
+  aliases:
+  - G.J. Zwieten
+  source: verified
+  note: computational geophysics/mechanics (nutils), elastic dislocations
+    with Hanssen; repository records drop the tussenvoegsel ("Zwieten")

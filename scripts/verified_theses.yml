@@ -106,6 +106,7 @@
 - author: S. Wesselingh
   year: 2007
   programme: not Geomatics
+  note: PDF title pages say GIMA MSc (Wageningen/TU Delft joint); verified by PDF 2026-10-03
 
 # all remaining 2008 sweep hits, checked by Ken (2026-09): none are
 # Geomatics
@@ -121,6 +122,7 @@
 - author: M.S. Kibria
   year: 2008
   programme: not Geomatics
+  note: PDF title pages say GIMA; verified by PDF 2026-10-03
 - author: A. Gout
   year: 2008
   programme: not Geomatics
@@ -139,6 +141,7 @@
 - author: J. van Bennekom-Minnema
   year: 2008
   programme: not Geomatics
+  note: GIMA thesis per the group's MSc_GIMA_ file series; van Oosterom professor; verified by PDF 2026-10-03
 
 - author: T. Bantis
   year: 2008
@@ -178,6 +181,7 @@
 - author: I. Visser
   year: 2009
   programme: not Geomatics
+  note: no programme named anywhere in the PDF; part of the 2026-09-30 GIMA recognitions; committee van Oosterom, Quak, Koebben
 
 - author: J. De Vries
   year: 2009
@@ -210,6 +214,7 @@
 - author: L. Verhelst
   year: 2009
   programme: not Geomatics
+  note: GIMA per the group's MSc_GIMA_ file series; acknowledgements name Wageningen, Lemmens and GIMA coordinator Marian de Vries; verified by PDF 2026-10-03
 
 - author: M. Katterbach
   year: 2009
@@ -246,6 +251,7 @@
 - author: T. van der Putte
   year: 2009
   programme: not Geomatics
+  note: title pages name Geographical Information Management and Applications (GIMA); verified by PDF 2026-10-03
 
 - author: T.P. Wortel
   year: 2009
@@ -259,6 +265,7 @@
 - author: B. Brugman
   year: 2010
   programme: not Geomatics
+  note: PDF title pages say GIMA MSc; verified by PDF 2026-10-03
 
 - author: B.M.J. Possel
   year: 2010
@@ -302,6 +309,8 @@
 - author: J. Schaap
   year: 2010
   programme: not Geomatics
+  note: GIMA thesis (acknowledgements say the GIMA study); van Oosterom
+    professor, Quak supervisor; verified by PDF 2026-10-03
 
 - author: J.B. van den Muijsenberg
   year: 2010
@@ -348,6 +357,7 @@
 - author: P. Sudra
   year: 2010
   programme: not Geomatics
+  note: title page says MSc Geographical Information Management and Applications (GIMA); verified by PDF 2026-10-03
 
 - author: P. Wu
   year: 2010
@@ -401,6 +411,7 @@
 - author: E. Dopper
   year: 2011
   programme: not Geomatics
+  note: no programme named anywhere in the PDF; part of the 2026-09-30 GIMA recognitions; committee Stoter (TU Delft) with Kadaster supervisors
 
 - author: E. Jongkind
   year: 2011
@@ -417,6 +428,7 @@
 - author: J. Stook
   year: 2011
   programme: not Geomatics
+  note: PDF title pages say GIMA (MSC_GIMA_ file series); Verbree supervisor; verified by PDF 2026-10-03
 
 - author: L.M. van Halderen
   year: 2011
@@ -487,6 +499,7 @@
 - author: B. Baas
   year: 2012
   programme: not Geomatics
+  note: title page says GIMA (Geographical Information Management and Applications); Quak supervisor, De By reviewer; verified by PDF 2026-10-03
 
 - author: B. Zhou
   year: 2012
@@ -538,6 +551,7 @@
 - author: H.J. Lekkerkerk
   year: 2012
   programme: not Geomatics
+  note: title page says GIMA Thesis; verified by PDF 2026-10-03
 
 - author: H.M. Wong
   year: 2012
@@ -617,6 +631,7 @@
 - author: W. Socha
   year: 2012
   programme: not Geomatics
+  note: title pages say Geographical Information Management and Applications (GIMA); verified by PDF 2026-10-03
 
 - author: W.A. Villerius
   year: 2012
@@ -1002,3 +1017,377 @@
   programme: not Geomatics
   note: foreword says afstudeeronderzoek voor de opleiding Geodesie,
     Afdeling Geodesie; mentors Vosselman, Gorte, Jordans
+# --- 2026-10-03 check of the 2006-2012 supervisor-sweep hits whose mentors
+# --- sit in the remote-sensing/geodesy orbit (Hanssen, Lindenbergh, Gorte,
+# --- Khoshelham, Menenti, van der Marel, Tiberius, Snellen, Steele-Dunne,
+# --- Klees, Lemmens), prompted by Ken's 2010 cohort list. Verdicts read
+# --- from the thesis PDFs' title/committee pages (cached under
+# --- .geotheses_cache/pdf/); the six Geomatics ones are added to the
+# --- archive (van der Torren, Put, Dentz, Hellemons, Yuan, Wang).
+
+- author: C.B.J. Velthorst
+  year: 2007
+  programme: not Geomatics
+  note: Stufib report on cracking in the compression layer of prestressed
+    canal-plate floors, Dutch civil engineering; mentor van der Marel on
+    the record only
+- author: S.C. Put
+  year: 2008
+  programme: Geomatics
+  note: title page says M.Sc. Geomatics, DEOS; mentors Hanssen and
+    Zwieten (PDF-checked 2026-10-03)
+- author: F.J. Dentz
+  year: 2008
+  programme: Geomatics
+  note: title page says M.Sc. Geomatics Thesis, DEOS; preface says
+    graduation project for the M.Sc. Geomatics; mentors Hanssen and
+    Perski (PDF-checked 2026-10-03)
+- author: C.F. Bosveld
+  year: 2008
+  programme: not Geomatics
+  note: structural design of a tied high-rise (1001 Tower), committee
+    Vambersky/Romeijn/Top; van der Marel on the record only
+- author: R.J. van der Ent
+  year: 2009
+  programme: not Geomatics
+  note: thesis states Department of Water Management, CEG (continental
+    moisture recycling); Steele-Dunne on the record
+- author: E. Ravenstijn
+  year: 2009
+  programme: not Geomatics
+  note: no programme stated anywhere; river-sediment nourishment
+    graduation report (hydraulic engineering content); Snellen on the
+    record
+- author: J.F.L. Hellemons
+  year: 2009
+  programme: not Geomatics
+  note: foreword says "afstudeeronderzoek van de opleiding Geodesie" --
+    a Dutch-language Geodesie-programme thesis; the "Geomatics
+    Engineering" on the cover is the (LR-faculty) department, not the
+    programme; Hanssen (afstudeerhoogleraar) and Tiberius
+    (PDF-checked 2026-10-03; flagged Geomatics earlier the same day,
+    corrected after Ken noted it)
+- author: S.T.J. van Son
+  year: 2009
+  programme: not Geomatics
+  note: thesis states the MSc program at the Faculty of Civil Engineering
+    and Geosciences; cooperated with the Geomatics Synthesis Project
+    team (the false-positive signal); Lindenbergh on the record
+- author: P.M.G. Inacio
+  year: 2010
+  programme: not Geomatics
+  note: M.Sc. thesis Faculty of Aerospace Engineering (PSG/GAIN airborne
+    gravimetry); Klees and Gunter on the record
+- author: A. Chan
+  year: 2010
+  programme: not Geomatics
+  note: Applied Earth Sciences geo-engineering TA report (AES/GE/10-16);
+    committee Ngan-Tillard, Khoshelham, Ledoux (PDF-checked 2026-10-03)
+- author: E. Jongkind
+  year: 2011
+  programme: not Geomatics
+  note: degree of Master of Science in Aerospace Engineering;
+    Lindenbergh and van der Marel on the record
+- author: G.J.J.M. Pauwels
+  year: 2011
+  programme: not Geomatics
+  note: degree of Master of Science in Aerospace Engineering (Superbus);
+    Hanssen and Tiberius on the record
+- author: P.T. van der Torren
+  year: 2011
+  programme: Geomatics
+  note: title page says Master of Science thesis in Geomatics; mentors
+    Hanssen and Samiei Esfahany (PDF-checked 2026-10-03)
+- author: Y. Yuan
+  year: 2011
+  programme: Geomatics
+  note: title page says Master's Thesis in Geomatics; preface says
+    "Master of Science of Geomatics engineering"; committee van
+    Oosterom, Hanssen, Hooper, Storms (PDF-checked 2026-10-03)
+- author: D.C. Duives
+  year: 2012
+  programme: not Geomatics
+  note: Transport & Planning (CEG) graduation report; the "(Geomatics -
+    CEG)" on the title pages is Gorte's affiliation as external member
+- author: Y. Wang
+  year: 2012
+  programme: Geomatics
+  note: title page says Master programme Geomatics; committee van de
+    Giesen, Steele-Dunne, Gunter, Verbree (PDF-checked 2026-10-03)
+- author: N. Tamash
+  year: 2012
+  programme: not Geomatics
+  note: acknowledgements say the GIMA programme (not the TU Delft
+    Geomatics MSc); supervisors Marian de Vries and van Oosterom;
+    Lemmens on the record
+- author: H.A.W. Voskamp
+  year: 2012
+  programme: not Geomatics
+  note: MSc Civil Engineering, Transport & Planning section; Gorte
+    listed as external supervisor from Geomatics
+- author: R. Wang
+  year: 2012
+  programme: not Geomatics
+  note: repository Programme field wrongly says Geomatics; title page
+    says MSc in Electrical Engineering (EEMCS), supervisor Z. Liu,
+    committee van der Sluis, Popov, Djairam (PDF-checked 2026-10-03;
+    same surname+year as archive member Y. Wang, which this does not
+    touch)
+
+# --- 2026-10-03 PDF check of the 2012-and-earlier repository hits whose
+# --- mentors sit in the GIS-Technology orbit (Meijers, van Oosterom, Quak,
+# --- Stoter, Verbree, Zlatanova, Ledoux, van Loenen), prompted by Ken.
+# --- Outcome: no new Geomatics theses. The 40 Meijers hits are all Lidy
+# --- Meijers' Architecture (R-MIT) studios (or EEMCS/EE); every
+# --- GDMC-listed pre-2013 thesis missing from the archive is a GIMA
+# --- thesis (joint TU Delft/Wageningen programme, out of archive scope;
+# --- their 2026-09-30 bare verdicts are enriched with notes above).
+# --- R. Krukkert (2011, mentor Quak) could not be checked: his
+# --- repository PDF returns 404.
+
+- author: L. van Meerkerk
+  year: 2007
+  programme: not Geomatics
+  note: architecture graduation for a markthal in Dresden, R-MIT; mentor L. Meijers (PDF-checked 2026-10-03)
+
+- author: F. van Langen
+  year: 2008
+  programme: not Geomatics
+  note: architecture graduation, Paramaribo; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: B.M.M. de Wit
+  year: 2008
+  programme: not Geomatics
+  note: architecture graduation presentation, Atelier Paramaribo; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: M. Dekkers
+  year: 2008
+  programme: not Geomatics
+  note: architecture graduation (arc_ upload, textless PDF); mentor Meijers (PDF-checked 2026-10-03)
+
+- author: N. Shah
+  year: 2008
+  programme: not Geomatics
+  note: title pages say Master of Science (Urbanism); mentor Meijers (PDF-checked 2026-10-03)
+
+- author: A.S. van Rijsewijk
+  year: 2008
+  programme: not Geomatics
+  note: architecture graduation (arc_ upload, textless PDF); mentor Meijers (PDF-checked 2026-10-03)
+
+- author: E.M. Stegers
+  year: 2009
+  programme: not Geomatics
+  note: EEMCS Delft Institute of Applied Mathematics thesis (vehicle routing); Quak on the record (PDF-checked 2026-10-03)
+
+- author: J. van der Knaap
+  year: 2009
+  programme: not Geomatics
+  note: architecture graduation, Dordrecht, R-MIT; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: E.G.W. Haas
+  year: 2009
+  programme: not Geomatics
+  note: architecture poster, R-MIT; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: E. Wolsky
+  year: 2010
+  programme: not Geomatics
+  note: Explorelab 9 graduation, Faculty of Architecture; tutor Lidy Meijers (PDF-checked 2026-10-03)
+
+- author: C.J. van Eeden
+  year: 2010
+  programme: not Geomatics
+  note: electrical-engineering graduation (partial discharges on rotating machines); no Geomatics signal; Quak on the record (PDF-checked 2026-10-03)
+
+- author: S.A. Scheepens
+  year: 2011
+  programme: not Geomatics
+  note: architecture graduation book, R-MIT studio; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: J. Bijster
+  year: 2011
+  programme: not Geomatics
+  note: architecture graduation drawings, R-MIT studio Ghana; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: D.S.H. Berkheij
+  year: 2011
+  programme: not Geomatics
+  note: architecture graduation drawings, R-MIT; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: M.A. Smolders
+  year: 2011
+  programme: not Geomatics
+  note: architecture graduation poster; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: M.A. Leunis
+  year: 2011
+  programme: not Geomatics
+  note: urbanism graduation (Kumasi, Ghana); mentor Meijers (PDF-checked 2026-10-03)
+
+- author: E.N. Oort
+  year: 2011
+  programme: not Geomatics
+  note: urbanism graduation (Tamale, Ghana); mentor Meijers (PDF-checked 2026-10-03)
+
+- author: R. Schoenmaker
+  year: 2011
+  programme: not Geomatics
+  note: architecture graduation, R-MIT; tutor Lidy Meijers (PDF-checked 2026-10-03)
+
+- author: J.S. Jonker
+  year: 2011
+  programme: not Geomatics
+  note: architecture graduation poster, R-MIT studio Delft; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: T. Segers
+  year: 2011
+  programme: not Geomatics
+  note: architecture P5 presentation, R-MIT studio Kumasi; tutor Lidy Meijers (PDF-checked 2026-10-03)
+
+- author: M.C. Swijnenburg
+  year: 2011
+  programme: not Geomatics
+  note: architecture P5 presentation, R-MIT; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: N. Sickenga
+  year: 2011
+  programme: not Geomatics
+  note: architecture graduation book, R-MIT studio Kumasi; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: J.E.G. van de Ven
+  year: 2011
+  programme: not Geomatics
+  note: architecture poster, R-MIT; tutor Lidy Meijers (PDF-checked 2026-10-03)
+
+- author: L.T. Gerding
+  year: 2011
+  programme: not Geomatics
+  note: architecture graduation poster; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: K. Dekker
+  year: 2011
+  programme: not Geomatics
+  note: architecture P5 poster, R-MIT studio Ghana; tutor Lidy Meijers (PDF-checked 2026-10-03)
+
+- author: P. Levie
+  year: 2012
+  programme: not Geomatics
+  note: architecture graduation studio (KEMA Arnhem), R-MIT; tutor Lidy Meijers (PDF-checked 2026-10-03)
+
+- author: V.I. de Jong
+  year: 2012
+  programme: not Geomatics
+  note: architecture graduation, faculty Bouwkunde R-MIT; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: R. Rennen
+  year: 2012
+  programme: not Geomatics
+  note: architecture graduation poster; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: C. Klinkhamer
+  year: 2012
+  programme: not Geomatics
+  note: architecture P5, R-MIT studio Utrecht; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: L.K. Kroon
+  year: 2012
+  programme: not Geomatics
+  note: architecture thesis plan, R-MIT studio Utrecht; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: C. den Uijl
+  year: 2012
+  programme: not Geomatics
+  note: architecture thesis plan, R-MIT; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: A.C. Sassen
+  year: 2012
+  programme: not Geomatics
+  note: architecture thesis, R-MIT (KEMA Arnhem); tutor W.L.E.C. Meijers (PDF-checked 2026-10-03)
+
+- author: J. Alferink
+  year: 2012
+  programme: not Geomatics
+  note: architecture P5, Faculty Bouwkunde; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: A.L. van Overmeir
+  year: 2012
+  programme: not Geomatics
+  note: architecture graduation, R-MIT Arnhem; tutor Lidy Meijers (PDF-checked 2026-10-03)
+
+- author: G.T. Feenstra
+  year: 2012
+  programme: not Geomatics
+  note: architecture P5, R-MIT; tutor Lidy Meijers (PDF-checked 2026-10-03)
+
+- author: T.M.S. Pronk
+  year: 2012
+  programme: not Geomatics
+  note: architecture reflection report, R-MIT studio; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: E.B. Willeumier
+  year: 2012
+  programme: not Geomatics
+  note: architecture graduation report (Maputo), R-MIT; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: H.L.A. van Berge Henegouwen
+  year: 2012
+  programme: not Geomatics
+  note: architecture graduation, R-MIT; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: N.B. Hemmati
+  year: 2012
+  programme: not Geomatics
+  note: title page says MSc Urbanism, Faculty of Architecture; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: R.F. zu Castell-Rüdenhausen
+  year: 2012
+  programme: not Geomatics
+  note: architecture graduation plan, R-MIT; mentor Meijers (PDF-checked 2026-10-03)
+
+- author: J.S. Hoevenagel
+  year: 2012
+  programme: not Geomatics
+  note: architecture graduation presentation, R-MIT; mentor Lidy Meijers (PDF-checked 2026-10-03)
+
+# --- 2026-10-03 title-level scan of the remaining collisions pool (all 333
+# --- titles read; the pool is hydraulic engineering (Verhagen), pavements/
+# --- locks (Molenaar), energy/civil (Vries), CS and industrial design
+# --- (Visser), materials (Zhao), aerospace (Elham/Nagel)). Six titles with
+# --- a Geomatics flavour were PDF-checked; all resolved to other
+# --- programmes.
+
+- author: P.E.D.M. Kouwenberg
+  year: 2009
+  programme: not Geomatics
+  note: AES geo-engineering report AES/GE/09-32 (3D subsurface modelling
+    for the A2 tunnel Maastricht); Ngan-Tillard mentor; PDF-checked
+    2026-10-03
+- author: B.K.J. Lietaert
+  year: 2011
+  programme: not Geomatics
+  note: title page says MSc Thesis Engineering Geology (AES/GE/11-13);
+    hazard map for jack-up rig siting, Gulf of Suez; PDF-checked
+    2026-10-03
+- author: A.P. van den Eijnden
+  year: 2010
+  programme: not Geomatics
+  note: title page says MSc Thesis Engineering Geology (AES/GE/10-43);
+    PDF-checked 2026-10-03
+- author: A. De Simone
+  year: 2008
+  programme: not Geomatics
+  note: Faculty of Aerospace Engineering, DEOS Astrodynamics and
+    Satellite Systems (MEMS micro gravity gradiometer); PDF-checked
+    2026-10-03
+- author: R.M.C. Spiteri
+  year: 2008
+  programme: not Geomatics
+  note: Faculty of Aerospace Engineering, Astrodynamics and Satellite
+    Systems (Titan gradiometer study); PDF-checked 2026-10-03
+- author: G. Roodbol
+  year: 2010
+  programme: not Geomatics
+  note: PDF gone from the repository (all four files 404); surviving
+    file names (strategy poster, calendar guide) indicate an
+    industrial-design graduation; not re-checkable

@@ -1,6 +1,6 @@
-# Supervisor-search cross-check (2026-09-30)
+# Supervisor-search cross-check (2026-10-03)
 
-The archive holds 314 theses. Sweeping the repository for MSc theses supervised by the surnames in scripts/geomatics_supervisors.yml matched 4615 theses, 427 of them from 2006–2012 and absent from the archive (another 358 from before 2006 were discarded).
+The archive holds 319 theses. Sweeping the repository for MSc theses supervised by the surnames in scripts/geomatics_supervisors.yml matched 4615 theses, 422 of them from 2006–2012 and absent from the archive (another 358 from before 2006 were discarded).
 
 ## Confirmed gaps (0)
 
@@ -12,7 +12,7 @@ The repository record's Programme field names Geomatics.
 Pre-2017 records have no Programme field; these have a mentor whose initials and surname match a supervisor on the list. Check the PDF title page.
 
 
-## Name collisions (380)
+## Name collisions (326)
 
 Same surname among the mentors, but the initials point to someone else (or no usable mentor name). Probably not ours, listed for completeness.
 
@@ -187,9 +187,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Lely M.S. (2007)** — Hydraulic roughness in sediment-laden flow
   - supervisor surnames on the record: Wang
   - record: https://resolver.tudelft.nl/uuid:b4c9740a-dcd5-4364-a6d3-ad13553f887b
-- **Van Meerkerk L. (2007)** — KunStad Ostra; herontwerp voor een markthal in Dresden
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:9634c5ed-4cd2-47cb-8578-d741467fed10
 - **Van Geer P.F.C. (2007)** — Long-term morphological evolution of the Western Dutch Wadden Sea
   - supervisor surnames on the record: Wang
   - record: https://resolver.tudelft.nl/uuid:293b9627-0b64-450e-8bd7-90e19a7cee2c
@@ -208,9 +205,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **De Vries S. (2007)** — On the generation of surfable ship waves, Part II
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:d7fa0842-f64d-4f1b-b3f4-dc971b4f9dc2
-- **Velthorst C.B.J. (2007)** — Ontwerpaspecten met betrekking tot scheurvorming in de constructieve druklaag op vloeren van voorgespannen kanaalplaten
-  - supervisor surnames on the record: Van der Marel
-  - record: https://resolver.tudelft.nl/uuid:622ae2b5-d3d5-4753-aa2c-d5e0846e417c
 - **Ockeloen W.J. (2007)** — Open filters in breakwaters with a sand core
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:c33e4b06-ead7-4e4d-ba7d-6c2b97184bf8
@@ -262,9 +256,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Van Steeg P. (2007)** — Wave overtopping aspects of the Crest Drainage Dike
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:15dce700-11e0-4a09-8f93-2f2fc10d4ea8
-- **Bosveld C.F. (2008)** — 1001 Tower
-  - supervisor surnames on the record: Van der Marel
-  - record: https://resolver.tudelft.nl/uuid:cd8615e9-959a-4aef-bf83-649569305110
 - **Van Lent D.Q. (2008)** — Aggregate characterisation in relation to bitumen-aggregate adhesion
   - supervisor surnames on the record: Molenaar
   - record: https://resolver.tudelft.nl/uuid:ac6c62de-9f15-415c-b55c-0dc54d9c3e8e
@@ -283,18 +274,9 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Boeije R. (2008)** — Connected Knowledge
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:e3f2302b-5495-4090-a2e6-6f6973a8bd78
-- **Van Langen F. (2008)** — Cultuurzone in Paramaribo
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:ab56a09e-c0a8-4a77-a1b6-fccb22e8bac5
 - **Groenewegen D.M. (2008)** — Declarative Access Control for WebDSL
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:4d1844c8-89df-4787-b777-c742b4a27217
-- **De Simone A. (2008)** — Design and realization of a setup for mechanical tests on a MEMS based micro gravity-gradiometer
-  - supervisor surnames on the record: Visser
-  - record: https://resolver.tudelft.nl/uuid:c97c4389-3d4e-42d4-8d69-14c8fbce9469
-- **Put S.C. (2008)** — Earthquake slip distribution inversions using Synthetic Aperture Radar Interferometry
-  - supervisor surnames on the record: Hanssen
-  - record: https://resolver.tudelft.nl/uuid:bbbb76da-f0ce-422f-8da2-1cb2c92e44b3
 - **Chow W.M.A. (2008)** — Effects of Shielding Gas Contamination on Aluminium Weid Porosity
   - supervisor surnames on the record: Zhao
   - record: https://resolver.tudelft.nl/uuid:007ee53b-d38a-4017-b28a-7aecd193fe1c
@@ -310,12 +292,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Van Tol P.T.G. (2008)** — Floating breakwaters; a theoretical study and preliminary design of a dynamic wave attenuating system
   - supervisor surnames on the record: Molenaar
   - record: https://resolver.tudelft.nl/uuid:dde70882-22bc-45de-a12b-860bbc2bac85
-- **Spiteri R.M.C. (2008)** — Gravitational signature of titan's (sub) surface lakes
-  - supervisor surnames on the record: Visser
-  - record: https://resolver.tudelft.nl/uuid:0d21020b-72c6-44bc-b9dd-880fcde43514
-- **De Wit B.M.M. (2008)** — Herontwerp nv Glans tot ontmoetingsplek met bibliotheek en sportfuncties
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:fec9e27e-9add-43d5-8019-778702554c21
 - **De Fockert A. (2008)** — Impact of relative sea level rise on the Amelander inlet morphology
   - supervisor surnames on the record: Wang
   - record: https://resolver.tudelft.nl/uuid:5fd29cd3-8673-4319-89b1-a758703a8d36
@@ -331,9 +307,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Vanlishout V. (2008)** — Oblique wave transmission through rough impermeable rubble mound submerged breakwaters
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:5c812c5d-b618-449c-b26f-06c25e008d7b
-- **Dentz F.J. (2008)** — On the use of Spaceborne Remote Sensing for Archaeology
-  - supervisor surnames on the record: Hanssen
-  - record: https://resolver.tudelft.nl/uuid:5731bb4d-aa69-40ef-9cd3-80a770d89cf6
 - **Gaillard M. (2008)** — Optimizing the Dutch electricity system for the integration of distributed generation - A study of interactions in the institutional environment
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:f2c6acdd-075b-4f33-87ff-70068cc1346f
@@ -343,12 +316,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Nguyen Minh Tuan (2008)** — Quenching and Partitioning of low alloyed steels
   - supervisor surnames on the record: Zhao
   - record: https://resolver.tudelft.nl/uuid:20d3d617-67b3-4758-a2bd-c19e3dd062b6
-- **Dekkers M. (2008)** — Regeneratie van de binnenstad van Paramaribo
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:b36ad9a5-cba1-4dd1-aa2f-bd96d2ca9899
-- **Shah N. (2008)** — Restructuring South Arch, Rotterdam" - Waterfront regeneration
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:c75e7b9e-0aff-41bf-bae3-f6d1f4512c2d
 - **Robers S.H. (2008)** — RNP Autoland concept for Unmanned Aerial Vehicles
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:b9364d85-cb94-4432-bda5-3cbd50b67851
@@ -364,9 +331,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Chhetri N. (2008)** — Studying the Diversification Strategy
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:5d57f3c3-44f1-4a02-bea4-b73a397823bb
-- **Van Rijsewijk A.S. (2008)** — Surinaams parlement
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:dd7364f7-be13-4d39-b0b2-67bd375c638e
 - **Alvarez H.A. (2008)** — Sustainable business design
   - supervisor surnames on the record: Simons
   - record: https://resolver.tudelft.nl/uuid:1fa5ae33-05e2-43b2-9def-56178e096553
@@ -388,9 +352,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Baart S.A. (2008)** — Toe structure for rubble mound breakwaters
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:1eceacb8-23c8-48ff-9cec-772434559b00
-- **Kouwenberg P.E.D.M. (2009)** — 3D subsurface modelling and geotechnical risk analysis for the tunnel construction of the A2-project Maastricht
-  - supervisor surnames on the record: Ngan-Tillard
-  - record: https://resolver.tudelft.nl/uuid:615dfe85-b3a5-441a-9523-d83d56df41a6
 - **Weststrate M.C. (2009)** — Abstractions for Asynchronous User Interfaces in Web Applications
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:355f297a-bc22-445e-a489-934582d1d1d2
@@ -403,9 +364,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Leurink F.W. (2009)** — Anders Leren' bij NV Nutricia; ervaringen en geleerde lessen met corporate e-learning
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:67f135e8-448e-4ceb-ac3b-1ab949f438c5
-- **Stegers E.M. (2009)** — A Solution Method for Vehicle Routing Problems with Time-Dependent Travel Times
-  - supervisor surnames on the record: Quak
-  - record: https://resolver.tudelft.nl/uuid:2329a49e-f80e-4340-ae2c-c64883e82999
 - **Langenberg J.W. (2009)** — Congestion management within and between the Dutch and German transmission networks
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:5a6727a7-ab57-4b61-ad55-8c5e4eed85fc
@@ -460,12 +418,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Schoolderman J.E. (2009)** — Generating electricity from waves at a breakwater in a moderate wave climate
   - supervisor surnames on the record: Molenaar
   - record: https://resolver.tudelft.nl/uuid:c329464e-0911-4b30-9a87-94470f298f9c
-- **Van der Knaap J. (2009)** — Herbestemming Berckepoort & Statenschool Dordrecht
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:26de86ae-e011-43c3-bb44-147db3a27413
-- **Haas E.G.W. (2009)** — Het Nieuwe Dordrechts museum
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:a8d6d083-460b-42d6-89cf-2c15b097a516
 - **Van Damme M. (2009)** — How biofilms influence morphology
   - supervisor surnames on the record: Simons
   - record: https://resolver.tudelft.nl/uuid:9b4ee2dd-89b0-40cf-90a3-a8fb8eaf1323
@@ -604,9 +556,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Weng L. (2010)** — Concept Design and Evaluation of Traffic Management in Beijing
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:2ca7b497-f922-400b-a8da-16e55d89ecbe
-- **Van den Eijnden A.P. (2010)** — Conditional simulation for characterising the spatial variability of sand state
-  - supervisor surnames on the record: Ngan-Tillard
-  - record: https://resolver.tudelft.nl/uuid:a93ef6f6-a0d1-4359-9d01-d2bfea645b67
 - **Koekoek M.J. (2010)** — Connecting Modular Floating Structures
   - supervisor surnames on the record: Molenaar
   - record: https://resolver.tudelft.nl/uuid:33b59201-1718-4dda-98f8-ee16d5b7c023
@@ -619,9 +568,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Solkesz M.J. (2010)** — Design and Performance Analysis of a Roll Damping Function for an Electro-mechanical Active Roll Control System
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:19ba78fa-9037-411b-946a-64d60139212d
-- **Wolsky E. (2010)** — Design for maladjusted youth
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:f315ebb0-71a7-4818-8861-be048d2af96c
 - **Sharew Yehualaeset J. (2010)** — Development of a laboratory ageing method for bitumen in porous asphalt
   - supervisor surnames on the record: Molenaar
   - record: https://resolver.tudelft.nl/uuid:d998faa5-105d-46be-83c0-2442f78516c3
@@ -634,9 +580,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Lioutas A.C. (2010)** — Experimental research on spatial distribution of overtopping
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:0122fe2e-0260-489f-b258-6e167fa9a621
-- **Roodbol G. (2010)** — Exploring the future of travel information
-  - supervisor surnames on the record: Visser
-  - record: https://resolver.tudelft.nl/uuid:21727ba3-1db0-4dcb-b4db-a18dccea1e9b
 - **De Boer E. (2010)** — Fun to drive personal mobility vehicle for elderly and everyone else.
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:6f4478e1-4038-4a8f-9f25-c5c93a63240e
@@ -652,9 +595,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Kersten M.K. (2010)** — Master plan Porto Romano Bay, Albania
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:62a2387f-6652-49f6-9c7a-1ccc714056c3
-- **Van Eeden C.J. (2010)** — Measurement of partial discharges and dielectric losses on rotating machines using damped AC voltages
-  - supervisor surnames on the record: Quak
-  - record: https://resolver.tudelft.nl/uuid:42788ce0-06a6-463b-a667-0db979694586
 - **Backhaus E. (2010)** — Modeling Strategic Bidding in Congested Electricity Lines
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:ed2cd457-fd33-47d4-9000-478acf570465
@@ -721,36 +661,21 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Van Klaarbergen S. (2011)** — A Cradle-To-Cradle Picnic experience for Ameland and the other Cradle-to-Cradle islands
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:ea30cf8d-197d-4083-b2b4-2f6728923fe2
-- **Scheepens S.A. (2011)** — A space of flows. The Kejetia Lorry Station
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:a2c32e21-d50c-4fcd-8680-04380f98d8bb
 - **Mors R.M. (2011)** — Autogenous Shrinkage of Cementitious materials containing BFS
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:2dfdbca7-fb9c-4963-ae2d-fce400b011bb
-- **Bijster J. (2011)** — Bese Saka
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:ff124d0f-a92e-48a1-92c7-d1fa6f393973
 - **Kroone J. (2011)** — Carbon Footprint
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:942c97bb-f409-402c-b51d-8293344d82ae
-- **Dekker P. (2011)** — Children's roles in web search
-  - supervisor surnames on the record: Vries
-  - record: https://resolver.tudelft.nl/uuid:f4a596fb-f8aa-44f8-891a-3f2ce18a833f
 - **Van Blijswijk M.J. (2011)** — Congestion management in the Dutch power sector
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:b212b14c-ded2-4117-9164-5f8548d7ad20
 - **Athanasiou D. (2011)** — Constructing a Test Code Quality Model and Empirically Assessing its Relation to Issue Handling Performance
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:cff6cd3b-a587-42f2-a3ce-e735aebf87ce
-- **Berkheij D.S.H. (2011)** — Cultureel centrum 'het Taplokaal'
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:bee19769-9b86-4bfc-9c55-5ab54323d6e0
 - **Rabbelier S. (2011)** — Declarative Specification of Web-based Integrated Development Environments
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:cc3b1a6f-4a74-481a-a585-3308ed116d57
-- **Smolders M.A. (2011)** — Delft Schieoevers
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:79ceaf17-1572-48b1-886e-52d88639f993
 - **Veneman J.G. (2011)** — Deployment of distributed generation
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:5947dd86-6312-46f3-a5ea-75ee8a8f4354
@@ -760,9 +685,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Ni Y. (2011)** — Design a baby "Stroller" for families of migrant workers in China
   - supervisor surnames on the record: Joosten
   - record: https://resolver.tudelft.nl/uuid:3467a3b6-f98d-44e5-a6f3-21efb53d1773
-- **Lietaert B.K.J. (2011)** — Design and development of a hazard map for the positioning and siting of large jack-up rigs at the geologically complex areas of the Gulf of Suez
-  - supervisor surnames on the record: Ngan-Tillard
-  - record: https://resolver.tudelft.nl/uuid:325eb00b-038e-4ebd-893a-2e4a42e251cd
 - **Tigelaar J.A.A. (2011)** — Design and Vehicle Implementation of an Adaptive ABS
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:7bd3161f-77eb-424c-bc6d-074416431a9e
@@ -787,9 +709,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **De Vries B.B. (2011)** — Dune erosion near sea walls; XBeach validation
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:5e790ec1-9a1d-4a8e-b5b2-e11217f43a97
-- **Leunis M.A. (2011)** — Empowering Lines
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:3ebb513f-28a8-467a-b82f-2999e9b63ee1
 - **De Vos B. (2011)** — EpiSpin
   - supervisor surnames on the record: Pronk
   - record: https://resolver.tudelft.nl/uuid:7b209c0b-1162-4cf2-a231-4b92b7f9dd03
@@ -823,18 +742,9 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Chen X. (2011)** — Hydrodynamic loads on buildings caused by overtopping waves
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:f65b59a8-d670-4c53-91ce-3dae40e5ad90
-- **Van der Torren P.T. (2011)** — Identification and analysis of point scatterers in time series InSAR
-  - supervisor surnames on the record: Hanssen
-  - record: https://resolver.tudelft.nl/uuid:7ab39a28-2902-4811-8efc-c4645d656e74
 - **Castaneda O. (2011)** — Link Prediction and the Evolution of Communities on Twitter
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:f943dcfd-b11c-4b2c-ab55-db8d04ee0b28
-- **Oort E.N. (2011)** — Making tracks for Tamale
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:6a4217d4-2e96-4227-b793-2b695702e959
-- **Yuan Y. (2011)** — Measuring Surface Deformation Caused by Permafrost Thawing Using Radar Interferometry, Case Study
-  - supervisor surnames on the record: Hanssen
-  - record: https://resolver.tudelft.nl/uuid:6ac10891-98d9-4173-9f34-533149664ec0
 - **Van Egmond S. (2011)** — Medium rise timber buildings in the Netherlands
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:952bbf5e-a5b4-487f-bcae-50bb4f6d256b
@@ -865,21 +775,12 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Botermans B.A.M. (2011)** — Provotyping in the wild
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:2f2fb381-97ef-4f39-a3ed-31e8eb9085a9
-- **Schoenmaker R. (2011)** — Reclaiming the City
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:e15398a6-ffe2-45fe-b109-adcfff6fe1ed
-- **Jonker J.S. (2011)** — Revitalizing the Schie waterfronts
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:d6141339-ad28-4bf7-9de2-72a81da7edd8
 - **Emha F.Y. (2011)** — Shear strength of Bremanger sandstone rockf ill at low stress
   - supervisor surnames on the record: Ngan-Tillard
   - record: https://resolver.tudelft.nl/uuid:c6ee9046-9a13-4405-bdca-e988c190727a
 - **Tessema B.T. (2011)** — Strategies for Electrical Network Expansion
   - supervisor surnames on the record: Liu
   - record: https://resolver.tudelft.nl/uuid:388624af-33b6-4437-942a-a72e43fdea29
-- **Segers T. (2011)** — Suiting the city-P5 presentation
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:36766968-6885-4625-9004-d107cb13fd17
 - **De Vries L. (2011)** — The deviating interpretation of Almere to the NEN-6743
   - supervisor surnames on the record: Ngan-Tillard, Vries
   - record: https://resolver.tudelft.nl/uuid:07a33267-fe81-40c3-b0e7-33936fcddce1
@@ -898,18 +799,12 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Van Broekhoven P.J.M. (2011)** — The influence of armour layer and core permeability on the wave run-up
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:d60a9711-aefc-44fa-b91e-1ab47930f2ec
-- **Swijnenburg M.C. (2011)** — The Intervention of the Faculty of Art at the Kwame Nkrumah University of Science and Technology in Kumasi
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:c4f8584f-2dd5-4d4a-88b5-93b8d61522e1
 - **Kik R. (2011)** — The notional permeability of breakwaters
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:7591bcf7-139a-4b6c-b5c1-721c89dc1e38
 - **Krukkert R. (2011)** — The redesign of the logistical system of Schiphol Airport Retail
   - supervisor surnames on the record: Quak
   - record: https://resolver.tudelft.nl/uuid:34be85c8-1579-44aa-a50c-c12c3aeb3fe0
-- **Sickenga N. (2011)** — The Transformation of the urban structure of Kumasi
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:b9266918-3d1f-46e7-8ff8-ef4d35933649
 - **Vroom J. (2011)** — Tidal Divides
   - supervisor surnames on the record: Wang
   - record: https://resolver.tudelft.nl/uuid:7c28338b-7a43-489f-8b57-98af6a00561c
@@ -919,15 +814,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Van Ditten A.M. (2011)** — Torque Sensing for E-bike Applications
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:74ee44a2-08b9-480b-9f29-663ab61a45ba
-- **Van de Ven J.E.G. (2011)** — Transformation of the former Artillery Depot in Delft
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:a326530f-b903-4849-bcd2-8c1a3c2a2b41
-- **Gerding L.T. (2011)** — Transformation of the Kumasi Zoological Gardens, towards a 21st century zoo.
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:206704f6-13cf-4df5-a716-7aa1e39ed410
-- **Dekker K. (2011)** — Upgrading Ayigya, the transformation of a low income neighbourhood in Kumasi, Ghana
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:47c503f5-e511-41df-8a21-52090c757561
 - **Roelofs J. (2011)** — Using video in personas
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:952a278f-c6e1-42e2-a1d5-0b0ed3513206
@@ -940,9 +826,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Van Leeuwen O.T. (2012)** — A business model for Bergen Energi to offer emergency power as aggregator to TenneT
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:bc6171e9-b25d-4ce7-8341-26d214d2998e
-- **Levie P. (2012)** — Activiteit genereren
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:a015c058-bbab-42e1-8a31-2dc707f5adcc
 - **Disco M.J. (2012)** — A generic quantitative damage description for rubble mound structures
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:cb6658a3-c9ca-4c8a-a443-2094ba99b174
@@ -1015,18 +898,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Doeksen J.W. (2012)** — Gate Design For Large, High Head Locks
   - supervisor surnames on the record: Molenaar
   - record: https://resolver.tudelft.nl/uuid:10298cf5-eff0-4664-ab16-980bc86dbd44
-- **De Jong V.I. (2012)** — Herbestemming watertoren Heuveloord – ‘Wenn der Architekt nicht weiter weiss, dann macht er einen Kreis’
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:c830c9fa-2f9c-4cfc-9dc5-555ead5dc5db
-- **Rennen R. (2012)** — Het nieuwe werkveld
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:30c551bc-976e-48e6-969e-120670daa3ba
-- **Klinkhamer C. (2012)** — Het revitaliseren van de Vaartsche Rijn zone, Rotsoord en de Pastoe Fabriek
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:a8454dda-8740-424a-aade-b730e29124f4
-- **Kroon L.K. (2012)** — Het verval gekoesterd
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:84e41f8a-cdbb-4fd5-b1b8-7fd6893cf933
 - **Wasch E. (2012)** — Housing and user interface design of the Elana medical laser
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:32b1475c-a752-4fac-9e6b-7781e2a9997e
@@ -1036,15 +907,6 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Chacho A. (2012)** — Investigating the effect of different lab mixing procedures on the mechanical characteristics by using more RAP in asphalt mixtures
   - supervisor surnames on the record: Molenaar
   - record: https://resolver.tudelft.nl/uuid:2a6ffd62-516c-4b48-a2df-d920c9449747
-- **Den Uijl C. (2012)** — 'Kathedraal van de industrie, het gebouw als herinnering'
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:7a89500f-8664-424b-a271-18071d153130
-- **Sassen A.C. (2012)** — KEMA seal reconsidered
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:5cba47c0-8055-4bba-9efb-d3013c356158
-- **Alferink J. (2012)** — `Kunsthuis` aan het Merwedekanaal
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:14aa38b7-1a04-4550-bb27-5b12a5df8bb8
 - **Vergu V.A. (2012)** — LabBack
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:8c683733-546a-4fd2-8303-a2cf2edf3cd8
@@ -1057,33 +919,18 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **Hoekstra T. (2012)** — Multi-storey timber-frame building- modelling the racking stiffness of timber-frame shear-walls
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:2134de57-531d-47b3-a1ef-5b01039a20f5
-- **Van Overmeir A.L. (2012)** — Nuclear resistance _ Keeping the historical fabric
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:1e709b34-4b0b-4321-9dc2-58413b1609a5
 - **Hosseinzadeh S. (2012)** — Numerical assessment and validation of a swelling rock model
   - supervisor surnames on the record: Ngan-Tillard
   - record: https://resolver.tudelft.nl/uuid:fcd2a9bf-0df8-4e27-9d2a-b687194c9c3c
-- **Feenstra G.T. (2012)** — P5
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:61fc3387-0507-4c3d-ae10-e269b2b1e356
 - **Kluwen J.G.M. (2012)** — Physical model tests of the notional permeability on breakwaters
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:ee35f437-5c5f-4df3-b363-ca87c4e2f782
 - **Lendering K.T. (2012)** — Polder Terminal
   - supervisor surnames on the record: Peters
   - record: https://resolver.tudelft.nl/uuid:0e3ed140-3c52-4c5a-9079-9b80d88ed1f1
-- **Pronk T.M.S. (2012)** — Publiek gebouw in voormalige opslagloods
-  - supervisor surnames on the record: Meijers, Pronk
-  - record: https://resolver.tudelft.nl/uuid:7a528434-1e1e-453a-bc4a-03c3bcc2092d
-- **Willeumier E.B. (2012)** — Revitalization of the Baixa de Maputo (Mozambique) through dense informal housing
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:1f4322f7-2967-4aa9-8099-6dabe8450f2a
 - **Papadopoulos D. (2012)** — Scour below the toe of breakwaters
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:4797cc0c-905c-4248-a20f-ee078cd33282
-- **Van Berge Henegouwen H.L.A. (2012)** — Second Life - The Lasloods
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:af08ed0a-fa45-43a4-9574-d7e0d18d93b8
 - **Vissers B.H.A. (2012)** — Sensor Fusion on a Humanoid Robot
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:ddb7afcc-ed0f-4956-b689-6a2a7c7c927e
@@ -1135,18 +982,9 @@ Same surname among the mentors, but the initials point to someone else (or no us
 - **De Groot N.C. (2012)** — Tidal power in the Klabat bay, Indonesia
   - supervisor surnames on the record: Vries
   - record: https://resolver.tudelft.nl/uuid:f5cb2d1b-bdf3-46ab-9f9c-4a6836884720
-- **Hemmati N.B. (2012)** — Towards Regional Synergy
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:94d3414f-6fd7-4457-a440-eb597784fd83
-- **Zu Castell-Rüdenhausen R.F. (2012)** — Triumfatorkerk, Kanaleneiland Utrecht
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:a81d3990-a30a-4874-a5c3-7c4cbd67a26e
 - **Do P.B. (2012)** — Upflow limestone contactor for soft and desalinated water
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:dbe6e42a-c7be-472f-86f4-e5562a5a9d36
-- **Hoevenagel J.S. (2012)** — Watertoren Heuveloord - Herbestemming van een icoon
-  - supervisor surnames on the record: Meijers
-  - record: https://resolver.tudelft.nl/uuid:e0ba2c17-8620-43de-8ae3-660bb2e0a12f
 - **Krom J.C. (2012)** — Wave overtopping at rubble mound breakwaters with a non-reshaping berm
   - supervisor surnames on the record: Verhagen
   - record: https://resolver.tudelft.nl/uuid:984bc5e5-8c04-4d35-b34a-2b871f636fa1
@@ -1157,7 +995,7 @@ Same surname among the mentors, but the initials point to someone else (or no us
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:5a9e7526-9268-4d39-8d24-ee5f63bf4a96
 
-## Verified non-Geomatics (47)
+## Verified non-Geomatics (96)
 
 Already verdict-ed in scripts/verified_theses.yml.
 
@@ -1172,6 +1010,12 @@ Already verdict-ed in scripts/verified_theses.yml.
 - **De Boer S. (2007)** — Busstations, meer dan traditionele halte
   - supervisor surnames on the record: Peters
   - record: https://resolver.tudelft.nl/uuid:9e7c4d76-46fb-40d3-9bae-f702a919b1a4
+- **Van Meerkerk L. (2007)** — KunStad Ostra; herontwerp voor een markthal in Dresden
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:9634c5ed-4cd2-47cb-8578-d741467fed10
+- **Velthorst C.B.J. (2007)** — Ontwerpaspecten met betrekking tot scheurvorming in de constructieve druklaag op vloeren van voorgespannen kanaalplaten
+  - supervisor surnames on the record: Van der Marel
+  - record: https://resolver.tudelft.nl/uuid:622ae2b5-d3d5-4753-aa2c-d5e0846e417c
 - **Broerse D.B.T. (2007)** — Surface motion modeling for the southeastern Carpathians
   - supervisor surnames on the record: Simons
   - record: https://resolver.tudelft.nl/uuid:b8129918-9a55-49f7-b5be-16441dc7725a
@@ -1179,10 +1023,19 @@ Already verdict-ed in scripts/verified_theses.yml.
   - mentors/coaches: M.E. De Vries; F. Penninga; P.J.M. van Oosterom
   - supervisor surnames on the record: Oosterom, Vries
   - record: https://resolver.tudelft.nl/uuid:a825ae39-027d-4f34-9ae3-af0a8c3de8ae
+- **Bosveld C.F. (2008)** — 1001 Tower
+  - supervisor surnames on the record: Van der Marel
+  - record: https://resolver.tudelft.nl/uuid:cd8615e9-959a-4aef-bf83-649569305110
+- **Van Langen F. (2008)** — Cultuurzone in Paramaribo
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:ab56a09e-c0a8-4a77-a1b6-fccb22e8bac5
 - **A. Huisman van Zijp (2008)** — De invloed van organisatie en cultuur op een geo-informatie infrastructuur
   - mentors/coaches: J.W.J. Besemer; B. van Loenen
   - supervisor surnames on the record: Loenen
   - record: https://resolver.tudelft.nl/uuid:72e5b0ec-c7c7-4182-95f7-f12debf24637
+- **De Simone A. (2008)** — Design and realization of a setup for mechanical tests on a MEMS based micro gravity-gradiometer
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:c97c4389-3d4e-42d4-8d69-14c8fbce9469
 - **N.C.R. Klomp (2008)** — Design of a no-reference perceptual ringing artifact metric
   - mentors/coaches: I. Heynderickx; R.L. Lagendijk; W.P. Brinkman; K.V. Hindriks; H. Liu
   - supervisor surnames on the record: Liu
@@ -1191,10 +1044,28 @@ Already verdict-ed in scripts/verified_theses.yml.
   - mentors/coaches: P. van Oosterom
   - supervisor surnames on the record: Oosterom
   - record: https://resolver.tudelft.nl/uuid:c529b04b-d010-4103-a19b-9550cd6f75f7
+- **Spiteri R.M.C. (2008)** — Gravitational signature of titan's (sub) surface lakes
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:0d21020b-72c6-44bc-b9dd-880fcde43514
+- **De Wit B.M.M. (2008)** — Herontwerp nv Glans tot ontmoetingsplek met bibliotheek en sportfuncties
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:fec9e27e-9add-43d5-8019-778702554c21
+- **Dekkers M. (2008)** — Regeneratie van de binnenstad van Paramaribo
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:b36ad9a5-cba1-4dd1-aa2f-bd96d2ca9899
+- **Shah N. (2008)** — Restructuring South Arch, Rotterdam" - Waterfront regeneration
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:c75e7b9e-0aff-41bf-bae3-f6d1f4512c2d
+- **Van Rijsewijk A.S. (2008)** — Surinaams parlement
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:dd7364f7-be13-4d39-b0b2-67bd375c638e
 - **J. van Bennekom-Minnema (2008)** — The Land Administration Domain Model 'Survey Package' and Model Driven Architecture
   - mentors/coaches: C.H.J. Lemmen; P.J.M. van Oosterom
   - supervisor surnames on the record: Oosterom
   - record: https://resolver.tudelft.nl/uuid:1a9887fc-c2df-4846-a92a-318886e50960
+- **Kouwenberg P.E.D.M. (2009)** — 3D subsurface modelling and geotechnical risk analysis for the tunnel construction of the A2-project Maastricht
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:615dfe85-b3a5-441a-9523-d83d56df41a6
 - **A.H.P.N. Munthe (2009)** — A Hybrid Renewable Energy System for a Rural Area in Africa
   - mentors/coaches: J.A. Ferreira; S. Ani; Y. Zhou
   - supervisor surnames on the record: Zhou
@@ -1203,6 +1074,9 @@ Already verdict-ed in scripts/verified_theses.yml.
   - mentors/coaches: H.H.G. Savenije; B. Schaefli; S.C. Steele-Dunne; S.R. De Roode
   - supervisor surnames on the record: Steele-Dunne
   - record: https://resolver.tudelft.nl/uuid:cfefc140-a4a2-4ce1-9996-476ae0794c05
+- **Stegers E.M. (2009)** — A Solution Method for Vehicle Routing Problems with Time-Dependent Travel Times
+  - supervisor surnames on the record: Quak
+  - record: https://resolver.tudelft.nl/uuid:2329a49e-f80e-4340-ae2c-c64883e82999
 - **E. Ravenstijn (2009)** — Behaviour of nourishments in quasi 3-dimensional graded sediment models
   - mentors/coaches: C.J. Sloff; E. Mosselman; M. Snellen; H.J. De Vriend
   - supervisor surnames on the record: Snellen
@@ -1214,6 +1088,12 @@ Already verdict-ed in scripts/verified_theses.yml.
 - **Katterbach M. (2009)** — Final safety design of the Cumbindanovu dam in Sardina
   - supervisor surnames on the record: Ngan-Tillard
   - record: https://resolver.tudelft.nl/uuid:dad1d94d-e2e5-4820-9d87-6862628c2519
+- **Van der Knaap J. (2009)** — Herbestemming Berckepoort & Statenschool Dordrecht
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:26de86ae-e011-43c3-bb44-147db3a27413
+- **Haas E.G.W. (2009)** — Het Nieuwe Dordrechts museum
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a8d6d083-460b-42d6-89cf-2c15b097a516
 - **S. Shirasagi (2009)** — Hybrid Rowe cell for measurement of complex conductivity
   - mentors/coaches: D. Ngan-Tillard; M. Ponziani
   - supervisor surnames on the record: Ngan-Tillard
@@ -1257,6 +1137,15 @@ Already verdict-ed in scripts/verified_theses.yml.
 - **Van Doorn F. (2010)** — Challenging children to choose a book in the library
   - supervisor surnames on the record: Visser
   - record: https://resolver.tudelft.nl/uuid:822781e0-a3cb-4345-95fe-bf08b333055d
+- **Van den Eijnden A.P. (2010)** — Conditional simulation for characterising the spatial variability of sand state
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:a93ef6f6-a0d1-4359-9d01-d2bfea645b67
+- **Wolsky E. (2010)** — Design for maladjusted youth
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:f315ebb0-71a7-4818-8861-be048d2af96c
+- **Roodbol G. (2010)** — Exploring the future of travel information
+  - supervisor surnames on the record: Visser
+  - record: https://resolver.tudelft.nl/uuid:21727ba3-1db0-4dcb-b4db-a18dccea1e9b
 - **Brouwer I. (2010)** — Fixing the Link - Creating a strong, vital and attractive link between the Dutch central railway station and city centre
   - supervisor surnames on the record: Meijers
   - record: https://resolver.tudelft.nl/uuid:6bbfcc6f-9908-421b-b665-89df1dba9efc
@@ -1268,6 +1157,9 @@ Already verdict-ed in scripts/verified_theses.yml.
   - mentors/coaches: M.E. De Vries; P.J.M. van Oosterom; J.A. Zevenbergen
   - supervisor surnames on the record: Oosterom, Vries
   - record: https://resolver.tudelft.nl/uuid:7aabb920-7ece-41bf-90e6-8d2b315e6f01
+- **Van Eeden C.J. (2010)** — Measurement of partial discharges and dielectric losses on rotating machines using damped AC voltages
+  - supervisor surnames on the record: Quak
+  - record: https://resolver.tudelft.nl/uuid:42788ce0-06a6-463b-a667-0db979694586
 - **Mamo M. (2010)** — Statistical Characterization of Spatial Variability for a Hydraulic Fill Slope
   - supervisor surnames on the record: Ngan-Tillard
   - record: https://resolver.tudelft.nl/uuid:b21f2443-8182-44ff-931b-d15a8c23d487
@@ -1279,6 +1171,27 @@ Already verdict-ed in scripts/verified_theses.yml.
   - mentors/coaches: D.J.M. Ngan-Tillard; K. Khoshelham
   - supervisor surnames on the record: Khoshelham, Ngan-Tillard
   - record: https://resolver.tudelft.nl/uuid:49218367-0a1c-43f2-80a2-b08ef76b8099
+- **Scheepens S.A. (2011)** — A space of flows. The Kejetia Lorry Station
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a2c32e21-d50c-4fcd-8680-04380f98d8bb
+- **Bijster J. (2011)** — Bese Saka
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:ff124d0f-a92e-48a1-92c7-d1fa6f393973
+- **Dekker P. (2011)** — Children's roles in web search
+  - supervisor surnames on the record: Vries
+  - record: https://resolver.tudelft.nl/uuid:f4a596fb-f8aa-44f8-891a-3f2ce18a833f
+- **Berkheij D.S.H. (2011)** — Cultureel centrum 'het Taplokaal'
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:bee19769-9b86-4bfc-9c55-5ab54323d6e0
+- **Smolders M.A. (2011)** — Delft Schieoevers
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:79ceaf17-1572-48b1-886e-52d88639f993
+- **Lietaert B.K.J. (2011)** — Design and development of a hazard map for the positioning and siting of large jack-up rigs at the geologically complex areas of the Gulf of Suez
+  - supervisor surnames on the record: Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:325eb00b-038e-4ebd-893a-2e4a42e251cd
+- **Leunis M.A. (2011)** — Empowering Lines
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:3ebb513f-28a8-467a-b82f-2999e9b63ee1
 - **E. Dopper (2011)** — Exploring the possibilities of production of a culture codes dataset on cadastral parcel level by making use of external source datasets
   - mentors/coaches: J. Stoter; J. van Buren; G. Leenders; P. van Oosterom
   - supervisor surnames on the record: Oosterom, Stoter
@@ -1287,6 +1200,9 @@ Already verdict-ed in scripts/verified_theses.yml.
   - mentors/coaches: R.C. Lindenbergh; H. van der Marel
   - supervisor surnames on the record: Lindenbergh, Van der Marel
   - record: https://resolver.tudelft.nl/uuid:9c1ec4e8-bcc3-45e9-93d7-26293db08d2f
+- **Oort E.N. (2011)** — Making tracks for Tamale
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:6a4217d4-2e96-4227-b793-2b695702e959
 - **R. van Haren (2011)** — Observing the hydrology of China from space - detection of anthropogenic changes in hydrology using spaceborne measurements
   - mentors/coaches: B.C. Gunter
   - supervisor surnames on the record: Gunter
@@ -1298,22 +1214,57 @@ Already verdict-ed in scripts/verified_theses.yml.
 - **De Lange W. (2011)** — Probabilistic design of settling basins for environmental compliance
   - supervisor surnames on the record: Wang
   - record: https://resolver.tudelft.nl/uuid:0fe4643f-d868-4849-90af-579fb543a8b2
+- **Schoenmaker R. (2011)** — Reclaiming the City
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:e15398a6-ffe2-45fe-b109-adcfff6fe1ed
+- **Jonker J.S. (2011)** — Revitalizing the Schie waterfronts
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:d6141339-ad28-4bf7-9de2-72a81da7edd8
+- **Segers T. (2011)** — Suiting the city-P5 presentation
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:36766968-6885-4625-9004-d107cb13fd17
 - **G.J.J.M. Pauwels (2011)** — Superbus Positioning System
   - mentors/coaches: R.F. Hanssen; C. Tiberius; A. Terzi
   - supervisor surnames on the record: Hanssen, Tiberius
   - record: https://resolver.tudelft.nl/uuid:994a46e0-b56f-4121-aa93-ea17a0457daa
+- **Swijnenburg M.C. (2011)** — The Intervention of the Faculty of Art at the Kwame Nkrumah University of Science and Technology in Kumasi
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:c4f8584f-2dd5-4d4a-88b5-93b8d61522e1
+- **Sickenga N. (2011)** — The Transformation of the urban structure of Kumasi
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:b9266918-3d1f-46e7-8ff8-ef4d35933649
+- **Van de Ven J.E.G. (2011)** — Transformation of the former Artillery Depot in Delft
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a326530f-b903-4849-bcd2-8c1a3c2a2b41
+- **Gerding L.T. (2011)** — Transformation of the Kumasi Zoological Gardens, towards a 21st century zoo.
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:206704f6-13cf-4df5-a716-7aa1e39ed410
+- **Dekker K. (2011)** — Upgrading Ayigya, the transformation of a low income neighbourhood in Kumasi, Ghana
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:47c503f5-e511-41df-8a21-52090c757561
+- **Levie P. (2012)** — Activiteit genereren
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a015c058-bbab-42e1-8a31-2dc707f5adcc
 - **D.C. Duives (2012)** — Analysis of Pedestrian Crowd Movements at Lowlands
   - mentors/coaches: S.P. Hoogendoorn; W. Daamen; P.B. Wiggenraad; B. Gorte
   - supervisor surnames on the record: Gorte
   - record: https://resolver.tudelft.nl/uuid:38c0d41e-6676-405f-9378-89de88c80894
-- **Y. Wang (2012)** — Assimilating Soil Moisture Data into a Hydrological Model of the Volta Basin
-  - mentors/coaches: N. van de Giesen; S. Steele-Dunne
-  - supervisor surnames on the record: Steele-Dunne, Wang
-  - record: https://resolver.tudelft.nl/uuid:fcb8d5fb-c08f-4ac0-a9a9-c4413d9f0e90
 - **J.W.H. van Petegem (2012)** — Een modelonderzoek naar bermongevallen
   - mentors/coaches: F.C.M. Wegman; P.B.L. Wiggenraad; A. Dijkstra; E. Verbree; J. Verpuij
   - supervisor surnames on the record: Verbree
   - record: https://resolver.tudelft.nl/uuid:d3a04532-ec41-422c-b7e5-0069fb787ac9
+- **De Jong V.I. (2012)** — Herbestemming watertoren Heuveloord – ‘Wenn der Architekt nicht weiter weiss, dann macht er einen Kreis’
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:c830c9fa-2f9c-4cfc-9dc5-555ead5dc5db
+- **Rennen R. (2012)** — Het nieuwe werkveld
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:30c551bc-976e-48e6-969e-120670daa3ba
+- **Klinkhamer C. (2012)** — Het revitaliseren van de Vaartsche Rijn zone, Rotsoord en de Pastoe Fabriek
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a8454dda-8740-424a-aade-b730e29124f4
+- **Kroon L.K. (2012)** — Het verval gekoesterd
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:84e41f8a-cdbb-4fd5-b1b8-7fd6893cf933
 - **Meijer N.W.H. (2012)** — HYBRID BUILDINGS
   - supervisor surnames on the record: Sanchez
   - record: https://resolver.tudelft.nl/uuid:37559829-ba47-4996-a204-b6cc63d6171e
@@ -1325,6 +1276,15 @@ Already verdict-ed in scripts/verified_theses.yml.
   - mentors/coaches: P. van Oosterom; M. De Vries; B. Everwijn
   - supervisor surnames on the record: Oosterom, Vries
   - record: https://resolver.tudelft.nl/uuid:bf227187-470e-4b3b-b33f-0d36c2cf8e94
+- **Den Uijl C. (2012)** — 'Kathedraal van de industrie, het gebouw als herinnering'
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:7a89500f-8664-424b-a271-18071d153130
+- **Sassen A.C. (2012)** — KEMA seal reconsidered
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:5cba47c0-8055-4bba-9efb-d3013c356158
+- **Alferink J. (2012)** — `Kunsthuis` aan het Merwedekanaal
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:14aa38b7-1a04-4550-bb27-5b12a5df8bb8
 - **H.A.W. Voskamp (2012)** — Measuring the influence of congested bottleneck on route choice behavior of pedestrians at Utrecht Centraal
   - mentors/coaches: S.P. Hoogendoorn; W. Daamen; B.G.H. Gorte; P.B.L. Wiggenraad; J. Heuvel
   - supervisor surnames on the record: Gorte
@@ -1333,6 +1293,21 @@ Already verdict-ed in scripts/verified_theses.yml.
   - mentors/coaches: W. Quak; P. van Oosterom; R. De By
   - supervisor surnames on the record: Oosterom, Quak
   - record: https://resolver.tudelft.nl/uuid:a47d3b8e-650a-4152-a310-366db0773848
+- **Van Overmeir A.L. (2012)** — Nuclear resistance _ Keeping the historical fabric
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:1e709b34-4b0b-4321-9dc2-58413b1609a5
+- **Feenstra G.T. (2012)** — P5
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:61fc3387-0507-4c3d-ae10-e269b2b1e356
+- **Pronk T.M.S. (2012)** — Publiek gebouw in voormalige opslagloods
+  - supervisor surnames on the record: Meijers, Pronk
+  - record: https://resolver.tudelft.nl/uuid:7a528434-1e1e-453a-bc4a-03c3bcc2092d
+- **Willeumier E.B. (2012)** — Revitalization of the Baixa de Maputo (Mozambique) through dense informal housing
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:1f4322f7-2967-4aa9-8099-6dabe8450f2a
+- **Van Berge Henegouwen H.L.A. (2012)** — Second Life - The Lasloods
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:af08ed0a-fa45-43a4-9574-d7e0d18d93b8
 - **W. Socha (2012)** — Specifying requirements for Automatic Generalisation of Electronic Navigational Charts
   - mentors/coaches: J. Stoter; P. van Oosterom
   - supervisor surnames on the record: Oosterom, Stoter
@@ -1340,3 +1315,12 @@ Already verdict-ed in scripts/verified_theses.yml.
 - **Wang R. (2012)** — Strategies for Transmission Network Investment under Deregulated Environment
   - supervisor surnames on the record: Liu, Wang
   - record: https://resolver.tudelft.nl/uuid:c8235590-41f5-4194-acfb-a2e97f2fbc38
+- **Hemmati N.B. (2012)** — Towards Regional Synergy
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:94d3414f-6fd7-4457-a440-eb597784fd83
+- **Zu Castell-Rüdenhausen R.F. (2012)** — Triumfatorkerk, Kanaleneiland Utrecht
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:a81d3990-a30a-4874-a5c3-7c4cbd67a26e
+- **Hoevenagel J.S. (2012)** — Watertoren Heuveloord - Herbestemming van een icoon
+  - supervisor surnames on the record: Meijers
+  - record: https://resolver.tudelft.nl/uuid:e0ba2c17-8620-43de-8ae3-660bb2e0a12f
