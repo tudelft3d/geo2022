@@ -4,12 +4,26 @@
 # MyCase; summaries and images are maintained by hand. Validate
 # with scripts/check_geotheses.py (archive) — this file has no
 # checker yet.
+- surname: Ho
+  name: Phuong Anh
+  cohort: 2026sep
+  phase: Kick-off
+  title: Urban Heat Island Modelling Using Deep Learning and Satellite Thermal
+    Imagery
+  supervisors: Azarakhsh Rafiee; Joris Timmermans
+  needs_summary: true
 - surname: Nurmohamed
   name: Faried
   cohort: 2026sep
   phase: Kick-off
   title: Improving public spaces through urban comfort metrics (thermal and
     social quality)
+  supervisors: Daniele Cannatella; Claudiu Forgaci
+  needs_summary: true
+- surname: Prikazchikov
+  name: Stepan
+  cohort: 2026sep
+  phase: Kick-off
   supervisors: Daniele Cannatella; Claudiu Forgaci
   needs_summary: true
 - surname: Schoonderwoerd
@@ -32,19 +46,6 @@
   phase: Preparation
   title: Air temperature estimation through thermal satellite imagery
   supervisors: Azarakhsh Rafiee
-  needs_summary: true
-- surname: Ho
-  name: Phuong Anh
-  cohort: 2026sep
-  phase: Preparation
-  title: Urban Heat Island Modelling Using Deep Learning and Satellite Thermal
-    Imagery
-  supervisors: Azarakhsh Rafiee; Joris Timmermans
-  needs_summary: true
-- surname: Prikazchikov
-  name: Stepan
-  cohort: 2026sep
-  phase: Preparation
   needs_summary: true
 - surname: Garcia Mezo
   name: Juan
@@ -77,8 +78,8 @@
   name: Josephine
   cohort: 2026feb
   phase: Green light
-  title: 'Assessing Coastal Change and Vulnerability Using Remote Sensing:
-    A Comparative Study of Aruba and Bonaire'
+  title: 'Coastal Change in Aruba and Bonaire: A Remote Sensing Assessment
+    of Shoreline Change, Development, and Vegetation'
   supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
   summary: This thesis proposal assesses coastal change and vulnerability
     along the coastlines of Aruba and Bonaire using multi-source satellite
