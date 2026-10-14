@@ -29,13 +29,15 @@ redirect_from:
 
 ## Graduation manuals
 
-<i class="fa-solid fa-triangle-exclamation"></i> You need to use the manual of the academic year when the student started their thesis. The old graduation system (Ps) has been discontinued, so every student who has not graduated yet follows the 2025-2026 guide. The 2026-2027 guide is not available yet: until it is published, it also applies to students starting their thesis in Quarter 1 of 2026-2027.
+<i class="fa-solid fa-triangle-exclamation"></i> You need to use the guide of the academic year in which the student started their thesis.
+However, since Q2 of the 2026-2027 academic year, there is an extended period of at least four weeks between the Green-light and Finalisation assessments, which should be used to improve the draft thesis based on feedback received at the Green-light.
 
+- [Graduation guide 2026-2027](https://github.com/tudelftgeomatics/graduationguide/releases/download/2026.2027/gm_gg_2627.pdf)
 - [Graduation guide 2025-2026](https://github.com/tudelftgeomatics/graduationguide/releases/download/2025.2026/gm_gg_2526.pdf)
 
 
 ## What if I can't be there at one assessment?
-Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatics/graduationguide/releases/download/2025.2026/gm_gg_2526.pdf) (or equivalent for other years).
+Read Appendix F of the [Graduation guide 2026-2027](https://github.com/tudelftgeomatics/graduationguide/releases/download/2026.2027/gm_gg_2627.pdf) (or the equivalent appendix for other years).
 
 - - -
 
@@ -76,5 +78,6 @@ Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatic
 
 - The two supervisors and the co-reader must attend the Finalisation meeting and ask questions. The delegate of the Board of Examiners chairs the session.
 - The two supervisors and the co-reader decide the final mark of the student: the supervisors assess the research, process and communication criteria, while the co-reader assesses the research and communication criteria only.
+- Send your tentative marks to the delegate before the session.
 - The 1st supervisor gives the laudation in front of the audience (without announcing the final grade to the public). Smile a lot while doing this.
 - The 1st supervisor must put the final grade in the system.

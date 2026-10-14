@@ -46,7 +46,7 @@ It contains:
   - overview of the methodology to be used;
   - time planning---having a [Gantt chart](https://en.wikipedia.org/wiki/Gantt_chart) is probably a better idea than just a list;
   - since specific data and tools have to be used, it's good to present these concretely, so that the supervisors know that you have a grasp of all aspects of the project;
-  - the references.
+  - the references---every reference must include a clickable DOI or URL, so that sources can be accessed directly from the document.
 
 <section id="thesis">
 </section>

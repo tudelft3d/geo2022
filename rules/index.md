@@ -20,14 +20,13 @@ permalink: /rules/
 
 ## The official graduation material
 
-Note that you have to follow the rules of the academic year when you started your graduation work.
-These rules apply during your whole graduation process, even if it takes you more than two years.
-Note also that the old graduation system (Ps, geo2020) is no longer available.
+Note that you mostly have to follow the rules of the academic year when you started your graduation work.
+<i class="fa-solid fa-triangle-exclamation"></i> However, there is one major exception: since Q2 of the 2026-2027 academic year, there is an extended period of at least four weeks between the Green-light and Finalisation assessments, which should be used to improve the draft thesis based on feedback received at the Green-light.
 
+- [Graduation guide 2026-2027](https://github.com/tudelftgeomatics/graduationguide/releases/download/2026.2027/gm_gg_2627.pdf)
 - [Graduation guide 2025-2026](https://github.com/tudelftgeomatics/graduationguide/releases/download/2025.2026/gm_gg_2526.pdf)
 
-<i class="fa-solid fa-triangle-exclamation"></i> The information below is based on what we expect in the Graduation guide 2026-2027, which unfortunately is not available yet but it should be available before Q2, when most students start their thesis. Until it is published, the rules of the 2025-2026 guide apply to everyone, including students starting their thesis in Q1. When the new guide is out, we will update this website and announce any changes in the [news](../news/).
-   
+The information below and throughout the site is based on the 2026-2027 guide.
 
 ## Use of AI and LLMs
 
