@@ -1112,6 +1112,7 @@
   link: https://resolver.tudelft.nl/uuid:6727c979-5e46-4fe0-9349-a7803e825d02
   image: 2025_Baba.jpg
   github: https://github.com/HideBa/flatcitybuf
+  paper: https://doi.org/10.5194/isprs-archives-xlviii-4-w15-2025-17-2025
   abstract: Standardising data formats for 3D city models is crucial for semantically
     storing real-world information as permanent records. CityJSON is a widely
     adopted OGC standard format for this purpose, and its variant, CityJSON
@@ -1142,6 +1143,7 @@
     work improves the scalability and usability of 3D city models in cloud
     environments, supporting advanced urban planning and smart city initiatives.
   uuid: 6727c979-5e46-4fe0-9349-a7803e825d02
+  paper_label: conference paper
 - surname: Bhatt
   name: Vidushi
   title: Geospatial Analytics from IoT ecosystem in Built spaces
@@ -1353,6 +1355,7 @@
   link: https://resolver.tudelft.nl/uuid:148178a4-f7ce-4f09-b4bd-267e4d7f15bc
   image: 2025_Gan.jpg
   github: https://github.com/Ganbusier/final_thesis
+  paper: https://doi.org/10.5194/isprs-annals-xii-4-w1-2026-145-2026
   abstract: 'This thesis addresses the challenge of extracting wireframe models
     which consist of 3d line segments from point clouds of man-made urban
     linear objects, with a specific focus on power lines and pylons. Wireframe
@@ -1390,6 +1393,7 @@
     that combine the strengths of different approaches while addressing their
     mutual limitations.'
   uuid: 148178a4-f7ce-4f09-b4bd-267e4d7f15bc
+  paper_label: conference paper
 - surname: Gao
   name: Yan
   title: Labeling Vario-scale Maps
@@ -2853,6 +2857,7 @@
   link: https://resolver.tudelft.nl/uuid:c463e920-61e6-40c5-89e9-25354fadf549
   image: 2024_Mantas.jpg
   github: https://github.com/DimitrisMantas/RoofSense
+  paper: https://doi.org/10.5194/isprs-annals-X-4-W6-2025-153-2025
   abstract: Roofing material classification is becoming pivotal in urban decision-making,
     supporting processes like asbestos mapping, disaster preparation, and
     urban heat island detection. However, research has mainly focused on a
@@ -2895,6 +2900,7 @@
     for future research and indicating areas for dataset expansion and improved
     annotation.
   uuid: c463e920-61e6-40c5-89e9-25354fadf549
+  paper_label: conference paper
 - surname: Mao
   name: Ping
   title: A digital twin based on Land Administration
@@ -3054,6 +3060,7 @@
   link: https://resolver.tudelft.nl/uuid:d6dc629c-c75e-4578-b1a1-8ac741133751
   image: 2024_Post.jpg
   github: https://github.com/OliverJPost/CityStack
+  paper: https://doi.org/10.5194/isprs-annals-xii-4-w1-2026-277-2026
   abstract: 'This thesis introduces the “city stack” framework and the concept
     of the “typology grid” to analyze and procedurally generate cities using
     publicly available geospatial data. It builds upon existing urban morphology
@@ -3084,6 +3091,7 @@
     ing and generating urban form and can be used as a starting point for
     future research.'
   uuid: d6dc629c-c75e-4578-b1a1-8ac741133751
+  paper_label: conference paper
 - surname: Rao
   name: Chengzhi
   title: Reconstructing a high-detailed 2D areal representation of road network
@@ -12118,7 +12126,7 @@
   year: 2010
   link: https://resolver.tudelft.nl/uuid:654587d2-6e93-4619-ab9a-29d95f843f35
   image: 2010_Biljecki.jpg
-  paper: https://resolver.tudelft.nl/uuid:b475fee9-5b67-446d-8a6e-ecce319c4250
+  paper: https://doi.org/10.1080/13658816.2012.692791
   abstract: The knowledge of the transportation mode used in a movement trajectory
     (derived in form of timestamped positions) is critical for applications
     such as travel behaviour studies. This thesis presents a method for segmenting
