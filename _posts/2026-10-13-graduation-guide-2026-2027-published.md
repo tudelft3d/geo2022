@@ -20,3 +20,7 @@ This website has been updated to match the new guide. The main changes compared 
 I'll plan online intro sessions for students and staff for next week.
 
 Ken
+
+- - -
+
+The slides from the intro session for students are available <a href="{{ '/introsession/geo2022_intro_2026-10.pdf' | prepend: site.baseurl}}">here</a>.
