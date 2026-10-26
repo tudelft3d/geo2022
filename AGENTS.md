@@ -139,6 +139,33 @@ Once a year or so (papers appear long after graduation):
    candidates to the entries' `paper:` field and record rejected ones
    in `scripts/verified_papers.yml` so they stop reappearing.
 
+## Deployment
+
+- A push to `main` runs `.github/workflows/jekyll-build.yml`: CI builds
+  the site as a check, then calls the publish webhook on the web server
+  (a `git pull` + `jekyll build` into `_site`). The webhook is
+  `/var/www/update/update2021.php` on geomatics01.bk.tudelft.nl (URL and
+  token are the repo secrets `NEW_UPDATE_URL` / `DEPLOY_TOKEN`); nginx
+  serves `/geo2022` from `/var/www/courses/geo2021/_site` (the checkout
+  kept the pre-rename geo2021 name).
+- Since the October 2026 PHP restrictions the server only accepts
+  campus/VPN connections, so CI's webhook call fails from GitHub's
+  runners and pushes publish late. A daily systemd timer
+  `geo2022-update.timer` on geomatics01 (06:17 CET, as `www-data`,
+  script `/var/www/update/update-geo2022.sh`) catches up: fetch, and if
+  `origin/main` moved, fast-forward + rebuild. Check with
+  `systemctl list-timers geo2022-update.timer`, logs with
+  `sudo journalctl -u geo2022-update.service`, trigger now with
+  `sudo systemctl start geo2022-update.service`.
+- Manual publish over VPN: ssh geomatics01.bk.tudelft.nl (via the
+  bastion), then `sudo -u www-data /var/www/update/update-geo2022.sh`;
+  or curl the webhook with its `X-Deploy-Token` header (URL in the repo
+  secrets, token in `/var/www/update/update2021.php`).
+- Public mirror (reachable off-campus): `https://tudelft3d.github.io/geo2022/`,
+  rebuilt on every push to `main` by `.github/workflows/deploy-pages.yml`
+  (Jekyll → GitHub Pages; entirely outside TU infrastructure). It lags
+  only by its own build time; the TU site stays the canonical one.
+
 ## Structure
 
 | Path | Purpose |
