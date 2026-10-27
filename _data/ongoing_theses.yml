@@ -37,8 +37,16 @@
   name: Mark
   cohort: 2026sep
   phase: Kick-off
-  title: CityGit
+  title: 'CityGit: a version control system for 3D city models'
   supervisors: Hugo Ledoux; Hidemichi Baba
+  needs_summary: true
+- surname: Floroiu
+  name: Darius
+  cohort: 2026sep
+  phase: Preparation
+  title: 'Immersive Urban Planning: From Multi-Scale Voxels to CityJSON in
+    a CAVE Environment'
+  supervisors: Ken Arroyo Ohori
   needs_summary: true
 - surname: Groeneveld
   name: Timber
@@ -46,6 +54,24 @@
   phase: Preparation
   title: Air temperature estimation through thermal satellite imagery
   supervisors: Azarakhsh Rafiee
+  needs_summary: true
+- surname: Gujda
+  name: Henryk
+  cohort: 2026sep
+  phase: Preparation
+  needs_summary: true
+- surname: Sanfuentes
+  name: Jaime Vergara
+  cohort: 2026sep
+  phase: Preparation
+  needs_summary: true
+- surname: Scherrenburg
+  name: Anna
+  cohort: 2026sep
+  phase: Preparation
+  title: Development of a API to automatically exchange CityGML + Energy ADE
+    data to automatize Energy Performance Certification
+  supervisors: Giorgio Agugiaro
   needs_summary: true
 - surname: Garcia Mezo
   name: Juan
