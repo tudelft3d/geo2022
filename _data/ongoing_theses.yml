@@ -8,8 +8,8 @@
   name: Phuong Anh
   cohort: 2026sep
   phase: Kick-off
-  title: Urban Heat Island Modelling Using Deep Learning and Satellite Thermal
-    Imagery
+  title: Estimating air temperature between ECOSTRESS overpasses with a physics-informed
+    spatio-temporal transformer
   supervisors: Azarakhsh Rafiee; Joris Timmermans
   needs_summary: true
 - surname: Nurmohamed
@@ -71,12 +71,12 @@
   phase: Preparation
   title: Development of a API to automatically exchange CityGML + Energy ADE
     data to automatize Energy Performance Certification
-  supervisors: Giorgio Agugiaro
+  supervisors: Giorgio Agugiaro; Hiba Doi
   needs_summary: true
 - surname: Garcia Mezo
   name: Juan
   cohort: 2026april
-  phase: Midterm
+  phase: Green light
   title: Semantic Interpretation of Change Detection at the Building Element
     Level
   supervisors: Ken Arroyo Ohori; Gina Stavropoulou
@@ -103,7 +103,7 @@
 - surname: Winterdal
   name: Josephine
   cohort: 2026feb
-  phase: Green light
+  phase: Finalisation
   title: 'Coastal Change in Aruba and Bonaire: A Remote Sensing Assessment
     of Shoreline Change, Development, and Vegetation'
   supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
