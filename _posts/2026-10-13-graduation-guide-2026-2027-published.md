@@ -14,7 +14,7 @@ This website has been updated to match the new guide. The main changes compared 
 
 - The Green-light period is at least four weeks before the Finalisation period and the Green-light thesis (Graduation report) is a draft, not final. Students should use the feedback from the Green-light in order to improve and deliver the final thesis one week before the Finalisation.
 - The final grade is decided at the Finalisation, which is now a technical presentation for an audience of fellow Geomatics students (not for a lay audience).
-- The Kick-off and Green-light assessments will be scheduled by the responsible supervisor in the <a href="{{ '/registration/' | prepend: site.baseurl }}">registration page</a> of this site (under construction). The Finalisation is still booked in SuperSaaS by the responsible supervisor (or by e-mail to <code>graduation-bk@tudelft.nl</code> when SuperSaaS is not available).
+- The Kick-off and Green-light assessments will be scheduled by the responsible supervisor in the <a href="{{ '/registration/' | prepend: site.baseurl }}">registration page</a> of this site. The Finalisation is still booked in SuperSaaS by the responsible supervisor (or by e-mail to <code>graduation-bk@tudelft.nl</code> when SuperSaaS is not available).
 - Every reference in the graduation report must include a clickable DOI or URL, so that sources can be accessed directly from the document.
 
 I'll plan online intro sessions for students and staff for next week.
