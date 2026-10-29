@@ -33,9 +33,12 @@ permalink: /potentialtopics/
 
 ## Registration form
 
-Use the form below to register your selected MSc thesis topic with the thesis coordinator.
+Use the button below to register your selected MSc thesis topic with the thesis coordinator.
 
-<div data-tf-live="01JVYR7EZE44W3YHFMM1DED3Y3"></div><script src="//embed.typeform.com/next/embed.js"></script>
+<p class="has-text-centered">
+  <a class="button is-link is-medium" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=TVJuCSlpMECM04q0LeCIe_rGY9YbKDFBlS8d-oCeONpUOU9XT1hNSEMwRERZSzA3QjUzV0RPOEVGWC4u" target="_blank" rel="noopener"><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>&nbsp;Open the registration form</a>
+</p>
+<p class="has-text-centered is-size-7 has-text-grey">The form opens in a new tab and asks you to sign in with your TU Delft account, so your response records your name and email address.</p>
 
 ---
 

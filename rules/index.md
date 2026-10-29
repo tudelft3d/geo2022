@@ -37,15 +37,18 @@ If AI has been used in any part of the project, the graduation plan and/or the g
 ## Preparation
 
 1. Before your official thesis start, find a thesis topic and supervisors, either by picking from a topic from [the list](../potentialtopics/) or by agreeing on a custom topic. Talk to the responsible Geomatics staff to know more about it and to confirm that you will do it.
-2. Fill in the form below, preferably by the end of week 3 of the quarter before your official thesis start (week 1.3 if you're on track).
+2. Fill in the registration form (button below), preferably by the end of week 3 of the quarter before your official thesis start (week 1.3 if you're on track).
 3. Once you start working on your thesis, register your graduation project by submitting a case in [MyCase](https://mycase.tudelft.nl) before the end of week 2 (week 2.2 if you're on track). This includes submitting some details about you, a working title for the graduation project, the names of both of your supervisors, possibly the name of your co-reader (if you already have one), and the weeks in which you'll reach the different milestones.
 4. Together with your supervisors, schedule your Kick-off at least 2 weeks before the start of the Kick-off period. They will register the date, time and room in the [GEO2022 website](../registration/).
 
 ## Registration form
 
-Use the form below to register your MSc thesis topic with the thesis coordinator.
+Use the button below to register your MSc thesis topic with the thesis coordinator.
 
-<div data-tf-live="01JVYR7EZE44W3YHFMM1DED3Y3"></div><script src="//embed.typeform.com/next/embed.js"></script>
+<p class="has-text-centered">
+  <a class="button is-link is-medium" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=TVJuCSlpMECM04q0LeCIe_rGY9YbKDFBlS8d-oCeONpUOU9XT1hNSEMwRERZSzA3QjUzV0RPOEVGWC4u" target="_blank" rel="noopener"><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>&nbsp;Open the registration form</a>
+</p>
+<p class="has-text-centered is-size-7 has-text-grey">The form opens in a new tab and asks you to sign in with your TU Delft account, so your response records your name and email address.</p>
 
 ## Kick-off
 
