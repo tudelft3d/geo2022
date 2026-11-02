@@ -11,20 +11,60 @@
   title: Estimating air temperature between ECOSTRESS overpasses with a physics-informed
     spatio-temporal transformer
   supervisors: Azarakhsh Rafiee; Joris Timmermans
-  needs_summary: true
+  summary: This thesis proposal tackles the sparse temporal coverage of ECOSTRESS,
+    which observes land surface temperature at 70 m only at irregular overpasses
+    and so cannot track the near-surface air temperature people experience.
+    It extends a spatio-temporal transformer that estimates air temperature
+    from ECOSTRESS imagery with a physics-constrained loss function and, in
+    a Delft study domain, with simulated land surface temperature from physically
+    based urban climate models as input between overpasses. Evaluating the
+    model variants against Dutch weather station observations, the thesis
+    aims to show how physics constraints and simulated inputs improve accuracy
+    as time since the last overpass grows.
+  image: phuonganh.jpg
 - surname: Nurmohamed
   name: Faried
   cohort: 2026sep
   phase: Kick-off
-  title: Improving public spaces through urban comfort metrics (thermal and
-    social quality)
+  title: 'Measuring the In-Between: Integrating Social and Spatial Data to
+    Assess Urban Interstices in Amsterdam'
   supervisors: Daniele Cannatella; Claudiu Forgaci
-  needs_summary: true
+  summary: This thesis proposal develops a spatial index for assessing urban
+    interstices, the weakly defined in-between public spaces of Amsterdam's
+    Zuidoost and Nieuw-West districts, where underused leftover spaces coincide
+    with lagging liveability and social contact. Standardised field observations
+    of public life, collected with an adapted Public Life Data Protocol, are
+    combined with open spatial data on physical and microclimate conditions
+    such as sun, shade and wind in a spatial database. Per-site indicators
+    are normalised, weighted and aggregated into an index that is validated
+    against existing assessment tools, revealing each interstice's strengths
+    and weaknesses to guide public space design.
+  image: faried.jpg
 - surname: Prikazchikov
   name: Stepan
   cohort: 2026sep
   phase: Kick-off
+  title: Suitability & Prioritisation of Nature based Solutions in the Mediterranean
+    and Atlantic Coast
   supervisors: Daniele Cannatella; Claudiu Forgaci
+  summary: This thesis proposal addresses the challenge of planning nature-based
+    solutions in multi-hazard coastal regions by developing a spatial decision
+    support system for the Mediterranean and Atlantic coasts. Using open spatial
+    data and multi-criteria methods, it combines expert pairwise comparisons
+    on hazards, ecosystem services and socio-economic factors with decision-maker
+    preferences to map suitability and rank candidate interventions. Outputs
+    are presented through maps and an interactive viewer, piloted for a Croatian
+    coastal county. The expected outcome is a framework and working tool that
+    provide a transparent evidence base for iterative co-design of climate
+    adaptation portfolios.
+  image: stepan.jpg
+- surname: Scherrenburg
+  name: Anna
+  cohort: 2026sep
+  phase: Kick-off
+  title: Development of a API to automatically exchange CityGML + Energy ADE
+    data to automatize Energy Performance Certification
+  supervisors: Giorgio Agugiaro; Hiba Doi
   needs_summary: true
 - surname: Schoonderwoerd
   name: Kelly
@@ -32,13 +72,37 @@
   phase: Kick-off
   title: 'Japan’s PLATEAU: from CityGML to CityJSON'
   supervisors: Hugo Ledoux; Hidemichi Baba
-  needs_summary: true
+  summary: This thesis proposal studies how Japan's Project PLATEAU 3D city
+    models, published as CityGML enriched with attributes from the i-Urban
+    Revitalization Application Domain Extension, can be converted to the compact,
+    developer-friendly CityJSON format while retaining that domain-specific
+    data, which existing conversion tools discard. It analyses the building
+    attributes of the i-UR Urban Object Module, selects the essential ones,
+    and maps them into a CityJSON Extension, evaluating conversion losses
+    on PLATEAU datasets from Tokyo and Hachioji. The extension is then used
+    to add CityJSON support to the PLATEAU-GIS-Converter, making these open
+    3D city models more accessible to researchers and developers.
+  image: kelly.jpg
 - surname: van der Meer
   name: Mark
   cohort: 2026sep
   phase: Kick-off
   title: 'CityGit: a version control system for 3D city models'
   supervisors: Hugo Ledoux; Hidemichi Baba
+  summary: 'This thesis proposal addresses the absence of a robust version
+    control system for 3D city models: existing tools detect changes through
+    graph representations that flag inconsequential differences, overlook
+    geometry, and inflate file sizes. It develops a Git-inspired versioning
+    tool on top of the CityJSON encoding, aiming for format neutrality across
+    encodings such as CityGML. Changes between versions are detected through
+    attribute comparisons and the Hausdorff distance metric, while Git-like
+    object storage keeps repositories compact. The expected outcome is a scalable,
+    user-friendly tool for tracking a city model''s development over time.'
+  image: mark.jpg
+- surname: Cermann
+  name: Moritz
+  cohort: 2026sep
+  phase: Preparation
   needs_summary: true
 - surname: Floroiu
   name: Darius
@@ -60,18 +124,15 @@
   cohort: 2026sep
   phase: Preparation
   needs_summary: true
+- surname: Pradeep
+  name: Niranjan
+  cohort: 2026sep
+  phase: Preparation
+  needs_summary: true
 - surname: Sanfuentes
   name: Jaime Vergara
   cohort: 2026sep
   phase: Preparation
-  needs_summary: true
-- surname: Scherrenburg
-  name: Anna
-  cohort: 2026sep
-  phase: Preparation
-  title: Development of a API to automatically exchange CityGML + Energy ADE
-    data to automatize Energy Performance Certification
-  supervisors: Giorgio Agugiaro; Hiba Doi
   needs_summary: true
 - surname: Garcia Mezo
   name: Juan
@@ -99,7 +160,17 @@
   title: Applying Implicit Neural Representations to Landsat Thermal Infrared
     Imagery for Super-Resolution
   supervisors: Azarakhsh Rafiee; Roderik Lindenbergh; Massimo Menenti
-  needs_summary: true
+  summary: This thesis proposal applies an implicit neural representation
+    (INR) to Landsat 8/9 thermal infrared imagery, whose 30-m product is merely
+    interpolated from the 100-m native resolution, to recover land surface
+    temperature detail that interpolation cannot. A convolutional encoder
+    is paired with a SIREN-based decoder that predicts temperature at continuous
+    coordinates, pretrained on 120-m downsampled imagery and fine-tuned with
+    a dual-head design, one branch regularised by a 10-m Sentinel-2 land cover
+    map. Evaluated over irrigated fields and desert in Arizona, the approach
+    aims to deliver sharper, more accurate 10-m temperature estimates for
+    crop water-stress monitoring.
+  image: danny.jpg
 - surname: Winterdal
   name: Josephine
   cohort: 2026feb

@@ -17,7 +17,9 @@ jekyll build --trace
 # Pull thesis metadata (title, supervisors, planning, agreements, ...) for
 # all open + closed cases from MyCase into mycase/ (gitignored; requires
 # NetID + MFA login in a browser window on first run, python requests +
-# playwright). Use to check whether _data/theses_*.yml is complete.
+# playwright). Use to check whether _data/theses_*.yml is complete. Fake
+# students registered to test MyCase (e.g. Friso Kaljee, student number
+# 5759250) are ignored by the scripts — never add them to the site data.
 python3 scripts/fetch_mycase.py
 
 # Clean + enrich the completed-thesis archive (_data/geotheses.yml) from the
@@ -107,9 +109,10 @@ After each graduation round (or whenever, really):
 
 1. `python3 scripts/fetch_mycase.py` — refresh MyCase data (login needed).
 2. `python3 scripts/update_theses.py` — sync the Current Theses page:
-   write a proposal summary (+ image in `theses/img/`, name it in the
+   write a proposal summary (+ image in `ongoing/img/`, name it in the
    entry) for each `needs_summary` starter and drop the flag; check the
-   COHORT notes (February starts are ambiguous in MyCase).
+   COHORT notes (February starts are ambiguous in MyCase). See
+   "Ongoing-thesis summaries and images" below for how.
 3. When students have their final thesis: run
    `python3 scripts/enrich_geotheses.py` — it appends closed cases that
    are missing from the archive, fetches their repository records
@@ -138,6 +141,59 @@ Once a year or so (papers appear long after graduation):
    of archived theses (`reports/papers_report.md`). Add the good
    candidates to the entries' `paper:` field and record rejected ones
    in `scripts/verified_papers.yml` so they stop reappearing.
+
+## Ongoing-thesis summaries and images
+
+Students upload their graduation plan (A1 proposal) to MyCase as a file
+roughly one week before their kick-off, categorised
+`msc-gra-project-kickoff` (status may be `draft` or `for_review` — both
+are fine to use). Cases in the Preparation phase and freshly created
+ones have no files yet; leave those `needs_summary`. The five tab
+endpoints fetched by `scripts/fetch_mycase.py` do NOT include uploads —
+fetch plans separately, reusing that script's `Tokens`/`MyCase` classes
+(import it; if the saved session is older than ~25 min the refresh
+fails and a browser login opens):
+
+- list files:  `GET /mycase/api/v1/files/?caseid={case_uuid}`
+- download:    `GET /mycase/api/v1/files/{file_id}/download/?caseid={case_uuid}`
+
+Both need the case *UUID* (`case_uuid` in `mycase/cases/*.json`), not
+the numeric case id. The download needs a PDF-friendly `Accept` header
+(`application/pdf, application/octet-stream, */*`) — the tab API's
+`Accept: application/json` returns 406. Check the planning tab's
+kick-off dates to see who should have a plan by now.
+
+Summaries (max 100 words, one paragraph):
+
+- Extract the PDF text with pymupdf (`page.get_text()`); extraction is
+  usually clean, but lean on abstract / introduction / research
+  questions / methodology when tables scramble.
+- Third person, present tense, opening "This thesis proposal …",
+  covering problem → method/data → goal. No markdown, citations or
+  names. Match the register of the existing summaries in
+  `_data/ongoing_theses.yml`.
+- Delegating one sub-agent per proposal (give it the extracted text,
+  these constraints and the registered title) works well; afterwards
+  spot-check a few specific claims against the PDF text.
+- Set the entry's `summary:` field, delete its `needs_summary:` flag,
+  and rewrite the file with `update_theses.write_yaml()` to keep the
+  formatting.
+
+Images (`ongoing/img/<firstname>.jpg`, RGB JPEG ≤ 800 px wide):
+
+- Extract the PDF's embedded images with pymupdf
+  (`doc.extract_image(xref)`, keep those ≥ 150 px), build a labelled
+  contact sheet per student and pick the most representative figure by
+  actually looking at it (methodology overview, study-area map, key
+  data). Dark-mode figures and text-heavy diagrams read badly at the
+  96 px thumbnail size; portrait/square figures work best.
+- Figures drawn as vectors are not in the embedded images: locate the
+  figure on the rendered page and crop it with
+  `page.get_pixmap(dpi=300, clip=rect)`.
+- Set the entry's `image:` field to the filename. The thumbnail box is
+  A4-shaped with `object-fit: contain`, so wide figures letterbox —
+  that is accepted (see juan/josephine/segher), but prefer shapelier
+  figures for new entries.
 
 ## Deployment
 

@@ -74,6 +74,13 @@ TITLE_TO_COLUMN = {
 }
 LIST_COLUMNS = list(TITLE_TO_COLUMN.values())
 
+# Fake students registered in MyCase to test the system itself: skipped at
+# fetch time so they never reach the site data. Must stay in sync with
+# IGNORED_MYCASE_* in scripts/enrich_geotheses.py, which filters them from
+# already-fetched data as well.
+IGNORED_MYCASE_NUMBERS = {"5759250"}
+IGNORED_MYCASE_NAMES = {"Friso Kaljee"}
+
 INDEX_COLUMNS = [
     "student_name", "student_number", "student_email", "status", "phase",
     "course_code", "course_year", "ec_points",
@@ -441,6 +448,9 @@ def main() -> int:
 
     mc = MyCase(tokens)
     cases = mc.search_cases("closed") + mc.search_cases("open")
+    cases = [c for c in cases
+             if c.get("student_number", "") not in IGNORED_MYCASE_NUMBERS
+             and c.get("student_name", "").strip() not in IGNORED_MYCASE_NAMES]
     if args.limit:
         cases = cases[:args.limit]
     print(f"Collected {len(cases)} cases.", flush=True)

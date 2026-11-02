@@ -41,6 +41,11 @@
 	color: #fff;
 }
 
+.tag.is-phase-finalisation {
+	background-color: var(--phase-finalisation);
+	color: #fff;
+}
+
 /* Dark mode via OS preference (unless user explicitly chose light) */
 @media (prefers-color-scheme: dark) {
 	html:not(.light-mode) .has-background-danger-60 {

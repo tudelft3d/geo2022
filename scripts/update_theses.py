@@ -38,7 +38,7 @@ DATA_FILE = REPO_ROOT / "_data" / "ongoing_theses.yml"
 FIELD_ORDER = ["surname", "name", "cohort", "phase", "title", "supervisors",
                "summary", "image", "needs_summary"]
 PHASE_RANK = {"preparation": 1, "kick-off": 2, "midterm": 3,
-              "green light": 4}
+              "green light": 4, "finalisation": 5}
 TERM_RANK = {"feb": 1, "april": 2, "sep": 3}
 
 
@@ -87,7 +87,8 @@ def main():
         print(f"No {eg.MYCASE_CSV} — run scripts/fetch_mycase.py first.")
         return 1
     with eg.MYCASE_CSV.open(encoding="utf-8") as f:
-        open_cases = [r for r in csv.DictReader(f) if r["status"] == "open"]
+        open_cases = [r for r in csv.DictReader(f) if r["status"] == "open"
+                      and not eg.mycase_ignored(r)]
 
     entries = yaml.safe_load(DATA_FILE.read_text()) or []
 

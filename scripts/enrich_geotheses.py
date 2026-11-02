@@ -50,6 +50,16 @@ CACHE_DIR = REPO_ROOT / ".geotheses_cache"
 REPORT_FILE = REPO_ROOT / "reports" / "geotheses_report.md"
 MYCASE_CSV = REPO_ROOT / "mycase" / "mycase_index.csv"
 
+# Fake students registered in MyCase to test the system itself; they must
+# never reach the public site. Matched by student number or exact name.
+IGNORED_MYCASE_NUMBERS = {"5759250"}
+IGNORED_MYCASE_NAMES = {"Friso Kaljee"}
+
+
+def mycase_ignored(row) -> bool:
+    return (row.get("student_number", "") in IGNORED_MYCASE_NUMBERS
+            or (row.get("student_name") or "").strip() in IGNORED_MYCASE_NAMES)
+
 RECORD_URL = "https://repository.tudelft.nl/record/uuid:{uuid}"
 RESOLVER_URL = "https://resolver.tudelft.nl/uuid:{uuid}"
 USER_AGENT = ("geo2022-site-maintainer/1.0 "
@@ -333,7 +343,8 @@ def mycase_closed():
     if not MYCASE_CSV.exists():
         return []
     with MYCASE_CSV.open(encoding="utf-8") as f:
-        return [r for r in csv.DictReader(f) if r["status"] == "closed"]
+        return [r for r in csv.DictReader(f) if r["status"] == "closed"
+                and not mycase_ignored(r)]
 
 
 def mycase_supervisors(row):
