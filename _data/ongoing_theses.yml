@@ -103,6 +103,8 @@
   name: Moritz
   cohort: 2026sep
   phase: Preparation
+  title: Open Vocabulary Scene Understanding (3D & Satellite Imagery)
+  supervisors: Liangliang Nan
   needs_summary: true
 - surname: Floroiu
   name: Darius
