@@ -3459,7 +3459,33 @@
     semantic 3D city models
   supervisors: Camilo León Sánchez; Giorgio Agugiaro
   year: 2024
+  graduation_date: '2024-10-29'
+  link: https://resolver.tudelft.nl/uuid:d97174a3-3e1b-4e64-8de0-33a6ec2c48b2
+  image: 2024_Xu.jpg
   paper: https://repository.tudelft.nl/record/uuid:5a8d60e7-ac2b-4786-b003-57f3007a473c
+  abstract: Solar energy is essential for the transition to a net-zero energy
+    system. It serves not only as a renewable energy source but also influences
+    local climate, thereby affecting human energy consumption patterns. However,
+    solar energy is inherently unstable, particularly in urban environments,
+    where shading and sky visibility can change rapidly, even within short
+    distances and timeframes. These characteristics lead to the underutilization
+    of solar energy. As a result, accurately simulating solar irradiance in
+    urban environments and at city-scale is crucial for reducing the gap between
+    predicted and actual energy demand and supply in urban energy systems,
+    helping to minimize energy waste. This thesis develops, implements, and
+    tests a scalable, high-resolution, and realistic solar irradiance simulation
+    tool using Semantic 3D City Model (3DCM). The methodology specifically
+    accounts for the complexities of urban environments while maintaining
+    manageable computational overhead. It includes shadow calculation based
+    on Bounding Volume Hierarchy (BVH) for direct beam irradiance, viewshed
+    calculation for sky diffuse irradiance, and an iterative global reflective
+    irradiance calculation using semantic viewshed and scene voxelization.
+    The results demonstrate that the method achieves higher accuracy, particularly
+    under clear-sky conditions, while maintaining computational efficiency.
+    For a city model covering 35 km² with over 4 million surfaces and 16 million
+    sample points, the simulation for 54 timesteps can be completed in approximately
+    27 hours on a consumer-level laptop.
+  uuid: d97174a3-3e1b-4e64-8de0-33a6ec2c48b2
   paper_label: journal article
 - surname: Yang
   name: Yue
