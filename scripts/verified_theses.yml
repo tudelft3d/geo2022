@@ -1420,3 +1420,154 @@
   programme: not Geomatics
   note: title page says Geoscience and Remote Sensing; PDF-checked
     2026-11-04
+
+# --- the 2026-11 keyword-filtered repository sweep's 'likely' bucket
+# --- (no Programme field on the record; MSc programme from the thesis
+# --- PDFs: title page, committee page or acknowledgements)
+
+- author: J.C. Morris
+  year: 2013
+  programme: not Geomatics
+  note: no programme statement in the PDF; graduation committee is
+    coastal engineering (Stive chair, Deltares) and no Geomatics mention
+    anywhere; PDF-checked 2026-11-04
+- author: H. Vanhaekendover
+  year: 2013
+  programme: not Geomatics
+  note: preface says the MSc program at the department of Applied Earth
+    Sciences; PDF-checked 2026-11-04
+- author: M. Haagsma
+  year: 2015
+  programme: not Geomatics
+  note: acknowledgements name Remote Sensing and Geoscience at TU Delft;
+    PDF-checked 2026-11-04
+- author: D.S. Wesselink
+  year: 2015
+  programme: not Geomatics
+  note: title page says Master of Science in Geoscience and Remote
+    Sensing; PDF-checked 2026-11-04
+- author: T.J. Lips
+  year: 2016
+  programme: not Geomatics
+  note: thesis is part of the Geoscience and Remote Sensing program;
+    PDF-checked 2026-11-04
+- author: Gaston Haagmans
+  year: 2017
+  programme: not Geomatics
+  note: PDF says Geoscience and Remote Sensing, TU Delft; PDF-checked
+    2026-11-04
+- author: Stijn Pinson
+  year: 2017
+  programme: not Geomatics
+  note: acknowledgements say MsC Geoscience and Remote Sensing;
+    PDF-checked 2026-11-04
+- author: Charlotte Groen
+  year: 2017
+  programme: not Geomatics
+  note: title verso says TU Delft, Geoscience and Remote Sensing
+    (appendix calls it a Water Management MSc thesis); PDF-checked
+    2026-11-04
+- author: Maarten de Groot
+  year: 2017
+  programme: not Geomatics
+  note: PDF says Geoscience & Remote Sensing; PDF-checked 2026-11-04
+- author: Andrea Macarulla Rodriguez
+  year: 2017
+  programme: not Geomatics
+  note: PDF says it fills the graduation requirements of the Geoscience
+    & Remote Sensing Master Program; PDF-checked 2026-11-04
+- author: Dirk van der Valk
+  year: 2017
+  programme: not Geomatics
+  note: title page says Master of Science in Geoscience and Remote
+    Sensing; PDF-checked 2026-11-04
+- author: Eva Stierman
+  year: 2017
+  programme: not Geomatics
+  note: no programme statement in the PDF and no Geomatics mention
+    anywhere; committee and topic (Sentinel-3 water quality) indicate
+    GRS; PDF-checked 2026-11-04
+- author: Auke Blokland
+  year: 2018
+  programme: not Geomatics
+  note: acknowledgements place Hanssen and van Leijen at the Department
+    of Geoscience and Remote Sensing; PDF-checked 2026-11-04
+- author: Adriaan van Natijne
+  year: 2018
+  programme: not Geomatics
+  note: van Oosterom sits on the committee, but the PDF never mentions
+    Geomatics and Lindenbergh's doris.tudelft.nl education page lists
+    the MSc track as Geoscience and Remote Sensing; checked 2026-11-04
+- author: Vera Hollander
+  year: 2018
+  programme: not Geomatics
+  note: title page says Master of Science in Civil Engineering (TU
+    Delft, Geoscience and Remote Sensing); PDF-checked 2026-11-04
+- author: Martijn Mulder
+  year: 2018
+  programme: not Geomatics
+  note: no programme statement in the PDF and no Geomatics mention
+    anywhere; committee and topic (passive microwave remote sensing)
+    indicate GRS; PDF-checked 2026-11-04
+- author: Lexy Ratering Arntz
+  year: 2018
+  programme: not Geomatics
+  note: preface says the thesis completes the engineering degree at the
+    faculty of Civil Engineering and Geosciences; PDF-checked 2026-11-04
+- author: Pang Pang
+  year: 2018
+  programme: not Geomatics
+  note: PDF places the thesis at the Department of Geoscience and Remote
+    Sensing; PDF-checked 2026-11-04
+- author: Anna Luisa Hemshorn de Sanchez
+  year: 2018
+  programme: not Geomatics
+  note: PDF names Water Management; PDF-checked 2026-11-04
+- author: Kirsten van Dongen
+  year: 2019
+  programme: not Geomatics
+  note: PDF says the thesis was done in collaboration with the
+    Geoscience and Remote Sensing and Water Management departments;
+    PDF-checked 2026-11-04
+- author: kevin Groot
+  year: 2019
+  programme: not Geomatics
+  note: PDF says Geoscience and Remote Sensing / Water Management;
+    PDF-checked 2026-11-04
+- author: Evert Mulder
+  year: 2019
+  programme: not Geomatics
+  note: title page says in Geoscience and Remote Sensing; PDF-checked
+    2026-11-04
+- author: Job Rosier
+  year: 2019
+  programme: not Geomatics
+  note: title page says Master of Science in Civil Engineering;
+    PDF-checked 2026-11-04
+- author: J.C. Wiggins
+  year: 2020
+  programme: not Geomatics
+  note: PDF says Geoscience and Remote Sensing (TU Delft side; the
+    Geomatics Engineering (ITS) mention is the Indonesian partner
+    institute); PDF-checked 2026-11-04
+- author: Sean Zandbergen
+  year: 2020
+  programme: not Geomatics
+  note: no programme statement in the PDF and no Geomatics mention
+    anywhere; committee is hydraulic/coastal engineering (Aarninkhof
+    chair); PDF-checked 2026-11-04
+- author: S. de Roda Husman
+  year: 2020
+  programme: not Geomatics
+  note: no programme statement in the PDF; committee and topic
+    (polarimetric SAR) indicate GRS; PDF-checked 2026-11-04
+- author: Vita Sandhu
+  year: 2020
+  programme: not Geomatics
+  note: PDF says Master of Science in Civil Engineering; PDF-checked
+    2026-11-04
+- author: Veronica Tollenaar
+  year: 2020
+  programme: not Geomatics
+  note: no programme statement in the PDF; committee (glaciology/GRS)
+    and topic indicate GRS; PDF-checked 2026-11-04

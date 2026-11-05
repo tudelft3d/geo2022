@@ -7,122 +7,10 @@ The archive holds 328 theses. Sweeping the repository for MSc theses supervised 
 The repository record's Programme field names Geomatics.
 
 
-## Likely (28)
+## Likely (0)
 
 Pre-2017 records have no Programme field; these have a mentor whose initials and surname match a supervisor on the list. Check the PDF title page.
 
-- **J.C. Morris (2013)** — Estimation of the Nearshore Bathymetry using Remote Sensing Techniques
-  - mentors/coaches: M.J.F. Stive; A.R. van Dongeren; J.S.M. van Thiel de Vries; C. Brière; R.C. Lindenbergh; R. Holman
-  - supervisor surnames on the record: Lindenbergh, Vries
-  - record: https://resolver.tudelft.nl/uuid:c2b51c70-7ff2-46c8-bc0c-5d88f8c59498
-- **H. Vanhaekendover (2013)** — In-situ block size estimation using 3D terrestrial data
-  - mentors/coaches: M. Buxton; D.M.J. Ngan-Tillard; R.C. Lindenbergh; U. Wezenberg; S. Slob
-  - supervisor surnames on the record: Lindenbergh, Ngan-Tillard
-  - record: https://resolver.tudelft.nl/uuid:0fdc0800-767f-49f5-ad9f-47188851e0df
-- **M. Haagsma (2015)** — Crop monitoring with Radar
-  - mentors/coaches: S. Steele-Dunne
-  - supervisor surnames on the record: Steele-Dunne
-  - record: https://resolver.tudelft.nl/uuid:06ff84a1-a55b-475a-8e99-6181d56b1720
-- **D.S. Wesselink (2015)** — Optimisation of Method for Snow Avalanche Detection in SAR images
-  - mentors/coaches: R. Klees; R.C. Lindenbergh; E. Malnes
-  - supervisor surnames on the record: Klees, Lindenbergh
-  - record: https://resolver.tudelft.nl/uuid:d67ed37b-95ee-48fd-a9d9-8ea5e0988bf6
-- **T.J. Lips (2016)** — Estimating ground surface motion from historical maps
-  - mentors/coaches: H. van der Marel
-  - supervisor surnames on the record: Van der Marel
-  - record: https://resolver.tudelft.nl/uuid:ced3e52f-5912-437c-b47b-d93828fea4cc
-- **Gaston Haagmans (2017)** — A statistical analysis on the system performance of a Bluetooth Low Energy indoor positioning system in a 3D environment
-  - mentors/coaches: Sandra Verhagen
-  - supervisor surnames on the record: Hanssen, Verbree, Verhagen, Voûte
-  - record: https://resolver.tudelft.nl/uuid:b91e1ec5-7c81-4fcc-b34c-654b9da2140c
-- **Stijn Pinson (2017)** — Design and implementation of a novel method for creating glacial velocity time series for the Himalayan region using the optical Landsat database
-  - mentors/coaches: Roderik Lindenbergh; N Gourmelen
-  - supervisor surnames on the record: Lhermitte, Lindenbergh, Menenti
-  - record: https://resolver.tudelft.nl/uuid:14b4ee4d-3c39-4c77-bdae-21881570d297
-- **Charlotte Groen (2017)** — Efficient Water Use in Agriculture
-  - mentors/coaches: Wim Bastiaanssen; J.C. van Dam; Susan Steele-Dunne; Silvia Alfieri
-  - supervisor surnames on the record: Steele-Dunne
-  - record: https://resolver.tudelft.nl/uuid:5d08ee9d-c9fa-483a-b790-6d786048688a
-- **Maarten de Groot (2017)** — GNSS performance monitoring
-  - mentors/coaches: Hans van der Marel; A. van den Berg
-  - supervisor surnames on the record: Hanssen, Simons, Van der Marel
-  - record: https://resolver.tudelft.nl/uuid:87165b43-433a-451c-b7c7-6ea7a8b90a5e
-- **Andrea Macarulla Rodriguez (2017)** — Google Timeline Geolocation Accuracy
-  - mentors/coaches: C.C.J.M. Tiberius; R. van Bree; G. Janssen; R. Hansen
-  - supervisor surnames on the record: Tiberius
-  - record: https://resolver.tudelft.nl/uuid:d8653d95-b2ec-48c5-9e28-0e69758d9053
-- **Dirk van der Valk (2017)** — Remote Sensing of Japanese WWII airstrips in the Papua Province Republic of Indonesia
-  - mentors/coaches: Roderik Lindenbergh; Ramon Hanssen
-  - supervisor surnames on the record: Hanssen, Lindenbergh
-  - record: https://resolver.tudelft.nl/uuid:e19a6102-9c06-40e0-a13a-16f7138fbeac
-- **Eva Stierman (2017)** — Remote sensing of North Sea water quality
-  - note: record page gave no mentor names; initials matched in the search data only
-  - supervisor surnames on the record: Lindenbergh
-  - record: https://resolver.tudelft.nl/uuid:b65ed15f-5024-492b-b242-cd5428ebd11f
-- **Auke Blokland (2018)** — Locating potential landing zones with the help of digital surface models
-  - mentors/coaches: Ramon Hanssen
-  - supervisor surnames on the record: Hanssen, Heide, Voûte, van Leijen
-  - record: https://resolver.tudelft.nl/uuid:3a923f70-dd0e-4211-9826-7464960ffe3a
-- **Adriaan van Natijne (2018)** — Locating PS-InSAR derived deformation using LiDAR point clouds
-  - mentors/coaches: Ramon Hanssen; Roderik Lindenbergh; P.J.M. van Oosterom
-  - supervisor surnames on the record: Hanssen, Lindenbergh, Oosterom
-  - record: https://resolver.tudelft.nl/uuid:a3009786-9b1b-4e57-ae1a-23aef33bcfa5
-- **Vera Hollander (2018)** — Mapping of farmer-led irrigated agriculture with remote sensing
-  - mentors/coaches: Susan Steele-Dunne; Wouter Beekman
-  - supervisor surnames on the record: Steele-Dunne
-  - record: https://resolver.tudelft.nl/uuid:4dfe855e-5291-408d-a236-efd7e17e8f15
-- **Martijn Mulder (2018)** — Monitoring land restoration projects of Justdiggit in Kenya, using downscaled passive microwave remote sensing products of VanderSat
-  - mentors/coaches: Susan Steele-Dunne
-  - supervisor surnames on the record: Steele-Dunne
-  - record: https://resolver.tudelft.nl/uuid:86a24122-e3b5-4cc7-b580-f70fdecb78f8
-- **Lexy Ratering Arntz (2018)** — The impact of salinity intrusion on rice productivity
-  - mentors/coaches: Susan Steele-Dunne
-  - supervisor surnames on the record: Steele-Dunne
-  - record: https://resolver.tudelft.nl/uuid:feadd1b1-1997-4bae-ba41-58dd2e2656cd
-- **Pang Pang (2018)** — Tightly coupled GNSS/map-based monocular vision in vehicle positioning
-  - mentors/coaches: Christiaan Tiberius
-  - supervisor surnames on the record: Hanssen, Tiberius
-  - record: https://resolver.tudelft.nl/uuid:4786d718-3d54-4b96-bc6b-d6763f8827f0
-- **Anna Luisa Hemshorn de Sanchez (2018)** — Vegetation Optical Depth: its potential as an agricultural drought indicator
-  - mentors/coaches: Susan Steele-Dunne; Richard de Jeu
-  - supervisor surnames on the record: Sanchez, Steele-Dunne
-  - record: https://resolver.tudelft.nl/uuid:29d144ff-8116-4162-bc89-d8acbaf28423
-- **Kirsten van Dongen (2019)** — Community mapped elevation through a low-cost, dual-frequency GNSS receiver
-  - mentors/coaches: Christian Tiberius; Hessel Winsemius; Ramon Hanssen; Rolf Hut
-  - supervisor surnames on the record: Hanssen, Tiberius
-  - record: https://resolver.tudelft.nl/uuid:72b12a39-bd7b-4643-942b-a9091aaf10a9
-- **kevin Groot (2019)** — Do the newly developed models of bare soil surface reflectance and thermal infrared image analysis improve the spatial estimation of soil water properties in the Noordoostpolder region, The Netherlands?
-  - mentors/coaches: Silvia Alfieri; Wim Bastiaanssen
-  - supervisor surnames on the record: Lhermitte
-  - record: https://resolver.tudelft.nl/uuid:2635a6b2-201c-4623-935f-9b1959a37ea3
-- **Evert Mulder (2019)** — Integrity Monitoring (IM) for the Singapore Satellite Positioning Reference Network (SiReNT) infrastructure
-  - mentors/coaches: S. Verhagen
-  - supervisor surnames on the record: Teunissen, Verhagen
-  - record: https://resolver.tudelft.nl/uuid:b9364fd0-6a3e-402f-82e8-ea3e546c980f
-- **Job Rosier (2019)** — Stability of the floating ice shelf of the Petermann glacier and its response to a changing environment
-  - mentors/coaches: Stef Lhermitte
-  - supervisor surnames on the record: Lhermitte
-  - record: https://resolver.tudelft.nl/uuid:33bc746a-472d-4919-af26-e12896bf9abb
-- **J.C. Wiggins (2020)** — Estimating Total Suspended Matter in Low to Extremely High Level Turbid River Surface Waters using a WISP-3 Hyperspectral Radiometer and Sentinel-2 Optical Imagery
-  - mentors/coaches: M.W. Ertsen
-  - supervisor surnames on the record: Lhermitte
-  - record: https://resolver.tudelft.nl/uuid:770fd557-7054-450e-8edb-c61afa246e46
-- **Sean Zandbergen (2020)** — Multi-case Evaluation of Empirical Methods for Satellite-Derived Bathymetry
-  - mentors/coaches: Stefan Aarninkhof; Roeland de Zeeuw; Roderik Lindenbergh; Arjen Luijendijk
-  - supervisor surnames on the record: Lindenbergh
-  - record: https://resolver.tudelft.nl/uuid:fb907dc4-4d8b-4660-bb83-a09c200058c3
-- **S. de Roda Husman (2020)** — Polarimetric SAR signals of river ice breakup
-  - mentors/coaches: S.L.M. Lhermitte; F.J. Lopez Dekker; M.A. Eleveld; J.J. van der Sanden
-  - supervisor surnames on the record: Lhermitte
-  - record: https://resolver.tudelft.nl/uuid:7ff91ab2-4af5-4672-825f-f018a947c935
-- **Vita Sandhu (2020)** — Quantifying Agricultural Intensification in the US
-  - mentors/coaches: S.C. Steele-Dunne; Richard de Jeu
-  - supervisor surnames on the record: Steele-Dunne
-  - record: https://resolver.tudelft.nl/uuid:bc2b42d4-6af0-4a96-96d6-e19ff36b1e95
-- **Veronica Tollenaar (2020)** — Towards an Antarctic meteorite hotspot map
-  - mentors/coaches: Harry Zekollari; Stef Lhermitte
-  - supervisor surnames on the record: Lhermitte, Lindenbergh
-  - record: https://resolver.tudelft.nl/uuid:a1b5b764-0ba0-42d1-8918-3e681a24a4a1
 
 ## Named another programme (140)
 
@@ -849,7 +737,7 @@ Same surname among the mentors, but the initials point to someone else (or no us
   - supervisor surnames on the record: Wang
   - record: https://resolver.tudelft.nl/uuid:971a5690-23ec-47a1-9172-183a90b76176
 
-## Verified non-Geomatics (18)
+## Verified non-Geomatics (46)
 
 Already verdict-ed in scripts/verified_theses.yml.
 
@@ -897,14 +785,34 @@ Already verdict-ed in scripts/verified_theses.yml.
   - mentors/coaches: W. Quak; P. van Oosterom; R. De By
   - supervisor surnames on the record: Oosterom, Quak
   - record: https://resolver.tudelft.nl/uuid:a47d3b8e-650a-4152-a310-366db0773848
+- **J.C. Morris (2013)** — Estimation of the Nearshore Bathymetry using Remote Sensing Techniques
+  - mentors/coaches: M.J.F. Stive; A.R. van Dongeren; J.S.M. van Thiel de Vries; C. Brière; R.C. Lindenbergh; R. Holman
+  - supervisor surnames on the record: Lindenbergh, Vries
+  - record: https://resolver.tudelft.nl/uuid:c2b51c70-7ff2-46c8-bc0c-5d88f8c59498
+- **H. Vanhaekendover (2013)** — In-situ block size estimation using 3D terrestrial data
+  - mentors/coaches: M. Buxton; D.M.J. Ngan-Tillard; R.C. Lindenbergh; U. Wezenberg; S. Slob
+  - supervisor surnames on the record: Lindenbergh, Ngan-Tillard
+  - record: https://resolver.tudelft.nl/uuid:0fdc0800-767f-49f5-ad9f-47188851e0df
 - **T. De Boer (2014)** — Assessing the Accuracy of Water Temperature Determination and Monitoring of Inland Surface Waters Using Landsat 7 ETM+ Thermal Infrared Images
   - mentors/coaches: N.C. van de Giesen; M. Menenti; S.C. Steele-Dunne; E.L.A. Wolters; P.C.M. Jeurissen
   - supervisor surnames on the record: Menenti, Steele-Dunne
   - record: https://resolver.tudelft.nl/uuid:38440247-a7ab-4ee5-9987-0cda923044dc
+- **M. Haagsma (2015)** — Crop monitoring with Radar
+  - mentors/coaches: S. Steele-Dunne
+  - supervisor surnames on the record: Steele-Dunne
+  - record: https://resolver.tudelft.nl/uuid:06ff84a1-a55b-475a-8e99-6181d56b1720
+- **D.S. Wesselink (2015)** — Optimisation of Method for Snow Avalanche Detection in SAR images
+  - mentors/coaches: R. Klees; R.C. Lindenbergh; E. Malnes
+  - supervisor surnames on the record: Klees, Lindenbergh
+  - record: https://resolver.tudelft.nl/uuid:d67ed37b-95ee-48fd-a9d9-8ea5e0988bf6
 - **E.F. Prentice (2016)** — Characterizing Sedimentary Outcrops with Laser Scanning
   - mentors/coaches: M. Menenti; R.C. Lindenbergh; H.A. Abels; J.C. Blom
   - supervisor surnames on the record: Lindenbergh, Menenti
   - record: https://resolver.tudelft.nl/uuid:53162191-54e3-4ec1-bd3b-58ec11d0915b
+- **T.J. Lips (2016)** — Estimating ground surface motion from historical maps
+  - mentors/coaches: H. van der Marel
+  - supervisor surnames on the record: Van der Marel
+  - record: https://resolver.tudelft.nl/uuid:ced3e52f-5912-437c-b47b-d93828fea4cc
 - **N. Treffers (2016)** — Next Generation Precise Satellite Positioning
   - mentors/coaches: P.J.G. Teunissen; A.A. Verhagen; R.C. Lindenbergh
   - supervisor surnames on the record: Lindenbergh, Teunissen, Verhagen
@@ -913,14 +821,106 @@ Already verdict-ed in scripts/verified_theses.yml.
   - mentors/coaches: Roderik Lindenbergh
   - supervisor surnames on the record: Lindenbergh, Menenti
   - record: https://resolver.tudelft.nl/uuid:4c1fe634-d603-472c-a198-05126dd5ff0d
+- **Gaston Haagmans (2017)** — A statistical analysis on the system performance of a Bluetooth Low Energy indoor positioning system in a 3D environment
+  - mentors/coaches: Sandra Verhagen
+  - supervisor surnames on the record: Hanssen, Verbree, Verhagen, Voûte
+  - record: https://resolver.tudelft.nl/uuid:b91e1ec5-7c81-4fcc-b34c-654b9da2140c
+- **Stijn Pinson (2017)** — Design and implementation of a novel method for creating glacial velocity time series for the Himalayan region using the optical Landsat database
+  - mentors/coaches: Roderik Lindenbergh; N Gourmelen
+  - supervisor surnames on the record: Lhermitte, Lindenbergh, Menenti
+  - record: https://resolver.tudelft.nl/uuid:14b4ee4d-3c39-4c77-bdae-21881570d297
+- **Charlotte Groen (2017)** — Efficient Water Use in Agriculture
+  - mentors/coaches: Wim Bastiaanssen; J.C. van Dam; Susan Steele-Dunne; Silvia Alfieri
+  - supervisor surnames on the record: Steele-Dunne
+  - record: https://resolver.tudelft.nl/uuid:5d08ee9d-c9fa-483a-b790-6d786048688a
+- **Maarten de Groot (2017)** — GNSS performance monitoring
+  - mentors/coaches: Hans van der Marel; A. van den Berg
+  - supervisor surnames on the record: Hanssen, Simons, Van der Marel
+  - record: https://resolver.tudelft.nl/uuid:87165b43-433a-451c-b7c7-6ea7a8b90a5e
+- **Andrea Macarulla Rodriguez (2017)** — Google Timeline Geolocation Accuracy
+  - mentors/coaches: C.C.J.M. Tiberius; R. van Bree; G. Janssen; R. Hansen
+  - supervisor surnames on the record: Tiberius
+  - record: https://resolver.tudelft.nl/uuid:d8653d95-b2ec-48c5-9e28-0e69758d9053
+- **Dirk van der Valk (2017)** — Remote Sensing of Japanese WWII airstrips in the Papua Province Republic of Indonesia
+  - mentors/coaches: Roderik Lindenbergh; Ramon Hanssen
+  - supervisor surnames on the record: Hanssen, Lindenbergh
+  - record: https://resolver.tudelft.nl/uuid:e19a6102-9c06-40e0-a13a-16f7138fbeac
+- **Eva Stierman (2017)** — Remote sensing of North Sea water quality
+  - note: record page gave no mentor names; initials matched in the search data only
+  - supervisor surnames on the record: Lindenbergh
+  - record: https://resolver.tudelft.nl/uuid:b65ed15f-5024-492b-b242-cd5428ebd11f
 - **Charis Chatzikyriakou (2017)** — UAV Laser Scanning for DTM Generation in Coastal Areas
   - mentors/coaches: Massimo Menenti; Roderik Lindenbergh; Matthieu de Schipper; Roeland de Zeeuw
   - supervisor surnames on the record: Lindenbergh, Menenti
   - record: https://resolver.tudelft.nl/uuid:a8742265-429c-4bef-a782-405208e20a22
+- **Auke Blokland (2018)** — Locating potential landing zones with the help of digital surface models
+  - mentors/coaches: Ramon Hanssen
+  - supervisor surnames on the record: Hanssen, Heide, Voûte, van Leijen
+  - record: https://resolver.tudelft.nl/uuid:3a923f70-dd0e-4211-9826-7464960ffe3a
+- **Adriaan van Natijne (2018)** — Locating PS-InSAR derived deformation using LiDAR point clouds
+  - mentors/coaches: Ramon Hanssen; Roderik Lindenbergh; P.J.M. van Oosterom
+  - supervisor surnames on the record: Hanssen, Lindenbergh, Oosterom
+  - record: https://resolver.tudelft.nl/uuid:a3009786-9b1b-4e57-ae1a-23aef33bcfa5
+- **Vera Hollander (2018)** — Mapping of farmer-led irrigated agriculture with remote sensing
+  - mentors/coaches: Susan Steele-Dunne; Wouter Beekman
+  - supervisor surnames on the record: Steele-Dunne
+  - record: https://resolver.tudelft.nl/uuid:4dfe855e-5291-408d-a236-efd7e17e8f15
+- **Martijn Mulder (2018)** — Monitoring land restoration projects of Justdiggit in Kenya, using downscaled passive microwave remote sensing products of VanderSat
+  - mentors/coaches: Susan Steele-Dunne
+  - supervisor surnames on the record: Steele-Dunne
+  - record: https://resolver.tudelft.nl/uuid:86a24122-e3b5-4cc7-b580-f70fdecb78f8
+- **Lexy Ratering Arntz (2018)** — The impact of salinity intrusion on rice productivity
+  - mentors/coaches: Susan Steele-Dunne
+  - supervisor surnames on the record: Steele-Dunne
+  - record: https://resolver.tudelft.nl/uuid:feadd1b1-1997-4bae-ba41-58dd2e2656cd
+- **Pang Pang (2018)** — Tightly coupled GNSS/map-based monocular vision in vehicle positioning
+  - mentors/coaches: Christiaan Tiberius
+  - supervisor surnames on the record: Hanssen, Tiberius
+  - record: https://resolver.tudelft.nl/uuid:4786d718-3d54-4b96-bc6b-d6763f8827f0
+- **Anna Luisa Hemshorn de Sanchez (2018)** — Vegetation Optical Depth: its potential as an agricultural drought indicator
+  - mentors/coaches: Susan Steele-Dunne; Richard de Jeu
+  - supervisor surnames on the record: Sanchez, Steele-Dunne
+  - record: https://resolver.tudelft.nl/uuid:29d144ff-8116-4162-bc89-d8acbaf28423
+- **Kirsten van Dongen (2019)** — Community mapped elevation through a low-cost, dual-frequency GNSS receiver
+  - mentors/coaches: Christian Tiberius; Hessel Winsemius; Ramon Hanssen; Rolf Hut
+  - supervisor surnames on the record: Hanssen, Tiberius
+  - record: https://resolver.tudelft.nl/uuid:72b12a39-bd7b-4643-942b-a9091aaf10a9
+- **kevin Groot (2019)** — Do the newly developed models of bare soil surface reflectance and thermal infrared image analysis improve the spatial estimation of soil water properties in the Noordoostpolder region, The Netherlands?
+  - mentors/coaches: Silvia Alfieri; Wim Bastiaanssen
+  - supervisor surnames on the record: Lhermitte
+  - record: https://resolver.tudelft.nl/uuid:2635a6b2-201c-4623-935f-9b1959a37ea3
+- **Evert Mulder (2019)** — Integrity Monitoring (IM) for the Singapore Satellite Positioning Reference Network (SiReNT) infrastructure
+  - mentors/coaches: S. Verhagen
+  - supervisor surnames on the record: Teunissen, Verhagen
+  - record: https://resolver.tudelft.nl/uuid:b9364fd0-6a3e-402f-82e8-ea3e546c980f
 - **Carlotta Ferri (2019)** — Irradiation and DC yield potential of solar highways in the Netherlands
   - mentors/coaches: Olindo Isabella; Hesan Ziar
   - supervisor surnames on the record: Agugiaro
   - record: https://resolver.tudelft.nl/uuid:46e829da-7ce8-4c4e-8d18-8e4f628f3554
+- **Job Rosier (2019)** — Stability of the floating ice shelf of the Petermann glacier and its response to a changing environment
+  - mentors/coaches: Stef Lhermitte
+  - supervisor surnames on the record: Lhermitte
+  - record: https://resolver.tudelft.nl/uuid:33bc746a-472d-4919-af26-e12896bf9abb
+- **J.C. Wiggins (2020)** — Estimating Total Suspended Matter in Low to Extremely High Level Turbid River Surface Waters using a WISP-3 Hyperspectral Radiometer and Sentinel-2 Optical Imagery
+  - mentors/coaches: M.W. Ertsen
+  - supervisor surnames on the record: Lhermitte
+  - record: https://resolver.tudelft.nl/uuid:770fd557-7054-450e-8edb-c61afa246e46
+- **Sean Zandbergen (2020)** — Multi-case Evaluation of Empirical Methods for Satellite-Derived Bathymetry
+  - mentors/coaches: Stefan Aarninkhof; Roeland de Zeeuw; Roderik Lindenbergh; Arjen Luijendijk
+  - supervisor surnames on the record: Lindenbergh
+  - record: https://resolver.tudelft.nl/uuid:fb907dc4-4d8b-4660-bb83-a09c200058c3
+- **S. de Roda Husman (2020)** — Polarimetric SAR signals of river ice breakup
+  - mentors/coaches: S.L.M. Lhermitte; F.J. Lopez Dekker; M.A. Eleveld; J.J. van der Sanden
+  - supervisor surnames on the record: Lhermitte
+  - record: https://resolver.tudelft.nl/uuid:7ff91ab2-4af5-4672-825f-f018a947c935
+- **Vita Sandhu (2020)** — Quantifying Agricultural Intensification in the US
+  - mentors/coaches: S.C. Steele-Dunne; Richard de Jeu
+  - supervisor surnames on the record: Steele-Dunne
+  - record: https://resolver.tudelft.nl/uuid:bc2b42d4-6af0-4a96-96d6-e19ff36b1e95
+- **Veronica Tollenaar (2020)** — Towards an Antarctic meteorite hotspot map
+  - mentors/coaches: Harry Zekollari; Stef Lhermitte
+  - supervisor surnames on the record: Lhermitte, Lindenbergh
+  - record: https://resolver.tudelft.nl/uuid:a1b5b764-0ba0-42d1-8918-3e681a24a4a1
 - **U. Rajvanshi (2021)** — Quality Assessment of GNSS/IMU derived NAP heights
   - mentors/coaches: Sandra Verhagen; D.C. Slobbe; H. van der Marel; Bas Alberts; Luc Amoureus,
   - programme: Geoscience and Remote Sensing
