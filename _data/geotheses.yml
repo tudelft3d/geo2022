@@ -5157,6 +5157,58 @@
     a LiDAR point cloud using only an additional reference position, but there
     are some flaws with the simplified input of the method.'
   uuid: b1e20016-5e1c-4610-a951-6631983b7511
+- surname: Spinoza Andreo
+  name: Guilherme
+  title: 'Assessing an open spatial data infrastructure from a user participation
+    perspective: A qualitative exploratory research of OpenStreetMap'
+  supervisors: Frederika Welle Donker
+  year: 2022
+  graduation_date: 04-11-2022
+  link: https://resolver.tudelft.nl/uuid:7fda6562-5018-4c46-8fe8-4e6c34a70eb6
+  image: 2022_Spinoza-Andreo.jpg
+  abstract: Geographic Information (GI) has proven its value with its ability
+    to be used in various fields, which left numerous questions about how
+    this data should be stored, used, and managed. To facilitate the sharing
+    and reuse of spatial data, Spatial Data Infrastructures (SDIs) emerged
+    in the last decades and with the increase in Open Data, the belief emerged
+    that not only the public sector should be involved in SDIs, but also companies
+    and citizens should be included as part of the Open SDI. To evaluate its
+    value and the success of open GI in relation to the participation of users
+    and communities in open SDI is still a challenge. The possibility to improve
+    user participation in open SDI, such as OpenStreetMap, needs to be assessed.
+    This research used preliminary web-based surveys and semi-structured interviews
+    as per Schmidt [2004] with users of the OpenStreetMap, as well as qualitative
+    analyses and combined quantitative approaches, to explore the factors
+    that foster user participation in the community of an open SDI, using
+    a methodology that adapted motivational factors from Budhathoki [2010].
+    The selection of fundamental intrinsic and extrinsic motivational factors
+    were used as indicators in user participation in OpenStreetMap, for both
+    the survey and the semi structured interviews. Surveys showed that participants
+    in this research were mostly heavy contributors, that primarily who are
+    extrinsically motivated to participate mostly because they believe in
+    the main goal of OSM, they value the community and the development of
+    the platform, and trust the system and its users. Moreover, the users
+    have intrinsic motivations to also participate for fun, instrumentality,
+    altruism, to meet their own needs, alignment with the unique ethos and
+    for learning. One of the conclusions that was drawn from this research
+    is that OpenStreetMap is perceived as an Open Data Ecosystem among its
+    users, yet some diving opinions to the perception about Open Spatial Data
+    Infrastructures. Future development points for OSM are the need for stricter
+    standards and safeguards against hostile commercial or external takeovers
+    if OpenStreetMap wants to effectively engage both the public and private
+    sector. Applying a stricter standard for the metadata of datasets that
+    are used by governmental and external parties should guarantee further
+    re-use and provide sustainability for OSM. This includes an increase in
+    their outreach through better marketing for the relevant potential users
+    and provide further support systems for a new users. Furthermore, the
+    expansion on different spatial data is also desirable, as well creating
+    linked or integrated data with external open data providers. Current government
+    or private SDIs that are in the process of transitioning into user-centric
+    or open SDIs can apply these factors from this research into their own
+    decision making processes if increasing user participation is their end
+    goal.
+  uuid: 7fda6562-5018-4c46-8fe8-4e6c34a70eb6
+  needs_review: true
 - surname: Triantafyllou
   name: Georgios
   title: Isovist Fingerprinting as new way of Indoor Localisation
@@ -8187,6 +8239,64 @@
     the waste chain, by analyzing results in trash composition and knowing
     which households and retailer contribute to this composition.'
   uuid: 098b385b-5e63-4559-931d-679837bd13db
+- surname: Olsen
+  name: Brenda
+  title: 'Integration of 3D city models in a country wide covering 3D basemap:
+    A case study in The Netherlands'
+  supervisors: Tom Commandeur
+  year: 2019
+  graduation_date: 01-11-2019
+  link: https://resolver.tudelft.nl/uuid:2df9a0ca-0fe1-40e0-9f1e-30a7baedb0f1
+  image: 2019_Olsen.jpg
+  abstract: 'The needs and interests for 3D data based on large-scale topography
+    are increasing. A wide variety of these 3D data needs have emerged in
+    multiple domains and for many different applications. Though, research
+    have shown that the interoperability of this 3D data nowadays still is
+    a challenging task. Many barriers are caused by different perspectives
+    of organisations, technical issues during conversions of data and a lack
+    of guidelines. For this research, a case study is done in The Netherlands,
+    one of the countries that experimented a lot with topographical data already.
+    The Dutch Cadastre, Kadaster, has been working on a country wide covering
+    3D topographical basemap. However, also some of the Dutch source holders
+    of large-scale topography have taken steps towards the development of
+    3D city models. The question that now arises, and also the main research
+    question of this thesis, is: “How can a variety of 3D city models be integrated
+    in a country wide covering 3D basemap based on large-scale topography?”.
+    In order to achieve an answer to this question, the methodology has been
+    split up into three components. The first component contained a literature
+    study on 3D city models. The second component of the methodology included
+    the interaction with stakeholders, such as Kadaster and various source
+    holders of the Dutch topographical data. This interaction is performed
+    by means of interviews and surveys. The third component contained the
+    technical part, in which different 3D test data is collected and compared.
+    The test data is for almost all stakeholders provided in CityGML, which
+    is an international 3D standard used for 3D models. Various differences
+    in the 3D data of the stakeholders are found. These differences can be
+    found in the contents, the source data, the process and the management.
+    Based on these test data and their differences, a workflow is developed
+    in order to integrate the data. This workflow uses open source tools as
+    cjio and citygml4j for the manipulation, integration and conversion of
+    the data. This resulted in an integrated 3D model, containing both the
+    data from Kadaster as well as the data from the source holders. Results
+    have shown that the differences between the test data, semantically as
+    well as geometrically, led to gaps and height differences in the final
+    integrated model. This study has proven that different 3D city models
+    can be integrated in a country wide covering model, which can be converted
+    to various formats (CityGML, CityJSON and OBJ). A workflow is developed
+    that integrates the test data of 5 Dutch source holders with the data
+    from Kadaster. A few challenges during the conversion and integration
+    of data had to be overcome. These challenges were either caused by errors
+    in the code of the test data or by bugs and errors in the software tools.
+    In the end, two proposals were given for further organisational developments
+    towards a national 3D basemap based on large-scale topographical data.
+    These proposals were based on the results of the literature study, the
+    interviews with stakeholders and the data comparison and integration.
+    In option 1, a national 3D basemap, developed and managed by Kadaster,
+    is proposed. In option 2, a new basis registration, the 3D BGT, is proposed.
+    In this situation Kadaster will provide a 3D basemap once and the source
+    holders will collect and parse the mutations in 3D.'
+  uuid: 2df9a0ca-0fe1-40e0-9f1e-30a7baedb0f1
+  needs_review: true
 - surname: Ruben
   name: Pablo
   title: 3D City Models in the Context of Urban Mining
@@ -8998,6 +9108,43 @@
     provide an immersive experience which can actively involve the user with
     the visualization process
   uuid: 748e5ed7-4a0d-4396-904b-64244ac0e56e
+- surname: Kersbergen
+  name: Daniël
+  title: 'Automated Building Damage Classification using Remotely Sensed Data:
+    Case study: Hurricane Damage on St. Maarten'
+  supervisors: Jorge Lopes Gil; Stef Lhermitte
+  year: 2018
+  graduation_date: 03-07-2018
+  link: https://resolver.tudelft.nl/uuid:43a82eb1-cc37-48fc-ba39-f6a1375ba3c7
+  image: 2018_Kersbergen.jpg
+  abstract: In the second half of the 20th and beginning of the 21st century
+    the amount of natural disasters has increased rapidly. Due to this rise
+    in occurrences, more people are affected. An important indicator for people
+    affected is the amount of damage to buildings. To gather this information
+    aid workers now have to go into the field to gather data on the amount
+    of destruction. In response to the possible dangers these people encounter
+    in the field, remote sensing and analysis techniques have been developed
+    for automated damage detection. However, due to various limitations on
+    the implementation, these techniques are not yet widely adopted in emergency
+    response and humanitarian aid. This work compares two methods and two
+    data sources for the detection of building damage. The methods are evaluated
+    on their accuracy and implementability within humanitarian aid in disaster
+    situations. The main methods considered are equalisation of histograms
+    of pre-event and post-event imagery, followed by Univariate Image Differencing;
+    and a convolutional neural network on features withdrawn from post-event
+    imagery, using OpenStreetMap data. Remotely sensed data sources considered
+    are synthetic aperture radar and very high resolution optical imagery.
+    All results are analysed and compared to current standards in damage detection.
+    From the results it can be concluded that more research is required for
+    a practical implementation of deep learning techniques. The constraint
+    posed by the requirement of large datasets, make these methods impracticable
+    without sufficient preparation and resources. More simpler methods, like
+    Univariate Image Differencing, can be validated on smaller ground-truth
+    datasets, and are therefore easier in implementation when resources are
+    limited. The possible accuracy increase of deep learning methods does,
+    at this moment, not outweigh the ease of an elementary differencing approach.
+  uuid: 43a82eb1-cc37-48fc-ba39-f6a1375ba3c7
+  needs_review: true
 - surname: Kotoula
   name: Lydia
   title: The Smart Point Cloud framework to detect pipelines using raw point
@@ -9182,6 +9329,44 @@
     coordinate systems. The advantages, opportunities, challenges, and limitations
     of point cloud integration in a DGGS are presented.
   uuid: 56e06ce9-fbad-4ded-8cd5-978f21f9aa2c
+- surname: Sulzer
+  name: Raphael
+  title: Shape based classification of seismic building structural types
+  supervisors: Pirouz Nourian; Jan van Gemert; Abdoulaye Diakite; Michele
+    Palmieri
+  year: 2018
+  graduation_date: 02-02-2018
+  link: https://resolver.tudelft.nl/uuid:965b5b2c-4f01-4204-bc8b-b5db17456e96
+  image: 2018_Sulzer.jpg
+  abstract: The seismic building structural type (SBST) reflects the main
+    load-bearing structure of a building and therefore its behaviour under
+    seismic load. For numerous areas in earthquake prone regions this information
+    is outdated, unavailable, or simply not existent. Traditional methods
+    to gather this information, such as building-by-building inspections,
+    are costly and highly time-consuming, making them unfeasible for assessing
+    large building inventory. For this reason, the use of remote sensing data
+    has been proposed to allow a fast acquisition of relevant building information
+    on urban and regional scale. Subsequently, machine learning algorithms
+    may be used to analyse the gathered data, e.g. to classify a building
+    stock into groups with similar seismic behaviour. This thesis investigates
+    into such an approach for the building stock of Groningen in the Netherlands.
+    Our focus lies on the extraction of detailed geometric information from
+    a point cloud gained by aerial laser scanning. We thereby follow the assumption
+    that similar structural systems and materials can be inferred from geometric
+    similarities. To describe the geometric shape of a building we apply Shape
+    DNA, a spectral shape descriptor based on the eigenvalues of the Laplace-Beltrami
+    operator. In a first experiment on a synthetically generated building
+    stock we succeed in predicting the roof type of different buildings with
+    accuracies above 80%, only relying on the Shape DNA. The experiment shows
+    promising results, however, further research is necessary in order to
+    explore the usability on real building data. In a second experiment we
+    use a sample of buildings from the Groningen building stock. Here we can
+    automatically predict detailed SBST information, such as the type of lateral
+    load resisting system, with accuracies above 80% only by taking a buildings
+    footprint area and year of construction into account. (see thesis document
+    for extended abstract)
+  uuid: 965b5b2c-4f01-4204-bc8b-b5db17456e96
+  needs_review: true
 - surname: Vermeer
   name: Martijn
   title: Large-scale efficient extraction of 3D roof segments from aerial
@@ -9262,6 +9447,41 @@
     large-scale building performance mapping, and carry out retrofit measures
     assessment.
   uuid: bc0d7164-be60-485a-ad7d-f7a049a3851d
+- surname: Bon
+  name: Matthijs
+  title: An advanced prospecting method for assessing the quantity of underground
+    metal cables urban mines
+  supervisors: Alexander Wandl
+  year: 2017
+  graduation_date: 09-11-2017
+  link: https://resolver.tudelft.nl/uuid:2f2c6f35-ad29-4d7d-b382-232b7bbb4cbe
+  image: 2017_Bon.jpg
+  abstract: 'One way to stimulate a more circular economy, is to explore opportunities
+    for urban mining. This thesis explores a new method to assess the quantity
+    of underground electricity cables which could one day become available
+    for urban mining. This research answers the question: ”To what extent
+    can topological networks be used to localize and quantify underground
+    metal cables in order to assess the quantity of an underground urban mine?”
+    Three case study areas in Amsterdam have been selected to exemplify the
+    method. The Dutch National Road Network has been used as a topological
+    skeleton to approximate the electrical network. Three different methods
+    were used to connect buildings and transformers to this network. The ’Connect
+    to Closest Point’ method, connects every point to the closest point on
+    the street network. The ’Connect to Closest Junction Vertex’ method connects
+    every point to the closest junction vertex of the street network, which
+    is divided into segments with maximum length of 75 meters. The ’Iteratively
+    Connect to the Closest Junction Vertex’ method iteratively connects every
+    point to the closest junction vertex, within a threshold, until all nodes
+    are connected to the street network. By evaluating the edge betweenness
+    [Girvan and Newman, 2002] for every edge in the topological networks,
+    cable current and thickness could be determined and the urban mine was
+    quantified in terms of electrical cables. The ’Connect to Closest Junction
+    Vertex’ method showed to be most accurate, with up to 88% accuracy in
+    Geuzenveld. Although this method is suitable for finding a minimum quantity
+    of an underground urban mine, locational accuracy is too low to pinpoint
+    the exact location of underground cables.'
+  uuid: 2f2c6f35-ad29-4d7d-b382-232b7bbb4cbe
+  needs_review: true
 - surname: Haayen
   name: Jade
   title: Towards interoperable standards for 1D time series data within the
@@ -10654,6 +10874,35 @@
     determine the suitability of the second workflow for the repair of 3D
     City Building Models.
   uuid: 8ef4459d-b940-4007-bc3c-d87349015129
+- surname: Oliveti
+  name: Matilde
+  title: Analysis of mobility patterns in different neighbourhoods, integrating
+    GPS tracks with OpenStreetMap data
+  supervisors: Stefan van der Spek; Wilko Quak
+  year: 2015
+  link: https://resolver.tudelft.nl/uuid:6b5ca9a5-ec79-4a14-a3c1-43da15380916
+  image: 2015_Oliveti.jpg
+  abstract: With the help of technologies such as GPS tracks, GIS and open
+    data is now possible to study people travel behaviour in a new way. Nowadays,
+    large datasets can be easily handled thanks to database and better visualized
+    using GIS. Moreover, the availability of GPS data, open data and VGI makes
+    accessible a lot of new information, which was not obtainable before.
+    This research is about the analysis of mobility patterns in different
+    neighbourhoods in three cities in the Netherlands. The study is based
+    on the validation of mobility theoretical performances by the actual performances
+    measured through the analysis of GPS logs of households, who live in the
+    neighbourhoods. A series of spatial indicators based on proximity, density
+    and accessibility are computed in order to assess the theoretical performances
+    of the neighbourhoods. To achieve this task, information about built environment
+    characteristics and infrastructure networks is retrieved from OpenStreetMap,
+    BAG, BBG, and CBS datasets. Then, using statistical methods the results
+    are validated by the analysis of the GPS tracks of the residents. In the
+    end the neighbourhoods are classified into five classes, according to
+    the different levels of performances in terms of sustainable mobility.
+    In such a way, it is possible to better understand the key factors that
+    influence actual people travel patterns.
+  uuid: 6b5ca9a5-ec79-4a14-a3c1-43da15380916
+  needs_review: true
 - surname: Onrust
   name: Benny
   title: Automatic generation of plant distributions for existing and future
@@ -10694,6 +10943,36 @@
     of small plants and by providing information about the plant type for
     each point with this algorithm.
   uuid: 35f4cc9b-0cb8-4030-b1ae-ad2be146636f
+- surname: Pietrzyk
+  name: Peter
+  title: Change Detection in Forests Using Multi-Temporal High Density Airborne
+    Laser Scanning Data
+  supervisors: Roderik Lindenbergh; Massimo Menenti; Ken Arroyo Ohori
+  year: 2015
+  link: https://resolver.tudelft.nl/uuid:df0a24ec-34b2-42d8-96d0-4a454716f15b
+  image: 2015_Pietrzyk.jpg
+  abstract: Remote sensing of forests with airborne laser scanning has been
+    used increasingly in the last decades. Due to its capability to provide
+    very detailed three-dimensional information on the structure of forests
+    and individual trees it is very suitable to detect changes in forests.
+    However, current change detection methods in this field often cannot exploit
+    the full potential of the information. The increasing gap between the
+    ability of these methods and the information available in increasingly
+    denser airborne laser scanning data has led to this research. Therefore
+    a three step approach is developed that aims to use the full three-dimensional
+    information in the data to detect harvested and fallen trees in forests.
+    First, differences in the repeated data are obtained through an adapted
+    cloud-to-cloud comparison, such that the data can be reduced to the changed
+    points only. Secondly, from the changed points the individual changed
+    objects are extracted and finally classified as either removed trees or
+    other objects. The findings show that harvested and fallen trees can be
+    detected with an overall accuracy of up to 94% and an omission error of
+    0%. The results further indicate that smaller trees and changes below
+    the canopy can be identified, although with lower success rates. All in
+    all, it can be seen that the potential of the three-dimensional nature
+    can be better exploited by considering each individual point of the data.
+  uuid: df0a24ec-34b2-42d8-96d0-4a454716f15b
+  needs_review: true
 - surname: Pronk
   name: Maarten
   title: Storing massive TINs in a DBMS - A comparison and a prototype implementation
@@ -10763,6 +11042,43 @@
     that converts this Box3D to a 3D geometry instead of a 2D polygon for
     querying.
   uuid: 2b5044e5-388d-47ee-bb13-65bec9443070
+- surname: Šileryte
+  name: Rusne
+  title: Analysis of Urban Space Networks for Recreational Purposes based
+    on Mobile Sports Tracking Application Data
+  supervisors: Pirouz Nourian; Stefan van der Spek; Hugo Ledoux
+  year: 2015
+  link: https://resolver.tudelft.nl/uuid:c04b441c-7e66-4a72-ba6c-423beac4e17f
+  image: 2015_Sileryte.jpg
+  abstract: Even though studies of the built environment’s impact on citizens’
+    physical activity have become an aspiring topic in the recent years, up
+    to now the most investigated topic is transport-related walking or cycling.
+    However, little is known about the patterns of leisure-related physically
+    active travels. One of the reasons behind this lack of research is the
+    matter of collecting ground truth data for validation. Yet the data suitable
+    for this kind of research is voluntary produced by people using sports
+    tracking applications. Thus the aim of this research is to develop a method
+    to acquire, manage and process the data from sports tracking applications
+    in such a way that it would serve as a ground truth not only for examining
+    urban recreational travel patterns but also for modelling the phenomena.
+    In other words, the goal is being able to define where recreational actvities
+    happen, where they do not and finally, use this knowledge to give an indication
+    to every space of how likely it is that the space is or will be used for
+    recreation. The Master Thesis report describes methods used for mobile
+    sports tracking application data acquisition and processing in tandem
+    with OpenStreetMap and Eurostat Urban Atlas datasets. The processed data
+    is used as a ground truth in order to calibrate and validate the developed
+    Runability Index, which has been introduced as an indication of space
+    potential to be used for recreation, based on the well-known measure of
+    walkability. The developed method for acquiring ground truth urban recreational
+    travel data has proved to be suitable for investigation of related matters
+    in European cities with sufficient application users. Even though, the
+    Runability Index has not provided enough correlation with the collected
+    data to be validated, it has ascertained that transport-based active travels
+    have different characteristics than leisure-based ones and therefore need
+    to be explored separately.
+  uuid: c04b441c-7e66-4a72-ba6c-423beac4e17f
+  needs_review: true
 - surname: van der Ham
   name: Martijn
   title: Real Time Localization of Assets in Hospitals using Quuppa Indoor
@@ -11344,6 +11660,41 @@
     between Architecture and Geomatics. The software package is open source
     and freely available at https://github.com/tudelft-gist/ifc2citygml.'
   uuid: 31380219-f8e8-4c66-a2dc-548c3680bb8d
+- surname: Lee
+  name: Danbi
+  title: Mapping Urban Surface Infiltration Capacity
+  supervisors: Ben Gorte; Massimo Menenti
+  year: 2013
+  link: https://resolver.tudelft.nl/uuid:c7bd121a-1378-4ca1-b33c-129763fb0287
+  image: 2013_Lee.jpg
+  abstract: Effective urban water management requires certainty about surface
+    conditions such as the surface infiltration capacity (SIC). A SIC map
+    of an urban catchment area could be a useful input for evidence-based
+    urban design of water-sensitive/low-impact neighbourhoods and multitiered
+    water management schemes for reducing flood vulnerability. Methods for
+    mapping SIC are underdeveloped. Typically, infiltration rates are derived
+    from topographic or urban extent maps. Instead, if a land cover map can
+    precisely identify hydrologically relevant land cover classes, then a
+    more accurate SIC map can be derived. The research explored whether an
+    accurate SIC map could be derived from VHR multi-spectral imagery of Amersfoort,
+    Netherlands, using specific hydrologically relevant land cover classes
+    and segment-based land cover classifiers to achieve meaningful object
+    resolution. The impact of different similarity metrics, rule sets, and
+    data types on classification accuracy were explored. In particular, the
+    impact of lower class specificity (generic classes) was tested. The SIC
+    map was assessed based on impact in a pluvial flood model. Results indicate
+    a high degree of spectral and textural confusion between impermeable and
+    semi-permeable surface types in land cover classification. The analysis
+    of the SIC and land cover maps illustrates that with generic classes the
+    SIC is under-predicted for the catchment area despite a higher overall
+    accuracy in land cover classification. Generic classes also reduce object
+    resolution (detail). Using specific classes produces a less accurate land
+    cover map but improves SIC prediction. In a pluvial flood model, the generic
+    classes increased runoff volume and reduced peak runoff time, validating
+    the conclusion that class specificity and object resolution plays an important
+    role in mapping SIC.
+  uuid: c7bd121a-1378-4ca1-b33c-129763fb0287
+  needs_review: true
 - surname: Altena
   name: Bas
   title: Filling the white gap on the map
