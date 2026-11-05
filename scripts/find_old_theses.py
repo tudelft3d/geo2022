@@ -25,6 +25,12 @@ Usage:
   python3 scripts/find_old_theses.py --add        # also append to archive
   python3 scripts/find_old_theses.py --all-years  # also list post-coverage
                                                   # search hits (no fetches)
+  python3 scripts/find_old_theses.py --keyword-filter
+                            # search filtered to the Geomatics keyword
+                            # tags (scripts/geomatics_keywords.yml) and
+                            # fetch record pages for post-coverage hits
+                            # too, so the Programme field decides every
+                            # candidate
   python3 scripts/find_old_theses.py --delay 5    # record fetch delay
 """
 
@@ -45,6 +51,7 @@ import enrich_geotheses as eg
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SUPERVISORS_FILE = REPO_ROOT / "scripts" / "geomatics_supervisors.yml"
+KEYWORDS_FILE = REPO_ROOT / "scripts" / "geomatics_keywords.yml"
 VERIFIED_FILE = REPO_ROOT / "scripts" / "verified_theses.yml"
 REPORT_FILE = REPO_ROOT / "reports" / "old_theses_report.md"
 SEARCH_API = "https://repository.tudelft.nl/search/data"
@@ -71,6 +78,11 @@ def load_supervisors():
                 initials.setdefault(surname_key(entry["surname"]),
                                     set()).add(got)
     return keys, initials
+
+
+def load_keywords():
+    """Keyword tags for --keyword-filter (scripts/geomatics_keywords.yml)."""
+    return yaml.safe_load(KEYWORDS_FILE.read_text())["keywords"]
 
 
 def name_keys(name):
@@ -108,16 +120,21 @@ def search_query(surname):
 
 # ----------------------------------------------------------------- search
 
-def search_surname(surname, offline):
+def search_surname(surname, offline, keywords=None):
     """All repository MSc theses matching the surname, via the search
     front-end's JSON API. Pages are cached under .geotheses_cache/ so runs
-    resume (and repeat runs are free)."""
+    resume (and repeat runs are free). With keywords (the Geomatics tag
+    list), the API's keyword= parameter -- the only filter it accepts
+    besides record_type; comma-separated tags OR -- narrows the hits.
+    Filtered pages cache under a kwsearch- prefix so the filtered and
+    unfiltered sweeps never read each other's caches."""
     query = search_query(surname)
     slug = re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize(
         "NFKD", query).encode("ascii", "ignore").decode().lower()).strip("-")
+    prefix = "kwsearch" if keywords else "oldsearch"
     records = []
     for page in range(1, MAX_PAGES + 1):
-        cache = eg.CACHE_DIR / f"oldsearch-{slug}-p{page}.json"
+        cache = eg.CACHE_DIR / f"{prefix}-{slug}-p{page}.json"
         if cache.exists():
             data = json.loads(cache.read_text())
         else:
@@ -128,7 +145,11 @@ def search_surname(surname, offline):
                                  params={"search_term": query,
                                          "page": str(page),
                                          "sort": "relevance",
-                                         "record_type": "master_thesis"},
+                                         "record_type": "master_thesis",
+                                         **({"keyword": ",".join(
+                                             k.replace(" ", "_")
+                                             for k in keywords)}
+                                            if keywords else {})},
                                  headers={"User-Agent": eg.USER_AGENT},
                                  timeout=60)
                 data = r.json()
@@ -214,7 +235,7 @@ def load_verdicts():
 
 
 def classify(theses, initials, verdicts):
-    gaps, likely, collisions, verified_non = [], [], [], []
+    gaps, likely, collisions, verified_non, others = [], [], [], [], []
     for t in theses:
         verdict = verdicts.get((eg.foldcase(t["surname"]), t["year"]))
         if verdict == "Geomatics":
@@ -223,8 +244,12 @@ def classify(theses, initials, verdicts):
         if verdict and verdict != "Geomatics":
             verified_non.append(t)
             continue
-        if t.get("programme") and "geomat" in t["programme"].lower():
-            gaps.append(t)
+        if t.get("programme"):
+            if "geomat" in t["programme"].lower():
+                gaps.append(t)
+            else:
+                # the record names a programme and it is not ours
+                others.append(t)
             continue
         mentors = t.get("mentors", []) + t.get("coaches", [])
         match_names = {m for m in mentors
@@ -236,7 +261,7 @@ def classify(theses, initials, verdicts):
             likely.append(t)
         else:
             collisions.append(t)
-    return gaps, likely, collisions, verified_non
+    return gaps, likely, collisions, verified_non, others
 
 
 # ----------------------------------------------------------------- report
@@ -259,19 +284,30 @@ def describe(t):
     return "\n".join(lines)
 
 
-def write_report(gaps, likely, collisions, verified_non, n_archive,
+def write_report(gaps, likely, collisions, verified_non, others, n_archive,
                  n_matched, n_new, before_year, from_year, n_discarded,
-                 extra_years):
+                 extra_years, keyword_filter=False):
     REPORT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with REPORT_FILE.open("w", encoding="utf-8") as f:
         f.write(f"# Supervisor-search cross-check "
                 f"({datetime.now():%Y-%m-%d})\n\n")
-        f.write(f"The archive holds {n_archive} theses. Sweeping the "
-                f"repository for MSc theses supervised by the surnames in "
-                f"scripts/geomatics_supervisors.yml matched {n_matched} "
-                f"theses, {n_new} of them from {from_year}–{before_year - 1} "
-                f"and absent from the archive (another {n_discarded} from "
-                f"before {from_year} were discarded).\n\n")
+        if keyword_filter:
+            f.write(f"The archive holds {n_archive} theses. Sweeping the "
+                    f"repository for MSc theses supervised by the surnames "
+                    f"in scripts/geomatics_supervisors.yml and carrying a "
+                    f"Geomatics keyword tag (scripts/"
+                    f"geomatics_keywords.yml) matched {n_matched} theses, "
+                    f"{n_new} of them absent from the archive (another "
+                    f"{n_discarded} from before {from_year} were "
+                    f"discarded).\n\n")
+        else:
+            f.write(f"The archive holds {n_archive} theses. Sweeping the "
+                    f"repository for MSc theses supervised by the surnames "
+                    f"in scripts/geomatics_supervisors.yml matched "
+                    f"{n_matched} theses, {n_new} of them from "
+                    f"{from_year}–{before_year - 1} and absent from the "
+                    f"archive (another {n_discarded} from before "
+                    f"{from_year} were discarded).\n\n")
         f.write(f"## Confirmed gaps ({len(gaps)})\n\n"
                 "The repository record's Programme field names Geomatics.\n\n")
         for t in gaps:
@@ -282,6 +318,13 @@ def write_report(gaps, likely, collisions, verified_non, n_archive,
                 "the list. Check the PDF title page.\n\n")
         for t in likely:
             f.write(describe(t) + "\n")
+        if others:
+            f.write(f"\n## Named another programme ({len(others)})\n\n"
+                    "The record's Programme field names another MSc "
+                    "programme — not ours, despite a Geomatics-listed "
+                    "contributor.\n\n")
+            for t in others:
+                f.write(describe(t) + "\n")
         f.write(f"\n## Name collisions ({len(collisions)})\n\n"
                 "Same surname among the mentors, but the initials point "
                 "to someone else (or no usable mentor name). Probably not "
@@ -363,15 +406,23 @@ def main():
     ap.add_argument("--all-years", action="store_true",
                     help="also list post-coverage search hits (metadata "
                          "only, no record fetches)")
+    ap.add_argument("--keyword-filter", action="store_true",
+                    help="narrow the searches to theses carrying one of "
+                         "the Geomatics keyword tags in "
+                         "scripts/geomatics_keywords.yml; small enough "
+                         "that post-coverage hits get record pages too, "
+                         "so the Programme field classifies them instead "
+                         "of a metadata-only listing")
     args = ap.parse_args()
 
     keys, initials = load_supervisors()
     print(f"{len(keys)} supervisor surnames on the list.", flush=True)
+    keywords = load_keywords() if args.keyword_filter else None
 
     # stage 1: search API, cached per surname
     matched = {}  # uuid -> search record + matched surnames
     for i, (key, display) in enumerate(sorted(keys.items(), key=lambda kv: kv[1]), 1):
-        records = search_surname(display, args.offline)
+        records = search_surname(display, args.offline, keywords)
         for record in records:
             uuid = (record.get("id") or "").replace("Thing_", "")
             if not uuid:
@@ -413,13 +464,26 @@ def main():
                  (a.get("last_name") or "") + " " + (a.get("first_name") or "")
                  for a in authors) or "?",
              "search_initials_ok": search_initials_match(record, initials)}
-        if year and year >= args.before_year:
-            extra.append(t)
+        if year and year >= args.before_year and not args.keyword_filter:
+            extra.append(t)  # metadata-only listing (--all-years)
         else:
+            # keyword-filtered post-coverage hits join the fetch list:
+            # the tag filter already made the set small enough
             theses.append(t)
-    to_fetch = [t for t in theses if t["search_initials_ok"]]
-    print(f"Before {args.before_year} and not in the archive: {len(theses)} "
-          f"({len(to_fetch)} pass the initials pre-filter)", flush=True)
+    if args.keyword_filter:
+        # fetch every hit: the mentor initials are unreliable here
+        # (a thesis can match via a co-contributor's surname) and the
+        # tag filter already kept the set small; the Programme field
+        # on the record page is the decider
+        to_fetch = theses
+        print(f"Not in the archive (from {args.from_year} on, "
+              f"keyword-filtered): {len(theses)} (all fetched)",
+              flush=True)
+    else:
+        to_fetch = [t for t in theses if t["search_initials_ok"]]
+        print(f"Before {args.before_year} and not in the archive: "
+              f"{len(theses)} ({len(to_fetch)} pass the initials "
+              f"pre-filter)", flush=True)
 
     # stage 3: record pages (cached, robots-delayed) for mentors/programme;
     # records that already failed the initials pre-filter are not fetched
@@ -438,18 +502,20 @@ def main():
             print(f"  fetched {i}/{len(to_fetch)} record pages", flush=True)
 
     verdicts = load_verdicts()
-    gaps, likely, collisions, verified_non = classify(
+    gaps, likely, collisions, verified_non, others = classify(
         theses, initials, verdicts)
-    for group in (gaps, likely, collisions, verified_non):
+    for group in (gaps, likely, collisions, verified_non, others):
         group.sort(key=lambda t: (t["year"], eg.foldcase(t["title"])))
     print(f"classified: {len(gaps)} confirmed gaps, {len(likely)} likely, "
+          f"{len(others)} named another programme, "
           f"{len(collisions)} name collisions, "
           f"{len(verified_non)} verified non-Geomatics", flush=True)
 
-    write_report(gaps, likely, collisions, verified_non, len(archive),
-                 len(matched), len(theses), args.before_year,
+    write_report(gaps, likely, collisions, verified_non, others,
+                 len(archive), len(matched), len(theses), args.before_year,
                  args.from_year, discarded,
-                 extra if args.all_years else [])
+                 extra if args.all_years else [],
+                 keyword_filter=args.keyword_filter)
     print(f"Report written to {REPORT_FILE}", flush=True)
 
     if args.add:

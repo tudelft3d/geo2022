@@ -66,7 +66,14 @@ python3 scripts/find_missing_theses.py          # add --offline / --no-pdf
 # older ones and writes reports/old_theses_report.md (confirmed gaps, likely,
 # name collisions). --add appends the first two buckets flagged
 # needs_review; hand verdicts go in scripts/verified_theses.yml.
+# --keyword-filter instead sweeps all years through the API's keyword=
+# facet filter (the only filter it accepts besides record_type; comma-
+# separated tags OR, see scripts/geomatics_keywords.yml), small enough
+# that every hit's record page gets fetched and the Programme field
+# decides — this is the net that catches theses absent from the external
+# lists AND from MyCase (Xu 2024, Šileryte 2015, ...).
 python3 scripts/find_old_theses.py          # add --offline / --from-year / --all-years
+                                            # / --keyword-filter
 
 # Hunt for papers (journal/conference articles) published on top of the
 # archived theses, for entries without a `paper:` field: cross-checks the
@@ -244,10 +251,11 @@ Images (`ongoing/img/<firstname>.jpg`, RGB JPEG ≤ 800 px wide):
 | `scripts/expand_student_names.py` | Replaces initials-only student names with full given names (MyCase / thesis PDF title pages; evidence in `reports/student_names_report.md`) |
 | `scripts/check_geotheses.py` | Validates the archive data |
 | `scripts/find_missing_theses.py` | Cross-checks the archive with the GDMC + 3dge thesis lists |
-| `scripts/find_old_theses.py` | Sweeps the repository for pre-coverage theses by supervisor surname |
+| `scripts/find_old_theses.py` | Sweeps the repository for pre-coverage theses by supervisor surname (`--keyword-filter` for an all-years, tag-filtered sweep) |
 | `scripts/find_papers.py` | Hunts for papers published on top of archived theses (GDMC list + Crossref + OpenAlex) |
 | `scripts/thesis_covers.py` | Generates the archive's cover thumbnails from the repository/GDMC thesis PDFs |
 | `scripts/geomatics_supervisors.yml` | Supervisor list feeding `find_old_theses.py` (status `yes`/`pending`) |
+| `scripts/geomatics_keywords.yml` | Geomatics-typical repository keyword tags for `find_old_theses.py --keyword-filter` |
 
 ## Conventions
 

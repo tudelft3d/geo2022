@@ -1,0 +1,177 @@
+# Geomatics-typical keyword tags for the repository search API, feeding
+# scripts/find_old_theses.py --keyword-filter.
+#
+# The repository search API ignores every filter parameter except
+# record_type and keyword= (a comma-separated list that ORs the tags;
+# spaces inside a tag become underscores). Filtering the per-surname
+# sweep to these tags cuts the post-coverage hit list from ~3500 to a
+# size whose record pages can all be fetched (20 s robots delay each),
+# so the Programme field can decide every candidate instead of a
+# metadata-only listing.
+#
+# The list is the union of the repository's own keyword facets (visible
+# in every search response's filters.keywords) that are distinctly
+# Geomatics — laser scanning/point clouds, 3D city models, GIS/BIM/SDI,
+# remote sensing, photogrammetry/vision, positioning, cadastre/
+# topography. Deliberately excluded: Delft3D/flood/hydrodynamics (CEG
+# civil), neural-network/computer-vision generic tags (EEMCS), solar
+# cells, daylight/facades (Building Technology). Spelling variants are
+# kept because the API matches tags verbatim.
+
+keywords:
+# point clouds / laser scanning
+- Point Cloud
+- point cloud
+- Point Clouds
+- Point clouds
+- Point cloud
+- point clouds
+- LiDAR point cloud
+- LiDAR point clouds
+- 3D point cloud
+- Point cloud data
+- Point Cloud Registration
+- panoramic imagery point cloud
+- point cloud simplification
+- 3D virtual point cloud
+- AHN5 point cloud data
+- Direct point cloud processing
+- LiDAR
+- LIDAR
+- lidar
+- Airborne LiDAR
+- Mobile LiDAR
+- Camera-LiDAR system
+- UAV Laser Scanning
+- 3D scanning
+- 3d scanning
+- terrestrial laser scanning
+- Terrestrial Laser Scanning
+- laser scanning
+- Mobile Laser Scanning
+- mobile laser scanning
+- airborne laser scanning
+- Airborne laser scanning
+- Airborne laser scanning (ALS)
+- Airborne Laser Scanning
+- 3D laser scanning
+- laserscan
+- Laserscanner
+# 3D city models / CityGML
+- CityGML
+- 3D city model
+- 3D city models
+- 3D City Modelling
+- 3D city modelling
+- 3D City Models
+- 3D city model reconstruction
+- Historical 3D city model
+- 3D City Database
+- 3DCityDB-Tools for QGIS
+- 3D BAG 2.0
+- 3D BAG
+- IndoorGML
+- 3D city
+- 3D GIS
+- 3d-gis
+# GIS / BIM / SDI
+- GIS
+- gis
+- gis-technologie
+- QGIS
+- ArcGIS
+- PostGIS
+- Web GIS
+- WebGIS
+- GIS-based
+- GIS web tool
+- CAD versus GIS
+- BIM
+- BIM – GIS integration
+- BIM & GIS
+- BIM legal
+- spatial data infrastructure
+- Open Spatial Data Infrastructure (SDI)
+- Spatial Data Infrastructure (SDI)
+- geo-dbms
+- geo-informatie infrastructuur
+# remote sensing / satellites
+- Remote Sensing
+- Remote sensing
+- remote sensing
+- Passive microwave remote sensing
+- optical and laser remote sensing
+- Satellite Imagery
+- satellite imagery
+- Satellite
+- satellite
+- Sentinel-1
+- Sentinel-2
+- Sentinel-1A
+- Landsat
+- Landsat 7
+- Satellite Derived Bathymetry
+- Satellite geodesy
+- Swarm Satellite Constellation
+# photogrammetry / vision
+- Photogrammetry
+- High Speed Photogrammetry
+- Wind Turbine Photogrammetry
+- 3D Gaussian Splatting
+- 3D Gaussian splatting
+- 4D Gaussian Splatting
+- Neural Radiance Fields
+# positioning
+- GNSS
+- gnss
+- GPS
+- gps
+- GPS Data
+- GPS track
+- GPS tracking
+- GNSS Positioning
+- GNSS receiver
+- GNSS-Denied Maritime Navigation
+- SLAM
+- Indoor Localisation
+- indoor localisation
+- Indoor positioning system
+- Indoor Positioning
+- Indoor
+- indoor
+- IndoorOSM
+# cadastre / topography / data infra
+- 3D cadastre
+- 3D Cadastre
+- 3D cadastral data modeling
+- Malaysian 3D Cadastre
+- traditional cadastre
+- Basisregistratie Adressen en Gebouwen (BAG)
+- Basisregistratie Grootschalige Topografie
+- Topographic maps
+- Digital Terrain Model
+- DTM
+- DTM extraction
+- terrain modelling
+- Georeferencing
+- Co-registration
+- registration
+- automatic registration
+- AHN
+- AHN3
+- AHN2
+- OpenStreetMap
+- openstreetmap
+- OpenStreetMap data
+- Quality assessment of OpenStreetMap
+- Humanitairian OpenStreetMap Team
+- voxel
+- Voxel
+- Voxelization
+- semantics
+- Geomatics
+- geomatics
+- Building Reconstruction
+- road reconstruction
+- road network model
+- geospatial data
