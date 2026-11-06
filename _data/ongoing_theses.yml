@@ -118,6 +118,8 @@
   name: Daman
   cohort: 2026sep
   phase: Preparation
+  title: Building-scale characterisation of the subsurface for assessing land
+    subsidence impact on the built environment
   supervisors: Jantien Stoter; Giorgia Giardina
   needs_summary: true
 - surname: Groeneveld
@@ -136,6 +138,8 @@
   name: Thys
   cohort: 2026sep
   phase: Preparation
+  title: Creation of planar partitions from mismatched datasets
+  supervisors: Ken Arroyo Ohori
   needs_summary: true
 - surname: Pradeep
   name: Niranjan
@@ -151,6 +155,7 @@
   name: Wieger
   cohort: 2026sep
   phase: Preparation
+  title: Multi-temporal 3D point cloud analysis for landscape change detection
   supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
   needs_summary: true
 - surname: Verhaeghe
