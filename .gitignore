@@ -12,6 +12,9 @@ _site/
 /mycase_session.json
 /mycase_profile/
 
+# Thesis-topic registration extract (student numbers — never publish)
+/_data/typeform.csv
+
 # Cache of repository record pages used by scripts/enrich_geotheses.py
 /.geotheses_cache/
 
