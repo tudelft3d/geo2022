@@ -99,6 +99,13 @@
     provide a transparent evidence base for iterative co-design of climate
     adaptation portfolios.
   image: stepan.jpg
+- surname: Santoso
+  name: Aileen Belina Aileen
+  cohort: 2026sep
+  phase: Kick-off
+  title: Building feature extraction via AHN/oblique imageries
+  supervisors: Ken Arroyo Ohori; Gina Stavropoulou
+  needs_summary: true
 - surname: Scherrenburg
   name: Anna
   cohort: 2026sep
@@ -134,12 +141,32 @@
   cohort: 2026sep
   phase: Preparation
   needs_summary: true
+- surname: Holub
+  name: Emil
+  cohort: 2026sep
+  phase: Preparation
+  title: Remote Sensing + Deep Learning for Terrestrial/River Plastic Detection
+  supervisors: Azarakhsh Rafiee
+  needs_summary: true
 - surname: Kok
   name: Thys
   cohort: 2026sep
   phase: Preparation
   title: Creation of planar partitions from mismatched datasets
   supervisors: Ken Arroyo Ohori
+  needs_summary: true
+- surname: Kurski
+  name: Artemi
+  cohort: 2026sep
+  phase: Preparation
+  title: 3D City Model without Building Footprints
+  supervisors: Ken Arroyo Ohori; Ravi Peters
+  needs_summary: true
+- surname: Moon
+  name: Chaeyeon
+  cohort: 2026sep
+  phase: Preparation
+  supervisors: Liangliang Nan; Jantien Stoter
   needs_summary: true
 - surname: Pradeep
   name: Niranjan
