@@ -66,11 +66,9 @@ Use the button below to register your selected MSc thesis topic with the thesis 
 
 
 ## [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/)
-1. [Creation of planar partitions from mismatched datasets](https://3d.bk.tudelft.nl/education/msctopics/#creation-of-planar-partitions-from-mismatched-datasets)
-2. [IFC in PostgreSQL/PostGIS](https://3d.bk.tudelft.nl/education/msctopics/#ifc-in-postgresqlpostgis)
-3. [3D city models without building footprints](https://3d.bk.tudelft.nl/education/msctopics/#3d-city-models-without-building-footprints)
-4. [3D city model processing using LLMs](https://3d.bk.tudelft.nl/education/msctopics/#3d-city-model-processing-using-llms)
-5. Converting building interiors from IFC to STL for ventilation simulations (more info in June)
+1. [IFC in PostgreSQL/PostGIS](https://3d.bk.tudelft.nl/education/msctopics/#ifc-in-postgresqlpostgis)
+2. [3D city model processing using LLMs](https://3d.bk.tudelft.nl/education/msctopics/#3d-city-model-processing-using-llms)
+3. Converting building interiors from IFC to STL for ventilation simulations
 
 ## [Jesús Balado Frías](https://www.gdmc.nl/staff/)
 1. [Integration of point clouds in CityGML standard for obtaining a continuous Level of Detail](https://www.gdmc.nl/education/topics/topics.html#Integration_of_point_clouds_in_CityGML_standard_for_obtaining_a_continuous_Level_of_Detail)
