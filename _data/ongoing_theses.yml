@@ -181,6 +181,8 @@
   name: Chaeyeon
   cohort: 2026sep
   phase: Preparation
+  title: 'Industrialised bridge inspection: A multimodal approach using computer
+    vision and machine learning'
   supervisors: Liangliang Nan; Jantien Stoter
   needs_summary: true
 - surname: Pradeep
@@ -204,6 +206,9 @@
   name: Carmel
   cohort: 2026sep
   phase: Preparation
+  title: Uncertainty and Accountability in the Geospatial Information Chain of
+    Nature Compensation
+  supervisors: Bastiaan van Loenen
   needs_summary: true
 - surname: Garcia Mezo
   name: Juan
