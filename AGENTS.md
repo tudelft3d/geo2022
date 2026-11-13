@@ -96,6 +96,20 @@ python3 scripts/find_papers.py          # add --offline / --limit / --surname
 # removes entries without an open case. Read-only without MyCase data.
 python3 scripts/update_theses.py
 
+# Pull the Kick-off and Green-light assessment registrations and the thesis
+# topic picks from the Microsoft Forms used for GEO2022. There is no public
+# Forms API, so the script calls forms.cloud.microsoft's own formapi endpoints
+# with a browser session (persistent profile, reused headlessly; --login when
+# the cookies expire). The form links are read from the pages that publish them
+# (registration/, potentialtopics/, and rules/ cross-checked) and question
+# titles come from the form definitions. Writes registrations/assessments.csv
+# and topics.csv (gitignored: names, student numbers, e-mails) and flags
+# registrations for students without an open MyCase case, missing dates/rooms
+# and double submissions, plus topic picks that disagree with MyCase (which
+# always wins) or with the published page. --fill writes a topic title /
+# 1st supervisor that MyCase does not have yet into _data/ongoing_theses.yml.
+python3 scripts/fetch_registrations.py          # add --login / --fill
+
 # Generate cover thumbnails for the archive from the thesis PDFs on the
 # repository (entries without a repository record fall back to the GDMC
 # PDF their link points at): downloads each PDF in memory (robots.txt
@@ -120,21 +134,29 @@ After each graduation round (or whenever, really):
    entry) for each `needs_summary` starter and drop the flag; check the
    COHORT notes (February starts are ambiguous in MyCase). See
    "Ongoing-thesis summaries and images" below for how.
-3. When students have their final thesis: run
+3. `python3 scripts/fetch_registrations.py` — pull the Kick-off and
+   Green-light registrations and the thesis topic picks from the three
+   forms, and work through the "needs a look" list (missing rooms, double
+   submissions, students with no open MyCase case, topics that disagree
+   with MyCase or with the published page). MyCase wins over the forms;
+   `--fill` copies a topic title / 1st supervisor that MyCase does not
+   have yet into `_data/ongoing_theses.yml` — review that with
+   `git diff`. Then appoint delegates and send the invitations.
+4. When students have their final thesis: run
    `python3 scripts/enrich_geotheses.py` — it appends closed cases that
    are missing from the archive, fetches their repository records
    (abstract, supervisors, graduation date) and writes
    `reports/geotheses_report.md` for anything needing a manual look. Then
    `python3 scripts/update_theses.py --prune` to drop them from the
    ongoing page.
-4. `python3 scripts/check_geotheses.py --img-dir theses/img` —
+5. `python3 scripts/check_geotheses.py --img-dir theses/img` —
    validate the archive (errors should stay at zero).
-5. `python3 scripts/find_missing_theses.py` — cross-check the archive
+6. `python3 scripts/find_missing_theses.py` — cross-check the archive
    against the GDMC and 3d.bk.tudelft.nl lists (writes
    `reports/missing_theses_report.md`; exit 1 while confirmed gaps remain).
    Add the confirmed gaps (or re-run with `--add`, which flags them
    `needs_review`) and work through the report's candidates.
-6. Cover images for new archive entries go into `theses/img/` under the
+7. Cover images for new archive entries go into `theses/img/` under the
    entry's `image` filename (salvaged proposal-era images are already
    there for many entries; replace them with final-thesis covers as
    they arrive). `python3 scripts/thesis_covers.py` regenerates them
@@ -144,7 +166,7 @@ After each graduation round (or whenever, really):
 
 Once a year or so (papers appear long after graduation):
 
-7. `python3 scripts/find_papers.py` — look for papers published on top
+8. `python3 scripts/find_papers.py` — look for papers published on top
    of archived theses (`reports/papers_report.md`). Add the good
    candidates to the entries' `paper:` field and record rejected ones
    in `scripts/verified_papers.yml` so they stop reappearing.
@@ -245,6 +267,7 @@ Images (`ongoing/img/<firstname>.jpg`, RGB JPEG ≤ 800 px wide):
 | `reports/` | Generated maintenance reports (enrichment, covers, cross-checks, student names); written by the scripts above |
 | `scripts/fetch_mycase.py` | MyCase metadata fetcher (output gitignored) |
 | `scripts/update_theses.py` | Syncs ongoing theses with MyCase open cases |
+| `scripts/fetch_registrations.py` | Pulls the assessment registrations and thesis-topic picks from the Microsoft Forms |
 | `scripts/enrich_geotheses.py` | Cleans/enriches the archive from repository records + MyCase |
 | `scripts/preferred_names.yml` | Preferred display names for the archive's people (`aliases` = repository/MyCase initials variants) |
 | `scripts/apply_preferred_names.py` | Rewrites archive supervisor names through `preferred_names.yml` (dry-run by default) |

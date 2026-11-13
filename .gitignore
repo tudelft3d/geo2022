@@ -12,6 +12,12 @@ _site/
 /mycase_session.json
 /mycase_profile/
 
+# Assessment registrations pulled from Microsoft Forms (student names, numbers
+# and e-mail addresses — never publish)
+/registrations/
+/registrations_session.json
+/registrations_profile/
+
 # Thesis-topic registration extract (student numbers — never publish)
 /_data/typeform.csv
 /_data/GEO2022 topic pick*.xlsx
