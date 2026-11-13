@@ -4,6 +4,24 @@
 # MyCase; summaries and images are maintained by hand. Validate
 # with scripts/check_geotheses.py (archive) — this file has no
 # checker yet.
+- surname: Ho
+  name: Phuong Anh
+  cohort: 2026sep
+  phase: Midterm
+  title: Estimating air temperature between ECOSTRESS overpasses with a physics-informed
+    spatio-temporal transformer
+  supervisors: Azarakhsh Rafiee; Joris Timmermans
+  summary: This thesis proposal tackles the sparse temporal coverage of ECOSTRESS,
+    which observes land surface temperature at 70 m only at irregular overpasses
+    and so cannot track the near-surface air temperature people experience.
+    It extends a spatio-temporal transformer that estimates air temperature
+    from ECOSTRESS imagery with a physics-constrained loss function and, in
+    a Delft study domain, with simulated land surface temperature from physically
+    based urban climate models as input between overpasses. Evaluating the
+    model variants against Dutch weather station observations, the thesis
+    aims to show how physics constraints and simulated inputs improve accuracy
+    as time since the last overpass grows.
+  image: phuonganh.jpg
 - surname: Schoonderwoerd
   name: Kelly
   cohort: 2026sep
@@ -37,6 +55,14 @@
     object storage keeps repositories compact. The expected outcome is a scalable,
     user-friendly tool for tracking a city model''s development over time.'
   image: mark.jpg
+- surname: Dogra
+  name: Daman
+  cohort: 2026sep
+  phase: Kick-off
+  title: Building-scale characterisation of the subsurface for assessing land
+    subsidence impact on the built environment
+  supervisors: Jantien Stoter; Giorgia Giardina
+  needs_summary: true
 - surname: Floroiu
   name: Darius
   cohort: 2026sep
@@ -45,24 +71,13 @@
     a CAVE Environment'
   supervisors: Ken Arroyo Ohori; Steffen Nijhuis
   needs_summary: true
-- surname: Ho
-  name: Phuong Anh
+- surname: Kurski
+  name: Artemi
   cohort: 2026sep
   phase: Kick-off
-  title: Estimating air temperature between ECOSTRESS overpasses with a physics-informed
-    spatio-temporal transformer
-  supervisors: Azarakhsh Rafiee; Joris Timmermans
-  summary: This thesis proposal tackles the sparse temporal coverage of ECOSTRESS,
-    which observes land surface temperature at 70 m only at irregular overpasses
-    and so cannot track the near-surface air temperature people experience.
-    It extends a spatio-temporal transformer that estimates air temperature
-    from ECOSTRESS imagery with a physics-constrained loss function and, in
-    a Delft study domain, with simulated land surface temperature from physically
-    based urban climate models as input between overpasses. Evaluating the
-    model variants against Dutch weather station observations, the thesis
-    aims to show how physics constraints and simulated inputs improve accuracy
-    as time since the last overpass grows.
-  image: phuonganh.jpg
+  title: 3D City Model without Building Footprints
+  supervisors: Ken Arroyo Ohori; Ravi Peters
+  needs_summary: true
 - surname: Nurmohamed
   name: Faried
   cohort: 2026sep
@@ -114,20 +129,27 @@
     data to automatize Energy Performance Certification
   supervisors: Giorgio Agugiaro; Hiba Doi
   needs_summary: true
+- surname: Segers
+  name: Job
+  cohort: 2026sep
+  phase: Kick-off
+  title: Utilizing a ML-based interpolator for ICESat/GEDI data
+  supervisors: Hugo Ledoux; Maarten Pronk
+  needs_summary: true
+- surname: Vons
+  name: Ruben
+  cohort: 2026sep
+  phase: Kick-off
+  title: TUDelft Aerospace building wake prediction with CFD and its effects for
+    local wind measurements
+  supervisors: Clara Garcia Sanchez; Themis Vargiemezis
+  needs_summary: true
 - surname: Cermann
   name: Moritz
   cohort: 2026sep
   phase: Preparation
   title: Open Vocabulary Scene Understanding (3D & Satellite Imagery)
-  supervisors: Liangliang Nan
-  needs_summary: true
-- surname: Dogra
-  name: Daman
-  cohort: 2026sep
-  phase: Preparation
-  title: Building-scale characterisation of the subsurface for assessing land
-    subsidence impact on the built environment
-  supervisors: Jantien Stoter; Giorgia Giardina
+  supervisors: Liangliang Nan; Jingkun Feng
   needs_summary: true
 - surname: Groeneveld
   name: Timber
@@ -154,13 +176,6 @@
   phase: Preparation
   title: Creation of planar partitions from mismatched datasets
   supervisors: Ken Arroyo Ohori
-  needs_summary: true
-- surname: Kurski
-  name: Artemi
-  cohort: 2026sep
-  phase: Preparation
-  title: 3D City Model without Building Footprints
-  supervisors: Ken Arroyo Ohori; Ravi Peters
   needs_summary: true
 - surname: Moon
   name: Chaeyeon
@@ -212,7 +227,7 @@
 - surname: Marx
   name: Danny
   cohort: 2026april
-  phase: Kick-off
+  phase: Midterm
   title: Applying Implicit Neural Representations to Landsat Thermal Infrared
     Imagery for Super-Resolution
   supervisors: Azarakhsh Rafiee; Roderik Lindenbergh; Massimo Menenti
