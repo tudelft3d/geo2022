@@ -55,6 +55,13 @@
     object storage keeps repositories compact. The expected outcome is a scalable,
     user-friendly tool for tracking a city model''s development over time.'
   image: mark.jpg
+- surname: Cermann
+  name: Moritz
+  cohort: 2026sep
+  phase: Kick-off
+  title: Open Vocabulary Scene Understanding (3D & Satellite Imagery)
+  supervisors: Liangliang Nan; Jingkun Feng
+  needs_summary: true
 - surname: Dogra
   name: Daman
   cohort: 2026sep
@@ -140,16 +147,9 @@
   name: Ruben
   cohort: 2026sep
   phase: Kick-off
-  title: TUDelft Aerospace building wake prediction with CFD and its effects for
-    local wind measurements
+  title: TUDelft Aerospace building wake prediction with CFD and its effects
+    for local wind measurements
   supervisors: Clara Garcia Sanchez; Themis Vargiemezis
-  needs_summary: true
-- surname: Cermann
-  name: Moritz
-  cohort: 2026sep
-  phase: Preparation
-  title: Open Vocabulary Scene Understanding (3D & Satellite Imagery)
-  supervisors: Liangliang Nan; Jingkun Feng
   needs_summary: true
 - surname: Groeneveld
   name: Timber
@@ -185,6 +185,11 @@
     vision and machine learning'
   supervisors: Liangliang Nan; Jantien Stoter
   needs_summary: true
+- surname: Palli
+  name: Evangelia
+  cohort: 2026sep
+  phase: Preparation
+  needs_summary: true
 - surname: Pradeep
   name: Niranjan
   cohort: 2026sep
@@ -206,8 +211,8 @@
   name: Carmel
   cohort: 2026sep
   phase: Preparation
-  title: Uncertainty and Accountability in the Geospatial Information Chain of
-    Nature Compensation
+  title: Uncertainty and Accountability in the Geospatial Information Chain
+    of Nature Compensation
   supervisors: Bastiaan van Loenen
   needs_summary: true
 - surname: Garcia Mezo
