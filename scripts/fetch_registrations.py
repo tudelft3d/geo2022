@@ -198,7 +198,17 @@ class FormsSession:
             return None
 
     def authenticated(self) -> bool:
-        return self.get("/formapi/api/userInfo") is not None
+        # An expired session still answers with JSON, but with an error
+        # payload ({"error": {"code": "701", "message": "Required user
+        # login."}}), so presence of a body proves nothing.
+        try:
+            info = self.get("/formapi/api/userInfo")
+        except Exception:
+            # A navigation in flight (the SSO redirect) destroys the JS
+            # context; report "not yet" and let the caller poll again.
+            return False
+        return (isinstance(info, dict) and "error" not in info
+                and bool(info.get("id")))
 
 
 def open_session(force_login: bool, timeout_s: int = 600) -> FormsSession:
