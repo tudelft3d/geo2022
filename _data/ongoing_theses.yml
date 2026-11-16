@@ -85,6 +85,14 @@
   title: 3D City Model without Building Footprints
   supervisors: Ken Arroyo Ohori; Ravi Peters
   needs_summary: true
+- surname: Moon
+  name: Chaeyeon
+  cohort: 2026sep
+  phase: Kick-off
+  title: 'Industrialised bridge inspection: A multimodal approach using computer
+    vision and machine learning'
+  supervisors: Liangliang Nan; Jantien Stoter
+  needs_summary: true
 - surname: Nurmohamed
   name: Faried
   cohort: 2026sep
@@ -103,6 +111,14 @@
     against existing assessment tools, revealing each interstice's strengths
     and weaknesses to guide public space design.
   image: faried.jpg
+- surname: Palli
+  name: Evangelia
+  cohort: 2026sep
+  phase: Kick-off
+  title: Improving Building Performance Prediction through Physics-aware Bayesian
+    Neural Network (BNN)
+  supervisors: Azarakhsh Rafiee; Justin Schembri
+  needs_summary: true
 - surname: Prikazchikov
   name: Stepan
   cohort: 2026sep
@@ -121,6 +137,12 @@
     provide a transparent evidence base for iterative co-design of climate
     adaptation portfolios.
   image: stepan.jpg
+- surname: Sanfuentes
+  name: Jaime Vergara
+  cohort: 2026sep
+  phase: Kick-off
+  supervisors: Azarakhsh Rafiee; Fedor Baart
+  needs_summary: true
 - surname: Santoso
   name: Aileen Belina Aileen
   cohort: 2026sep
@@ -143,6 +165,13 @@
   title: Utilizing a ML-based interpolator for ICESat/GEDI data
   supervisors: Hugo Ledoux; Maarten Pronk
   needs_summary: true
+- surname: van Teeffelen
+  name: Wieger
+  cohort: 2026sep
+  phase: Kick-off
+  title: Multi-temporal 3D point cloud analysis for landscape change detection
+  supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
+  needs_summary: true
 - surname: Vons
   name: Ruben
   cohort: 2026sep
@@ -150,6 +179,11 @@
   title: TUDelft Aerospace building wake prediction with CFD and its effects
     for local wind measurements
   supervisors: Clara Garcia Sanchez; Themis Vargiemezis
+  needs_summary: true
+- surname: Baysal
+  name: Arda
+  cohort: 2026sep
+  phase: Preparation
   needs_summary: true
 - surname: Groeneveld
   name: Timber
@@ -170,6 +204,13 @@
   title: Remote Sensing + Deep Learning for Terrestrial/River Plastic Detection
   supervisors: Azarakhsh Rafiee
   needs_summary: true
+- surname: Huissen
+  name: Karlijn
+  cohort: 2026sep
+  phase: Preparation
+  title: Coherence Change Detection (CCD) for Mapping War Damage
+  supervisors: Peter van Oosterom
+  needs_summary: true
 - surname: Kok
   name: Thys
   cohort: 2026sep
@@ -177,35 +218,18 @@
   title: Creation of planar partitions from mismatched datasets
   supervisors: Ken Arroyo Ohori
   needs_summary: true
-- surname: Moon
-  name: Chaeyeon
+- surname: Marques
+  name: Julia Fossa
   cohort: 2026sep
   phase: Preparation
-  title: 'Industrialised bridge inspection: A multimodal approach using computer
-    vision and machine learning'
-  supervisors: Liangliang Nan; Jantien Stoter
-  needs_summary: true
-- surname: Palli
-  name: Evangelia
-  cohort: 2026sep
-  phase: Preparation
+  title: Designing an Impact Assessment Module for a Climate Adaptation Decision
+    Support System
+  supervisors: Daniele Cannatella
   needs_summary: true
 - surname: Pradeep
   name: Niranjan
   cohort: 2026sep
   phase: Preparation
-  needs_summary: true
-- surname: Sanfuentes
-  name: Jaime Vergara
-  cohort: 2026sep
-  phase: Preparation
-  needs_summary: true
-- surname: van Teeffelen
-  name: Wieger
-  cohort: 2026sep
-  phase: Preparation
-  title: Multi-temporal 3D point cloud analysis for landscape change detection
-  supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
   needs_summary: true
 - surname: Verhaeghe
   name: Carmel
@@ -213,7 +237,14 @@
   phase: Preparation
   title: Uncertainty and Accountability in the Geospatial Information Chain
     of Nature Compensation
-  supervisors: Bastiaan van Loenen
+  supervisors: Bastiaan van Loenen; Karel Van den Berghe
+  needs_summary: true
+- surname: Ziegler
+  name: Tejas
+  cohort: 2026sep
+  phase: Preparation
+  title: Comparative techniques for (PRIMo) flood modelling time-series analysis
+  supervisors: Clara García Sánchez
   needs_summary: true
 - surname: Garcia Mezo
   name: Juan
