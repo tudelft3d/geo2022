@@ -172,6 +172,14 @@
   title: Multi-temporal 3D point cloud analysis for landscape change detection
   supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
   needs_summary: true
+- surname: Verhaeghe
+  name: Carmel
+  cohort: 2026sep
+  phase: Kick-off
+  title: Uncertainty and Accountability in the Geospatial Information Chain
+    of Nature Compensation
+  supervisors: Bastiaan van Loenen; Karel Van den Berghe
+  needs_summary: true
 - surname: Vons
   name: Ruben
   cohort: 2026sep
@@ -190,7 +198,7 @@
   cohort: 2026sep
   phase: Preparation
   title: Air temperature estimation through thermal satellite imagery
-  supervisors: Azarakhsh Rafiee
+  supervisors: Azarakhsh Rafiee; Joris Timmermans
   needs_summary: true
 - surname: Gujda
   name: Henryk
@@ -209,14 +217,14 @@
   cohort: 2026sep
   phase: Preparation
   title: Coherence Change Detection (CCD) for Mapping War Damage
-  supervisors: Peter van Oosterom
+  supervisors: Peter van Oosterom; Martijn Meijers
   needs_summary: true
 - surname: Kok
   name: Thys
   cohort: 2026sep
   phase: Preparation
   title: Creation of planar partitions from mismatched datasets
-  supervisors: Ken Arroyo Ohori
+  supervisors: Ken Arroyo Ohori; Hugo Ledoux
   needs_summary: true
 - surname: Marques
   name: Julia Fossa
@@ -230,14 +238,7 @@
   name: Niranjan
   cohort: 2026sep
   phase: Preparation
-  needs_summary: true
-- surname: Verhaeghe
-  name: Carmel
-  cohort: 2026sep
-  phase: Preparation
-  title: Uncertainty and Accountability in the Geospatial Information Chain
-    of Nature Compensation
-  supervisors: Bastiaan van Loenen; Karel Van den Berghe
+  supervisors: Martijn Meijers; Edward Verbree
   needs_summary: true
 - surname: Ziegler
   name: Tejas
@@ -245,6 +246,12 @@
   phase: Preparation
   title: Comparative techniques for (PRIMo) flood modelling time-series analysis
   supervisors: Clara García Sánchez
+  needs_summary: true
+- surname: Żołnowska
+  name: Marta
+  cohort: 2026sep
+  phase: Preparation
+  supervisors: Azarakhsh Rafiee; Joris Timmermans
   needs_summary: true
 - surname: Garcia Mezo
   name: Juan
@@ -283,25 +290,6 @@
     aims to deliver sharper, more accurate 10-m temperature estimates for
     crop water-stress monitoring.
   image: danny.jpg
-- surname: Winterdal
-  name: Josephine
-  cohort: 2026feb
-  phase: Finalisation
-  title: 'Coastal Change in Aruba and Bonaire: A Remote Sensing Assessment
-    of Shoreline Change, Development, and Vegetation'
-  supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
-  summary: This thesis proposal assesses coastal change and vulnerability
-    along the coastlines of Aruba and Bonaire using multi-source satellite
-    data. Coastlines are segmented and classified by coastal type, after which
-    per-segment indicators are extracted — shoreline position from optical
-    imagery (NDWI/MNDWI), vegetation buffers from NDVI, built-up intensity
-    from Sentinel-1 SAR backscatter, and external exposure from coastline
-    orientation, wave fetch and reef presence. Linking these indicators reveals
-    how external exposure and development pressures shape coastal change,
-    and a composite index produces relative vulnerability maps. Comparing
-    PlanetScope (Aruba) and NSO (Bonaire) imagery additionally shows how data
-    quality and island characteristics affect the results.
-  image: josephine.jpg
 - surname: ter Braak
   name: Segher
   cohort: 2025sep
