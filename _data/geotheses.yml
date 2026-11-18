@@ -899,6 +899,42 @@
     represent controlled methodological validation rather than calibrated
     operational passenger-flow prediction.'
   uuid: ba9ea5f6-abdf-44e4-8a6f-cb50bdf804f2
+- surname: Winterdal
+  name: Josephine
+  title: 'Coastal Change in Aruba and Bonaire: A Remote Sensing Assessment
+    of Shoreline Change, Development, and Vegetation'
+  supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
+  year: 2026
+  graduation_date: '2026-11-12'
+  link: https://resolver.tudelft.nl/uuid:6a583f8e-f16f-4049-8a9b-3562c48c7c32
+  image: 2026_Winterdal.jpg
+  abstract: Coastal environments on small Caribbean islands are shaped by
+    both natural processes and human activity, and both are expected to intensify
+    with climate change and continued development. This thesis examines how
+    coastal change between 2016 and 2023 varied across six coastal sections
+    of Aruba and Bonaire, three on each island, selected to represent contrasting
+    coastal types, levels of development, vegetation cover and exposure. Shoreline
+    positions were extracted from PlanetScope imagery using the Normalized
+    Difference Water Index (NDWI). Change was then measured along transects,
+    with summer and winter observations analysed separately. Building change
+    was derived from the Google Open Buildings Temporal dataset, and vegetation
+    extent was classified from PlanetScope imagery using the Normalized Difference
+    Vegetation Index (NDVI). The three indicators were then compared spatially
+    within and between sections. Shoreline displacement varied considerably
+    both between and within sections. Two of the Aruba sections showed mean
+    landward displacement, while the Bonaire sections showed more mixed behaviour,
+    often differing between seasons. Detected building area increased mainly
+    in sections that were already developed, and detected vegetation extent
+    increased in all six sections. The indicators did not follow a common
+    spatial pattern, and where building growth and shoreline displacement
+    occurred in the same section, this did not imply a causal link. Several
+    mean displacements were similar in size to the shoreline extraction error,
+    so small changes could not be interpreted reliably. The results suggest
+    that coastal change on both islands depends on local combinations of coastal
+    setting, exposure, development and vegetation. Combining remote-sensing
+    indicators is useful for comparing spatial patterns across sections, but
+    the interpretation depends strongly on positional accuracy and image quality.
+  uuid: 6a583f8e-f16f-4049-8a9b-3562c48c7c32
 - surname: Wu
   name: Jiaoyang
   title: Detecting building element/material through ground-based thermal
