@@ -110,6 +110,21 @@ python3 scripts/update_theses.py
 # 1st supervisor that MyCase does not have yet into _data/ongoing_theses.yml.
 python3 scripts/fetch_registrations.py          # add --login / --fill
 
+# Send the Kick-off and Green-light calendar invitations: joins the
+# registrations with the people in mycase/cases/*.json, holds an invitation
+# back until MyCase has the supervisory team and the delegate, and exports the
+# ready ones as one JSON batch for a Power Automate flow (standard connectors
+# only; scripts/invitation_flow.md) that creates the Outlook meetings and
+# mails the attendees. Paste the batch into the flow, then import the event
+# ids it mails back. Idempotent through registrations/invitations_state.json:
+# an edited date/time/room/attendee list becomes an update, a vanished
+# registration can be cancelled (--cancel-missing). Dry run by default;
+# --test uses a dummy student and only the addresses in
+# registrations/invite_config.yml (test_to), and real sending additionally
+# needs allow_real_send: true there. --send is the premium HTTP-trigger
+# alternative.
+python3 scripts/send_invitations.py        # add --batch / --import-results -
+
 # Generate cover thumbnails for the archive from the thesis PDFs on the
 # repository (entries without a repository record fall back to the GDMC
 # PDF their link points at): downloads each PDF in memory (robots.txt
@@ -140,7 +155,12 @@ After each graduation round (or whenever, really):
    with MyCase or with the published page). MyCase wins over the forms;
    `--fill` copies a topic title / 1st supervisor that MyCase does not
    have yet into `_data/ongoing_theses.yml` — review that with
-   `git diff`. Then appoint delegates and send the invitations.
+   `git diff`. Then appoint the delegates. Once the room is known and the
+   delegate is in MyCase, `python3 scripts/send_invitations.py --batch`
+   exports the calendar invitations, which you paste into the Power
+   Automate flow (`scripts/invitation_flow.md`) and then read back with
+   `--import-results -`; a later delegate appointment becomes an update
+   through the same script.
 4. When students have their final thesis: run
    `python3 scripts/enrich_geotheses.py` — it appends closed cases that
    are missing from the archive, fetches their repository records
@@ -267,6 +287,8 @@ Images (`ongoing/img/<firstname>.jpg`, RGB JPEG ≤ 800 px wide):
 | `scripts/fetch_mycase.py` | MyCase metadata fetcher (output gitignored) |
 | `scripts/update_theses.py` | Syncs ongoing theses with MyCase open cases |
 | `scripts/fetch_registrations.py` | Pulls the assessment registrations and thesis-topic picks from the Microsoft Forms |
+| `scripts/send_invitations.py` | Turns the registrations into Outlook invitations: gates on the delegate/room, exports a batch for a standard-connector Power Automate flow, imports the event ids back (dry-run, `--test`, idempotent state) |
+| `scripts/invitation_flow.md` | Recipe for that Power Automate flow (manual trigger, batch, results e-mail; premium HTTP variant noted) |
 | `scripts/enrich_geotheses.py` | Cleans/enriches the archive from repository records + MyCase |
 | `scripts/preferred_names.yml` | Preferred display names for the archive's people (`aliases` = repository/MyCase initials variants) |
 | `scripts/apply_preferred_names.py` | Rewrites archive supervisor names through `preferred_names.yml` (dry-run by default) |
