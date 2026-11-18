@@ -131,8 +131,7 @@ After each graduation round (or whenever, really):
 1. `python3 scripts/fetch_mycase.py` — refresh MyCase data (login needed).
 2. `python3 scripts/update_theses.py` — sync the Current Theses page:
    write a proposal summary (+ image in `ongoing/img/`, name it in the
-   entry) for each `needs_summary` starter and drop the flag; check the
-   COHORT notes (February starts are ambiguous in MyCase). See
+   entry) for each `needs_summary` starter and drop the flag. See
    "Ongoing-thesis summaries and images" below for how.
 3. `python3 scripts/fetch_registrations.py` — pull the Kick-off and
    Green-light registrations and the thesis topic picks from the three

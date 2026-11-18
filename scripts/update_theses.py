@@ -14,10 +14,11 @@ page must have an open case. One run:
           reported first, so graduated students can be moved to the
           archive (scripts/enrich_geotheses.py) before pruning
 
-MyCase's cohort suggestion is applied to new entries only; for existing
-entries a differing suggestion is reported (February starts are
-ambiguous, see scripts/fetch_mycase.py). Only public fields are copied:
-never grades, student numbers or e-mail addresses.
+MyCase's cohort suggestion (derived from the case's start date — students
+can create a case long before they actually start, so it is not
+reliable) is applied to new entries only; existing entries keep their
+cohort. Only public fields are copied: never grades, student numbers or
+e-mail addresses.
 
 Usage:
   python3 scripts/update_theses.py
@@ -130,11 +131,6 @@ def main():
         if sups and sups != e.get("supervisors"):
             notes.append(f"SUPERVISORS {label}: set from MyCase ({sups})")
             e["supervisors"] = sups
-        suggestion = row.get("suggested_cohort", "")
-        if suggestion and suggestion != str(e.get("cohort", "")):
-            notes.append(f"COHORT {label}: MyCase suggests {suggestion}, "
-                         f"entry says {e.get('cohort')} (not changed)")
-
     # report pre-existing entries without an open case
     orphans = [e for e in entries if e not in matched]
     for e in orphans:
