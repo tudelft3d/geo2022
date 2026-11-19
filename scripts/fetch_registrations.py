@@ -164,8 +164,11 @@ class FormsSession:
 
     def __init__(self, headless: bool):
         self._pw = sync_playwright().start()
+        # channel="chromium" forces the full Chromium build: Playwright's
+        # default headless shell cannot reach the network at all on this
+        # machine (new headless in the full build works fine).
         self.context = self._pw.chromium.launch_persistent_context(
-            str(PROFILE_DIR), headless=headless,
+            str(PROFILE_DIR), headless=headless, channel="chromium",
             viewport={"width": 1400, "height": 950})
         self.page = (self.context.pages[0] if self.context.pages
                      else self.context.new_page())
