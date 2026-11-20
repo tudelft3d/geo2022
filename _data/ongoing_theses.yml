@@ -78,6 +78,13 @@
     a CAVE Environment'
   supervisors: Ken Arroyo Ohori; Steffen Nijhuis
   needs_summary: true
+- surname: Kok
+  name: Thys
+  cohort: 2026sep
+  phase: Kick-off
+  title: Creation of planar partitions from mismatched datasets
+  supervisors: Ken Arroyo Ohori; Hugo Ledoux
+  needs_summary: true
 - surname: Kurski
   name: Artemi
   cohort: 2026sep
@@ -194,7 +201,12 @@
   phase: Preparation
   title: Monitoring sand dune erosion along coastlines using remote sensing
     data
-  supervisors: Azarakhsh Rafiee
+  supervisors: Azarakhsh Rafiee; Roderik Lindenbergh
+  needs_summary: true
+- surname: Deuten
+  name: Simon
+  cohort: 2026sep
+  phase: Preparation
   needs_summary: true
 - surname: Groeneveld
   name: Timber
@@ -212,8 +224,9 @@
   name: Emil
   cohort: 2026sep
   phase: Preparation
-  title: Remote Sensing + Deep Learning for Terrestrial/River Plastic Detection
-  supervisors: Azarakhsh Rafiee
+  title: Multi-sensor mapping of vegetation structure using radiative transfer
+    simulations for nitrogen deposition modelling in the Veluwe, the Netherlands
+  supervisors: Azarakhsh Rafiee; Joris Timmermans; Roderik Lindenbergh
   needs_summary: true
 - surname: Huissen
   name: Karlijn
@@ -222,20 +235,13 @@
   title: Coherence Change Detection (CCD) for Mapping War Damage
   supervisors: Peter van Oosterom; Martijn Meijers
   needs_summary: true
-- surname: Kok
-  name: Thys
-  cohort: 2026sep
-  phase: Preparation
-  title: Creation of planar partitions from mismatched datasets
-  supervisors: Ken Arroyo Ohori; Hugo Ledoux
-  needs_summary: true
 - surname: Marques
   name: Julia Fossa
   cohort: 2026sep
   phase: Preparation
   title: Designing an Impact Assessment Module for a Climate Adaptation Decision
     Support System
-  supervisors: Daniele Cannatella
+  supervisors: Daniele Cannatella; Ken Arroyo Ohori
   needs_summary: true
 - surname: Pradeep
   name: Niranjan
@@ -243,12 +249,20 @@
   phase: Preparation
   supervisors: Martijn Meijers; Edward Verbree
   needs_summary: true
+- surname: Veeranki
+  name: Akhil
+  cohort: 2026sep
+  phase: Preparation
+  title: Learning latent representations of pedestrian-level urban wind fields
+    from RANS simulations
+  supervisors: Clara Garcia Sanchez; Themis Vargiemezis
+  needs_summary: true
 - surname: Ziegler
   name: Tejas
   cohort: 2026sep
   phase: Preparation
   title: Comparative techniques for (PRIMo) flood modelling time-series analysis
-  supervisors: Clara García Sánchez
+  supervisors: Clara Garcia Sanchez; Nikolaj Mücke
   needs_summary: true
 - surname: Żołnowska
   name: Marta
